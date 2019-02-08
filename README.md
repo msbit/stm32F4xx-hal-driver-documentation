@@ -5,5 +5,4 @@ Generated documentation of the STM32CubeF4 [HAL library](https://www.st.com/cont
 ## Updating
 
 * Update the FW in STM32CubeMX
-* Change the `INPUT` configuration in the `Doxyfile` to match the location of the updated FW version
-* Run `doxygen`
+* Run `ROOT=${FW_LOCATION}/Drivers/STM32F4xx_HAL_Driver/Inc doxygen`
