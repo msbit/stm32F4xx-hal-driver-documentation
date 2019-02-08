@@ -2,7 +2,6 @@ var searchData=
 [
   ['dac_5foutputbuffer',['DAC_OutputBuffer',['../struct_d_a_c___channel_conf_type_def.html#ac60479c6788d3c4c527ff3e719516c91',1,'DAC_ChannelConfTypeDef']]],
   ['dac_5ftrigger',['DAC_Trigger',['../struct_d_a_c___channel_conf_type_def.html#afe5fa571464a45c9e1cc3315ad8afd83',1,'DAC_ChannelConfTypeDef']]],
-  ['data',['Data',['../struct_can_tx_msg_type_def.html#af5a81426bc606da8a8a4adf22f271e42',1,'CanTxMsgTypeDef::Data()'],['../struct_can_rx_msg_type_def.html#aa36c17a0b2c7a4899b60fd3825006aa0',1,'CanRxMsgTypeDef::Data()']]],
   ['data_5fpid',['data_pid',['../struct_u_s_b___o_t_g___h_c_type_def.html#a287c349d8adc362f0eaba0d95c9bd50f',1,'USB_OTG_HCTypeDef']]],
   ['data_5fpid_5fstart',['data_pid_start',['../struct_u_s_b___o_t_g___e_p_type_def.html#aa51df58cda947d2bb88033b9352c72ca',1,'USB_OTG_EPTypeDef']]],
   ['dataalignment',['DataAlignment',['../struct_l_l___a_d_c___init_type_def.html#a72da6ace16b0af53bf5d7d6f30045e27',1,'LL_ADC_InitTypeDef']]],
@@ -50,7 +49,7 @@ var searchData=
   ['digitalfilter',['DigitalFilter',['../struct_l_l___i2_c___init_type_def.html#ae17b0b80f6f20f37fe5b90b619fb567a',1,'LL_I2C_InitTypeDef']]],
   ['direction',['Direction',['../struct_l_l___d_m_a___init_type_def.html#ad89508991878f5c3f6b119f1d0b54921',1,'LL_DMA_InitTypeDef']]],
   ['divider',['Divider',['../struct_d_f_s_d_m___channel___output_clock_type_def.html#af57d81a389b3f15666f02f7811529956',1,'DFSDM_Channel_OutputClockTypeDef']]],
-  ['dlc',['DLC',['../struct_can_tx_msg_type_def.html#afce083c4d34d98be3fe17fa50eae73b2',1,'CanTxMsgTypeDef::DLC()'],['../struct_can_rx_msg_type_def.html#a3a112d6845c54863646c890bfbaa994e',1,'CanRxMsgTypeDef::DLC()'],['../struct_c_a_n___tx_header_type_def.html#a5ed4998891467103c9e344e1aa307bef',1,'CAN_TxHeaderTypeDef::DLC()'],['../struct_c_a_n___rx_header_type_def.html#a04e274f8d447c3e32544b273f236298a',1,'CAN_RxHeaderTypeDef::DLC()']]],
+  ['dlc',['DLC',['../struct_c_a_n___tx_header_type_def.html#a5ed4998891467103c9e344e1aa307bef',1,'CAN_TxHeaderTypeDef::DLC()'],['../struct_c_a_n___rx_header_type_def.html#a04e274f8d447c3e32544b273f236298a',1,'CAN_RxHeaderTypeDef::DLC()']]],
   ['dma_5faddr',['dma_addr',['../struct_u_s_b___o_t_g___e_p_type_def.html#aef3776daff464433055fe0a796cb04db',1,'USB_OTG_EPTypeDef::dma_addr()'],['../struct_u_s_b___o_t_g___h_c_type_def.html#a480468d0d197c2799e5f46d64b322198',1,'USB_OTG_HCTypeDef::dma_addr()']]],
   ['dma_5fenable',['dma_enable',['../struct_u_s_b___o_t_g___cfg_type_def.html#aa065da8261ff7e6196083e10460de9da',1,'USB_OTG_CfgTypeDef']]],
   ['dma_5fhandle',['DMA_Handle',['../struct_a_d_c___handle_type_def.html#a1983db16acacd5f0b2881e43010dcd72',1,'ADC_HandleTypeDef::DMA_Handle()'],['../struct_d_c_m_i___handle_type_def.html#a7e6b0d0d26903d41cdfd06398202626c',1,'DCMI_HandleTypeDef::DMA_Handle()']]],

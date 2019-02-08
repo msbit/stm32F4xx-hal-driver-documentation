@@ -2,7 +2,6 @@ var searchData=
 [
   ['backcolor',['Backcolor',['../struct_l_t_d_c___init_type_def.html#a0f95539efabc2024aa28e3840c7d1860',1,'LTDC_InitTypeDef::Backcolor()'],['../struct_l_t_d_c___layer_cfg_type_def.html#a856cecfbbdc3190ab3cbc068c31ef567',1,'LTDC_LayerCfgTypeDef::Backcolor()']]],
   ['backofflimit',['BackOffLimit',['../struct_e_t_h___m_a_c_init_type_def.html#a9f4116699468469693618cc31046010d',1,'ETH_MACInitTypeDef']]],
-  ['banknumber',['BankNumber',['../struct_c_a_n___filter_conf_type_def.html#ae34b4cb45103ba79db6388141d9c2e01',1,'CAN_FilterConfTypeDef']]],
   ['banks',['Banks',['../struct_f_l_a_s_h___o_b_program_init_type_def.html#a5fdf437b5f79d79945f5c0777f76d0eb',1,'FLASH_OBProgramInitTypeDef::Banks()'],['../struct_f_l_a_s_h___adv_o_b_program_init_type_def.html#af975c8ae0ecda111e5e0a5098c734d07',1,'FLASH_AdvOBProgramInitTypeDef::Banks()']]],
   ['battery_5fcharging_5factive',['battery_charging_active',['../struct_p_c_d___handle_type_def.html#a2ca00f37bff016fb2a5022e4c65ba8d8',1,'PCD_HandleTypeDef']]],
   ['battery_5fcharging_5fenable',['battery_charging_enable',['../struct_u_s_b___o_t_g___cfg_type_def.html#a4b4a5852caf0aeb45d3c0b7a4e25f0eb',1,'USB_OTG_CfgTypeDef']]],
@@ -19,8 +18,6 @@ var searchData=
   ['breakpolarity',['BreakPolarity',['../struct_t_i_m___break_dead_time_config_type_def.html#ae15ddbf3087f9a2129a52a1317339ea7',1,'TIM_BreakDeadTimeConfigTypeDef::BreakPolarity()'],['../struct_l_l___t_i_m___b_d_t_r___init_type_def.html#a0e1e1fa7efa8496ceac710b5ea6f3a45',1,'LL_TIM_BDTR_InitTypeDef::BreakPolarity()']]],
   ['breakstate',['BreakState',['../struct_t_i_m___break_dead_time_config_type_def.html#a8962430194b43ac28a14c96dd9cc44e6',1,'TIM_BreakDeadTimeConfigTypeDef::BreakState()'],['../struct_l_l___t_i_m___b_d_t_r___init_type_def.html#a0a73d3b306d12cb690218c3c1b28a8e6',1,'LL_TIM_BDTR_InitTypeDef::BreakState()']]],
   ['broadcastframesreception',['BroadcastFramesReception',['../struct_e_t_h___m_a_c_init_type_def.html#a8d22f19753438b68c4393696a37b5ebd',1,'ETH_MACInitTypeDef']]],
-  ['bs1',['BS1',['../struct_c_a_n___init_type_def.html#a3709322885827ca93728892c01b8bfb5',1,'CAN_InitTypeDef']]],
-  ['bs2',['BS2',['../struct_c_a_n___init_type_def.html#ab669a97b4f3cc566287feb0efca86bc1',1,'CAN_InitTypeDef']]],
   ['btatimeout',['BTATimeout',['../struct_d_s_i___h_o_s_t___timeout_type_def.html#ac879ac41b0fd4ae5ad69ea93a474ea6d',1,'DSI_HOST_TimeoutTypeDef']]],
   ['buffer',['buffer',['../struct_e_t_h___d_m_a_rx_frame_infos.html#a19e3893903dfbed6ffe5fd0137cb0f3b',1,'ETH_DMARxFrameInfos']]],
   ['buffer1addr',['Buffer1Addr',['../struct_e_t_h___d_m_a_desc_type_def.html#ac50dc23affda2cec95ea257c294d0b10',1,'ETH_DMADescTypeDef']]],

@@ -1,11 +1,9 @@
 var searchData=
 [
-  ['stm32_5fhal_5flegacy_2eh',['stm32_hal_legacy.h',['../stm32__hal__legacy_8h.html',1,'']]],
   ['stm32f4xx_5fhal_2eh',['stm32f4xx_hal.h',['../stm32f4xx__hal_8h.html',1,'']]],
   ['stm32f4xx_5fhal_5fadc_2eh',['stm32f4xx_hal_adc.h',['../stm32f4xx__hal__adc_8h.html',1,'']]],
   ['stm32f4xx_5fhal_5fadc_5fex_2eh',['stm32f4xx_hal_adc_ex.h',['../stm32f4xx__hal__adc__ex_8h.html',1,'']]],
   ['stm32f4xx_5fhal_5fcan_2eh',['stm32f4xx_hal_can.h',['../stm32f4xx__hal__can_8h.html',1,'']]],
-  ['stm32f4xx_5fhal_5fcan_5flegacy_2eh',['stm32f4xx_hal_can_legacy.h',['../stm32f4xx__hal__can__legacy_8h.html',1,'']]],
   ['stm32f4xx_5fhal_5fcec_2eh',['stm32f4xx_hal_cec.h',['../stm32f4xx__hal__cec_8h.html',1,'']]],
   ['stm32f4xx_5fhal_5fconf_5ftemplate_2eh',['stm32f4xx_hal_conf_template.h',['../stm32f4xx__hal__conf__template_8h.html',1,'']]],
   ['stm32f4xx_5fhal_5fcortex_2eh',['stm32f4xx_hal_cortex.h',['../stm32f4xx__hal__cortex_8h.html',1,'']]],

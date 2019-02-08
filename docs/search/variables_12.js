@@ -36,14 +36,12 @@ var searchData=
   ['triggerprescaler',['TriggerPrescaler',['../struct_t_i_m___slave_config_type_def.html#a57be6d41d77a968f1daeac7b65b1ab4c',1,'TIM_SlaveConfigTypeDef']]],
   ['triggersource',['TriggerSource',['../struct_l_l___a_d_c___r_e_g___init_type_def.html#ad539e2b84507b0f7c0cb803fcf884170',1,'LL_ADC_REG_InitTypeDef::TriggerSource()'],['../struct_l_l___a_d_c___i_n_j___init_type_def.html#a8276891f43e707b29ac776d0060eed26',1,'LL_ADC_INJ_InitTypeDef::TriggerSource()'],['../struct_l_l___d_a_c___init_type_def.html#aafb43670e0e8bd337b0a42f09b1c4739',1,'LL_DAC_InitTypeDef::TriggerSource()']]],
   ['tristate',['TriState',['../struct_s_a_i___init_type_def.html#ab1a1d8d86c50495b69287a79f8217098',1,'SAI_InitTypeDef']]],
-  ['ttcm',['TTCM',['../struct_c_a_n___init_type_def.html#ad2d4d6374aed9e4079d91e27f156b064',1,'CAN_InitTypeDef']]],
   ['twosamplingdelay',['TwoSamplingDelay',['../struct_a_d_c___multi_mode_type_def.html#a5590cc138c49a97c6433caa29592cd1b',1,'ADC_MultiModeTypeDef']]],
   ['tx_5ffifo_5fnum',['tx_fifo_num',['../struct_u_s_b___o_t_g___e_p_type_def.html#a4736fe22570448f51939da9302679866',1,'USB_OTG_EPTypeDef']]],
   ['txdesc',['TxDesc',['../struct_e_t_h___handle_type_def.html#a96207949522aca0a017eb9247a3f4ffd',1,'ETH_HandleTypeDef']]],
   ['txdmaburstlength',['TxDMABurstLength',['../struct_e_t_h___d_m_a_init_type_def.html#ae4adc8e35cb98f7ad8192f0b1b78022c',1,'ETH_DMAInitTypeDef']]],
-  ['txfp',['TXFP',['../struct_c_a_n___init_type_def.html#a80ec2a55cb565c0bd036e9f459d8f0a7',1,'CAN_InitTypeDef']]],
   ['txxfercount',['TxXferCount',['../struct_c_e_c___handle_type_def.html#ae50dd978135ab5093af14a878b2a8715',1,'CEC_HandleTypeDef::TxXferCount()'],['../struct_____i2_s___handle_type_def.html#a450f0ddcbc23f69bb0f0dff274f65306',1,'__I2S_HandleTypeDef::TxXferCount()'],['../struct_u_a_r_t___handle_type_def.html#a22339320a4819aa16769fed97639b026',1,'UART_HandleTypeDef::TxXferCount()']]],
   ['txxfersize',['TxXferSize',['../struct_____i2_s___handle_type_def.html#afe629648b19b7f099562294a8cc2c773',1,'__I2S_HandleTypeDef::TxXferSize()'],['../struct_m_m_c___handle_type_def.html#afb82a21b450a7fea76b2b079a00a140f',1,'MMC_HandleTypeDef::TxXferSize()'],['../struct_s_d___handle_type_def.html#a56cb106182e203650085ae78c0016f34',1,'SD_HandleTypeDef::TxXferSize()'],['../struct_u_a_r_t___handle_type_def.html#a98e2ea90caba72ac0cd5b1815a5ccb81',1,'UART_HandleTypeDef::TxXferSize()']]],
-  ['type',['type',['../struct_u_s_b___o_t_g___e_p_type_def.html#ab7ebaeccf2af0c8cfad3e1cf52320bb7',1,'USB_OTG_EPTypeDef::type()'],['../struct_d_f_s_d_m___channel___serial_interface_type_def.html#acd6b6cc79eda4a70ed78e4db134e77a5',1,'DFSDM_Channel_SerialInterfaceTypeDef::Type()']]],
+  ['type',['Type',['../struct_d_f_s_d_m___channel___serial_interface_type_def.html#acd6b6cc79eda4a70ed78e4db134e77a5',1,'DFSDM_Channel_SerialInterfaceTypeDef::Type()'],['../struct_u_s_b___o_t_g___e_p_type_def.html#ab7ebaeccf2af0c8cfad3e1cf52320bb7',1,'USB_OTG_EPTypeDef::type()']]],
   ['typeacknowledge',['TypeAcknowledge',['../struct_l_l___i2_c___init_type_def.html#a1c1200966540348b20da2b52dc8fd1f8',1,'LL_I2C_InitTypeDef']]]
 ];
