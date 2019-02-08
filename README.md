@@ -5,4 +5,4 @@ Generated documentation of the STM32CubeF4 [HAL library](https://www.st.com/cont
 ## Updating
 
 * Update the FW in STM32CubeMX
-* Run `ROOT=${FW_LOCATION}/Drivers/STM32F4xx_HAL_Driver/Inc doxygen`
+* Run `ROOT=${FW_LOCATION} doxygen`
