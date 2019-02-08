@@ -64,20 +64,95 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">Peripheral State functions<div class="ingroups"><a class="el" href="group___d_c_m_i___exported___functions.html">DCMI Exported Functions</a></div></div>  </div>
+<div class="title">Peripheral State functions<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___d_c_m_i.html">DCMI</a> &raquo; <a class="el" href="group___d_c_m_i___exported___functions.html">DCMI Exported Functions</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Peripheral State functions.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gad697180bc7236b9412f625ac0d944845"><td class="memItemLeft" align="right" valign="top"><a id="gad697180bc7236b9412f625ac0d944845"></a>
-HAL_DCMI_StateTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DCMI_GetState</b> (<a class="el" href="struct_d_c_m_i___handle_type_def.html">DCMI_HandleTypeDef</a> *hdcmi)</td></tr>
+<tr class="memitem:gad697180bc7236b9412f625ac0d944845"><td class="memItemLeft" align="right" valign="top">HAL_DCMI_StateTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_c_m_i___exported___functions___group4.html#gad697180bc7236b9412f625ac0d944845">HAL_DCMI_GetState</a> (<a class="el" href="struct_d_c_m_i___handle_type_def.html">DCMI_HandleTypeDef</a> *hdcmi)</td></tr>
+<tr class="memdesc:gad697180bc7236b9412f625ac0d944845"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the DCMI state.  <a href="#gad697180bc7236b9412f625ac0d944845">More...</a><br /></td></tr>
 <tr class="separator:gad697180bc7236b9412f625ac0d944845"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1d6bf009006eedd7f937a0eff38ad508"><td class="memItemLeft" align="right" valign="top"><a id="ga1d6bf009006eedd7f937a0eff38ad508"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DCMI_GetError</b> (<a class="el" href="struct_d_c_m_i___handle_type_def.html">DCMI_HandleTypeDef</a> *hdcmi)</td></tr>
+<tr class="memitem:ga1d6bf009006eedd7f937a0eff38ad508"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_c_m_i___exported___functions___group4.html#ga1d6bf009006eedd7f937a0eff38ad508">HAL_DCMI_GetError</a> (<a class="el" href="struct_d_c_m_i___handle_type_def.html">DCMI_HandleTypeDef</a> *hdcmi)</td></tr>
+<tr class="memdesc:ga1d6bf009006eedd7f937a0eff38ad508"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the DCMI error code.  <a href="#ga1d6bf009006eedd7f937a0eff38ad508">More...</a><br /></td></tr>
 <tr class="separator:ga1d6bf009006eedd7f937a0eff38ad508"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>Peripheral State functions. </p>
+<pre class="fragment"> ===============================================================================
+               ##### Peripheral State and Errors functions #####
+ ===============================================================================
+    [..]
+    This subsection provides functions allowing to
+      (+) Check the DCMI state.
+      (+) Get the specific DCMI error flag.</pre> <h2 class="groupheader">Function Documentation</h2>
+<a id="ga1d6bf009006eedd7f937a0eff38ad508"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1d6bf009006eedd7f937a0eff38ad508">&#9670;&nbsp;</a></span>HAL_DCMI_GetError()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t HAL_DCMI_GetError </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_c_m_i___handle_type_def.html">DCMI_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdcmi</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return the DCMI error code. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdcmi</td><td>pointer to a <a class="el" href="struct_d_c_m_i___handle_type_def.html" title="DCMI handle Structure definition.">DCMI_HandleTypeDef</a> structure that contains the configuration information for DCMI. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">DCMI</td><td>Error Code </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gad697180bc7236b9412f625ac0d944845"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad697180bc7236b9412f625ac0d944845">&#9670;&nbsp;</a></span>HAL_DCMI_GetState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_DCMI_StateTypeDef HAL_DCMI_GetState </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_c_m_i___handle_type_def.html">DCMI_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdcmi</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return the DCMI state. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdcmi</td><td>pointer to a <a class="el" href="struct_d_c_m_i___handle_type_def.html" title="DCMI handle Structure definition.">DCMI_HandleTypeDef</a> structure that contains the configuration information for DCMI. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>state </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.15"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>STM32F4xx_HAL_Driver: ETH_Exported_Functions_Group1</title>
+<title>STM32F4xx_HAL_Driver: Initialization and de-initialization functions</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,32 +64,284 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">ETH_Exported_Functions_Group1<div class="ingroups"><a class="el" href="group___e_t_h___exported___functions.html">ETH_Exported_Functions</a></div></div>  </div>
+<div class="title">Initialization and de-initialization functions<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___e_t_h.html">ETH</a> &raquo; <a class="el" href="group___e_t_h___exported___functions.html">ETH Exported Functions</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Initialization and Configuration functions.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gab3be78c101a3cc1ff0531bb64957cf92"><td class="memItemLeft" align="right" valign="top"><a id="gab3be78c101a3cc1ff0531bb64957cf92"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_ETH_Init</b> (<a class="el" href="struct_e_t_h___handle_type_def.html">ETH_HandleTypeDef</a> *heth)</td></tr>
+<tr class="memitem:gab3be78c101a3cc1ff0531bb64957cf92"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___e_t_h___exported___functions___group1.html#gab3be78c101a3cc1ff0531bb64957cf92">HAL_ETH_Init</a> (<a class="el" href="struct_e_t_h___handle_type_def.html">ETH_HandleTypeDef</a> *heth)</td></tr>
+<tr class="memdesc:gab3be78c101a3cc1ff0531bb64957cf92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the Ethernet MAC and DMA according to default parameters.  <a href="#gab3be78c101a3cc1ff0531bb64957cf92">More...</a><br /></td></tr>
 <tr class="separator:gab3be78c101a3cc1ff0531bb64957cf92"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gabae088dc391c6b7a7ddb93103031195b"><td class="memItemLeft" align="right" valign="top"><a id="gabae088dc391c6b7a7ddb93103031195b"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_ETH_DeInit</b> (<a class="el" href="struct_e_t_h___handle_type_def.html">ETH_HandleTypeDef</a> *heth)</td></tr>
+<tr class="memitem:gabae088dc391c6b7a7ddb93103031195b"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___e_t_h___exported___functions___group1.html#gabae088dc391c6b7a7ddb93103031195b">HAL_ETH_DeInit</a> (<a class="el" href="struct_e_t_h___handle_type_def.html">ETH_HandleTypeDef</a> *heth)</td></tr>
+<tr class="memdesc:gabae088dc391c6b7a7ddb93103031195b"><td class="mdescLeft">&#160;</td><td class="mdescRight">De-Initializes the ETH peripheral.  <a href="#gabae088dc391c6b7a7ddb93103031195b">More...</a><br /></td></tr>
 <tr class="separator:gabae088dc391c6b7a7ddb93103031195b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1ffa1e1337d6e52a3b175144a4505ea7"><td class="memItemLeft" align="right" valign="top"><a id="ga1ffa1e1337d6e52a3b175144a4505ea7"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_ETH_MspInit</b> (<a class="el" href="struct_e_t_h___handle_type_def.html">ETH_HandleTypeDef</a> *heth)</td></tr>
-<tr class="separator:ga1ffa1e1337d6e52a3b175144a4505ea7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gadb9c31d86584307ca7791f3c3fbe58d9"><td class="memItemLeft" align="right" valign="top"><a id="gadb9c31d86584307ca7791f3c3fbe58d9"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_ETH_MspDeInit</b> (<a class="el" href="struct_e_t_h___handle_type_def.html">ETH_HandleTypeDef</a> *heth)</td></tr>
-<tr class="separator:gadb9c31d86584307ca7791f3c3fbe58d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga349a3f5021f5ae421077e23a26743a65"><td class="memItemLeft" align="right" valign="top"><a id="ga349a3f5021f5ae421077e23a26743a65"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_ETH_DMATxDescListInit</b> (<a class="el" href="struct_e_t_h___handle_type_def.html">ETH_HandleTypeDef</a> *heth, <a class="el" href="struct_e_t_h___d_m_a_desc_type_def.html">ETH_DMADescTypeDef</a> *DMATxDescTab, uint8_t *TxBuff, uint32_t TxBuffCount)</td></tr>
+<tr class="memitem:ga9dbafbcebc50533cb8d812bb8c2bc532"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___e_t_h___exported___functions___group1.html#ga9dbafbcebc50533cb8d812bb8c2bc532">HAL_ETH_MspInit</a> (<a class="el" href="struct_e_t_h___handle_type_def.html">ETH_HandleTypeDef</a> *heth)</td></tr>
+<tr class="memdesc:ga9dbafbcebc50533cb8d812bb8c2bc532"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the ETH MSP.  <a href="#ga9dbafbcebc50533cb8d812bb8c2bc532">More...</a><br /></td></tr>
+<tr class="separator:ga9dbafbcebc50533cb8d812bb8c2bc532"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5ec69a3f9d32d145dfc050e3d7fe24d2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___e_t_h___exported___functions___group1.html#ga5ec69a3f9d32d145dfc050e3d7fe24d2">HAL_ETH_MspDeInit</a> (<a class="el" href="struct_e_t_h___handle_type_def.html">ETH_HandleTypeDef</a> *heth)</td></tr>
+<tr class="memdesc:ga5ec69a3f9d32d145dfc050e3d7fe24d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">DeInitializes ETH MSP.  <a href="#ga5ec69a3f9d32d145dfc050e3d7fe24d2">More...</a><br /></td></tr>
+<tr class="separator:ga5ec69a3f9d32d145dfc050e3d7fe24d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga349a3f5021f5ae421077e23a26743a65"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___e_t_h___exported___functions___group1.html#ga349a3f5021f5ae421077e23a26743a65">HAL_ETH_DMATxDescListInit</a> (<a class="el" href="struct_e_t_h___handle_type_def.html">ETH_HandleTypeDef</a> *heth, <a class="el" href="struct_e_t_h___d_m_a_desc_type_def.html">ETH_DMADescTypeDef</a> *DMATxDescTab, uint8_t *TxBuff, uint32_t TxBuffCount)</td></tr>
+<tr class="memdesc:ga349a3f5021f5ae421077e23a26743a65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the DMA Tx descriptors in chain mode.  <a href="#ga349a3f5021f5ae421077e23a26743a65">More...</a><br /></td></tr>
 <tr class="separator:ga349a3f5021f5ae421077e23a26743a65"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga9d0c046521c50c14c45c18cd069c8b57"><td class="memItemLeft" align="right" valign="top"><a id="ga9d0c046521c50c14c45c18cd069c8b57"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_ETH_DMARxDescListInit</b> (<a class="el" href="struct_e_t_h___handle_type_def.html">ETH_HandleTypeDef</a> *heth, <a class="el" href="struct_e_t_h___d_m_a_desc_type_def.html">ETH_DMADescTypeDef</a> *DMARxDescTab, uint8_t *RxBuff, uint32_t RxBuffCount)</td></tr>
+<tr class="memitem:ga9d0c046521c50c14c45c18cd069c8b57"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___e_t_h___exported___functions___group1.html#ga9d0c046521c50c14c45c18cd069c8b57">HAL_ETH_DMARxDescListInit</a> (<a class="el" href="struct_e_t_h___handle_type_def.html">ETH_HandleTypeDef</a> *heth, <a class="el" href="struct_e_t_h___d_m_a_desc_type_def.html">ETH_DMADescTypeDef</a> *DMARxDescTab, uint8_t *RxBuff, uint32_t RxBuffCount)</td></tr>
+<tr class="memdesc:ga9d0c046521c50c14c45c18cd069c8b57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the DMA Rx descriptors in chain mode.  <a href="#ga9d0c046521c50c14c45c18cd069c8b57">More...</a><br /></td></tr>
 <tr class="separator:ga9d0c046521c50c14c45c18cd069c8b57"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>Initialization and Configuration functions. </p>
+<pre class="fragment">===============================================================================
+          ##### Initialization and de-initialization functions #####
+===============================================================================
+[..]  This section provides functions allowing to:
+    (+) Initialize and configure the Ethernet peripheral
+    (+) De-initialize the Ethernet peripheral</pre> <h2 class="groupheader">Function Documentation</h2>
+<a id="gabae088dc391c6b7a7ddb93103031195b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabae088dc391c6b7a7ddb93103031195b">&#9670;&nbsp;</a></span>HAL_ETH_DeInit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_ETH_DeInit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_e_t_h___handle_type_def.html">ETH_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>heth</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>De-Initializes the ETH peripheral. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">heth</td><td>pointer to a <a class="el" href="struct_e_t_h___handle_type_def.html" title="ETH Handle Structure definition.">ETH_HandleTypeDef</a> structure that contains the configuration information for ETHERNET module </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga9d0c046521c50c14c45c18cd069c8b57"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9d0c046521c50c14c45c18cd069c8b57">&#9670;&nbsp;</a></span>HAL_ETH_DMARxDescListInit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_ETH_DMARxDescListInit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_e_t_h___handle_type_def.html">ETH_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>heth</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_e_t_h___d_m_a_desc_type_def.html">ETH_DMADescTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>DMARxDescTab</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>RxBuff</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>RxBuffCount</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initializes the DMA Rx descriptors in chain mode. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">heth</td><td>pointer to a <a class="el" href="struct_e_t_h___handle_type_def.html" title="ETH Handle Structure definition.">ETH_HandleTypeDef</a> structure that contains the configuration information for ETHERNET module</td></tr>
+    <tr><td class="paramname">DMARxDescTab</td><td>Pointer to the first Rx desc list </td></tr>
+    <tr><td class="paramname">RxBuff</td><td>Pointer to the first RxBuffer list </td></tr>
+    <tr><td class="paramname">RxBuffCount</td><td>Number of the used Rx desc in the list </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga349a3f5021f5ae421077e23a26743a65"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga349a3f5021f5ae421077e23a26743a65">&#9670;&nbsp;</a></span>HAL_ETH_DMATxDescListInit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_ETH_DMATxDescListInit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_e_t_h___handle_type_def.html">ETH_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>heth</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_e_t_h___d_m_a_desc_type_def.html">ETH_DMADescTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>DMATxDescTab</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>TxBuff</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>TxBuffCount</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initializes the DMA Tx descriptors in chain mode. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">heth</td><td>pointer to a <a class="el" href="struct_e_t_h___handle_type_def.html" title="ETH Handle Structure definition.">ETH_HandleTypeDef</a> structure that contains the configuration information for ETHERNET module</td></tr>
+    <tr><td class="paramname">DMATxDescTab</td><td>Pointer to the first Tx desc list </td></tr>
+    <tr><td class="paramname">TxBuff</td><td>Pointer to the first TxBuffer list </td></tr>
+    <tr><td class="paramname">TxBuffCount</td><td>Number of the used Tx desc in the list </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gab3be78c101a3cc1ff0531bb64957cf92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab3be78c101a3cc1ff0531bb64957cf92">&#9670;&nbsp;</a></span>HAL_ETH_Init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_ETH_Init </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_e_t_h___handle_type_def.html">ETH_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>heth</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initializes the Ethernet MAC and DMA according to default parameters. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">heth</td><td>pointer to a <a class="el" href="struct_e_t_h___handle_type_def.html" title="ETH Handle Structure definition.">ETH_HandleTypeDef</a> structure that contains the configuration information for ETHERNET module </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga5ec69a3f9d32d145dfc050e3d7fe24d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5ec69a3f9d32d145dfc050e3d7fe24d2">&#9670;&nbsp;</a></span>HAL_ETH_MspDeInit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_ETH_MspDeInit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_e_t_h___handle_type_def.html">ETH_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>heth</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>DeInitializes ETH MSP. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">heth</td><td>pointer to a <a class="el" href="struct_e_t_h___handle_type_def.html" title="ETH Handle Structure definition.">ETH_HandleTypeDef</a> structure that contains the configuration information for ETHERNET module </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga9dbafbcebc50533cb8d812bb8c2bc532"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9dbafbcebc50533cb8d812bb8c2bc532">&#9670;&nbsp;</a></span>HAL_ETH_MspInit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_ETH_MspInit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_e_t_h___handle_type_def.html">ETH_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>heth</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initializes the ETH MSP. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">heth</td><td>pointer to a <a class="el" href="struct_e_t_h___handle_type_def.html" title="ETH Handle Structure definition.">ETH_HandleTypeDef</a> structure that contains the configuration information for ETHERNET module </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

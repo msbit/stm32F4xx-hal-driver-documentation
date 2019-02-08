@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.15"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>STM32F4xx_HAL_Driver: ADC_Exported_Functions_Group1</title>
+<title>STM32F4xx_HAL_Driver: Initialization and de-initialization functions</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,26 +64,166 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">ADC_Exported_Functions_Group1<div class="ingroups"><a class="el" href="group___a_d_c___exported___functions.html">ADC_Exported_Functions</a></div></div>  </div>
+<div class="title">Initialization and de-initialization functions<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___a_d_c.html">ADC</a> &raquo; <a class="el" href="group___a_d_c___exported___functions.html">ADC Exported Functions</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Initialization and Configuration functions.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga33ddb73d4880bd425aaa43c5c52bb13a"><td class="memItemLeft" align="right" valign="top"><a id="ga33ddb73d4880bd425aaa43c5c52bb13a"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_ADC_Init</b> (<a class="el" href="struct_a_d_c___handle_type_def.html">ADC_HandleTypeDef</a> *hadc)</td></tr>
+<tr class="memitem:ga33ddb73d4880bd425aaa43c5c52bb13a"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_d_c___exported___functions___group1.html#ga33ddb73d4880bd425aaa43c5c52bb13a">HAL_ADC_Init</a> (<a class="el" href="struct_a_d_c___handle_type_def.html">ADC_HandleTypeDef</a> *hadc)</td></tr>
+<tr class="memdesc:ga33ddb73d4880bd425aaa43c5c52bb13a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the ADCx peripheral according to the specified parameters in the ADC_InitStruct and initializes the ADC MSP.  <a href="#ga33ddb73d4880bd425aaa43c5c52bb13a">More...</a><br /></td></tr>
 <tr class="separator:ga33ddb73d4880bd425aaa43c5c52bb13a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga165940b437c6a8843c6032199adbf0a8"><td class="memItemLeft" align="right" valign="top"><a id="ga165940b437c6a8843c6032199adbf0a8"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_ADC_DeInit</b> (<a class="el" href="struct_a_d_c___handle_type_def.html">ADC_HandleTypeDef</a> *hadc)</td></tr>
+<tr class="memitem:ga165940b437c6a8843c6032199adbf0a8"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_d_c___exported___functions___group1.html#ga165940b437c6a8843c6032199adbf0a8">HAL_ADC_DeInit</a> (<a class="el" href="struct_a_d_c___handle_type_def.html">ADC_HandleTypeDef</a> *hadc)</td></tr>
+<tr class="memdesc:ga165940b437c6a8843c6032199adbf0a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deinitializes the ADCx peripheral registers to their default reset values.  <a href="#ga165940b437c6a8843c6032199adbf0a8">More...</a><br /></td></tr>
 <tr class="separator:ga165940b437c6a8843c6032199adbf0a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa30863492d5c3103e3e8ce8a63dadd07"><td class="memItemLeft" align="right" valign="top"><a id="gaa30863492d5c3103e3e8ce8a63dadd07"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_ADC_MspInit</b> (<a class="el" href="struct_a_d_c___handle_type_def.html">ADC_HandleTypeDef</a> *hadc)</td></tr>
-<tr class="separator:gaa30863492d5c3103e3e8ce8a63dadd07"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga39b0f8e80268ab3e660ead921ad4b22f"><td class="memItemLeft" align="right" valign="top"><a id="ga39b0f8e80268ab3e660ead921ad4b22f"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_ADC_MspDeInit</b> (<a class="el" href="struct_a_d_c___handle_type_def.html">ADC_HandleTypeDef</a> *hadc)</td></tr>
-<tr class="separator:ga39b0f8e80268ab3e660ead921ad4b22f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae87f20b4cfb71c8783f0e62870d832a1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_d_c___exported___functions___group1.html#gae87f20b4cfb71c8783f0e62870d832a1">HAL_ADC_MspInit</a> (<a class="el" href="struct_a_d_c___handle_type_def.html">ADC_HandleTypeDef</a> *hadc)</td></tr>
+<tr class="memdesc:gae87f20b4cfb71c8783f0e62870d832a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the ADC MSP.  <a href="#gae87f20b4cfb71c8783f0e62870d832a1">More...</a><br /></td></tr>
+<tr class="separator:gae87f20b4cfb71c8783f0e62870d832a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf386b5f3fe4735b709853e8b4c681e25"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_d_c___exported___functions___group1.html#gaf386b5f3fe4735b709853e8b4c681e25">HAL_ADC_MspDeInit</a> (<a class="el" href="struct_a_d_c___handle_type_def.html">ADC_HandleTypeDef</a> *hadc)</td></tr>
+<tr class="memdesc:gaf386b5f3fe4735b709853e8b4c681e25"><td class="mdescLeft">&#160;</td><td class="mdescRight">DeInitializes the ADC MSP.  <a href="#gaf386b5f3fe4735b709853e8b4c681e25">More...</a><br /></td></tr>
+<tr class="separator:gaf386b5f3fe4735b709853e8b4c681e25"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>Initialization and Configuration functions. </p>
+<pre class="fragment"> ===============================================================================
+              ##### Initialization and de-initialization functions #####
+ ===============================================================================
+    [..]  This section provides functions allowing to:
+      (+) Initialize and configure the ADC. 
+      (+) De-initialize the ADC. </pre> <h2 class="groupheader">Function Documentation</h2>
+<a id="ga165940b437c6a8843c6032199adbf0a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga165940b437c6a8843c6032199adbf0a8">&#9670;&nbsp;</a></span>HAL_ADC_DeInit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_ADC_DeInit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_a_d_c___handle_type_def.html">ADC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hadc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Deinitializes the ADCx peripheral registers to their default reset values. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hadc</td><td>pointer to a <a class="el" href="struct_a_d_c___handle_type_def.html" title="ADC handle Structure definition.">ADC_HandleTypeDef</a> structure that contains the configuration information for the specified ADC.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga33ddb73d4880bd425aaa43c5c52bb13a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga33ddb73d4880bd425aaa43c5c52bb13a">&#9670;&nbsp;</a></span>HAL_ADC_Init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_ADC_Init </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_a_d_c___handle_type_def.html">ADC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hadc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initializes the ADCx peripheral according to the specified parameters in the ADC_InitStruct and initializes the ADC MSP. </p>
+<dl class="section note"><dt>Note</dt><dd>This function is used to configure the global features of the ADC ( ClockPrescaler, Resolution, Data Alignment and number of conversion), however, the rest of the configuration parameters are specific to the regular channels group (scan mode activation, continuous mode activation, External trigger source and edge, DMA continuous request after the</dd></dl>
+<p>last transfer and End of conversion selection).</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hadc</td><td>pointer to a <a class="el" href="struct_a_d_c___handle_type_def.html" title="ADC handle Structure definition.">ADC_HandleTypeDef</a> structure that contains the configuration information for the specified ADC.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaf386b5f3fe4735b709853e8b4c681e25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf386b5f3fe4735b709853e8b4c681e25">&#9670;&nbsp;</a></span>HAL_ADC_MspDeInit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_ADC_MspDeInit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_a_d_c___handle_type_def.html">ADC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hadc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>DeInitializes the ADC MSP. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hadc</td><td>pointer to a <a class="el" href="struct_a_d_c___handle_type_def.html" title="ADC handle Structure definition.">ADC_HandleTypeDef</a> structure that contains the configuration information for the specified ADC.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gae87f20b4cfb71c8783f0e62870d832a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae87f20b4cfb71c8783f0e62870d832a1">&#9670;&nbsp;</a></span>HAL_ADC_MspInit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_ADC_MspInit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_a_d_c___handle_type_def.html">ADC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hadc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initializes the ADC MSP. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hadc</td><td>pointer to a <a class="el" href="struct_a_d_c___handle_type_def.html" title="ADC handle Structure definition.">ADC_HandleTypeDef</a> structure that contains the configuration information for the specified ADC.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

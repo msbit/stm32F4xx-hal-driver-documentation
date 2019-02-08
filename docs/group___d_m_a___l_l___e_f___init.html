@@ -70,17 +70,177 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga9a500e1b8e5e0af1695502dfa30fbad4"><td class="memItemLeft" align="right" valign="top"><a id="ga9a500e1b8e5e0af1695502dfa30fbad4"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>LL_DMA_Init</b> (DMA_TypeDef *DMAx, uint32_t Stream, <a class="el" href="struct_l_l___d_m_a___init_type_def.html">LL_DMA_InitTypeDef</a> *DMA_InitStruct)</td></tr>
+<tr class="memitem:ga9a500e1b8e5e0af1695502dfa30fbad4"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_m_a___l_l___e_f___init.html#ga9a500e1b8e5e0af1695502dfa30fbad4">LL_DMA_Init</a> (DMA_TypeDef *DMAx, uint32_t Stream, <a class="el" href="struct_l_l___d_m_a___init_type_def.html">LL_DMA_InitTypeDef</a> *DMA_InitStruct)</td></tr>
+<tr class="memdesc:ga9a500e1b8e5e0af1695502dfa30fbad4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the DMA registers according to the specified parameters in DMA_InitStruct.  <a href="#ga9a500e1b8e5e0af1695502dfa30fbad4">More...</a><br /></td></tr>
 <tr class="separator:ga9a500e1b8e5e0af1695502dfa30fbad4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0899ea56e81c1997084ec74c6408611a"><td class="memItemLeft" align="right" valign="top"><a id="ga0899ea56e81c1997084ec74c6408611a"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>LL_DMA_DeInit</b> (DMA_TypeDef *DMAx, uint32_t Stream)</td></tr>
+<tr class="memitem:ga0899ea56e81c1997084ec74c6408611a"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_m_a___l_l___e_f___init.html#ga0899ea56e81c1997084ec74c6408611a">LL_DMA_DeInit</a> (DMA_TypeDef *DMAx, uint32_t Stream)</td></tr>
+<tr class="memdesc:ga0899ea56e81c1997084ec74c6408611a"><td class="mdescLeft">&#160;</td><td class="mdescRight">De-initialize the DMA registers to their default reset values.  <a href="#ga0899ea56e81c1997084ec74c6408611a">More...</a><br /></td></tr>
 <tr class="separator:ga0899ea56e81c1997084ec74c6408611a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad828fb5e4097e52a8bfeb562fde05512"><td class="memItemLeft" align="right" valign="top"><a id="gad828fb5e4097e52a8bfeb562fde05512"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>LL_DMA_StructInit</b> (<a class="el" href="struct_l_l___d_m_a___init_type_def.html">LL_DMA_InitTypeDef</a> *DMA_InitStruct)</td></tr>
+<tr class="memitem:gad828fb5e4097e52a8bfeb562fde05512"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_m_a___l_l___e_f___init.html#gad828fb5e4097e52a8bfeb562fde05512">LL_DMA_StructInit</a> (<a class="el" href="struct_l_l___d_m_a___init_type_def.html">LL_DMA_InitTypeDef</a> *DMA_InitStruct)</td></tr>
+<tr class="memdesc:gad828fb5e4097e52a8bfeb562fde05512"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set each <a class="el" href="struct_l_l___d_m_a___init_type_def.html">LL_DMA_InitTypeDef</a> field to default value.  <a href="#gad828fb5e4097e52a8bfeb562fde05512">More...</a><br /></td></tr>
 <tr class="separator:gad828fb5e4097e52a8bfeb562fde05512"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="ga0899ea56e81c1997084ec74c6408611a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0899ea56e81c1997084ec74c6408611a">&#9670;&nbsp;</a></span>LL_DMA_DeInit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t LL_DMA_DeInit </td>
+          <td>(</td>
+          <td class="paramtype">DMA_TypeDef *&#160;</td>
+          <td class="paramname"><em>DMAx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Stream</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>De-initialize the DMA registers to their default reset values. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">DMAx</td><td>DMAx Instance </td></tr>
+    <tr><td class="paramname">Stream</td><td>This parameter can be one of the following values: <ul>
+<li>LL_DMA_STREAM_0 </li>
+<li>LL_DMA_STREAM_1 </li>
+<li>LL_DMA_STREAM_2 </li>
+<li>LL_DMA_STREAM_3 </li>
+<li>LL_DMA_STREAM_4 </li>
+<li>LL_DMA_STREAM_5 </li>
+<li>LL_DMA_STREAM_6 </li>
+<li>LL_DMA_STREAM_7 </li>
+<li>LL_DMA_STREAM_ALL </li>
+</ul>
+</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">An</td><td>ErrorStatus enumeration value:<ul>
+<li>SUCCESS: DMA registers are de-initialized</li>
+<li>ERROR: DMA registers are not de-initialized </li>
+</ul>
+</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga9a500e1b8e5e0af1695502dfa30fbad4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9a500e1b8e5e0af1695502dfa30fbad4">&#9670;&nbsp;</a></span>LL_DMA_Init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t LL_DMA_Init </td>
+          <td>(</td>
+          <td class="paramtype">DMA_TypeDef *&#160;</td>
+          <td class="paramname"><em>DMAx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Stream</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_l_l___d_m_a___init_type_def.html">LL_DMA_InitTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>DMA_InitStruct</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initialize the DMA registers according to the specified parameters in DMA_InitStruct. </p>
+<dl class="section note"><dt>Note</dt><dd>To convert DMAx_Streamy Instance to DMAx Instance and Streamy, use helper macros : <ul>
+<li>__LL_DMA_GET_INSTANCE </li>
+<li>__LL_DMA_GET_STREAM </li>
+</ul>
+</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">DMAx</td><td>DMAx Instance </td></tr>
+    <tr><td class="paramname">Stream</td><td>This parameter can be one of the following values: <ul>
+<li>LL_DMA_STREAM_0 </li>
+<li>LL_DMA_STREAM_1 </li>
+<li>LL_DMA_STREAM_2 </li>
+<li>LL_DMA_STREAM_3 </li>
+<li>LL_DMA_STREAM_4 </li>
+<li>LL_DMA_STREAM_5 </li>
+<li>LL_DMA_STREAM_6 </li>
+<li>LL_DMA_STREAM_7 </li>
+</ul>
+</td></tr>
+    <tr><td class="paramname">DMA_InitStruct</td><td>pointer to a <a class="el" href="struct_l_l___d_m_a___init_type_def.html">LL_DMA_InitTypeDef</a> structure. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">An</td><td>ErrorStatus enumeration value:<ul>
+<li>SUCCESS: DMA registers are initialized</li>
+<li>ERROR: Not applicable </li>
+</ul>
+</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gad828fb5e4097e52a8bfeb562fde05512"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad828fb5e4097e52a8bfeb562fde05512">&#9670;&nbsp;</a></span>LL_DMA_StructInit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LL_DMA_StructInit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_l_l___d_m_a___init_type_def.html">LL_DMA_InitTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>DMA_InitStruct</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set each <a class="el" href="struct_l_l___d_m_a___init_type_def.html">LL_DMA_InitTypeDef</a> field to default value. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">DMA_InitStruct</td><td>Pointer to a <a class="el" href="struct_l_l___d_m_a___init_type_def.html">LL_DMA_InitTypeDef</a> structure. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

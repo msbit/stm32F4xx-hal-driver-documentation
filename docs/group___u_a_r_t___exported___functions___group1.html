@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.15"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>STM32F4xx_HAL_Driver: UART_Exported_Functions_Group1</title>
+<title>STM32F4xx_HAL_Driver: Initialization and de-initialization functions</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,35 +64,321 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">UART_Exported_Functions_Group1<div class="ingroups"><a class="el" href="group___u_a_r_t___exported___functions.html">UART_Exported_Functions</a></div></div>  </div>
+<div class="title">Initialization and de-initialization functions<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___u_a_r_t.html">UART</a> &raquo; <a class="el" href="group___u_a_r_t___exported___functions.html">UART Exported Functions</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Initialization and Configuration functions.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gabe47045024787099b0bfa82bbe7b0b6a"><td class="memItemLeft" align="right" valign="top"><a id="gabe47045024787099b0bfa82bbe7b0b6a"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_UART_Init</b> (<a class="el" href="struct_u_a_r_t___handle_type_def.html">UART_HandleTypeDef</a> *huart)</td></tr>
+<tr class="memitem:gabe47045024787099b0bfa82bbe7b0b6a"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_a_r_t___exported___functions___group1.html#gabe47045024787099b0bfa82bbe7b0b6a">HAL_UART_Init</a> (<a class="el" href="struct_u_a_r_t___handle_type_def.html">UART_HandleTypeDef</a> *huart)</td></tr>
+<tr class="memdesc:gabe47045024787099b0bfa82bbe7b0b6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the UART mode according to the specified parameters in the UART_InitTypeDef and create the associated handle.  <a href="#gabe47045024787099b0bfa82bbe7b0b6a">More...</a><br /></td></tr>
 <tr class="separator:gabe47045024787099b0bfa82bbe7b0b6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga927245827265eff1f3580a0121efd424"><td class="memItemLeft" align="right" valign="top"><a id="ga927245827265eff1f3580a0121efd424"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_HalfDuplex_Init</b> (<a class="el" href="struct_u_a_r_t___handle_type_def.html">UART_HandleTypeDef</a> *huart)</td></tr>
+<tr class="memitem:ga927245827265eff1f3580a0121efd424"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_a_r_t___exported___functions___group1.html#ga927245827265eff1f3580a0121efd424">HAL_HalfDuplex_Init</a> (<a class="el" href="struct_u_a_r_t___handle_type_def.html">UART_HandleTypeDef</a> *huart)</td></tr>
+<tr class="memdesc:ga927245827265eff1f3580a0121efd424"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the half-duplex mode according to the specified parameters in the UART_InitTypeDef and create the associated handle.  <a href="#ga927245827265eff1f3580a0121efd424">More...</a><br /></td></tr>
 <tr class="separator:ga927245827265eff1f3580a0121efd424"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga27e4497270bd06434e3965e4b06f5516"><td class="memItemLeft" align="right" valign="top"><a id="ga27e4497270bd06434e3965e4b06f5516"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_LIN_Init</b> (<a class="el" href="struct_u_a_r_t___handle_type_def.html">UART_HandleTypeDef</a> *huart, uint32_t BreakDetectLength)</td></tr>
+<tr class="memitem:ga27e4497270bd06434e3965e4b06f5516"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_a_r_t___exported___functions___group1.html#ga27e4497270bd06434e3965e4b06f5516">HAL_LIN_Init</a> (<a class="el" href="struct_u_a_r_t___handle_type_def.html">UART_HandleTypeDef</a> *huart, uint32_t BreakDetectLength)</td></tr>
+<tr class="memdesc:ga27e4497270bd06434e3965e4b06f5516"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the LIN mode according to the specified parameters in the UART_InitTypeDef and create the associated handle.  <a href="#ga27e4497270bd06434e3965e4b06f5516">More...</a><br /></td></tr>
 <tr class="separator:ga27e4497270bd06434e3965e4b06f5516"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaae1b49f0cb62235141807d8cbc61bc4d"><td class="memItemLeft" align="right" valign="top"><a id="gaae1b49f0cb62235141807d8cbc61bc4d"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_MultiProcessor_Init</b> (<a class="el" href="struct_u_a_r_t___handle_type_def.html">UART_HandleTypeDef</a> *huart, uint8_t Address, uint32_t WakeUpMethod)</td></tr>
+<tr class="memitem:gaae1b49f0cb62235141807d8cbc61bc4d"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_a_r_t___exported___functions___group1.html#gaae1b49f0cb62235141807d8cbc61bc4d">HAL_MultiProcessor_Init</a> (<a class="el" href="struct_u_a_r_t___handle_type_def.html">UART_HandleTypeDef</a> *huart, uint8_t Address, uint32_t WakeUpMethod)</td></tr>
+<tr class="memdesc:gaae1b49f0cb62235141807d8cbc61bc4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the Multi-Processor mode according to the specified parameters in the UART_InitTypeDef and create the associated handle.  <a href="#gaae1b49f0cb62235141807d8cbc61bc4d">More...</a><br /></td></tr>
 <tr class="separator:gaae1b49f0cb62235141807d8cbc61bc4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8d98eaab25e61ae12e2e240c3388c57b"><td class="memItemLeft" align="right" valign="top"><a id="ga8d98eaab25e61ae12e2e240c3388c57b"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_UART_DeInit</b> (<a class="el" href="struct_u_a_r_t___handle_type_def.html">UART_HandleTypeDef</a> *huart)</td></tr>
+<tr class="memitem:ga8d98eaab25e61ae12e2e240c3388c57b"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_a_r_t___exported___functions___group1.html#ga8d98eaab25e61ae12e2e240c3388c57b">HAL_UART_DeInit</a> (<a class="el" href="struct_u_a_r_t___handle_type_def.html">UART_HandleTypeDef</a> *huart)</td></tr>
+<tr class="memdesc:ga8d98eaab25e61ae12e2e240c3388c57b"><td class="mdescLeft">&#160;</td><td class="mdescRight">DeInitializes the UART peripheral.  <a href="#ga8d98eaab25e61ae12e2e240c3388c57b">More...</a><br /></td></tr>
 <tr class="separator:ga8d98eaab25e61ae12e2e240c3388c57b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0e553b32211877322f949b14801bbfa7"><td class="memItemLeft" align="right" valign="top"><a id="ga0e553b32211877322f949b14801bbfa7"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_UART_MspInit</b> (<a class="el" href="struct_u_a_r_t___handle_type_def.html">UART_HandleTypeDef</a> *huart)</td></tr>
-<tr class="separator:ga0e553b32211877322f949b14801bbfa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga718f39804e3b910d738a0e1e46151188"><td class="memItemLeft" align="right" valign="top"><a id="ga718f39804e3b910d738a0e1e46151188"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_UART_MspDeInit</b> (<a class="el" href="struct_u_a_r_t___handle_type_def.html">UART_HandleTypeDef</a> *huart)</td></tr>
-<tr class="separator:ga718f39804e3b910d738a0e1e46151188"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf963b55e3b0da8d7fcc4bd978cb6c58d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_a_r_t___exported___functions___group1.html#gaf963b55e3b0da8d7fcc4bd978cb6c58d">HAL_UART_MspInit</a> (<a class="el" href="struct_u_a_r_t___handle_type_def.html">UART_HandleTypeDef</a> *huart)</td></tr>
+<tr class="memdesc:gaf963b55e3b0da8d7fcc4bd978cb6c58d"><td class="mdescLeft">&#160;</td><td class="mdescRight">UART MSP Init.  <a href="#gaf963b55e3b0da8d7fcc4bd978cb6c58d">More...</a><br /></td></tr>
+<tr class="separator:gaf963b55e3b0da8d7fcc4bd978cb6c58d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0fe5ae294b5122475f3e1cb5a04a71c3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_a_r_t___exported___functions___group1.html#ga0fe5ae294b5122475f3e1cb5a04a71c3">HAL_UART_MspDeInit</a> (<a class="el" href="struct_u_a_r_t___handle_type_def.html">UART_HandleTypeDef</a> *huart)</td></tr>
+<tr class="memdesc:ga0fe5ae294b5122475f3e1cb5a04a71c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">UART MSP DeInit.  <a href="#ga0fe5ae294b5122475f3e1cb5a04a71c3">More...</a><br /></td></tr>
+<tr class="separator:ga0fe5ae294b5122475f3e1cb5a04a71c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>Initialization and Configuration functions. </p>
+<pre class="fragment">===============================================================================
+            ##### Initialization and Configuration functions #####
+ ===============================================================================  
+    [..]
+    This subsection provides a set of functions allowing to initialize the USARTx or the UARTy 
+    in asynchronous mode.
+      (+) For the asynchronous mode only these parameters can be configured: 
+        (++) Baud Rate
+        (++) Word Length 
+        (++) Stop Bit
+        (++) Parity: If the parity is enabled, then the MSB bit of the data written
+             in the data register is transmitted but is changed by the parity bit.
+             Depending on the frame length defined by the M bit (8-bits or 9-bits),
+             please refer to Reference manual for possible UART frame formats.           
+        (++) Hardware flow control
+        (++) Receiver/transmitter modes
+        (++) Over Sampling Method
+    [..]
+    The HAL_UART_Init(), HAL_HalfDuplex_Init(), HAL_LIN_Init() and HAL_MultiProcessor_Init() APIs 
+    follow respectively the UART asynchronous, UART Half duplex, LIN and Multi-Processor
+    configuration procedures (details for the procedures are available in reference manual (RM0329)).</pre> <h2 class="groupheader">Function Documentation</h2>
+<a id="ga927245827265eff1f3580a0121efd424"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga927245827265eff1f3580a0121efd424">&#9670;&nbsp;</a></span>HAL_HalfDuplex_Init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_HalfDuplex_Init </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_u_a_r_t___handle_type_def.html">UART_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>huart</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initializes the half-duplex mode according to the specified parameters in the UART_InitTypeDef and create the associated handle. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">huart</td><td>pointer to a <a class="el" href="struct_u_a_r_t___handle_type_def.html" title="UART handle Structure definition.">UART_HandleTypeDef</a> structure that contains the configuration information for the specified UART module. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga27e4497270bd06434e3965e4b06f5516"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga27e4497270bd06434e3965e4b06f5516">&#9670;&nbsp;</a></span>HAL_LIN_Init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_LIN_Init </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_u_a_r_t___handle_type_def.html">UART_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>huart</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>BreakDetectLength</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initializes the LIN mode according to the specified parameters in the UART_InitTypeDef and create the associated handle. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">huart</td><td>pointer to a <a class="el" href="struct_u_a_r_t___handle_type_def.html" title="UART handle Structure definition.">UART_HandleTypeDef</a> structure that contains the configuration information for the specified UART module. </td></tr>
+    <tr><td class="paramname">BreakDetectLength</td><td>Specifies the LIN break detection length. This parameter can be one of the following values: <ul>
+<li>UART_LINBREAKDETECTLENGTH_10B: 10-bit break detection </li>
+<li>UART_LINBREAKDETECTLENGTH_11B: 11-bit break detection </li>
+</ul>
+</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaae1b49f0cb62235141807d8cbc61bc4d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaae1b49f0cb62235141807d8cbc61bc4d">&#9670;&nbsp;</a></span>HAL_MultiProcessor_Init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_MultiProcessor_Init </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_u_a_r_t___handle_type_def.html">UART_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>huart</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>Address</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>WakeUpMethod</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initializes the Multi-Processor mode according to the specified parameters in the UART_InitTypeDef and create the associated handle. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">huart</td><td>pointer to a <a class="el" href="struct_u_a_r_t___handle_type_def.html" title="UART handle Structure definition.">UART_HandleTypeDef</a> structure that contains the configuration information for the specified UART module. </td></tr>
+    <tr><td class="paramname">Address</td><td>USART address </td></tr>
+    <tr><td class="paramname">WakeUpMethod</td><td>specifies the USART wake-up method. This parameter can be one of the following values: <ul>
+<li>UART_WAKEUPMETHOD_IDLELINE: Wake-up by an idle line detection </li>
+<li>UART_WAKEUPMETHOD_ADDRESSMARK: Wake-up by an address mark </li>
+</ul>
+</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga8d98eaab25e61ae12e2e240c3388c57b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8d98eaab25e61ae12e2e240c3388c57b">&#9670;&nbsp;</a></span>HAL_UART_DeInit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_UART_DeInit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_u_a_r_t___handle_type_def.html">UART_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>huart</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>DeInitializes the UART peripheral. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">huart</td><td>pointer to a <a class="el" href="struct_u_a_r_t___handle_type_def.html" title="UART handle Structure definition.">UART_HandleTypeDef</a> structure that contains the configuration information for the specified UART module. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gabe47045024787099b0bfa82bbe7b0b6a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabe47045024787099b0bfa82bbe7b0b6a">&#9670;&nbsp;</a></span>HAL_UART_Init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_UART_Init </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_u_a_r_t___handle_type_def.html">UART_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>huart</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initializes the UART mode according to the specified parameters in the UART_InitTypeDef and create the associated handle. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">huart</td><td>pointer to a <a class="el" href="struct_u_a_r_t___handle_type_def.html" title="UART handle Structure definition.">UART_HandleTypeDef</a> structure that contains the configuration information for the specified UART module. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga0fe5ae294b5122475f3e1cb5a04a71c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0fe5ae294b5122475f3e1cb5a04a71c3">&#9670;&nbsp;</a></span>HAL_UART_MspDeInit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_UART_MspDeInit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_u_a_r_t___handle_type_def.html">UART_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>huart</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>UART MSP DeInit. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">huart</td><td>pointer to a <a class="el" href="struct_u_a_r_t___handle_type_def.html" title="UART handle Structure definition.">UART_HandleTypeDef</a> structure that contains the configuration information for the specified UART module. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaf963b55e3b0da8d7fcc4bd978cb6c58d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf963b55e3b0da8d7fcc4bd978cb6c58d">&#9670;&nbsp;</a></span>HAL_UART_MspInit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_UART_MspInit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_u_a_r_t___handle_type_def.html">UART_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>huart</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>UART MSP Init. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">huart</td><td>pointer to a <a class="el" href="struct_u_a_r_t___handle_type_def.html" title="UART handle Structure definition.">UART_HandleTypeDef</a> structure that contains the configuration information for the specified UART module. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

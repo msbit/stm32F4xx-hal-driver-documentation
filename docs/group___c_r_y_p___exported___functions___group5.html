@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.15"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>STM32F4xx_HAL_Driver: Peripheral State functions</title>
+<title>STM32F4xx_HAL_Driver: DMA callback functions</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,26 +64,206 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">Peripheral State functions<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___c_r_y_p.html">CRYP</a> &raquo; <a class="el" href="group___c_r_y_p___exported___functions.html">CRYP Exported Functions</a></div></div>  </div>
+<div class="title">DMA callback functions<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___c_r_y_p.html">CRYP</a> &raquo; <a class="el" href="group___a_e_s.html">AES</a> &raquo; <a class="el" href="group___c_r_y_p___exported___functions.html">CRYP Exported Functions</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>DMA callback functions.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga833189662e9c901a1dd5d6a99e02d0dc"><td class="memItemLeft" align="right" valign="top"><a id="ga833189662e9c901a1dd5d6a99e02d0dc"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_CRYP_InCpltCallback</b> (<a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *hcryp)</td></tr>
-<tr class="separator:ga833189662e9c901a1dd5d6a99e02d0dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5b0f4701ba8e47ce810e39d3f3c867a1"><td class="memItemLeft" align="right" valign="top"><a id="ga5b0f4701ba8e47ce810e39d3f3c867a1"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_CRYP_OutCpltCallback</b> (<a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *hcryp)</td></tr>
-<tr class="separator:ga5b0f4701ba8e47ce810e39d3f3c867a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac9de64823e7ead4e39416aa4902d0ade"><td class="memItemLeft" align="right" valign="top"><a id="gac9de64823e7ead4e39416aa4902d0ade"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_CRYP_ErrorCallback</b> (<a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *hcryp)</td></tr>
-<tr class="separator:gac9de64823e7ead4e39416aa4902d0ade"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga3c3a091b0aa5642871b9e61100b9edb0"><td class="memItemLeft" align="right" valign="top"><a id="ga3c3a091b0aa5642871b9e61100b9edb0"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_CRYP_GetError</b> (<a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *hcryp)</td></tr>
+<tr class="memitem:ga5d180d1e18167ba1e091db026fdc0654"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_r_y_p___exported___functions___group5.html#ga5d180d1e18167ba1e091db026fdc0654">HAL_CRYP_InCpltCallback</a> (<a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *hcryp)</td></tr>
+<tr class="memdesc:ga5d180d1e18167ba1e091db026fdc0654"><td class="mdescLeft">&#160;</td><td class="mdescRight">Input FIFO transfer completed callbacks.  <a href="#ga5d180d1e18167ba1e091db026fdc0654">More...</a><br /></td></tr>
+<tr class="separator:ga5d180d1e18167ba1e091db026fdc0654"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gace1d7495c569f18938beac952feda6bb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_r_y_p___exported___functions___group5.html#gace1d7495c569f18938beac952feda6bb">HAL_CRYP_OutCpltCallback</a> (<a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *hcryp)</td></tr>
+<tr class="memdesc:gace1d7495c569f18938beac952feda6bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output FIFO transfer completed callbacks.  <a href="#gace1d7495c569f18938beac952feda6bb">More...</a><br /></td></tr>
+<tr class="separator:gace1d7495c569f18938beac952feda6bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab4845e50a4145d29b9fffbc331f3d9d4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_r_y_p___exported___functions___group5.html#gab4845e50a4145d29b9fffbc331f3d9d4">HAL_CRYP_ErrorCallback</a> (<a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *hcryp)</td></tr>
+<tr class="memdesc:gab4845e50a4145d29b9fffbc331f3d9d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">CRYP error callbacks.  <a href="#gab4845e50a4145d29b9fffbc331f3d9d4">More...</a><br /></td></tr>
+<tr class="separator:gab4845e50a4145d29b9fffbc331f3d9d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3c3a091b0aa5642871b9e61100b9edb0"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_r_y_p___exported___functions___group5.html#ga3c3a091b0aa5642871b9e61100b9edb0">HAL_CRYP_GetError</a> (<a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *hcryp)</td></tr>
+<tr class="memdesc:ga3c3a091b0aa5642871b9e61100b9edb0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the CRYP peripheral error.  <a href="#ga3c3a091b0aa5642871b9e61100b9edb0">More...</a><br /></td></tr>
 <tr class="separator:ga3c3a091b0aa5642871b9e61100b9edb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gacd9f03a935618153b3e5bfc0eb30ca21"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___c_r_y_p___exported___types___group2.html#gacc704e095b831d0fd637ca2d6e8d9bdc">HAL_CRYP_STATETypeDef</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_r_y_p___exported___functions___group5.html#gacd9f03a935618153b3e5bfc0eb30ca21">HAL_CRYP_GetState</a> (<a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *hcryp)</td></tr>
+<tr class="memdesc:gacd9f03a935618153b3e5bfc0eb30ca21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the CRYP handle state.  <a href="#gacd9f03a935618153b3e5bfc0eb30ca21">More...</a><br /></td></tr>
+<tr class="separator:gacd9f03a935618153b3e5bfc0eb30ca21"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>DMA callback functions. </p>
+<p>Peripheral State functions.</p>
+<pre class="fragment">  ==============================================================================
+                      ##### DMA callback functions  #####
+  ==============================================================================  
+    [..]  This section provides DMA callback functions:
+      (+) DMA Input data transfer complete
+      (+) DMA Output data transfer complete
+      (+) DMA error</pre><pre class="fragment">  ==============================================================================
+                      ##### Peripheral State functions #####
+  ==============================================================================  
+    [..]
+    This subsection permits to get in run-time the status of the peripheral.</pre> <h2 class="groupheader">Function Documentation</h2>
+<a id="gab4845e50a4145d29b9fffbc331f3d9d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab4845e50a4145d29b9fffbc331f3d9d4">&#9670;&nbsp;</a></span>HAL_CRYP_ErrorCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_CRYP_ErrorCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hcryp</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>CRYP error callbacks. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hcryp</td><td>pointer to a <a class="el" href="struct_c_r_y_p___handle_type_def.html" title="CRYP handle Structure definition.">CRYP_HandleTypeDef</a> structure that contains the configuration information for CRYP module </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga3c3a091b0aa5642871b9e61100b9edb0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3c3a091b0aa5642871b9e61100b9edb0">&#9670;&nbsp;</a></span>HAL_CRYP_GetError()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t HAL_CRYP_GetError </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hcryp</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return the CRYP peripheral error. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hcryp</td><td>pointer to a <a class="el" href="struct_c_r_y_p___handle_type_def.html" title="CRYP handle Structure definition.">CRYP_HandleTypeDef</a> structure that contains the configuration information for CRYP module </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>The returned error is a bit-map combination of possible errors</dd></dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">Error</td><td>bit-map </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gacd9f03a935618153b3e5bfc0eb30ca21"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gacd9f03a935618153b3e5bfc0eb30ca21">&#9670;&nbsp;</a></span>HAL_CRYP_GetState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___c_r_y_p___exported___types___group2.html#gacc704e095b831d0fd637ca2d6e8d9bdc">HAL_CRYP_STATETypeDef</a> HAL_CRYP_GetState </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hcryp</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return the CRYP handle state. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hcryp</td><td>pointer to a <a class="el" href="struct_c_r_y_p___handle_type_def.html" title="CRYP handle Structure definition.">CRYP_HandleTypeDef</a> structure that contains the configuration information for CRYP module </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>state </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga5d180d1e18167ba1e091db026fdc0654"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5d180d1e18167ba1e091db026fdc0654">&#9670;&nbsp;</a></span>HAL_CRYP_InCpltCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_CRYP_InCpltCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hcryp</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Input FIFO transfer completed callbacks. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hcryp</td><td>pointer to a <a class="el" href="struct_c_r_y_p___handle_type_def.html" title="CRYP handle Structure definition.">CRYP_HandleTypeDef</a> structure that contains the configuration information for CRYP module </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gace1d7495c569f18938beac952feda6bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gace1d7495c569f18938beac952feda6bb">&#9670;&nbsp;</a></span>HAL_CRYP_OutCpltCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_CRYP_OutCpltCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hcryp</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Output FIFO transfer completed callbacks. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hcryp</td><td>pointer to a <a class="el" href="struct_c_r_y_p___handle_type_def.html" title="CRYP handle Structure definition.">CRYP_HandleTypeDef</a> structure that contains the configuration information for CRYP module </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

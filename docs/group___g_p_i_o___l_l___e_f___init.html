@@ -70,17 +70,133 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga00930360b8dbdd659dd92ab2779fe983"><td class="memItemLeft" align="right" valign="top"><a id="ga00930360b8dbdd659dd92ab2779fe983"></a>
-ErrorStatus&#160;</td><td class="memItemRight" valign="bottom"><b>LL_GPIO_DeInit</b> (GPIO_TypeDef *GPIOx)</td></tr>
+<tr class="memitem:ga00930360b8dbdd659dd92ab2779fe983"><td class="memItemLeft" align="right" valign="top">ErrorStatus&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___g_p_i_o___l_l___e_f___init.html#ga00930360b8dbdd659dd92ab2779fe983">LL_GPIO_DeInit</a> (GPIO_TypeDef *GPIOx)</td></tr>
+<tr class="memdesc:ga00930360b8dbdd659dd92ab2779fe983"><td class="mdescLeft">&#160;</td><td class="mdescRight">De-initialize GPIO registers (Registers restored to their default values).  <a href="#ga00930360b8dbdd659dd92ab2779fe983">More...</a><br /></td></tr>
 <tr class="separator:ga00930360b8dbdd659dd92ab2779fe983"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gabaef03e8aa5e45618f4fb4efaa89e1e5"><td class="memItemLeft" align="right" valign="top"><a id="gabaef03e8aa5e45618f4fb4efaa89e1e5"></a>
-ErrorStatus&#160;</td><td class="memItemRight" valign="bottom"><b>LL_GPIO_Init</b> (GPIO_TypeDef *GPIOx, <a class="el" href="struct_l_l___g_p_i_o___init_type_def.html">LL_GPIO_InitTypeDef</a> *GPIO_InitStruct)</td></tr>
+<tr class="memitem:gabaef03e8aa5e45618f4fb4efaa89e1e5"><td class="memItemLeft" align="right" valign="top">ErrorStatus&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___g_p_i_o___l_l___e_f___init.html#gabaef03e8aa5e45618f4fb4efaa89e1e5">LL_GPIO_Init</a> (GPIO_TypeDef *GPIOx, <a class="el" href="struct_l_l___g_p_i_o___init_type_def.html">LL_GPIO_InitTypeDef</a> *GPIO_InitStruct)</td></tr>
+<tr class="memdesc:gabaef03e8aa5e45618f4fb4efaa89e1e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize GPIO registers according to the specified parameters in GPIO_InitStruct.  <a href="#gabaef03e8aa5e45618f4fb4efaa89e1e5">More...</a><br /></td></tr>
 <tr class="separator:gabaef03e8aa5e45618f4fb4efaa89e1e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7d014f406408aad1f4b059de378f98ad"><td class="memItemLeft" align="right" valign="top"><a id="ga7d014f406408aad1f4b059de378f98ad"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>LL_GPIO_StructInit</b> (<a class="el" href="struct_l_l___g_p_i_o___init_type_def.html">LL_GPIO_InitTypeDef</a> *GPIO_InitStruct)</td></tr>
+<tr class="memitem:ga7d014f406408aad1f4b059de378f98ad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___g_p_i_o___l_l___e_f___init.html#ga7d014f406408aad1f4b059de378f98ad">LL_GPIO_StructInit</a> (<a class="el" href="struct_l_l___g_p_i_o___init_type_def.html">LL_GPIO_InitTypeDef</a> *GPIO_InitStruct)</td></tr>
+<tr class="memdesc:ga7d014f406408aad1f4b059de378f98ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set each <a class="el" href="struct_l_l___g_p_i_o___init_type_def.html">LL_GPIO_InitTypeDef</a> field to default value.  <a href="#ga7d014f406408aad1f4b059de378f98ad">More...</a><br /></td></tr>
 <tr class="separator:ga7d014f406408aad1f4b059de378f98ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="ga00930360b8dbdd659dd92ab2779fe983"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga00930360b8dbdd659dd92ab2779fe983">&#9670;&nbsp;</a></span>LL_GPIO_DeInit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ErrorStatus LL_GPIO_DeInit </td>
+          <td>(</td>
+          <td class="paramtype">GPIO_TypeDef *&#160;</td>
+          <td class="paramname"><em>GPIOx</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>De-initialize GPIO registers (Registers restored to their default values). </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">GPIOx</td><td>GPIO Port </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">An</td><td>ErrorStatus enumeration value:<ul>
+<li>SUCCESS: GPIO registers are de-initialized</li>
+<li>ERROR: Wrong GPIO Port </li>
+</ul>
+</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gabaef03e8aa5e45618f4fb4efaa89e1e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabaef03e8aa5e45618f4fb4efaa89e1e5">&#9670;&nbsp;</a></span>LL_GPIO_Init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ErrorStatus LL_GPIO_Init </td>
+          <td>(</td>
+          <td class="paramtype">GPIO_TypeDef *&#160;</td>
+          <td class="paramname"><em>GPIOx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_l_l___g_p_i_o___init_type_def.html">LL_GPIO_InitTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>GPIO_InitStruct</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initialize GPIO registers according to the specified parameters in GPIO_InitStruct. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">GPIOx</td><td>GPIO Port </td></tr>
+    <tr><td class="paramname">GPIO_InitStruct</td><td>pointer to a <a class="el" href="struct_l_l___g_p_i_o___init_type_def.html">LL_GPIO_InitTypeDef</a> structure that contains the configuration information for the specified GPIO peripheral. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">An</td><td>ErrorStatus enumeration value:<ul>
+<li>SUCCESS: GPIO registers are initialized according to GPIO_InitStruct content</li>
+<li>ERROR: Not applicable </li>
+</ul>
+</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga7d014f406408aad1f4b059de378f98ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7d014f406408aad1f4b059de378f98ad">&#9670;&nbsp;</a></span>LL_GPIO_StructInit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LL_GPIO_StructInit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_l_l___g_p_i_o___init_type_def.html">LL_GPIO_InitTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>GPIO_InitStruct</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set each <a class="el" href="struct_l_l___g_p_i_o___init_type_def.html">LL_GPIO_InitTypeDef</a> field to default value. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">GPIO_InitStruct</td><td>pointer to a <a class="el" href="struct_l_l___g_p_i_o___init_type_def.html">LL_GPIO_InitTypeDef</a> structure whose fields will be set to default values. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

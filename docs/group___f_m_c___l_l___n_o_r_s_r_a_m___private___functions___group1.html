@@ -64,26 +64,237 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">NOR SRAM Initialization/de-initialization functions<div class="ingroups"><a class="el" href="group___f_m_c___l_l___private___functions.html">FMC LL Private Functions</a> &raquo; <a class="el" href="group___f_m_c___l_l___n_o_r_s_r_a_m.html">NOR SRAM</a></div></div>  </div>
+<div class="title">NOR SRAM Initialization/de-initialization functions<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___f_m_c___l_l.html">FMC Low Layer</a> &raquo; <a class="el" href="group___f_m_c___l_l___private___functions.html">FMC LL Private Functions</a> &raquo; <a class="el" href="group___f_m_c___l_l___n_o_r_s_r_a_m.html">NOR SRAM</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Initialization and Configuration functions.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga69f71e9189dab5f8b384065a9165b8bd"><td class="memItemLeft" align="right" valign="top"><a id="ga69f71e9189dab5f8b384065a9165b8bd"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>FMC_NORSRAM_Init</b> (FMC_NORSRAM_TypeDef *Device, FMC_NORSRAM_InitTypeDef *Init)</td></tr>
+<tr class="memitem:ga69f71e9189dab5f8b384065a9165b8bd"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___f_m_c___l_l___n_o_r_s_r_a_m___private___functions___group1.html#ga69f71e9189dab5f8b384065a9165b8bd">FMC_NORSRAM_Init</a> (FMC_NORSRAM_TypeDef *Device, FMC_NORSRAM_InitTypeDef *Init)</td></tr>
+<tr class="memdesc:ga69f71e9189dab5f8b384065a9165b8bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the FMC_NORSRAM device according to the specified control parameters in the FMC_NORSRAM_InitTypeDef.  <a href="#ga69f71e9189dab5f8b384065a9165b8bd">More...</a><br /></td></tr>
 <tr class="separator:ga69f71e9189dab5f8b384065a9165b8bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga95dcf37fab03f8995bbacca99f7092ff"><td class="memItemLeft" align="right" valign="top"><a id="ga95dcf37fab03f8995bbacca99f7092ff"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>FMC_NORSRAM_Timing_Init</b> (FMC_NORSRAM_TypeDef *Device, <a class="el" href="struct_f_m_c___n_o_r_s_r_a_m___timing_type_def.html">FMC_NORSRAM_TimingTypeDef</a> *Timing, uint32_t Bank)</td></tr>
+<tr class="memitem:ga95dcf37fab03f8995bbacca99f7092ff"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___f_m_c___l_l___n_o_r_s_r_a_m___private___functions___group1.html#ga95dcf37fab03f8995bbacca99f7092ff">FMC_NORSRAM_Timing_Init</a> (FMC_NORSRAM_TypeDef *Device, <a class="el" href="struct_f_m_c___n_o_r_s_r_a_m___timing_type_def.html">FMC_NORSRAM_TimingTypeDef</a> *Timing, uint32_t Bank)</td></tr>
+<tr class="memdesc:ga95dcf37fab03f8995bbacca99f7092ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the FMC_NORSRAM Timing according to the specified parameters in the <a class="el" href="struct_f_m_c___n_o_r_s_r_a_m___timing_type_def.html" title="FMC NORSRAM Timing parameters structure definition.">FMC_NORSRAM_TimingTypeDef</a>.  <a href="#ga95dcf37fab03f8995bbacca99f7092ff">More...</a><br /></td></tr>
 <tr class="separator:ga95dcf37fab03f8995bbacca99f7092ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf59154ca6a3208092f248fe25cd421c5"><td class="memItemLeft" align="right" valign="top"><a id="gaf59154ca6a3208092f248fe25cd421c5"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>FMC_NORSRAM_Extended_Timing_Init</b> (FMC_NORSRAM_EXTENDED_TypeDef *Device, <a class="el" href="struct_f_m_c___n_o_r_s_r_a_m___timing_type_def.html">FMC_NORSRAM_TimingTypeDef</a> *Timing, uint32_t Bank, uint32_t ExtendedMode)</td></tr>
+<tr class="memitem:gaf59154ca6a3208092f248fe25cd421c5"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___f_m_c___l_l___n_o_r_s_r_a_m___private___functions___group1.html#gaf59154ca6a3208092f248fe25cd421c5">FMC_NORSRAM_Extended_Timing_Init</a> (FMC_NORSRAM_EXTENDED_TypeDef *Device, <a class="el" href="struct_f_m_c___n_o_r_s_r_a_m___timing_type_def.html">FMC_NORSRAM_TimingTypeDef</a> *Timing, uint32_t Bank, uint32_t ExtendedMode)</td></tr>
+<tr class="memdesc:gaf59154ca6a3208092f248fe25cd421c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the FMC_NORSRAM Extended mode Timing according to the specified parameters in the <a class="el" href="struct_f_m_c___n_o_r_s_r_a_m___timing_type_def.html" title="FMC NORSRAM Timing parameters structure definition.">FMC_NORSRAM_TimingTypeDef</a>.  <a href="#gaf59154ca6a3208092f248fe25cd421c5">More...</a><br /></td></tr>
 <tr class="separator:gaf59154ca6a3208092f248fe25cd421c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5bdfef91b866a10a7c91385018db5618"><td class="memItemLeft" align="right" valign="top"><a id="ga5bdfef91b866a10a7c91385018db5618"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>FMC_NORSRAM_DeInit</b> (FMC_NORSRAM_TypeDef *Device, FMC_NORSRAM_EXTENDED_TypeDef *ExDevice, uint32_t Bank)</td></tr>
+<tr class="memitem:ga5bdfef91b866a10a7c91385018db5618"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___f_m_c___l_l___n_o_r_s_r_a_m___private___functions___group1.html#ga5bdfef91b866a10a7c91385018db5618">FMC_NORSRAM_DeInit</a> (FMC_NORSRAM_TypeDef *Device, FMC_NORSRAM_EXTENDED_TypeDef *ExDevice, uint32_t Bank)</td></tr>
+<tr class="memdesc:ga5bdfef91b866a10a7c91385018db5618"><td class="mdescLeft">&#160;</td><td class="mdescRight">DeInitialize the FMC_NORSRAM peripheral.  <a href="#ga5bdfef91b866a10a7c91385018db5618">More...</a><br /></td></tr>
 <tr class="separator:ga5bdfef91b866a10a7c91385018db5618"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>Initialization and Configuration functions. </p>
+<pre class="fragment">  ==============================================================================
+              ##### Initialization and de_initialization functions #####
+  ==============================================================================
+  [..]  
+    This section provides functions allowing to:
+    (+) Initialize and configure the FMC NORSRAM interface
+    (+) De-initialize the FMC NORSRAM interface 
+    (+) Configure the FMC clock and associated GPIOs    </pre> <h2 class="groupheader">Function Documentation</h2>
+<a id="ga5bdfef91b866a10a7c91385018db5618"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5bdfef91b866a10a7c91385018db5618">&#9670;&nbsp;</a></span>FMC_NORSRAM_DeInit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef FMC_NORSRAM_DeInit </td>
+          <td>(</td>
+          <td class="paramtype">FMC_NORSRAM_TypeDef *&#160;</td>
+          <td class="paramname"><em>Device</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">FMC_NORSRAM_EXTENDED_TypeDef *&#160;</td>
+          <td class="paramname"><em>ExDevice</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Bank</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>DeInitialize the FMC_NORSRAM peripheral. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Device</td><td>Pointer to NORSRAM device instance </td></tr>
+    <tr><td class="paramname">ExDevice</td><td>Pointer to NORSRAM extended mode device instance</td></tr>
+    <tr><td class="paramname">Bank</td><td>NORSRAM bank number</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaf59154ca6a3208092f248fe25cd421c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf59154ca6a3208092f248fe25cd421c5">&#9670;&nbsp;</a></span>FMC_NORSRAM_Extended_Timing_Init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef FMC_NORSRAM_Extended_Timing_Init </td>
+          <td>(</td>
+          <td class="paramtype">FMC_NORSRAM_EXTENDED_TypeDef *&#160;</td>
+          <td class="paramname"><em>Device</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_f_m_c___n_o_r_s_r_a_m___timing_type_def.html">FMC_NORSRAM_TimingTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>Timing</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Bank</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>ExtendedMode</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initialize the FMC_NORSRAM Extended mode Timing according to the specified parameters in the <a class="el" href="struct_f_m_c___n_o_r_s_r_a_m___timing_type_def.html" title="FMC NORSRAM Timing parameters structure definition.">FMC_NORSRAM_TimingTypeDef</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Device</td><td>Pointer to NORSRAM device instance </td></tr>
+    <tr><td class="paramname">Timing</td><td>Pointer to NORSRAM Timing structure </td></tr>
+    <tr><td class="paramname">Bank</td><td>NORSRAM bank number</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga69f71e9189dab5f8b384065a9165b8bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga69f71e9189dab5f8b384065a9165b8bd">&#9670;&nbsp;</a></span>FMC_NORSRAM_Init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef FMC_NORSRAM_Init </td>
+          <td>(</td>
+          <td class="paramtype">FMC_NORSRAM_TypeDef *&#160;</td>
+          <td class="paramname"><em>Device</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">FMC_NORSRAM_InitTypeDef *&#160;</td>
+          <td class="paramname"><em>Init</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initialize the FMC_NORSRAM device according to the specified control parameters in the FMC_NORSRAM_InitTypeDef. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Device</td><td>Pointer to NORSRAM device instance </td></tr>
+    <tr><td class="paramname">Init</td><td>Pointer to NORSRAM Initialization structure</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga95dcf37fab03f8995bbacca99f7092ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga95dcf37fab03f8995bbacca99f7092ff">&#9670;&nbsp;</a></span>FMC_NORSRAM_Timing_Init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef FMC_NORSRAM_Timing_Init </td>
+          <td>(</td>
+          <td class="paramtype">FMC_NORSRAM_TypeDef *&#160;</td>
+          <td class="paramname"><em>Device</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_f_m_c___n_o_r_s_r_a_m___timing_type_def.html">FMC_NORSRAM_TimingTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>Timing</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Bank</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initialize the FMC_NORSRAM Timing according to the specified parameters in the <a class="el" href="struct_f_m_c___n_o_r_s_r_a_m___timing_type_def.html" title="FMC NORSRAM Timing parameters structure definition.">FMC_NORSRAM_TimingTypeDef</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Device</td><td>Pointer to NORSRAM device instance </td></tr>
+    <tr><td class="paramname">Timing</td><td>Pointer to NORSRAM Timing structure </td></tr>
+    <tr><td class="paramname">Bank</td><td>NORSRAM bank number</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

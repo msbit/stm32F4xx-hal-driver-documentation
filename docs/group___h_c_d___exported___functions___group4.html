@@ -64,32 +64,271 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">Peripheral State functions<div class="ingroups"><a class="el" href="group___h_c_d___exported___functions.html">HCD Exported Functions</a></div></div>  </div>
+<div class="title">Peripheral State functions<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___h_c_d.html">HCD</a> &raquo; <a class="el" href="group___h_c_d___exported___functions.html">HCD Exported Functions</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Peripheral State functions.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gaaa383694f6303347de1b2a216e214e0a"><td class="memItemLeft" align="right" valign="top"><a id="gaaa383694f6303347de1b2a216e214e0a"></a>
-HCD_StateTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_HCD_GetState</b> (<a class="el" href="struct_h_c_d___handle_type_def.html">HCD_HandleTypeDef</a> *hhcd)</td></tr>
+<tr class="memitem:gaaa383694f6303347de1b2a216e214e0a"><td class="memItemLeft" align="right" valign="top">HCD_StateTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_c_d___exported___functions___group4.html#gaaa383694f6303347de1b2a216e214e0a">HAL_HCD_GetState</a> (<a class="el" href="struct_h_c_d___handle_type_def.html">HCD_HandleTypeDef</a> *hhcd)</td></tr>
+<tr class="memdesc:gaaa383694f6303347de1b2a216e214e0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the HCD handle state.  <a href="#gaaa383694f6303347de1b2a216e214e0a">More...</a><br /></td></tr>
 <tr class="separator:gaaa383694f6303347de1b2a216e214e0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga79e6f19f7b9876c2adefde77864e818e"><td class="memItemLeft" align="right" valign="top"><a id="ga79e6f19f7b9876c2adefde77864e818e"></a>
-<a class="el" href="stm32f4xx__ll__usb_8h.html#a04b2bca306495588fec3a5245daa5221">HCD_URBStateTypeDef</a>&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_HCD_HC_GetURBState</b> (<a class="el" href="struct_h_c_d___handle_type_def.html">HCD_HandleTypeDef</a> *hhcd, uint8_t chnum)</td></tr>
+<tr class="memitem:ga79e6f19f7b9876c2adefde77864e818e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="stm32f4xx__ll__usb_8h.html#a04b2bca306495588fec3a5245daa5221">HCD_URBStateTypeDef</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_c_d___exported___functions___group4.html#ga79e6f19f7b9876c2adefde77864e818e">HAL_HCD_HC_GetURBState</a> (<a class="el" href="struct_h_c_d___handle_type_def.html">HCD_HandleTypeDef</a> *hhcd, uint8_t chnum)</td></tr>
+<tr class="memdesc:ga79e6f19f7b9876c2adefde77864e818e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return URB state for a channel.  <a href="#ga79e6f19f7b9876c2adefde77864e818e">More...</a><br /></td></tr>
 <tr class="separator:ga79e6f19f7b9876c2adefde77864e818e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga770cc82abd6a9bcca1e4841c277aafa9"><td class="memItemLeft" align="right" valign="top"><a id="ga770cc82abd6a9bcca1e4841c277aafa9"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_HCD_HC_GetXferCount</b> (<a class="el" href="struct_h_c_d___handle_type_def.html">HCD_HandleTypeDef</a> *hhcd, uint8_t chnum)</td></tr>
+<tr class="memitem:ga770cc82abd6a9bcca1e4841c277aafa9"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_c_d___exported___functions___group4.html#ga770cc82abd6a9bcca1e4841c277aafa9">HAL_HCD_HC_GetXferCount</a> (<a class="el" href="struct_h_c_d___handle_type_def.html">HCD_HandleTypeDef</a> *hhcd, uint8_t chnum)</td></tr>
+<tr class="memdesc:ga770cc82abd6a9bcca1e4841c277aafa9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the last host transfer size.  <a href="#ga770cc82abd6a9bcca1e4841c277aafa9">More...</a><br /></td></tr>
 <tr class="separator:ga770cc82abd6a9bcca1e4841c277aafa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga39ed5c784ad69c394b09fdfcacd13c03"><td class="memItemLeft" align="right" valign="top"><a id="ga39ed5c784ad69c394b09fdfcacd13c03"></a>
-<a class="el" href="stm32f4xx__ll__usb_8h.html#a8fa88c2e8e5fe41147028ba11af65294">HCD_HCStateTypeDef</a>&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_HCD_HC_GetState</b> (<a class="el" href="struct_h_c_d___handle_type_def.html">HCD_HandleTypeDef</a> *hhcd, uint8_t chnum)</td></tr>
+<tr class="memitem:ga39ed5c784ad69c394b09fdfcacd13c03"><td class="memItemLeft" align="right" valign="top"><a class="el" href="stm32f4xx__ll__usb_8h.html#a8fa88c2e8e5fe41147028ba11af65294">HCD_HCStateTypeDef</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_c_d___exported___functions___group4.html#ga39ed5c784ad69c394b09fdfcacd13c03">HAL_HCD_HC_GetState</a> (<a class="el" href="struct_h_c_d___handle_type_def.html">HCD_HandleTypeDef</a> *hhcd, uint8_t chnum)</td></tr>
+<tr class="memdesc:ga39ed5c784ad69c394b09fdfcacd13c03"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the Host Channel state.  <a href="#ga39ed5c784ad69c394b09fdfcacd13c03">More...</a><br /></td></tr>
 <tr class="separator:ga39ed5c784ad69c394b09fdfcacd13c03"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga61a086092e452f7c706d890e266d482c"><td class="memItemLeft" align="right" valign="top"><a id="ga61a086092e452f7c706d890e266d482c"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_HCD_GetCurrentFrame</b> (<a class="el" href="struct_h_c_d___handle_type_def.html">HCD_HandleTypeDef</a> *hhcd)</td></tr>
+<tr class="memitem:ga61a086092e452f7c706d890e266d482c"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_c_d___exported___functions___group4.html#ga61a086092e452f7c706d890e266d482c">HAL_HCD_GetCurrentFrame</a> (<a class="el" href="struct_h_c_d___handle_type_def.html">HCD_HandleTypeDef</a> *hhcd)</td></tr>
+<tr class="memdesc:ga61a086092e452f7c706d890e266d482c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the current Host frame number.  <a href="#ga61a086092e452f7c706d890e266d482c">More...</a><br /></td></tr>
 <tr class="separator:ga61a086092e452f7c706d890e266d482c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6622593856d3d6adbce6362d23537448"><td class="memItemLeft" align="right" valign="top"><a id="ga6622593856d3d6adbce6362d23537448"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_HCD_GetCurrentSpeed</b> (<a class="el" href="struct_h_c_d___handle_type_def.html">HCD_HandleTypeDef</a> *hhcd)</td></tr>
+<tr class="memitem:ga6622593856d3d6adbce6362d23537448"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_c_d___exported___functions___group4.html#ga6622593856d3d6adbce6362d23537448">HAL_HCD_GetCurrentSpeed</a> (<a class="el" href="struct_h_c_d___handle_type_def.html">HCD_HandleTypeDef</a> *hhcd)</td></tr>
+<tr class="memdesc:ga6622593856d3d6adbce6362d23537448"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the Host enumeration speed.  <a href="#ga6622593856d3d6adbce6362d23537448">More...</a><br /></td></tr>
 <tr class="separator:ga6622593856d3d6adbce6362d23537448"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>Peripheral State functions. </p>
+<pre class="fragment"> ===============================================================================
+                      ##### Peripheral State functions #####
+ ===============================================================================  
+    [..]
+    This subsection permits to get in run-time the status of the peripheral 
+    and the data flow.</pre> <h2 class="groupheader">Function Documentation</h2>
+<a id="ga61a086092e452f7c706d890e266d482c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga61a086092e452f7c706d890e266d482c">&#9670;&nbsp;</a></span>HAL_HCD_GetCurrentFrame()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t HAL_HCD_GetCurrentFrame </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_h_c_d___handle_type_def.html">HCD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hhcd</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return the current Host frame number. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hhcd</td><td>HCD handle </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">Current</td><td>Host frame number </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga6622593856d3d6adbce6362d23537448"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6622593856d3d6adbce6362d23537448">&#9670;&nbsp;</a></span>HAL_HCD_GetCurrentSpeed()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t HAL_HCD_GetCurrentSpeed </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_h_c_d___handle_type_def.html">HCD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hhcd</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return the Host enumeration speed. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hhcd</td><td>HCD handle </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">Enumeration</td><td>speed </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaaa383694f6303347de1b2a216e214e0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaaa383694f6303347de1b2a216e214e0a">&#9670;&nbsp;</a></span>HAL_HCD_GetState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HCD_StateTypeDef HAL_HCD_GetState </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_h_c_d___handle_type_def.html">HCD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hhcd</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return the HCD handle state. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hhcd</td><td>HCD handle </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>state </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga39ed5c784ad69c394b09fdfcacd13c03"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga39ed5c784ad69c394b09fdfcacd13c03">&#9670;&nbsp;</a></span>HAL_HCD_HC_GetState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="stm32f4xx__ll__usb_8h.html#a8fa88c2e8e5fe41147028ba11af65294">HCD_HCStateTypeDef</a> HAL_HCD_HC_GetState </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_h_c_d___handle_type_def.html">HCD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hhcd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>chnum</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return the Host Channel state. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hhcd</td><td>HCD handle </td></tr>
+    <tr><td class="paramname">chnum</td><td>Channel number. This parameter can be a value from 1 to 15 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">Host</td><td>channel state This parameter can be one of these values: HC_IDLE/ HC_XFRC/ HC_HALTED/ HC_NYET/ HC_NAK/</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>HC_STALL/ HC_XACTERR/</p>
+<p>HC_BBLERR/</p>
+<p>HC_DATATGLERR </p>
+
+</div>
+</div>
+<a id="ga79e6f19f7b9876c2adefde77864e818e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga79e6f19f7b9876c2adefde77864e818e">&#9670;&nbsp;</a></span>HAL_HCD_HC_GetURBState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="stm32f4xx__ll__usb_8h.html#a04b2bca306495588fec3a5245daa5221">HCD_URBStateTypeDef</a> HAL_HCD_HC_GetURBState </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_h_c_d___handle_type_def.html">HCD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hhcd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>chnum</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return URB state for a channel. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hhcd</td><td>HCD handle </td></tr>
+    <tr><td class="paramname">chnum</td><td>Channel number. This parameter can be a value from 1 to 15 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">URB</td><td>state. This parameter can be one of these values: URB_IDLE/ URB_DONE/ URB_NOTREADY/ URB_NYET/ URB_ERROR/</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>URB_STALL </p>
+
+</div>
+</div>
+<a id="ga770cc82abd6a9bcca1e4841c277aafa9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga770cc82abd6a9bcca1e4841c277aafa9">&#9670;&nbsp;</a></span>HAL_HCD_HC_GetXferCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t HAL_HCD_HC_GetXferCount </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_h_c_d___handle_type_def.html">HCD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hhcd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>chnum</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return the last host transfer size. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hhcd</td><td>HCD handle </td></tr>
+    <tr><td class="paramname">chnum</td><td>Channel number. This parameter can be a value from 1 to 15 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">last</td><td>transfer size in byte </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

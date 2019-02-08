@@ -64,29 +64,245 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">PCCARD Initialization/de-initialization functions<div class="ingroups"><a class="el" href="group___f_m_c___l_l___private___functions.html">FMC LL Private Functions</a> &raquo; <a class="el" href="group___f_m_c___l_l___p_c_c_a_r_d.html">PCCARD</a></div></div>  </div>
+<div class="title">PCCARD Initialization/de-initialization functions<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___f_m_c___l_l.html">FMC Low Layer</a> &raquo; <a class="el" href="group___f_m_c___l_l___private___functions.html">FMC LL Private Functions</a> &raquo; <a class="el" href="group___f_m_c___l_l___p_c_c_a_r_d.html">PCCARD</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Initialization and Configuration functions.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gafdd8175d388c6214b6412ee7d2e5ca38"><td class="memItemLeft" align="right" valign="top"><a id="gafdd8175d388c6214b6412ee7d2e5ca38"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>FMC_PCCARD_Init</b> (FMC_PCCARD_TypeDef *Device, <a class="el" href="struct_f_m_c___p_c_c_a_r_d___init_type_def.html">FMC_PCCARD_InitTypeDef</a> *Init)</td></tr>
+<tr class="memitem:gafdd8175d388c6214b6412ee7d2e5ca38"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___f_m_c___l_l___p_c_c_a_r_d___private___functions___group1.html#gafdd8175d388c6214b6412ee7d2e5ca38">FMC_PCCARD_Init</a> (FMC_PCCARD_TypeDef *Device, <a class="el" href="struct_f_m_c___p_c_c_a_r_d___init_type_def.html">FMC_PCCARD_InitTypeDef</a> *Init)</td></tr>
+<tr class="memdesc:gafdd8175d388c6214b6412ee7d2e5ca38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the FMC_PCCARD device according to the specified control parameters in the FMC_PCCARD_HandleTypeDef.  <a href="#gafdd8175d388c6214b6412ee7d2e5ca38">More...</a><br /></td></tr>
 <tr class="separator:gafdd8175d388c6214b6412ee7d2e5ca38"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga494dcd82d750f10c6b297a69eba300bd"><td class="memItemLeft" align="right" valign="top"><a id="ga494dcd82d750f10c6b297a69eba300bd"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>FMC_PCCARD_CommonSpace_Timing_Init</b> (FMC_PCCARD_TypeDef *Device, <a class="el" href="struct_f_m_c___n_a_n_d___p_c_c___timing_type_def.html">FMC_NAND_PCC_TimingTypeDef</a> *Timing)</td></tr>
+<tr class="memitem:ga494dcd82d750f10c6b297a69eba300bd"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___f_m_c___l_l___p_c_c_a_r_d___private___functions___group1.html#ga494dcd82d750f10c6b297a69eba300bd">FMC_PCCARD_CommonSpace_Timing_Init</a> (FMC_PCCARD_TypeDef *Device, <a class="el" href="struct_f_m_c___n_a_n_d___p_c_c___timing_type_def.html">FMC_NAND_PCC_TimingTypeDef</a> *Timing)</td></tr>
+<tr class="memdesc:ga494dcd82d750f10c6b297a69eba300bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the FMC_PCCARD Common space Timing according to the specified parameters in the <a class="el" href="struct_f_m_c___n_a_n_d___p_c_c___timing_type_def.html" title="FMC NAND/PCCARD Timing parameters structure definition.">FMC_NAND_PCC_TimingTypeDef</a>.  <a href="#ga494dcd82d750f10c6b297a69eba300bd">More...</a><br /></td></tr>
 <tr class="separator:ga494dcd82d750f10c6b297a69eba300bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7cc7e01f7007b9a3a5acd4de4354fec6"><td class="memItemLeft" align="right" valign="top"><a id="ga7cc7e01f7007b9a3a5acd4de4354fec6"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>FMC_PCCARD_AttributeSpace_Timing_Init</b> (FMC_PCCARD_TypeDef *Device, <a class="el" href="struct_f_m_c___n_a_n_d___p_c_c___timing_type_def.html">FMC_NAND_PCC_TimingTypeDef</a> *Timing)</td></tr>
+<tr class="memitem:ga7cc7e01f7007b9a3a5acd4de4354fec6"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___f_m_c___l_l___p_c_c_a_r_d___private___functions___group1.html#ga7cc7e01f7007b9a3a5acd4de4354fec6">FMC_PCCARD_AttributeSpace_Timing_Init</a> (FMC_PCCARD_TypeDef *Device, <a class="el" href="struct_f_m_c___n_a_n_d___p_c_c___timing_type_def.html">FMC_NAND_PCC_TimingTypeDef</a> *Timing)</td></tr>
+<tr class="memdesc:ga7cc7e01f7007b9a3a5acd4de4354fec6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the FMC_PCCARD Attribute space Timing according to the specified parameters in the <a class="el" href="struct_f_m_c___n_a_n_d___p_c_c___timing_type_def.html" title="FMC NAND/PCCARD Timing parameters structure definition.">FMC_NAND_PCC_TimingTypeDef</a>.  <a href="#ga7cc7e01f7007b9a3a5acd4de4354fec6">More...</a><br /></td></tr>
 <tr class="separator:ga7cc7e01f7007b9a3a5acd4de4354fec6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaff524eff07c8a8bca71ebf511dc4a2fd"><td class="memItemLeft" align="right" valign="top"><a id="gaff524eff07c8a8bca71ebf511dc4a2fd"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>FMC_PCCARD_IOSpace_Timing_Init</b> (FMC_PCCARD_TypeDef *Device, <a class="el" href="struct_f_m_c___n_a_n_d___p_c_c___timing_type_def.html">FMC_NAND_PCC_TimingTypeDef</a> *Timing)</td></tr>
+<tr class="memitem:gaff524eff07c8a8bca71ebf511dc4a2fd"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___f_m_c___l_l___p_c_c_a_r_d___private___functions___group1.html#gaff524eff07c8a8bca71ebf511dc4a2fd">FMC_PCCARD_IOSpace_Timing_Init</a> (FMC_PCCARD_TypeDef *Device, <a class="el" href="struct_f_m_c___n_a_n_d___p_c_c___timing_type_def.html">FMC_NAND_PCC_TimingTypeDef</a> *Timing)</td></tr>
+<tr class="memdesc:gaff524eff07c8a8bca71ebf511dc4a2fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the FMC_PCCARD IO space Timing according to the specified parameters in the <a class="el" href="struct_f_m_c___n_a_n_d___p_c_c___timing_type_def.html" title="FMC NAND/PCCARD Timing parameters structure definition.">FMC_NAND_PCC_TimingTypeDef</a>.  <a href="#gaff524eff07c8a8bca71ebf511dc4a2fd">More...</a><br /></td></tr>
 <tr class="separator:gaff524eff07c8a8bca71ebf511dc4a2fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga96a80c6de3b63fd1333407ba2ac5d1d6"><td class="memItemLeft" align="right" valign="top"><a id="ga96a80c6de3b63fd1333407ba2ac5d1d6"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>FMC_PCCARD_DeInit</b> (FMC_PCCARD_TypeDef *Device)</td></tr>
+<tr class="memitem:ga96a80c6de3b63fd1333407ba2ac5d1d6"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___f_m_c___l_l___p_c_c_a_r_d___private___functions___group1.html#ga96a80c6de3b63fd1333407ba2ac5d1d6">FMC_PCCARD_DeInit</a> (FMC_PCCARD_TypeDef *Device)</td></tr>
+<tr class="memdesc:ga96a80c6de3b63fd1333407ba2ac5d1d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">DeInitializes the FMC_PCCARD device.  <a href="#ga96a80c6de3b63fd1333407ba2ac5d1d6">More...</a><br /></td></tr>
 <tr class="separator:ga96a80c6de3b63fd1333407ba2ac5d1d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>Initialization and Configuration functions. </p>
+<pre class="fragment">  ==============================================================================
+              ##### Initialization and de_initialization functions #####
+  ==============================================================================
+  [..]  
+    This section provides functions allowing to:
+    (+) Initialize and configure the FMC PCCARD interface
+    (+) De-initialize the FMC PCCARD interface 
+    (+) Configure the FMC clock and associated GPIOs</pre> <h2 class="groupheader">Function Documentation</h2>
+<a id="ga7cc7e01f7007b9a3a5acd4de4354fec6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7cc7e01f7007b9a3a5acd4de4354fec6">&#9670;&nbsp;</a></span>FMC_PCCARD_AttributeSpace_Timing_Init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef FMC_PCCARD_AttributeSpace_Timing_Init </td>
+          <td>(</td>
+          <td class="paramtype">FMC_PCCARD_TypeDef *&#160;</td>
+          <td class="paramname"><em>Device</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_f_m_c___n_a_n_d___p_c_c___timing_type_def.html">FMC_NAND_PCC_TimingTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>Timing</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initializes the FMC_PCCARD Attribute space Timing according to the specified parameters in the <a class="el" href="struct_f_m_c___n_a_n_d___p_c_c___timing_type_def.html" title="FMC NAND/PCCARD Timing parameters structure definition.">FMC_NAND_PCC_TimingTypeDef</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Device</td><td>Pointer to PCCARD device instance </td></tr>
+    <tr><td class="paramname">Timing</td><td>Pointer to PCCARD timing structure</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga494dcd82d750f10c6b297a69eba300bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga494dcd82d750f10c6b297a69eba300bd">&#9670;&nbsp;</a></span>FMC_PCCARD_CommonSpace_Timing_Init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef FMC_PCCARD_CommonSpace_Timing_Init </td>
+          <td>(</td>
+          <td class="paramtype">FMC_PCCARD_TypeDef *&#160;</td>
+          <td class="paramname"><em>Device</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_f_m_c___n_a_n_d___p_c_c___timing_type_def.html">FMC_NAND_PCC_TimingTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>Timing</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initializes the FMC_PCCARD Common space Timing according to the specified parameters in the <a class="el" href="struct_f_m_c___n_a_n_d___p_c_c___timing_type_def.html" title="FMC NAND/PCCARD Timing parameters structure definition.">FMC_NAND_PCC_TimingTypeDef</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Device</td><td>Pointer to PCCARD device instance </td></tr>
+    <tr><td class="paramname">Timing</td><td>Pointer to PCCARD timing structure </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga96a80c6de3b63fd1333407ba2ac5d1d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga96a80c6de3b63fd1333407ba2ac5d1d6">&#9670;&nbsp;</a></span>FMC_PCCARD_DeInit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef FMC_PCCARD_DeInit </td>
+          <td>(</td>
+          <td class="paramtype">FMC_PCCARD_TypeDef *&#160;</td>
+          <td class="paramname"><em>Device</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>DeInitializes the FMC_PCCARD device. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Device</td><td>Pointer to PCCARD device instance </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gafdd8175d388c6214b6412ee7d2e5ca38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gafdd8175d388c6214b6412ee7d2e5ca38">&#9670;&nbsp;</a></span>FMC_PCCARD_Init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef FMC_PCCARD_Init </td>
+          <td>(</td>
+          <td class="paramtype">FMC_PCCARD_TypeDef *&#160;</td>
+          <td class="paramname"><em>Device</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_f_m_c___p_c_c_a_r_d___init_type_def.html">FMC_PCCARD_InitTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>Init</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initializes the FMC_PCCARD device according to the specified control parameters in the FMC_PCCARD_HandleTypeDef. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Device</td><td>Pointer to PCCARD device instance </td></tr>
+    <tr><td class="paramname">Init</td><td>Pointer to PCCARD Initialization structure</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaff524eff07c8a8bca71ebf511dc4a2fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaff524eff07c8a8bca71ebf511dc4a2fd">&#9670;&nbsp;</a></span>FMC_PCCARD_IOSpace_Timing_Init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef FMC_PCCARD_IOSpace_Timing_Init </td>
+          <td>(</td>
+          <td class="paramtype">FMC_PCCARD_TypeDef *&#160;</td>
+          <td class="paramname"><em>Device</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_f_m_c___n_a_n_d___p_c_c___timing_type_def.html">FMC_NAND_PCC_TimingTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>Timing</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initializes the FMC_PCCARD IO space Timing according to the specified parameters in the <a class="el" href="struct_f_m_c___n_a_n_d___p_c_c___timing_type_def.html" title="FMC NAND/PCCARD Timing parameters structure definition.">FMC_NAND_PCC_TimingTypeDef</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Device</td><td>Pointer to PCCARD device instance </td></tr>
+    <tr><td class="paramname">Timing</td><td>Pointer to PCCARD timing structure</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

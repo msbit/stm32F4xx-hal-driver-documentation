@@ -64,50 +64,433 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">MultiChannel operation functions<div class="ingroups"><a class="el" href="group___d_f_s_d_m___exported___functions.html">DFSDM Exported Functions</a></div></div>  </div>
+<div class="title">MultiChannel operation functions<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___d_f_s_d_m.html">DFSDM</a> &raquo; <a class="el" href="group___d_f_s_d_m___exported___functions.html">DFSDM Exported Functions</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Filter state functions.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gae7404913aca546586ada74f489082f5e"><td class="memItemLeft" align="right" valign="top"><a id="gae7404913aca546586ada74f489082f5e"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DFSDM_ConfigMultiChannelDelay</b> (<a class="el" href="struct_d_f_s_d_m___multi_channel_config_type_def.html">DFSDM_MultiChannelConfigTypeDef</a> *mchdlystruct)</td></tr>
+<tr class="memitem:gae7404913aca546586ada74f489082f5e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_f_s_d_m___exported___functions___group5___filter.html#gae7404913aca546586ada74f489082f5e">HAL_DFSDM_ConfigMultiChannelDelay</a> (<a class="el" href="struct_d_f_s_d_m___multi_channel_config_type_def.html">DFSDM_MultiChannelConfigTypeDef</a> *mchdlystruct)</td></tr>
+<tr class="memdesc:gae7404913aca546586ada74f489082f5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configure multi channel delay block: Use DFSDM2 audio clock source as input clock for DFSDM1 and DFSDM2 filters to Synchronize DFSDMx filters. Set the path of the DFSDM2 clock output (dfsdm2_ckout) to the DFSDM1/2 CkInx and data inputs channels by configuring following MCHDLY muxes or demuxes: M1, M2, M3, M4, M5, M6, M7, M8, DM1, DM2, DM3, DM4, DM5, DM6, M9, M10, M11, M12, M13, M14, M15, M16, M17, M18, M19, M20 based on the contains of the <a class="el" href="struct_d_f_s_d_m___multi_channel_config_type_def.html" title="Synchronization parameters structure definition for STM32F413xx/STM32F423xx devices.">DFSDM_MultiChannelConfigTypeDef</a> structure.  <a href="#gae7404913aca546586ada74f489082f5e">More...</a><br /></td></tr>
 <tr class="separator:gae7404913aca546586ada74f489082f5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5c4efe9470b4cd08fe6cfddb090fe613"><td class="memItemLeft" align="right" valign="top"><a id="ga5c4efe9470b4cd08fe6cfddb090fe613"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DFSDM_BitstreamClock_Start</b> (void)</td></tr>
+<tr class="memitem:ga5c4efe9470b4cd08fe6cfddb090fe613"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_f_s_d_m___exported___functions___group5___filter.html#ga5c4efe9470b4cd08fe6cfddb090fe613">HAL_DFSDM_BitstreamClock_Start</a> (void)</td></tr>
+<tr class="memdesc:ga5c4efe9470b4cd08fe6cfddb090fe613"><td class="mdescLeft">&#160;</td><td class="mdescRight">Select the DFSDM2 as clock source for the bitstream clock.  <a href="#ga5c4efe9470b4cd08fe6cfddb090fe613">More...</a><br /></td></tr>
 <tr class="separator:ga5c4efe9470b4cd08fe6cfddb090fe613"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf2aeaac74d3837078bdb0708c81f0754"><td class="memItemLeft" align="right" valign="top"><a id="gaf2aeaac74d3837078bdb0708c81f0754"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DFSDM_BitstreamClock_Stop</b> (void)</td></tr>
+<tr class="memitem:gaf2aeaac74d3837078bdb0708c81f0754"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_f_s_d_m___exported___functions___group5___filter.html#gaf2aeaac74d3837078bdb0708c81f0754">HAL_DFSDM_BitstreamClock_Stop</a> (void)</td></tr>
+<tr class="memdesc:gaf2aeaac74d3837078bdb0708c81f0754"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stop the DFSDM2 as clock source for the bitstream clock.  <a href="#gaf2aeaac74d3837078bdb0708c81f0754">More...</a><br /></td></tr>
 <tr class="separator:gaf2aeaac74d3837078bdb0708c81f0754"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf9d8170b00c334c295be7d52ea3c9bf1"><td class="memItemLeft" align="right" valign="top"><a id="gaf9d8170b00c334c295be7d52ea3c9bf1"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DFSDM_DisableDelayClock</b> (uint32_t MCHDLY)</td></tr>
+<tr class="memitem:gaf9d8170b00c334c295be7d52ea3c9bf1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_f_s_d_m___exported___functions___group5___filter.html#gaf9d8170b00c334c295be7d52ea3c9bf1">HAL_DFSDM_DisableDelayClock</a> (uint32_t MCHDLY)</td></tr>
+<tr class="memdesc:gaf9d8170b00c334c295be7d52ea3c9bf1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disable Delay Clock for DFSDM1/2.  <a href="#gaf9d8170b00c334c295be7d52ea3c9bf1">More...</a><br /></td></tr>
 <tr class="separator:gaf9d8170b00c334c295be7d52ea3c9bf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga974eff75c8b887d0d12fe0ca809a398d"><td class="memItemLeft" align="right" valign="top"><a id="ga974eff75c8b887d0d12fe0ca809a398d"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DFSDM_EnableDelayClock</b> (uint32_t MCHDLY)</td></tr>
+<tr class="memitem:ga974eff75c8b887d0d12fe0ca809a398d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_f_s_d_m___exported___functions___group5___filter.html#ga974eff75c8b887d0d12fe0ca809a398d">HAL_DFSDM_EnableDelayClock</a> (uint32_t MCHDLY)</td></tr>
+<tr class="memdesc:ga974eff75c8b887d0d12fe0ca809a398d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable Delay Clock for DFSDM1/2.  <a href="#ga974eff75c8b887d0d12fe0ca809a398d">More...</a><br /></td></tr>
 <tr class="separator:ga974eff75c8b887d0d12fe0ca809a398d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6cbb75223a0f9cf5046cb78f0e8f6314"><td class="memItemLeft" align="right" valign="top"><a id="ga6cbb75223a0f9cf5046cb78f0e8f6314"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DFSDM_ClockIn_SourceSelection</b> (uint32_t source)</td></tr>
+<tr class="memitem:ga6cbb75223a0f9cf5046cb78f0e8f6314"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_f_s_d_m___exported___functions___group5___filter.html#ga6cbb75223a0f9cf5046cb78f0e8f6314">HAL_DFSDM_ClockIn_SourceSelection</a> (uint32_t source)</td></tr>
+<tr class="memdesc:ga6cbb75223a0f9cf5046cb78f0e8f6314"><td class="mdescLeft">&#160;</td><td class="mdescRight">Select the source for CKin signals for DFSDM1/2.  <a href="#ga6cbb75223a0f9cf5046cb78f0e8f6314">More...</a><br /></td></tr>
 <tr class="separator:ga6cbb75223a0f9cf5046cb78f0e8f6314"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga3e3ff7345f3d8ea692b22319061e7299"><td class="memItemLeft" align="right" valign="top"><a id="ga3e3ff7345f3d8ea692b22319061e7299"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DFSDM_ClockOut_SourceSelection</b> (uint32_t source)</td></tr>
+<tr class="memitem:ga3e3ff7345f3d8ea692b22319061e7299"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_f_s_d_m___exported___functions___group5___filter.html#ga3e3ff7345f3d8ea692b22319061e7299">HAL_DFSDM_ClockOut_SourceSelection</a> (uint32_t source)</td></tr>
+<tr class="memdesc:ga3e3ff7345f3d8ea692b22319061e7299"><td class="mdescLeft">&#160;</td><td class="mdescRight">Select the source for CKOut signals for DFSDM1/2.  <a href="#ga3e3ff7345f3d8ea692b22319061e7299">More...</a><br /></td></tr>
 <tr class="separator:ga3e3ff7345f3d8ea692b22319061e7299"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab7e36d074da3c9ab25fd47da4756d91c"><td class="memItemLeft" align="right" valign="top"><a id="gab7e36d074da3c9ab25fd47da4756d91c"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DFSDM_DataIn0_SourceSelection</b> (uint32_t source)</td></tr>
+<tr class="memitem:gab7e36d074da3c9ab25fd47da4756d91c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_f_s_d_m___exported___functions___group5___filter.html#gab7e36d074da3c9ab25fd47da4756d91c">HAL_DFSDM_DataIn0_SourceSelection</a> (uint32_t source)</td></tr>
+<tr class="memdesc:gab7e36d074da3c9ab25fd47da4756d91c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Select the source for DataIn0 signals for DFSDM1/2.  <a href="#gab7e36d074da3c9ab25fd47da4756d91c">More...</a><br /></td></tr>
 <tr class="separator:gab7e36d074da3c9ab25fd47da4756d91c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2e6beeeb425e29d1a950b371e81e78fd"><td class="memItemLeft" align="right" valign="top"><a id="ga2e6beeeb425e29d1a950b371e81e78fd"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DFSDM_DataIn2_SourceSelection</b> (uint32_t source)</td></tr>
+<tr class="memitem:ga2e6beeeb425e29d1a950b371e81e78fd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_f_s_d_m___exported___functions___group5___filter.html#ga2e6beeeb425e29d1a950b371e81e78fd">HAL_DFSDM_DataIn2_SourceSelection</a> (uint32_t source)</td></tr>
+<tr class="memdesc:ga2e6beeeb425e29d1a950b371e81e78fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Select the source for DataIn2 signals for DFSDM1/2.  <a href="#ga2e6beeeb425e29d1a950b371e81e78fd">More...</a><br /></td></tr>
 <tr class="separator:ga2e6beeeb425e29d1a950b371e81e78fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gacd85e4e7b40dd84b5b0b1266e5908fe9"><td class="memItemLeft" align="right" valign="top"><a id="gacd85e4e7b40dd84b5b0b1266e5908fe9"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DFSDM_DataIn4_SourceSelection</b> (uint32_t source)</td></tr>
+<tr class="memitem:gacd85e4e7b40dd84b5b0b1266e5908fe9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_f_s_d_m___exported___functions___group5___filter.html#gacd85e4e7b40dd84b5b0b1266e5908fe9">HAL_DFSDM_DataIn4_SourceSelection</a> (uint32_t source)</td></tr>
+<tr class="memdesc:gacd85e4e7b40dd84b5b0b1266e5908fe9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Select the source for DataIn4 signals for DFSDM2.  <a href="#gacd85e4e7b40dd84b5b0b1266e5908fe9">More...</a><br /></td></tr>
 <tr class="separator:gacd85e4e7b40dd84b5b0b1266e5908fe9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gadd3eee1ffd47d855d8488fa2fbbebc23"><td class="memItemLeft" align="right" valign="top"><a id="gadd3eee1ffd47d855d8488fa2fbbebc23"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DFSDM_DataIn6_SourceSelection</b> (uint32_t source)</td></tr>
+<tr class="memitem:gadd3eee1ffd47d855d8488fa2fbbebc23"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_f_s_d_m___exported___functions___group5___filter.html#gadd3eee1ffd47d855d8488fa2fbbebc23">HAL_DFSDM_DataIn6_SourceSelection</a> (uint32_t source)</td></tr>
+<tr class="memdesc:gadd3eee1ffd47d855d8488fa2fbbebc23"><td class="mdescLeft">&#160;</td><td class="mdescRight">Select the source for DataIn6 signals for DFSDM2.  <a href="#gadd3eee1ffd47d855d8488fa2fbbebc23">More...</a><br /></td></tr>
 <tr class="separator:gadd3eee1ffd47d855d8488fa2fbbebc23"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0cf4fdd4bdf6b45b87bdf799d93ce5c4"><td class="memItemLeft" align="right" valign="top"><a id="ga0cf4fdd4bdf6b45b87bdf799d93ce5c4"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DFSDM_BitStreamClkDistribution_Config</b> (uint32_t source)</td></tr>
+<tr class="memitem:ga0cf4fdd4bdf6b45b87bdf799d93ce5c4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_f_s_d_m___exported___functions___group5___filter.html#ga0cf4fdd4bdf6b45b87bdf799d93ce5c4">HAL_DFSDM_BitStreamClkDistribution_Config</a> (uint32_t source)</td></tr>
+<tr class="memdesc:ga0cf4fdd4bdf6b45b87bdf799d93ce5c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configure the distribution of the bitstream clock gated from TIM4_OC for DFSDM1 or TIM3_OC for DFSDM2.  <a href="#ga0cf4fdd4bdf6b45b87bdf799d93ce5c4">More...</a><br /></td></tr>
 <tr class="separator:ga0cf4fdd4bdf6b45b87bdf799d93ce5c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>Filter state functions. </p>
+<pre class="fragment">  ==============================================================================
+                     ##### Filter MultiChannel operation functions #####
+  ==============================================================================
+    [..]  This section provides functions allowing to:
+      (+) Control the DFSDM Multi channel delay block
+</pre> <h2 class="groupheader">Function Documentation</h2>
+<a id="ga0cf4fdd4bdf6b45b87bdf799d93ce5c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0cf4fdd4bdf6b45b87bdf799d93ce5c4">&#9670;&nbsp;</a></span>HAL_DFSDM_BitStreamClkDistribution_Config()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HAL_DFSDM_BitStreamClkDistribution_Config </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>source</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Configure the distribution of the bitstream clock gated from TIM4_OC for DFSDM1 or TIM3_OC for DFSDM2. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">source</td><td>DFSDM1_CLKIN0_TIM4OC2 DFSDM1_CLKIN2_TIM4OC2 DFSDM1_CLKIN1_TIM4OC1 DFSDM1_CLKIN3_TIM4OC1 DFSDM2_CLKIN0_TIM3OC4 DFSDM2_CLKIN4_TIM3OC4 DFSDM2_CLKIN1_TIM3OC3 DFSDM2_CLKIN5_TIM3OC3 DFSDM2_CLKIN2_TIM3OC2 DFSDM2_CLKIN6_TIM3OC2 DFSDM2_CLKIN3_TIM3OC1 DFSDM2_CLKIN7_TIM3OC1 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga5c4efe9470b4cd08fe6cfddb090fe613"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5c4efe9470b4cd08fe6cfddb090fe613">&#9670;&nbsp;</a></span>HAL_DFSDM_BitstreamClock_Start()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HAL_DFSDM_BitstreamClock_Start </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Select the DFSDM2 as clock source for the bitstream clock. </p>
+<dl class="section note"><dt>Note</dt><dd>The SYSCFG clock marco __HAL_RCC_SYSCFG_CLK_ENABLE() must be called before <a class="el" href="group___d_f_s_d_m___exported___functions___group5___filter.html#ga5c4efe9470b4cd08fe6cfddb090fe613" title="Select the DFSDM2 as clock source for the bitstream clock.">HAL_DFSDM_BitstreamClock_Start()</a> </dd></dl>
+
+</div>
+</div>
+<a id="gaf2aeaac74d3837078bdb0708c81f0754"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf2aeaac74d3837078bdb0708c81f0754">&#9670;&nbsp;</a></span>HAL_DFSDM_BitstreamClock_Stop()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HAL_DFSDM_BitstreamClock_Stop </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Stop the DFSDM2 as clock source for the bitstream clock. </p>
+<dl class="section note"><dt>Note</dt><dd>The SYSCFG clock marco __HAL_RCC_SYSCFG_CLK_ENABLE() must be called before <a class="el" href="group___d_f_s_d_m___exported___functions___group5___filter.html#gaf2aeaac74d3837078bdb0708c81f0754" title="Stop the DFSDM2 as clock source for the bitstream clock.">HAL_DFSDM_BitstreamClock_Stop()</a></dd></dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga6cbb75223a0f9cf5046cb78f0e8f6314"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6cbb75223a0f9cf5046cb78f0e8f6314">&#9670;&nbsp;</a></span>HAL_DFSDM_ClockIn_SourceSelection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HAL_DFSDM_ClockIn_SourceSelection </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>source</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Select the source for CKin signals for DFSDM1/2. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">source</td><td>DFSDM2_CKIN_PAD. DFSDM2_CKIN_DM. DFSDM1_CKIN_PAD. DFSDM1_CKIN_DM. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga3e3ff7345f3d8ea692b22319061e7299"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3e3ff7345f3d8ea692b22319061e7299">&#9670;&nbsp;</a></span>HAL_DFSDM_ClockOut_SourceSelection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HAL_DFSDM_ClockOut_SourceSelection </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>source</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Select the source for CKOut signals for DFSDM1/2. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">source</td><td>DFSDM2_CKOUT_DFSDM2. DFSDM2_CKOUT_M27. DFSDM1_CKOUT_DFSDM1. DFSDM1_CKOUT_M27. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gae7404913aca546586ada74f489082f5e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae7404913aca546586ada74f489082f5e">&#9670;&nbsp;</a></span>HAL_DFSDM_ConfigMultiChannelDelay()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HAL_DFSDM_ConfigMultiChannelDelay </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_f_s_d_m___multi_channel_config_type_def.html">DFSDM_MultiChannelConfigTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>mchdlystruct</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Configure multi channel delay block: Use DFSDM2 audio clock source as input clock for DFSDM1 and DFSDM2 filters to Synchronize DFSDMx filters. Set the path of the DFSDM2 clock output (dfsdm2_ckout) to the DFSDM1/2 CkInx and data inputs channels by configuring following MCHDLY muxes or demuxes: M1, M2, M3, M4, M5, M6, M7, M8, DM1, DM2, DM3, DM4, DM5, DM6, M9, M10, M11, M12, M13, M14, M15, M16, M17, M18, M19, M20 based on the contains of the <a class="el" href="struct_d_f_s_d_m___multi_channel_config_type_def.html" title="Synchronization parameters structure definition for STM32F413xx/STM32F423xx devices.">DFSDM_MultiChannelConfigTypeDef</a> structure. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">mchdlystruct</td><td>Structure of multi channel configuration </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>The SYSCFG clock marco __HAL_RCC_SYSCFG_CLK_ENABLE() must be called before <a class="el" href="group___d_f_s_d_m___exported___functions___group5___filter.html#gae7404913aca546586ada74f489082f5e" title="Configure multi channel delay block: Use DFSDM2 audio clock source as input clock for DFSDM1 and DFSD...">HAL_DFSDM_ConfigMultiChannelDelay()</a> </dd>
+<dd>
+The <a class="el" href="group___d_f_s_d_m___exported___functions___group5___filter.html#gae7404913aca546586ada74f489082f5e" title="Configure multi channel delay block: Use DFSDM2 audio clock source as input clock for DFSDM1 and DFSD...">HAL_DFSDM_ConfigMultiChannelDelay()</a> function clears the SYSCFG-MCHDLYCR register before setting the new configuration. </dd></dl>
+
+</div>
+</div>
+<a id="gab7e36d074da3c9ab25fd47da4756d91c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab7e36d074da3c9ab25fd47da4756d91c">&#9670;&nbsp;</a></span>HAL_DFSDM_DataIn0_SourceSelection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HAL_DFSDM_DataIn0_SourceSelection </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>source</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Select the source for DataIn0 signals for DFSDM1/2. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">source</td><td>DATAIN0_DFSDM2_PAD. DATAIN0_DFSDM2_DATAIN1. DATAIN0_DFSDM1_PAD. DATAIN0_DFSDM1_DATAIN1.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga2e6beeeb425e29d1a950b371e81e78fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2e6beeeb425e29d1a950b371e81e78fd">&#9670;&nbsp;</a></span>HAL_DFSDM_DataIn2_SourceSelection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HAL_DFSDM_DataIn2_SourceSelection </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>source</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Select the source for DataIn2 signals for DFSDM1/2. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">source</td><td>DATAIN2_DFSDM2_PAD. DATAIN2_DFSDM2_DATAIN3. DATAIN2_DFSDM1_PAD. DATAIN2_DFSDM1_DATAIN3. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gacd85e4e7b40dd84b5b0b1266e5908fe9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gacd85e4e7b40dd84b5b0b1266e5908fe9">&#9670;&nbsp;</a></span>HAL_DFSDM_DataIn4_SourceSelection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HAL_DFSDM_DataIn4_SourceSelection </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>source</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Select the source for DataIn4 signals for DFSDM2. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">source</td><td>DATAIN4_DFSDM2_PAD. DATAIN4_DFSDM2_DATAIN5 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gadd3eee1ffd47d855d8488fa2fbbebc23"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gadd3eee1ffd47d855d8488fa2fbbebc23">&#9670;&nbsp;</a></span>HAL_DFSDM_DataIn6_SourceSelection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HAL_DFSDM_DataIn6_SourceSelection </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>source</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Select the source for DataIn6 signals for DFSDM2. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">source</td><td>DATAIN6_DFSDM2_PAD. DATAIN6_DFSDM2_DATAIN7. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaf9d8170b00c334c295be7d52ea3c9bf1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf9d8170b00c334c295be7d52ea3c9bf1">&#9670;&nbsp;</a></span>HAL_DFSDM_DisableDelayClock()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HAL_DFSDM_DisableDelayClock </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>MCHDLY</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Disable Delay Clock for DFSDM1/2. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">MCHDLY</td><td>HAL_MCHDLY_CLOCK_DFSDM2. HAL_MCHDLY_CLOCK_DFSDM1. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>The SYSCFG clock marco __HAL_RCC_SYSCFG_CLK_ENABLE() must be called before <a class="el" href="group___d_f_s_d_m___exported___functions___group5___filter.html#gaf9d8170b00c334c295be7d52ea3c9bf1" title="Disable Delay Clock for DFSDM1/2.">HAL_DFSDM_DisableDelayClock()</a></dd></dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga974eff75c8b887d0d12fe0ca809a398d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga974eff75c8b887d0d12fe0ca809a398d">&#9670;&nbsp;</a></span>HAL_DFSDM_EnableDelayClock()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HAL_DFSDM_EnableDelayClock </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>MCHDLY</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Enable Delay Clock for DFSDM1/2. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">MCHDLY</td><td>HAL_MCHDLY_CLOCK_DFSDM2. HAL_MCHDLY_CLOCK_DFSDM1. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>The SYSCFG clock marco __HAL_RCC_SYSCFG_CLK_ENABLE() must be called before <a class="el" href="group___d_f_s_d_m___exported___functions___group5___filter.html#ga974eff75c8b887d0d12fe0ca809a398d" title="Enable Delay Clock for DFSDM1/2.">HAL_DFSDM_EnableDelayClock()</a></dd></dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

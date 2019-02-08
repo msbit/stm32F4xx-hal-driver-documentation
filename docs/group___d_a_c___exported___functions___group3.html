@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.15"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>STM32F4xx_HAL_Driver: DAC_Exported_Functions_Group3</title>
+<title>STM32F4xx_HAL_Driver: Peripheral Control functions</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,20 +64,150 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">DAC_Exported_Functions_Group3<div class="ingroups"><a class="el" href="group___d_a_c___exported___functions.html">DAC_Exported_Functions</a></div></div>  </div>
+<div class="title">Peripheral Control functions<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___d_a_c.html">DAC</a> &raquo; <a class="el" href="group___d_a_c___exported___functions.html">DAC Exported Functions</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Peripheral Control functions.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gad03e7bc4c7ab31da9d2812e403348c49"><td class="memItemLeft" align="right" valign="top"><a id="gad03e7bc4c7ab31da9d2812e403348c49"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DAC_ConfigChannel</b> (<a class="el" href="struct_d_a_c___handle_type_def.html">DAC_HandleTypeDef</a> *hdac, <a class="el" href="struct_d_a_c___channel_conf_type_def.html">DAC_ChannelConfTypeDef</a> *sConfig, uint32_t Channel)</td></tr>
+<tr class="memitem:gad03e7bc4c7ab31da9d2812e403348c49"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_a_c___exported___functions___group3.html#gad03e7bc4c7ab31da9d2812e403348c49">HAL_DAC_ConfigChannel</a> (<a class="el" href="struct_d_a_c___handle_type_def.html">DAC_HandleTypeDef</a> *hdac, <a class="el" href="struct_d_a_c___channel_conf_type_def.html">DAC_ChannelConfTypeDef</a> *sConfig, uint32_t Channel)</td></tr>
+<tr class="memdesc:gad03e7bc4c7ab31da9d2812e403348c49"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configures the selected DAC channel.  <a href="#gad03e7bc4c7ab31da9d2812e403348c49">More...</a><br /></td></tr>
 <tr class="separator:gad03e7bc4c7ab31da9d2812e403348c49"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5a5a57f36316e094f0a5d6721690a67e"><td class="memItemLeft" align="right" valign="top"><a id="ga5a5a57f36316e094f0a5d6721690a67e"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DAC_SetValue</b> (<a class="el" href="struct_d_a_c___handle_type_def.html">DAC_HandleTypeDef</a> *hdac, uint32_t Channel, uint32_t Alignment, uint32_t Data)</td></tr>
+<tr class="memitem:ga5a5a57f36316e094f0a5d6721690a67e"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_a_c___exported___functions___group3.html#ga5a5a57f36316e094f0a5d6721690a67e">HAL_DAC_SetValue</a> (<a class="el" href="struct_d_a_c___handle_type_def.html">DAC_HandleTypeDef</a> *hdac, uint32_t Channel, uint32_t Alignment, uint32_t Data)</td></tr>
+<tr class="memdesc:ga5a5a57f36316e094f0a5d6721690a67e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the specified data holding register value for DAC channel.  <a href="#ga5a5a57f36316e094f0a5d6721690a67e">More...</a><br /></td></tr>
 <tr class="separator:ga5a5a57f36316e094f0a5d6721690a67e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>Peripheral Control functions. </p>
+<pre class="fragment">  ==============================================================================
+             ##### Peripheral Control functions #####
+  ==============================================================================  
+    [..]  This section provides functions allowing to:
+      (+) Configure channels. 
+      (+) Set the specified data holding register value for DAC channel.</pre> <h2 class="groupheader">Function Documentation</h2>
+<a id="gad03e7bc4c7ab31da9d2812e403348c49"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad03e7bc4c7ab31da9d2812e403348c49">&#9670;&nbsp;</a></span>HAL_DAC_ConfigChannel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_DAC_ConfigChannel </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_a_c___handle_type_def.html">DAC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdac</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_d_a_c___channel_conf_type_def.html">DAC_ChannelConfTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>sConfig</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Channel</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Configures the selected DAC channel. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdac</td><td>pointer to a <a class="el" href="struct_d_a_c___handle_type_def.html" title="DAC handle Structure definition.">DAC_HandleTypeDef</a> structure that contains the configuration information for the specified DAC. </td></tr>
+    <tr><td class="paramname">sConfig</td><td>DAC configuration structure. </td></tr>
+    <tr><td class="paramname">Channel</td><td>The selected DAC channel. This parameter can be one of the following values: <ul>
+<li>DAC_CHANNEL_1: DAC Channel1 selected </li>
+<li>DAC_CHANNEL_2: DAC Channel2 selected </li>
+</ul>
+</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga5a5a57f36316e094f0a5d6721690a67e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5a5a57f36316e094f0a5d6721690a67e">&#9670;&nbsp;</a></span>HAL_DAC_SetValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_DAC_SetValue </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_a_c___handle_type_def.html">DAC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdac</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Channel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Alignment</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Data</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the specified data holding register value for DAC channel. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdac</td><td>pointer to a <a class="el" href="struct_d_a_c___handle_type_def.html" title="DAC handle Structure definition.">DAC_HandleTypeDef</a> structure that contains the configuration information for the specified DAC. </td></tr>
+    <tr><td class="paramname">Channel</td><td>The selected DAC channel. This parameter can be one of the following values: <ul>
+<li>DAC_CHANNEL_1: DAC Channel1 selected </li>
+<li>DAC_CHANNEL_2: DAC Channel2 selected</li>
+</ul>
+</td></tr>
+    <tr><td class="paramname">Alignment</td><td>Specifies the data alignment. This parameter can be one of the following values: <ul>
+<li>DAC_ALIGN_8B_R: 8bit right data alignment selected </li>
+<li>DAC_ALIGN_12B_L: 12bit left data alignment selected </li>
+<li>DAC_ALIGN_12B_R: 12bit right data alignment selected </li>
+</ul>
+</td></tr>
+    <tr><td class="paramname">Data</td><td>Data to be loaded in the selected data holding register. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

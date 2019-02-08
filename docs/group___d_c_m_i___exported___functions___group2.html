@@ -64,47 +64,372 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">IO operation functions<div class="ingroups"><a class="el" href="group___d_c_m_i___exported___functions.html">DCMI Exported Functions</a></div></div>  </div>
+<div class="title">IO operation functions<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___d_c_m_i.html">DCMI</a> &raquo; <a class="el" href="group___d_c_m_i___exported___functions.html">DCMI Exported Functions</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>IO operation functions.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga8ddabc8f569f28818c489216a3c1e919"><td class="memItemLeft" align="right" valign="top"><a id="ga8ddabc8f569f28818c489216a3c1e919"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DCMI_Start_DMA</b> (<a class="el" href="struct_d_c_m_i___handle_type_def.html">DCMI_HandleTypeDef</a> *hdcmi, uint32_t DCMI_Mode, uint32_t pData, uint32_t Length)</td></tr>
+<tr class="memitem:ga8ddabc8f569f28818c489216a3c1e919"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_c_m_i___exported___functions___group2.html#ga8ddabc8f569f28818c489216a3c1e919">HAL_DCMI_Start_DMA</a> (<a class="el" href="struct_d_c_m_i___handle_type_def.html">DCMI_HandleTypeDef</a> *hdcmi, uint32_t DCMI_Mode, uint32_t pData, uint32_t Length)</td></tr>
+<tr class="memdesc:ga8ddabc8f569f28818c489216a3c1e919"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enables DCMI DMA request and enables DCMI capture.  <a href="#ga8ddabc8f569f28818c489216a3c1e919">More...</a><br /></td></tr>
 <tr class="separator:ga8ddabc8f569f28818c489216a3c1e919"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga75811ac9803909f3586cc1cdb8b16a46"><td class="memItemLeft" align="right" valign="top"><a id="ga75811ac9803909f3586cc1cdb8b16a46"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DCMI_Stop</b> (<a class="el" href="struct_d_c_m_i___handle_type_def.html">DCMI_HandleTypeDef</a> *hdcmi)</td></tr>
+<tr class="memitem:ga75811ac9803909f3586cc1cdb8b16a46"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_c_m_i___exported___functions___group2.html#ga75811ac9803909f3586cc1cdb8b16a46">HAL_DCMI_Stop</a> (<a class="el" href="struct_d_c_m_i___handle_type_def.html">DCMI_HandleTypeDef</a> *hdcmi)</td></tr>
+<tr class="memdesc:ga75811ac9803909f3586cc1cdb8b16a46"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disable DCMI DMA request and Disable DCMI capture.  <a href="#ga75811ac9803909f3586cc1cdb8b16a46">More...</a><br /></td></tr>
 <tr class="separator:ga75811ac9803909f3586cc1cdb8b16a46"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gafe0c2a86f1f3b4a0c5a097f38a38cfb2"><td class="memItemLeft" align="right" valign="top"><a id="gafe0c2a86f1f3b4a0c5a097f38a38cfb2"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DCMI_Suspend</b> (<a class="el" href="struct_d_c_m_i___handle_type_def.html">DCMI_HandleTypeDef</a> *hdcmi)</td></tr>
+<tr class="memitem:gafe0c2a86f1f3b4a0c5a097f38a38cfb2"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_c_m_i___exported___functions___group2.html#gafe0c2a86f1f3b4a0c5a097f38a38cfb2">HAL_DCMI_Suspend</a> (<a class="el" href="struct_d_c_m_i___handle_type_def.html">DCMI_HandleTypeDef</a> *hdcmi)</td></tr>
+<tr class="memdesc:gafe0c2a86f1f3b4a0c5a097f38a38cfb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Suspend DCMI capture.  <a href="#gafe0c2a86f1f3b4a0c5a097f38a38cfb2">More...</a><br /></td></tr>
 <tr class="separator:gafe0c2a86f1f3b4a0c5a097f38a38cfb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gacf58ebb1c14fec3a639fcfc780b6fecb"><td class="memItemLeft" align="right" valign="top"><a id="gacf58ebb1c14fec3a639fcfc780b6fecb"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DCMI_Resume</b> (<a class="el" href="struct_d_c_m_i___handle_type_def.html">DCMI_HandleTypeDef</a> *hdcmi)</td></tr>
+<tr class="memitem:gacf58ebb1c14fec3a639fcfc780b6fecb"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_c_m_i___exported___functions___group2.html#gacf58ebb1c14fec3a639fcfc780b6fecb">HAL_DCMI_Resume</a> (<a class="el" href="struct_d_c_m_i___handle_type_def.html">DCMI_HandleTypeDef</a> *hdcmi)</td></tr>
+<tr class="memdesc:gacf58ebb1c14fec3a639fcfc780b6fecb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resume DCMI capture.  <a href="#gacf58ebb1c14fec3a639fcfc780b6fecb">More...</a><br /></td></tr>
 <tr class="separator:gacf58ebb1c14fec3a639fcfc780b6fecb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gacfc7017f6a67725968f2efa31f5633f0"><td class="memItemLeft" align="right" valign="top"><a id="gacfc7017f6a67725968f2efa31f5633f0"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DCMI_ErrorCallback</b> (<a class="el" href="struct_d_c_m_i___handle_type_def.html">DCMI_HandleTypeDef</a> *hdcmi)</td></tr>
-<tr class="separator:gacfc7017f6a67725968f2efa31f5633f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf3491aa5b82a4f5a8b2ab85fb717bb5d"><td class="memItemLeft" align="right" valign="top"><a id="gaf3491aa5b82a4f5a8b2ab85fb717bb5d"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DCMI_LineEventCallback</b> (<a class="el" href="struct_d_c_m_i___handle_type_def.html">DCMI_HandleTypeDef</a> *hdcmi)</td></tr>
-<tr class="separator:gaf3491aa5b82a4f5a8b2ab85fb717bb5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga3ab7733cab4179da72f2babf5344b828"><td class="memItemLeft" align="right" valign="top"><a id="ga3ab7733cab4179da72f2babf5344b828"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DCMI_FrameEventCallback</b> (<a class="el" href="struct_d_c_m_i___handle_type_def.html">DCMI_HandleTypeDef</a> *hdcmi)</td></tr>
-<tr class="separator:ga3ab7733cab4179da72f2babf5344b828"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7175c4e8555aa828b9c92cb813c3416a"><td class="memItemLeft" align="right" valign="top"><a id="ga7175c4e8555aa828b9c92cb813c3416a"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DCMI_VsyncEventCallback</b> (<a class="el" href="struct_d_c_m_i___handle_type_def.html">DCMI_HandleTypeDef</a> *hdcmi)</td></tr>
-<tr class="separator:ga7175c4e8555aa828b9c92cb813c3416a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad6bc5814938fa96578b0e61dbaa8a518"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_c_m_i___exported___functions___group2.html#gad6bc5814938fa96578b0e61dbaa8a518">HAL_DCMI_ErrorCallback</a> (<a class="el" href="struct_d_c_m_i___handle_type_def.html">DCMI_HandleTypeDef</a> *hdcmi)</td></tr>
+<tr class="memdesc:gad6bc5814938fa96578b0e61dbaa8a518"><td class="mdescLeft">&#160;</td><td class="mdescRight">Error DCMI callback.  <a href="#gad6bc5814938fa96578b0e61dbaa8a518">More...</a><br /></td></tr>
+<tr class="separator:gad6bc5814938fa96578b0e61dbaa8a518"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6b9d1273b4bc8870608c1c3f688d94ef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_c_m_i___exported___functions___group2.html#ga6b9d1273b4bc8870608c1c3f688d94ef">HAL_DCMI_LineEventCallback</a> (<a class="el" href="struct_d_c_m_i___handle_type_def.html">DCMI_HandleTypeDef</a> *hdcmi)</td></tr>
+<tr class="memdesc:ga6b9d1273b4bc8870608c1c3f688d94ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Line Event callback.  <a href="#ga6b9d1273b4bc8870608c1c3f688d94ef">More...</a><br /></td></tr>
+<tr class="separator:ga6b9d1273b4bc8870608c1c3f688d94ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafd05b99a90e255299ce7fd834b5862b7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_c_m_i___exported___functions___group2.html#gafd05b99a90e255299ce7fd834b5862b7">HAL_DCMI_FrameEventCallback</a> (<a class="el" href="struct_d_c_m_i___handle_type_def.html">DCMI_HandleTypeDef</a> *hdcmi)</td></tr>
+<tr class="memdesc:gafd05b99a90e255299ce7fd834b5862b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Frame Event callback.  <a href="#gafd05b99a90e255299ce7fd834b5862b7">More...</a><br /></td></tr>
+<tr class="separator:gafd05b99a90e255299ce7fd834b5862b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7aa9e224d8717bff4b08e2eff3cceaf9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_c_m_i___exported___functions___group2.html#ga7aa9e224d8717bff4b08e2eff3cceaf9">HAL_DCMI_VsyncEventCallback</a> (<a class="el" href="struct_d_c_m_i___handle_type_def.html">DCMI_HandleTypeDef</a> *hdcmi)</td></tr>
+<tr class="memdesc:ga7aa9e224d8717bff4b08e2eff3cceaf9"><td class="mdescLeft">&#160;</td><td class="mdescRight">VSYNC Event callback.  <a href="#ga7aa9e224d8717bff4b08e2eff3cceaf9">More...</a><br /></td></tr>
+<tr class="separator:ga7aa9e224d8717bff4b08e2eff3cceaf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga458732d0338f4e4ab42fa9d1a479088d"><td class="memItemLeft" align="right" valign="top"><a id="ga458732d0338f4e4ab42fa9d1a479088d"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DCMI_VsyncCallback</b> (<a class="el" href="struct_d_c_m_i___handle_type_def.html">DCMI_HandleTypeDef</a> *hdcmi)</td></tr>
 <tr class="separator:ga458732d0338f4e4ab42fa9d1a479088d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga7c1b3199c616d7f5030ffa879d822fa8"><td class="memItemLeft" align="right" valign="top"><a id="ga7c1b3199c616d7f5030ffa879d822fa8"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DCMI_HsyncCallback</b> (<a class="el" href="struct_d_c_m_i___handle_type_def.html">DCMI_HandleTypeDef</a> *hdcmi)</td></tr>
 <tr class="separator:ga7c1b3199c616d7f5030ffa879d822fa8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1906365ca507689d2032fc323cf7d3bf"><td class="memItemLeft" align="right" valign="top"><a id="ga1906365ca507689d2032fc323cf7d3bf"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DCMI_IRQHandler</b> (<a class="el" href="struct_d_c_m_i___handle_type_def.html">DCMI_HandleTypeDef</a> *hdcmi)</td></tr>
+<tr class="memitem:ga1906365ca507689d2032fc323cf7d3bf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_c_m_i___exported___functions___group2.html#ga1906365ca507689d2032fc323cf7d3bf">HAL_DCMI_IRQHandler</a> (<a class="el" href="struct_d_c_m_i___handle_type_def.html">DCMI_HandleTypeDef</a> *hdcmi)</td></tr>
+<tr class="memdesc:ga1906365ca507689d2032fc323cf7d3bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handles DCMI interrupt request.  <a href="#ga1906365ca507689d2032fc323cf7d3bf">More...</a><br /></td></tr>
 <tr class="separator:ga1906365ca507689d2032fc323cf7d3bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>IO operation functions. </p>
+<pre class="fragment"> ===============================================================================
+                      #####  IO operation functions  #####
+ ===============================================================================
+    [..]  This section provides functions allowing to:
+      (+) Configure destination address and data length and
+          Enables DCMI DMA request and enables DCMI capture
+      (+) Stop the DCMI capture.
+      (+) Handles DCMI interrupt request.</pre> <h2 class="groupheader">Function Documentation</h2>
+<a id="gad6bc5814938fa96578b0e61dbaa8a518"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad6bc5814938fa96578b0e61dbaa8a518">&#9670;&nbsp;</a></span>HAL_DCMI_ErrorCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_DCMI_ErrorCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_c_m_i___handle_type_def.html">DCMI_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdcmi</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Error DCMI callback. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdcmi</td><td>pointer to a <a class="el" href="struct_d_c_m_i___handle_type_def.html" title="DCMI handle Structure definition.">DCMI_HandleTypeDef</a> structure that contains the configuration information for DCMI. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gafd05b99a90e255299ce7fd834b5862b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gafd05b99a90e255299ce7fd834b5862b7">&#9670;&nbsp;</a></span>HAL_DCMI_FrameEventCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_DCMI_FrameEventCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_c_m_i___handle_type_def.html">DCMI_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdcmi</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Frame Event callback. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdcmi</td><td>pointer to a <a class="el" href="struct_d_c_m_i___handle_type_def.html" title="DCMI handle Structure definition.">DCMI_HandleTypeDef</a> structure that contains the configuration information for DCMI. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga1906365ca507689d2032fc323cf7d3bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1906365ca507689d2032fc323cf7d3bf">&#9670;&nbsp;</a></span>HAL_DCMI_IRQHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HAL_DCMI_IRQHandler </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_c_m_i___handle_type_def.html">DCMI_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdcmi</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Handles DCMI interrupt request. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdcmi</td><td>pointer to a <a class="el" href="struct_d_c_m_i___handle_type_def.html" title="DCMI handle Structure definition.">DCMI_HandleTypeDef</a> structure that contains the configuration information for the DCMI. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga6b9d1273b4bc8870608c1c3f688d94ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6b9d1273b4bc8870608c1c3f688d94ef">&#9670;&nbsp;</a></span>HAL_DCMI_LineEventCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_DCMI_LineEventCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_c_m_i___handle_type_def.html">DCMI_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdcmi</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Line Event callback. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdcmi</td><td>pointer to a <a class="el" href="struct_d_c_m_i___handle_type_def.html" title="DCMI handle Structure definition.">DCMI_HandleTypeDef</a> structure that contains the configuration information for DCMI. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gacf58ebb1c14fec3a639fcfc780b6fecb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gacf58ebb1c14fec3a639fcfc780b6fecb">&#9670;&nbsp;</a></span>HAL_DCMI_Resume()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_DCMI_Resume </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_c_m_i___handle_type_def.html">DCMI_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdcmi</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Resume DCMI capture. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdcmi</td><td>pointer to a <a class="el" href="struct_d_c_m_i___handle_type_def.html" title="DCMI handle Structure definition.">DCMI_HandleTypeDef</a> structure that contains the configuration information for DCMI. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga8ddabc8f569f28818c489216a3c1e919"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8ddabc8f569f28818c489216a3c1e919">&#9670;&nbsp;</a></span>HAL_DCMI_Start_DMA()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_DCMI_Start_DMA </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_c_m_i___handle_type_def.html">DCMI_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdcmi</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>DCMI_Mode</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>pData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Length</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Enables DCMI DMA request and enables DCMI capture. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdcmi</td><td>pointer to a <a class="el" href="struct_d_c_m_i___handle_type_def.html" title="DCMI handle Structure definition.">DCMI_HandleTypeDef</a> structure that contains the configuration information for DCMI. </td></tr>
+    <tr><td class="paramname">DCMI_Mode</td><td>DCMI capture mode snapshot or continuous grab. </td></tr>
+    <tr><td class="paramname">pData</td><td>The destination memory Buffer address (LCD Frame buffer). </td></tr>
+    <tr><td class="paramname">Length</td><td>The length of capture to be transferred. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga75811ac9803909f3586cc1cdb8b16a46"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga75811ac9803909f3586cc1cdb8b16a46">&#9670;&nbsp;</a></span>HAL_DCMI_Stop()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_DCMI_Stop </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_c_m_i___handle_type_def.html">DCMI_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdcmi</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Disable DCMI DMA request and Disable DCMI capture. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdcmi</td><td>pointer to a <a class="el" href="struct_d_c_m_i___handle_type_def.html" title="DCMI handle Structure definition.">DCMI_HandleTypeDef</a> structure that contains the configuration information for DCMI. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gafe0c2a86f1f3b4a0c5a097f38a38cfb2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gafe0c2a86f1f3b4a0c5a097f38a38cfb2">&#9670;&nbsp;</a></span>HAL_DCMI_Suspend()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_DCMI_Suspend </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_c_m_i___handle_type_def.html">DCMI_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdcmi</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Suspend DCMI capture. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdcmi</td><td>pointer to a <a class="el" href="struct_d_c_m_i___handle_type_def.html" title="DCMI handle Structure definition.">DCMI_HandleTypeDef</a> structure that contains the configuration information for DCMI. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga7aa9e224d8717bff4b08e2eff3cceaf9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7aa9e224d8717bff4b08e2eff3cceaf9">&#9670;&nbsp;</a></span>HAL_DCMI_VsyncEventCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_DCMI_VsyncEventCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_c_m_i___handle_type_def.html">DCMI_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdcmi</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>VSYNC Event callback. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdcmi</td><td>pointer to a <a class="el" href="struct_d_c_m_i___handle_type_def.html" title="DCMI handle Structure definition.">DCMI_HandleTypeDef</a> structure that contains the configuration information for DCMI. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

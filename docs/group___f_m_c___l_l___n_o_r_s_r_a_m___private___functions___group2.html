@@ -64,20 +64,116 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">NOR SRAM Control functions<div class="ingroups"><a class="el" href="group___f_m_c___l_l___private___functions.html">FMC LL Private Functions</a> &raquo; <a class="el" href="group___f_m_c___l_l___n_o_r_s_r_a_m.html">NOR SRAM</a></div></div>  </div>
+<div class="title">NOR SRAM Control functions<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___f_m_c___l_l.html">FMC Low Layer</a> &raquo; <a class="el" href="group___f_m_c___l_l___private___functions.html">FMC LL Private Functions</a> &raquo; <a class="el" href="group___f_m_c___l_l___n_o_r_s_r_a_m.html">NOR SRAM</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>management functions  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gaf65abd6e124e49bf83af3c80b27ad332"><td class="memItemLeft" align="right" valign="top"><a id="gaf65abd6e124e49bf83af3c80b27ad332"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>FMC_NORSRAM_WriteOperation_Enable</b> (FMC_NORSRAM_TypeDef *Device, uint32_t Bank)</td></tr>
+<tr class="memitem:gaf65abd6e124e49bf83af3c80b27ad332"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___f_m_c___l_l___n_o_r_s_r_a_m___private___functions___group2.html#gaf65abd6e124e49bf83af3c80b27ad332">FMC_NORSRAM_WriteOperation_Enable</a> (FMC_NORSRAM_TypeDef *Device, uint32_t Bank)</td></tr>
+<tr class="memdesc:gaf65abd6e124e49bf83af3c80b27ad332"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enables dynamically FMC_NORSRAM write operation.  <a href="#gaf65abd6e124e49bf83af3c80b27ad332">More...</a><br /></td></tr>
 <tr class="separator:gaf65abd6e124e49bf83af3c80b27ad332"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5db03521d17c15b98685cc34540d638d"><td class="memItemLeft" align="right" valign="top"><a id="ga5db03521d17c15b98685cc34540d638d"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>FMC_NORSRAM_WriteOperation_Disable</b> (FMC_NORSRAM_TypeDef *Device, uint32_t Bank)</td></tr>
+<tr class="memitem:ga5db03521d17c15b98685cc34540d638d"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___f_m_c___l_l___n_o_r_s_r_a_m___private___functions___group2.html#ga5db03521d17c15b98685cc34540d638d">FMC_NORSRAM_WriteOperation_Disable</a> (FMC_NORSRAM_TypeDef *Device, uint32_t Bank)</td></tr>
+<tr class="memdesc:ga5db03521d17c15b98685cc34540d638d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disables dynamically FMC_NORSRAM write operation.  <a href="#ga5db03521d17c15b98685cc34540d638d">More...</a><br /></td></tr>
 <tr class="separator:ga5db03521d17c15b98685cc34540d638d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>management functions </p>
+<pre class="fragment">  ==============================================================================
+                      ##### FMC_NORSRAM Control functions #####
+  ==============================================================================  
+  [..]
+    This subsection provides a set of functions allowing to control dynamically
+    the FMC NORSRAM interface.</pre> <h2 class="groupheader">Function Documentation</h2>
+<a id="ga5db03521d17c15b98685cc34540d638d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5db03521d17c15b98685cc34540d638d">&#9670;&nbsp;</a></span>FMC_NORSRAM_WriteOperation_Disable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef FMC_NORSRAM_WriteOperation_Disable </td>
+          <td>(</td>
+          <td class="paramtype">FMC_NORSRAM_TypeDef *&#160;</td>
+          <td class="paramname"><em>Device</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Bank</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Disables dynamically FMC_NORSRAM write operation. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Device</td><td>Pointer to NORSRAM device instance </td></tr>
+    <tr><td class="paramname">Bank</td><td>NORSRAM bank number</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaf65abd6e124e49bf83af3c80b27ad332"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf65abd6e124e49bf83af3c80b27ad332">&#9670;&nbsp;</a></span>FMC_NORSRAM_WriteOperation_Enable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef FMC_NORSRAM_WriteOperation_Enable </td>
+          <td>(</td>
+          <td class="paramtype">FMC_NORSRAM_TypeDef *&#160;</td>
+          <td class="paramname"><em>Device</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Bank</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Enables dynamically FMC_NORSRAM write operation. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Device</td><td>Pointer to NORSRAM device instance </td></tr>
+    <tr><td class="paramname">Bank</td><td>NORSRAM bank number</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

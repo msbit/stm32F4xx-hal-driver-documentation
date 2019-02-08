@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.15"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>STM32F4xx_HAL_Driver: SMARTCARD_Exported_Functions_Group1</title>
+<title>STM32F4xx_HAL_Driver: SmartCard Initialization and de-initialization functions</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,29 +64,205 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">SMARTCARD_Exported_Functions_Group1<div class="ingroups"><a class="el" href="group___s_m_a_r_t_c_a_r_d___exported___functions.html">SMARTCARD_Exported_Functions</a></div></div>  </div>
+<div class="title">SmartCard Initialization and de-initialization functions<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___s_m_a_r_t_c_a_r_d.html">SMARTCARD</a> &raquo; <a class="el" href="group___s_m_a_r_t_c_a_r_d___exported___functions.html">SMARTCARD Exported Functions</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Initialization and Configuration functions.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga95235c14cb192c26cf72bf44ddaaf551"><td class="memItemLeft" align="right" valign="top"><a id="ga95235c14cb192c26cf72bf44ddaaf551"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SMARTCARD_Init</b> (<a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html">SMARTCARD_HandleTypeDef</a> *hsc)</td></tr>
+<tr class="memitem:ga95235c14cb192c26cf72bf44ddaaf551"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_m_a_r_t_c_a_r_d___exported___functions___group1.html#ga95235c14cb192c26cf72bf44ddaaf551">HAL_SMARTCARD_Init</a> (<a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html">SMARTCARD_HandleTypeDef</a> *hsc)</td></tr>
+<tr class="memdesc:ga95235c14cb192c26cf72bf44ddaaf551"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the SmartCard mode according to the specified parameters in the SMARTCARD_InitTypeDef and create the associated handle .  <a href="#ga95235c14cb192c26cf72bf44ddaaf551">More...</a><br /></td></tr>
 <tr class="separator:ga95235c14cb192c26cf72bf44ddaaf551"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga1701fcf5d66117782a06569af1e40077"><td class="memItemLeft" align="right" valign="top"><a id="ga1701fcf5d66117782a06569af1e40077"></a>
 HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SMARTCARD_ReInit</b> (<a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html">SMARTCARD_HandleTypeDef</a> *hsc)</td></tr>
 <tr class="separator:ga1701fcf5d66117782a06569af1e40077"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4b54b33c61b5284adbb7c98760425c2e"><td class="memItemLeft" align="right" valign="top"><a id="ga4b54b33c61b5284adbb7c98760425c2e"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SMARTCARD_DeInit</b> (<a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html">SMARTCARD_HandleTypeDef</a> *hsc)</td></tr>
+<tr class="memitem:ga4b54b33c61b5284adbb7c98760425c2e"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_m_a_r_t_c_a_r_d___exported___functions___group1.html#ga4b54b33c61b5284adbb7c98760425c2e">HAL_SMARTCARD_DeInit</a> (<a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html">SMARTCARD_HandleTypeDef</a> *hsc)</td></tr>
+<tr class="memdesc:ga4b54b33c61b5284adbb7c98760425c2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">DeInitializes the USART SmartCard peripheral.  <a href="#ga4b54b33c61b5284adbb7c98760425c2e">More...</a><br /></td></tr>
 <tr class="separator:ga4b54b33c61b5284adbb7c98760425c2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga13e9aae9f5dd3b332fc8e431596793dc"><td class="memItemLeft" align="right" valign="top"><a id="ga13e9aae9f5dd3b332fc8e431596793dc"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SMARTCARD_MspInit</b> (<a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html">SMARTCARD_HandleTypeDef</a> *hsc)</td></tr>
-<tr class="separator:ga13e9aae9f5dd3b332fc8e431596793dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf8e8fa8ca8058656fdd091880424565a"><td class="memItemLeft" align="right" valign="top"><a id="gaf8e8fa8ca8058656fdd091880424565a"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SMARTCARD_MspDeInit</b> (<a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html">SMARTCARD_HandleTypeDef</a> *hsc)</td></tr>
-<tr class="separator:gaf8e8fa8ca8058656fdd091880424565a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga00075b515c302dc9c7519bf056919680"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_m_a_r_t_c_a_r_d___exported___functions___group1.html#ga00075b515c302dc9c7519bf056919680">HAL_SMARTCARD_MspInit</a> (<a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html">SMARTCARD_HandleTypeDef</a> *hsc)</td></tr>
+<tr class="memdesc:ga00075b515c302dc9c7519bf056919680"><td class="mdescLeft">&#160;</td><td class="mdescRight">SMARTCARD MSP Init.  <a href="#ga00075b515c302dc9c7519bf056919680">More...</a><br /></td></tr>
+<tr class="separator:ga00075b515c302dc9c7519bf056919680"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaccb54eaafd0e1f03f48e50f601ed5403"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_m_a_r_t_c_a_r_d___exported___functions___group1.html#gaccb54eaafd0e1f03f48e50f601ed5403">HAL_SMARTCARD_MspDeInit</a> (<a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html">SMARTCARD_HandleTypeDef</a> *hsc)</td></tr>
+<tr class="memdesc:gaccb54eaafd0e1f03f48e50f601ed5403"><td class="mdescLeft">&#160;</td><td class="mdescRight">SMARTCARD MSP DeInit.  <a href="#gaccb54eaafd0e1f03f48e50f601ed5403">More...</a><br /></td></tr>
+<tr class="separator:gaccb54eaafd0e1f03f48e50f601ed5403"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>Initialization and Configuration functions. </p>
+<pre class="fragment">  ==============================================================================
+              ##### Initialization and Configuration functions #####
+  ==============================================================================
+  [..]
+  This subsection provides a set of functions allowing to initialize the USART 
+  in Smartcard mode.
+  [..]
+  The Smartcard interface is designed to support asynchronous protocol Smartcards as
+  defined in the ISO 7816-3 standard.
+  [..]
+  The USART can provide a clock to the smartcard through the SCLK output.
+  In smartcard mode, SCLK is not associated to the communication but is simply derived 
+  from the internal peripheral input clock through a 5-bit prescaler.
+  [..]
+  (+) For the Smartcard mode only these parameters can be configured:
+      (++) Baud Rate
+      (++) Word Length =&gt; Should be 9 bits (8 bits + parity)
+      (++) Stop Bit
+      (++) Parity: =&gt; Should be enabled
+      (++) USART polarity
+      (++) USART phase
+      (++) USART LastBit
+      (++) Receiver/transmitter modes
+      (++) Prescaler
+      (++) GuardTime
+      (++) NACKState: The Smartcard NACK state
+
+     (+) Recommended SmartCard interface configuration to get the Answer to Reset from the Card:
+        (++) Word Length = 9 Bits
+        (++) 1.5 Stop Bit
+        (++) Even parity
+        (++) BaudRate = 12096 baud
+        (++) Tx and Rx enabled
+  [..]
+  Please refer to the ISO 7816-3 specification for more details.
+
+  [..]
+   (@) It is also possible to choose 0.5 stop bit for receiving but it is recommended 
+       to use 1.5 stop bits for both transmitting and receiving to avoid switching 
+       between the two configurations.
+  [..]
+    The HAL_SMARTCARD_Init() function follows the USART  SmartCard configuration 
+    procedure (details for the procedure are available in reference manual (RM0329)).</pre><p>The SMARTCARD frame format is given in the following table: +----------------------------------------------------------&mdash;+ | M bit | PCE bit | SMARTCARD frame | |------------------&mdash;|------------------------------------&mdash;| | 1 | 1 | | SB | 8 bit data | PB | STB | | +----------------------------------------------------------&mdash;+ </p>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="ga4b54b33c61b5284adbb7c98760425c2e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4b54b33c61b5284adbb7c98760425c2e">&#9670;&nbsp;</a></span>HAL_SMARTCARD_DeInit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_SMARTCARD_DeInit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html">SMARTCARD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hsc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>DeInitializes the USART SmartCard peripheral. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hsc</td><td>pointer to a <a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html" title="SMARTCARD handle Structure definition.">SMARTCARD_HandleTypeDef</a> structure that contains the configuration information for SMARTCARD module. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga95235c14cb192c26cf72bf44ddaaf551"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga95235c14cb192c26cf72bf44ddaaf551">&#9670;&nbsp;</a></span>HAL_SMARTCARD_Init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_SMARTCARD_Init </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html">SMARTCARD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hsc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initializes the SmartCard mode according to the specified parameters in the SMARTCARD_InitTypeDef and create the associated handle . </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hsc</td><td>pointer to a <a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html" title="SMARTCARD handle Structure definition.">SMARTCARD_HandleTypeDef</a> structure that contains the configuration information for SMARTCARD module. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaccb54eaafd0e1f03f48e50f601ed5403"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaccb54eaafd0e1f03f48e50f601ed5403">&#9670;&nbsp;</a></span>HAL_SMARTCARD_MspDeInit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_SMARTCARD_MspDeInit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html">SMARTCARD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hsc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>SMARTCARD MSP DeInit. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hsc</td><td>pointer to a <a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html" title="SMARTCARD handle Structure definition.">SMARTCARD_HandleTypeDef</a> structure that contains the configuration information for SMARTCARD module. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga00075b515c302dc9c7519bf056919680"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga00075b515c302dc9c7519bf056919680">&#9670;&nbsp;</a></span>HAL_SMARTCARD_MspInit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_SMARTCARD_MspInit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html">SMARTCARD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hsc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>SMARTCARD MSP Init. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hsc</td><td>pointer to a <a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html" title="SMARTCARD handle Structure definition.">SMARTCARD_HandleTypeDef</a> structure that contains the configuration information for SMARTCARD module. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

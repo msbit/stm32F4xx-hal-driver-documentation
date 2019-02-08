@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.15"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>STM32F4xx_HAL_Driver: HAL_SDMMC_LL_Group1</title>
+<title>STM32F4xx_HAL_Driver: Initialization de-initialization functions</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,17 +64,68 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">HAL_SDMMC_LL_Group1<div class="ingroups"><a class="el" href="group___s_d_m_m_c___l_l___exported___functions.html">SDMMC_LL_Exported_Functions</a></div></div>  </div>
+<div class="title">Initialization de-initialization functions<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___s_d_m_m_c___l_l.html">SDMMC Low Layer</a> &raquo; <a class="el" href="group___s_d_m_m_c___l_l___exported___functions.html">SDMMC Low Layer Exported Functions</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Initialization and Configuration functions.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga19c1f35bc992e008b4a4bd812561b757"><td class="memItemLeft" align="right" valign="top"><a id="ga19c1f35bc992e008b4a4bd812561b757"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>SDIO_Init</b> (SDIO_TypeDef *SDIOx, SDIO_InitTypeDef Init)</td></tr>
+<tr class="memitem:ga19c1f35bc992e008b4a4bd812561b757"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_a_l___s_d_m_m_c___l_l___group1.html#ga19c1f35bc992e008b4a4bd812561b757">SDIO_Init</a> (SDIO_TypeDef *SDIOx, SDIO_InitTypeDef Init)</td></tr>
+<tr class="memdesc:ga19c1f35bc992e008b4a4bd812561b757"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the SDMMC according to the specified parameters in the SDMMC_InitTypeDef and create the associated handle.  <a href="#ga19c1f35bc992e008b4a4bd812561b757">More...</a><br /></td></tr>
 <tr class="separator:ga19c1f35bc992e008b4a4bd812561b757"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>Initialization and Configuration functions. </p>
+<pre class="fragment"> ===============================================================================
+              ##### Initialization/de-initialization functions #####
+ ===============================================================================
+    [..]  This section provides functions allowing to:</pre> <h2 class="groupheader">Function Documentation</h2>
+<a id="ga19c1f35bc992e008b4a4bd812561b757"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga19c1f35bc992e008b4a4bd812561b757">&#9670;&nbsp;</a></span>SDIO_Init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef SDIO_Init </td>
+          <td>(</td>
+          <td class="paramtype">SDIO_TypeDef *&#160;</td>
+          <td class="paramname"><em>SDIOx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">SDIO_InitTypeDef&#160;</td>
+          <td class="paramname"><em>Init</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initializes the SDMMC according to the specified parameters in the SDMMC_InitTypeDef and create the associated handle. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">SDIOx</td><td>Pointer to SDMMC register base </td></tr>
+    <tr><td class="paramname">Init</td><td>SDMMC initialization structure</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

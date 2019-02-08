@@ -19,6 +19,7 @@ var searchData=
   ['icprescaler',['ICPrescaler',['../struct_t_i_m___i_c___init_type_def.html#a452a4a459b6f7b7c478db032de9b0d72',1,'TIM_IC_InitTypeDef::ICPrescaler()'],['../struct_l_l___t_i_m___i_c___init_type_def.html#af5534080ecbf9d785ef2bcad2d709797',1,'LL_TIM_IC_InitTypeDef::ICPrescaler()']]],
   ['icselection',['ICSelection',['../struct_t_i_m___one_pulse___init_type_def.html#a9e8853f17e85393a869aa2ecb315f030',1,'TIM_OnePulse_InitTypeDef::ICSelection()'],['../struct_t_i_m___i_c___init_type_def.html#aad80556490de79727ba1269c851e9724',1,'TIM_IC_InitTypeDef::ICSelection()']]],
   ['ide',['IDE',['../struct_c_a_n___tx_header_type_def.html#a57cc23f7373e3e4d8c8652b094086397',1,'CAN_TxHeaderTypeDef::IDE()'],['../struct_c_a_n___rx_header_type_def.html#a941be9aac82a07d2327805bbf7e0ebe6',1,'CAN_RxHeaderTypeDef::IDE()']]],
+  ['ifcr',['IFCR',['../struct_d_m_a___base___registers.html#ab1595b4e5c19d77246184a2eba9eabfb',1,'DMA_Base_Registers']]],
   ['imageheight',['ImageHeight',['../struct_l_t_d_c___layer_cfg_type_def.html#adbc3f1cfec95fc69770e00ebbdd29066',1,'LTDC_LayerCfgTypeDef']]],
   ['imagewidth',['ImageWidth',['../struct_l_t_d_c___layer_cfg_type_def.html#adc03b2c4854bf1a68f1c1427a81b21e0',1,'LTDC_LayerCfgTypeDef']]],
   ['in_5fep',['IN_ep',['../struct_p_c_d___handle_type_def.html#a813f976ba137672a3f3b8c716d1acf5d',1,'PCD_HandleTypeDef']]],
@@ -40,5 +41,6 @@ var searchData=
   ['irqhandlerisr',['IrqHandlerISR',['../struct_____i2_s___handle_type_def.html#ac5352bec21daa476d2d993ea15d3b9f5',1,'__I2S_HandleTypeDef']]],
   ['is_5fin',['is_in',['../struct_u_s_b___o_t_g___e_p_type_def.html#aa3749cfe5685c55f9a1113435d171a16',1,'USB_OTG_EPTypeDef']]],
   ['is_5fstall',['is_stall',['../struct_u_s_b___o_t_g___e_p_type_def.html#a3b258b34263f352a3c7dd5dfee31f28f',1,'USB_OTG_EPTypeDef']]],
+  ['isr',['ISR',['../struct_d_m_a___base___registers.html#a4e4bef547b8c61abf0e4989226a1e003',1,'DMA_Base_Registers']]],
   ['itmode',['ITMode',['../struct_a_d_c___analog_w_d_g_conf_type_def.html#ab67703b11dbb0303fb5b56bd328ef06d',1,'ADC_AnalogWDGConfTypeDef']]]
 ];

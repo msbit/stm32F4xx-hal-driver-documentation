@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.15"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>STM32F4xx_HAL_Driver: SPI_Exported_Functions_Group3</title>
+<title>STM32F4xx_HAL_Driver: Peripheral State and Errors functions</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,20 +64,96 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">SPI_Exported_Functions_Group3<div class="ingroups"><a class="el" href="group___s_p_i___exported___functions.html">SPI_Exported_Functions</a></div></div>  </div>
+<div class="title">Peripheral State and Errors functions<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___s_p_i.html">SPI</a> &raquo; <a class="el" href="group___s_p_i___exported___functions.html">SPI Exported Functions</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>SPI control functions.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga4e599e7fac80bb2eb0fd3f1737e50a5e"><td class="memItemLeft" align="right" valign="top"><a id="ga4e599e7fac80bb2eb0fd3f1737e50a5e"></a>
-<a class="el" href="stm32f4xx__hal__spi_8h.html#a8891cb64e76198a860172d94c638c9b4">HAL_SPI_StateTypeDef</a>&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SPI_GetState</b> (<a class="el" href="stm32f4xx__hal__spi_8h.html#ab633e49dd034de2f3a1fe79853d78d18">SPI_HandleTypeDef</a> *hspi)</td></tr>
+<tr class="memitem:ga4e599e7fac80bb2eb0fd3f1737e50a5e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="stm32f4xx__hal__spi_8h.html#a8891cb64e76198a860172d94c638c9b4">HAL_SPI_StateTypeDef</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_p_i___exported___functions___group3.html#ga4e599e7fac80bb2eb0fd3f1737e50a5e">HAL_SPI_GetState</a> (<a class="el" href="stm32f4xx__hal__spi_8h.html#ab633e49dd034de2f3a1fe79853d78d18">SPI_HandleTypeDef</a> *hspi)</td></tr>
+<tr class="memdesc:ga4e599e7fac80bb2eb0fd3f1737e50a5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the SPI handle state.  <a href="#ga4e599e7fac80bb2eb0fd3f1737e50a5e">More...</a><br /></td></tr>
 <tr class="separator:ga4e599e7fac80bb2eb0fd3f1737e50a5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7f4d30dc380760d19ee4c582b91ed7f6"><td class="memItemLeft" align="right" valign="top"><a id="ga7f4d30dc380760d19ee4c582b91ed7f6"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SPI_GetError</b> (<a class="el" href="stm32f4xx__hal__spi_8h.html#ab633e49dd034de2f3a1fe79853d78d18">SPI_HandleTypeDef</a> *hspi)</td></tr>
+<tr class="memitem:ga7f4d30dc380760d19ee4c582b91ed7f6"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_p_i___exported___functions___group3.html#ga7f4d30dc380760d19ee4c582b91ed7f6">HAL_SPI_GetError</a> (<a class="el" href="stm32f4xx__hal__spi_8h.html#ab633e49dd034de2f3a1fe79853d78d18">SPI_HandleTypeDef</a> *hspi)</td></tr>
+<tr class="memdesc:ga7f4d30dc380760d19ee4c582b91ed7f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the SPI error code.  <a href="#ga7f4d30dc380760d19ee4c582b91ed7f6">More...</a><br /></td></tr>
 <tr class="separator:ga7f4d30dc380760d19ee4c582b91ed7f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>SPI control functions. </p>
+<pre class="fragment"> ===============================================================================
+                      ##### Peripheral State and Errors functions #####
+ ===============================================================================
+    [..]
+    This subsection provides a set of functions allowing to control the SPI.
+     (+) HAL_SPI_GetState() API can be helpful to check in run-time the state of the SPI peripheral
+     (+) HAL_SPI_GetError() check in run-time Errors occurring during communication
+</pre> <h2 class="groupheader">Function Documentation</h2>
+<a id="ga7f4d30dc380760d19ee4c582b91ed7f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7f4d30dc380760d19ee4c582b91ed7f6">&#9670;&nbsp;</a></span>HAL_SPI_GetError()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t HAL_SPI_GetError </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="stm32f4xx__hal__spi_8h.html#ab633e49dd034de2f3a1fe79853d78d18">SPI_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hspi</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return the SPI error code. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hspi</td><td>pointer to a SPI_HandleTypeDef structure that contains the configuration information for SPI module. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">SPI</td><td>error code in bitmap format </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga4e599e7fac80bb2eb0fd3f1737e50a5e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4e599e7fac80bb2eb0fd3f1737e50a5e">&#9670;&nbsp;</a></span>HAL_SPI_GetState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="stm32f4xx__hal__spi_8h.html#a8891cb64e76198a860172d94c638c9b4">HAL_SPI_StateTypeDef</a> HAL_SPI_GetState </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="stm32f4xx__hal__spi_8h.html#ab633e49dd034de2f3a1fe79853d78d18">SPI_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hspi</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return the SPI handle state. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hspi</td><td>pointer to a SPI_HandleTypeDef structure that contains the configuration information for SPI module. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">SPI</td><td>state </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

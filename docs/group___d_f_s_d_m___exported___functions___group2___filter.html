@@ -64,20 +64,124 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">Filter control functions<div class="ingroups"><a class="el" href="group___d_f_s_d_m___exported___functions.html">DFSDM Exported Functions</a></div></div>  </div>
+<div class="title">Filter control functions<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___d_f_s_d_m.html">DFSDM</a> &raquo; <a class="el" href="group___d_f_s_d_m___exported___functions.html">DFSDM Exported Functions</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Filter control functions.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga066f14b526efd7bc93e05060018e767a"><td class="memItemLeft" align="right" valign="top"><a id="ga066f14b526efd7bc93e05060018e767a"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DFSDM_FilterConfigRegChannel</b> (<a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *hdfsdm_filter, uint32_t Channel, uint32_t ContinuousMode)</td></tr>
+<tr class="memitem:ga066f14b526efd7bc93e05060018e767a"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_f_s_d_m___exported___functions___group2___filter.html#ga066f14b526efd7bc93e05060018e767a">HAL_DFSDM_FilterConfigRegChannel</a> (<a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *hdfsdm_filter, uint32_t Channel, uint32_t ContinuousMode)</td></tr>
+<tr class="memdesc:ga066f14b526efd7bc93e05060018e767a"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function allows to select channel and to enable/disable continuous mode for regular conversion.  <a href="#ga066f14b526efd7bc93e05060018e767a">More...</a><br /></td></tr>
 <tr class="separator:ga066f14b526efd7bc93e05060018e767a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac63a2ff19eecb217b20a32712df32520"><td class="memItemLeft" align="right" valign="top"><a id="gac63a2ff19eecb217b20a32712df32520"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DFSDM_FilterConfigInjChannel</b> (<a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *hdfsdm_filter, uint32_t Channel)</td></tr>
+<tr class="memitem:gac63a2ff19eecb217b20a32712df32520"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_f_s_d_m___exported___functions___group2___filter.html#gac63a2ff19eecb217b20a32712df32520">HAL_DFSDM_FilterConfigInjChannel</a> (<a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *hdfsdm_filter, uint32_t Channel)</td></tr>
+<tr class="memdesc:gac63a2ff19eecb217b20a32712df32520"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function allows to select channels for injected conversion.  <a href="#gac63a2ff19eecb217b20a32712df32520">More...</a><br /></td></tr>
 <tr class="separator:gac63a2ff19eecb217b20a32712df32520"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>Filter control functions. </p>
+<pre class="fragment">  ==============================================================================
+                    ##### Filter control functions #####
+  ==============================================================================
+    [..]  This section provides functions allowing to:
+      (+) Select channel and enable/disable continuous mode for regular conversion.
+      (+) Select channels for injected conversion.
+</pre> <h2 class="groupheader">Function Documentation</h2>
+<a id="gac63a2ff19eecb217b20a32712df32520"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac63a2ff19eecb217b20a32712df32520">&#9670;&nbsp;</a></span>HAL_DFSDM_FilterConfigInjChannel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_DFSDM_FilterConfigInjChannel </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdfsdm_filter</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Channel</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function allows to select channels for injected conversion. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdfsdm_filter</td><td>DFSDM filter handle. </td></tr>
+    <tr><td class="paramname">Channel</td><td>Channels for injected conversion. This parameter can be a values combination of <a class="el" href="group___d_f_s_d_m___channel___selection.html">DFSDM Channel Selection</a>. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga066f14b526efd7bc93e05060018e767a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga066f14b526efd7bc93e05060018e767a">&#9670;&nbsp;</a></span>HAL_DFSDM_FilterConfigRegChannel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_DFSDM_FilterConfigRegChannel </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdfsdm_filter</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Channel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>ContinuousMode</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function allows to select channel and to enable/disable continuous mode for regular conversion. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdfsdm_filter</td><td>DFSDM filter handle. </td></tr>
+    <tr><td class="paramname">Channel</td><td>Channel for regular conversion. This parameter can be a value of <a class="el" href="group___d_f_s_d_m___channel___selection.html">DFSDM Channel Selection</a>. </td></tr>
+    <tr><td class="paramname">ContinuousMode</td><td>Enable/disable continuous mode for regular conversion. This parameter can be a value of <a class="el" href="group___d_f_s_d_m___continuous_mode.html">DFSDM Continuous Mode</a>. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

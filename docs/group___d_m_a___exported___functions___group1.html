@@ -64,7 +64,7 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">Initialization and de-initialization functions<div class="ingroups"><a class="el" href="group___d_m_a___exported___functions.html">DMA Exported Functions</a></div></div>  </div>
+<div class="title">Initialization and de-initialization functions<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___d_m_a.html">DMA</a> &raquo; <a class="el" href="group___d_m_a___exported___functions.html">DMA Exported Functions</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -73,15 +73,89 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga0fbcb690074233a03f2fa366dc22ff01"><td class="memItemLeft" align="right" valign="top"><a id="ga0fbcb690074233a03f2fa366dc22ff01"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DMA_Init</b> (<a class="el" href="stm32f4xx__hal__dma_8h.html#a41b754a906b86bce54dc79938970138b">DMA_HandleTypeDef</a> *hdma)</td></tr>
+<tr class="memitem:ga0fbcb690074233a03f2fa366dc22ff01"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_m_a___exported___functions___group1.html#ga0fbcb690074233a03f2fa366dc22ff01">HAL_DMA_Init</a> (<a class="el" href="stm32f4xx__hal__dma_8h.html#a41b754a906b86bce54dc79938970138b">DMA_HandleTypeDef</a> *hdma)</td></tr>
+<tr class="memdesc:ga0fbcb690074233a03f2fa366dc22ff01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the DMA according to the specified parameters in the DMA_InitTypeDef and create the associated handle.  <a href="#ga0fbcb690074233a03f2fa366dc22ff01">More...</a><br /></td></tr>
 <tr class="separator:ga0fbcb690074233a03f2fa366dc22ff01"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7bb8587d642da11252a97f5c41c389ef"><td class="memItemLeft" align="right" valign="top"><a id="ga7bb8587d642da11252a97f5c41c389ef"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DMA_DeInit</b> (<a class="el" href="stm32f4xx__hal__dma_8h.html#a41b754a906b86bce54dc79938970138b">DMA_HandleTypeDef</a> *hdma)</td></tr>
+<tr class="memitem:ga7bb8587d642da11252a97f5c41c389ef"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_m_a___exported___functions___group1.html#ga7bb8587d642da11252a97f5c41c389ef">HAL_DMA_DeInit</a> (<a class="el" href="stm32f4xx__hal__dma_8h.html#a41b754a906b86bce54dc79938970138b">DMA_HandleTypeDef</a> *hdma)</td></tr>
+<tr class="memdesc:ga7bb8587d642da11252a97f5c41c389ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">DeInitializes the DMA peripheral.  <a href="#ga7bb8587d642da11252a97f5c41c389ef">More...</a><br /></td></tr>
 <tr class="separator:ga7bb8587d642da11252a97f5c41c389ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>Initialization and de-initialization functions. </p>
+<pre class="fragment"> ===============================================================================
+             ##### Initialization and de-initialization functions  #####
+ ===============================================================================
+    [..]
+    This section provides functions allowing to initialize the DMA Stream source
+    and destination addresses, incrementation and data sizes, transfer direction, 
+    circular/normal mode selection, memory-to-memory mode selection and Stream priority value.
+    [..]
+    The HAL_DMA_Init() function follows the DMA configuration procedures as described in
+    reference manual.</pre> <h2 class="groupheader">Function Documentation</h2>
+<a id="ga7bb8587d642da11252a97f5c41c389ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7bb8587d642da11252a97f5c41c389ef">&#9670;&nbsp;</a></span>HAL_DMA_DeInit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_DMA_DeInit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="stm32f4xx__hal__dma_8h.html#a41b754a906b86bce54dc79938970138b">DMA_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdma</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>DeInitializes the DMA peripheral. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdma</td><td>pointer to a DMA_HandleTypeDef structure that contains the configuration information for the specified DMA Stream.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga0fbcb690074233a03f2fa366dc22ff01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0fbcb690074233a03f2fa366dc22ff01">&#9670;&nbsp;</a></span>HAL_DMA_Init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_DMA_Init </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="stm32f4xx__hal__dma_8h.html#a41b754a906b86bce54dc79938970138b">DMA_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdma</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initialize the DMA according to the specified parameters in the DMA_InitTypeDef and create the associated handle. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdma</td><td>Pointer to a DMA_HandleTypeDef structure that contains the configuration information for the specified DMA Stream.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

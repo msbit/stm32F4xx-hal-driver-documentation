@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.15"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>STM32F4xx_HAL_Driver: CRYP IRQ handler</title>
+<title>STM32F4xx_HAL_Driver: TDES processing functions</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,50 +64,815 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">CRYP IRQ handler<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___c_r_y_p.html">CRYP</a> &raquo; <a class="el" href="group___c_r_y_p___exported___functions.html">CRYP Exported Functions</a></div></div>  </div>
+<div class="title">TDES processing functions<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___c_r_y_p.html">CRYP</a> &raquo; <a class="el" href="group___a_e_s.html">AES</a> &raquo; <a class="el" href="group___c_r_y_p___exported___functions.html">CRYP Exported Functions</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>processing functions.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga26e3d79fb834e93f6fc5e86806f70596"><td class="memItemLeft" align="right" valign="top"><a id="ga26e3d79fb834e93f6fc5e86806f70596"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_CRYP_TDESECB_Encrypt</b> (<a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *hcryp, uint8_t *pPlainData, uint16_t Size, uint8_t *pCypherData, uint32_t Timeout)</td></tr>
+<tr class="memitem:ga26e3d79fb834e93f6fc5e86806f70596"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_r_y_p___exported___functions___group4.html#ga26e3d79fb834e93f6fc5e86806f70596">HAL_CRYP_TDESECB_Encrypt</a> (<a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *hcryp, uint8_t *pPlainData, uint16_t Size, uint8_t *pCypherData, uint32_t Timeout)</td></tr>
+<tr class="memdesc:ga26e3d79fb834e93f6fc5e86806f70596"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the CRYP peripheral in TDES ECB encryption mode then encrypt pPlainData. The cypher data are available in pCypherData.  <a href="#ga26e3d79fb834e93f6fc5e86806f70596">More...</a><br /></td></tr>
 <tr class="separator:ga26e3d79fb834e93f6fc5e86806f70596"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga69e724c2a05fd983cf242a0834674915"><td class="memItemLeft" align="right" valign="top"><a id="ga69e724c2a05fd983cf242a0834674915"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_CRYP_TDESCBC_Encrypt</b> (<a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *hcryp, uint8_t *pPlainData, uint16_t Size, uint8_t *pCypherData, uint32_t Timeout)</td></tr>
+<tr class="memitem:ga69e724c2a05fd983cf242a0834674915"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_r_y_p___exported___functions___group4.html#ga69e724c2a05fd983cf242a0834674915">HAL_CRYP_TDESCBC_Encrypt</a> (<a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *hcryp, uint8_t *pPlainData, uint16_t Size, uint8_t *pCypherData, uint32_t Timeout)</td></tr>
+<tr class="memdesc:ga69e724c2a05fd983cf242a0834674915"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the CRYP peripheral in TDES CBC encryption mode then encrypt pPlainData. The cypher data are available in pCypherData.  <a href="#ga69e724c2a05fd983cf242a0834674915">More...</a><br /></td></tr>
 <tr class="separator:ga69e724c2a05fd983cf242a0834674915"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa44b235eb14dcb515337097686240ec8"><td class="memItemLeft" align="right" valign="top"><a id="gaa44b235eb14dcb515337097686240ec8"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_CRYP_TDESECB_Decrypt</b> (<a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *hcryp, uint8_t *pCypherData, uint16_t Size, uint8_t *pPlainData, uint32_t Timeout)</td></tr>
+<tr class="memitem:gaa44b235eb14dcb515337097686240ec8"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_r_y_p___exported___functions___group4.html#gaa44b235eb14dcb515337097686240ec8">HAL_CRYP_TDESECB_Decrypt</a> (<a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *hcryp, uint8_t *pCypherData, uint16_t Size, uint8_t *pPlainData, uint32_t Timeout)</td></tr>
+<tr class="memdesc:gaa44b235eb14dcb515337097686240ec8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the CRYP peripheral in TDES ECB decryption mode then decrypted pCypherData. The cypher data are available in pPlainData.  <a href="#gaa44b235eb14dcb515337097686240ec8">More...</a><br /></td></tr>
 <tr class="separator:gaa44b235eb14dcb515337097686240ec8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0b40ce37cbef4c134e1171307490fdb3"><td class="memItemLeft" align="right" valign="top"><a id="ga0b40ce37cbef4c134e1171307490fdb3"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_CRYP_TDESCBC_Decrypt</b> (<a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *hcryp, uint8_t *pCypherData, uint16_t Size, uint8_t *pPlainData, uint32_t Timeout)</td></tr>
+<tr class="memitem:ga0b40ce37cbef4c134e1171307490fdb3"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_r_y_p___exported___functions___group4.html#ga0b40ce37cbef4c134e1171307490fdb3">HAL_CRYP_TDESCBC_Decrypt</a> (<a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *hcryp, uint8_t *pCypherData, uint16_t Size, uint8_t *pPlainData, uint32_t Timeout)</td></tr>
+<tr class="memdesc:ga0b40ce37cbef4c134e1171307490fdb3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the CRYP peripheral in TDES CBC decryption mode then decrypted pCypherData. The cypher data are available in pPlainData.  <a href="#ga0b40ce37cbef4c134e1171307490fdb3">More...</a><br /></td></tr>
 <tr class="separator:ga0b40ce37cbef4c134e1171307490fdb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gadcefac9096c0c84f1e5b1685933c886c"><td class="memItemLeft" align="right" valign="top"><a id="gadcefac9096c0c84f1e5b1685933c886c"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_CRYP_TDESECB_Encrypt_IT</b> (<a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *hcryp, uint8_t *pPlainData, uint16_t Size, uint8_t *pCypherData)</td></tr>
+<tr class="memitem:gadcefac9096c0c84f1e5b1685933c886c"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_r_y_p___exported___functions___group4.html#gadcefac9096c0c84f1e5b1685933c886c">HAL_CRYP_TDESECB_Encrypt_IT</a> (<a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *hcryp, uint8_t *pPlainData, uint16_t Size, uint8_t *pCypherData)</td></tr>
+<tr class="memdesc:gadcefac9096c0c84f1e5b1685933c886c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the CRYP peripheral in TDES ECB encryption mode using interrupt.  <a href="#gadcefac9096c0c84f1e5b1685933c886c">More...</a><br /></td></tr>
 <tr class="separator:gadcefac9096c0c84f1e5b1685933c886c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga282c242ecce46c0e672bf643f9a02e32"><td class="memItemLeft" align="right" valign="top"><a id="ga282c242ecce46c0e672bf643f9a02e32"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_CRYP_TDESECB_Decrypt_IT</b> (<a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *hcryp, uint8_t *pCypherData, uint16_t Size, uint8_t *pPlainData)</td></tr>
+<tr class="memitem:ga282c242ecce46c0e672bf643f9a02e32"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_r_y_p___exported___functions___group4.html#ga282c242ecce46c0e672bf643f9a02e32">HAL_CRYP_TDESECB_Decrypt_IT</a> (<a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *hcryp, uint8_t *pCypherData, uint16_t Size, uint8_t *pPlainData)</td></tr>
+<tr class="memdesc:ga282c242ecce46c0e672bf643f9a02e32"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the CRYP peripheral in TDES ECB decryption mode.  <a href="#ga282c242ecce46c0e672bf643f9a02e32">More...</a><br /></td></tr>
 <tr class="separator:ga282c242ecce46c0e672bf643f9a02e32"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaddfedae0a92707e68e1b9627a5f6b88a"><td class="memItemLeft" align="right" valign="top"><a id="gaddfedae0a92707e68e1b9627a5f6b88a"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_CRYP_TDESCBC_Encrypt_IT</b> (<a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *hcryp, uint8_t *pPlainData, uint16_t Size, uint8_t *pCypherData)</td></tr>
+<tr class="memitem:gaddfedae0a92707e68e1b9627a5f6b88a"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_r_y_p___exported___functions___group4.html#gaddfedae0a92707e68e1b9627a5f6b88a">HAL_CRYP_TDESCBC_Encrypt_IT</a> (<a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *hcryp, uint8_t *pPlainData, uint16_t Size, uint8_t *pCypherData)</td></tr>
+<tr class="memdesc:gaddfedae0a92707e68e1b9627a5f6b88a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the CRYP peripheral in TDES CBC encryption mode.  <a href="#gaddfedae0a92707e68e1b9627a5f6b88a">More...</a><br /></td></tr>
 <tr class="separator:gaddfedae0a92707e68e1b9627a5f6b88a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac272af7c9fe1094a38b2797e6729e88a"><td class="memItemLeft" align="right" valign="top"><a id="gac272af7c9fe1094a38b2797e6729e88a"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_CRYP_TDESCBC_Decrypt_IT</b> (<a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *hcryp, uint8_t *pCypherData, uint16_t Size, uint8_t *pPlainData)</td></tr>
+<tr class="memitem:gac272af7c9fe1094a38b2797e6729e88a"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_r_y_p___exported___functions___group4.html#gac272af7c9fe1094a38b2797e6729e88a">HAL_CRYP_TDESCBC_Decrypt_IT</a> (<a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *hcryp, uint8_t *pCypherData, uint16_t Size, uint8_t *pPlainData)</td></tr>
+<tr class="memdesc:gac272af7c9fe1094a38b2797e6729e88a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the CRYP peripheral in TDES CBC decryption mode.  <a href="#gac272af7c9fe1094a38b2797e6729e88a">More...</a><br /></td></tr>
 <tr class="separator:gac272af7c9fe1094a38b2797e6729e88a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1577d6b0e47504bb135cabc87485abe5"><td class="memItemLeft" align="right" valign="top"><a id="ga1577d6b0e47504bb135cabc87485abe5"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_CRYP_TDESECB_Encrypt_DMA</b> (<a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *hcryp, uint8_t *pPlainData, uint16_t Size, uint8_t *pCypherData)</td></tr>
+<tr class="memitem:ga1577d6b0e47504bb135cabc87485abe5"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_r_y_p___exported___functions___group4.html#ga1577d6b0e47504bb135cabc87485abe5">HAL_CRYP_TDESECB_Encrypt_DMA</a> (<a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *hcryp, uint8_t *pPlainData, uint16_t Size, uint8_t *pCypherData)</td></tr>
+<tr class="memdesc:ga1577d6b0e47504bb135cabc87485abe5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the CRYP peripheral in TDES ECB encryption mode using DMA.  <a href="#ga1577d6b0e47504bb135cabc87485abe5">More...</a><br /></td></tr>
 <tr class="separator:ga1577d6b0e47504bb135cabc87485abe5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1dc633b352e223de659bb579aee5f93b"><td class="memItemLeft" align="right" valign="top"><a id="ga1dc633b352e223de659bb579aee5f93b"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_CRYP_TDESECB_Decrypt_DMA</b> (<a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *hcryp, uint8_t *pCypherData, uint16_t Size, uint8_t *pPlainData)</td></tr>
+<tr class="memitem:ga1dc633b352e223de659bb579aee5f93b"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_r_y_p___exported___functions___group4.html#ga1dc633b352e223de659bb579aee5f93b">HAL_CRYP_TDESECB_Decrypt_DMA</a> (<a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *hcryp, uint8_t *pCypherData, uint16_t Size, uint8_t *pPlainData)</td></tr>
+<tr class="memdesc:ga1dc633b352e223de659bb579aee5f93b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the CRYP peripheral in TDES ECB decryption mode using DMA.  <a href="#ga1dc633b352e223de659bb579aee5f93b">More...</a><br /></td></tr>
 <tr class="separator:ga1dc633b352e223de659bb579aee5f93b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf012a9cbda7ffadfa06ab77c23366132"><td class="memItemLeft" align="right" valign="top"><a id="gaf012a9cbda7ffadfa06ab77c23366132"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_CRYP_TDESCBC_Encrypt_DMA</b> (<a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *hcryp, uint8_t *pPlainData, uint16_t Size, uint8_t *pCypherData)</td></tr>
+<tr class="memitem:gaf012a9cbda7ffadfa06ab77c23366132"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_r_y_p___exported___functions___group4.html#gaf012a9cbda7ffadfa06ab77c23366132">HAL_CRYP_TDESCBC_Encrypt_DMA</a> (<a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *hcryp, uint8_t *pPlainData, uint16_t Size, uint8_t *pCypherData)</td></tr>
+<tr class="memdesc:gaf012a9cbda7ffadfa06ab77c23366132"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the CRYP peripheral in TDES CBC encryption mode using DMA.  <a href="#gaf012a9cbda7ffadfa06ab77c23366132">More...</a><br /></td></tr>
 <tr class="separator:gaf012a9cbda7ffadfa06ab77c23366132"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gabc445e270bad1ffbd1cd143eee14e8f2"><td class="memItemLeft" align="right" valign="top"><a id="gabc445e270bad1ffbd1cd143eee14e8f2"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_CRYP_TDESCBC_Decrypt_DMA</b> (<a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *hcryp, uint8_t *pCypherData, uint16_t Size, uint8_t *pPlainData)</td></tr>
+<tr class="memitem:gabc445e270bad1ffbd1cd143eee14e8f2"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_r_y_p___exported___functions___group4.html#gabc445e270bad1ffbd1cd143eee14e8f2">HAL_CRYP_TDESCBC_Decrypt_DMA</a> (<a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *hcryp, uint8_t *pCypherData, uint16_t Size, uint8_t *pPlainData)</td></tr>
+<tr class="memdesc:gabc445e270bad1ffbd1cd143eee14e8f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the CRYP peripheral in TDES CBC decryption mode using DMA.  <a href="#gabc445e270bad1ffbd1cd143eee14e8f2">More...</a><br /></td></tr>
 <tr class="separator:gabc445e270bad1ffbd1cd143eee14e8f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8ea8159f0b3140d39f7304239f70093b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_r_y_p___exported___functions___group4.html#ga8ea8159f0b3140d39f7304239f70093b">HAL_CRYP_IRQHandler</a> (<a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *hcryp)</td></tr>
+<tr class="memdesc:ga8ea8159f0b3140d39f7304239f70093b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle AES interrupt request.  <a href="#ga8ea8159f0b3140d39f7304239f70093b">More...</a><br /></td></tr>
+<tr class="separator:ga8ea8159f0b3140d39f7304239f70093b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>processing functions. </p>
+<p>AES IRQ handler.</p>
+<pre class="fragment">  ==============================================================================
+                      ##### TDES processing functions #####
+  ==============================================================================  
+    [..]  This section provides functions allowing to:
+      (+) Encrypt plaintext using TDES based on ECB or CBC chaining modes
+      (+) Decrypt cyphertext using TDES based on ECB or CBC chaining modes
+    [..]  Three processing functions are available:
+      (+) Polling mode
+      (+) Interrupt mode
+      (+) DMA mode</pre><pre class="fragment">  ==============================================================================
+                ##### AES IRQ handler management #####
+  ==============================================================================  
+[..]  This section provides AES IRQ handler function.</pre> <h2 class="groupheader">Function Documentation</h2>
+<a id="ga8ea8159f0b3140d39f7304239f70093b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8ea8159f0b3140d39f7304239f70093b">&#9670;&nbsp;</a></span>HAL_CRYP_IRQHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HAL_CRYP_IRQHandler </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hcryp</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Handle AES interrupt request. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hcryp</td><td>pointer to a <a class="el" href="struct_c_r_y_p___handle_type_def.html" title="CRYP handle Structure definition.">CRYP_HandleTypeDef</a> structure that contains the configuration information for CRYP module </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga0b40ce37cbef4c134e1171307490fdb3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0b40ce37cbef4c134e1171307490fdb3">&#9670;&nbsp;</a></span>HAL_CRYP_TDESCBC_Decrypt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_CRYP_TDESCBC_Decrypt </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hcryp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pCypherData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>Size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pPlainData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Timeout</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initializes the CRYP peripheral in TDES CBC decryption mode then decrypted pCypherData. The cypher data are available in pPlainData. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hcryp</td><td>pointer to a <a class="el" href="struct_c_r_y_p___handle_type_def.html" title="CRYP handle Structure definition.">CRYP_HandleTypeDef</a> structure that contains the configuration information for CRYP module </td></tr>
+    <tr><td class="paramname">pCypherData</td><td>Pointer to the cyphertext buffer </td></tr>
+    <tr><td class="paramname">Size</td><td>Length of the plaintext buffer, must be a multiple of 8 </td></tr>
+    <tr><td class="paramname">pPlainData</td><td>Pointer to the plaintext buffer </td></tr>
+    <tr><td class="paramname">Timeout</td><td>Specify Timeout value</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gabc445e270bad1ffbd1cd143eee14e8f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabc445e270bad1ffbd1cd143eee14e8f2">&#9670;&nbsp;</a></span>HAL_CRYP_TDESCBC_Decrypt_DMA()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_CRYP_TDESCBC_Decrypt_DMA </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hcryp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pCypherData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>Size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pPlainData</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initializes the CRYP peripheral in TDES CBC decryption mode using DMA. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hcryp</td><td>pointer to a <a class="el" href="struct_c_r_y_p___handle_type_def.html" title="CRYP handle Structure definition.">CRYP_HandleTypeDef</a> structure that contains the configuration information for CRYP module </td></tr>
+    <tr><td class="paramname">pCypherData</td><td>Pointer to the cyphertext buffer </td></tr>
+    <tr><td class="paramname">Size</td><td>Length of the plaintext buffer, must be a multiple of 8 </td></tr>
+    <tr><td class="paramname">pPlainData</td><td>Pointer to the plaintext buffer </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gac272af7c9fe1094a38b2797e6729e88a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac272af7c9fe1094a38b2797e6729e88a">&#9670;&nbsp;</a></span>HAL_CRYP_TDESCBC_Decrypt_IT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_CRYP_TDESCBC_Decrypt_IT </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hcryp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pCypherData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>Size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pPlainData</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initializes the CRYP peripheral in TDES CBC decryption mode. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hcryp</td><td>pointer to a <a class="el" href="struct_c_r_y_p___handle_type_def.html" title="CRYP handle Structure definition.">CRYP_HandleTypeDef</a> structure that contains the configuration information for CRYP module </td></tr>
+    <tr><td class="paramname">pCypherData</td><td>Pointer to the cyphertext buffer </td></tr>
+    <tr><td class="paramname">Size</td><td>Length of the plaintext buffer, must be a multiple of 8 </td></tr>
+    <tr><td class="paramname">pPlainData</td><td>Pointer to the plaintext buffer </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga69e724c2a05fd983cf242a0834674915"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga69e724c2a05fd983cf242a0834674915">&#9670;&nbsp;</a></span>HAL_CRYP_TDESCBC_Encrypt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_CRYP_TDESCBC_Encrypt </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hcryp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pPlainData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>Size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pCypherData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Timeout</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initializes the CRYP peripheral in TDES CBC encryption mode then encrypt pPlainData. The cypher data are available in pCypherData. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hcryp</td><td>pointer to a <a class="el" href="struct_c_r_y_p___handle_type_def.html" title="CRYP handle Structure definition.">CRYP_HandleTypeDef</a> structure that contains the configuration information for CRYP module </td></tr>
+    <tr><td class="paramname">pPlainData</td><td>Pointer to the plaintext buffer </td></tr>
+    <tr><td class="paramname">Size</td><td>Length of the plaintext buffer, must be a multiple of 8 </td></tr>
+    <tr><td class="paramname">pCypherData</td><td>Pointer to the cyphertext buffer </td></tr>
+    <tr><td class="paramname">Timeout</td><td>Specify Timeout value</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaf012a9cbda7ffadfa06ab77c23366132"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf012a9cbda7ffadfa06ab77c23366132">&#9670;&nbsp;</a></span>HAL_CRYP_TDESCBC_Encrypt_DMA()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_CRYP_TDESCBC_Encrypt_DMA </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hcryp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pPlainData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>Size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pCypherData</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initializes the CRYP peripheral in TDES CBC encryption mode using DMA. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hcryp</td><td>pointer to a <a class="el" href="struct_c_r_y_p___handle_type_def.html" title="CRYP handle Structure definition.">CRYP_HandleTypeDef</a> structure that contains the configuration information for CRYP module </td></tr>
+    <tr><td class="paramname">pPlainData</td><td>Pointer to the plaintext buffer </td></tr>
+    <tr><td class="paramname">Size</td><td>Length of the plaintext buffer, must be a multiple of 8 </td></tr>
+    <tr><td class="paramname">pCypherData</td><td>Pointer to the cyphertext buffer </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaddfedae0a92707e68e1b9627a5f6b88a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaddfedae0a92707e68e1b9627a5f6b88a">&#9670;&nbsp;</a></span>HAL_CRYP_TDESCBC_Encrypt_IT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_CRYP_TDESCBC_Encrypt_IT </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hcryp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pPlainData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>Size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pCypherData</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initializes the CRYP peripheral in TDES CBC encryption mode. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hcryp</td><td>pointer to a <a class="el" href="struct_c_r_y_p___handle_type_def.html" title="CRYP handle Structure definition.">CRYP_HandleTypeDef</a> structure that contains the configuration information for CRYP module </td></tr>
+    <tr><td class="paramname">pPlainData</td><td>Pointer to the plaintext buffer </td></tr>
+    <tr><td class="paramname">Size</td><td>Length of the plaintext buffer, must be a multiple of 8 </td></tr>
+    <tr><td class="paramname">pCypherData</td><td>Pointer to the cyphertext buffer </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaa44b235eb14dcb515337097686240ec8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa44b235eb14dcb515337097686240ec8">&#9670;&nbsp;</a></span>HAL_CRYP_TDESECB_Decrypt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_CRYP_TDESECB_Decrypt </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hcryp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pCypherData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>Size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pPlainData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Timeout</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initializes the CRYP peripheral in TDES ECB decryption mode then decrypted pCypherData. The cypher data are available in pPlainData. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hcryp</td><td>pointer to a <a class="el" href="struct_c_r_y_p___handle_type_def.html" title="CRYP handle Structure definition.">CRYP_HandleTypeDef</a> structure that contains the configuration information for CRYP module </td></tr>
+    <tr><td class="paramname">pPlainData</td><td>Pointer to the plaintext buffer </td></tr>
+    <tr><td class="paramname">Size</td><td>Length of the plaintext buffer, must be a multiple of 8 </td></tr>
+    <tr><td class="paramname">pCypherData</td><td>Pointer to the cyphertext buffer </td></tr>
+    <tr><td class="paramname">Timeout</td><td>Specify Timeout value</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga1dc633b352e223de659bb579aee5f93b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1dc633b352e223de659bb579aee5f93b">&#9670;&nbsp;</a></span>HAL_CRYP_TDESECB_Decrypt_DMA()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_CRYP_TDESECB_Decrypt_DMA </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hcryp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pCypherData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>Size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pPlainData</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initializes the CRYP peripheral in TDES ECB decryption mode using DMA. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hcryp</td><td>pointer to a <a class="el" href="struct_c_r_y_p___handle_type_def.html" title="CRYP handle Structure definition.">CRYP_HandleTypeDef</a> structure that contains the configuration information for CRYP module </td></tr>
+    <tr><td class="paramname">pPlainData</td><td>Pointer to the plaintext buffer </td></tr>
+    <tr><td class="paramname">Size</td><td>Length of the plaintext buffer, must be a multiple of 8 </td></tr>
+    <tr><td class="paramname">pCypherData</td><td>Pointer to the cyphertext buffer </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga282c242ecce46c0e672bf643f9a02e32"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga282c242ecce46c0e672bf643f9a02e32">&#9670;&nbsp;</a></span>HAL_CRYP_TDESECB_Decrypt_IT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_CRYP_TDESECB_Decrypt_IT </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hcryp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pCypherData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>Size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pPlainData</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initializes the CRYP peripheral in TDES ECB decryption mode. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hcryp</td><td>pointer to a <a class="el" href="struct_c_r_y_p___handle_type_def.html" title="CRYP handle Structure definition.">CRYP_HandleTypeDef</a> structure that contains the configuration information for CRYP module </td></tr>
+    <tr><td class="paramname">pPlainData</td><td>Pointer to the plaintext buffer </td></tr>
+    <tr><td class="paramname">Size</td><td>Length of the plaintext buffer, must be a multiple of 8 </td></tr>
+    <tr><td class="paramname">pCypherData</td><td>Pointer to the cyphertext buffer </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga26e3d79fb834e93f6fc5e86806f70596"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga26e3d79fb834e93f6fc5e86806f70596">&#9670;&nbsp;</a></span>HAL_CRYP_TDESECB_Encrypt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_CRYP_TDESECB_Encrypt </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hcryp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pPlainData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>Size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pCypherData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Timeout</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initializes the CRYP peripheral in TDES ECB encryption mode then encrypt pPlainData. The cypher data are available in pCypherData. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hcryp</td><td>pointer to a <a class="el" href="struct_c_r_y_p___handle_type_def.html" title="CRYP handle Structure definition.">CRYP_HandleTypeDef</a> structure that contains the configuration information for CRYP module </td></tr>
+    <tr><td class="paramname">pPlainData</td><td>Pointer to the plaintext buffer </td></tr>
+    <tr><td class="paramname">Size</td><td>Length of the plaintext buffer, must be a multiple of 8 </td></tr>
+    <tr><td class="paramname">pCypherData</td><td>Pointer to the cyphertext buffer </td></tr>
+    <tr><td class="paramname">Timeout</td><td>Specify Timeout value</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga1577d6b0e47504bb135cabc87485abe5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1577d6b0e47504bb135cabc87485abe5">&#9670;&nbsp;</a></span>HAL_CRYP_TDESECB_Encrypt_DMA()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_CRYP_TDESECB_Encrypt_DMA </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hcryp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pPlainData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>Size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pCypherData</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initializes the CRYP peripheral in TDES ECB encryption mode using DMA. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hcryp</td><td>pointer to a <a class="el" href="struct_c_r_y_p___handle_type_def.html" title="CRYP handle Structure definition.">CRYP_HandleTypeDef</a> structure that contains the configuration information for CRYP module </td></tr>
+    <tr><td class="paramname">pPlainData</td><td>Pointer to the plaintext buffer </td></tr>
+    <tr><td class="paramname">Size</td><td>Length of the plaintext buffer, must be a multiple of 8 </td></tr>
+    <tr><td class="paramname">pCypherData</td><td>Pointer to the cyphertext buffer </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gadcefac9096c0c84f1e5b1685933c886c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gadcefac9096c0c84f1e5b1685933c886c">&#9670;&nbsp;</a></span>HAL_CRYP_TDESECB_Encrypt_IT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_CRYP_TDESECB_Encrypt_IT </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hcryp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pPlainData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>Size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pCypherData</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initializes the CRYP peripheral in TDES ECB encryption mode using interrupt. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hcryp</td><td>pointer to a <a class="el" href="struct_c_r_y_p___handle_type_def.html" title="CRYP handle Structure definition.">CRYP_HandleTypeDef</a> structure that contains the configuration information for CRYP module </td></tr>
+    <tr><td class="paramname">pPlainData</td><td>Pointer to the plaintext buffer </td></tr>
+    <tr><td class="paramname">Size</td><td>Length of the plaintext buffer, must be a multiple of 8 </td></tr>
+    <tr><td class="paramname">pCypherData</td><td>Pointer to the cyphertext buffer </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

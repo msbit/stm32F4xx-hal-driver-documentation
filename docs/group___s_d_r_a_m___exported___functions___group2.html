@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.15"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>STM32F4xx_HAL_Driver: SDRAM_Exported_Functions_Group2</title>
+<title>STM32F4xx_HAL_Driver: Input and Output functions</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,38 +64,503 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">SDRAM_Exported_Functions_Group2<div class="ingroups"><a class="el" href="group___s_d_r_a_m___exported___functions.html">SDRAM Exported Functions</a></div></div>  </div>
+<div class="title">Input and Output functions<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___s_d_r_a_m.html">SDRAM</a> &raquo; <a class="el" href="group___s_d_r_a_m___exported___functions.html">SDRAM Exported Functions</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Input Output and memory control functions.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga35cca16e3cdbe71a2c213264c9b9bf81"><td class="memItemLeft" align="right" valign="top"><a id="ga35cca16e3cdbe71a2c213264c9b9bf81"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SDRAM_Read_8b</b> (<a class="el" href="struct_s_d_r_a_m___handle_type_def.html">SDRAM_HandleTypeDef</a> *hsdram, uint32_t *pAddress, uint8_t *pDstBuffer, uint32_t BufferSize)</td></tr>
+<tr class="memitem:ga35cca16e3cdbe71a2c213264c9b9bf81"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_d_r_a_m___exported___functions___group2.html#ga35cca16e3cdbe71a2c213264c9b9bf81">HAL_SDRAM_Read_8b</a> (<a class="el" href="struct_s_d_r_a_m___handle_type_def.html">SDRAM_HandleTypeDef</a> *hsdram, uint32_t *pAddress, uint8_t *pDstBuffer, uint32_t BufferSize)</td></tr>
+<tr class="memdesc:ga35cca16e3cdbe71a2c213264c9b9bf81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads 8-bit data buffer from the SDRAM memory.  <a href="#ga35cca16e3cdbe71a2c213264c9b9bf81">More...</a><br /></td></tr>
 <tr class="separator:ga35cca16e3cdbe71a2c213264c9b9bf81"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7f718bd5dc458d80328ffe611b24c602"><td class="memItemLeft" align="right" valign="top"><a id="ga7f718bd5dc458d80328ffe611b24c602"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SDRAM_Write_8b</b> (<a class="el" href="struct_s_d_r_a_m___handle_type_def.html">SDRAM_HandleTypeDef</a> *hsdram, uint32_t *pAddress, uint8_t *pSrcBuffer, uint32_t BufferSize)</td></tr>
+<tr class="memitem:ga7f718bd5dc458d80328ffe611b24c602"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_d_r_a_m___exported___functions___group2.html#ga7f718bd5dc458d80328ffe611b24c602">HAL_SDRAM_Write_8b</a> (<a class="el" href="struct_s_d_r_a_m___handle_type_def.html">SDRAM_HandleTypeDef</a> *hsdram, uint32_t *pAddress, uint8_t *pSrcBuffer, uint32_t BufferSize)</td></tr>
+<tr class="memdesc:ga7f718bd5dc458d80328ffe611b24c602"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes 8-bit data buffer to SDRAM memory.  <a href="#ga7f718bd5dc458d80328ffe611b24c602">More...</a><br /></td></tr>
 <tr class="separator:ga7f718bd5dc458d80328ffe611b24c602"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6205dcc8c3d305ce87833d0c47fbb984"><td class="memItemLeft" align="right" valign="top"><a id="ga6205dcc8c3d305ce87833d0c47fbb984"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SDRAM_Read_16b</b> (<a class="el" href="struct_s_d_r_a_m___handle_type_def.html">SDRAM_HandleTypeDef</a> *hsdram, uint32_t *pAddress, uint16_t *pDstBuffer, uint32_t BufferSize)</td></tr>
+<tr class="memitem:ga6205dcc8c3d305ce87833d0c47fbb984"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_d_r_a_m___exported___functions___group2.html#ga6205dcc8c3d305ce87833d0c47fbb984">HAL_SDRAM_Read_16b</a> (<a class="el" href="struct_s_d_r_a_m___handle_type_def.html">SDRAM_HandleTypeDef</a> *hsdram, uint32_t *pAddress, uint16_t *pDstBuffer, uint32_t BufferSize)</td></tr>
+<tr class="memdesc:ga6205dcc8c3d305ce87833d0c47fbb984"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads 16-bit data buffer from the SDRAM memory.  <a href="#ga6205dcc8c3d305ce87833d0c47fbb984">More...</a><br /></td></tr>
 <tr class="separator:ga6205dcc8c3d305ce87833d0c47fbb984"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gafbd2eeaeb58bc4960a6f1f46829ce4ea"><td class="memItemLeft" align="right" valign="top"><a id="gafbd2eeaeb58bc4960a6f1f46829ce4ea"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SDRAM_Write_16b</b> (<a class="el" href="struct_s_d_r_a_m___handle_type_def.html">SDRAM_HandleTypeDef</a> *hsdram, uint32_t *pAddress, uint16_t *pSrcBuffer, uint32_t BufferSize)</td></tr>
+<tr class="memitem:gafbd2eeaeb58bc4960a6f1f46829ce4ea"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_d_r_a_m___exported___functions___group2.html#gafbd2eeaeb58bc4960a6f1f46829ce4ea">HAL_SDRAM_Write_16b</a> (<a class="el" href="struct_s_d_r_a_m___handle_type_def.html">SDRAM_HandleTypeDef</a> *hsdram, uint32_t *pAddress, uint16_t *pSrcBuffer, uint32_t BufferSize)</td></tr>
+<tr class="memdesc:gafbd2eeaeb58bc4960a6f1f46829ce4ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes 16-bit data buffer to SDRAM memory.  <a href="#gafbd2eeaeb58bc4960a6f1f46829ce4ea">More...</a><br /></td></tr>
 <tr class="separator:gafbd2eeaeb58bc4960a6f1f46829ce4ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga430830834a41dbcaf7cb6491d006d9f0"><td class="memItemLeft" align="right" valign="top"><a id="ga430830834a41dbcaf7cb6491d006d9f0"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SDRAM_Read_32b</b> (<a class="el" href="struct_s_d_r_a_m___handle_type_def.html">SDRAM_HandleTypeDef</a> *hsdram, uint32_t *pAddress, uint32_t *pDstBuffer, uint32_t BufferSize)</td></tr>
+<tr class="memitem:ga430830834a41dbcaf7cb6491d006d9f0"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_d_r_a_m___exported___functions___group2.html#ga430830834a41dbcaf7cb6491d006d9f0">HAL_SDRAM_Read_32b</a> (<a class="el" href="struct_s_d_r_a_m___handle_type_def.html">SDRAM_HandleTypeDef</a> *hsdram, uint32_t *pAddress, uint32_t *pDstBuffer, uint32_t BufferSize)</td></tr>
+<tr class="memdesc:ga430830834a41dbcaf7cb6491d006d9f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads 32-bit data buffer from the SDRAM memory.  <a href="#ga430830834a41dbcaf7cb6491d006d9f0">More...</a><br /></td></tr>
 <tr class="separator:ga430830834a41dbcaf7cb6491d006d9f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga992bd5aa0550b62551437f433f091d22"><td class="memItemLeft" align="right" valign="top"><a id="ga992bd5aa0550b62551437f433f091d22"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SDRAM_Write_32b</b> (<a class="el" href="struct_s_d_r_a_m___handle_type_def.html">SDRAM_HandleTypeDef</a> *hsdram, uint32_t *pAddress, uint32_t *pSrcBuffer, uint32_t BufferSize)</td></tr>
+<tr class="memitem:ga992bd5aa0550b62551437f433f091d22"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_d_r_a_m___exported___functions___group2.html#ga992bd5aa0550b62551437f433f091d22">HAL_SDRAM_Write_32b</a> (<a class="el" href="struct_s_d_r_a_m___handle_type_def.html">SDRAM_HandleTypeDef</a> *hsdram, uint32_t *pAddress, uint32_t *pSrcBuffer, uint32_t BufferSize)</td></tr>
+<tr class="memdesc:ga992bd5aa0550b62551437f433f091d22"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes 32-bit data buffer to SDRAM memory.  <a href="#ga992bd5aa0550b62551437f433f091d22">More...</a><br /></td></tr>
 <tr class="separator:ga992bd5aa0550b62551437f433f091d22"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga70e0327de061b9428dfcdb6d28127523"><td class="memItemLeft" align="right" valign="top"><a id="ga70e0327de061b9428dfcdb6d28127523"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SDRAM_Read_DMA</b> (<a class="el" href="struct_s_d_r_a_m___handle_type_def.html">SDRAM_HandleTypeDef</a> *hsdram, uint32_t *pAddress, uint32_t *pDstBuffer, uint32_t BufferSize)</td></tr>
+<tr class="memitem:ga70e0327de061b9428dfcdb6d28127523"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_d_r_a_m___exported___functions___group2.html#ga70e0327de061b9428dfcdb6d28127523">HAL_SDRAM_Read_DMA</a> (<a class="el" href="struct_s_d_r_a_m___handle_type_def.html">SDRAM_HandleTypeDef</a> *hsdram, uint32_t *pAddress, uint32_t *pDstBuffer, uint32_t BufferSize)</td></tr>
+<tr class="memdesc:ga70e0327de061b9428dfcdb6d28127523"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads a Words data from the SDRAM memory using DMA transfer.  <a href="#ga70e0327de061b9428dfcdb6d28127523">More...</a><br /></td></tr>
 <tr class="separator:ga70e0327de061b9428dfcdb6d28127523"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga643d9e71b6fadef948dede0d86a9cbc1"><td class="memItemLeft" align="right" valign="top"><a id="ga643d9e71b6fadef948dede0d86a9cbc1"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SDRAM_Write_DMA</b> (<a class="el" href="struct_s_d_r_a_m___handle_type_def.html">SDRAM_HandleTypeDef</a> *hsdram, uint32_t *pAddress, uint32_t *pSrcBuffer, uint32_t BufferSize)</td></tr>
+<tr class="memitem:ga643d9e71b6fadef948dede0d86a9cbc1"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_d_r_a_m___exported___functions___group2.html#ga643d9e71b6fadef948dede0d86a9cbc1">HAL_SDRAM_Write_DMA</a> (<a class="el" href="struct_s_d_r_a_m___handle_type_def.html">SDRAM_HandleTypeDef</a> *hsdram, uint32_t *pAddress, uint32_t *pSrcBuffer, uint32_t BufferSize)</td></tr>
+<tr class="memdesc:ga643d9e71b6fadef948dede0d86a9cbc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes a Words data buffer to SDRAM memory using DMA transfer.  <a href="#ga643d9e71b6fadef948dede0d86a9cbc1">More...</a><br /></td></tr>
 <tr class="separator:ga643d9e71b6fadef948dede0d86a9cbc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>Input Output and memory control functions. </p>
+<pre class="fragment">  ==============================================================================
+                    ##### SDRAM Input and Output functions #####
+  ==============================================================================
+  [..]  
+    This section provides functions allowing to use and control the SDRAM memory</pre> <h2 class="groupheader">Function Documentation</h2>
+<a id="ga6205dcc8c3d305ce87833d0c47fbb984"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6205dcc8c3d305ce87833d0c47fbb984">&#9670;&nbsp;</a></span>HAL_SDRAM_Read_16b()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_SDRAM_Read_16b </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_s_d_r_a_m___handle_type_def.html">SDRAM_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hsdram</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t *&#160;</td>
+          <td class="paramname"><em>pAddress</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t *&#160;</td>
+          <td class="paramname"><em>pDstBuffer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>BufferSize</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reads 16-bit data buffer from the SDRAM memory. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hsdram</td><td>pointer to a <a class="el" href="struct_s_d_r_a_m___handle_type_def.html" title="SDRAM handle Structure definition.">SDRAM_HandleTypeDef</a> structure that contains the configuration information for SDRAM module. </td></tr>
+    <tr><td class="paramname">pAddress</td><td>Pointer to read start address </td></tr>
+    <tr><td class="paramname">pDstBuffer</td><td>Pointer to destination buffer</td></tr>
+    <tr><td class="paramname">BufferSize</td><td>Size of the buffer to read from memory </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga430830834a41dbcaf7cb6491d006d9f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga430830834a41dbcaf7cb6491d006d9f0">&#9670;&nbsp;</a></span>HAL_SDRAM_Read_32b()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_SDRAM_Read_32b </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_s_d_r_a_m___handle_type_def.html">SDRAM_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hsdram</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t *&#160;</td>
+          <td class="paramname"><em>pAddress</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t *&#160;</td>
+          <td class="paramname"><em>pDstBuffer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>BufferSize</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reads 32-bit data buffer from the SDRAM memory. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hsdram</td><td>pointer to a <a class="el" href="struct_s_d_r_a_m___handle_type_def.html" title="SDRAM handle Structure definition.">SDRAM_HandleTypeDef</a> structure that contains the configuration information for SDRAM module. </td></tr>
+    <tr><td class="paramname">pAddress</td><td>Pointer to read start address </td></tr>
+    <tr><td class="paramname">pDstBuffer</td><td>Pointer to destination buffer</td></tr>
+    <tr><td class="paramname">BufferSize</td><td>Size of the buffer to read from memory </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga35cca16e3cdbe71a2c213264c9b9bf81"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga35cca16e3cdbe71a2c213264c9b9bf81">&#9670;&nbsp;</a></span>HAL_SDRAM_Read_8b()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_SDRAM_Read_8b </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_s_d_r_a_m___handle_type_def.html">SDRAM_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hsdram</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t *&#160;</td>
+          <td class="paramname"><em>pAddress</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pDstBuffer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>BufferSize</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reads 8-bit data buffer from the SDRAM memory. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hsdram</td><td>pointer to a <a class="el" href="struct_s_d_r_a_m___handle_type_def.html" title="SDRAM handle Structure definition.">SDRAM_HandleTypeDef</a> structure that contains the configuration information for SDRAM module. </td></tr>
+    <tr><td class="paramname">pAddress</td><td>Pointer to read start address </td></tr>
+    <tr><td class="paramname">pDstBuffer</td><td>Pointer to destination buffer</td></tr>
+    <tr><td class="paramname">BufferSize</td><td>Size of the buffer to read from memory </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga70e0327de061b9428dfcdb6d28127523"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga70e0327de061b9428dfcdb6d28127523">&#9670;&nbsp;</a></span>HAL_SDRAM_Read_DMA()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_SDRAM_Read_DMA </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_s_d_r_a_m___handle_type_def.html">SDRAM_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hsdram</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t *&#160;</td>
+          <td class="paramname"><em>pAddress</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t *&#160;</td>
+          <td class="paramname"><em>pDstBuffer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>BufferSize</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reads a Words data from the SDRAM memory using DMA transfer. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hsdram</td><td>pointer to a <a class="el" href="struct_s_d_r_a_m___handle_type_def.html" title="SDRAM handle Structure definition.">SDRAM_HandleTypeDef</a> structure that contains the configuration information for SDRAM module. </td></tr>
+    <tr><td class="paramname">pAddress</td><td>Pointer to read start address </td></tr>
+    <tr><td class="paramname">pDstBuffer</td><td>Pointer to destination buffer</td></tr>
+    <tr><td class="paramname">BufferSize</td><td>Size of the buffer to read from memory </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gafbd2eeaeb58bc4960a6f1f46829ce4ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gafbd2eeaeb58bc4960a6f1f46829ce4ea">&#9670;&nbsp;</a></span>HAL_SDRAM_Write_16b()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_SDRAM_Write_16b </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_s_d_r_a_m___handle_type_def.html">SDRAM_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hsdram</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t *&#160;</td>
+          <td class="paramname"><em>pAddress</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t *&#160;</td>
+          <td class="paramname"><em>pSrcBuffer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>BufferSize</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Writes 16-bit data buffer to SDRAM memory. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hsdram</td><td>pointer to a <a class="el" href="struct_s_d_r_a_m___handle_type_def.html" title="SDRAM handle Structure definition.">SDRAM_HandleTypeDef</a> structure that contains the configuration information for SDRAM module. </td></tr>
+    <tr><td class="paramname">pAddress</td><td>Pointer to write start address </td></tr>
+    <tr><td class="paramname">pSrcBuffer</td><td>Pointer to source buffer to write</td></tr>
+    <tr><td class="paramname">BufferSize</td><td>Size of the buffer to write to memory </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga992bd5aa0550b62551437f433f091d22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga992bd5aa0550b62551437f433f091d22">&#9670;&nbsp;</a></span>HAL_SDRAM_Write_32b()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_SDRAM_Write_32b </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_s_d_r_a_m___handle_type_def.html">SDRAM_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hsdram</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t *&#160;</td>
+          <td class="paramname"><em>pAddress</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t *&#160;</td>
+          <td class="paramname"><em>pSrcBuffer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>BufferSize</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Writes 32-bit data buffer to SDRAM memory. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hsdram</td><td>pointer to a <a class="el" href="struct_s_d_r_a_m___handle_type_def.html" title="SDRAM handle Structure definition.">SDRAM_HandleTypeDef</a> structure that contains the configuration information for SDRAM module. </td></tr>
+    <tr><td class="paramname">pAddress</td><td>Pointer to write start address </td></tr>
+    <tr><td class="paramname">pSrcBuffer</td><td>Pointer to source buffer to write</td></tr>
+    <tr><td class="paramname">BufferSize</td><td>Size of the buffer to write to memory </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga7f718bd5dc458d80328ffe611b24c602"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7f718bd5dc458d80328ffe611b24c602">&#9670;&nbsp;</a></span>HAL_SDRAM_Write_8b()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_SDRAM_Write_8b </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_s_d_r_a_m___handle_type_def.html">SDRAM_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hsdram</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t *&#160;</td>
+          <td class="paramname"><em>pAddress</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pSrcBuffer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>BufferSize</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Writes 8-bit data buffer to SDRAM memory. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hsdram</td><td>pointer to a <a class="el" href="struct_s_d_r_a_m___handle_type_def.html" title="SDRAM handle Structure definition.">SDRAM_HandleTypeDef</a> structure that contains the configuration information for SDRAM module. </td></tr>
+    <tr><td class="paramname">pAddress</td><td>Pointer to write start address </td></tr>
+    <tr><td class="paramname">pSrcBuffer</td><td>Pointer to source buffer to write</td></tr>
+    <tr><td class="paramname">BufferSize</td><td>Size of the buffer to write to memory </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga643d9e71b6fadef948dede0d86a9cbc1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga643d9e71b6fadef948dede0d86a9cbc1">&#9670;&nbsp;</a></span>HAL_SDRAM_Write_DMA()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_SDRAM_Write_DMA </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_s_d_r_a_m___handle_type_def.html">SDRAM_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hsdram</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t *&#160;</td>
+          <td class="paramname"><em>pAddress</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t *&#160;</td>
+          <td class="paramname"><em>pSrcBuffer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>BufferSize</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Writes a Words data buffer to SDRAM memory using DMA transfer. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hsdram</td><td>pointer to a <a class="el" href="struct_s_d_r_a_m___handle_type_def.html" title="SDRAM handle Structure definition.">SDRAM_HandleTypeDef</a> structure that contains the configuration information for SDRAM module. </td></tr>
+    <tr><td class="paramname">pAddress</td><td>Pointer to write start address </td></tr>
+    <tr><td class="paramname">pSrcBuffer</td><td>Pointer to source buffer to write</td></tr>
+    <tr><td class="paramname">BufferSize</td><td>Size of the buffer to write to memory </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

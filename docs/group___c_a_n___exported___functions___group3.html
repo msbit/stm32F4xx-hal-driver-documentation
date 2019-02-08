@@ -73,45 +73,567 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga2b8378da38aaa12bbd2823d309618025"><td class="memItemLeft" align="right" valign="top"><a id="ga2b8378da38aaa12bbd2823d309618025"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_CAN_Start</b> (<a class="el" href="group___c_a_n___exported___types.html#gab7cb5283f4d9a37525a360300e6f702e">CAN_HandleTypeDef</a> *hcan)</td></tr>
+<tr class="memitem:ga2b8378da38aaa12bbd2823d309618025"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_a_n___exported___functions___group3.html#ga2b8378da38aaa12bbd2823d309618025">HAL_CAN_Start</a> (<a class="el" href="group___c_a_n___exported___types.html#gab7cb5283f4d9a37525a360300e6f702e">CAN_HandleTypeDef</a> *hcan)</td></tr>
+<tr class="memdesc:ga2b8378da38aaa12bbd2823d309618025"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start the CAN module.  <a href="#ga2b8378da38aaa12bbd2823d309618025">More...</a><br /></td></tr>
 <tr class="separator:ga2b8378da38aaa12bbd2823d309618025"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8e73e3b3da1dd497221fc642c0b8a84f"><td class="memItemLeft" align="right" valign="top"><a id="ga8e73e3b3da1dd497221fc642c0b8a84f"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_CAN_Stop</b> (<a class="el" href="group___c_a_n___exported___types.html#gab7cb5283f4d9a37525a360300e6f702e">CAN_HandleTypeDef</a> *hcan)</td></tr>
+<tr class="memitem:ga8e73e3b3da1dd497221fc642c0b8a84f"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_a_n___exported___functions___group3.html#ga8e73e3b3da1dd497221fc642c0b8a84f">HAL_CAN_Stop</a> (<a class="el" href="group___c_a_n___exported___types.html#gab7cb5283f4d9a37525a360300e6f702e">CAN_HandleTypeDef</a> *hcan)</td></tr>
+<tr class="memdesc:ga8e73e3b3da1dd497221fc642c0b8a84f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stop the CAN module and enable access to configuration registers.  <a href="#ga8e73e3b3da1dd497221fc642c0b8a84f">More...</a><br /></td></tr>
 <tr class="separator:ga8e73e3b3da1dd497221fc642c0b8a84f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaedd93c08b5b6026ecc178c2d46571b69"><td class="memItemLeft" align="right" valign="top"><a id="gaedd93c08b5b6026ecc178c2d46571b69"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_CAN_RequestSleep</b> (<a class="el" href="group___c_a_n___exported___types.html#gab7cb5283f4d9a37525a360300e6f702e">CAN_HandleTypeDef</a> *hcan)</td></tr>
+<tr class="memitem:gaedd93c08b5b6026ecc178c2d46571b69"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_a_n___exported___functions___group3.html#gaedd93c08b5b6026ecc178c2d46571b69">HAL_CAN_RequestSleep</a> (<a class="el" href="group___c_a_n___exported___types.html#gab7cb5283f4d9a37525a360300e6f702e">CAN_HandleTypeDef</a> *hcan)</td></tr>
+<tr class="memdesc:gaedd93c08b5b6026ecc178c2d46571b69"><td class="mdescLeft">&#160;</td><td class="mdescRight">Request the sleep mode (low power) entry. When returning from this function, Sleep mode will be entered as soon as the current CAN activity (transmission or reception of a CAN frame) has been completed.  <a href="#gaedd93c08b5b6026ecc178c2d46571b69">More...</a><br /></td></tr>
 <tr class="separator:gaedd93c08b5b6026ecc178c2d46571b69"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf1edf6db55aa886857f50b9ee69f1c13"><td class="memItemLeft" align="right" valign="top"><a id="gaf1edf6db55aa886857f50b9ee69f1c13"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_CAN_WakeUp</b> (<a class="el" href="group___c_a_n___exported___types.html#gab7cb5283f4d9a37525a360300e6f702e">CAN_HandleTypeDef</a> *hcan)</td></tr>
+<tr class="memitem:gaf1edf6db55aa886857f50b9ee69f1c13"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_a_n___exported___functions___group3.html#gaf1edf6db55aa886857f50b9ee69f1c13">HAL_CAN_WakeUp</a> (<a class="el" href="group___c_a_n___exported___types.html#gab7cb5283f4d9a37525a360300e6f702e">CAN_HandleTypeDef</a> *hcan)</td></tr>
+<tr class="memdesc:gaf1edf6db55aa886857f50b9ee69f1c13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wake up from sleep mode. When returning with HAL_OK status from this function, Sleep mode is exited.  <a href="#gaf1edf6db55aa886857f50b9ee69f1c13">More...</a><br /></td></tr>
 <tr class="separator:gaf1edf6db55aa886857f50b9ee69f1c13"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga56a589adc359dec74801e11a771a3812"><td class="memItemLeft" align="right" valign="top"><a id="ga56a589adc359dec74801e11a771a3812"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_CAN_IsSleepActive</b> (<a class="el" href="group___c_a_n___exported___types.html#gab7cb5283f4d9a37525a360300e6f702e">CAN_HandleTypeDef</a> *hcan)</td></tr>
+<tr class="memitem:ga56a589adc359dec74801e11a771a3812"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_a_n___exported___functions___group3.html#ga56a589adc359dec74801e11a771a3812">HAL_CAN_IsSleepActive</a> (<a class="el" href="group___c_a_n___exported___types.html#gab7cb5283f4d9a37525a360300e6f702e">CAN_HandleTypeDef</a> *hcan)</td></tr>
+<tr class="memdesc:ga56a589adc359dec74801e11a771a3812"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check is sleep mode is active.  <a href="#ga56a589adc359dec74801e11a771a3812">More...</a><br /></td></tr>
 <tr class="separator:ga56a589adc359dec74801e11a771a3812"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga82cd04bf8478c081247d933efeb19082"><td class="memItemLeft" align="right" valign="top"><a id="ga82cd04bf8478c081247d933efeb19082"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_CAN_AddTxMessage</b> (<a class="el" href="group___c_a_n___exported___types.html#gab7cb5283f4d9a37525a360300e6f702e">CAN_HandleTypeDef</a> *hcan, <a class="el" href="struct_c_a_n___tx_header_type_def.html">CAN_TxHeaderTypeDef</a> *pHeader, uint8_t aData[], uint32_t *pTxMailbox)</td></tr>
+<tr class="memitem:ga82cd04bf8478c081247d933efeb19082"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_a_n___exported___functions___group3.html#ga82cd04bf8478c081247d933efeb19082">HAL_CAN_AddTxMessage</a> (<a class="el" href="group___c_a_n___exported___types.html#gab7cb5283f4d9a37525a360300e6f702e">CAN_HandleTypeDef</a> *hcan, <a class="el" href="struct_c_a_n___tx_header_type_def.html">CAN_TxHeaderTypeDef</a> *pHeader, uint8_t aData[], uint32_t *pTxMailbox)</td></tr>
+<tr class="memdesc:ga82cd04bf8478c081247d933efeb19082"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a message to the first free Tx mailbox and activate the corresponding transmission request.  <a href="#ga82cd04bf8478c081247d933efeb19082">More...</a><br /></td></tr>
 <tr class="separator:ga82cd04bf8478c081247d933efeb19082"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga772c1cb033b090a2c7bc3f946d7b6866"><td class="memItemLeft" align="right" valign="top"><a id="ga772c1cb033b090a2c7bc3f946d7b6866"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_CAN_AbortTxRequest</b> (<a class="el" href="group___c_a_n___exported___types.html#gab7cb5283f4d9a37525a360300e6f702e">CAN_HandleTypeDef</a> *hcan, uint32_t TxMailboxes)</td></tr>
+<tr class="memitem:ga772c1cb033b090a2c7bc3f946d7b6866"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_a_n___exported___functions___group3.html#ga772c1cb033b090a2c7bc3f946d7b6866">HAL_CAN_AbortTxRequest</a> (<a class="el" href="group___c_a_n___exported___types.html#gab7cb5283f4d9a37525a360300e6f702e">CAN_HandleTypeDef</a> *hcan, uint32_t TxMailboxes)</td></tr>
+<tr class="memdesc:ga772c1cb033b090a2c7bc3f946d7b6866"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abort transmission requests.  <a href="#ga772c1cb033b090a2c7bc3f946d7b6866">More...</a><br /></td></tr>
 <tr class="separator:ga772c1cb033b090a2c7bc3f946d7b6866"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga3f872664b9ff2ba6d3f131d801e35857"><td class="memItemLeft" align="right" valign="top"><a id="ga3f872664b9ff2ba6d3f131d801e35857"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_CAN_GetTxMailboxesFreeLevel</b> (<a class="el" href="group___c_a_n___exported___types.html#gab7cb5283f4d9a37525a360300e6f702e">CAN_HandleTypeDef</a> *hcan)</td></tr>
+<tr class="memitem:ga3f872664b9ff2ba6d3f131d801e35857"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_a_n___exported___functions___group3.html#ga3f872664b9ff2ba6d3f131d801e35857">HAL_CAN_GetTxMailboxesFreeLevel</a> (<a class="el" href="group___c_a_n___exported___types.html#gab7cb5283f4d9a37525a360300e6f702e">CAN_HandleTypeDef</a> *hcan)</td></tr>
+<tr class="memdesc:ga3f872664b9ff2ba6d3f131d801e35857"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return Tx Mailboxes free level: number of free Tx Mailboxes.  <a href="#ga3f872664b9ff2ba6d3f131d801e35857">More...</a><br /></td></tr>
 <tr class="separator:ga3f872664b9ff2ba6d3f131d801e35857"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7969a28046ab91c59e934e38986c67f3"><td class="memItemLeft" align="right" valign="top"><a id="ga7969a28046ab91c59e934e38986c67f3"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_CAN_IsTxMessagePending</b> (<a class="el" href="group___c_a_n___exported___types.html#gab7cb5283f4d9a37525a360300e6f702e">CAN_HandleTypeDef</a> *hcan, uint32_t TxMailboxes)</td></tr>
+<tr class="memitem:ga7969a28046ab91c59e934e38986c67f3"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_a_n___exported___functions___group3.html#ga7969a28046ab91c59e934e38986c67f3">HAL_CAN_IsTxMessagePending</a> (<a class="el" href="group___c_a_n___exported___types.html#gab7cb5283f4d9a37525a360300e6f702e">CAN_HandleTypeDef</a> *hcan, uint32_t TxMailboxes)</td></tr>
+<tr class="memdesc:ga7969a28046ab91c59e934e38986c67f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if a transmission request is pending on the selected Tx Mailboxes.  <a href="#ga7969a28046ab91c59e934e38986c67f3">More...</a><br /></td></tr>
 <tr class="separator:ga7969a28046ab91c59e934e38986c67f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga144221a69db7ddaf763dc1654a82fff2"><td class="memItemLeft" align="right" valign="top"><a id="ga144221a69db7ddaf763dc1654a82fff2"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_CAN_GetTxTimestamp</b> (<a class="el" href="group___c_a_n___exported___types.html#gab7cb5283f4d9a37525a360300e6f702e">CAN_HandleTypeDef</a> *hcan, uint32_t TxMailbox)</td></tr>
+<tr class="memitem:ga144221a69db7ddaf763dc1654a82fff2"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_a_n___exported___functions___group3.html#ga144221a69db7ddaf763dc1654a82fff2">HAL_CAN_GetTxTimestamp</a> (<a class="el" href="group___c_a_n___exported___types.html#gab7cb5283f4d9a37525a360300e6f702e">CAN_HandleTypeDef</a> *hcan, uint32_t TxMailbox)</td></tr>
+<tr class="memdesc:ga144221a69db7ddaf763dc1654a82fff2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return timestamp of Tx message sent, if time triggered communication mode is enabled.  <a href="#ga144221a69db7ddaf763dc1654a82fff2">More...</a><br /></td></tr>
 <tr class="separator:ga144221a69db7ddaf763dc1654a82fff2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf25698a35af7f78d01b036fcb80d81f3"><td class="memItemLeft" align="right" valign="top"><a id="gaf25698a35af7f78d01b036fcb80d81f3"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_CAN_GetRxMessage</b> (<a class="el" href="group___c_a_n___exported___types.html#gab7cb5283f4d9a37525a360300e6f702e">CAN_HandleTypeDef</a> *hcan, uint32_t RxFifo, <a class="el" href="struct_c_a_n___rx_header_type_def.html">CAN_RxHeaderTypeDef</a> *pHeader, uint8_t aData[])</td></tr>
+<tr class="memitem:gaf25698a35af7f78d01b036fcb80d81f3"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_a_n___exported___functions___group3.html#gaf25698a35af7f78d01b036fcb80d81f3">HAL_CAN_GetRxMessage</a> (<a class="el" href="group___c_a_n___exported___types.html#gab7cb5283f4d9a37525a360300e6f702e">CAN_HandleTypeDef</a> *hcan, uint32_t RxFifo, <a class="el" href="struct_c_a_n___rx_header_type_def.html">CAN_RxHeaderTypeDef</a> *pHeader, uint8_t aData[])</td></tr>
+<tr class="memdesc:gaf25698a35af7f78d01b036fcb80d81f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get an CAN frame from the Rx FIFO zone into the message RAM.  <a href="#gaf25698a35af7f78d01b036fcb80d81f3">More...</a><br /></td></tr>
 <tr class="separator:gaf25698a35af7f78d01b036fcb80d81f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaed7966ce3d5a7a3d274cdda6fdbccd3f"><td class="memItemLeft" align="right" valign="top"><a id="gaed7966ce3d5a7a3d274cdda6fdbccd3f"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_CAN_GetRxFifoFillLevel</b> (<a class="el" href="group___c_a_n___exported___types.html#gab7cb5283f4d9a37525a360300e6f702e">CAN_HandleTypeDef</a> *hcan, uint32_t RxFifo)</td></tr>
+<tr class="memitem:gaed7966ce3d5a7a3d274cdda6fdbccd3f"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_a_n___exported___functions___group3.html#gaed7966ce3d5a7a3d274cdda6fdbccd3f">HAL_CAN_GetRxFifoFillLevel</a> (<a class="el" href="group___c_a_n___exported___types.html#gab7cb5283f4d9a37525a360300e6f702e">CAN_HandleTypeDef</a> *hcan, uint32_t RxFifo)</td></tr>
+<tr class="memdesc:gaed7966ce3d5a7a3d274cdda6fdbccd3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return Rx FIFO fill level.  <a href="#gaed7966ce3d5a7a3d274cdda6fdbccd3f">More...</a><br /></td></tr>
 <tr class="separator:gaed7966ce3d5a7a3d274cdda6fdbccd3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>Control functions. </p>
+<pre class="fragment">  ==============================================================================
+                      ##### Control functions #####
+  ==============================================================================
+    [..]  This section provides functions allowing to:
+      (+) HAL_CAN_Start                    : Start the CAN module
+      (+) HAL_CAN_Stop                     : Stop the CAN module
+      (+) HAL_CAN_RequestSleep             : Request sleep mode entry.
+      (+) HAL_CAN_WakeUp                   : Wake up from sleep mode.
+      (+) HAL_CAN_IsSleepActive            : Check is sleep mode is active.
+      (+) HAL_CAN_AddTxMessage             : Add a message to the Tx mailboxes
+                                             and activate the corresponding
+                                             transmission request
+      (+) HAL_CAN_AbortTxRequest           : Abort transmission request
+      (+) HAL_CAN_GetTxMailboxesFreeLevel  : Return Tx mailboxes free level
+      (+) HAL_CAN_IsTxMessagePending       : Check if a transmission request is
+                                             pending on the selected Tx mailbox
+      (+) HAL_CAN_GetRxMessage             : Get a CAN frame from the Rx FIFO
+      (+) HAL_CAN_GetRxFifoFillLevel       : Return Rx FIFO fill level</pre> <h2 class="groupheader">Function Documentation</h2>
+<a id="ga772c1cb033b090a2c7bc3f946d7b6866"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga772c1cb033b090a2c7bc3f946d7b6866">&#9670;&nbsp;</a></span>HAL_CAN_AbortTxRequest()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_CAN_AbortTxRequest </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___c_a_n___exported___types.html#gab7cb5283f4d9a37525a360300e6f702e">CAN_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hcan</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>TxMailboxes</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Abort transmission requests. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hcan</td><td>pointer to an CAN_HandleTypeDef structure that contains the configuration information for the specified CAN. </td></tr>
+    <tr><td class="paramname">TxMailboxes</td><td>List of the Tx Mailboxes to abort. This parameter can be any combination of <ul>
+<li>CAN_Tx_Mailboxes. </li>
+</ul>
+</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga82cd04bf8478c081247d933efeb19082"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga82cd04bf8478c081247d933efeb19082">&#9670;&nbsp;</a></span>HAL_CAN_AddTxMessage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_CAN_AddTxMessage </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___c_a_n___exported___types.html#gab7cb5283f4d9a37525a360300e6f702e">CAN_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hcan</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_c_a_n___tx_header_type_def.html">CAN_TxHeaderTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>pHeader</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>aData</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t *&#160;</td>
+          <td class="paramname"><em>pTxMailbox</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Add a message to the first free Tx mailbox and activate the corresponding transmission request. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hcan</td><td>pointer to a CAN_HandleTypeDef structure that contains the configuration information for the specified CAN. </td></tr>
+    <tr><td class="paramname">pHeader</td><td>pointer to a <a class="el" href="struct_c_a_n___tx_header_type_def.html" title="CAN Tx message header structure definition.">CAN_TxHeaderTypeDef</a> structure. </td></tr>
+    <tr><td class="paramname">aData</td><td>array containing the payload of the Tx frame. </td></tr>
+    <tr><td class="paramname">pTxMailbox</td><td>pointer to a variable where the function will return the TxMailbox used to store the Tx message. This parameter can be a value of <ul>
+<li>CAN_Tx_Mailboxes. </li>
+</ul>
+</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaed7966ce3d5a7a3d274cdda6fdbccd3f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaed7966ce3d5a7a3d274cdda6fdbccd3f">&#9670;&nbsp;</a></span>HAL_CAN_GetRxFifoFillLevel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t HAL_CAN_GetRxFifoFillLevel </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___c_a_n___exported___types.html#gab7cb5283f4d9a37525a360300e6f702e">CAN_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hcan</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>RxFifo</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return Rx FIFO fill level. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hcan</td><td>pointer to an CAN_HandleTypeDef structure that contains the configuration information for the specified CAN. </td></tr>
+    <tr><td class="paramname">RxFifo</td><td>Rx FIFO. This parameter can be a value of <ul>
+<li>CAN_receive_FIFO_number. </li>
+</ul>
+</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">Number</td><td>of messages available in Rx FIFO. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaf25698a35af7f78d01b036fcb80d81f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf25698a35af7f78d01b036fcb80d81f3">&#9670;&nbsp;</a></span>HAL_CAN_GetRxMessage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_CAN_GetRxMessage </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___c_a_n___exported___types.html#gab7cb5283f4d9a37525a360300e6f702e">CAN_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hcan</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>RxFifo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_c_a_n___rx_header_type_def.html">CAN_RxHeaderTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>pHeader</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>aData</em>[]&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get an CAN frame from the Rx FIFO zone into the message RAM. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hcan</td><td>pointer to an CAN_HandleTypeDef structure that contains the configuration information for the specified CAN. </td></tr>
+    <tr><td class="paramname">RxFifo</td><td>Fifo number of the received message to be read. This parameter can be a value of <ul>
+<li>CAN_receive_FIFO_number. </li>
+</ul>
+</td></tr>
+    <tr><td class="paramname">pHeader</td><td>pointer to a <a class="el" href="struct_c_a_n___rx_header_type_def.html" title="CAN Rx message header structure definition.">CAN_RxHeaderTypeDef</a> structure where the header of the Rx frame will be stored. </td></tr>
+    <tr><td class="paramname">aData</td><td>array where the payload of the Rx frame will be stored. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga3f872664b9ff2ba6d3f131d801e35857"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3f872664b9ff2ba6d3f131d801e35857">&#9670;&nbsp;</a></span>HAL_CAN_GetTxMailboxesFreeLevel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t HAL_CAN_GetTxMailboxesFreeLevel </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___c_a_n___exported___types.html#gab7cb5283f4d9a37525a360300e6f702e">CAN_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hcan</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return Tx Mailboxes free level: number of free Tx Mailboxes. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hcan</td><td>pointer to a CAN_HandleTypeDef structure that contains the configuration information for the specified CAN. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">Number</td><td>of free Tx Mailboxes. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga144221a69db7ddaf763dc1654a82fff2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga144221a69db7ddaf763dc1654a82fff2">&#9670;&nbsp;</a></span>HAL_CAN_GetTxTimestamp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t HAL_CAN_GetTxTimestamp </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___c_a_n___exported___types.html#gab7cb5283f4d9a37525a360300e6f702e">CAN_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hcan</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>TxMailbox</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return timestamp of Tx message sent, if time triggered communication mode is enabled. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hcan</td><td>pointer to a CAN_HandleTypeDef structure that contains the configuration information for the specified CAN. </td></tr>
+    <tr><td class="paramname">TxMailbox</td><td>Tx Mailbox where the timestamp of message sent will be read. This parameter can be one value of <ul>
+<li>CAN_Tx_Mailboxes. </li>
+</ul>
+</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">Timestamp</td><td>of message sent from Tx Mailbox. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga56a589adc359dec74801e11a771a3812"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga56a589adc359dec74801e11a771a3812">&#9670;&nbsp;</a></span>HAL_CAN_IsSleepActive()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t HAL_CAN_IsSleepActive </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___c_a_n___exported___types.html#gab7cb5283f4d9a37525a360300e6f702e">CAN_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hcan</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Check is sleep mode is active. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hcan</td><td>pointer to a CAN_HandleTypeDef structure that contains the configuration information for the specified CAN. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">Status</td><td><ul>
+<li>0 : Sleep mode is not active.</li>
+<li>1 : Sleep mode is active. </li>
+</ul>
+</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga7969a28046ab91c59e934e38986c67f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7969a28046ab91c59e934e38986c67f3">&#9670;&nbsp;</a></span>HAL_CAN_IsTxMessagePending()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t HAL_CAN_IsTxMessagePending </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___c_a_n___exported___types.html#gab7cb5283f4d9a37525a360300e6f702e">CAN_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hcan</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>TxMailboxes</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Check if a transmission request is pending on the selected Tx Mailboxes. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hcan</td><td>pointer to an CAN_HandleTypeDef structure that contains the configuration information for the specified CAN. </td></tr>
+    <tr><td class="paramname">TxMailboxes</td><td>List of Tx Mailboxes to check. This parameter can be any combination of <ul>
+<li>CAN_Tx_Mailboxes. </li>
+</ul>
+</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">Status</td><td><ul>
+<li>0 : No pending transmission request on any selected Tx Mailboxes.</li>
+<li>1 : Pending transmission request on at least one of the selected Tx Mailbox. </li>
+</ul>
+</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaedd93c08b5b6026ecc178c2d46571b69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaedd93c08b5b6026ecc178c2d46571b69">&#9670;&nbsp;</a></span>HAL_CAN_RequestSleep()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_CAN_RequestSleep </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___c_a_n___exported___types.html#gab7cb5283f4d9a37525a360300e6f702e">CAN_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hcan</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Request the sleep mode (low power) entry. When returning from this function, Sleep mode will be entered as soon as the current CAN activity (transmission or reception of a CAN frame) has been completed. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hcan</td><td>pointer to a CAN_HandleTypeDef structure that contains the configuration information for the specified CAN. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga2b8378da38aaa12bbd2823d309618025"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2b8378da38aaa12bbd2823d309618025">&#9670;&nbsp;</a></span>HAL_CAN_Start()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_CAN_Start </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___c_a_n___exported___types.html#gab7cb5283f4d9a37525a360300e6f702e">CAN_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hcan</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Start the CAN module. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hcan</td><td>pointer to an CAN_HandleTypeDef structure that contains the configuration information for the specified CAN. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga8e73e3b3da1dd497221fc642c0b8a84f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8e73e3b3da1dd497221fc642c0b8a84f">&#9670;&nbsp;</a></span>HAL_CAN_Stop()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_CAN_Stop </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___c_a_n___exported___types.html#gab7cb5283f4d9a37525a360300e6f702e">CAN_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hcan</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Stop the CAN module and enable access to configuration registers. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hcan</td><td>pointer to an CAN_HandleTypeDef structure that contains the configuration information for the specified CAN. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaf1edf6db55aa886857f50b9ee69f1c13"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf1edf6db55aa886857f50b9ee69f1c13">&#9670;&nbsp;</a></span>HAL_CAN_WakeUp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_CAN_WakeUp </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___c_a_n___exported___types.html#gab7cb5283f4d9a37525a360300e6f702e">CAN_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hcan</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Wake up from sleep mode. When returning with HAL_OK status from this function, Sleep mode is exited. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hcan</td><td>pointer to a CAN_HandleTypeDef structure that contains the configuration information for the specified CAN. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

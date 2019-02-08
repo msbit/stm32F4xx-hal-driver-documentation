@@ -64,20 +64,85 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">Perioheral Abort management<div class="ingroups"><a class="el" href="group___m_m_c___exported___functions.html">MMC Exported Functions</a></div></div>  </div>
+<div class="title">Perioheral Abort management<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___m_m_c.html">MMC</a> &raquo; <a class="el" href="group___m_m_c___exported___functions.html">MMC Exported Functions</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga090c158fc16de9312a9b2d598da5b689"><td class="memItemLeft" align="right" valign="top"><a id="ga090c158fc16de9312a9b2d598da5b689"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_MMC_Abort</b> (<a class="el" href="struct_m_m_c___handle_type_def.html">MMC_HandleTypeDef</a> *hmmc)</td></tr>
+<tr class="memitem:ga090c158fc16de9312a9b2d598da5b689"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m_c___exported___functions___group6.html#ga090c158fc16de9312a9b2d598da5b689">HAL_MMC_Abort</a> (<a class="el" href="struct_m_m_c___handle_type_def.html">MMC_HandleTypeDef</a> *hmmc)</td></tr>
+<tr class="memdesc:ga090c158fc16de9312a9b2d598da5b689"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abort the current transfer and disable the MMC.  <a href="#ga090c158fc16de9312a9b2d598da5b689">More...</a><br /></td></tr>
 <tr class="separator:ga090c158fc16de9312a9b2d598da5b689"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga46d5d92b1a0dbb7d6072f60ef5c6568d"><td class="memItemLeft" align="right" valign="top"><a id="ga46d5d92b1a0dbb7d6072f60ef5c6568d"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_MMC_Abort_IT</b> (<a class="el" href="struct_m_m_c___handle_type_def.html">MMC_HandleTypeDef</a> *hmmc)</td></tr>
+<tr class="memitem:ga46d5d92b1a0dbb7d6072f60ef5c6568d"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m_c___exported___functions___group6.html#ga46d5d92b1a0dbb7d6072f60ef5c6568d">HAL_MMC_Abort_IT</a> (<a class="el" href="struct_m_m_c___handle_type_def.html">MMC_HandleTypeDef</a> *hmmc)</td></tr>
+<tr class="memdesc:ga46d5d92b1a0dbb7d6072f60ef5c6568d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abort the current transfer and disable the MMC (IT mode).  <a href="#ga46d5d92b1a0dbb7d6072f60ef5c6568d">More...</a><br /></td></tr>
 <tr class="separator:ga46d5d92b1a0dbb7d6072f60ef5c6568d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="ga090c158fc16de9312a9b2d598da5b689"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga090c158fc16de9312a9b2d598da5b689">&#9670;&nbsp;</a></span>HAL_MMC_Abort()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_MMC_Abort </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_m_m_c___handle_type_def.html">MMC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hmmc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Abort the current transfer and disable the MMC. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hmmc</td><td>pointer to a <a class="el" href="struct_m_m_c___handle_type_def.html" title="MMC handle Structure definition.">MMC_HandleTypeDef</a> structure that contains the configuration information for MMC module. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga46d5d92b1a0dbb7d6072f60ef5c6568d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga46d5d92b1a0dbb7d6072f60ef5c6568d">&#9670;&nbsp;</a></span>HAL_MMC_Abort_IT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_MMC_Abort_IT </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_m_m_c___handle_type_def.html">MMC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hmmc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Abort the current transfer and disable the MMC (IT mode). </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hmmc</td><td>pointer to a <a class="el" href="struct_m_m_c___handle_type_def.html" title="MMC handle Structure definition.">MMC_HandleTypeDef</a> structure that contains the configuration information for MMC module. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

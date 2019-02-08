@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.15"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>STM32F4xx_HAL_Driver: ETH_Exported_Functions_Group2</title>
+<title>STM32F4xx_HAL_Driver: IO operation functions</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,41 +64,403 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">ETH_Exported_Functions_Group2<div class="ingroups"><a class="el" href="group___e_t_h___exported___functions.html">ETH_Exported_Functions</a></div></div>  </div>
+<div class="title">IO operation functions<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___e_t_h.html">ETH</a> &raquo; <a class="el" href="group___e_t_h___exported___functions.html">ETH Exported Functions</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Data transfers functions.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga09dc8287c10b5882ce7adf0fd7ba3cda"><td class="memItemLeft" align="right" valign="top"><a id="ga09dc8287c10b5882ce7adf0fd7ba3cda"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_ETH_TransmitFrame</b> (<a class="el" href="struct_e_t_h___handle_type_def.html">ETH_HandleTypeDef</a> *heth, uint32_t FrameLength)</td></tr>
+<tr class="memitem:ga09dc8287c10b5882ce7adf0fd7ba3cda"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___e_t_h___exported___functions___group2.html#ga09dc8287c10b5882ce7adf0fd7ba3cda">HAL_ETH_TransmitFrame</a> (<a class="el" href="struct_e_t_h___handle_type_def.html">ETH_HandleTypeDef</a> *heth, uint32_t FrameLength)</td></tr>
+<tr class="memdesc:ga09dc8287c10b5882ce7adf0fd7ba3cda"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sends an Ethernet frame.  <a href="#ga09dc8287c10b5882ce7adf0fd7ba3cda">More...</a><br /></td></tr>
 <tr class="separator:ga09dc8287c10b5882ce7adf0fd7ba3cda"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab630598f1bfd6073ca77c8a04a28b121"><td class="memItemLeft" align="right" valign="top"><a id="gab630598f1bfd6073ca77c8a04a28b121"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_ETH_GetReceivedFrame</b> (<a class="el" href="struct_e_t_h___handle_type_def.html">ETH_HandleTypeDef</a> *heth)</td></tr>
+<tr class="memitem:gab630598f1bfd6073ca77c8a04a28b121"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___e_t_h___exported___functions___group2.html#gab630598f1bfd6073ca77c8a04a28b121">HAL_ETH_GetReceivedFrame</a> (<a class="el" href="struct_e_t_h___handle_type_def.html">ETH_HandleTypeDef</a> *heth)</td></tr>
+<tr class="memdesc:gab630598f1bfd6073ca77c8a04a28b121"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks for received frames.  <a href="#gab630598f1bfd6073ca77c8a04a28b121">More...</a><br /></td></tr>
 <tr class="separator:gab630598f1bfd6073ca77c8a04a28b121"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1cc478c81ef8f44c021828249b07b86a"><td class="memItemLeft" align="right" valign="top"><a id="ga1cc478c81ef8f44c021828249b07b86a"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_ETH_ReadPHYRegister</b> (<a class="el" href="struct_e_t_h___handle_type_def.html">ETH_HandleTypeDef</a> *heth, uint16_t PHYReg, uint32_t *RegValue)</td></tr>
+<tr class="memitem:ga1cc478c81ef8f44c021828249b07b86a"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___e_t_h___exported___functions___group2.html#ga1cc478c81ef8f44c021828249b07b86a">HAL_ETH_ReadPHYRegister</a> (<a class="el" href="struct_e_t_h___handle_type_def.html">ETH_HandleTypeDef</a> *heth, uint16_t PHYReg, uint32_t *RegValue)</td></tr>
+<tr class="memdesc:ga1cc478c81ef8f44c021828249b07b86a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads a PHY register.  <a href="#ga1cc478c81ef8f44c021828249b07b86a">More...</a><br /></td></tr>
 <tr class="separator:ga1cc478c81ef8f44c021828249b07b86a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga3e46a062a5a97b8b5920bbd5bfdd09e7"><td class="memItemLeft" align="right" valign="top"><a id="ga3e46a062a5a97b8b5920bbd5bfdd09e7"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_ETH_WritePHYRegister</b> (<a class="el" href="struct_e_t_h___handle_type_def.html">ETH_HandleTypeDef</a> *heth, uint16_t PHYReg, uint32_t RegValue)</td></tr>
+<tr class="memitem:ga3e46a062a5a97b8b5920bbd5bfdd09e7"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___e_t_h___exported___functions___group2.html#ga3e46a062a5a97b8b5920bbd5bfdd09e7">HAL_ETH_WritePHYRegister</a> (<a class="el" href="struct_e_t_h___handle_type_def.html">ETH_HandleTypeDef</a> *heth, uint16_t PHYReg, uint32_t RegValue)</td></tr>
+<tr class="memdesc:ga3e46a062a5a97b8b5920bbd5bfdd09e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes to a PHY register.  <a href="#ga3e46a062a5a97b8b5920bbd5bfdd09e7">More...</a><br /></td></tr>
 <tr class="separator:ga3e46a062a5a97b8b5920bbd5bfdd09e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga022bfeb7fa6961607b36a196844a5a41"><td class="memItemLeft" align="right" valign="top"><a id="ga022bfeb7fa6961607b36a196844a5a41"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_ETH_GetReceivedFrame_IT</b> (<a class="el" href="struct_e_t_h___handle_type_def.html">ETH_HandleTypeDef</a> *heth)</td></tr>
+<tr class="memitem:ga022bfeb7fa6961607b36a196844a5a41"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___e_t_h___exported___functions___group2.html#ga022bfeb7fa6961607b36a196844a5a41">HAL_ETH_GetReceivedFrame_IT</a> (<a class="el" href="struct_e_t_h___handle_type_def.html">ETH_HandleTypeDef</a> *heth)</td></tr>
+<tr class="memdesc:ga022bfeb7fa6961607b36a196844a5a41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the Received frame in interrupt mode.  <a href="#ga022bfeb7fa6961607b36a196844a5a41">More...</a><br /></td></tr>
 <tr class="separator:ga022bfeb7fa6961607b36a196844a5a41"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gadc6ca0477a999a5c71d2f41cedcbf25d"><td class="memItemLeft" align="right" valign="top"><a id="gadc6ca0477a999a5c71d2f41cedcbf25d"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_ETH_IRQHandler</b> (<a class="el" href="struct_e_t_h___handle_type_def.html">ETH_HandleTypeDef</a> *heth)</td></tr>
+<tr class="memitem:gadc6ca0477a999a5c71d2f41cedcbf25d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___e_t_h___exported___functions___group2.html#gadc6ca0477a999a5c71d2f41cedcbf25d">HAL_ETH_IRQHandler</a> (<a class="el" href="struct_e_t_h___handle_type_def.html">ETH_HandleTypeDef</a> *heth)</td></tr>
+<tr class="memdesc:gadc6ca0477a999a5c71d2f41cedcbf25d"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function handles ETH interrupt request.  <a href="#gadc6ca0477a999a5c71d2f41cedcbf25d">More...</a><br /></td></tr>
 <tr class="separator:gadc6ca0477a999a5c71d2f41cedcbf25d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac96b23dde481e897508e8b9ad69e3ecb"><td class="memItemLeft" align="right" valign="top"><a id="gac96b23dde481e897508e8b9ad69e3ecb"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_ETH_TxCpltCallback</b> (<a class="el" href="struct_e_t_h___handle_type_def.html">ETH_HandleTypeDef</a> *heth)</td></tr>
-<tr class="separator:gac96b23dde481e897508e8b9ad69e3ecb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac0609dc4bf97bb5906afdab6b9428654"><td class="memItemLeft" align="right" valign="top"><a id="gac0609dc4bf97bb5906afdab6b9428654"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_ETH_RxCpltCallback</b> (<a class="el" href="struct_e_t_h___handle_type_def.html">ETH_HandleTypeDef</a> *heth)</td></tr>
-<tr class="separator:gac0609dc4bf97bb5906afdab6b9428654"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gabb9424d761aa8a5691f983c5aa842dbe"><td class="memItemLeft" align="right" valign="top"><a id="gabb9424d761aa8a5691f983c5aa842dbe"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_ETH_ErrorCallback</b> (<a class="el" href="struct_e_t_h___handle_type_def.html">ETH_HandleTypeDef</a> *heth)</td></tr>
-<tr class="separator:gabb9424d761aa8a5691f983c5aa842dbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gacc480335c0312073b5d46a3b73c103d0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___e_t_h___exported___functions___group2.html#gacc480335c0312073b5d46a3b73c103d0">HAL_ETH_TxCpltCallback</a> (<a class="el" href="struct_e_t_h___handle_type_def.html">ETH_HandleTypeDef</a> *heth)</td></tr>
+<tr class="memdesc:gacc480335c0312073b5d46a3b73c103d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tx Transfer completed callbacks.  <a href="#gacc480335c0312073b5d46a3b73c103d0">More...</a><br /></td></tr>
+<tr class="separator:gacc480335c0312073b5d46a3b73c103d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabdce0c2a96f82cd6c05a950cc1df0b4c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___e_t_h___exported___functions___group2.html#gabdce0c2a96f82cd6c05a950cc1df0b4c">HAL_ETH_RxCpltCallback</a> (<a class="el" href="struct_e_t_h___handle_type_def.html">ETH_HandleTypeDef</a> *heth)</td></tr>
+<tr class="memdesc:gabdce0c2a96f82cd6c05a950cc1df0b4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rx Transfer completed callbacks.  <a href="#gabdce0c2a96f82cd6c05a950cc1df0b4c">More...</a><br /></td></tr>
+<tr class="separator:gabdce0c2a96f82cd6c05a950cc1df0b4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gace6afbef9aa20660d0d0bf612fb9c98e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___e_t_h___exported___functions___group2.html#gace6afbef9aa20660d0d0bf612fb9c98e">HAL_ETH_ErrorCallback</a> (<a class="el" href="struct_e_t_h___handle_type_def.html">ETH_HandleTypeDef</a> *heth)</td></tr>
+<tr class="memdesc:gace6afbef9aa20660d0d0bf612fb9c98e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ethernet transfer error callbacks.  <a href="#gace6afbef9aa20660d0d0bf612fb9c98e">More...</a><br /></td></tr>
+<tr class="separator:gace6afbef9aa20660d0d0bf612fb9c98e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>Data transfers functions. </p>
+<pre class="fragment">==============================================================================
+                        ##### IO operation functions #####
+==============================================================================  
+[..]  This section provides functions allowing to:
+      (+) Transmit a frame
+          HAL_ETH_TransmitFrame();
+      (+) Receive a frame
+          HAL_ETH_GetReceivedFrame();
+          HAL_ETH_GetReceivedFrame_IT();
+      (+) Read from an External PHY register
+          HAL_ETH_ReadPHYRegister();
+      (+) Write to an External PHY register
+          HAL_ETH_WritePHYRegister();</pre> <h2 class="groupheader">Function Documentation</h2>
+<a id="gace6afbef9aa20660d0d0bf612fb9c98e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gace6afbef9aa20660d0d0bf612fb9c98e">&#9670;&nbsp;</a></span>HAL_ETH_ErrorCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_ETH_ErrorCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_e_t_h___handle_type_def.html">ETH_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>heth</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Ethernet transfer error callbacks. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">heth</td><td>pointer to a <a class="el" href="struct_e_t_h___handle_type_def.html" title="ETH Handle Structure definition.">ETH_HandleTypeDef</a> structure that contains the configuration information for ETHERNET module </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gab630598f1bfd6073ca77c8a04a28b121"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab630598f1bfd6073ca77c8a04a28b121">&#9670;&nbsp;</a></span>HAL_ETH_GetReceivedFrame()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_ETH_GetReceivedFrame </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_e_t_h___handle_type_def.html">ETH_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>heth</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Checks for received frames. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">heth</td><td>pointer to a <a class="el" href="struct_e_t_h___handle_type_def.html" title="ETH Handle Structure definition.">ETH_HandleTypeDef</a> structure that contains the configuration information for ETHERNET module </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga022bfeb7fa6961607b36a196844a5a41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga022bfeb7fa6961607b36a196844a5a41">&#9670;&nbsp;</a></span>HAL_ETH_GetReceivedFrame_IT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_ETH_GetReceivedFrame_IT </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_e_t_h___handle_type_def.html">ETH_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>heth</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the Received frame in interrupt mode. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">heth</td><td>pointer to a <a class="el" href="struct_e_t_h___handle_type_def.html" title="ETH Handle Structure definition.">ETH_HandleTypeDef</a> structure that contains the configuration information for ETHERNET module </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gadc6ca0477a999a5c71d2f41cedcbf25d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gadc6ca0477a999a5c71d2f41cedcbf25d">&#9670;&nbsp;</a></span>HAL_ETH_IRQHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HAL_ETH_IRQHandler </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_e_t_h___handle_type_def.html">ETH_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>heth</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function handles ETH interrupt request. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">heth</td><td>pointer to a <a class="el" href="struct_e_t_h___handle_type_def.html" title="ETH Handle Structure definition.">ETH_HandleTypeDef</a> structure that contains the configuration information for ETHERNET module </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga1cc478c81ef8f44c021828249b07b86a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1cc478c81ef8f44c021828249b07b86a">&#9670;&nbsp;</a></span>HAL_ETH_ReadPHYRegister()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_ETH_ReadPHYRegister </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_e_t_h___handle_type_def.html">ETH_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>heth</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>PHYReg</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t *&#160;</td>
+          <td class="paramname"><em>RegValue</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reads a PHY register. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">heth</td><td>pointer to a <a class="el" href="struct_e_t_h___handle_type_def.html" title="ETH Handle Structure definition.">ETH_HandleTypeDef</a> structure that contains the configuration information for ETHERNET module</td></tr>
+    <tr><td class="paramname">PHYReg</td><td>PHY register address, is the index of one of the 32 PHY register. This parameter can be one of the following values: PHY_BCR: Transceiver Basic Control Register, PHY_BSR: Transceiver Basic Status Register.</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>More PHY register could be read depending on the used PHY </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">RegValue</td><td>PHY register value</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gabdce0c2a96f82cd6c05a950cc1df0b4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabdce0c2a96f82cd6c05a950cc1df0b4c">&#9670;&nbsp;</a></span>HAL_ETH_RxCpltCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_ETH_RxCpltCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_e_t_h___handle_type_def.html">ETH_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>heth</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Rx Transfer completed callbacks. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">heth</td><td>pointer to a <a class="el" href="struct_e_t_h___handle_type_def.html" title="ETH Handle Structure definition.">ETH_HandleTypeDef</a> structure that contains the configuration information for ETHERNET module </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga09dc8287c10b5882ce7adf0fd7ba3cda"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga09dc8287c10b5882ce7adf0fd7ba3cda">&#9670;&nbsp;</a></span>HAL_ETH_TransmitFrame()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_ETH_TransmitFrame </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_e_t_h___handle_type_def.html">ETH_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>heth</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>FrameLength</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sends an Ethernet frame. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">heth</td><td>pointer to a <a class="el" href="struct_e_t_h___handle_type_def.html" title="ETH Handle Structure definition.">ETH_HandleTypeDef</a> structure that contains the configuration information for ETHERNET module </td></tr>
+    <tr><td class="paramname">FrameLength</td><td>Amount of data to be sent </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gacc480335c0312073b5d46a3b73c103d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gacc480335c0312073b5d46a3b73c103d0">&#9670;&nbsp;</a></span>HAL_ETH_TxCpltCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_ETH_TxCpltCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_e_t_h___handle_type_def.html">ETH_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>heth</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Tx Transfer completed callbacks. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">heth</td><td>pointer to a <a class="el" href="struct_e_t_h___handle_type_def.html" title="ETH Handle Structure definition.">ETH_HandleTypeDef</a> structure that contains the configuration information for ETHERNET module </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga3e46a062a5a97b8b5920bbd5bfdd09e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3e46a062a5a97b8b5920bbd5bfdd09e7">&#9670;&nbsp;</a></span>HAL_ETH_WritePHYRegister()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_ETH_WritePHYRegister </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_e_t_h___handle_type_def.html">ETH_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>heth</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>PHYReg</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>RegValue</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Writes to a PHY register. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">heth</td><td>pointer to a <a class="el" href="struct_e_t_h___handle_type_def.html" title="ETH Handle Structure definition.">ETH_HandleTypeDef</a> structure that contains the configuration information for ETHERNET module</td></tr>
+    <tr><td class="paramname">PHYReg</td><td>PHY register address, is the index of one of the 32 PHY register. This parameter can be one of the following values: PHY_BCR: Transceiver Control Register.</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>More PHY register could be written depending on the used PHY </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">RegValue</td><td>the value to write </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

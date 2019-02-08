@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.15"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>STM32F4xx_HAL_Driver: USART_Exported_Functions_Group3</title>
+<title>STM32F4xx_HAL_Driver: Peripheral State and Errors functions</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,20 +64,100 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">USART_Exported_Functions_Group3<div class="ingroups"><a class="el" href="group___u_s_a_r_t___exported___functions.html">USART_Exported_Functions</a></div></div>  </div>
+<div class="title">Peripheral State and Errors functions<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___u_s_a_r_t.html">USART</a> &raquo; <a class="el" href="group___u_s_a_r_t___exported___functions.html">USART Exported Functions</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>USART State and Errors functions.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga4fd7b79a07f70c5c9b4d13b7aaf147e8"><td class="memItemLeft" align="right" valign="top"><a id="ga4fd7b79a07f70c5c9b4d13b7aaf147e8"></a>
-<a class="el" href="stm32f4xx__hal__usart_8h.html#a502e7abdfa6b24f0f6b40cf60c7383c5">HAL_USART_StateTypeDef</a>&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_USART_GetState</b> (<a class="el" href="struct_u_s_a_r_t___handle_type_def.html">USART_HandleTypeDef</a> *husart)</td></tr>
+<tr class="memitem:ga4fd7b79a07f70c5c9b4d13b7aaf147e8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="stm32f4xx__hal__usart_8h.html#a502e7abdfa6b24f0f6b40cf60c7383c5">HAL_USART_StateTypeDef</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_a_r_t___exported___functions___group3.html#ga4fd7b79a07f70c5c9b4d13b7aaf147e8">HAL_USART_GetState</a> (<a class="el" href="struct_u_s_a_r_t___handle_type_def.html">USART_HandleTypeDef</a> *husart)</td></tr>
+<tr class="memdesc:ga4fd7b79a07f70c5c9b4d13b7aaf147e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the USART state.  <a href="#ga4fd7b79a07f70c5c9b4d13b7aaf147e8">More...</a><br /></td></tr>
 <tr class="separator:ga4fd7b79a07f70c5c9b4d13b7aaf147e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0a6ae309b21478da71f41cbc2b72fc47"><td class="memItemLeft" align="right" valign="top"><a id="ga0a6ae309b21478da71f41cbc2b72fc47"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_USART_GetError</b> (<a class="el" href="struct_u_s_a_r_t___handle_type_def.html">USART_HandleTypeDef</a> *husart)</td></tr>
+<tr class="memitem:ga0a6ae309b21478da71f41cbc2b72fc47"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_a_r_t___exported___functions___group3.html#ga0a6ae309b21478da71f41cbc2b72fc47">HAL_USART_GetError</a> (<a class="el" href="struct_u_s_a_r_t___handle_type_def.html">USART_HandleTypeDef</a> *husart)</td></tr>
+<tr class="memdesc:ga0a6ae309b21478da71f41cbc2b72fc47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the USART error code.  <a href="#ga0a6ae309b21478da71f41cbc2b72fc47">More...</a><br /></td></tr>
 <tr class="separator:ga0a6ae309b21478da71f41cbc2b72fc47"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>USART State and Errors functions. </p>
+<pre class="fragment">  ==============================================================================
+                  ##### Peripheral State and Errors functions #####
+  ==============================================================================
+  [..]
+    This subsection provides a set of functions allowing to return the State of
+    USART communication
+    process, return Peripheral Errors occurred during communication process
+     (+) HAL_USART_GetState() API can be helpful to check in run-time the state
+         of the USART peripheral.
+     (+) HAL_USART_GetError() check in run-time errors that could be occurred during
+         communication.
+</pre> <h2 class="groupheader">Function Documentation</h2>
+<a id="ga0a6ae309b21478da71f41cbc2b72fc47"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0a6ae309b21478da71f41cbc2b72fc47">&#9670;&nbsp;</a></span>HAL_USART_GetError()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t HAL_USART_GetError </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_u_s_a_r_t___handle_type_def.html">USART_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>husart</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return the USART error code. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">husart</td><td>pointer to a <a class="el" href="struct_u_s_a_r_t___handle_type_def.html" title="USART handle Structure definition.">USART_HandleTypeDef</a> structure that contains the configuration information for the specified USART. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">USART</td><td>Error Code </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga4fd7b79a07f70c5c9b4d13b7aaf147e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4fd7b79a07f70c5c9b4d13b7aaf147e8">&#9670;&nbsp;</a></span>HAL_USART_GetState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="stm32f4xx__hal__usart_8h.html#a502e7abdfa6b24f0f6b40cf60c7383c5">HAL_USART_StateTypeDef</a> HAL_USART_GetState </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_u_s_a_r_t___handle_type_def.html">USART_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>husart</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the USART state. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">husart</td><td>pointer to a <a class="el" href="struct_u_s_a_r_t___handle_type_def.html" title="USART handle Structure definition.">USART_HandleTypeDef</a> structure that contains the configuration information for the specified USART module. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>state </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

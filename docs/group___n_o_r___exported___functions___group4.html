@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.15"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>STM32F4xx_HAL_Driver: NOR_Exported_Functions_Group4</title>
+<title>STM32F4xx_HAL_Driver: NOR State functions</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,20 +64,112 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">NOR_Exported_Functions_Group4<div class="ingroups"><a class="el" href="group___n_o_r___exported___functions.html">NOR_Exported_Functions</a></div></div>  </div>
+<div class="title">NOR State functions<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___n_o_r.html">NOR</a> &raquo; <a class="el" href="group___n_o_r___exported___functions.html">NOR Exported Functions</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Peripheral State functions.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga43c13418d19e31d689d4ca6aa4634732"><td class="memItemLeft" align="right" valign="top"><a id="ga43c13418d19e31d689d4ca6aa4634732"></a>
-HAL_NOR_StateTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_NOR_GetState</b> (<a class="el" href="struct_n_o_r___handle_type_def.html">NOR_HandleTypeDef</a> *hnor)</td></tr>
+<tr class="memitem:ga43c13418d19e31d689d4ca6aa4634732"><td class="memItemLeft" align="right" valign="top">HAL_NOR_StateTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___n_o_r___exported___functions___group4.html#ga43c13418d19e31d689d4ca6aa4634732">HAL_NOR_GetState</a> (<a class="el" href="struct_n_o_r___handle_type_def.html">NOR_HandleTypeDef</a> *hnor)</td></tr>
+<tr class="memdesc:ga43c13418d19e31d689d4ca6aa4634732"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the NOR controller state  <a href="#ga43c13418d19e31d689d4ca6aa4634732">More...</a><br /></td></tr>
 <tr class="separator:ga43c13418d19e31d689d4ca6aa4634732"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga573ac00076a2ea1d96d7ea65eedb9edc"><td class="memItemLeft" align="right" valign="top"><a id="ga573ac00076a2ea1d96d7ea65eedb9edc"></a>
-<a class="el" href="stm32f4xx__hal__nor_8h.html#a9f6ed8c64e03bc4ab7c806a3fe057314">HAL_NOR_StatusTypeDef</a>&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_NOR_GetStatus</b> (<a class="el" href="struct_n_o_r___handle_type_def.html">NOR_HandleTypeDef</a> *hnor, uint32_t Address, uint32_t Timeout)</td></tr>
+<tr class="memitem:ga573ac00076a2ea1d96d7ea65eedb9edc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="stm32f4xx__hal__nor_8h.html#a9f6ed8c64e03bc4ab7c806a3fe057314">HAL_NOR_StatusTypeDef</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___n_o_r___exported___functions___group4.html#ga573ac00076a2ea1d96d7ea65eedb9edc">HAL_NOR_GetStatus</a> (<a class="el" href="struct_n_o_r___handle_type_def.html">NOR_HandleTypeDef</a> *hnor, uint32_t Address, uint32_t Timeout)</td></tr>
+<tr class="memdesc:ga573ac00076a2ea1d96d7ea65eedb9edc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the NOR operation status.  <a href="#ga573ac00076a2ea1d96d7ea65eedb9edc">More...</a><br /></td></tr>
 <tr class="separator:ga573ac00076a2ea1d96d7ea65eedb9edc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>Peripheral State functions. </p>
+<pre class="fragment">  ==============================================================================
+                      ##### NOR State functions #####
+  ==============================================================================  
+  [..]
+    This subsection permits to get in run-time the status of the NOR controller 
+    and the data flow.</pre> <h2 class="groupheader">Function Documentation</h2>
+<a id="ga43c13418d19e31d689d4ca6aa4634732"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga43c13418d19e31d689d4ca6aa4634732">&#9670;&nbsp;</a></span>HAL_NOR_GetState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_NOR_StateTypeDef HAL_NOR_GetState </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_n_o_r___handle_type_def.html">NOR_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hnor</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>return the NOR controller state </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hnor</td><td>pointer to a <a class="el" href="struct_n_o_r___handle_type_def.html" title="NOR handle Structure definition.">NOR_HandleTypeDef</a> structure that contains the configuration information for NOR module. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">NOR</td><td>controller state </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga573ac00076a2ea1d96d7ea65eedb9edc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga573ac00076a2ea1d96d7ea65eedb9edc">&#9670;&nbsp;</a></span>HAL_NOR_GetStatus()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="stm32f4xx__hal__nor_8h.html#a9f6ed8c64e03bc4ab7c806a3fe057314">HAL_NOR_StatusTypeDef</a> HAL_NOR_GetStatus </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_n_o_r___handle_type_def.html">NOR_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hnor</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Address</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Timeout</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the NOR operation status. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hnor</td><td>pointer to a <a class="el" href="struct_n_o_r___handle_type_def.html" title="NOR handle Structure definition.">NOR_HandleTypeDef</a> structure that contains the configuration information for NOR module.</td></tr>
+    <tr><td class="paramname">Address</td><td>Device address </td></tr>
+    <tr><td class="paramname">Timeout</td><td>NOR programming Timeout </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">NOR_Status</td><td>The returned value can be: HAL_NOR_STATUS_SUCCESS, HAL_NOR_STATUS_ERROR or HAL_NOR_STATUS_TIMEOUT </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

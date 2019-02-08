@@ -64,50 +64,453 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">IRQ Handler and Callbacks<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___f_m_p_i2_c.html">FMPI2C</a> &raquo; <a class="el" href="group___f_m_p_i2_c___exported___functions.html">FMPI2C_Exported_Functions</a></div></div>  </div>
+<div class="title">IRQ Handler and Callbacks<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___f_m_p_i2_c.html">FMPI2C</a> &raquo; <a class="el" href="group___f_m_p_i2_c___exported___functions.html">FMPI2C Exported Functions</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga803e78a3fef84def27fb01c633fdeb0f"><td class="memItemLeft" align="right" valign="top"><a id="ga803e78a3fef84def27fb01c633fdeb0f"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_FMPI2C_EV_IRQHandler</b> (<a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *hfmpi2c)</td></tr>
+<tr class="memitem:ga803e78a3fef84def27fb01c633fdeb0f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___f_m_p_i2_c___i_r_q___handler__and___callbacks.html#ga803e78a3fef84def27fb01c633fdeb0f">HAL_FMPI2C_EV_IRQHandler</a> (<a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *hfmpi2c)</td></tr>
+<tr class="memdesc:ga803e78a3fef84def27fb01c633fdeb0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function handles FMPI2C event interrupt request.  <a href="#ga803e78a3fef84def27fb01c633fdeb0f">More...</a><br /></td></tr>
 <tr class="separator:ga803e78a3fef84def27fb01c633fdeb0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga119104d69ec4bdaf7dab4073e4c064f5"><td class="memItemLeft" align="right" valign="top"><a id="ga119104d69ec4bdaf7dab4073e4c064f5"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_FMPI2C_ER_IRQHandler</b> (<a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *hfmpi2c)</td></tr>
+<tr class="memitem:ga119104d69ec4bdaf7dab4073e4c064f5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___f_m_p_i2_c___i_r_q___handler__and___callbacks.html#ga119104d69ec4bdaf7dab4073e4c064f5">HAL_FMPI2C_ER_IRQHandler</a> (<a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *hfmpi2c)</td></tr>
+<tr class="memdesc:ga119104d69ec4bdaf7dab4073e4c064f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function handles FMPI2C error interrupt request.  <a href="#ga119104d69ec4bdaf7dab4073e4c064f5">More...</a><br /></td></tr>
 <tr class="separator:ga119104d69ec4bdaf7dab4073e4c064f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga51a3c01b673f42e66ec555682fe078dc"><td class="memItemLeft" align="right" valign="top"><a id="ga51a3c01b673f42e66ec555682fe078dc"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_FMPI2C_MasterTxCpltCallback</b> (<a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *hfmpi2c)</td></tr>
-<tr class="separator:ga51a3c01b673f42e66ec555682fe078dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga3d9c3d1784cc3c27abe6e5b1f8c048d9"><td class="memItemLeft" align="right" valign="top"><a id="ga3d9c3d1784cc3c27abe6e5b1f8c048d9"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_FMPI2C_MasterRxCpltCallback</b> (<a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *hfmpi2c)</td></tr>
-<tr class="separator:ga3d9c3d1784cc3c27abe6e5b1f8c048d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab117e711b8c84b5ccd11196047fd82e2"><td class="memItemLeft" align="right" valign="top"><a id="gab117e711b8c84b5ccd11196047fd82e2"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_FMPI2C_SlaveTxCpltCallback</b> (<a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *hfmpi2c)</td></tr>
-<tr class="separator:gab117e711b8c84b5ccd11196047fd82e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1c2b15401b9b661b258bc93e49cca1b9"><td class="memItemLeft" align="right" valign="top"><a id="ga1c2b15401b9b661b258bc93e49cca1b9"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_FMPI2C_SlaveRxCpltCallback</b> (<a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *hfmpi2c)</td></tr>
-<tr class="separator:ga1c2b15401b9b661b258bc93e49cca1b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaeeca48e83d378e8bd60a1286a6ab6c10"><td class="memItemLeft" align="right" valign="top"><a id="gaeeca48e83d378e8bd60a1286a6ab6c10"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_FMPI2C_AddrCallback</b> (<a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *hfmpi2c, uint8_t TransferDirection, uint16_t AddrMatchCode)</td></tr>
-<tr class="separator:gaeeca48e83d378e8bd60a1286a6ab6c10"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6b261036c1bcf5fc6bfe05a7f6864260"><td class="memItemLeft" align="right" valign="top"><a id="ga6b261036c1bcf5fc6bfe05a7f6864260"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_FMPI2C_ListenCpltCallback</b> (<a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *hfmpi2c)</td></tr>
-<tr class="separator:ga6b261036c1bcf5fc6bfe05a7f6864260"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga37e5f54e340241a86a1501ee3df99899"><td class="memItemLeft" align="right" valign="top"><a id="ga37e5f54e340241a86a1501ee3df99899"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_FMPI2C_MemTxCpltCallback</b> (<a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *hfmpi2c)</td></tr>
-<tr class="separator:ga37e5f54e340241a86a1501ee3df99899"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2300a96278ae37def1794e8dcd91b9de"><td class="memItemLeft" align="right" valign="top"><a id="ga2300a96278ae37def1794e8dcd91b9de"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_FMPI2C_MemRxCpltCallback</b> (<a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *hfmpi2c)</td></tr>
-<tr class="separator:ga2300a96278ae37def1794e8dcd91b9de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga84eaa1823b409c0705a5026f437a4ba5"><td class="memItemLeft" align="right" valign="top"><a id="ga84eaa1823b409c0705a5026f437a4ba5"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_FMPI2C_ErrorCallback</b> (<a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *hfmpi2c)</td></tr>
-<tr class="separator:ga84eaa1823b409c0705a5026f437a4ba5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac751d55d16c44ee1c36a4af4f060ad87"><td class="memItemLeft" align="right" valign="top"><a id="gac751d55d16c44ee1c36a4af4f060ad87"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_FMPI2C_AbortCpltCallback</b> (<a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *hfmpi2c)</td></tr>
-<tr class="separator:gac751d55d16c44ee1c36a4af4f060ad87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1553382397775abf531537059dd0c4b0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___f_m_p_i2_c___i_r_q___handler__and___callbacks.html#ga1553382397775abf531537059dd0c4b0">HAL_FMPI2C_MasterTxCpltCallback</a> (<a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *hfmpi2c)</td></tr>
+<tr class="memdesc:ga1553382397775abf531537059dd0c4b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Master Tx Transfer completed callback.  <a href="#ga1553382397775abf531537059dd0c4b0">More...</a><br /></td></tr>
+<tr class="separator:ga1553382397775abf531537059dd0c4b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac95a8ee024a1a93744208c892f21c1a1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___f_m_p_i2_c___i_r_q___handler__and___callbacks.html#gac95a8ee024a1a93744208c892f21c1a1">HAL_FMPI2C_MasterRxCpltCallback</a> (<a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *hfmpi2c)</td></tr>
+<tr class="memdesc:gac95a8ee024a1a93744208c892f21c1a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Master Rx Transfer completed callback.  <a href="#gac95a8ee024a1a93744208c892f21c1a1">More...</a><br /></td></tr>
+<tr class="separator:gac95a8ee024a1a93744208c892f21c1a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga93eb737d42c5302f1c1322295c03c792"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___f_m_p_i2_c___i_r_q___handler__and___callbacks.html#ga93eb737d42c5302f1c1322295c03c792">HAL_FMPI2C_SlaveTxCpltCallback</a> (<a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *hfmpi2c)</td></tr>
+<tr class="memdesc:ga93eb737d42c5302f1c1322295c03c792"><td class="mdescLeft">&#160;</td><td class="mdescRight">Slave Tx Transfer completed callback.  <a href="#ga93eb737d42c5302f1c1322295c03c792">More...</a><br /></td></tr>
+<tr class="separator:ga93eb737d42c5302f1c1322295c03c792"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad6ab8f4e1eb69a4b590d68e44b356c8b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___f_m_p_i2_c___i_r_q___handler__and___callbacks.html#gad6ab8f4e1eb69a4b590d68e44b356c8b">HAL_FMPI2C_SlaveRxCpltCallback</a> (<a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *hfmpi2c)</td></tr>
+<tr class="memdesc:gad6ab8f4e1eb69a4b590d68e44b356c8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Slave Rx Transfer completed callback.  <a href="#gad6ab8f4e1eb69a4b590d68e44b356c8b">More...</a><br /></td></tr>
+<tr class="separator:gad6ab8f4e1eb69a4b590d68e44b356c8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaac33c84278e5ddb25e18e70652c9275d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___f_m_p_i2_c___i_r_q___handler__and___callbacks.html#gaac33c84278e5ddb25e18e70652c9275d">HAL_FMPI2C_AddrCallback</a> (<a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *hfmpi2c, uint8_t TransferDirection, uint16_t AddrMatchCode)</td></tr>
+<tr class="memdesc:gaac33c84278e5ddb25e18e70652c9275d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Slave Address Match callback.  <a href="#gaac33c84278e5ddb25e18e70652c9275d">More...</a><br /></td></tr>
+<tr class="separator:gaac33c84278e5ddb25e18e70652c9275d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3206d5c71fcc52106516171ca128ec10"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___f_m_p_i2_c___i_r_q___handler__and___callbacks.html#ga3206d5c71fcc52106516171ca128ec10">HAL_FMPI2C_ListenCpltCallback</a> (<a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *hfmpi2c)</td></tr>
+<tr class="memdesc:ga3206d5c71fcc52106516171ca128ec10"><td class="mdescLeft">&#160;</td><td class="mdescRight">Listen Complete callback.  <a href="#ga3206d5c71fcc52106516171ca128ec10">More...</a><br /></td></tr>
+<tr class="separator:ga3206d5c71fcc52106516171ca128ec10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5fe21ae837de5efe7c141c9660465468"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___f_m_p_i2_c___i_r_q___handler__and___callbacks.html#ga5fe21ae837de5efe7c141c9660465468">HAL_FMPI2C_MemTxCpltCallback</a> (<a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *hfmpi2c)</td></tr>
+<tr class="memdesc:ga5fe21ae837de5efe7c141c9660465468"><td class="mdescLeft">&#160;</td><td class="mdescRight">Memory Tx Transfer completed callback.  <a href="#ga5fe21ae837de5efe7c141c9660465468">More...</a><br /></td></tr>
+<tr class="separator:ga5fe21ae837de5efe7c141c9660465468"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaefe95286ab7bf59764815a027af0c669"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___f_m_p_i2_c___i_r_q___handler__and___callbacks.html#gaefe95286ab7bf59764815a027af0c669">HAL_FMPI2C_MemRxCpltCallback</a> (<a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *hfmpi2c)</td></tr>
+<tr class="memdesc:gaefe95286ab7bf59764815a027af0c669"><td class="mdescLeft">&#160;</td><td class="mdescRight">Memory Rx Transfer completed callback.  <a href="#gaefe95286ab7bf59764815a027af0c669">More...</a><br /></td></tr>
+<tr class="separator:gaefe95286ab7bf59764815a027af0c669"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7ab2bc46357259fdc1497bed514013ba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___f_m_p_i2_c___i_r_q___handler__and___callbacks.html#ga7ab2bc46357259fdc1497bed514013ba">HAL_FMPI2C_ErrorCallback</a> (<a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *hfmpi2c)</td></tr>
+<tr class="memdesc:ga7ab2bc46357259fdc1497bed514013ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">FMPI2C error callback.  <a href="#ga7ab2bc46357259fdc1497bed514013ba">More...</a><br /></td></tr>
+<tr class="separator:ga7ab2bc46357259fdc1497bed514013ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga38b206d5f62c72c4c5f8986339178737"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___f_m_p_i2_c___i_r_q___handler__and___callbacks.html#ga38b206d5f62c72c4c5f8986339178737">HAL_FMPI2C_AbortCpltCallback</a> (<a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *hfmpi2c)</td></tr>
+<tr class="memdesc:ga38b206d5f62c72c4c5f8986339178737"><td class="mdescLeft">&#160;</td><td class="mdescRight">FMPI2C abort callback.  <a href="#ga38b206d5f62c72c4c5f8986339178737">More...</a><br /></td></tr>
+<tr class="separator:ga38b206d5f62c72c4c5f8986339178737"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="ga38b206d5f62c72c4c5f8986339178737"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga38b206d5f62c72c4c5f8986339178737">&#9670;&nbsp;</a></span>HAL_FMPI2C_AbortCpltCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_FMPI2C_AbortCpltCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hfmpi2c</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>FMPI2C abort callback. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hfmpi2c</td><td>Pointer to a FMPI2C_HandleTypeDef structure that contains the configuration information for the specified FMPI2C. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaac33c84278e5ddb25e18e70652c9275d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaac33c84278e5ddb25e18e70652c9275d">&#9670;&nbsp;</a></span>HAL_FMPI2C_AddrCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_FMPI2C_AddrCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hfmpi2c</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>TransferDirection</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>AddrMatchCode</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Slave Address Match callback. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hfmpi2c</td><td>Pointer to a FMPI2C_HandleTypeDef structure that contains the configuration information for the specified FMPI2C. </td></tr>
+    <tr><td class="paramname">TransferDirection</td><td>Master request Transfer Direction (Write/Read), value of <a class="el" href="group___f_m_p_i2_c___x_f_e_r_d_i_r_e_c_t_i_o_n.html">FMPI2C Transfer Direction Master Point of View</a> </td></tr>
+    <tr><td class="paramname">AddrMatchCode</td><td>Address Match Code </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga119104d69ec4bdaf7dab4073e4c064f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga119104d69ec4bdaf7dab4073e4c064f5">&#9670;&nbsp;</a></span>HAL_FMPI2C_ER_IRQHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HAL_FMPI2C_ER_IRQHandler </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hfmpi2c</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function handles FMPI2C error interrupt request. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hfmpi2c</td><td>Pointer to a FMPI2C_HandleTypeDef structure that contains the configuration information for the specified FMPI2C. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga7ab2bc46357259fdc1497bed514013ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7ab2bc46357259fdc1497bed514013ba">&#9670;&nbsp;</a></span>HAL_FMPI2C_ErrorCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_FMPI2C_ErrorCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hfmpi2c</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>FMPI2C error callback. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hfmpi2c</td><td>Pointer to a FMPI2C_HandleTypeDef structure that contains the configuration information for the specified FMPI2C. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga803e78a3fef84def27fb01c633fdeb0f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga803e78a3fef84def27fb01c633fdeb0f">&#9670;&nbsp;</a></span>HAL_FMPI2C_EV_IRQHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HAL_FMPI2C_EV_IRQHandler </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hfmpi2c</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function handles FMPI2C event interrupt request. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hfmpi2c</td><td>Pointer to a FMPI2C_HandleTypeDef structure that contains the configuration information for the specified FMPI2C. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga3206d5c71fcc52106516171ca128ec10"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3206d5c71fcc52106516171ca128ec10">&#9670;&nbsp;</a></span>HAL_FMPI2C_ListenCpltCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_FMPI2C_ListenCpltCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hfmpi2c</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Listen Complete callback. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hfmpi2c</td><td>Pointer to a FMPI2C_HandleTypeDef structure that contains the configuration information for the specified FMPI2C. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gac95a8ee024a1a93744208c892f21c1a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac95a8ee024a1a93744208c892f21c1a1">&#9670;&nbsp;</a></span>HAL_FMPI2C_MasterRxCpltCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_FMPI2C_MasterRxCpltCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hfmpi2c</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Master Rx Transfer completed callback. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hfmpi2c</td><td>Pointer to a FMPI2C_HandleTypeDef structure that contains the configuration information for the specified FMPI2C. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga1553382397775abf531537059dd0c4b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1553382397775abf531537059dd0c4b0">&#9670;&nbsp;</a></span>HAL_FMPI2C_MasterTxCpltCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_FMPI2C_MasterTxCpltCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hfmpi2c</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Master Tx Transfer completed callback. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hfmpi2c</td><td>Pointer to a FMPI2C_HandleTypeDef structure that contains the configuration information for the specified FMPI2C. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaefe95286ab7bf59764815a027af0c669"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaefe95286ab7bf59764815a027af0c669">&#9670;&nbsp;</a></span>HAL_FMPI2C_MemRxCpltCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_FMPI2C_MemRxCpltCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hfmpi2c</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Memory Rx Transfer completed callback. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hfmpi2c</td><td>Pointer to a FMPI2C_HandleTypeDef structure that contains the configuration information for the specified FMPI2C. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga5fe21ae837de5efe7c141c9660465468"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5fe21ae837de5efe7c141c9660465468">&#9670;&nbsp;</a></span>HAL_FMPI2C_MemTxCpltCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_FMPI2C_MemTxCpltCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hfmpi2c</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Memory Tx Transfer completed callback. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hfmpi2c</td><td>Pointer to a FMPI2C_HandleTypeDef structure that contains the configuration information for the specified FMPI2C. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gad6ab8f4e1eb69a4b590d68e44b356c8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad6ab8f4e1eb69a4b590d68e44b356c8b">&#9670;&nbsp;</a></span>HAL_FMPI2C_SlaveRxCpltCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_FMPI2C_SlaveRxCpltCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hfmpi2c</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Slave Rx Transfer completed callback. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hfmpi2c</td><td>Pointer to a FMPI2C_HandleTypeDef structure that contains the configuration information for the specified FMPI2C. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga93eb737d42c5302f1c1322295c03c792"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga93eb737d42c5302f1c1322295c03c792">&#9670;&nbsp;</a></span>HAL_FMPI2C_SlaveTxCpltCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_FMPI2C_SlaveTxCpltCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hfmpi2c</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Slave Tx Transfer completed callback. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hfmpi2c</td><td>Pointer to a FMPI2C_HandleTypeDef structure that contains the configuration information for the specified FMPI2C. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

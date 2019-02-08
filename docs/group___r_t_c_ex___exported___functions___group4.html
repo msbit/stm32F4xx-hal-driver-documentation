@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.15"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>STM32F4xx_HAL_Driver: RTCEx_Exported_Functions_Group4</title>
+<title>STM32F4xx_HAL_Driver: Extended features functions</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,20 +64,105 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">RTCEx_Exported_Functions_Group4<div class="ingroups"><a class="el" href="group___r_t_c_ex___exported___functions.html">RTCEx Exported Functions</a></div></div>  </div>
+<div class="title">Extended features functions<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___r_t_c_ex.html">RTCEx</a> &raquo; <a class="el" href="group___r_t_c_ex___exported___functions.html">RTCEx Exported Functions</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Extended features functions.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga9da295aecbc4566dabc161437d1b95f2"><td class="memItemLeft" align="right" valign="top"><a id="ga9da295aecbc4566dabc161437d1b95f2"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_RTCEx_AlarmBEventCallback</b> (<a class="el" href="struct_r_t_c___handle_type_def.html">RTC_HandleTypeDef</a> *hrtc)</td></tr>
-<tr class="separator:ga9da295aecbc4566dabc161437d1b95f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaec42cd894d63744c4914ec6a65510cae"><td class="memItemLeft" align="right" valign="top"><a id="gaec42cd894d63744c4914ec6a65510cae"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_RTCEx_PollForAlarmBEvent</b> (<a class="el" href="struct_r_t_c___handle_type_def.html">RTC_HandleTypeDef</a> *hrtc, uint32_t Timeout)</td></tr>
+<tr class="memitem:ga25f71edf08fd2393c08f484d9689d944"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___r_t_c_ex___exported___functions___group4.html#ga25f71edf08fd2393c08f484d9689d944">HAL_RTCEx_AlarmBEventCallback</a> (<a class="el" href="struct_r_t_c___handle_type_def.html">RTC_HandleTypeDef</a> *hrtc)</td></tr>
+<tr class="memdesc:ga25f71edf08fd2393c08f484d9689d944"><td class="mdescLeft">&#160;</td><td class="mdescRight">Alarm B callback.  <a href="#ga25f71edf08fd2393c08f484d9689d944">More...</a><br /></td></tr>
+<tr class="separator:ga25f71edf08fd2393c08f484d9689d944"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaec42cd894d63744c4914ec6a65510cae"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___r_t_c_ex___exported___functions___group4.html#gaec42cd894d63744c4914ec6a65510cae">HAL_RTCEx_PollForAlarmBEvent</a> (<a class="el" href="struct_r_t_c___handle_type_def.html">RTC_HandleTypeDef</a> *hrtc, uint32_t Timeout)</td></tr>
+<tr class="memdesc:gaec42cd894d63744c4914ec6a65510cae"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function handles AlarmB Polling request.  <a href="#gaec42cd894d63744c4914ec6a65510cae">More...</a><br /></td></tr>
 <tr class="separator:gaec42cd894d63744c4914ec6a65510cae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>Extended features functions. </p>
+<pre class="fragment"> ===============================================================================
+                 ##### Extended features functions #####
+ ===============================================================================  
+    [..]  This section provides functions allowing to:
+      (+) RTC Alarm B callback
+      (+) RTC Poll for Alarm B request</pre> <h2 class="groupheader">Function Documentation</h2>
+<a id="ga25f71edf08fd2393c08f484d9689d944"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga25f71edf08fd2393c08f484d9689d944">&#9670;&nbsp;</a></span>HAL_RTCEx_AlarmBEventCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_RTCEx_AlarmBEventCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_r_t_c___handle_type_def.html">RTC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hrtc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Alarm B callback. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hrtc</td><td>pointer to a <a class="el" href="struct_r_t_c___handle_type_def.html" title="RTC Handle Structure definition.">RTC_HandleTypeDef</a> structure that contains the configuration information for RTC. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaec42cd894d63744c4914ec6a65510cae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaec42cd894d63744c4914ec6a65510cae">&#9670;&nbsp;</a></span>HAL_RTCEx_PollForAlarmBEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_RTCEx_PollForAlarmBEvent </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_r_t_c___handle_type_def.html">RTC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hrtc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Timeout</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function handles AlarmB Polling request. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hrtc</td><td>pointer to a <a class="el" href="struct_r_t_c___handle_type_def.html" title="RTC Handle Structure definition.">RTC_HandleTypeDef</a> structure that contains the configuration information for RTC. </td></tr>
+    <tr><td class="paramname">Timeout</td><td>Timeout duration </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

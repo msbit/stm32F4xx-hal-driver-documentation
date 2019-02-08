@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.15"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>STM32F4xx_HAL_Driver: NOR_Exported_Functions_Group1</title>
+<title>STM32F4xx_HAL_Driver: Initialization and de-initialization functions</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,29 +64,228 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">NOR_Exported_Functions_Group1<div class="ingroups"><a class="el" href="group___n_o_r___exported___functions.html">NOR_Exported_Functions</a></div></div>  </div>
+<div class="title">Initialization and de-initialization functions<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___n_o_r.html">NOR</a> &raquo; <a class="el" href="group___n_o_r___exported___functions.html">NOR Exported Functions</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Initialization and Configuration functions.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga4e57924a000c4abcdda194dd8e775551"><td class="memItemLeft" align="right" valign="top"><a id="ga4e57924a000c4abcdda194dd8e775551"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_NOR_Init</b> (<a class="el" href="struct_n_o_r___handle_type_def.html">NOR_HandleTypeDef</a> *hnor, <a class="el" href="struct_f_m_c___n_o_r_s_r_a_m___timing_type_def.html">FMC_NORSRAM_TimingTypeDef</a> *Timing, <a class="el" href="struct_f_m_c___n_o_r_s_r_a_m___timing_type_def.html">FMC_NORSRAM_TimingTypeDef</a> *ExtTiming)</td></tr>
+<tr class="memitem:ga4e57924a000c4abcdda194dd8e775551"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___n_o_r___exported___functions___group1.html#ga4e57924a000c4abcdda194dd8e775551">HAL_NOR_Init</a> (<a class="el" href="struct_n_o_r___handle_type_def.html">NOR_HandleTypeDef</a> *hnor, <a class="el" href="struct_f_m_c___n_o_r_s_r_a_m___timing_type_def.html">FMC_NORSRAM_TimingTypeDef</a> *Timing, <a class="el" href="struct_f_m_c___n_o_r_s_r_a_m___timing_type_def.html">FMC_NORSRAM_TimingTypeDef</a> *ExtTiming)</td></tr>
+<tr class="memdesc:ga4e57924a000c4abcdda194dd8e775551"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform the NOR memory Initialization sequence.  <a href="#ga4e57924a000c4abcdda194dd8e775551">More...</a><br /></td></tr>
 <tr class="separator:ga4e57924a000c4abcdda194dd8e775551"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga3e14008ba2ebbf6f65d377ff80750d32"><td class="memItemLeft" align="right" valign="top"><a id="ga3e14008ba2ebbf6f65d377ff80750d32"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_NOR_DeInit</b> (<a class="el" href="struct_n_o_r___handle_type_def.html">NOR_HandleTypeDef</a> *hnor)</td></tr>
+<tr class="memitem:ga3e14008ba2ebbf6f65d377ff80750d32"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___n_o_r___exported___functions___group1.html#ga3e14008ba2ebbf6f65d377ff80750d32">HAL_NOR_DeInit</a> (<a class="el" href="struct_n_o_r___handle_type_def.html">NOR_HandleTypeDef</a> *hnor)</td></tr>
+<tr class="memdesc:ga3e14008ba2ebbf6f65d377ff80750d32"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform NOR memory De-Initialization sequence.  <a href="#ga3e14008ba2ebbf6f65d377ff80750d32">More...</a><br /></td></tr>
 <tr class="separator:ga3e14008ba2ebbf6f65d377ff80750d32"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae2131f8d5b6ce25da34779d5d92406c5"><td class="memItemLeft" align="right" valign="top"><a id="gae2131f8d5b6ce25da34779d5d92406c5"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_NOR_MspInit</b> (<a class="el" href="struct_n_o_r___handle_type_def.html">NOR_HandleTypeDef</a> *hnor)</td></tr>
-<tr class="separator:gae2131f8d5b6ce25da34779d5d92406c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa2014759078b91a9fa2ccec3a7a8bd76"><td class="memItemLeft" align="right" valign="top"><a id="gaa2014759078b91a9fa2ccec3a7a8bd76"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_NOR_MspDeInit</b> (<a class="el" href="struct_n_o_r___handle_type_def.html">NOR_HandleTypeDef</a> *hnor)</td></tr>
-<tr class="separator:gaa2014759078b91a9fa2ccec3a7a8bd76"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac5b61493e53abbe9040b002a0504375d"><td class="memItemLeft" align="right" valign="top"><a id="gac5b61493e53abbe9040b002a0504375d"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_NOR_MspWait</b> (<a class="el" href="struct_n_o_r___handle_type_def.html">NOR_HandleTypeDef</a> *hnor, uint32_t Timeout)</td></tr>
-<tr class="separator:gac5b61493e53abbe9040b002a0504375d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga411a5ba6cd2c582052182b122426e08a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___n_o_r___exported___functions___group1.html#ga411a5ba6cd2c582052182b122426e08a">HAL_NOR_MspInit</a> (<a class="el" href="struct_n_o_r___handle_type_def.html">NOR_HandleTypeDef</a> *hnor)</td></tr>
+<tr class="memdesc:ga411a5ba6cd2c582052182b122426e08a"><td class="mdescLeft">&#160;</td><td class="mdescRight">NOR MSP Init.  <a href="#ga411a5ba6cd2c582052182b122426e08a">More...</a><br /></td></tr>
+<tr class="separator:ga411a5ba6cd2c582052182b122426e08a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaed23fceff032f617a79c70dbd6a038e4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___n_o_r___exported___functions___group1.html#gaed23fceff032f617a79c70dbd6a038e4">HAL_NOR_MspDeInit</a> (<a class="el" href="struct_n_o_r___handle_type_def.html">NOR_HandleTypeDef</a> *hnor)</td></tr>
+<tr class="memdesc:gaed23fceff032f617a79c70dbd6a038e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">NOR MSP DeInit.  <a href="#gaed23fceff032f617a79c70dbd6a038e4">More...</a><br /></td></tr>
+<tr class="separator:gaed23fceff032f617a79c70dbd6a038e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafe7f646426cbc3f37703e8b4f78bd5cf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___n_o_r___exported___functions___group1.html#gafe7f646426cbc3f37703e8b4f78bd5cf">HAL_NOR_MspWait</a> (<a class="el" href="struct_n_o_r___handle_type_def.html">NOR_HandleTypeDef</a> *hnor, uint32_t Timeout)</td></tr>
+<tr class="memdesc:gafe7f646426cbc3f37703e8b4f78bd5cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">NOR MSP Wait for Ready/Busy signal.  <a href="#gafe7f646426cbc3f37703e8b4f78bd5cf">More...</a><br /></td></tr>
+<tr class="separator:gafe7f646426cbc3f37703e8b4f78bd5cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>Initialization and Configuration functions. </p>
+<pre class="fragment">  ==============================================================================
+           ##### NOR Initialization and de_initialization functions #####
+  ==============================================================================
+  [..]  
+    This section provides functions allowing to initialize/de-initialize
+    the NOR memory</pre> <h2 class="groupheader">Function Documentation</h2>
+<a id="ga3e14008ba2ebbf6f65d377ff80750d32"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3e14008ba2ebbf6f65d377ff80750d32">&#9670;&nbsp;</a></span>HAL_NOR_DeInit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_NOR_DeInit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_n_o_r___handle_type_def.html">NOR_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hnor</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Perform NOR memory De-Initialization sequence. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hnor</td><td>pointer to a <a class="el" href="struct_n_o_r___handle_type_def.html" title="NOR handle Structure definition.">NOR_HandleTypeDef</a> structure that contains the configuration information for NOR module. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga4e57924a000c4abcdda194dd8e775551"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4e57924a000c4abcdda194dd8e775551">&#9670;&nbsp;</a></span>HAL_NOR_Init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_NOR_Init </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_n_o_r___handle_type_def.html">NOR_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hnor</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_f_m_c___n_o_r_s_r_a_m___timing_type_def.html">FMC_NORSRAM_TimingTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>Timing</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_f_m_c___n_o_r_s_r_a_m___timing_type_def.html">FMC_NORSRAM_TimingTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>ExtTiming</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Perform the NOR memory Initialization sequence. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hnor</td><td>pointer to a <a class="el" href="struct_n_o_r___handle_type_def.html" title="NOR handle Structure definition.">NOR_HandleTypeDef</a> structure that contains the configuration information for NOR module. </td></tr>
+    <tr><td class="paramname">Timing</td><td>pointer to NOR control timing structure </td></tr>
+    <tr><td class="paramname">ExtTiming</td><td>pointer to NOR extended mode timing structure</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaed23fceff032f617a79c70dbd6a038e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaed23fceff032f617a79c70dbd6a038e4">&#9670;&nbsp;</a></span>HAL_NOR_MspDeInit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_NOR_MspDeInit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_n_o_r___handle_type_def.html">NOR_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hnor</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>NOR MSP DeInit. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hnor</td><td>pointer to a <a class="el" href="struct_n_o_r___handle_type_def.html" title="NOR handle Structure definition.">NOR_HandleTypeDef</a> structure that contains the configuration information for NOR module. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga411a5ba6cd2c582052182b122426e08a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga411a5ba6cd2c582052182b122426e08a">&#9670;&nbsp;</a></span>HAL_NOR_MspInit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_NOR_MspInit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_n_o_r___handle_type_def.html">NOR_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hnor</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>NOR MSP Init. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hnor</td><td>pointer to a <a class="el" href="struct_n_o_r___handle_type_def.html" title="NOR handle Structure definition.">NOR_HandleTypeDef</a> structure that contains the configuration information for NOR module. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gafe7f646426cbc3f37703e8b4f78bd5cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gafe7f646426cbc3f37703e8b4f78bd5cf">&#9670;&nbsp;</a></span>HAL_NOR_MspWait()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_NOR_MspWait </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_n_o_r___handle_type_def.html">NOR_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hnor</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Timeout</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>NOR MSP Wait for Ready/Busy signal. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hnor</td><td>pointer to a <a class="el" href="struct_n_o_r___handle_type_def.html" title="NOR handle Structure definition.">NOR_HandleTypeDef</a> structure that contains the configuration information for NOR module. </td></tr>
+    <tr><td class="paramname">Timeout</td><td>Maximum timeout value </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.15"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>STM32F4xx_HAL_Driver: HASH_Exported_Functions_Group6</title>
+<title>STM32F4xx_HAL_Driver: HASH-MAC (HMAC) processing functions using DMA mode</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,20 +64,131 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">HASH_Exported_Functions_Group6<div class="ingroups"><a class="el" href="group___h_a_s_h___exported___functions.html">HASH Exported Functions</a></div></div>  </div>
+<div class="title">HASH-MAC (HMAC) processing functions using DMA mode<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___h_a_s_h.html">HASH</a> &raquo; <a class="el" href="group___h_a_s_h___exported___functions.html">HASH Exported Functions</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>HMAC processing functions using DMA mode .  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gaa700f529d2d72b6e75d23e4d3137bb1a"><td class="memItemLeft" align="right" valign="top"><a id="gaa700f529d2d72b6e75d23e4d3137bb1a"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_HMAC_SHA1_Start_DMA</b> (<a class="el" href="struct_h_a_s_h___handle_type_def.html">HASH_HandleTypeDef</a> *hhash, uint8_t *pInBuffer, uint32_t Size)</td></tr>
+<tr class="memitem:gaa700f529d2d72b6e75d23e4d3137bb1a"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_a_s_h___exported___functions___group6.html#gaa700f529d2d72b6e75d23e4d3137bb1a">HAL_HMAC_SHA1_Start_DMA</a> (<a class="el" href="struct_h_a_s_h___handle_type_def.html">HASH_HandleTypeDef</a> *hhash, uint8_t *pInBuffer, uint32_t Size)</td></tr>
+<tr class="memdesc:gaa700f529d2d72b6e75d23e4d3137bb1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the HASH peripheral in HMAC SHA1 mode then enables DMA to control data transfer.  <a href="#gaa700f529d2d72b6e75d23e4d3137bb1a">More...</a><br /></td></tr>
 <tr class="separator:gaa700f529d2d72b6e75d23e4d3137bb1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4fa5ba47d4e4d9e8a22f2ef91432a2f9"><td class="memItemLeft" align="right" valign="top"><a id="ga4fa5ba47d4e4d9e8a22f2ef91432a2f9"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_HMAC_MD5_Start_DMA</b> (<a class="el" href="struct_h_a_s_h___handle_type_def.html">HASH_HandleTypeDef</a> *hhash, uint8_t *pInBuffer, uint32_t Size)</td></tr>
+<tr class="memitem:ga4fa5ba47d4e4d9e8a22f2ef91432a2f9"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_a_s_h___exported___functions___group6.html#ga4fa5ba47d4e4d9e8a22f2ef91432a2f9">HAL_HMAC_MD5_Start_DMA</a> (<a class="el" href="struct_h_a_s_h___handle_type_def.html">HASH_HandleTypeDef</a> *hhash, uint8_t *pInBuffer, uint32_t Size)</td></tr>
+<tr class="memdesc:ga4fa5ba47d4e4d9e8a22f2ef91432a2f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the HASH peripheral in HMAC MD5 mode then enables DMA to control data transfer.  <a href="#ga4fa5ba47d4e4d9e8a22f2ef91432a2f9">More...</a><br /></td></tr>
 <tr class="separator:ga4fa5ba47d4e4d9e8a22f2ef91432a2f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>HMAC processing functions using DMA mode . </p>
+<pre class="fragment"> ===============================================================================
+                ##### HMAC processing using DMA mode functions #####
+ ===============================================================================  
+    [..]  This section provides functions allowing to calculate in DMA mode
+          the HMAC value using one of the following algorithms:
+      (+) MD5
+      (+) SHA1</pre> <h2 class="groupheader">Function Documentation</h2>
+<a id="ga4fa5ba47d4e4d9e8a22f2ef91432a2f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4fa5ba47d4e4d9e8a22f2ef91432a2f9">&#9670;&nbsp;</a></span>HAL_HMAC_MD5_Start_DMA()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_HMAC_MD5_Start_DMA </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_h_a_s_h___handle_type_def.html">HASH_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hhash</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pInBuffer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initializes the HASH peripheral in HMAC MD5 mode then enables DMA to control data transfer. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hhash</td><td>pointer to a <a class="el" href="struct_h_a_s_h___handle_type_def.html">HASH_HandleTypeDef</a> structure that contains the configuration information for HASH module </td></tr>
+    <tr><td class="paramname">pInBuffer</td><td>Pointer to the input buffer (buffer to be hashed). </td></tr>
+    <tr><td class="paramname">Size</td><td>Length of the input buffer in bytes. If the Size is not multiple of 64 bytes, the padding is managed by hardware. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaa700f529d2d72b6e75d23e4d3137bb1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa700f529d2d72b6e75d23e4d3137bb1a">&#9670;&nbsp;</a></span>HAL_HMAC_SHA1_Start_DMA()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_HMAC_SHA1_Start_DMA </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_h_a_s_h___handle_type_def.html">HASH_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hhash</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pInBuffer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initializes the HASH peripheral in HMAC SHA1 mode then enables DMA to control data transfer. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hhash</td><td>pointer to a <a class="el" href="struct_h_a_s_h___handle_type_def.html">HASH_HandleTypeDef</a> structure that contains the configuration information for HASH module </td></tr>
+    <tr><td class="paramname">pInBuffer</td><td>Pointer to the input buffer (buffer to be hashed). </td></tr>
+    <tr><td class="paramname">Size</td><td>Length of the input buffer in bytes. If the Size is not multiple of 64 bytes, the padding is managed by hardware. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

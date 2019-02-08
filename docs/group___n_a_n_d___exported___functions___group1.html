@@ -64,38 +64,344 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">Initialization and de-initialization functions<div class="ingroups"><a class="el" href="group___n_a_n_d___exported___functions.html">NAND Exported Functions</a></div></div>  </div>
+<div class="title">Initialization and de-initialization functions<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___n_a_n_d.html">NAND</a> &raquo; <a class="el" href="group___n_a_n_d___exported___functions.html">NAND Exported Functions</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Initialization and Configuration functions.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga0df41a0a8daae436832cd465b7b422b3"><td class="memItemLeft" align="right" valign="top"><a id="ga0df41a0a8daae436832cd465b7b422b3"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_NAND_Init</b> (<a class="el" href="struct_n_a_n_d___handle_type_def.html">NAND_HandleTypeDef</a> *hnand, <a class="el" href="struct_f_m_c___n_a_n_d___p_c_c___timing_type_def.html">FMC_NAND_PCC_TimingTypeDef</a> *ComSpace_Timing, <a class="el" href="struct_f_m_c___n_a_n_d___p_c_c___timing_type_def.html">FMC_NAND_PCC_TimingTypeDef</a> *AttSpace_Timing)</td></tr>
+<tr class="memitem:ga0df41a0a8daae436832cd465b7b422b3"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___n_a_n_d___exported___functions___group1.html#ga0df41a0a8daae436832cd465b7b422b3">HAL_NAND_Init</a> (<a class="el" href="struct_n_a_n_d___handle_type_def.html">NAND_HandleTypeDef</a> *hnand, <a class="el" href="struct_f_m_c___n_a_n_d___p_c_c___timing_type_def.html">FMC_NAND_PCC_TimingTypeDef</a> *ComSpace_Timing, <a class="el" href="struct_f_m_c___n_a_n_d___p_c_c___timing_type_def.html">FMC_NAND_PCC_TimingTypeDef</a> *AttSpace_Timing)</td></tr>
+<tr class="memdesc:ga0df41a0a8daae436832cd465b7b422b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform NAND memory Initialization sequence.  <a href="#ga0df41a0a8daae436832cd465b7b422b3">More...</a><br /></td></tr>
 <tr class="separator:ga0df41a0a8daae436832cd465b7b422b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa112425b9194b40f519e9fb6118c70fa"><td class="memItemLeft" align="right" valign="top"><a id="gaa112425b9194b40f519e9fb6118c70fa"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_NAND_DeInit</b> (<a class="el" href="struct_n_a_n_d___handle_type_def.html">NAND_HandleTypeDef</a> *hnand)</td></tr>
+<tr class="memitem:gaa112425b9194b40f519e9fb6118c70fa"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___n_a_n_d___exported___functions___group1.html#gaa112425b9194b40f519e9fb6118c70fa">HAL_NAND_DeInit</a> (<a class="el" href="struct_n_a_n_d___handle_type_def.html">NAND_HandleTypeDef</a> *hnand)</td></tr>
+<tr class="memdesc:gaa112425b9194b40f519e9fb6118c70fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform NAND memory De-Initialization sequence.  <a href="#gaa112425b9194b40f519e9fb6118c70fa">More...</a><br /></td></tr>
 <tr class="separator:gaa112425b9194b40f519e9fb6118c70fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6bd8a6bb2d4cd752611d4fbcdceb1aa4"><td class="memItemLeft" align="right" valign="top"><a id="ga6bd8a6bb2d4cd752611d4fbcdceb1aa4"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_NAND_ConfigDevice</b> (<a class="el" href="struct_n_a_n_d___handle_type_def.html">NAND_HandleTypeDef</a> *hnand, <a class="el" href="struct_n_a_n_d___device_config_type_def.html">NAND_DeviceConfigTypeDef</a> *pDeviceConfig)</td></tr>
+<tr class="memitem:ga6bd8a6bb2d4cd752611d4fbcdceb1aa4"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___n_a_n_d___exported___functions___group1.html#ga6bd8a6bb2d4cd752611d4fbcdceb1aa4">HAL_NAND_ConfigDevice</a> (<a class="el" href="struct_n_a_n_d___handle_type_def.html">NAND_HandleTypeDef</a> *hnand, <a class="el" href="struct_n_a_n_d___device_config_type_def.html">NAND_DeviceConfigTypeDef</a> *pDeviceConfig)</td></tr>
+<tr class="memdesc:ga6bd8a6bb2d4cd752611d4fbcdceb1aa4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configure the device: Enter the physical parameters of the device.  <a href="#ga6bd8a6bb2d4cd752611d4fbcdceb1aa4">More...</a><br /></td></tr>
 <tr class="separator:ga6bd8a6bb2d4cd752611d4fbcdceb1aa4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga9899354ee96eac1da4197075f6c2f774"><td class="memItemLeft" align="right" valign="top"><a id="ga9899354ee96eac1da4197075f6c2f774"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_NAND_Read_ID</b> (<a class="el" href="struct_n_a_n_d___handle_type_def.html">NAND_HandleTypeDef</a> *hnand, <a class="el" href="struct_n_a_n_d___i_d_type_def.html">NAND_IDTypeDef</a> *pNAND_ID)</td></tr>
+<tr class="memitem:ga9899354ee96eac1da4197075f6c2f774"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___n_a_n_d___exported___functions___group1.html#ga9899354ee96eac1da4197075f6c2f774">HAL_NAND_Read_ID</a> (<a class="el" href="struct_n_a_n_d___handle_type_def.html">NAND_HandleTypeDef</a> *hnand, <a class="el" href="struct_n_a_n_d___i_d_type_def.html">NAND_IDTypeDef</a> *pNAND_ID)</td></tr>
+<tr class="memdesc:ga9899354ee96eac1da4197075f6c2f774"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read the NAND memory electronic signature.  <a href="#ga9899354ee96eac1da4197075f6c2f774">More...</a><br /></td></tr>
 <tr class="separator:ga9899354ee96eac1da4197075f6c2f774"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga632d4b86bfb8bb2990bbe60de527950f"><td class="memItemLeft" align="right" valign="top"><a id="ga632d4b86bfb8bb2990bbe60de527950f"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_NAND_MspInit</b> (<a class="el" href="struct_n_a_n_d___handle_type_def.html">NAND_HandleTypeDef</a> *hnand)</td></tr>
-<tr class="separator:ga632d4b86bfb8bb2990bbe60de527950f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf36843b12a69fcf7f09a9370e5fdd8cd"><td class="memItemLeft" align="right" valign="top"><a id="gaf36843b12a69fcf7f09a9370e5fdd8cd"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_NAND_MspDeInit</b> (<a class="el" href="struct_n_a_n_d___handle_type_def.html">NAND_HandleTypeDef</a> *hnand)</td></tr>
-<tr class="separator:gaf36843b12a69fcf7f09a9370e5fdd8cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga93151bf1a6e4f193327afb2881a4efdd"><td class="memItemLeft" align="right" valign="top"><a id="ga93151bf1a6e4f193327afb2881a4efdd"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_NAND_IRQHandler</b> (<a class="el" href="struct_n_a_n_d___handle_type_def.html">NAND_HandleTypeDef</a> *hnand)</td></tr>
+<tr class="memitem:ga57ef3814180cf717dabf240a2b396404"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___n_a_n_d___exported___functions___group1.html#ga57ef3814180cf717dabf240a2b396404">HAL_NAND_MspInit</a> (<a class="el" href="struct_n_a_n_d___handle_type_def.html">NAND_HandleTypeDef</a> *hnand)</td></tr>
+<tr class="memdesc:ga57ef3814180cf717dabf240a2b396404"><td class="mdescLeft">&#160;</td><td class="mdescRight">NAND MSP Init.  <a href="#ga57ef3814180cf717dabf240a2b396404">More...</a><br /></td></tr>
+<tr class="separator:ga57ef3814180cf717dabf240a2b396404"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga182939bc00bdda782830b706f5a7c763"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___n_a_n_d___exported___functions___group1.html#ga182939bc00bdda782830b706f5a7c763">HAL_NAND_MspDeInit</a> (<a class="el" href="struct_n_a_n_d___handle_type_def.html">NAND_HandleTypeDef</a> *hnand)</td></tr>
+<tr class="memdesc:ga182939bc00bdda782830b706f5a7c763"><td class="mdescLeft">&#160;</td><td class="mdescRight">NAND MSP DeInit.  <a href="#ga182939bc00bdda782830b706f5a7c763">More...</a><br /></td></tr>
+<tr class="separator:ga182939bc00bdda782830b706f5a7c763"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga93151bf1a6e4f193327afb2881a4efdd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___n_a_n_d___exported___functions___group1.html#ga93151bf1a6e4f193327afb2881a4efdd">HAL_NAND_IRQHandler</a> (<a class="el" href="struct_n_a_n_d___handle_type_def.html">NAND_HandleTypeDef</a> *hnand)</td></tr>
+<tr class="memdesc:ga93151bf1a6e4f193327afb2881a4efdd"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function handles NAND device interrupt request.  <a href="#ga93151bf1a6e4f193327afb2881a4efdd">More...</a><br /></td></tr>
 <tr class="separator:ga93151bf1a6e4f193327afb2881a4efdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga953e5653003b63bfbeefc3f68f05e2bc"><td class="memItemLeft" align="right" valign="top"><a id="ga953e5653003b63bfbeefc3f68f05e2bc"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_NAND_ITCallback</b> (<a class="el" href="struct_n_a_n_d___handle_type_def.html">NAND_HandleTypeDef</a> *hnand)</td></tr>
-<tr class="separator:ga953e5653003b63bfbeefc3f68f05e2bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga376a6982016a02dea68e76e2a2fb8cc4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___n_a_n_d___exported___functions___group1.html#ga376a6982016a02dea68e76e2a2fb8cc4">HAL_NAND_ITCallback</a> (<a class="el" href="struct_n_a_n_d___handle_type_def.html">NAND_HandleTypeDef</a> *hnand)</td></tr>
+<tr class="memdesc:ga376a6982016a02dea68e76e2a2fb8cc4"><td class="mdescLeft">&#160;</td><td class="mdescRight">NAND interrupt feature callback.  <a href="#ga376a6982016a02dea68e76e2a2fb8cc4">More...</a><br /></td></tr>
+<tr class="separator:ga376a6982016a02dea68e76e2a2fb8cc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>Initialization and Configuration functions. </p>
+<pre class="fragment">  ==============================================================================
+            ##### NAND Initialization and de-initialization functions #####
+  ==============================================================================
+  [..]  
+    This section provides functions allowing to initialize/de-initialize
+    the NAND memory</pre> <h2 class="groupheader">Function Documentation</h2>
+<a id="ga6bd8a6bb2d4cd752611d4fbcdceb1aa4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6bd8a6bb2d4cd752611d4fbcdceb1aa4">&#9670;&nbsp;</a></span>HAL_NAND_ConfigDevice()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_NAND_ConfigDevice </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_n_a_n_d___handle_type_def.html">NAND_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hnand</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_n_a_n_d___device_config_type_def.html">NAND_DeviceConfigTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>pDeviceConfig</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Configure the device: Enter the physical parameters of the device. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hnand</td><td>pointer to a <a class="el" href="struct_n_a_n_d___handle_type_def.html" title="NAND handle Structure definition.">NAND_HandleTypeDef</a> structure that contains the configuration information for NAND module. </td></tr>
+    <tr><td class="paramname">pDeviceConfig</td><td>pointer to <a class="el" href="struct_n_a_n_d___device_config_type_def.html" title="NAND Memory info Structure definition.">NAND_DeviceConfigTypeDef</a> structure </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaa112425b9194b40f519e9fb6118c70fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa112425b9194b40f519e9fb6118c70fa">&#9670;&nbsp;</a></span>HAL_NAND_DeInit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_NAND_DeInit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_n_a_n_d___handle_type_def.html">NAND_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hnand</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Perform NAND memory De-Initialization sequence. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hnand</td><td>pointer to a <a class="el" href="struct_n_a_n_d___handle_type_def.html" title="NAND handle Structure definition.">NAND_HandleTypeDef</a> structure that contains the configuration information for NAND module. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga0df41a0a8daae436832cd465b7b422b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0df41a0a8daae436832cd465b7b422b3">&#9670;&nbsp;</a></span>HAL_NAND_Init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_NAND_Init </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_n_a_n_d___handle_type_def.html">NAND_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hnand</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_f_m_c___n_a_n_d___p_c_c___timing_type_def.html">FMC_NAND_PCC_TimingTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>ComSpace_Timing</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_f_m_c___n_a_n_d___p_c_c___timing_type_def.html">FMC_NAND_PCC_TimingTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>AttSpace_Timing</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Perform NAND memory Initialization sequence. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hnand</td><td>pointer to a <a class="el" href="struct_n_a_n_d___handle_type_def.html" title="NAND handle Structure definition.">NAND_HandleTypeDef</a> structure that contains the configuration information for NAND module. </td></tr>
+    <tr><td class="paramname">ComSpace_Timing</td><td>pointer to Common space timing structure </td></tr>
+    <tr><td class="paramname">AttSpace_Timing</td><td>pointer to Attribute space timing structure </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga93151bf1a6e4f193327afb2881a4efdd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga93151bf1a6e4f193327afb2881a4efdd">&#9670;&nbsp;</a></span>HAL_NAND_IRQHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HAL_NAND_IRQHandler </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_n_a_n_d___handle_type_def.html">NAND_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hnand</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function handles NAND device interrupt request. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hnand</td><td>pointer to a <a class="el" href="struct_n_a_n_d___handle_type_def.html" title="NAND handle Structure definition.">NAND_HandleTypeDef</a> structure that contains the configuration information for NAND module. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga376a6982016a02dea68e76e2a2fb8cc4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga376a6982016a02dea68e76e2a2fb8cc4">&#9670;&nbsp;</a></span>HAL_NAND_ITCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_NAND_ITCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_n_a_n_d___handle_type_def.html">NAND_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hnand</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>NAND interrupt feature callback. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hnand</td><td>pointer to a <a class="el" href="struct_n_a_n_d___handle_type_def.html" title="NAND handle Structure definition.">NAND_HandleTypeDef</a> structure that contains the configuration information for NAND module. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga182939bc00bdda782830b706f5a7c763"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga182939bc00bdda782830b706f5a7c763">&#9670;&nbsp;</a></span>HAL_NAND_MspDeInit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_NAND_MspDeInit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_n_a_n_d___handle_type_def.html">NAND_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hnand</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>NAND MSP DeInit. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hnand</td><td>pointer to a <a class="el" href="struct_n_a_n_d___handle_type_def.html" title="NAND handle Structure definition.">NAND_HandleTypeDef</a> structure that contains the configuration information for NAND module. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga57ef3814180cf717dabf240a2b396404"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga57ef3814180cf717dabf240a2b396404">&#9670;&nbsp;</a></span>HAL_NAND_MspInit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_NAND_MspInit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_n_a_n_d___handle_type_def.html">NAND_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hnand</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>NAND MSP Init. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hnand</td><td>pointer to a <a class="el" href="struct_n_a_n_d___handle_type_def.html" title="NAND handle Structure definition.">NAND_HandleTypeDef</a> structure that contains the configuration information for NAND module. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga9899354ee96eac1da4197075f6c2f774"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9899354ee96eac1da4197075f6c2f774">&#9670;&nbsp;</a></span>HAL_NAND_Read_ID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_NAND_Read_ID </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_n_a_n_d___handle_type_def.html">NAND_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hnand</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_n_a_n_d___i_d_type_def.html">NAND_IDTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>pNAND_ID</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Read the NAND memory electronic signature. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hnand</td><td>pointer to a <a class="el" href="struct_n_a_n_d___handle_type_def.html" title="NAND handle Structure definition.">NAND_HandleTypeDef</a> structure that contains the configuration information for NAND module. </td></tr>
+    <tr><td class="paramname">pNAND_ID</td><td>NAND ID structure </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

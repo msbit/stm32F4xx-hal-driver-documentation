@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.15"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>STM32F4xx_HAL_Driver: CEC_Exported_Functions_Group1</title>
+<title>STM32F4xx_HAL_Driver: Initialization and de-initialization functions</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,29 +64,219 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">CEC_Exported_Functions_Group1<div class="ingroups"><a class="el" href="group___c_e_c___exported___functions.html">CEC_Exported_Functions</a></div></div>  </div>
+<div class="title">Initialization and de-initialization functions<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___c_e_c.html">CEC</a> &raquo; <a class="el" href="group___c_e_c___exported___functions.html">CEC Exported Functions</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Initialization and Configuration functions.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga553bbe62470104298db3dc0afd0a1a4d"><td class="memItemLeft" align="right" valign="top"><a id="ga553bbe62470104298db3dc0afd0a1a4d"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_CEC_Init</b> (<a class="el" href="struct_c_e_c___handle_type_def.html">CEC_HandleTypeDef</a> *hcec)</td></tr>
+<tr class="memitem:ga553bbe62470104298db3dc0afd0a1a4d"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_e_c___exported___functions___group1.html#ga553bbe62470104298db3dc0afd0a1a4d">HAL_CEC_Init</a> (<a class="el" href="struct_c_e_c___handle_type_def.html">CEC_HandleTypeDef</a> *hcec)</td></tr>
+<tr class="memdesc:ga553bbe62470104298db3dc0afd0a1a4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the CEC mode according to the specified parameters in the CEC_InitTypeDef and creates the associated handle .  <a href="#ga553bbe62470104298db3dc0afd0a1a4d">More...</a><br /></td></tr>
 <tr class="separator:ga553bbe62470104298db3dc0afd0a1a4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4601cdb51e76b58531fece8e316827f2"><td class="memItemLeft" align="right" valign="top"><a id="ga4601cdb51e76b58531fece8e316827f2"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_CEC_DeInit</b> (<a class="el" href="struct_c_e_c___handle_type_def.html">CEC_HandleTypeDef</a> *hcec)</td></tr>
+<tr class="memitem:ga4601cdb51e76b58531fece8e316827f2"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_e_c___exported___functions___group1.html#ga4601cdb51e76b58531fece8e316827f2">HAL_CEC_DeInit</a> (<a class="el" href="struct_c_e_c___handle_type_def.html">CEC_HandleTypeDef</a> *hcec)</td></tr>
+<tr class="memdesc:ga4601cdb51e76b58531fece8e316827f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">DeInitializes the CEC peripheral.  <a href="#ga4601cdb51e76b58531fece8e316827f2">More...</a><br /></td></tr>
 <tr class="separator:ga4601cdb51e76b58531fece8e316827f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab2c8e15f62ea5749efa0748a093889c7"><td class="memItemLeft" align="right" valign="top"><a id="gab2c8e15f62ea5749efa0748a093889c7"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_CEC_SetDeviceAddress</b> (<a class="el" href="struct_c_e_c___handle_type_def.html">CEC_HandleTypeDef</a> *hcec, uint16_t CEC_OwnAddress)</td></tr>
+<tr class="memitem:gab2c8e15f62ea5749efa0748a093889c7"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_e_c___exported___functions___group1.html#gab2c8e15f62ea5749efa0748a093889c7">HAL_CEC_SetDeviceAddress</a> (<a class="el" href="struct_c_e_c___handle_type_def.html">CEC_HandleTypeDef</a> *hcec, uint16_t CEC_OwnAddress)</td></tr>
+<tr class="memdesc:gab2c8e15f62ea5749efa0748a093889c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the Own Address of the CEC device.  <a href="#gab2c8e15f62ea5749efa0748a093889c7">More...</a><br /></td></tr>
 <tr class="separator:gab2c8e15f62ea5749efa0748a093889c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga3a0a33b5cb43b1357b8537cdde091800"><td class="memItemLeft" align="right" valign="top"><a id="ga3a0a33b5cb43b1357b8537cdde091800"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_CEC_MspInit</b> (<a class="el" href="struct_c_e_c___handle_type_def.html">CEC_HandleTypeDef</a> *hcec)</td></tr>
-<tr class="separator:ga3a0a33b5cb43b1357b8537cdde091800"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad68f168b971d74c5a81f6043e28ab54a"><td class="memItemLeft" align="right" valign="top"><a id="gad68f168b971d74c5a81f6043e28ab54a"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_CEC_MspDeInit</b> (<a class="el" href="struct_c_e_c___handle_type_def.html">CEC_HandleTypeDef</a> *hcec)</td></tr>
-<tr class="separator:gad68f168b971d74c5a81f6043e28ab54a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3d0a3409da34158e530bb2ab6e6b27fe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_e_c___exported___functions___group1.html#ga3d0a3409da34158e530bb2ab6e6b27fe">HAL_CEC_MspInit</a> (<a class="el" href="struct_c_e_c___handle_type_def.html">CEC_HandleTypeDef</a> *hcec)</td></tr>
+<tr class="memdesc:ga3d0a3409da34158e530bb2ab6e6b27fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">CEC MSP Init.  <a href="#ga3d0a3409da34158e530bb2ab6e6b27fe">More...</a><br /></td></tr>
+<tr class="separator:ga3d0a3409da34158e530bb2ab6e6b27fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga289872e1a848c8d8b33238273a717007"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_e_c___exported___functions___group1.html#ga289872e1a848c8d8b33238273a717007">HAL_CEC_MspDeInit</a> (<a class="el" href="struct_c_e_c___handle_type_def.html">CEC_HandleTypeDef</a> *hcec)</td></tr>
+<tr class="memdesc:ga289872e1a848c8d8b33238273a717007"><td class="mdescLeft">&#160;</td><td class="mdescRight">CEC MSP DeInit.  <a href="#ga289872e1a848c8d8b33238273a717007">More...</a><br /></td></tr>
+<tr class="separator:ga289872e1a848c8d8b33238273a717007"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>Initialization and Configuration functions. </p>
+<pre class="fragment">===============================================================================
+            ##### Initialization and Configuration functions #####
+ ===============================================================================  
+    [..]
+    This subsection provides a set of functions allowing to initialize the CEC
+      (+) The following parameters need to be configured: 
+        (++) SignalFreeTime
+        (++) Tolerance 
+        (++) BRERxStop                 (RX stopped or not upon Bit Rising Error)
+        (++) BREErrorBitGen            (Error-Bit generation in case of Bit Rising Error)
+        (++) LBPEErrorBitGen           (Error-Bit generation in case of Long Bit Period Error)
+        (++) BroadcastMsgNoErrorBitGen (Error-bit generation in case of broadcast message error)
+        (++) SignalFreeTimeOption      (SFT Timer start definition)
+        (++) OwnAddress                (CEC device address)
+        (++) ListenMode</pre> <h2 class="groupheader">Function Documentation</h2>
+<a id="ga4601cdb51e76b58531fece8e316827f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4601cdb51e76b58531fece8e316827f2">&#9670;&nbsp;</a></span>HAL_CEC_DeInit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_CEC_DeInit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_c_e_c___handle_type_def.html">CEC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hcec</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>DeInitializes the CEC peripheral. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hcec</td><td>CEC handle </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga553bbe62470104298db3dc0afd0a1a4d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga553bbe62470104298db3dc0afd0a1a4d">&#9670;&nbsp;</a></span>HAL_CEC_Init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_CEC_Init </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_c_e_c___handle_type_def.html">CEC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hcec</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initializes the CEC mode according to the specified parameters in the CEC_InitTypeDef and creates the associated handle . </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hcec</td><td>CEC handle </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga289872e1a848c8d8b33238273a717007"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga289872e1a848c8d8b33238273a717007">&#9670;&nbsp;</a></span>HAL_CEC_MspDeInit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_CEC_MspDeInit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_c_e_c___handle_type_def.html">CEC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hcec</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>CEC MSP DeInit. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hcec</td><td>CEC handle </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga3d0a3409da34158e530bb2ab6e6b27fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3d0a3409da34158e530bb2ab6e6b27fe">&#9670;&nbsp;</a></span>HAL_CEC_MspInit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_CEC_MspInit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_c_e_c___handle_type_def.html">CEC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hcec</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>CEC MSP Init. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hcec</td><td>CEC handle </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gab2c8e15f62ea5749efa0748a093889c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab2c8e15f62ea5749efa0748a093889c7">&#9670;&nbsp;</a></span>HAL_CEC_SetDeviceAddress()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_CEC_SetDeviceAddress </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_c_e_c___handle_type_def.html">CEC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hcec</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>CEC_OwnAddress</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initializes the Own Address of the CEC device. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hcec</td><td>CEC handle </td></tr>
+    <tr><td class="paramname">CEC_OwnAddress</td><td>The CEC own address.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

@@ -64,32 +64,304 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">Input and Output operation functions<div class="ingroups"><a class="el" href="group___h_c_d___exported___functions.html">HCD Exported Functions</a></div></div>  </div>
+<div class="title">Input and Output operation functions<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___h_c_d.html">HCD</a> &raquo; <a class="el" href="group___h_c_d___exported___functions.html">HCD Exported Functions</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>HCD IO operation functions.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gad251297042a17f373c150981bae5edfc"><td class="memItemLeft" align="right" valign="top"><a id="gad251297042a17f373c150981bae5edfc"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_HCD_HC_SubmitRequest</b> (<a class="el" href="struct_h_c_d___handle_type_def.html">HCD_HandleTypeDef</a> *hhcd, uint8_t ch_num, uint8_t direction, uint8_t ep_type, uint8_t token, uint8_t *pbuff, uint16_t length, uint8_t do_ping)</td></tr>
+<tr class="memitem:gad251297042a17f373c150981bae5edfc"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_c_d___exported___functions___group2.html#gad251297042a17f373c150981bae5edfc">HAL_HCD_HC_SubmitRequest</a> (<a class="el" href="struct_h_c_d___handle_type_def.html">HCD_HandleTypeDef</a> *hhcd, uint8_t ch_num, uint8_t direction, uint8_t ep_type, uint8_t token, uint8_t *pbuff, uint16_t length, uint8_t do_ping)</td></tr>
+<tr class="memdesc:gad251297042a17f373c150981bae5edfc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Submit a new URB for processing.  <a href="#gad251297042a17f373c150981bae5edfc">More...</a><br /></td></tr>
 <tr class="separator:gad251297042a17f373c150981bae5edfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae18bf9327c37d11bf981a7c2b30ee973"><td class="memItemLeft" align="right" valign="top"><a id="gae18bf9327c37d11bf981a7c2b30ee973"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_HCD_IRQHandler</b> (<a class="el" href="struct_h_c_d___handle_type_def.html">HCD_HandleTypeDef</a> *hhcd)</td></tr>
+<tr class="memitem:gae18bf9327c37d11bf981a7c2b30ee973"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_c_d___exported___functions___group2.html#gae18bf9327c37d11bf981a7c2b30ee973">HAL_HCD_IRQHandler</a> (<a class="el" href="struct_h_c_d___handle_type_def.html">HCD_HandleTypeDef</a> *hhcd)</td></tr>
+<tr class="memdesc:gae18bf9327c37d11bf981a7c2b30ee973"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle HCD interrupt request.  <a href="#gae18bf9327c37d11bf981a7c2b30ee973">More...</a><br /></td></tr>
 <tr class="separator:gae18bf9327c37d11bf981a7c2b30ee973"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4db2ea557e081600238759cb55353628"><td class="memItemLeft" align="right" valign="top"><a id="ga4db2ea557e081600238759cb55353628"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_HCD_SOF_Callback</b> (<a class="el" href="struct_h_c_d___handle_type_def.html">HCD_HandleTypeDef</a> *hhcd)</td></tr>
-<tr class="separator:ga4db2ea557e081600238759cb55353628"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga95cbb5d1910e3cbf9bd462e057b3df33"><td class="memItemLeft" align="right" valign="top"><a id="ga95cbb5d1910e3cbf9bd462e057b3df33"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_HCD_Connect_Callback</b> (<a class="el" href="struct_h_c_d___handle_type_def.html">HCD_HandleTypeDef</a> *hhcd)</td></tr>
-<tr class="separator:ga95cbb5d1910e3cbf9bd462e057b3df33"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad59d0d3fdd9ef512faa0b0e56d83bfdc"><td class="memItemLeft" align="right" valign="top"><a id="gad59d0d3fdd9ef512faa0b0e56d83bfdc"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_HCD_Disconnect_Callback</b> (<a class="el" href="struct_h_c_d___handle_type_def.html">HCD_HandleTypeDef</a> *hhcd)</td></tr>
-<tr class="separator:gad59d0d3fdd9ef512faa0b0e56d83bfdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga668704f16414d9ec2fa8023506b28e76"><td class="memItemLeft" align="right" valign="top"><a id="ga668704f16414d9ec2fa8023506b28e76"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_HCD_HC_NotifyURBChange_Callback</b> (<a class="el" href="struct_h_c_d___handle_type_def.html">HCD_HandleTypeDef</a> *hhcd, uint8_t chnum, <a class="el" href="stm32f4xx__ll__usb_8h.html#a04b2bca306495588fec3a5245daa5221">HCD_URBStateTypeDef</a> urb_state)</td></tr>
-<tr class="separator:ga668704f16414d9ec2fa8023506b28e76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8a44836a05cd5a954ff91f6770220151"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_c_d___exported___functions___group2.html#ga8a44836a05cd5a954ff91f6770220151">HAL_HCD_SOF_Callback</a> (<a class="el" href="struct_h_c_d___handle_type_def.html">HCD_HandleTypeDef</a> *hhcd)</td></tr>
+<tr class="memdesc:ga8a44836a05cd5a954ff91f6770220151"><td class="mdescLeft">&#160;</td><td class="mdescRight">SOF callback.  <a href="#ga8a44836a05cd5a954ff91f6770220151">More...</a><br /></td></tr>
+<tr class="separator:ga8a44836a05cd5a954ff91f6770220151"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga34c7464de0277f6dc4b9070024252560"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_c_d___exported___functions___group2.html#ga34c7464de0277f6dc4b9070024252560">HAL_HCD_Connect_Callback</a> (<a class="el" href="struct_h_c_d___handle_type_def.html">HCD_HandleTypeDef</a> *hhcd)</td></tr>
+<tr class="memdesc:ga34c7464de0277f6dc4b9070024252560"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connection Event callback.  <a href="#ga34c7464de0277f6dc4b9070024252560">More...</a><br /></td></tr>
+<tr class="separator:ga34c7464de0277f6dc4b9070024252560"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf5d2956ae6e00b29ae853b057706380c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_c_d___exported___functions___group2.html#gaf5d2956ae6e00b29ae853b057706380c">HAL_HCD_Disconnect_Callback</a> (<a class="el" href="struct_h_c_d___handle_type_def.html">HCD_HandleTypeDef</a> *hhcd)</td></tr>
+<tr class="memdesc:gaf5d2956ae6e00b29ae853b057706380c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disconnection Event callback.  <a href="#gaf5d2956ae6e00b29ae853b057706380c">More...</a><br /></td></tr>
+<tr class="separator:gaf5d2956ae6e00b29ae853b057706380c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4e3a01b25fa55095bbeb023eb56274a7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_c_d___exported___functions___group2.html#ga4e3a01b25fa55095bbeb023eb56274a7">HAL_HCD_HC_NotifyURBChange_Callback</a> (<a class="el" href="struct_h_c_d___handle_type_def.html">HCD_HandleTypeDef</a> *hhcd, uint8_t chnum, <a class="el" href="stm32f4xx__ll__usb_8h.html#a04b2bca306495588fec3a5245daa5221">HCD_URBStateTypeDef</a> urb_state)</td></tr>
+<tr class="memdesc:ga4e3a01b25fa55095bbeb023eb56274a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notify URB state change callback.  <a href="#ga4e3a01b25fa55095bbeb023eb56274a7">More...</a><br /></td></tr>
+<tr class="separator:ga4e3a01b25fa55095bbeb023eb56274a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>HCD IO operation functions. </p>
+<pre class="fragment"> ===============================================================================
+                      ##### IO operation functions #####
+ ===============================================================================
+ [..] This subsection provides a set of functions allowing to manage the USB Host Data 
+    Transfer</pre> <h2 class="groupheader">Function Documentation</h2>
+<a id="ga34c7464de0277f6dc4b9070024252560"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga34c7464de0277f6dc4b9070024252560">&#9670;&nbsp;</a></span>HAL_HCD_Connect_Callback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_HCD_Connect_Callback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_h_c_d___handle_type_def.html">HCD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hhcd</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Connection Event callback. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hhcd</td><td>HCD handle </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaf5d2956ae6e00b29ae853b057706380c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf5d2956ae6e00b29ae853b057706380c">&#9670;&nbsp;</a></span>HAL_HCD_Disconnect_Callback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_HCD_Disconnect_Callback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_h_c_d___handle_type_def.html">HCD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hhcd</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Disconnection Event callback. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hhcd</td><td>HCD handle </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga4e3a01b25fa55095bbeb023eb56274a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4e3a01b25fa55095bbeb023eb56274a7">&#9670;&nbsp;</a></span>HAL_HCD_HC_NotifyURBChange_Callback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_HCD_HC_NotifyURBChange_Callback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_h_c_d___handle_type_def.html">HCD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hhcd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>chnum</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="stm32f4xx__ll__usb_8h.html#a04b2bca306495588fec3a5245daa5221">HCD_URBStateTypeDef</a>&#160;</td>
+          <td class="paramname"><em>urb_state</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Notify URB state change callback. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hhcd</td><td>HCD handle </td></tr>
+    <tr><td class="paramname">chnum</td><td>Channel number. This parameter can be a value from 1 to 15 </td></tr>
+    <tr><td class="paramname">urb_state</td><td>This parameter can be one of these values: URB_IDLE/ URB_DONE/ URB_NOTREADY/ URB_NYET/ URB_ERROR/ URB_STALL/ </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gad251297042a17f373c150981bae5edfc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad251297042a17f373c150981bae5edfc">&#9670;&nbsp;</a></span>HAL_HCD_HC_SubmitRequest()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_HCD_HC_SubmitRequest </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_h_c_d___handle_type_def.html">HCD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hhcd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>ch_num</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>direction</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>ep_type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>token</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pbuff</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>length</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>do_ping</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Submit a new URB for processing. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hhcd</td><td>HCD handle </td></tr>
+    <tr><td class="paramname">ch_num</td><td>Channel number. This parameter can be a value from 1 to 15 </td></tr>
+    <tr><td class="paramname">direction</td><td>Channel number. This parameter can be one of these values: 0 : Output / 1 : Input </td></tr>
+    <tr><td class="paramname">ep_type</td><td>Endpoint Type. This parameter can be one of these values: EP_TYPE_CTRL: Control type/ EP_TYPE_ISOC: Isochronous type/ EP_TYPE_BULK: Bulk type/ EP_TYPE_INTR: Interrupt type/ </td></tr>
+    <tr><td class="paramname">token</td><td>Endpoint Type. This parameter can be one of these values: 0: HC_PID_SETUP / 1: HC_PID_DATA1 </td></tr>
+    <tr><td class="paramname">pbuff</td><td>pointer to URB data </td></tr>
+    <tr><td class="paramname">length</td><td>Length of URB data </td></tr>
+    <tr><td class="paramname">do_ping</td><td>activate do ping protocol (for high speed only). This parameter can be one of these values: 0 : do ping inactive / 1 : do ping active </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gae18bf9327c37d11bf981a7c2b30ee973"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae18bf9327c37d11bf981a7c2b30ee973">&#9670;&nbsp;</a></span>HAL_HCD_IRQHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HAL_HCD_IRQHandler </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_h_c_d___handle_type_def.html">HCD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hhcd</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Handle HCD interrupt request. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hhcd</td><td>HCD handle </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga8a44836a05cd5a954ff91f6770220151"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8a44836a05cd5a954ff91f6770220151">&#9670;&nbsp;</a></span>HAL_HCD_SOF_Callback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_HCD_SOF_Callback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_h_c_d___handle_type_def.html">HCD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hhcd</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>SOF callback. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hhcd</td><td>HCD handle </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

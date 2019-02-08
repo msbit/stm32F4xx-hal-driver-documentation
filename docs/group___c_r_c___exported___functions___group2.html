@@ -64,20 +64,132 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">Peripheral Control functions<div class="ingroups"><a class="el" href="group___c_r_c___exported___functions.html">CRC Exported Functions</a></div></div>  </div>
+<div class="title">Peripheral Control functions<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___c_r_c.html">CRC</a> &raquo; <a class="el" href="group___c_r_c___exported___functions.html">CRC Exported Functions</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Peripheral Control functions.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga124a77d595e4982ad6e9a64c22f28b7b"><td class="memItemLeft" align="right" valign="top"><a id="ga124a77d595e4982ad6e9a64c22f28b7b"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_CRC_Accumulate</b> (<a class="el" href="struct_c_r_c___handle_type_def.html">CRC_HandleTypeDef</a> *hcrc, uint32_t pBuffer[], uint32_t BufferLength)</td></tr>
+<tr class="memitem:ga124a77d595e4982ad6e9a64c22f28b7b"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_r_c___exported___functions___group2.html#ga124a77d595e4982ad6e9a64c22f28b7b">HAL_CRC_Accumulate</a> (<a class="el" href="struct_c_r_c___handle_type_def.html">CRC_HandleTypeDef</a> *hcrc, uint32_t pBuffer[], uint32_t BufferLength)</td></tr>
+<tr class="memdesc:ga124a77d595e4982ad6e9a64c22f28b7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the 32-bit CRC of 32-bit data buffer using combination of the previous CRC value and the new one.  <a href="#ga124a77d595e4982ad6e9a64c22f28b7b">More...</a><br /></td></tr>
 <tr class="separator:ga124a77d595e4982ad6e9a64c22f28b7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga298593a6fb0bbd109cdbed3851806371"><td class="memItemLeft" align="right" valign="top"><a id="ga298593a6fb0bbd109cdbed3851806371"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_CRC_Calculate</b> (<a class="el" href="struct_c_r_c___handle_type_def.html">CRC_HandleTypeDef</a> *hcrc, uint32_t pBuffer[], uint32_t BufferLength)</td></tr>
+<tr class="memitem:ga298593a6fb0bbd109cdbed3851806371"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_r_c___exported___functions___group2.html#ga298593a6fb0bbd109cdbed3851806371">HAL_CRC_Calculate</a> (<a class="el" href="struct_c_r_c___handle_type_def.html">CRC_HandleTypeDef</a> *hcrc, uint32_t pBuffer[], uint32_t BufferLength)</td></tr>
+<tr class="memdesc:ga298593a6fb0bbd109cdbed3851806371"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the 32-bit CRC of 32-bit data buffer independently of the previous CRC value.  <a href="#ga298593a6fb0bbd109cdbed3851806371">More...</a><br /></td></tr>
 <tr class="separator:ga298593a6fb0bbd109cdbed3851806371"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>Peripheral Control functions. </p>
+<pre class="fragment">  ==============================================================================
+                      ##### Peripheral Control functions #####
+  ==============================================================================  
+    [..]  This section provides functions allowing to:
+      (+) Compute the 32-bit CRC value of 32-bit data buffer,
+          using combination of the previous CRC value and the new one.
+      (+) Compute the 32-bit CRC value of 32-bit data buffer,
+          independently of the previous CRC value.</pre> <h2 class="groupheader">Function Documentation</h2>
+<a id="ga124a77d595e4982ad6e9a64c22f28b7b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga124a77d595e4982ad6e9a64c22f28b7b">&#9670;&nbsp;</a></span>HAL_CRC_Accumulate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t HAL_CRC_Accumulate </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_c_r_c___handle_type_def.html">CRC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hcrc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>pBuffer</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>BufferLength</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Computes the 32-bit CRC of 32-bit data buffer using combination of the previous CRC value and the new one. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hcrc</td><td>pointer to a <a class="el" href="struct_c_r_c___handle_type_def.html">CRC_HandleTypeDef</a> structure that contains the configuration information for CRC </td></tr>
+    <tr><td class="paramname">pBuffer</td><td>pointer to the buffer containing the data to be computed </td></tr>
+    <tr><td class="paramname">BufferLength</td><td>length of the buffer to be computed </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">32-bit</td><td>CRC </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga298593a6fb0bbd109cdbed3851806371"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga298593a6fb0bbd109cdbed3851806371">&#9670;&nbsp;</a></span>HAL_CRC_Calculate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t HAL_CRC_Calculate </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_c_r_c___handle_type_def.html">CRC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hcrc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>pBuffer</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>BufferLength</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Computes the 32-bit CRC of 32-bit data buffer independently of the previous CRC value. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hcrc</td><td>pointer to a <a class="el" href="struct_c_r_c___handle_type_def.html">CRC_HandleTypeDef</a> structure that contains the configuration information for CRC </td></tr>
+    <tr><td class="paramname">pBuffer</td><td>Pointer to the buffer containing the data to be computed </td></tr>
+    <tr><td class="paramname">BufferLength</td><td>Length of the buffer to be computed </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">32-bit</td><td>CRC </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

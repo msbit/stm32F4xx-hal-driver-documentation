@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.15"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>STM32F4xx_HAL_Driver: stm32f4xx_hal.h File Reference</title>
+<title>STM32F4xx_HAL_Driver: Inc/stm32f4xx_hal.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -59,6 +59,10 @@ $(function() {
 </iframe>
 </div>
 
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_f93dfce691d792349f1c14ede440e2e6.html">Inc</a></li>  </ul>
+</div>
 </div><!-- top -->
 <div class="header">
   <div class="summary">
@@ -76,86 +80,86 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gaecac54d350c3730e6831eb404e557dc4"><td class="memItemLeft" align="right" valign="top">
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_Init</b> (void)</td></tr>
+<tr class="memitem:gaecac54d350c3730e6831eb404e557dc4"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_a_l___exported___functions___group1.html#gaecac54d350c3730e6831eb404e557dc4">HAL_Init</a> (void)</td></tr>
+<tr class="memdesc:gaecac54d350c3730e6831eb404e557dc4"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function is used to initialize the HAL Library; it must be the first instruction to be executed in the main program (before to call any other HAL function), it performs the following: Configure the Flash prefetch, instruction and Data caches. Configures the SysTick to generate an interrupt each 1 millisecond, which is clocked by the HSI (at this stage, the clock is not yet configured and thus the system is running from the internal HSI at 16 MHz). Set NVIC Group Priority to 4. Calls the <a class="el" href="group___h_a_l___exported___functions___group1.html#ga07e099a69ab23e79be8b7a80505de519" title="Initialize the MSP.">HAL_MspInit()</a> callback function defined in user file "stm32f4xx_hal_msp.c" to do the global low level hardware initialization.  <a href="group___h_a_l___exported___functions___group1.html#gaecac54d350c3730e6831eb404e557dc4">More...</a><br /></td></tr>
 <tr class="separator:gaecac54d350c3730e6831eb404e557dc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga95911129a26afb05232caaaefa31956f"><td class="memItemLeft" align="right" valign="top">
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DeInit</b> (void)</td></tr>
+<tr class="memitem:ga95911129a26afb05232caaaefa31956f"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_a_l___exported___functions___group1.html#ga95911129a26afb05232caaaefa31956f">HAL_DeInit</a> (void)</td></tr>
+<tr class="memdesc:ga95911129a26afb05232caaaefa31956f"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function de-Initializes common part of the HAL and stops the systick. This function is optional.  <a href="group___h_a_l___exported___functions___group1.html#ga95911129a26afb05232caaaefa31956f">More...</a><br /></td></tr>
 <tr class="separator:ga95911129a26afb05232caaaefa31956f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae4fb8e66865c87d0ebab74a726a6891f"><td class="memItemLeft" align="right" valign="top">
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_MspInit</b> (void)</td></tr>
-<tr class="separator:gae4fb8e66865c87d0ebab74a726a6891f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gadd10d026ef02d00e32e80c9eab9db830"><td class="memItemLeft" align="right" valign="top">
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_MspDeInit</b> (void)</td></tr>
-<tr class="separator:gadd10d026ef02d00e32e80c9eab9db830"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga879cdb21ef051eb81ec51c18147397d5"><td class="memItemLeft" align="right" valign="top">
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_InitTick</b> (uint32_t TickPriority)</td></tr>
-<tr class="separator:ga879cdb21ef051eb81ec51c18147397d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa8361d44d76b7f6256834f828165837a"><td class="memItemLeft" align="right" valign="top">
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_IncTick</b> (void)</td></tr>
-<tr class="separator:gaa8361d44d76b7f6256834f828165837a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae63b34eea12780ca2e1100c2402da18e"><td class="memItemLeft" align="right" valign="top">
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_Delay</b> (uint32_t Delay)</td></tr>
-<tr class="separator:gae63b34eea12780ca2e1100c2402da18e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf2c4f03d53e997a54e1fd5e80daa55c4"><td class="memItemLeft" align="right" valign="top">
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_GetTick</b> (void)</td></tr>
-<tr class="separator:gaf2c4f03d53e997a54e1fd5e80daa55c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gacdcc8b5d33b9f97fe1b0abd6a86a3d4b"><td class="memItemLeft" align="right" valign="top">
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_GetTickPrio</b> (void)</td></tr>
+<tr class="memitem:ga07e099a69ab23e79be8b7a80505de519"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_a_l___exported___functions___group1.html#ga07e099a69ab23e79be8b7a80505de519">HAL_MspInit</a> (void)</td></tr>
+<tr class="memdesc:ga07e099a69ab23e79be8b7a80505de519"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the MSP.  <a href="group___h_a_l___exported___functions___group1.html#ga07e099a69ab23e79be8b7a80505de519">More...</a><br /></td></tr>
+<tr class="separator:ga07e099a69ab23e79be8b7a80505de519"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa2d4540edcb9dacec34edb77f3455bf0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_a_l___exported___functions___group1.html#gaa2d4540edcb9dacec34edb77f3455bf0">HAL_MspDeInit</a> (void)</td></tr>
+<tr class="memdesc:gaa2d4540edcb9dacec34edb77f3455bf0"><td class="mdescLeft">&#160;</td><td class="mdescRight">DeInitializes the MSP.  <a href="group___h_a_l___exported___functions___group1.html#gaa2d4540edcb9dacec34edb77f3455bf0">More...</a><br /></td></tr>
+<tr class="separator:gaa2d4540edcb9dacec34edb77f3455bf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga44d1542f9985b2243b14a41070cc41cc"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_a_l___exported___functions___group1.html#ga44d1542f9985b2243b14a41070cc41cc">HAL_InitTick</a> (uint32_t TickPriority)</td></tr>
+<tr class="memdesc:ga44d1542f9985b2243b14a41070cc41cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function configures the source of the time base. The time source is configured to have 1ms time base with a dedicated Tick interrupt priority.  <a href="group___h_a_l___exported___functions___group1.html#ga44d1542f9985b2243b14a41070cc41cc">More...</a><br /></td></tr>
+<tr class="separator:ga44d1542f9985b2243b14a41070cc41cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaba5b726bfedd013bf7bb5a51d5c4f188"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_a_l___exported___functions___group2.html#gaba5b726bfedd013bf7bb5a51d5c4f188">HAL_IncTick</a> (void)</td></tr>
+<tr class="memdesc:gaba5b726bfedd013bf7bb5a51d5c4f188"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function is called to increment a global variable "uwTick" used as application time base.  <a href="group___h_a_l___exported___functions___group2.html#gaba5b726bfedd013bf7bb5a51d5c4f188">More...</a><br /></td></tr>
+<tr class="separator:gaba5b726bfedd013bf7bb5a51d5c4f188"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab1dc1e6b438daacfe38a312a90221330"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_a_l___exported___functions___group2.html#gab1dc1e6b438daacfe38a312a90221330">HAL_Delay</a> (uint32_t Delay)</td></tr>
+<tr class="memdesc:gab1dc1e6b438daacfe38a312a90221330"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function provides minimum delay (in milliseconds) based on variable incremented.  <a href="group___h_a_l___exported___functions___group2.html#gab1dc1e6b438daacfe38a312a90221330">More...</a><br /></td></tr>
+<tr class="separator:gab1dc1e6b438daacfe38a312a90221330"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac9b3a85a73735ac840d0dcb59bc0fdd6"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_a_l___exported___functions___group2.html#gac9b3a85a73735ac840d0dcb59bc0fdd6">HAL_GetTick</a> (void)</td></tr>
+<tr class="memdesc:gac9b3a85a73735ac840d0dcb59bc0fdd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides a tick value in millisecond.  <a href="group___h_a_l___exported___functions___group2.html#gac9b3a85a73735ac840d0dcb59bc0fdd6">More...</a><br /></td></tr>
+<tr class="separator:gac9b3a85a73735ac840d0dcb59bc0fdd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gacdcc8b5d33b9f97fe1b0abd6a86a3d4b"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_a_l___exported___functions___group2.html#gacdcc8b5d33b9f97fe1b0abd6a86a3d4b">HAL_GetTickPrio</a> (void)</td></tr>
+<tr class="memdesc:gacdcc8b5d33b9f97fe1b0abd6a86a3d4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function returns a tick priority.  <a href="group___h_a_l___exported___functions___group2.html#gacdcc8b5d33b9f97fe1b0abd6a86a3d4b">More...</a><br /></td></tr>
 <tr class="separator:gacdcc8b5d33b9f97fe1b0abd6a86a3d4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga47f2dd240b2aed823a76b11496f37690"><td class="memItemLeft" align="right" valign="top">
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SetTickFreq</b> (HAL_TickFreqTypeDef Freq)</td></tr>
+<tr class="memitem:ga47f2dd240b2aed823a76b11496f37690"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_a_l___exported___functions___group2.html#ga47f2dd240b2aed823a76b11496f37690">HAL_SetTickFreq</a> (HAL_TickFreqTypeDef Freq)</td></tr>
+<tr class="memdesc:ga47f2dd240b2aed823a76b11496f37690"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set new tick Freq.  <a href="group___h_a_l___exported___functions___group2.html#ga47f2dd240b2aed823a76b11496f37690">More...</a><br /></td></tr>
 <tr class="separator:ga47f2dd240b2aed823a76b11496f37690"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga803cdbcc0883bcf5f5c98c50024c97e6"><td class="memItemLeft" align="right" valign="top">
-HAL_TickFreqTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_GetTickFreq</b> (void)</td></tr>
+<tr class="memitem:ga803cdbcc0883bcf5f5c98c50024c97e6"><td class="memItemLeft" align="right" valign="top">HAL_TickFreqTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_a_l___exported___functions___group2.html#ga803cdbcc0883bcf5f5c98c50024c97e6">HAL_GetTickFreq</a> (void)</td></tr>
+<tr class="memdesc:ga803cdbcc0883bcf5f5c98c50024c97e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return tick frequency.  <a href="group___h_a_l___exported___functions___group2.html#ga803cdbcc0883bcf5f5c98c50024c97e6">More...</a><br /></td></tr>
 <tr class="separator:ga803cdbcc0883bcf5f5c98c50024c97e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaaf651af2afe688a991c657f64f8fa5f9"><td class="memItemLeft" align="right" valign="top">
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SuspendTick</b> (void)</td></tr>
-<tr class="separator:gaaf651af2afe688a991c657f64f8fa5f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga24e0ee9dae1ec0f9d19200f5575ff790"><td class="memItemLeft" align="right" valign="top">
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_ResumeTick</b> (void)</td></tr>
-<tr class="separator:ga24e0ee9dae1ec0f9d19200f5575ff790"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gafb139b375512ad2a234e4619b129b966"><td class="memItemLeft" align="right" valign="top">
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_GetHalVersion</b> (void)</td></tr>
+<tr class="memitem:ga84ae4b045c45d49d96b2b02e2dc516b6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_a_l___exported___functions___group2.html#ga84ae4b045c45d49d96b2b02e2dc516b6">HAL_SuspendTick</a> (void)</td></tr>
+<tr class="memdesc:ga84ae4b045c45d49d96b2b02e2dc516b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Suspend Tick increment.  <a href="group___h_a_l___exported___functions___group2.html#ga84ae4b045c45d49d96b2b02e2dc516b6">More...</a><br /></td></tr>
+<tr class="separator:ga84ae4b045c45d49d96b2b02e2dc516b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac3fa17aa85e357e3f1af56ad110d2e97"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_a_l___exported___functions___group2.html#gac3fa17aa85e357e3f1af56ad110d2e97">HAL_ResumeTick</a> (void)</td></tr>
+<tr class="memdesc:gac3fa17aa85e357e3f1af56ad110d2e97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resume Tick increment.  <a href="group___h_a_l___exported___functions___group2.html#gac3fa17aa85e357e3f1af56ad110d2e97">More...</a><br /></td></tr>
+<tr class="separator:gac3fa17aa85e357e3f1af56ad110d2e97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafb139b375512ad2a234e4619b129b966"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_a_l___exported___functions___group2.html#gafb139b375512ad2a234e4619b129b966">HAL_GetHalVersion</a> (void)</td></tr>
+<tr class="memdesc:gafb139b375512ad2a234e4619b129b966"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the HAL revision.  <a href="group___h_a_l___exported___functions___group2.html#gafb139b375512ad2a234e4619b129b966">More...</a><br /></td></tr>
 <tr class="separator:gafb139b375512ad2a234e4619b129b966"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae051ef9e932404b21f5877c7186406b8"><td class="memItemLeft" align="right" valign="top">
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_GetREVID</b> (void)</td></tr>
+<tr class="memitem:gae051ef9e932404b21f5877c7186406b8"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_a_l___exported___functions___group2.html#gae051ef9e932404b21f5877c7186406b8">HAL_GetREVID</a> (void)</td></tr>
+<tr class="memdesc:gae051ef9e932404b21f5877c7186406b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the device revision identifier.  <a href="group___h_a_l___exported___functions___group2.html#gae051ef9e932404b21f5877c7186406b8">More...</a><br /></td></tr>
 <tr class="separator:gae051ef9e932404b21f5877c7186406b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaff785f069ed650de77ff82ac407f7c84"><td class="memItemLeft" align="right" valign="top">
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_GetDEVID</b> (void)</td></tr>
+<tr class="memitem:gaff785f069ed650de77ff82ac407f7c84"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_a_l___exported___functions___group2.html#gaff785f069ed650de77ff82ac407f7c84">HAL_GetDEVID</a> (void)</td></tr>
+<tr class="memdesc:gaff785f069ed650de77ff82ac407f7c84"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the device identifier.  <a href="group___h_a_l___exported___functions___group2.html#gaff785f069ed650de77ff82ac407f7c84">More...</a><br /></td></tr>
 <tr class="separator:gaff785f069ed650de77ff82ac407f7c84"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf031bcc71ebad9b7edf405547efd762b"><td class="memItemLeft" align="right" valign="top">
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DBGMCU_EnableDBGSleepMode</b> (void)</td></tr>
+<tr class="memitem:gaf031bcc71ebad9b7edf405547efd762b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_a_l___exported___functions___group2.html#gaf031bcc71ebad9b7edf405547efd762b">HAL_DBGMCU_EnableDBGSleepMode</a> (void)</td></tr>
+<tr class="memdesc:gaf031bcc71ebad9b7edf405547efd762b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable the Debug Module during SLEEP mode.  <a href="group___h_a_l___exported___functions___group2.html#gaf031bcc71ebad9b7edf405547efd762b">More...</a><br /></td></tr>
 <tr class="separator:gaf031bcc71ebad9b7edf405547efd762b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac7820d0561f19999a68d714655b901b5"><td class="memItemLeft" align="right" valign="top">
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DBGMCU_DisableDBGSleepMode</b> (void)</td></tr>
+<tr class="memitem:gac7820d0561f19999a68d714655b901b5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_a_l___exported___functions___group2.html#gac7820d0561f19999a68d714655b901b5">HAL_DBGMCU_DisableDBGSleepMode</a> (void)</td></tr>
+<tr class="memdesc:gac7820d0561f19999a68d714655b901b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disable the Debug Module during SLEEP mode.  <a href="group___h_a_l___exported___functions___group2.html#gac7820d0561f19999a68d714655b901b5">More...</a><br /></td></tr>
 <tr class="separator:gac7820d0561f19999a68d714655b901b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gadf25043b17de4bef38a95a75fd03e5c4"><td class="memItemLeft" align="right" valign="top">
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DBGMCU_EnableDBGStopMode</b> (void)</td></tr>
+<tr class="memitem:gadf25043b17de4bef38a95a75fd03e5c4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_a_l___exported___functions___group2.html#gadf25043b17de4bef38a95a75fd03e5c4">HAL_DBGMCU_EnableDBGStopMode</a> (void)</td></tr>
+<tr class="memdesc:gadf25043b17de4bef38a95a75fd03e5c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable the Debug Module during STOP mode.  <a href="group___h_a_l___exported___functions___group2.html#gadf25043b17de4bef38a95a75fd03e5c4">More...</a><br /></td></tr>
 <tr class="separator:gadf25043b17de4bef38a95a75fd03e5c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2c93dcee35e5983d74f1000de7c042d5"><td class="memItemLeft" align="right" valign="top">
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DBGMCU_DisableDBGStopMode</b> (void)</td></tr>
+<tr class="memitem:ga2c93dcee35e5983d74f1000de7c042d5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_a_l___exported___functions___group2.html#ga2c93dcee35e5983d74f1000de7c042d5">HAL_DBGMCU_DisableDBGStopMode</a> (void)</td></tr>
+<tr class="memdesc:ga2c93dcee35e5983d74f1000de7c042d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disable the Debug Module during STOP mode.  <a href="group___h_a_l___exported___functions___group2.html#ga2c93dcee35e5983d74f1000de7c042d5">More...</a><br /></td></tr>
 <tr class="separator:ga2c93dcee35e5983d74f1000de7c042d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga28a1323b2eeb0a408c1cfdbfa0db5ead"><td class="memItemLeft" align="right" valign="top">
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DBGMCU_EnableDBGStandbyMode</b> (void)</td></tr>
+<tr class="memitem:ga28a1323b2eeb0a408c1cfdbfa0db5ead"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_a_l___exported___functions___group2.html#ga28a1323b2eeb0a408c1cfdbfa0db5ead">HAL_DBGMCU_EnableDBGStandbyMode</a> (void)</td></tr>
+<tr class="memdesc:ga28a1323b2eeb0a408c1cfdbfa0db5ead"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable the Debug Module during STANDBY mode.  <a href="group___h_a_l___exported___functions___group2.html#ga28a1323b2eeb0a408c1cfdbfa0db5ead">More...</a><br /></td></tr>
 <tr class="separator:ga28a1323b2eeb0a408c1cfdbfa0db5ead"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7faa58d8508ea3123b9f247a70379779"><td class="memItemLeft" align="right" valign="top">
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DBGMCU_DisableDBGStandbyMode</b> (void)</td></tr>
+<tr class="memitem:ga7faa58d8508ea3123b9f247a70379779"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_a_l___exported___functions___group2.html#ga7faa58d8508ea3123b9f247a70379779">HAL_DBGMCU_DisableDBGStandbyMode</a> (void)</td></tr>
+<tr class="memdesc:ga7faa58d8508ea3123b9f247a70379779"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disable the Debug Module during STANDBY mode.  <a href="group___h_a_l___exported___functions___group2.html#ga7faa58d8508ea3123b9f247a70379779">More...</a><br /></td></tr>
 <tr class="separator:ga7faa58d8508ea3123b9f247a70379779"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga20b6ca07582e10aec5e15ad2fda7dfc1"><td class="memItemLeft" align="right" valign="top">
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_EnableCompensationCell</b> (void)</td></tr>
+<tr class="memitem:ga20b6ca07582e10aec5e15ad2fda7dfc1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_a_l___exported___functions___group2.html#ga20b6ca07582e10aec5e15ad2fda7dfc1">HAL_EnableCompensationCell</a> (void)</td></tr>
+<tr class="memdesc:ga20b6ca07582e10aec5e15ad2fda7dfc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enables the I/O Compensation Cell.  <a href="group___h_a_l___exported___functions___group2.html#ga20b6ca07582e10aec5e15ad2fda7dfc1">More...</a><br /></td></tr>
 <tr class="separator:ga20b6ca07582e10aec5e15ad2fda7dfc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga653f1166b0e37afd40372550d806e667"><td class="memItemLeft" align="right" valign="top">
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DisableCompensationCell</b> (void)</td></tr>
+<tr class="memitem:ga653f1166b0e37afd40372550d806e667"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_a_l___exported___functions___group2.html#ga653f1166b0e37afd40372550d806e667">HAL_DisableCompensationCell</a> (void)</td></tr>
+<tr class="memdesc:ga653f1166b0e37afd40372550d806e667"><td class="mdescLeft">&#160;</td><td class="mdescRight">Power-down the I/O Compensation Cell.  <a href="group___h_a_l___exported___functions___group2.html#ga653f1166b0e37afd40372550d806e667">More...</a><br /></td></tr>
 <tr class="separator:ga653f1166b0e37afd40372550d806e667"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6b943c94114771a9c29f36042196676e"><td class="memItemLeft" align="right" valign="top">
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_GetUID</b> (uint32_t *UID)</td></tr>
+<tr class="memitem:ga6b943c94114771a9c29f36042196676e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_a_l___exported___functions___group2.html#ga6b943c94114771a9c29f36042196676e">HAL_GetUID</a> (uint32_t *UID)</td></tr>
+<tr class="memdesc:ga6b943c94114771a9c29f36042196676e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the unique device identifier (UID based on 96 bits)  <a href="group___h_a_l___exported___functions___group2.html#ga6b943c94114771a9c29f36042196676e">More...</a><br /></td></tr>
 <tr class="separator:ga6b943c94114771a9c29f36042196676e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1db2c033f05aa0f3eac211f1a8244203"><td class="memItemLeft" align="right" valign="top">
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_EnableMemorySwappingBank</b> (void)</td></tr>
+<tr class="memitem:ga1db2c033f05aa0f3eac211f1a8244203"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_a_l___exported___functions___group2.html#ga1db2c033f05aa0f3eac211f1a8244203">HAL_EnableMemorySwappingBank</a> (void)</td></tr>
+<tr class="memdesc:ga1db2c033f05aa0f3eac211f1a8244203"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enables the Internal FLASH Bank Swapping.  <a href="group___h_a_l___exported___functions___group2.html#ga1db2c033f05aa0f3eac211f1a8244203">More...</a><br /></td></tr>
 <tr class="separator:ga1db2c033f05aa0f3eac211f1a8244203"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gadffad37ab6df4ed44f29368c37199f35"><td class="memItemLeft" align="right" valign="top">
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DisableMemorySwappingBank</b> (void)</td></tr>
+<tr class="memitem:gadffad37ab6df4ed44f29368c37199f35"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_a_l___exported___functions___group2.html#gadffad37ab6df4ed44f29368c37199f35">HAL_DisableMemorySwappingBank</a> (void)</td></tr>
+<tr class="memdesc:gadffad37ab6df4ed44f29368c37199f35"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disables the Internal FLASH Bank Swapping.  <a href="group___h_a_l___exported___functions___group2.html#gadffad37ab6df4ed44f29368c37199f35">More...</a><br /></td></tr>
 <tr class="separator:gadffad37ab6df4ed44f29368c37199f35"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>

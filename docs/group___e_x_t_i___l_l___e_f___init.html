@@ -70,17 +70,116 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga5429ff88ef6538edd78977a7941ef670"><td class="memItemLeft" align="right" valign="top"><a id="ga5429ff88ef6538edd78977a7941ef670"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>LL_EXTI_Init</b> (<a class="el" href="struct_l_l___e_x_t_i___init_type_def.html">LL_EXTI_InitTypeDef</a> *EXTI_InitStruct)</td></tr>
+<tr class="memitem:ga5429ff88ef6538edd78977a7941ef670"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___e_x_t_i___l_l___e_f___init.html#ga5429ff88ef6538edd78977a7941ef670">LL_EXTI_Init</a> (<a class="el" href="struct_l_l___e_x_t_i___init_type_def.html">LL_EXTI_InitTypeDef</a> *EXTI_InitStruct)</td></tr>
+<tr class="memdesc:ga5429ff88ef6538edd78977a7941ef670"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the EXTI registers according to the specified parameters in EXTI_InitStruct.  <a href="#ga5429ff88ef6538edd78977a7941ef670">More...</a><br /></td></tr>
 <tr class="separator:ga5429ff88ef6538edd78977a7941ef670"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6a6491a9f2eb5eb3cd6508abc5dda801"><td class="memItemLeft" align="right" valign="top"><a id="ga6a6491a9f2eb5eb3cd6508abc5dda801"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>LL_EXTI_DeInit</b> (void)</td></tr>
+<tr class="memitem:ga6a6491a9f2eb5eb3cd6508abc5dda801"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___e_x_t_i___l_l___e_f___init.html#ga6a6491a9f2eb5eb3cd6508abc5dda801">LL_EXTI_DeInit</a> (void)</td></tr>
+<tr class="memdesc:ga6a6491a9f2eb5eb3cd6508abc5dda801"><td class="mdescLeft">&#160;</td><td class="mdescRight">De-initialize the EXTI registers to their default reset values.  <a href="#ga6a6491a9f2eb5eb3cd6508abc5dda801">More...</a><br /></td></tr>
 <tr class="separator:ga6a6491a9f2eb5eb3cd6508abc5dda801"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga87780edc163b29e36a3adb61ddf75aa9"><td class="memItemLeft" align="right" valign="top"><a id="ga87780edc163b29e36a3adb61ddf75aa9"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>LL_EXTI_StructInit</b> (<a class="el" href="struct_l_l___e_x_t_i___init_type_def.html">LL_EXTI_InitTypeDef</a> *EXTI_InitStruct)</td></tr>
+<tr class="memitem:ga87780edc163b29e36a3adb61ddf75aa9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___e_x_t_i___l_l___e_f___init.html#ga87780edc163b29e36a3adb61ddf75aa9">LL_EXTI_StructInit</a> (<a class="el" href="struct_l_l___e_x_t_i___init_type_def.html">LL_EXTI_InitTypeDef</a> *EXTI_InitStruct)</td></tr>
+<tr class="memdesc:ga87780edc163b29e36a3adb61ddf75aa9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set each <a class="el" href="struct_l_l___e_x_t_i___init_type_def.html">LL_EXTI_InitTypeDef</a> field to default value.  <a href="#ga87780edc163b29e36a3adb61ddf75aa9">More...</a><br /></td></tr>
 <tr class="separator:ga87780edc163b29e36a3adb61ddf75aa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="ga6a6491a9f2eb5eb3cd6508abc5dda801"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6a6491a9f2eb5eb3cd6508abc5dda801">&#9670;&nbsp;</a></span>LL_EXTI_DeInit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t LL_EXTI_DeInit </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>De-initialize the EXTI registers to their default reset values. </p>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">An</td><td>ErrorStatus enumeration value:<ul>
+<li>SUCCESS: EXTI registers are de-initialized</li>
+<li>ERROR: not applicable </li>
+</ul>
+</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga5429ff88ef6538edd78977a7941ef670"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5429ff88ef6538edd78977a7941ef670">&#9670;&nbsp;</a></span>LL_EXTI_Init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t LL_EXTI_Init </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_l_l___e_x_t_i___init_type_def.html">LL_EXTI_InitTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>EXTI_InitStruct</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initialize the EXTI registers according to the specified parameters in EXTI_InitStruct. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">EXTI_InitStruct</td><td>pointer to a <a class="el" href="struct_l_l___e_x_t_i___init_type_def.html">LL_EXTI_InitTypeDef</a> structure. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">An</td><td>ErrorStatus enumeration value:<ul>
+<li>SUCCESS: EXTI registers are initialized</li>
+<li>ERROR: not applicable </li>
+</ul>
+</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga87780edc163b29e36a3adb61ddf75aa9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga87780edc163b29e36a3adb61ddf75aa9">&#9670;&nbsp;</a></span>LL_EXTI_StructInit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LL_EXTI_StructInit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_l_l___e_x_t_i___init_type_def.html">LL_EXTI_InitTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>EXTI_InitStruct</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set each <a class="el" href="struct_l_l___e_x_t_i___init_type_def.html">LL_EXTI_InitTypeDef</a> field to default value. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">EXTI_InitStruct</td><td>Pointer to a <a class="el" href="struct_l_l___e_x_t_i___init_type_def.html">LL_EXTI_InitTypeDef</a> structure. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

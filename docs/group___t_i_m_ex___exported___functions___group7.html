@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.15"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>STM32F4xx_HAL_Driver: TIMEx_Exported_Functions_Group7</title>
+<title>STM32F4xx_HAL_Driver: Extension Peripheral State functions</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,17 +64,59 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">TIMEx_Exported_Functions_Group7<div class="ingroups"><a class="el" href="group___t_i_m_ex___exported___functions.html">TIMEx_Exported_Functions</a></div></div>  </div>
+<div class="title">Extension Peripheral State functions<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___t_i_m_ex.html">TIMEx</a> &raquo; <a class="el" href="group___t_i_m_ex___exported___functions.html">TIM Exported Functions</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Extension Peripheral State functions.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga69d56afa939909717370413d35311dbd"><td class="memItemLeft" align="right" valign="top"><a id="ga69d56afa939909717370413d35311dbd"></a>
-<a class="el" href="stm32f4xx__hal__tim_8h.html#ae0994cf5970e56ca4903e9151f40010c">HAL_TIM_StateTypeDef</a>&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_TIMEx_HallSensor_GetState</b> (<a class="el" href="struct_t_i_m___handle_type_def.html">TIM_HandleTypeDef</a> *htim)</td></tr>
+<tr class="memitem:ga69d56afa939909717370413d35311dbd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="stm32f4xx__hal__tim_8h.html#ae0994cf5970e56ca4903e9151f40010c">HAL_TIM_StateTypeDef</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___t_i_m_ex___exported___functions___group7.html#ga69d56afa939909717370413d35311dbd">HAL_TIMEx_HallSensor_GetState</a> (<a class="el" href="struct_t_i_m___handle_type_def.html">TIM_HandleTypeDef</a> *htim)</td></tr>
+<tr class="memdesc:ga69d56afa939909717370413d35311dbd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the TIM Hall Sensor interface state.  <a href="#ga69d56afa939909717370413d35311dbd">More...</a><br /></td></tr>
 <tr class="separator:ga69d56afa939909717370413d35311dbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>Extension Peripheral State functions. </p>
+<pre class="fragment">  ==============================================================================
+                ##### Extension Peripheral State functions #####
+  ==============================================================================  
+  [..]
+    This subsection permits to get in run-time the status of the peripheral 
+    and the data flow.</pre> <h2 class="groupheader">Function Documentation</h2>
+<a id="ga69d56afa939909717370413d35311dbd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga69d56afa939909717370413d35311dbd">&#9670;&nbsp;</a></span>HAL_TIMEx_HallSensor_GetState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="stm32f4xx__hal__tim_8h.html#ae0994cf5970e56ca4903e9151f40010c">HAL_TIM_StateTypeDef</a> HAL_TIMEx_HallSensor_GetState </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_t_i_m___handle_type_def.html">TIM_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>htim</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return the TIM Hall Sensor interface state. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">htim</td><td>pointer to a <a class="el" href="struct_t_i_m___handle_type_def.html" title="TIM Time Base Handle Structure definition.">TIM_HandleTypeDef</a> structure that contains the configuration information for TIM module. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>state </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

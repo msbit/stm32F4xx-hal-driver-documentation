@@ -64,50 +64,711 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">Input and Output operation functions<div class="ingroups"><a class="el" href="group___s_d___exported___functions.html">SD Exported Functions</a></div></div>  </div>
+<div class="title">Input and Output operation functions<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___s_d.html">SD</a> &raquo; <a class="el" href="group___s_d___exported___functions.html">SD Exported Functions</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Data transfer functions.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga57c9c8243514fc0e9834093b76f299db"><td class="memItemLeft" align="right" valign="top"><a id="ga57c9c8243514fc0e9834093b76f299db"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SD_ReadBlocks</b> (<a class="el" href="struct_s_d___handle_type_def.html">SD_HandleTypeDef</a> *hsd, uint8_t *pData, uint32_t BlockAdd, uint32_t NumberOfBlocks, uint32_t Timeout)</td></tr>
+<tr class="memitem:ga57c9c8243514fc0e9834093b76f299db"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_d___exported___functions___group2.html#ga57c9c8243514fc0e9834093b76f299db">HAL_SD_ReadBlocks</a> (<a class="el" href="struct_s_d___handle_type_def.html">SD_HandleTypeDef</a> *hsd, uint8_t *pData, uint32_t BlockAdd, uint32_t NumberOfBlocks, uint32_t Timeout)</td></tr>
+<tr class="memdesc:ga57c9c8243514fc0e9834093b76f299db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads block(s) from a specified address in a card. The Data transfer is managed by polling mode.  <a href="#ga57c9c8243514fc0e9834093b76f299db">More...</a><br /></td></tr>
 <tr class="separator:ga57c9c8243514fc0e9834093b76f299db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab2da788be2f14d72f9cfd4b9a647cf8c"><td class="memItemLeft" align="right" valign="top"><a id="gab2da788be2f14d72f9cfd4b9a647cf8c"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SD_WriteBlocks</b> (<a class="el" href="struct_s_d___handle_type_def.html">SD_HandleTypeDef</a> *hsd, uint8_t *pData, uint32_t BlockAdd, uint32_t NumberOfBlocks, uint32_t Timeout)</td></tr>
+<tr class="memitem:gab2da788be2f14d72f9cfd4b9a647cf8c"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_d___exported___functions___group2.html#gab2da788be2f14d72f9cfd4b9a647cf8c">HAL_SD_WriteBlocks</a> (<a class="el" href="struct_s_d___handle_type_def.html">SD_HandleTypeDef</a> *hsd, uint8_t *pData, uint32_t BlockAdd, uint32_t NumberOfBlocks, uint32_t Timeout)</td></tr>
+<tr class="memdesc:gab2da788be2f14d72f9cfd4b9a647cf8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allows to write block(s) to a specified address in a card. The Data transfer is managed by polling mode.  <a href="#gab2da788be2f14d72f9cfd4b9a647cf8c">More...</a><br /></td></tr>
 <tr class="separator:gab2da788be2f14d72f9cfd4b9a647cf8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac2173726606e9e3a3ffce50f21fe0c38"><td class="memItemLeft" align="right" valign="top"><a id="gac2173726606e9e3a3ffce50f21fe0c38"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SD_Erase</b> (<a class="el" href="struct_s_d___handle_type_def.html">SD_HandleTypeDef</a> *hsd, uint32_t BlockStartAdd, uint32_t BlockEndAdd)</td></tr>
+<tr class="memitem:gac2173726606e9e3a3ffce50f21fe0c38"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_d___exported___functions___group2.html#gac2173726606e9e3a3ffce50f21fe0c38">HAL_SD_Erase</a> (<a class="el" href="struct_s_d___handle_type_def.html">SD_HandleTypeDef</a> *hsd, uint32_t BlockStartAdd, uint32_t BlockEndAdd)</td></tr>
+<tr class="memdesc:gac2173726606e9e3a3ffce50f21fe0c38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Erases the specified memory area of the given SD card.  <a href="#gac2173726606e9e3a3ffce50f21fe0c38">More...</a><br /></td></tr>
 <tr class="separator:gac2173726606e9e3a3ffce50f21fe0c38"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaabd954880a6d21a0bf9a3c874e0f6a4d"><td class="memItemLeft" align="right" valign="top"><a id="gaabd954880a6d21a0bf9a3c874e0f6a4d"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SD_ReadBlocks_IT</b> (<a class="el" href="struct_s_d___handle_type_def.html">SD_HandleTypeDef</a> *hsd, uint8_t *pData, uint32_t BlockAdd, uint32_t NumberOfBlocks)</td></tr>
+<tr class="memitem:gaabd954880a6d21a0bf9a3c874e0f6a4d"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_d___exported___functions___group2.html#gaabd954880a6d21a0bf9a3c874e0f6a4d">HAL_SD_ReadBlocks_IT</a> (<a class="el" href="struct_s_d___handle_type_def.html">SD_HandleTypeDef</a> *hsd, uint8_t *pData, uint32_t BlockAdd, uint32_t NumberOfBlocks)</td></tr>
+<tr class="memdesc:gaabd954880a6d21a0bf9a3c874e0f6a4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads block(s) from a specified address in a card. The Data transfer is managed in interrupt mode.  <a href="#gaabd954880a6d21a0bf9a3c874e0f6a4d">More...</a><br /></td></tr>
 <tr class="separator:gaabd954880a6d21a0bf9a3c874e0f6a4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaeb46f1a16f34cec88b7bd5f429e6c48e"><td class="memItemLeft" align="right" valign="top"><a id="gaeb46f1a16f34cec88b7bd5f429e6c48e"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SD_WriteBlocks_IT</b> (<a class="el" href="struct_s_d___handle_type_def.html">SD_HandleTypeDef</a> *hsd, uint8_t *pData, uint32_t BlockAdd, uint32_t NumberOfBlocks)</td></tr>
+<tr class="memitem:gaeb46f1a16f34cec88b7bd5f429e6c48e"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_d___exported___functions___group2.html#gaeb46f1a16f34cec88b7bd5f429e6c48e">HAL_SD_WriteBlocks_IT</a> (<a class="el" href="struct_s_d___handle_type_def.html">SD_HandleTypeDef</a> *hsd, uint8_t *pData, uint32_t BlockAdd, uint32_t NumberOfBlocks)</td></tr>
+<tr class="memdesc:gaeb46f1a16f34cec88b7bd5f429e6c48e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes block(s) to a specified address in a card. The Data transfer is managed in interrupt mode.  <a href="#gaeb46f1a16f34cec88b7bd5f429e6c48e">More...</a><br /></td></tr>
 <tr class="separator:gaeb46f1a16f34cec88b7bd5f429e6c48e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga28918afbbec3039c3cef5ca52c923eb9"><td class="memItemLeft" align="right" valign="top"><a id="ga28918afbbec3039c3cef5ca52c923eb9"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SD_ReadBlocks_DMA</b> (<a class="el" href="struct_s_d___handle_type_def.html">SD_HandleTypeDef</a> *hsd, uint8_t *pData, uint32_t BlockAdd, uint32_t NumberOfBlocks)</td></tr>
+<tr class="memitem:ga28918afbbec3039c3cef5ca52c923eb9"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_d___exported___functions___group2.html#ga28918afbbec3039c3cef5ca52c923eb9">HAL_SD_ReadBlocks_DMA</a> (<a class="el" href="struct_s_d___handle_type_def.html">SD_HandleTypeDef</a> *hsd, uint8_t *pData, uint32_t BlockAdd, uint32_t NumberOfBlocks)</td></tr>
+<tr class="memdesc:ga28918afbbec3039c3cef5ca52c923eb9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads block(s) from a specified address in a card. The Data transfer is managed by DMA mode.  <a href="#ga28918afbbec3039c3cef5ca52c923eb9">More...</a><br /></td></tr>
 <tr class="separator:ga28918afbbec3039c3cef5ca52c923eb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf36737ac0370bcd8872f7c367e675b42"><td class="memItemLeft" align="right" valign="top"><a id="gaf36737ac0370bcd8872f7c367e675b42"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SD_WriteBlocks_DMA</b> (<a class="el" href="struct_s_d___handle_type_def.html">SD_HandleTypeDef</a> *hsd, uint8_t *pData, uint32_t BlockAdd, uint32_t NumberOfBlocks)</td></tr>
+<tr class="memitem:gaf36737ac0370bcd8872f7c367e675b42"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_d___exported___functions___group2.html#gaf36737ac0370bcd8872f7c367e675b42">HAL_SD_WriteBlocks_DMA</a> (<a class="el" href="struct_s_d___handle_type_def.html">SD_HandleTypeDef</a> *hsd, uint8_t *pData, uint32_t BlockAdd, uint32_t NumberOfBlocks)</td></tr>
+<tr class="memdesc:gaf36737ac0370bcd8872f7c367e675b42"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes block(s) to a specified address in a card. The Data transfer is managed by DMA mode.  <a href="#gaf36737ac0370bcd8872f7c367e675b42">More...</a><br /></td></tr>
 <tr class="separator:gaf36737ac0370bcd8872f7c367e675b42"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga78f4def85126ae50eba783a6b237ec0f"><td class="memItemLeft" align="right" valign="top"><a id="ga78f4def85126ae50eba783a6b237ec0f"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SD_IRQHandler</b> (<a class="el" href="struct_s_d___handle_type_def.html">SD_HandleTypeDef</a> *hsd)</td></tr>
+<tr class="memitem:ga78f4def85126ae50eba783a6b237ec0f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_d___exported___functions___group2.html#ga78f4def85126ae50eba783a6b237ec0f">HAL_SD_IRQHandler</a> (<a class="el" href="struct_s_d___handle_type_def.html">SD_HandleTypeDef</a> *hsd)</td></tr>
+<tr class="memdesc:ga78f4def85126ae50eba783a6b237ec0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function handles SD card interrupt request.  <a href="#ga78f4def85126ae50eba783a6b237ec0f">More...</a><br /></td></tr>
 <tr class="separator:ga78f4def85126ae50eba783a6b237ec0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7f42b31026c697fea97c132e9aed15e2"><td class="memItemLeft" align="right" valign="top"><a id="ga7f42b31026c697fea97c132e9aed15e2"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SD_TxCpltCallback</b> (<a class="el" href="struct_s_d___handle_type_def.html">SD_HandleTypeDef</a> *hsd)</td></tr>
-<tr class="separator:ga7f42b31026c697fea97c132e9aed15e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1720dc3a0e88b26e557ae63fad3a382d"><td class="memItemLeft" align="right" valign="top"><a id="ga1720dc3a0e88b26e557ae63fad3a382d"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SD_RxCpltCallback</b> (<a class="el" href="struct_s_d___handle_type_def.html">SD_HandleTypeDef</a> *hsd)</td></tr>
-<tr class="separator:ga1720dc3a0e88b26e557ae63fad3a382d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae1bc0358c9232abc5f3beb338276608b"><td class="memItemLeft" align="right" valign="top"><a id="gae1bc0358c9232abc5f3beb338276608b"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SD_ErrorCallback</b> (<a class="el" href="struct_s_d___handle_type_def.html">SD_HandleTypeDef</a> *hsd)</td></tr>
-<tr class="separator:gae1bc0358c9232abc5f3beb338276608b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga52a463063ce8c6f1e8910f30dd4e8376"><td class="memItemLeft" align="right" valign="top"><a id="ga52a463063ce8c6f1e8910f30dd4e8376"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SD_AbortCallback</b> (<a class="el" href="struct_s_d___handle_type_def.html">SD_HandleTypeDef</a> *hsd)</td></tr>
-<tr class="separator:ga52a463063ce8c6f1e8910f30dd4e8376"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaca3354926bbaa4b0cd004c9d933b00e5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_d___exported___functions___group2.html#gaca3354926bbaa4b0cd004c9d933b00e5">HAL_SD_TxCpltCallback</a> (<a class="el" href="struct_s_d___handle_type_def.html">SD_HandleTypeDef</a> *hsd)</td></tr>
+<tr class="memdesc:gaca3354926bbaa4b0cd004c9d933b00e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tx Transfer completed callbacks.  <a href="#gaca3354926bbaa4b0cd004c9d933b00e5">More...</a><br /></td></tr>
+<tr class="separator:gaca3354926bbaa4b0cd004c9d933b00e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae883c5ac8f69f74318668eb6ac8d33b5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_d___exported___functions___group2.html#gae883c5ac8f69f74318668eb6ac8d33b5">HAL_SD_RxCpltCallback</a> (<a class="el" href="struct_s_d___handle_type_def.html">SD_HandleTypeDef</a> *hsd)</td></tr>
+<tr class="memdesc:gae883c5ac8f69f74318668eb6ac8d33b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rx Transfer completed callbacks.  <a href="#gae883c5ac8f69f74318668eb6ac8d33b5">More...</a><br /></td></tr>
+<tr class="separator:gae883c5ac8f69f74318668eb6ac8d33b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga17b7daa9b52e9d196f16c29b54b90bde"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_d___exported___functions___group2.html#ga17b7daa9b52e9d196f16c29b54b90bde">HAL_SD_ErrorCallback</a> (<a class="el" href="struct_s_d___handle_type_def.html">SD_HandleTypeDef</a> *hsd)</td></tr>
+<tr class="memdesc:ga17b7daa9b52e9d196f16c29b54b90bde"><td class="mdescLeft">&#160;</td><td class="mdescRight">SD error callbacks.  <a href="#ga17b7daa9b52e9d196f16c29b54b90bde">More...</a><br /></td></tr>
+<tr class="separator:ga17b7daa9b52e9d196f16c29b54b90bde"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3cb0d71d94b85d941c8256a01aefbf1d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_d___exported___functions___group2.html#ga3cb0d71d94b85d941c8256a01aefbf1d">HAL_SD_AbortCallback</a> (<a class="el" href="struct_s_d___handle_type_def.html">SD_HandleTypeDef</a> *hsd)</td></tr>
+<tr class="memdesc:ga3cb0d71d94b85d941c8256a01aefbf1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">SD Abort callbacks.  <a href="#ga3cb0d71d94b85d941c8256a01aefbf1d">More...</a><br /></td></tr>
+<tr class="separator:ga3cb0d71d94b85d941c8256a01aefbf1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga903b0a06745cb70903c9c57ee47745ae"><td class="memItemLeft" align="right" valign="top">HAL_SD_StateTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_d___exported___functions___group2.html#ga903b0a06745cb70903c9c57ee47745ae">HAL_SD_GetState</a> (<a class="el" href="struct_s_d___handle_type_def.html">SD_HandleTypeDef</a> *hsd)</td></tr>
+<tr class="memdesc:ga903b0a06745cb70903c9c57ee47745ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the SD state  <a href="#ga903b0a06745cb70903c9c57ee47745ae">More...</a><br /></td></tr>
+<tr class="separator:ga903b0a06745cb70903c9c57ee47745ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga20d0eb80609d0db3c561406e2fb38b2c"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_d___exported___functions___group2.html#ga20d0eb80609d0db3c561406e2fb38b2c">HAL_SD_GetError</a> (<a class="el" href="struct_s_d___handle_type_def.html">SD_HandleTypeDef</a> *hsd)</td></tr>
+<tr class="memdesc:ga20d0eb80609d0db3c561406e2fb38b2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the SD error code.  <a href="#ga20d0eb80609d0db3c561406e2fb38b2c">More...</a><br /></td></tr>
+<tr class="separator:ga20d0eb80609d0db3c561406e2fb38b2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>Data transfer functions. </p>
+<pre class="fragment">  ==============================================================================
+                        ##### IO operation functions #####
+  ==============================================================================  
+  [..]
+    This subsection provides a set of functions allowing to manage the data 
+    transfer from/to SD card.</pre> <h2 class="groupheader">Function Documentation</h2>
+<a id="ga3cb0d71d94b85d941c8256a01aefbf1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3cb0d71d94b85d941c8256a01aefbf1d">&#9670;&nbsp;</a></span>HAL_SD_AbortCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_SD_AbortCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_s_d___handle_type_def.html">SD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hsd</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>SD Abort callbacks. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hsd</td><td>Pointer SD handle </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gac2173726606e9e3a3ffce50f21fe0c38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac2173726606e9e3a3ffce50f21fe0c38">&#9670;&nbsp;</a></span>HAL_SD_Erase()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_SD_Erase </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_s_d___handle_type_def.html">SD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hsd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>BlockStartAdd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>BlockEndAdd</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Erases the specified memory area of the given SD card. </p>
+<dl class="section note"><dt>Note</dt><dd>This API should be followed by a check on the card state through <a class="el" href="group___s_d___exported___functions___group3.html#ga61f65802034a18141e92ae669fdc844c" title="Gets the current sd card data state.">HAL_SD_GetCardState()</a>. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hsd</td><td>Pointer to SD handle </td></tr>
+    <tr><td class="paramname">BlockStartAdd</td><td>Start Block address </td></tr>
+    <tr><td class="paramname">BlockEndAdd</td><td>End Block address </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga17b7daa9b52e9d196f16c29b54b90bde"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga17b7daa9b52e9d196f16c29b54b90bde">&#9670;&nbsp;</a></span>HAL_SD_ErrorCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_SD_ErrorCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_s_d___handle_type_def.html">SD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hsd</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>SD error callbacks. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hsd</td><td>Pointer SD handle </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga20d0eb80609d0db3c561406e2fb38b2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga20d0eb80609d0db3c561406e2fb38b2c">&#9670;&nbsp;</a></span>HAL_SD_GetError()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t HAL_SD_GetError </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_s_d___handle_type_def.html">SD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hsd</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return the SD error code. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hsd</td><td>Pointer to a <a class="el" href="struct_s_d___handle_type_def.html" title="SD handle Structure definition.">SD_HandleTypeDef</a> structure that contains the configuration information. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">SD</td><td>Error Code </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga903b0a06745cb70903c9c57ee47745ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga903b0a06745cb70903c9c57ee47745ae">&#9670;&nbsp;</a></span>HAL_SD_GetState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_SD_StateTypeDef HAL_SD_GetState </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_s_d___handle_type_def.html">SD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hsd</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>return the SD state </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hsd</td><td>Pointer to sd handle </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>state </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga78f4def85126ae50eba783a6b237ec0f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga78f4def85126ae50eba783a6b237ec0f">&#9670;&nbsp;</a></span>HAL_SD_IRQHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HAL_SD_IRQHandler </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_s_d___handle_type_def.html">SD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hsd</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function handles SD card interrupt request. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hsd</td><td>Pointer to SD handle </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga57c9c8243514fc0e9834093b76f299db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga57c9c8243514fc0e9834093b76f299db">&#9670;&nbsp;</a></span>HAL_SD_ReadBlocks()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_SD_ReadBlocks </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_s_d___handle_type_def.html">SD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hsd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>BlockAdd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>NumberOfBlocks</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Timeout</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reads block(s) from a specified address in a card. The Data transfer is managed by polling mode. </p>
+<dl class="section note"><dt>Note</dt><dd>This API should be followed by a check on the card state through <a class="el" href="group___s_d___exported___functions___group3.html#ga61f65802034a18141e92ae669fdc844c" title="Gets the current sd card data state.">HAL_SD_GetCardState()</a>. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hsd</td><td>Pointer to SD handle </td></tr>
+    <tr><td class="paramname">pData</td><td>pointer to the buffer that will contain the received data </td></tr>
+    <tr><td class="paramname">BlockAdd</td><td>Block Address from where data is to be read </td></tr>
+    <tr><td class="paramname">NumberOfBlocks</td><td>Number of SD blocks to read </td></tr>
+    <tr><td class="paramname">Timeout</td><td>Specify timeout value </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga28918afbbec3039c3cef5ca52c923eb9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga28918afbbec3039c3cef5ca52c923eb9">&#9670;&nbsp;</a></span>HAL_SD_ReadBlocks_DMA()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_SD_ReadBlocks_DMA </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_s_d___handle_type_def.html">SD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hsd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>BlockAdd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>NumberOfBlocks</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reads block(s) from a specified address in a card. The Data transfer is managed by DMA mode. </p>
+<dl class="section note"><dt>Note</dt><dd>This API should be followed by a check on the card state through <a class="el" href="group___s_d___exported___functions___group3.html#ga61f65802034a18141e92ae669fdc844c" title="Gets the current sd card data state.">HAL_SD_GetCardState()</a>. </dd>
+<dd>
+You could also check the DMA transfer process through the SD Rx interrupt event. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hsd</td><td>Pointer SD handle</td></tr>
+    <tr><td class="paramname">pData</td><td>Pointer to the buffer that will contain the received data </td></tr>
+    <tr><td class="paramname">BlockAdd</td><td>Block Address from where data is to be read</td></tr>
+    <tr><td class="paramname">NumberOfBlocks</td><td>Number of blocks to read. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaabd954880a6d21a0bf9a3c874e0f6a4d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaabd954880a6d21a0bf9a3c874e0f6a4d">&#9670;&nbsp;</a></span>HAL_SD_ReadBlocks_IT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_SD_ReadBlocks_IT </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_s_d___handle_type_def.html">SD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hsd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>BlockAdd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>NumberOfBlocks</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reads block(s) from a specified address in a card. The Data transfer is managed in interrupt mode. </p>
+<dl class="section note"><dt>Note</dt><dd>This API should be followed by a check on the card state through <a class="el" href="group___s_d___exported___functions___group3.html#ga61f65802034a18141e92ae669fdc844c" title="Gets the current sd card data state.">HAL_SD_GetCardState()</a>. </dd>
+<dd>
+You could also check the IT transfer process through the SD Rx interrupt event. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hsd</td><td>Pointer to SD handle</td></tr>
+    <tr><td class="paramname">pData</td><td>Pointer to the buffer that will contain the received data </td></tr>
+    <tr><td class="paramname">BlockAdd</td><td>Block Address from where data is to be read </td></tr>
+    <tr><td class="paramname">NumberOfBlocks</td><td>Number of blocks to read. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gae883c5ac8f69f74318668eb6ac8d33b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae883c5ac8f69f74318668eb6ac8d33b5">&#9670;&nbsp;</a></span>HAL_SD_RxCpltCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_SD_RxCpltCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_s_d___handle_type_def.html">SD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hsd</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Rx Transfer completed callbacks. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hsd</td><td>Pointer SD handle </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaca3354926bbaa4b0cd004c9d933b00e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaca3354926bbaa4b0cd004c9d933b00e5">&#9670;&nbsp;</a></span>HAL_SD_TxCpltCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_SD_TxCpltCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_s_d___handle_type_def.html">SD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hsd</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Tx Transfer completed callbacks. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hsd</td><td>Pointer to SD handle </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gab2da788be2f14d72f9cfd4b9a647cf8c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab2da788be2f14d72f9cfd4b9a647cf8c">&#9670;&nbsp;</a></span>HAL_SD_WriteBlocks()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_SD_WriteBlocks </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_s_d___handle_type_def.html">SD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hsd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>BlockAdd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>NumberOfBlocks</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Timeout</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Allows to write block(s) to a specified address in a card. The Data transfer is managed by polling mode. </p>
+<dl class="section note"><dt>Note</dt><dd>This API should be followed by a check on the card state through <a class="el" href="group___s_d___exported___functions___group3.html#ga61f65802034a18141e92ae669fdc844c" title="Gets the current sd card data state.">HAL_SD_GetCardState()</a>. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hsd</td><td>Pointer to SD handle </td></tr>
+    <tr><td class="paramname">pData</td><td>pointer to the buffer that will contain the data to transmit </td></tr>
+    <tr><td class="paramname">BlockAdd</td><td>Block Address where data will be written</td></tr>
+    <tr><td class="paramname">NumberOfBlocks</td><td>Number of SD blocks to write </td></tr>
+    <tr><td class="paramname">Timeout</td><td>Specify timeout value </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaf36737ac0370bcd8872f7c367e675b42"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf36737ac0370bcd8872f7c367e675b42">&#9670;&nbsp;</a></span>HAL_SD_WriteBlocks_DMA()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_SD_WriteBlocks_DMA </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_s_d___handle_type_def.html">SD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hsd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>BlockAdd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>NumberOfBlocks</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Writes block(s) to a specified address in a card. The Data transfer is managed by DMA mode. </p>
+<dl class="section note"><dt>Note</dt><dd>This API should be followed by a check on the card state through <a class="el" href="group___s_d___exported___functions___group3.html#ga61f65802034a18141e92ae669fdc844c" title="Gets the current sd card data state.">HAL_SD_GetCardState()</a>. </dd>
+<dd>
+You could also check the DMA transfer process through the SD Tx interrupt event. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hsd</td><td>Pointer to SD handle </td></tr>
+    <tr><td class="paramname">pData</td><td>Pointer to the buffer that will contain the data to transmit </td></tr>
+    <tr><td class="paramname">BlockAdd</td><td>Block Address where data will be written</td></tr>
+    <tr><td class="paramname">NumberOfBlocks</td><td>Number of blocks to write </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaeb46f1a16f34cec88b7bd5f429e6c48e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaeb46f1a16f34cec88b7bd5f429e6c48e">&#9670;&nbsp;</a></span>HAL_SD_WriteBlocks_IT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_SD_WriteBlocks_IT </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_s_d___handle_type_def.html">SD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hsd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>BlockAdd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>NumberOfBlocks</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Writes block(s) to a specified address in a card. The Data transfer is managed in interrupt mode. </p>
+<dl class="section note"><dt>Note</dt><dd>This API should be followed by a check on the card state through <a class="el" href="group___s_d___exported___functions___group3.html#ga61f65802034a18141e92ae669fdc844c" title="Gets the current sd card data state.">HAL_SD_GetCardState()</a>. </dd>
+<dd>
+You could also check the IT transfer process through the SD Tx interrupt event. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hsd</td><td>Pointer to SD handle </td></tr>
+    <tr><td class="paramname">pData</td><td>Pointer to the buffer that will contain the data to transmit </td></tr>
+    <tr><td class="paramname">BlockAdd</td><td>Block Address where data will be written</td></tr>
+    <tr><td class="paramname">NumberOfBlocks</td><td>Number of blocks to write </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

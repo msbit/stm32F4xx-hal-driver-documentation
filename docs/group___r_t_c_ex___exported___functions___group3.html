@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.15"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>STM32F4xx_HAL_Driver: RTCEx_Exported_Functions_Group3</title>
+<title>STM32F4xx_HAL_Driver: Extension Peripheral Control functions</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,50 +64,584 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">RTCEx_Exported_Functions_Group3<div class="ingroups"><a class="el" href="group___r_t_c_ex___exported___functions.html">RTCEx Exported Functions</a></div></div>  </div>
+<div class="title">Extension Peripheral Control functions<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___r_t_c_ex.html">RTCEx</a> &raquo; <a class="el" href="group___r_t_c_ex___exported___functions.html">RTCEx Exported Functions</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Extension Peripheral Control functions.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gafb908a2f254ccff959c31ac70e957de4"><td class="memItemLeft" align="right" valign="top"><a id="gafb908a2f254ccff959c31ac70e957de4"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_RTCEx_BKUPWrite</b> (<a class="el" href="struct_r_t_c___handle_type_def.html">RTC_HandleTypeDef</a> *hrtc, uint32_t BackupRegister, uint32_t Data)</td></tr>
+<tr class="memitem:gafb908a2f254ccff959c31ac70e957de4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___r_t_c_ex___exported___functions___group3.html#gafb908a2f254ccff959c31ac70e957de4">HAL_RTCEx_BKUPWrite</a> (<a class="el" href="struct_r_t_c___handle_type_def.html">RTC_HandleTypeDef</a> *hrtc, uint32_t BackupRegister, uint32_t Data)</td></tr>
+<tr class="memdesc:gafb908a2f254ccff959c31ac70e957de4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes a data in a specified RTC Backup data register.  <a href="#gafb908a2f254ccff959c31ac70e957de4">More...</a><br /></td></tr>
 <tr class="separator:gafb908a2f254ccff959c31ac70e957de4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga37ba612da141a2b443bf64210f981513"><td class="memItemLeft" align="right" valign="top"><a id="ga37ba612da141a2b443bf64210f981513"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_RTCEx_BKUPRead</b> (<a class="el" href="struct_r_t_c___handle_type_def.html">RTC_HandleTypeDef</a> *hrtc, uint32_t BackupRegister)</td></tr>
+<tr class="memitem:ga37ba612da141a2b443bf64210f981513"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___r_t_c_ex___exported___functions___group3.html#ga37ba612da141a2b443bf64210f981513">HAL_RTCEx_BKUPRead</a> (<a class="el" href="struct_r_t_c___handle_type_def.html">RTC_HandleTypeDef</a> *hrtc, uint32_t BackupRegister)</td></tr>
+<tr class="memdesc:ga37ba612da141a2b443bf64210f981513"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads data from the specified RTC Backup data Register.  <a href="#ga37ba612da141a2b443bf64210f981513">More...</a><br /></td></tr>
 <tr class="separator:ga37ba612da141a2b443bf64210f981513"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0f77700814ccfaa7a10969012ad92968"><td class="memItemLeft" align="right" valign="top"><a id="ga0f77700814ccfaa7a10969012ad92968"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_RTCEx_SetCoarseCalib</b> (<a class="el" href="struct_r_t_c___handle_type_def.html">RTC_HandleTypeDef</a> *hrtc, uint32_t CalibSign, uint32_t Value)</td></tr>
+<tr class="memitem:ga0f77700814ccfaa7a10969012ad92968"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___r_t_c_ex___exported___functions___group3.html#ga0f77700814ccfaa7a10969012ad92968">HAL_RTCEx_SetCoarseCalib</a> (<a class="el" href="struct_r_t_c___handle_type_def.html">RTC_HandleTypeDef</a> *hrtc, uint32_t CalibSign, uint32_t Value)</td></tr>
+<tr class="memdesc:ga0f77700814ccfaa7a10969012ad92968"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the Coarse calibration parameters.  <a href="#ga0f77700814ccfaa7a10969012ad92968">More...</a><br /></td></tr>
 <tr class="separator:ga0f77700814ccfaa7a10969012ad92968"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7803f69ddb68e220dd2b263e523bcdce"><td class="memItemLeft" align="right" valign="top"><a id="ga7803f69ddb68e220dd2b263e523bcdce"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_RTCEx_DeactivateCoarseCalib</b> (<a class="el" href="struct_r_t_c___handle_type_def.html">RTC_HandleTypeDef</a> *hrtc)</td></tr>
+<tr class="memitem:ga7803f69ddb68e220dd2b263e523bcdce"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___r_t_c_ex___exported___functions___group3.html#ga7803f69ddb68e220dd2b263e523bcdce">HAL_RTCEx_DeactivateCoarseCalib</a> (<a class="el" href="struct_r_t_c___handle_type_def.html">RTC_HandleTypeDef</a> *hrtc)</td></tr>
+<tr class="memdesc:ga7803f69ddb68e220dd2b263e523bcdce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deactivates the Coarse calibration parameters.  <a href="#ga7803f69ddb68e220dd2b263e523bcdce">More...</a><br /></td></tr>
 <tr class="separator:ga7803f69ddb68e220dd2b263e523bcdce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga394b6624dbda05ef3e375d83884ba00b"><td class="memItemLeft" align="right" valign="top"><a id="ga394b6624dbda05ef3e375d83884ba00b"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_RTCEx_SetSmoothCalib</b> (<a class="el" href="struct_r_t_c___handle_type_def.html">RTC_HandleTypeDef</a> *hrtc, uint32_t SmoothCalibPeriod, uint32_t SmoothCalibPlusPulses, uint32_t SmouthCalibMinusPulsesValue)</td></tr>
+<tr class="memitem:ga394b6624dbda05ef3e375d83884ba00b"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___r_t_c_ex___exported___functions___group3.html#ga394b6624dbda05ef3e375d83884ba00b">HAL_RTCEx_SetSmoothCalib</a> (<a class="el" href="struct_r_t_c___handle_type_def.html">RTC_HandleTypeDef</a> *hrtc, uint32_t SmoothCalibPeriod, uint32_t SmoothCalibPlusPulses, uint32_t SmouthCalibMinusPulsesValue)</td></tr>
+<tr class="memdesc:ga394b6624dbda05ef3e375d83884ba00b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the Smooth calibration parameters.  <a href="#ga394b6624dbda05ef3e375d83884ba00b">More...</a><br /></td></tr>
 <tr class="separator:ga394b6624dbda05ef3e375d83884ba00b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga07344e3d0f7e9f569ec02d4a75d158dc"><td class="memItemLeft" align="right" valign="top"><a id="ga07344e3d0f7e9f569ec02d4a75d158dc"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_RTCEx_SetSynchroShift</b> (<a class="el" href="struct_r_t_c___handle_type_def.html">RTC_HandleTypeDef</a> *hrtc, uint32_t ShiftAdd1S, uint32_t ShiftSubFS)</td></tr>
+<tr class="memitem:ga07344e3d0f7e9f569ec02d4a75d158dc"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___r_t_c_ex___exported___functions___group3.html#ga07344e3d0f7e9f569ec02d4a75d158dc">HAL_RTCEx_SetSynchroShift</a> (<a class="el" href="struct_r_t_c___handle_type_def.html">RTC_HandleTypeDef</a> *hrtc, uint32_t ShiftAdd1S, uint32_t ShiftSubFS)</td></tr>
+<tr class="memdesc:ga07344e3d0f7e9f569ec02d4a75d158dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configures the Synchronization Shift Control Settings.  <a href="#ga07344e3d0f7e9f569ec02d4a75d158dc">More...</a><br /></td></tr>
 <tr class="separator:ga07344e3d0f7e9f569ec02d4a75d158dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gafee5f33f43d10ae0b64aa073412de17e"><td class="memItemLeft" align="right" valign="top"><a id="gafee5f33f43d10ae0b64aa073412de17e"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_RTCEx_SetCalibrationOutPut</b> (<a class="el" href="struct_r_t_c___handle_type_def.html">RTC_HandleTypeDef</a> *hrtc, uint32_t CalibOutput)</td></tr>
+<tr class="memitem:gafee5f33f43d10ae0b64aa073412de17e"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___r_t_c_ex___exported___functions___group3.html#gafee5f33f43d10ae0b64aa073412de17e">HAL_RTCEx_SetCalibrationOutPut</a> (<a class="el" href="struct_r_t_c___handle_type_def.html">RTC_HandleTypeDef</a> *hrtc, uint32_t CalibOutput)</td></tr>
+<tr class="memdesc:gafee5f33f43d10ae0b64aa073412de17e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configures the Calibration Pinout (RTC_CALIB) Selection (1Hz or 512Hz).  <a href="#gafee5f33f43d10ae0b64aa073412de17e">More...</a><br /></td></tr>
 <tr class="separator:gafee5f33f43d10ae0b64aa073412de17e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4cba173360f2993cafdd2c77fc51b7a9"><td class="memItemLeft" align="right" valign="top"><a id="ga4cba173360f2993cafdd2c77fc51b7a9"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_RTCEx_DeactivateCalibrationOutPut</b> (<a class="el" href="struct_r_t_c___handle_type_def.html">RTC_HandleTypeDef</a> *hrtc)</td></tr>
+<tr class="memitem:ga4cba173360f2993cafdd2c77fc51b7a9"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___r_t_c_ex___exported___functions___group3.html#ga4cba173360f2993cafdd2c77fc51b7a9">HAL_RTCEx_DeactivateCalibrationOutPut</a> (<a class="el" href="struct_r_t_c___handle_type_def.html">RTC_HandleTypeDef</a> *hrtc)</td></tr>
+<tr class="memdesc:ga4cba173360f2993cafdd2c77fc51b7a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deactivates the Calibration Pinout (RTC_CALIB) Selection (1Hz or 512Hz).  <a href="#ga4cba173360f2993cafdd2c77fc51b7a9">More...</a><br /></td></tr>
 <tr class="separator:ga4cba173360f2993cafdd2c77fc51b7a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad3759b90bbf48597b2797411c72632dc"><td class="memItemLeft" align="right" valign="top"><a id="gad3759b90bbf48597b2797411c72632dc"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_RTCEx_SetRefClock</b> (<a class="el" href="struct_r_t_c___handle_type_def.html">RTC_HandleTypeDef</a> *hrtc)</td></tr>
+<tr class="memitem:gad3759b90bbf48597b2797411c72632dc"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___r_t_c_ex___exported___functions___group3.html#gad3759b90bbf48597b2797411c72632dc">HAL_RTCEx_SetRefClock</a> (<a class="el" href="struct_r_t_c___handle_type_def.html">RTC_HandleTypeDef</a> *hrtc)</td></tr>
+<tr class="memdesc:gad3759b90bbf48597b2797411c72632dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enables the RTC reference clock detection.  <a href="#gad3759b90bbf48597b2797411c72632dc">More...</a><br /></td></tr>
 <tr class="separator:gad3759b90bbf48597b2797411c72632dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga86ca6b8e7b4ea0fede8e1aceef36fdbe"><td class="memItemLeft" align="right" valign="top"><a id="ga86ca6b8e7b4ea0fede8e1aceef36fdbe"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_RTCEx_DeactivateRefClock</b> (<a class="el" href="struct_r_t_c___handle_type_def.html">RTC_HandleTypeDef</a> *hrtc)</td></tr>
+<tr class="memitem:ga86ca6b8e7b4ea0fede8e1aceef36fdbe"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___r_t_c_ex___exported___functions___group3.html#ga86ca6b8e7b4ea0fede8e1aceef36fdbe">HAL_RTCEx_DeactivateRefClock</a> (<a class="el" href="struct_r_t_c___handle_type_def.html">RTC_HandleTypeDef</a> *hrtc)</td></tr>
+<tr class="memdesc:ga86ca6b8e7b4ea0fede8e1aceef36fdbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disable the RTC reference clock detection.  <a href="#ga86ca6b8e7b4ea0fede8e1aceef36fdbe">More...</a><br /></td></tr>
 <tr class="separator:ga86ca6b8e7b4ea0fede8e1aceef36fdbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga77d4058fefb7d89481ca1af3b87a8a32"><td class="memItemLeft" align="right" valign="top"><a id="ga77d4058fefb7d89481ca1af3b87a8a32"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_RTCEx_EnableBypassShadow</b> (<a class="el" href="struct_r_t_c___handle_type_def.html">RTC_HandleTypeDef</a> *hrtc)</td></tr>
+<tr class="memitem:ga77d4058fefb7d89481ca1af3b87a8a32"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___r_t_c_ex___exported___functions___group3.html#ga77d4058fefb7d89481ca1af3b87a8a32">HAL_RTCEx_EnableBypassShadow</a> (<a class="el" href="struct_r_t_c___handle_type_def.html">RTC_HandleTypeDef</a> *hrtc)</td></tr>
+<tr class="memdesc:ga77d4058fefb7d89481ca1af3b87a8a32"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enables the Bypass Shadow feature.  <a href="#ga77d4058fefb7d89481ca1af3b87a8a32">More...</a><br /></td></tr>
 <tr class="separator:ga77d4058fefb7d89481ca1af3b87a8a32"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaabaf6726dca239445ea362554e0f8ce2"><td class="memItemLeft" align="right" valign="top"><a id="gaabaf6726dca239445ea362554e0f8ce2"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_RTCEx_DisableBypassShadow</b> (<a class="el" href="struct_r_t_c___handle_type_def.html">RTC_HandleTypeDef</a> *hrtc)</td></tr>
+<tr class="memitem:gaabaf6726dca239445ea362554e0f8ce2"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___r_t_c_ex___exported___functions___group3.html#gaabaf6726dca239445ea362554e0f8ce2">HAL_RTCEx_DisableBypassShadow</a> (<a class="el" href="struct_r_t_c___handle_type_def.html">RTC_HandleTypeDef</a> *hrtc)</td></tr>
+<tr class="memdesc:gaabaf6726dca239445ea362554e0f8ce2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disables the Bypass Shadow feature.  <a href="#gaabaf6726dca239445ea362554e0f8ce2">More...</a><br /></td></tr>
 <tr class="separator:gaabaf6726dca239445ea362554e0f8ce2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>Extension Peripheral Control functions. </p>
+<pre class="fragment"> ===============================================================================
+              ##### Extension Peripheral Control functions #####
+ ===============================================================================  
+    [..]
+    This subsection provides functions allowing to
+      (+) Write a data in a specified RTC Backup data register
+      (+) Read a data in a specified RTC Backup data register
+      (+) Set the Coarse calibration parameters.
+      (+) Deactivate the Coarse calibration parameters
+      (+) Set the Smooth calibration parameters.
+      (+) Configure the Synchronization Shift Control Settings.
+      (+) Configure the Calibration Pinout (RTC_CALIB) Selection (1Hz or 512Hz).
+      (+) Deactivate the Calibration Pinout (RTC_CALIB) Selection (1Hz or 512Hz).
+      (+) Enable the RTC reference clock detection.
+      (+) Disable the RTC reference clock detection.
+      (+) Enable the Bypass Shadow feature.
+      (+) Disable the Bypass Shadow feature.</pre> <h2 class="groupheader">Function Documentation</h2>
+<a id="ga37ba612da141a2b443bf64210f981513"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga37ba612da141a2b443bf64210f981513">&#9670;&nbsp;</a></span>HAL_RTCEx_BKUPRead()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t HAL_RTCEx_BKUPRead </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_r_t_c___handle_type_def.html">RTC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hrtc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>BackupRegister</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reads data from the specified RTC Backup data Register. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hrtc</td><td>pointer to a <a class="el" href="struct_r_t_c___handle_type_def.html" title="RTC Handle Structure definition.">RTC_HandleTypeDef</a> structure that contains the configuration information for RTC. </td></tr>
+    <tr><td class="paramname">BackupRegister</td><td>RTC Backup data Register number. This parameter can be: RTC_BKP_DRx where x can be from 0 to 19 to specify the register.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">Read</td><td>value </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gafb908a2f254ccff959c31ac70e957de4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gafb908a2f254ccff959c31ac70e957de4">&#9670;&nbsp;</a></span>HAL_RTCEx_BKUPWrite()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HAL_RTCEx_BKUPWrite </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_r_t_c___handle_type_def.html">RTC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hrtc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>BackupRegister</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Data</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Writes a data in a specified RTC Backup data register. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hrtc</td><td>pointer to a <a class="el" href="struct_r_t_c___handle_type_def.html" title="RTC Handle Structure definition.">RTC_HandleTypeDef</a> structure that contains the configuration information for RTC. </td></tr>
+    <tr><td class="paramname">BackupRegister</td><td>RTC Backup data Register number. This parameter can be: RTC_BKP_DRx where x can be from 0 to 19 to specify the register. </td></tr>
+    <tr><td class="paramname">Data</td><td>Data to be written in the specified RTC Backup data register.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga4cba173360f2993cafdd2c77fc51b7a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4cba173360f2993cafdd2c77fc51b7a9">&#9670;&nbsp;</a></span>HAL_RTCEx_DeactivateCalibrationOutPut()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_RTCEx_DeactivateCalibrationOutPut </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_r_t_c___handle_type_def.html">RTC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hrtc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Deactivates the Calibration Pinout (RTC_CALIB) Selection (1Hz or 512Hz). </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hrtc</td><td>pointer to a <a class="el" href="struct_r_t_c___handle_type_def.html" title="RTC Handle Structure definition.">RTC_HandleTypeDef</a> structure that contains the configuration information for RTC.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga7803f69ddb68e220dd2b263e523bcdce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7803f69ddb68e220dd2b263e523bcdce">&#9670;&nbsp;</a></span>HAL_RTCEx_DeactivateCoarseCalib()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_RTCEx_DeactivateCoarseCalib </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_r_t_c___handle_type_def.html">RTC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hrtc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Deactivates the Coarse calibration parameters. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hrtc</td><td>pointer to a <a class="el" href="struct_r_t_c___handle_type_def.html" title="RTC Handle Structure definition.">RTC_HandleTypeDef</a> structure that contains the configuration information for RTC.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga86ca6b8e7b4ea0fede8e1aceef36fdbe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga86ca6b8e7b4ea0fede8e1aceef36fdbe">&#9670;&nbsp;</a></span>HAL_RTCEx_DeactivateRefClock()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_RTCEx_DeactivateRefClock </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_r_t_c___handle_type_def.html">RTC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hrtc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Disable the RTC reference clock detection. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hrtc</td><td>pointer to a <a class="el" href="struct_r_t_c___handle_type_def.html" title="RTC Handle Structure definition.">RTC_HandleTypeDef</a> structure that contains the configuration information for RTC.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaabaf6726dca239445ea362554e0f8ce2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaabaf6726dca239445ea362554e0f8ce2">&#9670;&nbsp;</a></span>HAL_RTCEx_DisableBypassShadow()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_RTCEx_DisableBypassShadow </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_r_t_c___handle_type_def.html">RTC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hrtc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Disables the Bypass Shadow feature. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hrtc</td><td>pointer to a <a class="el" href="struct_r_t_c___handle_type_def.html" title="RTC Handle Structure definition.">RTC_HandleTypeDef</a> structure that contains the configuration information for RTC.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>When the Bypass Shadow is enabled the calendar value are taken directly from the Calendar counter. </dd></dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga77d4058fefb7d89481ca1af3b87a8a32"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga77d4058fefb7d89481ca1af3b87a8a32">&#9670;&nbsp;</a></span>HAL_RTCEx_EnableBypassShadow()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_RTCEx_EnableBypassShadow </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_r_t_c___handle_type_def.html">RTC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hrtc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Enables the Bypass Shadow feature. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hrtc</td><td>pointer to a <a class="el" href="struct_r_t_c___handle_type_def.html" title="RTC Handle Structure definition.">RTC_HandleTypeDef</a> structure that contains the configuration information for RTC.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>When the Bypass Shadow is enabled the calendar value are taken directly from the Calendar counter. </dd></dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gafee5f33f43d10ae0b64aa073412de17e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gafee5f33f43d10ae0b64aa073412de17e">&#9670;&nbsp;</a></span>HAL_RTCEx_SetCalibrationOutPut()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_RTCEx_SetCalibrationOutPut </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_r_t_c___handle_type_def.html">RTC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hrtc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>CalibOutput</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Configures the Calibration Pinout (RTC_CALIB) Selection (1Hz or 512Hz). </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hrtc</td><td>pointer to a <a class="el" href="struct_r_t_c___handle_type_def.html" title="RTC Handle Structure definition.">RTC_HandleTypeDef</a> structure that contains the configuration information for RTC.</td></tr>
+    <tr><td class="paramname">CalibOutput</td><td>Select the Calibration output Selection . This parameter can be one of the following values: <ul>
+<li>RTC_CALIBOUTPUT_512HZ: A signal has a regular waveform at 512Hz. </li>
+<li>RTC_CALIBOUTPUT_1HZ: A signal has a regular waveform at 1Hz. </li>
+</ul>
+</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga0f77700814ccfaa7a10969012ad92968"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0f77700814ccfaa7a10969012ad92968">&#9670;&nbsp;</a></span>HAL_RTCEx_SetCoarseCalib()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_RTCEx_SetCoarseCalib </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_r_t_c___handle_type_def.html">RTC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hrtc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>CalibSign</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the Coarse calibration parameters. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hrtc</td><td>pointer to a <a class="el" href="struct_r_t_c___handle_type_def.html" title="RTC Handle Structure definition.">RTC_HandleTypeDef</a> structure that contains the configuration information for RTC.</td></tr>
+    <tr><td class="paramname">CalibSign</td><td>Specifies the sign of the coarse calibration value. This parameter can be one of the following values : <ul>
+<li>RTC_CALIBSIGN_POSITIVE: The value sign is positive </li>
+<li>RTC_CALIBSIGN_NEGATIVE: The value sign is negative </li>
+</ul>
+</td></tr>
+    <tr><td class="paramname">Value</td><td>value of coarse calibration expressed in ppm (coded on 5 bits).</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>This Calibration value should be between 0 and 63 when using negative sign with a 2-ppm step.</dd>
+<dd>
+This Calibration value should be between 0 and 126 when using positive sign with a 4-ppm step. </dd></dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gad3759b90bbf48597b2797411c72632dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad3759b90bbf48597b2797411c72632dc">&#9670;&nbsp;</a></span>HAL_RTCEx_SetRefClock()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_RTCEx_SetRefClock </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_r_t_c___handle_type_def.html">RTC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hrtc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Enables the RTC reference clock detection. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hrtc</td><td>pointer to a <a class="el" href="struct_r_t_c___handle_type_def.html" title="RTC Handle Structure definition.">RTC_HandleTypeDef</a> structure that contains the configuration information for RTC.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga394b6624dbda05ef3e375d83884ba00b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga394b6624dbda05ef3e375d83884ba00b">&#9670;&nbsp;</a></span>HAL_RTCEx_SetSmoothCalib()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_RTCEx_SetSmoothCalib </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_r_t_c___handle_type_def.html">RTC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hrtc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>SmoothCalibPeriod</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>SmoothCalibPlusPulses</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>SmouthCalibMinusPulsesValue</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the Smooth calibration parameters. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hrtc</td><td>pointer to a <a class="el" href="struct_r_t_c___handle_type_def.html" title="RTC Handle Structure definition.">RTC_HandleTypeDef</a> structure that contains the configuration information for RTC.</td></tr>
+    <tr><td class="paramname">SmoothCalibPeriod</td><td>Select the Smooth Calibration Period. This parameter can be can be one of the following values : <ul>
+<li>RTC_SMOOTHCALIB_PERIOD_32SEC: The smooth calibration period is 32s. </li>
+<li>RTC_SMOOTHCALIB_PERIOD_16SEC: The smooth calibration period is 16s. </li>
+<li>RTC_SMOOTHCALIB_PERIOD_8SEC: The smooth calibration period is 8s. </li>
+</ul>
+</td></tr>
+    <tr><td class="paramname">SmoothCalibPlusPulses</td><td>Select to Set or reset the CALP bit. This parameter can be one of the following values: <ul>
+<li>RTC_SMOOTHCALIB_PLUSPULSES_SET: Add one RTCCLK pulse every 2*11 pulses. </li>
+<li>RTC_SMOOTHCALIB_PLUSPULSES_RESET: No RTCCLK pulses are added. </li>
+</ul>
+</td></tr>
+    <tr><td class="paramname">SmouthCalibMinusPulsesValue</td><td>Select the value of CALM[80] bits. This parameter can be one any value from 0 to 0x000001FF. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>To deactivate the smooth calibration, the field SmoothCalibPlusPulses must be equal to SMOOTHCALIB_PLUSPULSES_RESET and the field SmouthCalibMinusPulsesValue must be equal to 0.</dd></dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga07344e3d0f7e9f569ec02d4a75d158dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga07344e3d0f7e9f569ec02d4a75d158dc">&#9670;&nbsp;</a></span>HAL_RTCEx_SetSynchroShift()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_RTCEx_SetSynchroShift </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_r_t_c___handle_type_def.html">RTC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hrtc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>ShiftAdd1S</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>ShiftSubFS</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Configures the Synchronization Shift Control Settings. </p>
+<dl class="section note"><dt>Note</dt><dd>When REFCKON is set, firmware must not write to Shift control register. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hrtc</td><td>pointer to a <a class="el" href="struct_r_t_c___handle_type_def.html" title="RTC Handle Structure definition.">RTC_HandleTypeDef</a> structure that contains the configuration information for RTC.</td></tr>
+    <tr><td class="paramname">ShiftAdd1S</td><td>Select to add or not 1 second to the time calendar. This parameter can be one of the following values : <ul>
+<li>RTC_SHIFTADD1S_SET: Add one second to the clock calendar. </li>
+<li>RTC_SHIFTADD1S_RESET: No effect. </li>
+</ul>
+</td></tr>
+    <tr><td class="paramname">ShiftSubFS</td><td>Select the number of Second Fractions to substitute. This parameter can be one any value from 0 to 0x7FFF. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

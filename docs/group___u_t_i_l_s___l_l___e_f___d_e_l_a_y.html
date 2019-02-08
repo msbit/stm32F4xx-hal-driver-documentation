@@ -73,15 +73,49 @@ Functions</h2></td></tr>
 <tr class="memitem:ga170d1d651b46544daf571fb6b4e3b850"><td class="memItemLeft" align="right" valign="top">__STATIC_INLINE void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_t_i_l_s___l_l___e_f___d_e_l_a_y.html#ga170d1d651b46544daf571fb6b4e3b850">LL_InitTick</a> (uint32_t HCLKFrequency, uint32_t Ticks)</td></tr>
 <tr class="memdesc:ga170d1d651b46544daf571fb6b4e3b850"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function configures the Cortex-M SysTick source of the time base.  <a href="#ga170d1d651b46544daf571fb6b4e3b850">More...</a><br /></td></tr>
 <tr class="separator:ga170d1d651b46544daf571fb6b4e3b850"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga485805c708e3aa0820454523782d4de4"><td class="memItemLeft" align="right" valign="top"><a id="ga485805c708e3aa0820454523782d4de4"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>LL_Init1msTick</b> (uint32_t HCLKFrequency)</td></tr>
+<tr class="memitem:ga485805c708e3aa0820454523782d4de4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_t_i_l_s___l_l___e_f___d_e_l_a_y.html#ga485805c708e3aa0820454523782d4de4">LL_Init1msTick</a> (uint32_t HCLKFrequency)</td></tr>
+<tr class="memdesc:ga485805c708e3aa0820454523782d4de4"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function configures the Cortex-M SysTick source to have 1ms time base.  <a href="#ga485805c708e3aa0820454523782d4de4">More...</a><br /></td></tr>
 <tr class="separator:ga485805c708e3aa0820454523782d4de4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7b7ca6d9cbec320c3e9f326b203807aa"><td class="memItemLeft" align="right" valign="top"><a id="ga7b7ca6d9cbec320c3e9f326b203807aa"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>LL_mDelay</b> (uint32_t Delay)</td></tr>
+<tr class="memitem:ga7b7ca6d9cbec320c3e9f326b203807aa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_t_i_l_s___l_l___e_f___d_e_l_a_y.html#ga7b7ca6d9cbec320c3e9f326b203807aa">LL_mDelay</a> (uint32_t Delay)</td></tr>
+<tr class="memdesc:ga7b7ca6d9cbec320c3e9f326b203807aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function provides accurate delay (in milliseconds) based on SysTick counter flag.  <a href="#ga7b7ca6d9cbec320c3e9f326b203807aa">More...</a><br /></td></tr>
 <tr class="separator:ga7b7ca6d9cbec320c3e9f326b203807aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="ga485805c708e3aa0820454523782d4de4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga485805c708e3aa0820454523782d4de4">&#9670;&nbsp;</a></span>LL_Init1msTick()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LL_Init1msTick </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>HCLKFrequency</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function configures the Cortex-M SysTick source to have 1ms time base. </p>
+<dl class="section note"><dt>Note</dt><dd>When a RTOS is used, it is recommended to avoid changing the Systick configuration by calling this function, for a delay use rather osDelay RTOS service. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">HCLKFrequency</td><td>HCLK frequency in Hz </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>HCLK frequency can be calculated thanks to RCC helper macro or function <a class="el" href="group___r_c_c___l_l___e_f___get___freq.html#ga9ec9efa058971510891175bb0fb80758">LL_RCC_GetSystemClocksFreq</a> </dd></dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="ga170d1d651b46544daf571fb6b4e3b850"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga170d1d651b46544daf571fb6b4e3b850">&#9670;&nbsp;</a></span>LL_InitTick()</h2>
 
@@ -119,6 +153,41 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>LL_mDelay</b> (uint32
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">Ticks</td><td>Number of ticks </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga7b7ca6d9cbec320c3e9f326b203807aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7b7ca6d9cbec320c3e9f326b203807aa">&#9670;&nbsp;</a></span>LL_mDelay()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LL_mDelay </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Delay</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function provides accurate delay (in milliseconds) based on SysTick counter flag. </p>
+<dl class="section note"><dt>Note</dt><dd>When a RTOS is used, it is recommended to avoid using blocking delay and use rather osDelay service. </dd>
+<dd>
+To respect 1ms timebase, user should call <a class="el" href="group___u_t_i_l_s___l_l___e_f___d_e_l_a_y.html#ga485805c708e3aa0820454523782d4de4">LL_Init1msTick</a> function which will configure Systick to 1ms </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Delay</td><td>specifies the delay time length, in milliseconds. </td></tr>
   </table>
   </dd>
 </dl>

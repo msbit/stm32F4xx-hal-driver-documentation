@@ -64,26 +64,224 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">NAND Initialization/de-initialization functions<div class="ingroups"><a class="el" href="group___f_s_m_c___l_l___private___functions.html">FSMC LL Private Functions</a> &raquo; <a class="el" href="group___f_s_m_c___l_l___n_a_n_d.html">NAND</a></div></div>  </div>
+<div class="title">NAND Initialization/de-initialization functions<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___f_s_m_c___l_l.html">FSMC Low Layer</a> &raquo; <a class="el" href="group___f_s_m_c___l_l___private___functions.html">FSMC LL Private Functions</a> &raquo; <a class="el" href="group___f_s_m_c___l_l___n_a_n_d.html">NAND</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Initialization and Configuration functions.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga7593e5272fccb474361d1078f180093e"><td class="memItemLeft" align="right" valign="top"><a id="ga7593e5272fccb474361d1078f180093e"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>FSMC_NAND_Init</b> (FSMC_NAND_TypeDef *Device, <a class="el" href="struct_f_s_m_c___n_a_n_d___init_type_def.html">FSMC_NAND_InitTypeDef</a> *Init)</td></tr>
+<tr class="memitem:ga7593e5272fccb474361d1078f180093e"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___f_s_m_c___l_l___n_a_n_d___private___functions___group1.html#ga7593e5272fccb474361d1078f180093e">FSMC_NAND_Init</a> (FSMC_NAND_TypeDef *Device, <a class="el" href="struct_f_s_m_c___n_a_n_d___init_type_def.html">FSMC_NAND_InitTypeDef</a> *Init)</td></tr>
+<tr class="memdesc:ga7593e5272fccb474361d1078f180093e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the FSMC_NAND device according to the specified control parameters in the FSMC_NAND_HandleTypeDef.  <a href="#ga7593e5272fccb474361d1078f180093e">More...</a><br /></td></tr>
 <tr class="separator:ga7593e5272fccb474361d1078f180093e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad7df4370122c4d33e61ea0f45d23f1d3"><td class="memItemLeft" align="right" valign="top"><a id="gad7df4370122c4d33e61ea0f45d23f1d3"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>FSMC_NAND_CommonSpace_Timing_Init</b> (FSMC_NAND_TypeDef *Device, <a class="el" href="struct_f_s_m_c___n_a_n_d___p_c_c___timing_type_def.html">FSMC_NAND_PCC_TimingTypeDef</a> *Timing, uint32_t Bank)</td></tr>
+<tr class="memitem:gad7df4370122c4d33e61ea0f45d23f1d3"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___f_s_m_c___l_l___n_a_n_d___private___functions___group1.html#gad7df4370122c4d33e61ea0f45d23f1d3">FSMC_NAND_CommonSpace_Timing_Init</a> (FSMC_NAND_TypeDef *Device, <a class="el" href="struct_f_s_m_c___n_a_n_d___p_c_c___timing_type_def.html">FSMC_NAND_PCC_TimingTypeDef</a> *Timing, uint32_t Bank)</td></tr>
+<tr class="memdesc:gad7df4370122c4d33e61ea0f45d23f1d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the FSMC_NAND Common space Timing according to the specified parameters in the <a class="el" href="struct_f_s_m_c___n_a_n_d___p_c_c___timing_type_def.html" title="FSMC NAND/PCCARD Timing parameters structure definition.">FSMC_NAND_PCC_TimingTypeDef</a>.  <a href="#gad7df4370122c4d33e61ea0f45d23f1d3">More...</a><br /></td></tr>
 <tr class="separator:gad7df4370122c4d33e61ea0f45d23f1d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga241929e238d64227a039c4e90a2f1a2e"><td class="memItemLeft" align="right" valign="top"><a id="ga241929e238d64227a039c4e90a2f1a2e"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>FSMC_NAND_AttributeSpace_Timing_Init</b> (FSMC_NAND_TypeDef *Device, <a class="el" href="struct_f_s_m_c___n_a_n_d___p_c_c___timing_type_def.html">FSMC_NAND_PCC_TimingTypeDef</a> *Timing, uint32_t Bank)</td></tr>
+<tr class="memitem:ga241929e238d64227a039c4e90a2f1a2e"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___f_s_m_c___l_l___n_a_n_d___private___functions___group1.html#ga241929e238d64227a039c4e90a2f1a2e">FSMC_NAND_AttributeSpace_Timing_Init</a> (FSMC_NAND_TypeDef *Device, <a class="el" href="struct_f_s_m_c___n_a_n_d___p_c_c___timing_type_def.html">FSMC_NAND_PCC_TimingTypeDef</a> *Timing, uint32_t Bank)</td></tr>
+<tr class="memdesc:ga241929e238d64227a039c4e90a2f1a2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the FSMC_NAND Attribute space Timing according to the specified parameters in the <a class="el" href="struct_f_s_m_c___n_a_n_d___p_c_c___timing_type_def.html" title="FSMC NAND/PCCARD Timing parameters structure definition.">FSMC_NAND_PCC_TimingTypeDef</a>.  <a href="#ga241929e238d64227a039c4e90a2f1a2e">More...</a><br /></td></tr>
 <tr class="separator:ga241929e238d64227a039c4e90a2f1a2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga444bea2f0b71313efd5cbcc0f8ee44c5"><td class="memItemLeft" align="right" valign="top"><a id="ga444bea2f0b71313efd5cbcc0f8ee44c5"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>FSMC_NAND_DeInit</b> (FSMC_NAND_TypeDef *Device, uint32_t Bank)</td></tr>
+<tr class="memitem:ga444bea2f0b71313efd5cbcc0f8ee44c5"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___f_s_m_c___l_l___n_a_n_d___private___functions___group1.html#ga444bea2f0b71313efd5cbcc0f8ee44c5">FSMC_NAND_DeInit</a> (FSMC_NAND_TypeDef *Device, uint32_t Bank)</td></tr>
+<tr class="memdesc:ga444bea2f0b71313efd5cbcc0f8ee44c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">DeInitializes the FSMC_NAND device.  <a href="#ga444bea2f0b71313efd5cbcc0f8ee44c5">More...</a><br /></td></tr>
 <tr class="separator:ga444bea2f0b71313efd5cbcc0f8ee44c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>Initialization and Configuration functions. </p>
+<pre class="fragment">  ==============================================================================
+              ##### Initialization and de_initialization functions #####
+  ==============================================================================
+  [..]  
+    This section provides functions allowing to:
+    (+) Initialize and configure the FSMC NAND interface
+    (+) De-initialize the FSMC NAND interface 
+    (+) Configure the FSMC clock and associated GPIOs</pre> <h2 class="groupheader">Function Documentation</h2>
+<a id="ga241929e238d64227a039c4e90a2f1a2e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga241929e238d64227a039c4e90a2f1a2e">&#9670;&nbsp;</a></span>FSMC_NAND_AttributeSpace_Timing_Init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef FSMC_NAND_AttributeSpace_Timing_Init </td>
+          <td>(</td>
+          <td class="paramtype">FSMC_NAND_TypeDef *&#160;</td>
+          <td class="paramname"><em>Device</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_f_s_m_c___n_a_n_d___p_c_c___timing_type_def.html">FSMC_NAND_PCC_TimingTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>Timing</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Bank</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initializes the FSMC_NAND Attribute space Timing according to the specified parameters in the <a class="el" href="struct_f_s_m_c___n_a_n_d___p_c_c___timing_type_def.html" title="FSMC NAND/PCCARD Timing parameters structure definition.">FSMC_NAND_PCC_TimingTypeDef</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Device</td><td>Pointer to NAND device instance </td></tr>
+    <tr><td class="paramname">Timing</td><td>Pointer to NAND timing structure </td></tr>
+    <tr><td class="paramname">Bank</td><td>NAND bank number </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gad7df4370122c4d33e61ea0f45d23f1d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad7df4370122c4d33e61ea0f45d23f1d3">&#9670;&nbsp;</a></span>FSMC_NAND_CommonSpace_Timing_Init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef FSMC_NAND_CommonSpace_Timing_Init </td>
+          <td>(</td>
+          <td class="paramtype">FSMC_NAND_TypeDef *&#160;</td>
+          <td class="paramname"><em>Device</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_f_s_m_c___n_a_n_d___p_c_c___timing_type_def.html">FSMC_NAND_PCC_TimingTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>Timing</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Bank</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initializes the FSMC_NAND Common space Timing according to the specified parameters in the <a class="el" href="struct_f_s_m_c___n_a_n_d___p_c_c___timing_type_def.html" title="FSMC NAND/PCCARD Timing parameters structure definition.">FSMC_NAND_PCC_TimingTypeDef</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Device</td><td>Pointer to NAND device instance </td></tr>
+    <tr><td class="paramname">Timing</td><td>Pointer to NAND timing structure </td></tr>
+    <tr><td class="paramname">Bank</td><td>NAND bank number</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga444bea2f0b71313efd5cbcc0f8ee44c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga444bea2f0b71313efd5cbcc0f8ee44c5">&#9670;&nbsp;</a></span>FSMC_NAND_DeInit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef FSMC_NAND_DeInit </td>
+          <td>(</td>
+          <td class="paramtype">FSMC_NAND_TypeDef *&#160;</td>
+          <td class="paramname"><em>Device</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Bank</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>DeInitializes the FSMC_NAND device. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Device</td><td>Pointer to NAND device instance </td></tr>
+    <tr><td class="paramname">Bank</td><td>NAND bank number </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga7593e5272fccb474361d1078f180093e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7593e5272fccb474361d1078f180093e">&#9670;&nbsp;</a></span>FSMC_NAND_Init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef FSMC_NAND_Init </td>
+          <td>(</td>
+          <td class="paramtype">FSMC_NAND_TypeDef *&#160;</td>
+          <td class="paramname"><em>Device</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_f_s_m_c___n_a_n_d___init_type_def.html">FSMC_NAND_InitTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>Init</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initializes the FSMC_NAND device according to the specified control parameters in the FSMC_NAND_HandleTypeDef. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Device</td><td>Pointer to NAND device instance </td></tr>
+    <tr><td class="paramname">Init</td><td>Pointer to NAND Initialization structure </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

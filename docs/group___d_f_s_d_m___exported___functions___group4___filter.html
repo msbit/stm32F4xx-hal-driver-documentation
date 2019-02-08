@@ -64,20 +64,95 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">Filter state functions<div class="ingroups"><a class="el" href="group___d_f_s_d_m___exported___functions.html">DFSDM Exported Functions</a></div></div>  </div>
+<div class="title">Filter state functions<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___d_f_s_d_m.html">DFSDM</a> &raquo; <a class="el" href="group___d_f_s_d_m___exported___functions.html">DFSDM Exported Functions</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Filter state functions.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga49d1339edd2b22aa01f0932842bbe42b"><td class="memItemLeft" align="right" valign="top"><a id="ga49d1339edd2b22aa01f0932842bbe42b"></a>
-<a class="el" href="stm32f4xx__hal__dfsdm_8h.html#a9ee69fcbbc7222551c31cab4359098ce">HAL_DFSDM_Filter_StateTypeDef</a>&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DFSDM_FilterGetState</b> (<a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *hdfsdm_filter)</td></tr>
+<tr class="memitem:ga49d1339edd2b22aa01f0932842bbe42b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="stm32f4xx__hal__dfsdm_8h.html#a9ee69fcbbc7222551c31cab4359098ce">HAL_DFSDM_Filter_StateTypeDef</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_f_s_d_m___exported___functions___group4___filter.html#ga49d1339edd2b22aa01f0932842bbe42b">HAL_DFSDM_FilterGetState</a> (<a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *hdfsdm_filter)</td></tr>
+<tr class="memdesc:ga49d1339edd2b22aa01f0932842bbe42b"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function allows to get the current DFSDM filter handle state.  <a href="#ga49d1339edd2b22aa01f0932842bbe42b">More...</a><br /></td></tr>
 <tr class="separator:ga49d1339edd2b22aa01f0932842bbe42b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga37c70d19fe7d761e3c131e93046df2ac"><td class="memItemLeft" align="right" valign="top"><a id="ga37c70d19fe7d761e3c131e93046df2ac"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DFSDM_FilterGetError</b> (<a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *hdfsdm_filter)</td></tr>
+<tr class="memitem:ga37c70d19fe7d761e3c131e93046df2ac"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_f_s_d_m___exported___functions___group4___filter.html#ga37c70d19fe7d761e3c131e93046df2ac">HAL_DFSDM_FilterGetError</a> (<a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *hdfsdm_filter)</td></tr>
+<tr class="memdesc:ga37c70d19fe7d761e3c131e93046df2ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function allows to get the current DFSDM filter error.  <a href="#ga37c70d19fe7d761e3c131e93046df2ac">More...</a><br /></td></tr>
 <tr class="separator:ga37c70d19fe7d761e3c131e93046df2ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>Filter state functions. </p>
+<pre class="fragment">  ==============================================================================
+                     ##### Filter state functions #####
+  ==============================================================================
+    [..]  This section provides functions allowing to:
+      (+) Get the DFSDM filter state.
+      (+) Get the DFSDM filter error.
+</pre> <h2 class="groupheader">Function Documentation</h2>
+<a id="ga37c70d19fe7d761e3c131e93046df2ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga37c70d19fe7d761e3c131e93046df2ac">&#9670;&nbsp;</a></span>HAL_DFSDM_FilterGetError()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t HAL_DFSDM_FilterGetError </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdfsdm_filter</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function allows to get the current DFSDM filter error. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdfsdm_filter</td><td>DFSDM filter handle. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">DFSDM</td><td>filter error code. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga49d1339edd2b22aa01f0932842bbe42b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga49d1339edd2b22aa01f0932842bbe42b">&#9670;&nbsp;</a></span>HAL_DFSDM_FilterGetState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="stm32f4xx__hal__dfsdm_8h.html#a9ee69fcbbc7222551c31cab4359098ce">HAL_DFSDM_Filter_StateTypeDef</a> HAL_DFSDM_FilterGetState </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdfsdm_filter</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function allows to get the current DFSDM filter handle state. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdfsdm_filter</td><td>DFSDM filter handle. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">DFSDM</td><td>filter state. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

@@ -64,23 +64,170 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">SDRAM Initialization/de-initialization functions<div class="ingroups"><a class="el" href="group___f_m_c___l_l___private___functions.html">FMC LL Private Functions</a> &raquo; <a class="el" href="group___f_m_c___l_l___s_d_r_a_m.html">SDRAM</a></div></div>  </div>
+<div class="title">SDRAM Initialization/de-initialization functions<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___f_m_c___l_l.html">FMC Low Layer</a> &raquo; <a class="el" href="group___f_m_c___l_l___private___functions.html">FMC LL Private Functions</a><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___f_m_c___l_l.html">FMC Low Layer</a> &raquo; <a class="el" href="group___f_m_c___l_l___private___functions.html">FMC LL Private Functions</a> &raquo;  &#124; <a class="el" href="group___f_m_c___l_l___p_c_c_a_r_d.html">PCCARD</a> &raquo; <a class="el" href="group___f_m_c___l_l___s_d_r_a_m.html">SDRAM</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Initialization and Configuration functions.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gac31e934f1ffb131dccc62b6fe6844560"><td class="memItemLeft" align="right" valign="top"><a id="gac31e934f1ffb131dccc62b6fe6844560"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>FMC_SDRAM_Init</b> (FMC_SDRAM_TypeDef *Device, <a class="el" href="struct_f_m_c___s_d_r_a_m___init_type_def.html">FMC_SDRAM_InitTypeDef</a> *Init)</td></tr>
+<tr class="memitem:gac31e934f1ffb131dccc62b6fe6844560"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___f_m_c___l_l___s_d_r_a_m___private___functions___group1.html#gac31e934f1ffb131dccc62b6fe6844560">FMC_SDRAM_Init</a> (FMC_SDRAM_TypeDef *Device, <a class="el" href="struct_f_m_c___s_d_r_a_m___init_type_def.html">FMC_SDRAM_InitTypeDef</a> *Init)</td></tr>
+<tr class="memdesc:gac31e934f1ffb131dccc62b6fe6844560"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the FMC_SDRAM device according to the specified control parameters in the <a class="el" href="struct_f_m_c___s_d_r_a_m___init_type_def.html" title="FMC SDRAM Configuration Structure definition.">FMC_SDRAM_InitTypeDef</a>.  <a href="#gac31e934f1ffb131dccc62b6fe6844560">More...</a><br /></td></tr>
 <tr class="separator:gac31e934f1ffb131dccc62b6fe6844560"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7c28889074955caf3b854e8c99dced73"><td class="memItemLeft" align="right" valign="top"><a id="ga7c28889074955caf3b854e8c99dced73"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>FMC_SDRAM_Timing_Init</b> (FMC_SDRAM_TypeDef *Device, <a class="el" href="struct_f_m_c___s_d_r_a_m___timing_type_def.html">FMC_SDRAM_TimingTypeDef</a> *Timing, uint32_t Bank)</td></tr>
+<tr class="memitem:ga7c28889074955caf3b854e8c99dced73"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___f_m_c___l_l___s_d_r_a_m___private___functions___group1.html#ga7c28889074955caf3b854e8c99dced73">FMC_SDRAM_Timing_Init</a> (FMC_SDRAM_TypeDef *Device, <a class="el" href="struct_f_m_c___s_d_r_a_m___timing_type_def.html">FMC_SDRAM_TimingTypeDef</a> *Timing, uint32_t Bank)</td></tr>
+<tr class="memdesc:ga7c28889074955caf3b854e8c99dced73"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the FMC_SDRAM device timing according to the specified parameters in the <a class="el" href="struct_f_m_c___s_d_r_a_m___timing_type_def.html" title="FMC SDRAM Timing parameters structure definition.">FMC_SDRAM_TimingTypeDef</a>.  <a href="#ga7c28889074955caf3b854e8c99dced73">More...</a><br /></td></tr>
 <tr class="separator:ga7c28889074955caf3b854e8c99dced73"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga893cc61d8d10a5f828937665c32ae6a3"><td class="memItemLeft" align="right" valign="top"><a id="ga893cc61d8d10a5f828937665c32ae6a3"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>FMC_SDRAM_DeInit</b> (FMC_SDRAM_TypeDef *Device, uint32_t Bank)</td></tr>
+<tr class="memitem:ga893cc61d8d10a5f828937665c32ae6a3"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___f_m_c___l_l___s_d_r_a_m___private___functions___group1.html#ga893cc61d8d10a5f828937665c32ae6a3">FMC_SDRAM_DeInit</a> (FMC_SDRAM_TypeDef *Device, uint32_t Bank)</td></tr>
+<tr class="memdesc:ga893cc61d8d10a5f828937665c32ae6a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">DeInitializes the FMC_SDRAM peripheral.  <a href="#ga893cc61d8d10a5f828937665c32ae6a3">More...</a><br /></td></tr>
 <tr class="separator:ga893cc61d8d10a5f828937665c32ae6a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>Initialization and Configuration functions. </p>
+<pre class="fragment">  ==============================================================================
+              ##### Initialization and de_initialization functions #####
+  ==============================================================================
+  [..]  
+    This section provides functions allowing to:
+    (+) Initialize and configure the FMC SDRAM interface
+    (+) De-initialize the FMC SDRAM interface 
+    (+) Configure the FMC clock and associated GPIOs</pre> <h2 class="groupheader">Function Documentation</h2>
+<a id="ga893cc61d8d10a5f828937665c32ae6a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga893cc61d8d10a5f828937665c32ae6a3">&#9670;&nbsp;</a></span>FMC_SDRAM_DeInit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef FMC_SDRAM_DeInit </td>
+          <td>(</td>
+          <td class="paramtype">FMC_SDRAM_TypeDef *&#160;</td>
+          <td class="paramname"><em>Device</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Bank</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>DeInitializes the FMC_SDRAM peripheral. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Device</td><td>Pointer to SDRAM device instance </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gac31e934f1ffb131dccc62b6fe6844560"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac31e934f1ffb131dccc62b6fe6844560">&#9670;&nbsp;</a></span>FMC_SDRAM_Init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef FMC_SDRAM_Init </td>
+          <td>(</td>
+          <td class="paramtype">FMC_SDRAM_TypeDef *&#160;</td>
+          <td class="paramname"><em>Device</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_f_m_c___s_d_r_a_m___init_type_def.html">FMC_SDRAM_InitTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>Init</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initializes the FMC_SDRAM device according to the specified control parameters in the <a class="el" href="struct_f_m_c___s_d_r_a_m___init_type_def.html" title="FMC SDRAM Configuration Structure definition.">FMC_SDRAM_InitTypeDef</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Device</td><td>Pointer to SDRAM device instance </td></tr>
+    <tr><td class="paramname">Init</td><td>Pointer to SDRAM Initialization structure</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga7c28889074955caf3b854e8c99dced73"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7c28889074955caf3b854e8c99dced73">&#9670;&nbsp;</a></span>FMC_SDRAM_Timing_Init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef FMC_SDRAM_Timing_Init </td>
+          <td>(</td>
+          <td class="paramtype">FMC_SDRAM_TypeDef *&#160;</td>
+          <td class="paramname"><em>Device</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_f_m_c___s_d_r_a_m___timing_type_def.html">FMC_SDRAM_TimingTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>Timing</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Bank</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initializes the FMC_SDRAM device timing according to the specified parameters in the <a class="el" href="struct_f_m_c___s_d_r_a_m___timing_type_def.html" title="FMC SDRAM Timing parameters structure definition.">FMC_SDRAM_TimingTypeDef</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Device</td><td>Pointer to SDRAM device instance </td></tr>
+    <tr><td class="paramname">Timing</td><td>Pointer to SDRAM Timing structure </td></tr>
+    <tr><td class="paramname">Bank</td><td>SDRAM bank number</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.15"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>STM32F4xx_HAL_Driver: SMARTCARD_Exported_Functions_Group2</title>
+<title>STM32F4xx_HAL_Driver: IO operation functions</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,71 +64,906 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">SMARTCARD_Exported_Functions_Group2<div class="ingroups"><a class="el" href="group___s_m_a_r_t_c_a_r_d___exported___functions.html">SMARTCARD_Exported_Functions</a></div></div>  </div>
+<div class="title">IO operation functions<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___s_m_a_r_t_c_a_r_d.html">SMARTCARD</a> &raquo; <a class="el" href="group___s_m_a_r_t_c_a_r_d___exported___functions.html">SMARTCARD Exported Functions</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>SMARTCARD Transmit and Receive functions.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga4dd0a7c6916ca2423c50f432a38a7328"><td class="memItemLeft" align="right" valign="top"><a id="ga4dd0a7c6916ca2423c50f432a38a7328"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SMARTCARD_Transmit</b> (<a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html">SMARTCARD_HandleTypeDef</a> *hsc, uint8_t *pData, uint16_t Size, uint32_t Timeout)</td></tr>
+<tr class="memitem:ga4dd0a7c6916ca2423c50f432a38a7328"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_m_a_r_t_c_a_r_d___exported___functions___group2.html#ga4dd0a7c6916ca2423c50f432a38a7328">HAL_SMARTCARD_Transmit</a> (<a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html">SMARTCARD_HandleTypeDef</a> *hsc, uint8_t *pData, uint16_t Size, uint32_t Timeout)</td></tr>
+<tr class="memdesc:ga4dd0a7c6916ca2423c50f432a38a7328"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send an amount of data in blocking mode.  <a href="#ga4dd0a7c6916ca2423c50f432a38a7328">More...</a><br /></td></tr>
 <tr class="separator:ga4dd0a7c6916ca2423c50f432a38a7328"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga82240fa2bcafd64a28ffbb1b01893e84"><td class="memItemLeft" align="right" valign="top"><a id="ga82240fa2bcafd64a28ffbb1b01893e84"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SMARTCARD_Receive</b> (<a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html">SMARTCARD_HandleTypeDef</a> *hsc, uint8_t *pData, uint16_t Size, uint32_t Timeout)</td></tr>
+<tr class="memitem:ga82240fa2bcafd64a28ffbb1b01893e84"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_m_a_r_t_c_a_r_d___exported___functions___group2.html#ga82240fa2bcafd64a28ffbb1b01893e84">HAL_SMARTCARD_Receive</a> (<a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html">SMARTCARD_HandleTypeDef</a> *hsc, uint8_t *pData, uint16_t Size, uint32_t Timeout)</td></tr>
+<tr class="memdesc:ga82240fa2bcafd64a28ffbb1b01893e84"><td class="mdescLeft">&#160;</td><td class="mdescRight">Receive an amount of data in blocking mode.  <a href="#ga82240fa2bcafd64a28ffbb1b01893e84">More...</a><br /></td></tr>
 <tr class="separator:ga82240fa2bcafd64a28ffbb1b01893e84"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab671c1bdba9ed83fb08142c4c38caee8"><td class="memItemLeft" align="right" valign="top"><a id="gab671c1bdba9ed83fb08142c4c38caee8"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SMARTCARD_Transmit_IT</b> (<a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html">SMARTCARD_HandleTypeDef</a> *hsc, uint8_t *pData, uint16_t Size)</td></tr>
+<tr class="memitem:gab671c1bdba9ed83fb08142c4c38caee8"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_m_a_r_t_c_a_r_d___exported___functions___group2.html#gab671c1bdba9ed83fb08142c4c38caee8">HAL_SMARTCARD_Transmit_IT</a> (<a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html">SMARTCARD_HandleTypeDef</a> *hsc, uint8_t *pData, uint16_t Size)</td></tr>
+<tr class="memdesc:gab671c1bdba9ed83fb08142c4c38caee8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send an amount of data in non blocking mode.  <a href="#gab671c1bdba9ed83fb08142c4c38caee8">More...</a><br /></td></tr>
 <tr class="separator:gab671c1bdba9ed83fb08142c4c38caee8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga52b04b11f8793a859f2105fd748d75cd"><td class="memItemLeft" align="right" valign="top"><a id="ga52b04b11f8793a859f2105fd748d75cd"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SMARTCARD_Receive_IT</b> (<a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html">SMARTCARD_HandleTypeDef</a> *hsc, uint8_t *pData, uint16_t Size)</td></tr>
+<tr class="memitem:ga52b04b11f8793a859f2105fd748d75cd"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_m_a_r_t_c_a_r_d___exported___functions___group2.html#ga52b04b11f8793a859f2105fd748d75cd">HAL_SMARTCARD_Receive_IT</a> (<a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html">SMARTCARD_HandleTypeDef</a> *hsc, uint8_t *pData, uint16_t Size)</td></tr>
+<tr class="memdesc:ga52b04b11f8793a859f2105fd748d75cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Receive an amount of data in non blocking mode.  <a href="#ga52b04b11f8793a859f2105fd748d75cd">More...</a><br /></td></tr>
 <tr class="separator:ga52b04b11f8793a859f2105fd748d75cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab39a7dd50e44fd5c6cfc6af60bf8a4f5"><td class="memItemLeft" align="right" valign="top"><a id="gab39a7dd50e44fd5c6cfc6af60bf8a4f5"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SMARTCARD_Transmit_DMA</b> (<a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html">SMARTCARD_HandleTypeDef</a> *hsc, uint8_t *pData, uint16_t Size)</td></tr>
+<tr class="memitem:gab39a7dd50e44fd5c6cfc6af60bf8a4f5"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_m_a_r_t_c_a_r_d___exported___functions___group2.html#gab39a7dd50e44fd5c6cfc6af60bf8a4f5">HAL_SMARTCARD_Transmit_DMA</a> (<a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html">SMARTCARD_HandleTypeDef</a> *hsc, uint8_t *pData, uint16_t Size)</td></tr>
+<tr class="memdesc:gab39a7dd50e44fd5c6cfc6af60bf8a4f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send an amount of data in non blocking mode.  <a href="#gab39a7dd50e44fd5c6cfc6af60bf8a4f5">More...</a><br /></td></tr>
 <tr class="separator:gab39a7dd50e44fd5c6cfc6af60bf8a4f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa8506576688d14e1f10f99d8c3f104fa"><td class="memItemLeft" align="right" valign="top"><a id="gaa8506576688d14e1f10f99d8c3f104fa"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SMARTCARD_Receive_DMA</b> (<a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html">SMARTCARD_HandleTypeDef</a> *hsc, uint8_t *pData, uint16_t Size)</td></tr>
+<tr class="memitem:gaa8506576688d14e1f10f99d8c3f104fa"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_m_a_r_t_c_a_r_d___exported___functions___group2.html#gaa8506576688d14e1f10f99d8c3f104fa">HAL_SMARTCARD_Receive_DMA</a> (<a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html">SMARTCARD_HandleTypeDef</a> *hsc, uint8_t *pData, uint16_t Size)</td></tr>
+<tr class="memdesc:gaa8506576688d14e1f10f99d8c3f104fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Receive an amount of data in non blocking mode.  <a href="#gaa8506576688d14e1f10f99d8c3f104fa">More...</a><br /></td></tr>
 <tr class="separator:gaa8506576688d14e1f10f99d8c3f104fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaeea0f651670a74ed70bee0ddbf50586c"><td class="memItemLeft" align="right" valign="top"><a id="gaeea0f651670a74ed70bee0ddbf50586c"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SMARTCARD_Abort</b> (<a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html">SMARTCARD_HandleTypeDef</a> *hsc)</td></tr>
+<tr class="memitem:gaeea0f651670a74ed70bee0ddbf50586c"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_m_a_r_t_c_a_r_d___exported___functions___group2.html#gaeea0f651670a74ed70bee0ddbf50586c">HAL_SMARTCARD_Abort</a> (<a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html">SMARTCARD_HandleTypeDef</a> *hsc)</td></tr>
+<tr class="memdesc:gaeea0f651670a74ed70bee0ddbf50586c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abort ongoing transfers (blocking mode).  <a href="#gaeea0f651670a74ed70bee0ddbf50586c">More...</a><br /></td></tr>
 <tr class="separator:gaeea0f651670a74ed70bee0ddbf50586c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga467d1f890a6b8d33ae3e27790ad3fe1c"><td class="memItemLeft" align="right" valign="top"><a id="ga467d1f890a6b8d33ae3e27790ad3fe1c"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SMARTCARD_AbortTransmit</b> (<a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html">SMARTCARD_HandleTypeDef</a> *hsc)</td></tr>
+<tr class="memitem:ga467d1f890a6b8d33ae3e27790ad3fe1c"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_m_a_r_t_c_a_r_d___exported___functions___group2.html#ga467d1f890a6b8d33ae3e27790ad3fe1c">HAL_SMARTCARD_AbortTransmit</a> (<a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html">SMARTCARD_HandleTypeDef</a> *hsc)</td></tr>
+<tr class="memdesc:ga467d1f890a6b8d33ae3e27790ad3fe1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abort ongoing Transmit transfer (blocking mode).  <a href="#ga467d1f890a6b8d33ae3e27790ad3fe1c">More...</a><br /></td></tr>
 <tr class="separator:ga467d1f890a6b8d33ae3e27790ad3fe1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf5a79569270286271c8dc8240d73467d"><td class="memItemLeft" align="right" valign="top"><a id="gaf5a79569270286271c8dc8240d73467d"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SMARTCARD_AbortReceive</b> (<a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html">SMARTCARD_HandleTypeDef</a> *hsc)</td></tr>
+<tr class="memitem:gaf5a79569270286271c8dc8240d73467d"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_m_a_r_t_c_a_r_d___exported___functions___group2.html#gaf5a79569270286271c8dc8240d73467d">HAL_SMARTCARD_AbortReceive</a> (<a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html">SMARTCARD_HandleTypeDef</a> *hsc)</td></tr>
+<tr class="memdesc:gaf5a79569270286271c8dc8240d73467d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abort ongoing Receive transfer (blocking mode).  <a href="#gaf5a79569270286271c8dc8240d73467d">More...</a><br /></td></tr>
 <tr class="separator:gaf5a79569270286271c8dc8240d73467d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gada6df1cf42731d93e71b37fcac66c432"><td class="memItemLeft" align="right" valign="top"><a id="gada6df1cf42731d93e71b37fcac66c432"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SMARTCARD_Abort_IT</b> (<a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html">SMARTCARD_HandleTypeDef</a> *hsc)</td></tr>
+<tr class="memitem:gada6df1cf42731d93e71b37fcac66c432"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_m_a_r_t_c_a_r_d___exported___functions___group2.html#gada6df1cf42731d93e71b37fcac66c432">HAL_SMARTCARD_Abort_IT</a> (<a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html">SMARTCARD_HandleTypeDef</a> *hsc)</td></tr>
+<tr class="memdesc:gada6df1cf42731d93e71b37fcac66c432"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abort ongoing transfers (Interrupt mode).  <a href="#gada6df1cf42731d93e71b37fcac66c432">More...</a><br /></td></tr>
 <tr class="separator:gada6df1cf42731d93e71b37fcac66c432"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga05490465504d3def049a5ae9001a1cfb"><td class="memItemLeft" align="right" valign="top"><a id="ga05490465504d3def049a5ae9001a1cfb"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SMARTCARD_AbortTransmit_IT</b> (<a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html">SMARTCARD_HandleTypeDef</a> *hsc)</td></tr>
+<tr class="memitem:ga05490465504d3def049a5ae9001a1cfb"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_m_a_r_t_c_a_r_d___exported___functions___group2.html#ga05490465504d3def049a5ae9001a1cfb">HAL_SMARTCARD_AbortTransmit_IT</a> (<a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html">SMARTCARD_HandleTypeDef</a> *hsc)</td></tr>
+<tr class="memdesc:ga05490465504d3def049a5ae9001a1cfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abort ongoing Transmit transfer (Interrupt mode).  <a href="#ga05490465504d3def049a5ae9001a1cfb">More...</a><br /></td></tr>
 <tr class="separator:ga05490465504d3def049a5ae9001a1cfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga09cd893bf3060124f6ed8bfca2289d67"><td class="memItemLeft" align="right" valign="top"><a id="ga09cd893bf3060124f6ed8bfca2289d67"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SMARTCARD_AbortReceive_IT</b> (<a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html">SMARTCARD_HandleTypeDef</a> *hsc)</td></tr>
+<tr class="memitem:ga09cd893bf3060124f6ed8bfca2289d67"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_m_a_r_t_c_a_r_d___exported___functions___group2.html#ga09cd893bf3060124f6ed8bfca2289d67">HAL_SMARTCARD_AbortReceive_IT</a> (<a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html">SMARTCARD_HandleTypeDef</a> *hsc)</td></tr>
+<tr class="memdesc:ga09cd893bf3060124f6ed8bfca2289d67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abort ongoing Receive transfer (Interrupt mode).  <a href="#ga09cd893bf3060124f6ed8bfca2289d67">More...</a><br /></td></tr>
 <tr class="separator:ga09cd893bf3060124f6ed8bfca2289d67"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5c09daa91f4d5f44c9b4c927a1c50b3e"><td class="memItemLeft" align="right" valign="top"><a id="ga5c09daa91f4d5f44c9b4c927a1c50b3e"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SMARTCARD_IRQHandler</b> (<a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html">SMARTCARD_HandleTypeDef</a> *hsc)</td></tr>
+<tr class="memitem:ga5c09daa91f4d5f44c9b4c927a1c50b3e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_m_a_r_t_c_a_r_d___exported___functions___group2.html#ga5c09daa91f4d5f44c9b4c927a1c50b3e">HAL_SMARTCARD_IRQHandler</a> (<a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html">SMARTCARD_HandleTypeDef</a> *hsc)</td></tr>
+<tr class="memdesc:ga5c09daa91f4d5f44c9b4c927a1c50b3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function handles SMARTCARD interrupt request.  <a href="#ga5c09daa91f4d5f44c9b4c927a1c50b3e">More...</a><br /></td></tr>
 <tr class="separator:ga5c09daa91f4d5f44c9b4c927a1c50b3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gafb56eef6e839e909823cc16bf96c845b"><td class="memItemLeft" align="right" valign="top"><a id="gafb56eef6e839e909823cc16bf96c845b"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SMARTCARD_TxCpltCallback</b> (<a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html">SMARTCARD_HandleTypeDef</a> *hsc)</td></tr>
-<tr class="separator:gafb56eef6e839e909823cc16bf96c845b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga955fe3e5402e8a2797af8b605701dde4"><td class="memItemLeft" align="right" valign="top"><a id="ga955fe3e5402e8a2797af8b605701dde4"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SMARTCARD_RxCpltCallback</b> (<a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html">SMARTCARD_HandleTypeDef</a> *hsc)</td></tr>
-<tr class="separator:ga955fe3e5402e8a2797af8b605701dde4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6a5255ea10c1c5c0d3b037ce61d5dc91"><td class="memItemLeft" align="right" valign="top"><a id="ga6a5255ea10c1c5c0d3b037ce61d5dc91"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SMARTCARD_ErrorCallback</b> (<a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html">SMARTCARD_HandleTypeDef</a> *hsc)</td></tr>
-<tr class="separator:ga6a5255ea10c1c5c0d3b037ce61d5dc91"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4f50ae5590ddac4fbd7f5e7683c92de9"><td class="memItemLeft" align="right" valign="top"><a id="ga4f50ae5590ddac4fbd7f5e7683c92de9"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SMARTCARD_AbortCpltCallback</b> (<a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html">SMARTCARD_HandleTypeDef</a> *hsc)</td></tr>
-<tr class="separator:ga4f50ae5590ddac4fbd7f5e7683c92de9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga41f991a8d77220704731ac94f1b19d90"><td class="memItemLeft" align="right" valign="top"><a id="ga41f991a8d77220704731ac94f1b19d90"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SMARTCARD_AbortTransmitCpltCallback</b> (<a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html">SMARTCARD_HandleTypeDef</a> *hsc)</td></tr>
-<tr class="separator:ga41f991a8d77220704731ac94f1b19d90"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4f25998e74a3561627e6a4447f7acc28"><td class="memItemLeft" align="right" valign="top"><a id="ga4f25998e74a3561627e6a4447f7acc28"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SMARTCARD_AbortReceiveCpltCallback</b> (<a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html">SMARTCARD_HandleTypeDef</a> *hsc)</td></tr>
-<tr class="separator:ga4f25998e74a3561627e6a4447f7acc28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4fad9cf7536f846cb1220c407d969c7d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_m_a_r_t_c_a_r_d___exported___functions___group2.html#ga4fad9cf7536f846cb1220c407d969c7d">HAL_SMARTCARD_TxCpltCallback</a> (<a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html">SMARTCARD_HandleTypeDef</a> *hsc)</td></tr>
+<tr class="memdesc:ga4fad9cf7536f846cb1220c407d969c7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tx Transfer completed callbacks.  <a href="#ga4fad9cf7536f846cb1220c407d969c7d">More...</a><br /></td></tr>
+<tr class="separator:ga4fad9cf7536f846cb1220c407d969c7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab436b91731f215fb18ec6106a1505445"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_m_a_r_t_c_a_r_d___exported___functions___group2.html#gab436b91731f215fb18ec6106a1505445">HAL_SMARTCARD_RxCpltCallback</a> (<a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html">SMARTCARD_HandleTypeDef</a> *hsc)</td></tr>
+<tr class="memdesc:gab436b91731f215fb18ec6106a1505445"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rx Transfer completed callbacks.  <a href="#gab436b91731f215fb18ec6106a1505445">More...</a><br /></td></tr>
+<tr class="separator:gab436b91731f215fb18ec6106a1505445"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2eedde32e17719d099b9e3d3fa4da41f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_m_a_r_t_c_a_r_d___exported___functions___group2.html#ga2eedde32e17719d099b9e3d3fa4da41f">HAL_SMARTCARD_ErrorCallback</a> (<a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html">SMARTCARD_HandleTypeDef</a> *hsc)</td></tr>
+<tr class="memdesc:ga2eedde32e17719d099b9e3d3fa4da41f"><td class="mdescLeft">&#160;</td><td class="mdescRight">SMARTCARD error callbacks.  <a href="#ga2eedde32e17719d099b9e3d3fa4da41f">More...</a><br /></td></tr>
+<tr class="separator:ga2eedde32e17719d099b9e3d3fa4da41f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga25c340a78ff29229843d92b28be0195e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_m_a_r_t_c_a_r_d___exported___functions___group2.html#ga25c340a78ff29229843d92b28be0195e">HAL_SMARTCARD_AbortCpltCallback</a> (<a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html">SMARTCARD_HandleTypeDef</a> *hsc)</td></tr>
+<tr class="memdesc:ga25c340a78ff29229843d92b28be0195e"><td class="mdescLeft">&#160;</td><td class="mdescRight">SMARTCARD Abort Complete callback.  <a href="#ga25c340a78ff29229843d92b28be0195e">More...</a><br /></td></tr>
+<tr class="separator:ga25c340a78ff29229843d92b28be0195e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9a4359f36cf75afffbb54e75af59ffff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_m_a_r_t_c_a_r_d___exported___functions___group2.html#ga9a4359f36cf75afffbb54e75af59ffff">HAL_SMARTCARD_AbortTransmitCpltCallback</a> (<a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html">SMARTCARD_HandleTypeDef</a> *hsc)</td></tr>
+<tr class="memdesc:ga9a4359f36cf75afffbb54e75af59ffff"><td class="mdescLeft">&#160;</td><td class="mdescRight">SMARTCARD Abort Transmit Complete callback.  <a href="#ga9a4359f36cf75afffbb54e75af59ffff">More...</a><br /></td></tr>
+<tr class="separator:ga9a4359f36cf75afffbb54e75af59ffff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8fdf555f40ec4a2d9f90b0cc09268828"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_m_a_r_t_c_a_r_d___exported___functions___group2.html#ga8fdf555f40ec4a2d9f90b0cc09268828">HAL_SMARTCARD_AbortReceiveCpltCallback</a> (<a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html">SMARTCARD_HandleTypeDef</a> *hsc)</td></tr>
+<tr class="memdesc:ga8fdf555f40ec4a2d9f90b0cc09268828"><td class="mdescLeft">&#160;</td><td class="mdescRight">SMARTCARD Abort ReceiveComplete callback.  <a href="#ga8fdf555f40ec4a2d9f90b0cc09268828">More...</a><br /></td></tr>
+<tr class="separator:ga8fdf555f40ec4a2d9f90b0cc09268828"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>SMARTCARD Transmit and Receive functions. </p>
+<pre class="fragment"> ===============================================================================
+                      ##### IO operation functions #####
+ ===============================================================================
+ [..]  This subsection provides a set of functions allowing to manage the SMARTCARD data transfers.
+
+ [..]
+    (#) Smartcard is a single wire half duplex communication protocol. 
+    The Smartcard interface is designed to support asynchronous protocol Smartcards as
+    defined in the ISO 7816-3 standard. 
+    (#) The USART should be configured as:
+       (++) 8 bits plus parity: where M=1 and PCE=1 in the USART_CR1 register
+       (++) 1.5 stop bits when transmitting and receiving: where STOP=11 in the USART_CR2 register.
+
+    (#) There are two modes of transfer:
+       (++) Blocking mode: The communication is performed in polling mode. 
+            The HAL status of all data processing is returned by the same function 
+            after finishing transfer.  
+       (++) Non Blocking mode: The communication is performed using Interrupts 
+           or DMA, These APIs return the HAL status.
+           The end of the data processing will be indicated through the 
+           dedicated SMARTCARD IRQ when using Interrupt mode or the DMA IRQ when 
+           using DMA mode.
+           The HAL_SMARTCARD_TxCpltCallback(), HAL_SMARTCARD_RxCpltCallback() user callbacks 
+           will be executed respectively at the end of the Transmit or Receive process
+           The HAL_SMARTCARD_ErrorCallback() user callback will be executed when a communication error is detected
+
+    (#) Blocking mode APIs are :
+        (++) HAL_SMARTCARD_Transmit()
+        (++) HAL_SMARTCARD_Receive() 
+
+    (#) Non Blocking mode APIs with Interrupt are :
+        (++) HAL_SMARTCARD_Transmit_IT()
+        (++) HAL_SMARTCARD_Receive_IT()
+        (++) HAL_SMARTCARD_IRQHandler()
+
+    (#) Non Blocking mode functions with DMA are :
+        (++) HAL_SMARTCARD_Transmit_DMA()
+        (++) HAL_SMARTCARD_Receive_DMA()
+
+    (#) A set of Transfer Complete Callbacks are provided in non Blocking mode:
+        (++) HAL_SMARTCARD_TxCpltCallback()
+        (++) HAL_SMARTCARD_RxCpltCallback()
+        (++) HAL_SMARTCARD_ErrorCallback()</pre> <h2 class="groupheader">Function Documentation</h2>
+<a id="gaeea0f651670a74ed70bee0ddbf50586c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaeea0f651670a74ed70bee0ddbf50586c">&#9670;&nbsp;</a></span>HAL_SMARTCARD_Abort()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_SMARTCARD_Abort </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html">SMARTCARD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hsc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Abort ongoing transfers (blocking mode). </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hsc</td><td>SMARTCARD handle. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>This procedure could be used for aborting any ongoing transfer started in Interrupt or DMA mode. This procedure performs following operations :<ul>
+<li>Disable PPP Interrupts</li>
+<li>Disable the DMA transfer in the peripheral register (if enabled)</li>
+<li>Abort DMA transfer by calling HAL_DMA_Abort (in case of transfer in DMA mode)</li>
+<li>Set handle State to READY </li>
+</ul>
+</dd>
+<dd>
+This procedure is executed in blocking mode : when exiting function, Abort is considered as completed. </dd></dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gada6df1cf42731d93e71b37fcac66c432"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gada6df1cf42731d93e71b37fcac66c432">&#9670;&nbsp;</a></span>HAL_SMARTCARD_Abort_IT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_SMARTCARD_Abort_IT </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html">SMARTCARD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hsc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Abort ongoing transfers (Interrupt mode). </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hsc</td><td>SMARTCARD handle. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>This procedure could be used for aborting any ongoing transfer started in Interrupt or DMA mode. This procedure performs following operations :<ul>
+<li>Disable PPP Interrupts</li>
+<li>Disable the DMA transfer in the peripheral register (if enabled)</li>
+<li>Abort DMA transfer by calling HAL_DMA_Abort_IT (in case of transfer in DMA mode)</li>
+<li>Set handle State to READY</li>
+<li>At abort completion, call user abort complete callback </li>
+</ul>
+</dd>
+<dd>
+This procedure is executed in Interrupt mode, meaning that abort procedure could be considered as completed only when user abort complete callback is executed (not when exiting function). </dd></dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga25c340a78ff29229843d92b28be0195e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga25c340a78ff29229843d92b28be0195e">&#9670;&nbsp;</a></span>HAL_SMARTCARD_AbortCpltCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_SMARTCARD_AbortCpltCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html">SMARTCARD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hsc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>SMARTCARD Abort Complete callback. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hsc</td><td>SMARTCARD handle. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaf5a79569270286271c8dc8240d73467d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf5a79569270286271c8dc8240d73467d">&#9670;&nbsp;</a></span>HAL_SMARTCARD_AbortReceive()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_SMARTCARD_AbortReceive </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html">SMARTCARD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hsc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Abort ongoing Receive transfer (blocking mode). </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hsc</td><td>SMARTCARD handle. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>This procedure could be used for aborting any ongoing transfer started in Interrupt or DMA mode. This procedure performs following operations :<ul>
+<li>Disable PPP Interrupts</li>
+<li>Disable the DMA transfer in the peripheral register (if enabled)</li>
+<li>Abort DMA transfer by calling HAL_DMA_Abort (in case of transfer in DMA mode)</li>
+<li>Set handle State to READY </li>
+</ul>
+</dd>
+<dd>
+This procedure is executed in blocking mode : when exiting function, Abort is considered as completed. </dd></dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga09cd893bf3060124f6ed8bfca2289d67"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga09cd893bf3060124f6ed8bfca2289d67">&#9670;&nbsp;</a></span>HAL_SMARTCARD_AbortReceive_IT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_SMARTCARD_AbortReceive_IT </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html">SMARTCARD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hsc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Abort ongoing Receive transfer (Interrupt mode). </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hsc</td><td>SMARTCARD handle. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>This procedure could be used for aborting any ongoing transfer started in Interrupt or DMA mode. This procedure performs following operations :<ul>
+<li>Disable PPP Interrupts</li>
+<li>Disable the DMA transfer in the peripheral register (if enabled)</li>
+<li>Abort DMA transfer by calling HAL_DMA_Abort_IT (in case of transfer in DMA mode)</li>
+<li>Set handle State to READY</li>
+<li>At abort completion, call user abort complete callback </li>
+</ul>
+</dd>
+<dd>
+This procedure is executed in Interrupt mode, meaning that abort procedure could be considered as completed only when user abort complete callback is executed (not when exiting function). </dd></dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga8fdf555f40ec4a2d9f90b0cc09268828"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8fdf555f40ec4a2d9f90b0cc09268828">&#9670;&nbsp;</a></span>HAL_SMARTCARD_AbortReceiveCpltCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_SMARTCARD_AbortReceiveCpltCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html">SMARTCARD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hsc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>SMARTCARD Abort ReceiveComplete callback. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hsc</td><td>SMARTCARD handle. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga467d1f890a6b8d33ae3e27790ad3fe1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga467d1f890a6b8d33ae3e27790ad3fe1c">&#9670;&nbsp;</a></span>HAL_SMARTCARD_AbortTransmit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_SMARTCARD_AbortTransmit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html">SMARTCARD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hsc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Abort ongoing Transmit transfer (blocking mode). </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hsc</td><td>SMARTCARD handle. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>This procedure could be used for aborting any ongoing transfer started in Interrupt or DMA mode. This procedure performs following operations :<ul>
+<li>Disable PPP Interrupts</li>
+<li>Disable the DMA transfer in the peripheral register (if enabled)</li>
+<li>Abort DMA transfer by calling HAL_DMA_Abort (in case of transfer in DMA mode)</li>
+<li>Set handle State to READY </li>
+</ul>
+</dd>
+<dd>
+This procedure is executed in blocking mode : when exiting function, Abort is considered as completed. </dd></dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga05490465504d3def049a5ae9001a1cfb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga05490465504d3def049a5ae9001a1cfb">&#9670;&nbsp;</a></span>HAL_SMARTCARD_AbortTransmit_IT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_SMARTCARD_AbortTransmit_IT </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html">SMARTCARD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hsc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Abort ongoing Transmit transfer (Interrupt mode). </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hsc</td><td>SMARTCARD handle. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>This procedure could be used for aborting any ongoing transfer started in Interrupt or DMA mode. This procedure performs following operations :<ul>
+<li>Disable PPP Interrupts</li>
+<li>Disable the DMA transfer in the peripheral register (if enabled)</li>
+<li>Abort DMA transfer by calling HAL_DMA_Abort_IT (in case of transfer in DMA mode)</li>
+<li>Set handle State to READY</li>
+<li>At abort completion, call user abort complete callback </li>
+</ul>
+</dd>
+<dd>
+This procedure is executed in Interrupt mode, meaning that abort procedure could be considered as completed only when user abort complete callback is executed (not when exiting function). </dd></dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga9a4359f36cf75afffbb54e75af59ffff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9a4359f36cf75afffbb54e75af59ffff">&#9670;&nbsp;</a></span>HAL_SMARTCARD_AbortTransmitCpltCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_SMARTCARD_AbortTransmitCpltCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html">SMARTCARD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hsc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>SMARTCARD Abort Transmit Complete callback. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hsc</td><td>SMARTCARD handle. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga2eedde32e17719d099b9e3d3fa4da41f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2eedde32e17719d099b9e3d3fa4da41f">&#9670;&nbsp;</a></span>HAL_SMARTCARD_ErrorCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_SMARTCARD_ErrorCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html">SMARTCARD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hsc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>SMARTCARD error callbacks. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hsc</td><td>pointer to a <a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html" title="SMARTCARD handle Structure definition.">SMARTCARD_HandleTypeDef</a> structure that contains the configuration information for SMARTCARD module. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga5c09daa91f4d5f44c9b4c927a1c50b3e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5c09daa91f4d5f44c9b4c927a1c50b3e">&#9670;&nbsp;</a></span>HAL_SMARTCARD_IRQHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HAL_SMARTCARD_IRQHandler </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html">SMARTCARD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hsc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function handles SMARTCARD interrupt request. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hsc</td><td>pointer to a <a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html" title="SMARTCARD handle Structure definition.">SMARTCARD_HandleTypeDef</a> structure that contains the configuration information for SMARTCARD module. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga82240fa2bcafd64a28ffbb1b01893e84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga82240fa2bcafd64a28ffbb1b01893e84">&#9670;&nbsp;</a></span>HAL_SMARTCARD_Receive()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_SMARTCARD_Receive </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html">SMARTCARD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hsc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>Size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Timeout</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Receive an amount of data in blocking mode. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hsc</td><td>pointer to a <a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html" title="SMARTCARD handle Structure definition.">SMARTCARD_HandleTypeDef</a> structure that contains the configuration information for SMARTCARD module. </td></tr>
+    <tr><td class="paramname">pData</td><td>pointer to data buffer </td></tr>
+    <tr><td class="paramname">Size</td><td>amount of data to be received </td></tr>
+    <tr><td class="paramname">Timeout</td><td>Timeout duration</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaa8506576688d14e1f10f99d8c3f104fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa8506576688d14e1f10f99d8c3f104fa">&#9670;&nbsp;</a></span>HAL_SMARTCARD_Receive_DMA()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_SMARTCARD_Receive_DMA </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html">SMARTCARD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hsc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>Size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Receive an amount of data in non blocking mode. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hsc</td><td>pointer to a <a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html" title="SMARTCARD handle Structure definition.">SMARTCARD_HandleTypeDef</a> structure that contains the configuration information for SMARTCARD module. </td></tr>
+    <tr><td class="paramname">pData</td><td>pointer to data buffer </td></tr>
+    <tr><td class="paramname">Size</td><td>amount of data to be received </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>When the SMARTCARD parity is enabled (PCE = 1) the data received contain the parity bit.s </dd></dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga52b04b11f8793a859f2105fd748d75cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga52b04b11f8793a859f2105fd748d75cd">&#9670;&nbsp;</a></span>HAL_SMARTCARD_Receive_IT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_SMARTCARD_Receive_IT </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html">SMARTCARD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hsc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>Size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Receive an amount of data in non blocking mode. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hsc</td><td>pointer to a <a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html" title="SMARTCARD handle Structure definition.">SMARTCARD_HandleTypeDef</a> structure that contains the configuration information for SMARTCARD module. </td></tr>
+    <tr><td class="paramname">pData</td><td>pointer to data buffer </td></tr>
+    <tr><td class="paramname">Size</td><td>amount of data to be received </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gab436b91731f215fb18ec6106a1505445"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab436b91731f215fb18ec6106a1505445">&#9670;&nbsp;</a></span>HAL_SMARTCARD_RxCpltCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_SMARTCARD_RxCpltCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html">SMARTCARD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hsc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Rx Transfer completed callbacks. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hsc</td><td>pointer to a <a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html" title="SMARTCARD handle Structure definition.">SMARTCARD_HandleTypeDef</a> structure that contains the configuration information for SMARTCARD module. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga4dd0a7c6916ca2423c50f432a38a7328"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4dd0a7c6916ca2423c50f432a38a7328">&#9670;&nbsp;</a></span>HAL_SMARTCARD_Transmit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_SMARTCARD_Transmit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html">SMARTCARD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hsc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>Size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Timeout</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Send an amount of data in blocking mode. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hsc</td><td>pointer to a <a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html" title="SMARTCARD handle Structure definition.">SMARTCARD_HandleTypeDef</a> structure that contains the configuration information for SMARTCARD module. </td></tr>
+    <tr><td class="paramname">pData</td><td>pointer to data buffer </td></tr>
+    <tr><td class="paramname">Size</td><td>amount of data to be sent </td></tr>
+    <tr><td class="paramname">Timeout</td><td>Timeout duration </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gab39a7dd50e44fd5c6cfc6af60bf8a4f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab39a7dd50e44fd5c6cfc6af60bf8a4f5">&#9670;&nbsp;</a></span>HAL_SMARTCARD_Transmit_DMA()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_SMARTCARD_Transmit_DMA </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html">SMARTCARD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hsc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>Size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Send an amount of data in non blocking mode. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hsc</td><td>pointer to a <a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html" title="SMARTCARD handle Structure definition.">SMARTCARD_HandleTypeDef</a> structure that contains the configuration information for SMARTCARD module. </td></tr>
+    <tr><td class="paramname">pData</td><td>pointer to data buffer </td></tr>
+    <tr><td class="paramname">Size</td><td>amount of data to be sent </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gab671c1bdba9ed83fb08142c4c38caee8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab671c1bdba9ed83fb08142c4c38caee8">&#9670;&nbsp;</a></span>HAL_SMARTCARD_Transmit_IT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_SMARTCARD_Transmit_IT </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html">SMARTCARD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hsc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>Size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Send an amount of data in non blocking mode. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hsc</td><td>pointer to a <a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html" title="SMARTCARD handle Structure definition.">SMARTCARD_HandleTypeDef</a> structure that contains the configuration information for SMARTCARD module. </td></tr>
+    <tr><td class="paramname">pData</td><td>pointer to data buffer </td></tr>
+    <tr><td class="paramname">Size</td><td>amount of data to be sent </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga4fad9cf7536f846cb1220c407d969c7d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4fad9cf7536f846cb1220c407d969c7d">&#9670;&nbsp;</a></span>HAL_SMARTCARD_TxCpltCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_SMARTCARD_TxCpltCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html">SMARTCARD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hsc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Tx Transfer completed callbacks. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hsc</td><td>pointer to a <a class="el" href="struct_s_m_a_r_t_c_a_r_d___handle_type_def.html" title="SMARTCARD handle Structure definition.">SMARTCARD_HandleTypeDef</a> structure that contains the configuration information for SMARTCARD module. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

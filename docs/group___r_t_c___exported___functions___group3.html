@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.15"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>STM32F4xx_HAL_Driver: RTC_Exported_Functions_Group3</title>
+<title>STM32F4xx_HAL_Driver: RTC Alarm functions</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,35 +64,371 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">RTC_Exported_Functions_Group3<div class="ingroups"><a class="el" href="group___r_t_c___exported___functions.html">RTC_Exported_Functions</a></div></div>  </div>
+<div class="title">RTC Alarm functions<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___r_t_c.html">RTC</a> &raquo; <a class="el" href="group___r_t_c___exported___functions.html">RTC Exported Functions</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>RTC Alarm functions.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gafd78015b93b16dcb9e41a4655a7ea972"><td class="memItemLeft" align="right" valign="top"><a id="gafd78015b93b16dcb9e41a4655a7ea972"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_RTC_SetAlarm</b> (<a class="el" href="struct_r_t_c___handle_type_def.html">RTC_HandleTypeDef</a> *hrtc, <a class="el" href="struct_r_t_c___alarm_type_def.html">RTC_AlarmTypeDef</a> *sAlarm, uint32_t Format)</td></tr>
+<tr class="memitem:gafd78015b93b16dcb9e41a4655a7ea972"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___r_t_c___exported___functions___group3.html#gafd78015b93b16dcb9e41a4655a7ea972">HAL_RTC_SetAlarm</a> (<a class="el" href="struct_r_t_c___handle_type_def.html">RTC_HandleTypeDef</a> *hrtc, <a class="el" href="struct_r_t_c___alarm_type_def.html">RTC_AlarmTypeDef</a> *sAlarm, uint32_t Format)</td></tr>
+<tr class="memdesc:gafd78015b93b16dcb9e41a4655a7ea972"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the specified RTC Alarm.  <a href="#gafd78015b93b16dcb9e41a4655a7ea972">More...</a><br /></td></tr>
 <tr class="separator:gafd78015b93b16dcb9e41a4655a7ea972"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab66a7fec05e9d9374de95d5f61e16c16"><td class="memItemLeft" align="right" valign="top"><a id="gab66a7fec05e9d9374de95d5f61e16c16"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_RTC_SetAlarm_IT</b> (<a class="el" href="struct_r_t_c___handle_type_def.html">RTC_HandleTypeDef</a> *hrtc, <a class="el" href="struct_r_t_c___alarm_type_def.html">RTC_AlarmTypeDef</a> *sAlarm, uint32_t Format)</td></tr>
+<tr class="memitem:gab66a7fec05e9d9374de95d5f61e16c16"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___r_t_c___exported___functions___group3.html#gab66a7fec05e9d9374de95d5f61e16c16">HAL_RTC_SetAlarm_IT</a> (<a class="el" href="struct_r_t_c___handle_type_def.html">RTC_HandleTypeDef</a> *hrtc, <a class="el" href="struct_r_t_c___alarm_type_def.html">RTC_AlarmTypeDef</a> *sAlarm, uint32_t Format)</td></tr>
+<tr class="memdesc:gab66a7fec05e9d9374de95d5f61e16c16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the specified RTC Alarm with Interrupt.  <a href="#gab66a7fec05e9d9374de95d5f61e16c16">More...</a><br /></td></tr>
 <tr class="separator:gab66a7fec05e9d9374de95d5f61e16c16"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga186d852f8aee8a4d0dfeec778be35482"><td class="memItemLeft" align="right" valign="top"><a id="ga186d852f8aee8a4d0dfeec778be35482"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_RTC_DeactivateAlarm</b> (<a class="el" href="struct_r_t_c___handle_type_def.html">RTC_HandleTypeDef</a> *hrtc, uint32_t Alarm)</td></tr>
+<tr class="memitem:ga186d852f8aee8a4d0dfeec778be35482"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___r_t_c___exported___functions___group3.html#ga186d852f8aee8a4d0dfeec778be35482">HAL_RTC_DeactivateAlarm</a> (<a class="el" href="struct_r_t_c___handle_type_def.html">RTC_HandleTypeDef</a> *hrtc, uint32_t Alarm)</td></tr>
+<tr class="memdesc:ga186d852f8aee8a4d0dfeec778be35482"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deactivate the specified RTC Alarm.  <a href="#ga186d852f8aee8a4d0dfeec778be35482">More...</a><br /></td></tr>
 <tr class="separator:ga186d852f8aee8a4d0dfeec778be35482"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4786b652ffee2d59da2c65dd78646405"><td class="memItemLeft" align="right" valign="top"><a id="ga4786b652ffee2d59da2c65dd78646405"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_RTC_GetAlarm</b> (<a class="el" href="struct_r_t_c___handle_type_def.html">RTC_HandleTypeDef</a> *hrtc, <a class="el" href="struct_r_t_c___alarm_type_def.html">RTC_AlarmTypeDef</a> *sAlarm, uint32_t Alarm, uint32_t Format)</td></tr>
+<tr class="memitem:ga4786b652ffee2d59da2c65dd78646405"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___r_t_c___exported___functions___group3.html#ga4786b652ffee2d59da2c65dd78646405">HAL_RTC_GetAlarm</a> (<a class="el" href="struct_r_t_c___handle_type_def.html">RTC_HandleTypeDef</a> *hrtc, <a class="el" href="struct_r_t_c___alarm_type_def.html">RTC_AlarmTypeDef</a> *sAlarm, uint32_t Alarm, uint32_t Format)</td></tr>
+<tr class="memdesc:ga4786b652ffee2d59da2c65dd78646405"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the RTC Alarm value and masks.  <a href="#ga4786b652ffee2d59da2c65dd78646405">More...</a><br /></td></tr>
 <tr class="separator:ga4786b652ffee2d59da2c65dd78646405"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac185f2ce34fe566418d0978a48e0c199"><td class="memItemLeft" align="right" valign="top"><a id="gac185f2ce34fe566418d0978a48e0c199"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_RTC_AlarmIRQHandler</b> (<a class="el" href="struct_r_t_c___handle_type_def.html">RTC_HandleTypeDef</a> *hrtc)</td></tr>
+<tr class="memitem:gac185f2ce34fe566418d0978a48e0c199"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___r_t_c___exported___functions___group3.html#gac185f2ce34fe566418d0978a48e0c199">HAL_RTC_AlarmIRQHandler</a> (<a class="el" href="struct_r_t_c___handle_type_def.html">RTC_HandleTypeDef</a> *hrtc)</td></tr>
+<tr class="memdesc:gac185f2ce34fe566418d0978a48e0c199"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function handles Alarm interrupt request.  <a href="#gac185f2ce34fe566418d0978a48e0c199">More...</a><br /></td></tr>
 <tr class="separator:gac185f2ce34fe566418d0978a48e0c199"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaedc27fe412f45d999d74a0b98dce4d09"><td class="memItemLeft" align="right" valign="top"><a id="gaedc27fe412f45d999d74a0b98dce4d09"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_RTC_PollForAlarmAEvent</b> (<a class="el" href="struct_r_t_c___handle_type_def.html">RTC_HandleTypeDef</a> *hrtc, uint32_t Timeout)</td></tr>
+<tr class="memitem:gaedc27fe412f45d999d74a0b98dce4d09"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___r_t_c___exported___functions___group3.html#gaedc27fe412f45d999d74a0b98dce4d09">HAL_RTC_PollForAlarmAEvent</a> (<a class="el" href="struct_r_t_c___handle_type_def.html">RTC_HandleTypeDef</a> *hrtc, uint32_t Timeout)</td></tr>
+<tr class="memdesc:gaedc27fe412f45d999d74a0b98dce4d09"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function handles AlarmA Polling request.  <a href="#gaedc27fe412f45d999d74a0b98dce4d09">More...</a><br /></td></tr>
 <tr class="separator:gaedc27fe412f45d999d74a0b98dce4d09"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga11aeff83fd498cddbed3bcddcf017e0a"><td class="memItemLeft" align="right" valign="top"><a id="ga11aeff83fd498cddbed3bcddcf017e0a"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_RTC_AlarmAEventCallback</b> (<a class="el" href="struct_r_t_c___handle_type_def.html">RTC_HandleTypeDef</a> *hrtc)</td></tr>
-<tr class="separator:ga11aeff83fd498cddbed3bcddcf017e0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0e7ede6f1d11739aff62b28541e33c66"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___r_t_c___exported___functions___group3.html#ga0e7ede6f1d11739aff62b28541e33c66">HAL_RTC_AlarmAEventCallback</a> (<a class="el" href="struct_r_t_c___handle_type_def.html">RTC_HandleTypeDef</a> *hrtc)</td></tr>
+<tr class="memdesc:ga0e7ede6f1d11739aff62b28541e33c66"><td class="mdescLeft">&#160;</td><td class="mdescRight">Alarm A callback.  <a href="#ga0e7ede6f1d11739aff62b28541e33c66">More...</a><br /></td></tr>
+<tr class="separator:ga0e7ede6f1d11739aff62b28541e33c66"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>RTC Alarm functions. </p>
+<pre class="fragment"> ===============================================================================
+                 ##### RTC Alarm functions #####
+ ===============================================================================  
+ 
+ [..] This section provides functions allowing to configure Alarm feature</pre> <h2 class="groupheader">Function Documentation</h2>
+<a id="ga0e7ede6f1d11739aff62b28541e33c66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0e7ede6f1d11739aff62b28541e33c66">&#9670;&nbsp;</a></span>HAL_RTC_AlarmAEventCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_RTC_AlarmAEventCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_r_t_c___handle_type_def.html">RTC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hrtc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Alarm A callback. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hrtc</td><td>pointer to a <a class="el" href="struct_r_t_c___handle_type_def.html" title="RTC Handle Structure definition.">RTC_HandleTypeDef</a> structure that contains the configuration information for RTC. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gac185f2ce34fe566418d0978a48e0c199"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac185f2ce34fe566418d0978a48e0c199">&#9670;&nbsp;</a></span>HAL_RTC_AlarmIRQHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HAL_RTC_AlarmIRQHandler </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_r_t_c___handle_type_def.html">RTC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hrtc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function handles Alarm interrupt request. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hrtc</td><td>pointer to a <a class="el" href="struct_r_t_c___handle_type_def.html" title="RTC Handle Structure definition.">RTC_HandleTypeDef</a> structure that contains the configuration information for RTC. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga186d852f8aee8a4d0dfeec778be35482"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga186d852f8aee8a4d0dfeec778be35482">&#9670;&nbsp;</a></span>HAL_RTC_DeactivateAlarm()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_RTC_DeactivateAlarm </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_r_t_c___handle_type_def.html">RTC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hrtc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Alarm</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Deactivate the specified RTC Alarm. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hrtc</td><td>pointer to a <a class="el" href="struct_r_t_c___handle_type_def.html" title="RTC Handle Structure definition.">RTC_HandleTypeDef</a> structure that contains the configuration information for RTC. </td></tr>
+    <tr><td class="paramname">Alarm</td><td>Specifies the Alarm. This parameter can be one of the following values: <ul>
+<li>RTC_ALARM_A: AlarmA </li>
+<li>RTC_ALARM_B: AlarmB </li>
+</ul>
+</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga4786b652ffee2d59da2c65dd78646405"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4786b652ffee2d59da2c65dd78646405">&#9670;&nbsp;</a></span>HAL_RTC_GetAlarm()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_RTC_GetAlarm </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_r_t_c___handle_type_def.html">RTC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hrtc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_r_t_c___alarm_type_def.html">RTC_AlarmTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>sAlarm</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Alarm</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Format</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the RTC Alarm value and masks. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hrtc</td><td>pointer to a <a class="el" href="struct_r_t_c___handle_type_def.html" title="RTC Handle Structure definition.">RTC_HandleTypeDef</a> structure that contains the configuration information for RTC. </td></tr>
+    <tr><td class="paramname">sAlarm</td><td>Pointer to Date structure </td></tr>
+    <tr><td class="paramname">Alarm</td><td>Specifies the Alarm. This parameter can be one of the following values: <ul>
+<li>RTC_ALARM_A: AlarmA </li>
+<li>RTC_ALARM_B: AlarmB</li>
+</ul>
+</td></tr>
+    <tr><td class="paramname">Format</td><td>Specifies the format of the entered parameters. This parameter can be one of the following values: <ul>
+<li>RTC_FORMAT_BIN: Binary data format </li>
+<li>RTC_FORMAT_BCD: BCD data format </li>
+</ul>
+</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaedc27fe412f45d999d74a0b98dce4d09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaedc27fe412f45d999d74a0b98dce4d09">&#9670;&nbsp;</a></span>HAL_RTC_PollForAlarmAEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_RTC_PollForAlarmAEvent </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_r_t_c___handle_type_def.html">RTC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hrtc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Timeout</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function handles AlarmA Polling request. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hrtc</td><td>pointer to a <a class="el" href="struct_r_t_c___handle_type_def.html" title="RTC Handle Structure definition.">RTC_HandleTypeDef</a> structure that contains the configuration information for RTC. </td></tr>
+    <tr><td class="paramname">Timeout</td><td>Timeout duration </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gafd78015b93b16dcb9e41a4655a7ea972"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gafd78015b93b16dcb9e41a4655a7ea972">&#9670;&nbsp;</a></span>HAL_RTC_SetAlarm()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_RTC_SetAlarm </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_r_t_c___handle_type_def.html">RTC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hrtc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_r_t_c___alarm_type_def.html">RTC_AlarmTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>sAlarm</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Format</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the specified RTC Alarm. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hrtc</td><td>pointer to a <a class="el" href="struct_r_t_c___handle_type_def.html" title="RTC Handle Structure definition.">RTC_HandleTypeDef</a> structure that contains the configuration information for RTC. </td></tr>
+    <tr><td class="paramname">sAlarm</td><td>Pointer to Alarm structure </td></tr>
+    <tr><td class="paramname">Format</td><td>Specifies the format of the entered parameters. This parameter can be one of the following values: <ul>
+<li>RTC_FORMAT_BIN: Binary data format </li>
+<li>RTC_FORMAT_BCD: BCD data format </li>
+</ul>
+</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gab66a7fec05e9d9374de95d5f61e16c16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab66a7fec05e9d9374de95d5f61e16c16">&#9670;&nbsp;</a></span>HAL_RTC_SetAlarm_IT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_RTC_SetAlarm_IT </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_r_t_c___handle_type_def.html">RTC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hrtc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_r_t_c___alarm_type_def.html">RTC_AlarmTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>sAlarm</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Format</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the specified RTC Alarm with Interrupt. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hrtc</td><td>pointer to a <a class="el" href="struct_r_t_c___handle_type_def.html" title="RTC Handle Structure definition.">RTC_HandleTypeDef</a> structure that contains the configuration information for RTC. </td></tr>
+    <tr><td class="paramname">sAlarm</td><td>Pointer to Alarm structure </td></tr>
+    <tr><td class="paramname">Format</td><td>Specifies the format of the entered parameters. This parameter can be one of the following values: <ul>
+<li>RTC_FORMAT_BIN: Binary data format </li>
+<li>RTC_FORMAT_BCD: BCD data format </li>
+</ul>
+</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

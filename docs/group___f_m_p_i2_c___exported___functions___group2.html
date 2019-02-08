@@ -64,92 +64,1671 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">Input and Output operation functions<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___f_m_p_i2_c.html">FMPI2C</a> &raquo; <a class="el" href="group___f_m_p_i2_c___exported___functions.html">FMPI2C_Exported_Functions</a></div></div>  </div>
+<div class="title">Input and Output operation functions<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___f_m_p_i2_c.html">FMPI2C</a> &raquo; <a class="el" href="group___f_m_p_i2_c___exported___functions.html">FMPI2C Exported Functions</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Data transfers functions.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gabffc2c9ffb5da14713e8f5e9a6c7150b"><td class="memItemLeft" align="right" valign="top"><a id="gabffc2c9ffb5da14713e8f5e9a6c7150b"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_FMPI2C_Master_Transmit</b> (<a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *hfmpi2c, uint16_t DevAddress, uint8_t *pData, uint16_t Size, uint32_t Timeout)</td></tr>
+<tr class="memitem:gabffc2c9ffb5da14713e8f5e9a6c7150b"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___f_m_p_i2_c___exported___functions___group2.html#gabffc2c9ffb5da14713e8f5e9a6c7150b">HAL_FMPI2C_Master_Transmit</a> (<a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *hfmpi2c, uint16_t DevAddress, uint8_t *pData, uint16_t Size, uint32_t Timeout)</td></tr>
+<tr class="memdesc:gabffc2c9ffb5da14713e8f5e9a6c7150b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transmits in master mode an amount of data in blocking mode.  <a href="#gabffc2c9ffb5da14713e8f5e9a6c7150b">More...</a><br /></td></tr>
 <tr class="separator:gabffc2c9ffb5da14713e8f5e9a6c7150b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gabe234acb39cc2da5584fe568f5c795cb"><td class="memItemLeft" align="right" valign="top"><a id="gabe234acb39cc2da5584fe568f5c795cb"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_FMPI2C_Master_Receive</b> (<a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *hfmpi2c, uint16_t DevAddress, uint8_t *pData, uint16_t Size, uint32_t Timeout)</td></tr>
+<tr class="memitem:gabe234acb39cc2da5584fe568f5c795cb"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___f_m_p_i2_c___exported___functions___group2.html#gabe234acb39cc2da5584fe568f5c795cb">HAL_FMPI2C_Master_Receive</a> (<a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *hfmpi2c, uint16_t DevAddress, uint8_t *pData, uint16_t Size, uint32_t Timeout)</td></tr>
+<tr class="memdesc:gabe234acb39cc2da5584fe568f5c795cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Receives in master mode an amount of data in blocking mode.  <a href="#gabe234acb39cc2da5584fe568f5c795cb">More...</a><br /></td></tr>
 <tr class="separator:gabe234acb39cc2da5584fe568f5c795cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac15c73eadff3908deb9036917ba49683"><td class="memItemLeft" align="right" valign="top"><a id="gac15c73eadff3908deb9036917ba49683"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_FMPI2C_Slave_Transmit</b> (<a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *hfmpi2c, uint8_t *pData, uint16_t Size, uint32_t Timeout)</td></tr>
+<tr class="memitem:gac15c73eadff3908deb9036917ba49683"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___f_m_p_i2_c___exported___functions___group2.html#gac15c73eadff3908deb9036917ba49683">HAL_FMPI2C_Slave_Transmit</a> (<a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *hfmpi2c, uint8_t *pData, uint16_t Size, uint32_t Timeout)</td></tr>
+<tr class="memdesc:gac15c73eadff3908deb9036917ba49683"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transmits in slave mode an amount of data in blocking mode.  <a href="#gac15c73eadff3908deb9036917ba49683">More...</a><br /></td></tr>
 <tr class="separator:gac15c73eadff3908deb9036917ba49683"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2020255c63836690442f681a4dd2d4da"><td class="memItemLeft" align="right" valign="top"><a id="ga2020255c63836690442f681a4dd2d4da"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_FMPI2C_Slave_Receive</b> (<a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *hfmpi2c, uint8_t *pData, uint16_t Size, uint32_t Timeout)</td></tr>
+<tr class="memitem:ga2020255c63836690442f681a4dd2d4da"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___f_m_p_i2_c___exported___functions___group2.html#ga2020255c63836690442f681a4dd2d4da">HAL_FMPI2C_Slave_Receive</a> (<a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *hfmpi2c, uint8_t *pData, uint16_t Size, uint32_t Timeout)</td></tr>
+<tr class="memdesc:ga2020255c63836690442f681a4dd2d4da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Receive in slave mode an amount of data in blocking mode.  <a href="#ga2020255c63836690442f681a4dd2d4da">More...</a><br /></td></tr>
 <tr class="separator:ga2020255c63836690442f681a4dd2d4da"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf5920210f7907cde988edfc5e45a0064"><td class="memItemLeft" align="right" valign="top"><a id="gaf5920210f7907cde988edfc5e45a0064"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_FMPI2C_Mem_Write</b> (<a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *hfmpi2c, uint16_t DevAddress, uint16_t MemAddress, uint16_t MemAddSize, uint8_t *pData, uint16_t Size, uint32_t Timeout)</td></tr>
+<tr class="memitem:gaf5920210f7907cde988edfc5e45a0064"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___f_m_p_i2_c___exported___functions___group2.html#gaf5920210f7907cde988edfc5e45a0064">HAL_FMPI2C_Mem_Write</a> (<a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *hfmpi2c, uint16_t DevAddress, uint16_t MemAddress, uint16_t MemAddSize, uint8_t *pData, uint16_t Size, uint32_t Timeout)</td></tr>
+<tr class="memdesc:gaf5920210f7907cde988edfc5e45a0064"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write an amount of data in blocking mode to a specific memory address.  <a href="#gaf5920210f7907cde988edfc5e45a0064">More...</a><br /></td></tr>
 <tr class="separator:gaf5920210f7907cde988edfc5e45a0064"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga391b70474113fe3dc5f8736b15a1a2be"><td class="memItemLeft" align="right" valign="top"><a id="ga391b70474113fe3dc5f8736b15a1a2be"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_FMPI2C_Mem_Read</b> (<a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *hfmpi2c, uint16_t DevAddress, uint16_t MemAddress, uint16_t MemAddSize, uint8_t *pData, uint16_t Size, uint32_t Timeout)</td></tr>
+<tr class="memitem:ga391b70474113fe3dc5f8736b15a1a2be"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___f_m_p_i2_c___exported___functions___group2.html#ga391b70474113fe3dc5f8736b15a1a2be">HAL_FMPI2C_Mem_Read</a> (<a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *hfmpi2c, uint16_t DevAddress, uint16_t MemAddress, uint16_t MemAddSize, uint8_t *pData, uint16_t Size, uint32_t Timeout)</td></tr>
+<tr class="memdesc:ga391b70474113fe3dc5f8736b15a1a2be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read an amount of data in blocking mode from a specific memory address.  <a href="#ga391b70474113fe3dc5f8736b15a1a2be">More...</a><br /></td></tr>
 <tr class="separator:ga391b70474113fe3dc5f8736b15a1a2be"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2ab4bca5593cccd1e0b2c5d6b1cc3648"><td class="memItemLeft" align="right" valign="top"><a id="ga2ab4bca5593cccd1e0b2c5d6b1cc3648"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_FMPI2C_IsDeviceReady</b> (<a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *hfmpi2c, uint16_t DevAddress, uint32_t Trials, uint32_t Timeout)</td></tr>
+<tr class="memitem:ga2ab4bca5593cccd1e0b2c5d6b1cc3648"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___f_m_p_i2_c___exported___functions___group2.html#ga2ab4bca5593cccd1e0b2c5d6b1cc3648">HAL_FMPI2C_IsDeviceReady</a> (<a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *hfmpi2c, uint16_t DevAddress, uint32_t Trials, uint32_t Timeout)</td></tr>
+<tr class="memdesc:ga2ab4bca5593cccd1e0b2c5d6b1cc3648"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if target device is ready for communication.  <a href="#ga2ab4bca5593cccd1e0b2c5d6b1cc3648">More...</a><br /></td></tr>
 <tr class="separator:ga2ab4bca5593cccd1e0b2c5d6b1cc3648"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga3d7d2792c2fcefb71b69396dd698f0b1"><td class="memItemLeft" align="right" valign="top"><a id="ga3d7d2792c2fcefb71b69396dd698f0b1"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_FMPI2C_Master_Transmit_IT</b> (<a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *hfmpi2c, uint16_t DevAddress, uint8_t *pData, uint16_t Size)</td></tr>
+<tr class="memitem:ga3d7d2792c2fcefb71b69396dd698f0b1"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___f_m_p_i2_c___exported___functions___group2.html#ga3d7d2792c2fcefb71b69396dd698f0b1">HAL_FMPI2C_Master_Transmit_IT</a> (<a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *hfmpi2c, uint16_t DevAddress, uint8_t *pData, uint16_t Size)</td></tr>
+<tr class="memdesc:ga3d7d2792c2fcefb71b69396dd698f0b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transmit in master mode an amount of data in non-blocking mode with Interrupt.  <a href="#ga3d7d2792c2fcefb71b69396dd698f0b1">More...</a><br /></td></tr>
 <tr class="separator:ga3d7d2792c2fcefb71b69396dd698f0b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa1a9e4e6e17f0d8a1b468f545f2dbd5e"><td class="memItemLeft" align="right" valign="top"><a id="gaa1a9e4e6e17f0d8a1b468f545f2dbd5e"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_FMPI2C_Master_Receive_IT</b> (<a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *hfmpi2c, uint16_t DevAddress, uint8_t *pData, uint16_t Size)</td></tr>
+<tr class="memitem:gaa1a9e4e6e17f0d8a1b468f545f2dbd5e"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___f_m_p_i2_c___exported___functions___group2.html#gaa1a9e4e6e17f0d8a1b468f545f2dbd5e">HAL_FMPI2C_Master_Receive_IT</a> (<a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *hfmpi2c, uint16_t DevAddress, uint8_t *pData, uint16_t Size)</td></tr>
+<tr class="memdesc:gaa1a9e4e6e17f0d8a1b468f545f2dbd5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Receive in master mode an amount of data in non-blocking mode with Interrupt.  <a href="#gaa1a9e4e6e17f0d8a1b468f545f2dbd5e">More...</a><br /></td></tr>
 <tr class="separator:gaa1a9e4e6e17f0d8a1b468f545f2dbd5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaea538569058f2465ac361be5eeb553b9"><td class="memItemLeft" align="right" valign="top"><a id="gaea538569058f2465ac361be5eeb553b9"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_FMPI2C_Slave_Transmit_IT</b> (<a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *hfmpi2c, uint8_t *pData, uint16_t Size)</td></tr>
+<tr class="memitem:gaea538569058f2465ac361be5eeb553b9"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___f_m_p_i2_c___exported___functions___group2.html#gaea538569058f2465ac361be5eeb553b9">HAL_FMPI2C_Slave_Transmit_IT</a> (<a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *hfmpi2c, uint8_t *pData, uint16_t Size)</td></tr>
+<tr class="memdesc:gaea538569058f2465ac361be5eeb553b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transmit in slave mode an amount of data in non-blocking mode with Interrupt.  <a href="#gaea538569058f2465ac361be5eeb553b9">More...</a><br /></td></tr>
 <tr class="separator:gaea538569058f2465ac361be5eeb553b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga020cfa62a41176a7cb3631abe3e964f7"><td class="memItemLeft" align="right" valign="top"><a id="ga020cfa62a41176a7cb3631abe3e964f7"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_FMPI2C_Slave_Receive_IT</b> (<a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *hfmpi2c, uint8_t *pData, uint16_t Size)</td></tr>
+<tr class="memitem:ga020cfa62a41176a7cb3631abe3e964f7"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___f_m_p_i2_c___exported___functions___group2.html#ga020cfa62a41176a7cb3631abe3e964f7">HAL_FMPI2C_Slave_Receive_IT</a> (<a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *hfmpi2c, uint8_t *pData, uint16_t Size)</td></tr>
+<tr class="memdesc:ga020cfa62a41176a7cb3631abe3e964f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Receive in slave mode an amount of data in non-blocking mode with Interrupt.  <a href="#ga020cfa62a41176a7cb3631abe3e964f7">More...</a><br /></td></tr>
 <tr class="separator:ga020cfa62a41176a7cb3631abe3e964f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaec03d53979f4a5060f43c0894df7d341"><td class="memItemLeft" align="right" valign="top"><a id="gaec03d53979f4a5060f43c0894df7d341"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_FMPI2C_Mem_Write_IT</b> (<a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *hfmpi2c, uint16_t DevAddress, uint16_t MemAddress, uint16_t MemAddSize, uint8_t *pData, uint16_t Size)</td></tr>
+<tr class="memitem:gaec03d53979f4a5060f43c0894df7d341"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___f_m_p_i2_c___exported___functions___group2.html#gaec03d53979f4a5060f43c0894df7d341">HAL_FMPI2C_Mem_Write_IT</a> (<a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *hfmpi2c, uint16_t DevAddress, uint16_t MemAddress, uint16_t MemAddSize, uint8_t *pData, uint16_t Size)</td></tr>
+<tr class="memdesc:gaec03d53979f4a5060f43c0894df7d341"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write an amount of data in non-blocking mode with Interrupt to a specific memory address.  <a href="#gaec03d53979f4a5060f43c0894df7d341">More...</a><br /></td></tr>
 <tr class="separator:gaec03d53979f4a5060f43c0894df7d341"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa3c400919ec868c533e1363f6318ed1f"><td class="memItemLeft" align="right" valign="top"><a id="gaa3c400919ec868c533e1363f6318ed1f"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_FMPI2C_Mem_Read_IT</b> (<a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *hfmpi2c, uint16_t DevAddress, uint16_t MemAddress, uint16_t MemAddSize, uint8_t *pData, uint16_t Size)</td></tr>
+<tr class="memitem:gaa3c400919ec868c533e1363f6318ed1f"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___f_m_p_i2_c___exported___functions___group2.html#gaa3c400919ec868c533e1363f6318ed1f">HAL_FMPI2C_Mem_Read_IT</a> (<a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *hfmpi2c, uint16_t DevAddress, uint16_t MemAddress, uint16_t MemAddSize, uint8_t *pData, uint16_t Size)</td></tr>
+<tr class="memdesc:gaa3c400919ec868c533e1363f6318ed1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read an amount of data in non-blocking mode with Interrupt from a specific memory address.  <a href="#gaa3c400919ec868c533e1363f6318ed1f">More...</a><br /></td></tr>
 <tr class="separator:gaa3c400919ec868c533e1363f6318ed1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1bbb12bb73fc19ae6eb9c327d05a40e9"><td class="memItemLeft" align="right" valign="top"><a id="ga1bbb12bb73fc19ae6eb9c327d05a40e9"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_FMPI2C_Master_Sequential_Transmit_IT</b> (<a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *hfmpi2c, uint16_t DevAddress, uint8_t *pData, uint16_t Size, uint32_t XferOptions)</td></tr>
+<tr class="memitem:ga1bbb12bb73fc19ae6eb9c327d05a40e9"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___f_m_p_i2_c___exported___functions___group2.html#ga1bbb12bb73fc19ae6eb9c327d05a40e9">HAL_FMPI2C_Master_Sequential_Transmit_IT</a> (<a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *hfmpi2c, uint16_t DevAddress, uint8_t *pData, uint16_t Size, uint32_t XferOptions)</td></tr>
+<tr class="memdesc:ga1bbb12bb73fc19ae6eb9c327d05a40e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sequential transmit in master FMPI2C mode an amount of data in non-blocking mode with Interrupt.  <a href="#ga1bbb12bb73fc19ae6eb9c327d05a40e9">More...</a><br /></td></tr>
 <tr class="separator:ga1bbb12bb73fc19ae6eb9c327d05a40e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga9139787dce4d9f7b95510318936912d5"><td class="memItemLeft" align="right" valign="top"><a id="ga9139787dce4d9f7b95510318936912d5"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_FMPI2C_Master_Sequential_Receive_IT</b> (<a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *hfmpi2c, uint16_t DevAddress, uint8_t *pData, uint16_t Size, uint32_t XferOptions)</td></tr>
+<tr class="memitem:ga9139787dce4d9f7b95510318936912d5"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___f_m_p_i2_c___exported___functions___group2.html#ga9139787dce4d9f7b95510318936912d5">HAL_FMPI2C_Master_Sequential_Receive_IT</a> (<a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *hfmpi2c, uint16_t DevAddress, uint8_t *pData, uint16_t Size, uint32_t XferOptions)</td></tr>
+<tr class="memdesc:ga9139787dce4d9f7b95510318936912d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sequential receive in master FMPI2C mode an amount of data in non-blocking mode with Interrupt.  <a href="#ga9139787dce4d9f7b95510318936912d5">More...</a><br /></td></tr>
 <tr class="separator:ga9139787dce4d9f7b95510318936912d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae23ddeaa8347dab320ea8cbb45d69ee0"><td class="memItemLeft" align="right" valign="top"><a id="gae23ddeaa8347dab320ea8cbb45d69ee0"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_FMPI2C_Slave_Sequential_Transmit_IT</b> (<a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *hfmpi2c, uint8_t *pData, uint16_t Size, uint32_t XferOptions)</td></tr>
+<tr class="memitem:gae23ddeaa8347dab320ea8cbb45d69ee0"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___f_m_p_i2_c___exported___functions___group2.html#gae23ddeaa8347dab320ea8cbb45d69ee0">HAL_FMPI2C_Slave_Sequential_Transmit_IT</a> (<a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *hfmpi2c, uint8_t *pData, uint16_t Size, uint32_t XferOptions)</td></tr>
+<tr class="memdesc:gae23ddeaa8347dab320ea8cbb45d69ee0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sequential transmit in slave/device FMPI2C mode an amount of data in non-blocking mode with Interrupt.  <a href="#gae23ddeaa8347dab320ea8cbb45d69ee0">More...</a><br /></td></tr>
 <tr class="separator:gae23ddeaa8347dab320ea8cbb45d69ee0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gabec93cf23f1ace6ad7f02539b76ad3cb"><td class="memItemLeft" align="right" valign="top"><a id="gabec93cf23f1ace6ad7f02539b76ad3cb"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_FMPI2C_Slave_Sequential_Receive_IT</b> (<a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *hfmpi2c, uint8_t *pData, uint16_t Size, uint32_t XferOptions)</td></tr>
+<tr class="memitem:gabec93cf23f1ace6ad7f02539b76ad3cb"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___f_m_p_i2_c___exported___functions___group2.html#gabec93cf23f1ace6ad7f02539b76ad3cb">HAL_FMPI2C_Slave_Sequential_Receive_IT</a> (<a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *hfmpi2c, uint8_t *pData, uint16_t Size, uint32_t XferOptions)</td></tr>
+<tr class="memdesc:gabec93cf23f1ace6ad7f02539b76ad3cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sequential receive in slave/device FMPI2C mode an amount of data in non-blocking mode with Interrupt.  <a href="#gabec93cf23f1ace6ad7f02539b76ad3cb">More...</a><br /></td></tr>
 <tr class="separator:gabec93cf23f1ace6ad7f02539b76ad3cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga73b9cee3cd28ed6e25acd6f2d06482df"><td class="memItemLeft" align="right" valign="top"><a id="ga73b9cee3cd28ed6e25acd6f2d06482df"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_FMPI2C_EnableListen_IT</b> (<a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *hfmpi2c)</td></tr>
+<tr class="memitem:ga73b9cee3cd28ed6e25acd6f2d06482df"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___f_m_p_i2_c___exported___functions___group2.html#ga73b9cee3cd28ed6e25acd6f2d06482df">HAL_FMPI2C_EnableListen_IT</a> (<a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *hfmpi2c)</td></tr>
+<tr class="memdesc:ga73b9cee3cd28ed6e25acd6f2d06482df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable the Address listen mode with Interrupt.  <a href="#ga73b9cee3cd28ed6e25acd6f2d06482df">More...</a><br /></td></tr>
 <tr class="separator:ga73b9cee3cd28ed6e25acd6f2d06482df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab24f2c672e318c71f75cfefe3fe8dbd1"><td class="memItemLeft" align="right" valign="top"><a id="gab24f2c672e318c71f75cfefe3fe8dbd1"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_FMPI2C_DisableListen_IT</b> (<a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *hfmpi2c)</td></tr>
+<tr class="memitem:gab24f2c672e318c71f75cfefe3fe8dbd1"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___f_m_p_i2_c___exported___functions___group2.html#gab24f2c672e318c71f75cfefe3fe8dbd1">HAL_FMPI2C_DisableListen_IT</a> (<a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *hfmpi2c)</td></tr>
+<tr class="memdesc:gab24f2c672e318c71f75cfefe3fe8dbd1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disable the Address listen mode with Interrupt.  <a href="#gab24f2c672e318c71f75cfefe3fe8dbd1">More...</a><br /></td></tr>
 <tr class="separator:gab24f2c672e318c71f75cfefe3fe8dbd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaed933701b9b6ed92d7a78efc06dd79d4"><td class="memItemLeft" align="right" valign="top"><a id="gaed933701b9b6ed92d7a78efc06dd79d4"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_FMPI2C_Master_Abort_IT</b> (<a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *hfmpi2c, uint16_t DevAddress)</td></tr>
+<tr class="memitem:gaed933701b9b6ed92d7a78efc06dd79d4"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___f_m_p_i2_c___exported___functions___group2.html#gaed933701b9b6ed92d7a78efc06dd79d4">HAL_FMPI2C_Master_Abort_IT</a> (<a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *hfmpi2c, uint16_t DevAddress)</td></tr>
+<tr class="memdesc:gaed933701b9b6ed92d7a78efc06dd79d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abort a master FMPI2C IT or DMA process communication with Interrupt.  <a href="#gaed933701b9b6ed92d7a78efc06dd79d4">More...</a><br /></td></tr>
 <tr class="separator:gaed933701b9b6ed92d7a78efc06dd79d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7869cc37a778a5d3fe3f2fa16db18ee9"><td class="memItemLeft" align="right" valign="top"><a id="ga7869cc37a778a5d3fe3f2fa16db18ee9"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_FMPI2C_Master_Transmit_DMA</b> (<a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *hfmpi2c, uint16_t DevAddress, uint8_t *pData, uint16_t Size)</td></tr>
+<tr class="memitem:ga7869cc37a778a5d3fe3f2fa16db18ee9"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___f_m_p_i2_c___exported___functions___group2.html#ga7869cc37a778a5d3fe3f2fa16db18ee9">HAL_FMPI2C_Master_Transmit_DMA</a> (<a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *hfmpi2c, uint16_t DevAddress, uint8_t *pData, uint16_t Size)</td></tr>
+<tr class="memdesc:ga7869cc37a778a5d3fe3f2fa16db18ee9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transmit in master mode an amount of data in non-blocking mode with DMA.  <a href="#ga7869cc37a778a5d3fe3f2fa16db18ee9">More...</a><br /></td></tr>
 <tr class="separator:ga7869cc37a778a5d3fe3f2fa16db18ee9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf2386da1f6858728436c7bd0c6d3e9fc"><td class="memItemLeft" align="right" valign="top"><a id="gaf2386da1f6858728436c7bd0c6d3e9fc"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_FMPI2C_Master_Receive_DMA</b> (<a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *hfmpi2c, uint16_t DevAddress, uint8_t *pData, uint16_t Size)</td></tr>
+<tr class="memitem:gaf2386da1f6858728436c7bd0c6d3e9fc"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___f_m_p_i2_c___exported___functions___group2.html#gaf2386da1f6858728436c7bd0c6d3e9fc">HAL_FMPI2C_Master_Receive_DMA</a> (<a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *hfmpi2c, uint16_t DevAddress, uint8_t *pData, uint16_t Size)</td></tr>
+<tr class="memdesc:gaf2386da1f6858728436c7bd0c6d3e9fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Receive in master mode an amount of data in non-blocking mode with DMA.  <a href="#gaf2386da1f6858728436c7bd0c6d3e9fc">More...</a><br /></td></tr>
 <tr class="separator:gaf2386da1f6858728436c7bd0c6d3e9fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gacbf524590276af894e9f1f50553f9387"><td class="memItemLeft" align="right" valign="top"><a id="gacbf524590276af894e9f1f50553f9387"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_FMPI2C_Slave_Transmit_DMA</b> (<a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *hfmpi2c, uint8_t *pData, uint16_t Size)</td></tr>
+<tr class="memitem:gacbf524590276af894e9f1f50553f9387"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___f_m_p_i2_c___exported___functions___group2.html#gacbf524590276af894e9f1f50553f9387">HAL_FMPI2C_Slave_Transmit_DMA</a> (<a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *hfmpi2c, uint8_t *pData, uint16_t Size)</td></tr>
+<tr class="memdesc:gacbf524590276af894e9f1f50553f9387"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transmit in slave mode an amount of data in non-blocking mode with DMA.  <a href="#gacbf524590276af894e9f1f50553f9387">More...</a><br /></td></tr>
 <tr class="separator:gacbf524590276af894e9f1f50553f9387"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga670812f18997de861ec37f45a9ff04d8"><td class="memItemLeft" align="right" valign="top"><a id="ga670812f18997de861ec37f45a9ff04d8"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_FMPI2C_Slave_Receive_DMA</b> (<a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *hfmpi2c, uint8_t *pData, uint16_t Size)</td></tr>
+<tr class="memitem:ga670812f18997de861ec37f45a9ff04d8"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___f_m_p_i2_c___exported___functions___group2.html#ga670812f18997de861ec37f45a9ff04d8">HAL_FMPI2C_Slave_Receive_DMA</a> (<a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *hfmpi2c, uint8_t *pData, uint16_t Size)</td></tr>
+<tr class="memdesc:ga670812f18997de861ec37f45a9ff04d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Receive in slave mode an amount of data in non-blocking mode with DMA.  <a href="#ga670812f18997de861ec37f45a9ff04d8">More...</a><br /></td></tr>
 <tr class="separator:ga670812f18997de861ec37f45a9ff04d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga44a488cef23c716190c9224e50e3e873"><td class="memItemLeft" align="right" valign="top"><a id="ga44a488cef23c716190c9224e50e3e873"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_FMPI2C_Mem_Write_DMA</b> (<a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *hfmpi2c, uint16_t DevAddress, uint16_t MemAddress, uint16_t MemAddSize, uint8_t *pData, uint16_t Size)</td></tr>
+<tr class="memitem:ga44a488cef23c716190c9224e50e3e873"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___f_m_p_i2_c___exported___functions___group2.html#ga44a488cef23c716190c9224e50e3e873">HAL_FMPI2C_Mem_Write_DMA</a> (<a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *hfmpi2c, uint16_t DevAddress, uint16_t MemAddress, uint16_t MemAddSize, uint8_t *pData, uint16_t Size)</td></tr>
+<tr class="memdesc:ga44a488cef23c716190c9224e50e3e873"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write an amount of data in non-blocking mode with DMA to a specific memory address.  <a href="#ga44a488cef23c716190c9224e50e3e873">More...</a><br /></td></tr>
 <tr class="separator:ga44a488cef23c716190c9224e50e3e873"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga82a6a794e8ff7634e959c84a4a38a45a"><td class="memItemLeft" align="right" valign="top"><a id="ga82a6a794e8ff7634e959c84a4a38a45a"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_FMPI2C_Mem_Read_DMA</b> (<a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *hfmpi2c, uint16_t DevAddress, uint16_t MemAddress, uint16_t MemAddSize, uint8_t *pData, uint16_t Size)</td></tr>
+<tr class="memitem:ga82a6a794e8ff7634e959c84a4a38a45a"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___f_m_p_i2_c___exported___functions___group2.html#ga82a6a794e8ff7634e959c84a4a38a45a">HAL_FMPI2C_Mem_Read_DMA</a> (<a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *hfmpi2c, uint16_t DevAddress, uint16_t MemAddress, uint16_t MemAddSize, uint8_t *pData, uint16_t Size)</td></tr>
+<tr class="memdesc:ga82a6a794e8ff7634e959c84a4a38a45a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads an amount of data in non-blocking mode with DMA from a specific memory address.  <a href="#ga82a6a794e8ff7634e959c84a4a38a45a">More...</a><br /></td></tr>
 <tr class="separator:ga82a6a794e8ff7634e959c84a4a38a45a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>Data transfers functions. </p>
+<pre class="fragment"> ===============================================================================
+                      ##### IO operation functions #####
+ ===============================================================================
+    [..]
+    This subsection provides a set of functions allowing to manage the FMPI2C data
+    transfers.
+
+    (#) There are two modes of transfer:
+       (++) Blocking mode : The communication is performed in the polling mode.
+            The status of all data processing is returned by the same function
+            after finishing transfer.
+       (++) No-Blocking mode : The communication is performed using Interrupts
+            or DMA. These functions return the status of the transfer startup.
+            The end of the data processing will be indicated through the
+            dedicated FMPI2C IRQ when using Interrupt mode or the DMA IRQ when
+            using DMA mode.
+
+    (#) Blocking mode functions are :
+        (++) HAL_FMPI2C_Master_Transmit()
+        (++) HAL_FMPI2C_Master_Receive()
+        (++) HAL_FMPI2C_Slave_Transmit()
+        (++) HAL_FMPI2C_Slave_Receive()
+        (++) HAL_FMPI2C_Mem_Write()
+        (++) HAL_FMPI2C_Mem_Read()
+        (++) HAL_FMPI2C_IsDeviceReady()
+
+    (#) No-Blocking mode functions with Interrupt are :
+        (++) HAL_FMPI2C_Master_Transmit_IT()
+        (++) HAL_FMPI2C_Master_Receive_IT()
+        (++) HAL_FMPI2C_Slave_Transmit_IT()
+        (++) HAL_FMPI2C_Slave_Receive_IT()
+        (++) HAL_FMPI2C_Master_Sequential_Transmit_IT()
+        (++) HAL_FMPI2C_Master_Sequential_Receive_IT()
+        (++) HAL_FMPI2C_Slave_Sequential_Transmit_IT()
+        (++) HAL_FMPI2C_Slave_Sequential_Receive_IT()
+        (++) HAL_FMPI2C_Mem_Write_IT()
+        (++) HAL_FMPI2C_Mem_Read_IT()
+
+    (#) No-Blocking mode functions with DMA are :
+        (++) HAL_FMPI2C_Master_Transmit_DMA()
+        (++) HAL_FMPI2C_Master_Receive_DMA()
+        (++) HAL_FMPI2C_Slave_Transmit_DMA()
+        (++) HAL_FMPI2C_Slave_Receive_DMA()
+        (++) HAL_FMPI2C_Mem_Write_DMA()
+        (++) HAL_FMPI2C_Mem_Read_DMA()
+
+    (#) A set of Transfer Complete Callbacks are provided in non Blocking mode:
+        (++) HAL_FMPI2C_MemTxCpltCallback()
+        (++) HAL_FMPI2C_MemRxCpltCallback()
+        (++) HAL_FMPI2C_MasterTxCpltCallback()
+        (++) HAL_FMPI2C_MasterRxCpltCallback()
+        (++) HAL_FMPI2C_SlaveTxCpltCallback()
+        (++) HAL_FMPI2C_SlaveRxCpltCallback()
+        (++) HAL_FMPI2C_ErrorCallback()</pre> <h2 class="groupheader">Function Documentation</h2>
+<a id="gab24f2c672e318c71f75cfefe3fe8dbd1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab24f2c672e318c71f75cfefe3fe8dbd1">&#9670;&nbsp;</a></span>HAL_FMPI2C_DisableListen_IT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_FMPI2C_DisableListen_IT </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hfmpi2c</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Disable the Address listen mode with Interrupt. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hfmpi2c</td><td>Pointer to a FMPI2C_HandleTypeDef structure that contains the configuration information for the specified FMPI2C </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga73b9cee3cd28ed6e25acd6f2d06482df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga73b9cee3cd28ed6e25acd6f2d06482df">&#9670;&nbsp;</a></span>HAL_FMPI2C_EnableListen_IT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_FMPI2C_EnableListen_IT </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hfmpi2c</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Enable the Address listen mode with Interrupt. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hfmpi2c</td><td>Pointer to a FMPI2C_HandleTypeDef structure that contains the configuration information for the specified FMPI2C. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga2ab4bca5593cccd1e0b2c5d6b1cc3648"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2ab4bca5593cccd1e0b2c5d6b1cc3648">&#9670;&nbsp;</a></span>HAL_FMPI2C_IsDeviceReady()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_FMPI2C_IsDeviceReady </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hfmpi2c</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>DevAddress</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Trials</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Timeout</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Checks if target device is ready for communication. </p>
+<dl class="section note"><dt>Note</dt><dd>This function is used with Memory devices </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hfmpi2c</td><td>Pointer to a FMPI2C_HandleTypeDef structure that contains the configuration information for the specified FMPI2C. </td></tr>
+    <tr><td class="paramname">DevAddress</td><td>Target device address The device 7 bits address value in datasheet must be shifted to the left before calling the interface </td></tr>
+    <tr><td class="paramname">Trials</td><td>Number of trials </td></tr>
+    <tr><td class="paramname">Timeout</td><td>Timeout duration </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaed933701b9b6ed92d7a78efc06dd79d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaed933701b9b6ed92d7a78efc06dd79d4">&#9670;&nbsp;</a></span>HAL_FMPI2C_Master_Abort_IT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_FMPI2C_Master_Abort_IT </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hfmpi2c</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>DevAddress</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Abort a master FMPI2C IT or DMA process communication with Interrupt. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hfmpi2c</td><td>Pointer to a FMPI2C_HandleTypeDef structure that contains the configuration information for the specified FMPI2C. </td></tr>
+    <tr><td class="paramname">DevAddress</td><td>Target device address The device 7 bits address value in datasheet must be shifted to the left before calling the interface </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gabe234acb39cc2da5584fe568f5c795cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabe234acb39cc2da5584fe568f5c795cb">&#9670;&nbsp;</a></span>HAL_FMPI2C_Master_Receive()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_FMPI2C_Master_Receive </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hfmpi2c</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>DevAddress</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>Size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Timeout</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Receives in master mode an amount of data in blocking mode. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hfmpi2c</td><td>Pointer to a FMPI2C_HandleTypeDef structure that contains the configuration information for the specified FMPI2C. </td></tr>
+    <tr><td class="paramname">DevAddress</td><td>Target device address The device 7 bits address value in datasheet must be shifted to the left before calling the interface </td></tr>
+    <tr><td class="paramname">pData</td><td>Pointer to data buffer </td></tr>
+    <tr><td class="paramname">Size</td><td>Amount of data to be sent </td></tr>
+    <tr><td class="paramname">Timeout</td><td>Timeout duration </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaf2386da1f6858728436c7bd0c6d3e9fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf2386da1f6858728436c7bd0c6d3e9fc">&#9670;&nbsp;</a></span>HAL_FMPI2C_Master_Receive_DMA()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_FMPI2C_Master_Receive_DMA </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hfmpi2c</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>DevAddress</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>Size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Receive in master mode an amount of data in non-blocking mode with DMA. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hfmpi2c</td><td>Pointer to a FMPI2C_HandleTypeDef structure that contains the configuration information for the specified FMPI2C. </td></tr>
+    <tr><td class="paramname">DevAddress</td><td>Target device address The device 7 bits address value in datasheet must be shifted to the left before calling the interface </td></tr>
+    <tr><td class="paramname">pData</td><td>Pointer to data buffer </td></tr>
+    <tr><td class="paramname">Size</td><td>Amount of data to be sent </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaa1a9e4e6e17f0d8a1b468f545f2dbd5e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa1a9e4e6e17f0d8a1b468f545f2dbd5e">&#9670;&nbsp;</a></span>HAL_FMPI2C_Master_Receive_IT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_FMPI2C_Master_Receive_IT </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hfmpi2c</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>DevAddress</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>Size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Receive in master mode an amount of data in non-blocking mode with Interrupt. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hfmpi2c</td><td>Pointer to a FMPI2C_HandleTypeDef structure that contains the configuration information for the specified FMPI2C. </td></tr>
+    <tr><td class="paramname">DevAddress</td><td>Target device address The device 7 bits address value in datasheet must be shifted to the left before calling the interface </td></tr>
+    <tr><td class="paramname">pData</td><td>Pointer to data buffer </td></tr>
+    <tr><td class="paramname">Size</td><td>Amount of data to be sent </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga9139787dce4d9f7b95510318936912d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9139787dce4d9f7b95510318936912d5">&#9670;&nbsp;</a></span>HAL_FMPI2C_Master_Sequential_Receive_IT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_FMPI2C_Master_Sequential_Receive_IT </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hfmpi2c</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>DevAddress</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>Size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>XferOptions</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sequential receive in master FMPI2C mode an amount of data in non-blocking mode with Interrupt. </p>
+<dl class="section note"><dt>Note</dt><dd>This interface allow to manage repeated start condition when a direction change during transfer </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hfmpi2c</td><td>Pointer to a FMPI2C_HandleTypeDef structure that contains the configuration information for the specified FMPI2C. </td></tr>
+    <tr><td class="paramname">DevAddress</td><td>Target device address The device 7 bits address value in datasheet must be shifted to the left before calling the interface </td></tr>
+    <tr><td class="paramname">pData</td><td>Pointer to data buffer </td></tr>
+    <tr><td class="paramname">Size</td><td>Amount of data to be sent </td></tr>
+    <tr><td class="paramname">XferOptions</td><td>Options of Transfer, value of <a class="el" href="group___f_m_p_i2_c___x_f_e_r_o_p_t_i_o_n_s.html">FMPI2C Sequential Transfer Options</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga1bbb12bb73fc19ae6eb9c327d05a40e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1bbb12bb73fc19ae6eb9c327d05a40e9">&#9670;&nbsp;</a></span>HAL_FMPI2C_Master_Sequential_Transmit_IT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_FMPI2C_Master_Sequential_Transmit_IT </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hfmpi2c</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>DevAddress</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>Size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>XferOptions</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sequential transmit in master FMPI2C mode an amount of data in non-blocking mode with Interrupt. </p>
+<dl class="section note"><dt>Note</dt><dd>This interface allow to manage repeated start condition when a direction change during transfer </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hfmpi2c</td><td>Pointer to a FMPI2C_HandleTypeDef structure that contains the configuration information for the specified FMPI2C. </td></tr>
+    <tr><td class="paramname">DevAddress</td><td>Target device address The device 7 bits address value in datasheet must be shifted to the left before calling the interface </td></tr>
+    <tr><td class="paramname">pData</td><td>Pointer to data buffer </td></tr>
+    <tr><td class="paramname">Size</td><td>Amount of data to be sent </td></tr>
+    <tr><td class="paramname">XferOptions</td><td>Options of Transfer, value of <a class="el" href="group___f_m_p_i2_c___x_f_e_r_o_p_t_i_o_n_s.html">FMPI2C Sequential Transfer Options</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gabffc2c9ffb5da14713e8f5e9a6c7150b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabffc2c9ffb5da14713e8f5e9a6c7150b">&#9670;&nbsp;</a></span>HAL_FMPI2C_Master_Transmit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_FMPI2C_Master_Transmit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hfmpi2c</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>DevAddress</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>Size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Timeout</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Transmits in master mode an amount of data in blocking mode. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hfmpi2c</td><td>Pointer to a FMPI2C_HandleTypeDef structure that contains the configuration information for the specified FMPI2C. </td></tr>
+    <tr><td class="paramname">DevAddress</td><td>Target device address The device 7 bits address value in datasheet must be shifted to the left before calling the interface </td></tr>
+    <tr><td class="paramname">pData</td><td>Pointer to data buffer </td></tr>
+    <tr><td class="paramname">Size</td><td>Amount of data to be sent </td></tr>
+    <tr><td class="paramname">Timeout</td><td>Timeout duration </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga7869cc37a778a5d3fe3f2fa16db18ee9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7869cc37a778a5d3fe3f2fa16db18ee9">&#9670;&nbsp;</a></span>HAL_FMPI2C_Master_Transmit_DMA()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_FMPI2C_Master_Transmit_DMA </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hfmpi2c</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>DevAddress</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>Size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Transmit in master mode an amount of data in non-blocking mode with DMA. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hfmpi2c</td><td>Pointer to a FMPI2C_HandleTypeDef structure that contains the configuration information for the specified FMPI2C. </td></tr>
+    <tr><td class="paramname">DevAddress</td><td>Target device address The device 7 bits address value in datasheet must be shifted to the left before calling the interface </td></tr>
+    <tr><td class="paramname">pData</td><td>Pointer to data buffer </td></tr>
+    <tr><td class="paramname">Size</td><td>Amount of data to be sent </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga3d7d2792c2fcefb71b69396dd698f0b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3d7d2792c2fcefb71b69396dd698f0b1">&#9670;&nbsp;</a></span>HAL_FMPI2C_Master_Transmit_IT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_FMPI2C_Master_Transmit_IT </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hfmpi2c</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>DevAddress</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>Size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Transmit in master mode an amount of data in non-blocking mode with Interrupt. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hfmpi2c</td><td>Pointer to a FMPI2C_HandleTypeDef structure that contains the configuration information for the specified FMPI2C. </td></tr>
+    <tr><td class="paramname">DevAddress</td><td>Target device address The device 7 bits address value in datasheet must be shifted to the left before calling the interface </td></tr>
+    <tr><td class="paramname">pData</td><td>Pointer to data buffer </td></tr>
+    <tr><td class="paramname">Size</td><td>Amount of data to be sent </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga391b70474113fe3dc5f8736b15a1a2be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga391b70474113fe3dc5f8736b15a1a2be">&#9670;&nbsp;</a></span>HAL_FMPI2C_Mem_Read()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_FMPI2C_Mem_Read </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hfmpi2c</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>DevAddress</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>MemAddress</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>MemAddSize</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>Size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Timeout</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Read an amount of data in blocking mode from a specific memory address. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hfmpi2c</td><td>Pointer to a FMPI2C_HandleTypeDef structure that contains the configuration information for the specified FMPI2C. </td></tr>
+    <tr><td class="paramname">DevAddress</td><td>Target device address The device 7 bits address value in datasheet must be shifted to the left before calling the interface </td></tr>
+    <tr><td class="paramname">MemAddress</td><td>Internal memory address </td></tr>
+    <tr><td class="paramname">MemAddSize</td><td>Size of internal memory address </td></tr>
+    <tr><td class="paramname">pData</td><td>Pointer to data buffer </td></tr>
+    <tr><td class="paramname">Size</td><td>Amount of data to be sent </td></tr>
+    <tr><td class="paramname">Timeout</td><td>Timeout duration </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga82a6a794e8ff7634e959c84a4a38a45a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga82a6a794e8ff7634e959c84a4a38a45a">&#9670;&nbsp;</a></span>HAL_FMPI2C_Mem_Read_DMA()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_FMPI2C_Mem_Read_DMA </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hfmpi2c</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>DevAddress</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>MemAddress</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>MemAddSize</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>Size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reads an amount of data in non-blocking mode with DMA from a specific memory address. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hfmpi2c</td><td>Pointer to a FMPI2C_HandleTypeDef structure that contains the configuration information for the specified FMPI2C. </td></tr>
+    <tr><td class="paramname">DevAddress</td><td>Target device address The device 7 bits address value in datasheet must be shifted to the left before calling the interface </td></tr>
+    <tr><td class="paramname">MemAddress</td><td>Internal memory address </td></tr>
+    <tr><td class="paramname">MemAddSize</td><td>Size of internal memory address </td></tr>
+    <tr><td class="paramname">pData</td><td>Pointer to data buffer </td></tr>
+    <tr><td class="paramname">Size</td><td>Amount of data to be read </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaa3c400919ec868c533e1363f6318ed1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa3c400919ec868c533e1363f6318ed1f">&#9670;&nbsp;</a></span>HAL_FMPI2C_Mem_Read_IT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_FMPI2C_Mem_Read_IT </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hfmpi2c</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>DevAddress</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>MemAddress</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>MemAddSize</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>Size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Read an amount of data in non-blocking mode with Interrupt from a specific memory address. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hfmpi2c</td><td>Pointer to a FMPI2C_HandleTypeDef structure that contains the configuration information for the specified FMPI2C. </td></tr>
+    <tr><td class="paramname">DevAddress</td><td>Target device address The device 7 bits address value in datasheet must be shifted to the left before calling the interface </td></tr>
+    <tr><td class="paramname">MemAddress</td><td>Internal memory address </td></tr>
+    <tr><td class="paramname">MemAddSize</td><td>Size of internal memory address </td></tr>
+    <tr><td class="paramname">pData</td><td>Pointer to data buffer </td></tr>
+    <tr><td class="paramname">Size</td><td>Amount of data to be sent </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaf5920210f7907cde988edfc5e45a0064"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf5920210f7907cde988edfc5e45a0064">&#9670;&nbsp;</a></span>HAL_FMPI2C_Mem_Write()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_FMPI2C_Mem_Write </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hfmpi2c</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>DevAddress</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>MemAddress</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>MemAddSize</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>Size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Timeout</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Write an amount of data in blocking mode to a specific memory address. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hfmpi2c</td><td>Pointer to a FMPI2C_HandleTypeDef structure that contains the configuration information for the specified FMPI2C. </td></tr>
+    <tr><td class="paramname">DevAddress</td><td>Target device address The device 7 bits address value in datasheet must be shifted to the left before calling the interface </td></tr>
+    <tr><td class="paramname">MemAddress</td><td>Internal memory address </td></tr>
+    <tr><td class="paramname">MemAddSize</td><td>Size of internal memory address </td></tr>
+    <tr><td class="paramname">pData</td><td>Pointer to data buffer </td></tr>
+    <tr><td class="paramname">Size</td><td>Amount of data to be sent </td></tr>
+    <tr><td class="paramname">Timeout</td><td>Timeout duration </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga44a488cef23c716190c9224e50e3e873"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga44a488cef23c716190c9224e50e3e873">&#9670;&nbsp;</a></span>HAL_FMPI2C_Mem_Write_DMA()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_FMPI2C_Mem_Write_DMA </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hfmpi2c</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>DevAddress</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>MemAddress</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>MemAddSize</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>Size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Write an amount of data in non-blocking mode with DMA to a specific memory address. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hfmpi2c</td><td>Pointer to a FMPI2C_HandleTypeDef structure that contains the configuration information for the specified FMPI2C. </td></tr>
+    <tr><td class="paramname">DevAddress</td><td>Target device address The device 7 bits address value in datasheet must be shifted to the left before calling the interface </td></tr>
+    <tr><td class="paramname">MemAddress</td><td>Internal memory address </td></tr>
+    <tr><td class="paramname">MemAddSize</td><td>Size of internal memory address </td></tr>
+    <tr><td class="paramname">pData</td><td>Pointer to data buffer </td></tr>
+    <tr><td class="paramname">Size</td><td>Amount of data to be sent </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaec03d53979f4a5060f43c0894df7d341"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaec03d53979f4a5060f43c0894df7d341">&#9670;&nbsp;</a></span>HAL_FMPI2C_Mem_Write_IT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_FMPI2C_Mem_Write_IT </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hfmpi2c</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>DevAddress</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>MemAddress</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>MemAddSize</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>Size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Write an amount of data in non-blocking mode with Interrupt to a specific memory address. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hfmpi2c</td><td>Pointer to a FMPI2C_HandleTypeDef structure that contains the configuration information for the specified FMPI2C. </td></tr>
+    <tr><td class="paramname">DevAddress</td><td>Target device address The device 7 bits address value in datasheet must be shifted to the left before calling the interface </td></tr>
+    <tr><td class="paramname">MemAddress</td><td>Internal memory address </td></tr>
+    <tr><td class="paramname">MemAddSize</td><td>Size of internal memory address </td></tr>
+    <tr><td class="paramname">pData</td><td>Pointer to data buffer </td></tr>
+    <tr><td class="paramname">Size</td><td>Amount of data to be sent </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga2020255c63836690442f681a4dd2d4da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2020255c63836690442f681a4dd2d4da">&#9670;&nbsp;</a></span>HAL_FMPI2C_Slave_Receive()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_FMPI2C_Slave_Receive </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hfmpi2c</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>Size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Timeout</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Receive in slave mode an amount of data in blocking mode. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hfmpi2c</td><td>Pointer to a FMPI2C_HandleTypeDef structure that contains the configuration information for the specified FMPI2C. </td></tr>
+    <tr><td class="paramname">pData</td><td>Pointer to data buffer </td></tr>
+    <tr><td class="paramname">Size</td><td>Amount of data to be sent </td></tr>
+    <tr><td class="paramname">Timeout</td><td>Timeout duration </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga670812f18997de861ec37f45a9ff04d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga670812f18997de861ec37f45a9ff04d8">&#9670;&nbsp;</a></span>HAL_FMPI2C_Slave_Receive_DMA()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_FMPI2C_Slave_Receive_DMA </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hfmpi2c</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>Size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Receive in slave mode an amount of data in non-blocking mode with DMA. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hfmpi2c</td><td>Pointer to a FMPI2C_HandleTypeDef structure that contains the configuration information for the specified FMPI2C. </td></tr>
+    <tr><td class="paramname">pData</td><td>Pointer to data buffer </td></tr>
+    <tr><td class="paramname">Size</td><td>Amount of data to be sent </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga020cfa62a41176a7cb3631abe3e964f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga020cfa62a41176a7cb3631abe3e964f7">&#9670;&nbsp;</a></span>HAL_FMPI2C_Slave_Receive_IT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_FMPI2C_Slave_Receive_IT </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hfmpi2c</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>Size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Receive in slave mode an amount of data in non-blocking mode with Interrupt. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hfmpi2c</td><td>Pointer to a FMPI2C_HandleTypeDef structure that contains the configuration information for the specified FMPI2C. </td></tr>
+    <tr><td class="paramname">pData</td><td>Pointer to data buffer </td></tr>
+    <tr><td class="paramname">Size</td><td>Amount of data to be sent </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gabec93cf23f1ace6ad7f02539b76ad3cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabec93cf23f1ace6ad7f02539b76ad3cb">&#9670;&nbsp;</a></span>HAL_FMPI2C_Slave_Sequential_Receive_IT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_FMPI2C_Slave_Sequential_Receive_IT </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hfmpi2c</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>Size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>XferOptions</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sequential receive in slave/device FMPI2C mode an amount of data in non-blocking mode with Interrupt. </p>
+<dl class="section note"><dt>Note</dt><dd>This interface allow to manage repeated start condition when a direction change during transfer </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hfmpi2c</td><td>Pointer to a FMPI2C_HandleTypeDef structure that contains the configuration information for the specified FMPI2C. </td></tr>
+    <tr><td class="paramname">pData</td><td>Pointer to data buffer </td></tr>
+    <tr><td class="paramname">Size</td><td>Amount of data to be sent </td></tr>
+    <tr><td class="paramname">XferOptions</td><td>Options of Transfer, value of <a class="el" href="group___f_m_p_i2_c___x_f_e_r_o_p_t_i_o_n_s.html">FMPI2C Sequential Transfer Options</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gae23ddeaa8347dab320ea8cbb45d69ee0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae23ddeaa8347dab320ea8cbb45d69ee0">&#9670;&nbsp;</a></span>HAL_FMPI2C_Slave_Sequential_Transmit_IT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_FMPI2C_Slave_Sequential_Transmit_IT </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hfmpi2c</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>Size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>XferOptions</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sequential transmit in slave/device FMPI2C mode an amount of data in non-blocking mode with Interrupt. </p>
+<dl class="section note"><dt>Note</dt><dd>This interface allow to manage repeated start condition when a direction change during transfer </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hfmpi2c</td><td>Pointer to a FMPI2C_HandleTypeDef structure that contains the configuration information for the specified FMPI2C. </td></tr>
+    <tr><td class="paramname">pData</td><td>Pointer to data buffer </td></tr>
+    <tr><td class="paramname">Size</td><td>Amount of data to be sent </td></tr>
+    <tr><td class="paramname">XferOptions</td><td>Options of Transfer, value of <a class="el" href="group___f_m_p_i2_c___x_f_e_r_o_p_t_i_o_n_s.html">FMPI2C Sequential Transfer Options</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gac15c73eadff3908deb9036917ba49683"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac15c73eadff3908deb9036917ba49683">&#9670;&nbsp;</a></span>HAL_FMPI2C_Slave_Transmit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_FMPI2C_Slave_Transmit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hfmpi2c</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>Size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Timeout</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Transmits in slave mode an amount of data in blocking mode. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hfmpi2c</td><td>Pointer to a FMPI2C_HandleTypeDef structure that contains the configuration information for the specified FMPI2C. </td></tr>
+    <tr><td class="paramname">pData</td><td>Pointer to data buffer </td></tr>
+    <tr><td class="paramname">Size</td><td>Amount of data to be sent </td></tr>
+    <tr><td class="paramname">Timeout</td><td>Timeout duration </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gacbf524590276af894e9f1f50553f9387"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gacbf524590276af894e9f1f50553f9387">&#9670;&nbsp;</a></span>HAL_FMPI2C_Slave_Transmit_DMA()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_FMPI2C_Slave_Transmit_DMA </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hfmpi2c</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>Size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Transmit in slave mode an amount of data in non-blocking mode with DMA. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hfmpi2c</td><td>Pointer to a FMPI2C_HandleTypeDef structure that contains the configuration information for the specified FMPI2C. </td></tr>
+    <tr><td class="paramname">pData</td><td>Pointer to data buffer </td></tr>
+    <tr><td class="paramname">Size</td><td>Amount of data to be sent </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaea538569058f2465ac361be5eeb553b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaea538569058f2465ac361be5eeb553b9">&#9670;&nbsp;</a></span>HAL_FMPI2C_Slave_Transmit_IT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_FMPI2C_Slave_Transmit_IT </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_____f_m_p_i2_c___handle_type_def.html">FMPI2C_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hfmpi2c</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>Size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Transmit in slave mode an amount of data in non-blocking mode with Interrupt. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hfmpi2c</td><td>Pointer to a FMPI2C_HandleTypeDef structure that contains the configuration information for the specified FMPI2C. </td></tr>
+    <tr><td class="paramname">pData</td><td>Pointer to data buffer </td></tr>
+    <tr><td class="paramname">Size</td><td>Amount of data to be sent </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

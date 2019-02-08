@@ -70,17 +70,136 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gac5ad65219c9993b9fa7e0e5e56cf1dce"><td class="memItemLeft" align="right" valign="top"><a id="gac5ad65219c9993b9fa7e0e5e56cf1dce"></a>
-ErrorStatus&#160;</td><td class="memItemRight" valign="bottom"><b>LL_LPTIM_DeInit</b> (LPTIM_TypeDef *LPTIMx)</td></tr>
+<tr class="memitem:gac5ad65219c9993b9fa7e0e5e56cf1dce"><td class="memItemLeft" align="right" valign="top">ErrorStatus&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_p_t_i_m___l_l___e_f___init.html#gac5ad65219c9993b9fa7e0e5e56cf1dce">LL_LPTIM_DeInit</a> (LPTIM_TypeDef *LPTIMx)</td></tr>
+<tr class="memdesc:gac5ad65219c9993b9fa7e0e5e56cf1dce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set LPTIMx registers to their reset values.  <a href="#gac5ad65219c9993b9fa7e0e5e56cf1dce">More...</a><br /></td></tr>
 <tr class="separator:gac5ad65219c9993b9fa7e0e5e56cf1dce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae1f1c131f06fb09b1dac34dd7c372352"><td class="memItemLeft" align="right" valign="top"><a id="gae1f1c131f06fb09b1dac34dd7c372352"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>LL_LPTIM_StructInit</b> (<a class="el" href="struct_l_l___l_p_t_i_m___init_type_def.html">LL_LPTIM_InitTypeDef</a> *LPTIM_InitStruct)</td></tr>
+<tr class="memitem:gae1f1c131f06fb09b1dac34dd7c372352"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_p_t_i_m___l_l___e_f___init.html#gae1f1c131f06fb09b1dac34dd7c372352">LL_LPTIM_StructInit</a> (<a class="el" href="struct_l_l___l_p_t_i_m___init_type_def.html">LL_LPTIM_InitTypeDef</a> *LPTIM_InitStruct)</td></tr>
+<tr class="memdesc:gae1f1c131f06fb09b1dac34dd7c372352"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set each fields of the LPTIM_InitStruct structure to its default value.  <a href="#gae1f1c131f06fb09b1dac34dd7c372352">More...</a><br /></td></tr>
 <tr class="separator:gae1f1c131f06fb09b1dac34dd7c372352"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa7ac7061c15496f390f47dcb06b8c919"><td class="memItemLeft" align="right" valign="top"><a id="gaa7ac7061c15496f390f47dcb06b8c919"></a>
-ErrorStatus&#160;</td><td class="memItemRight" valign="bottom"><b>LL_LPTIM_Init</b> (LPTIM_TypeDef *LPTIMx, <a class="el" href="struct_l_l___l_p_t_i_m___init_type_def.html">LL_LPTIM_InitTypeDef</a> *LPTIM_InitStruct)</td></tr>
+<tr class="memitem:gaa7ac7061c15496f390f47dcb06b8c919"><td class="memItemLeft" align="right" valign="top">ErrorStatus&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_p_t_i_m___l_l___e_f___init.html#gaa7ac7061c15496f390f47dcb06b8c919">LL_LPTIM_Init</a> (LPTIM_TypeDef *LPTIMx, <a class="el" href="struct_l_l___l_p_t_i_m___init_type_def.html">LL_LPTIM_InitTypeDef</a> *LPTIM_InitStruct)</td></tr>
+<tr class="memdesc:gaa7ac7061c15496f390f47dcb06b8c919"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configure the LPTIMx peripheral according to the specified parameters.  <a href="#gaa7ac7061c15496f390f47dcb06b8c919">More...</a><br /></td></tr>
 <tr class="separator:gaa7ac7061c15496f390f47dcb06b8c919"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="gac5ad65219c9993b9fa7e0e5e56cf1dce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac5ad65219c9993b9fa7e0e5e56cf1dce">&#9670;&nbsp;</a></span>LL_LPTIM_DeInit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ErrorStatus LL_LPTIM_DeInit </td>
+          <td>(</td>
+          <td class="paramtype">LPTIM_TypeDef *&#160;</td>
+          <td class="paramname"><em>LPTIMx</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set LPTIMx registers to their reset values. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">LPTIMx</td><td>LP Timer instance </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">An</td><td>ErrorStatus enumeration value:<ul>
+<li>SUCCESS: LPTIMx registers are de-initialized</li>
+<li>ERROR: invalid LPTIMx instance </li>
+</ul>
+</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaa7ac7061c15496f390f47dcb06b8c919"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa7ac7061c15496f390f47dcb06b8c919">&#9670;&nbsp;</a></span>LL_LPTIM_Init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ErrorStatus LL_LPTIM_Init </td>
+          <td>(</td>
+          <td class="paramtype">LPTIM_TypeDef *&#160;</td>
+          <td class="paramname"><em>LPTIMx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_l_l___l_p_t_i_m___init_type_def.html">LL_LPTIM_InitTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>LPTIM_InitStruct</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Configure the LPTIMx peripheral according to the specified parameters. </p>
+<dl class="section note"><dt>Note</dt><dd>LL_LPTIM_Init can only be called when the LPTIM instance is disabled. </dd>
+<dd>
+LPTIMx can be disabled using unitary function <a class="el" href="group___l_p_t_i_m___l_l___e_f___l_p_t_i_m___configuration.html#gafd0cdc5cd69ea2b7a6cda545b6a3de7e">LL_LPTIM_Disable()</a>. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">LPTIMx</td><td>LP Timer Instance </td></tr>
+    <tr><td class="paramname">LPTIM_InitStruct</td><td>pointer to a <a class="el" href="struct_l_l___l_p_t_i_m___init_type_def.html">LL_LPTIM_InitTypeDef</a> structure </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">An</td><td>ErrorStatus enumeration value:<ul>
+<li>SUCCESS: LPTIMx instance has been initialized</li>
+<li>ERROR: LPTIMx instance hasn't been initialized </li>
+</ul>
+</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gae1f1c131f06fb09b1dac34dd7c372352"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae1f1c131f06fb09b1dac34dd7c372352">&#9670;&nbsp;</a></span>LL_LPTIM_StructInit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LL_LPTIM_StructInit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_l_l___l_p_t_i_m___init_type_def.html">LL_LPTIM_InitTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>LPTIM_InitStruct</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set each fields of the LPTIM_InitStruct structure to its default value. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">LPTIM_InitStruct</td><td>pointer to a <a class="el" href="struct_l_l___l_p_t_i_m___init_type_def.html">LL_LPTIM_InitTypeDef</a> structure </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

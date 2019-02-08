@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['usb_5fotg_5fhcstatetypedef',['USB_OTG_HCStateTypeDef',['../stm32f4xx__ll__usb_8h.html#a8fa88c2e8e5fe41147028ba11af65294',1,'stm32f4xx_ll_usb.h']]],
-  ['usb_5fotg_5furbstatetypedef',['USB_OTG_URBStateTypeDef',['../stm32f4xx__ll__usb_8h.html#a04b2bca306495588fec3a5245daa5221',1,'stm32f4xx_ll_usb.h']]]
+  ['i2s_5fusetypedef',['I2S_UseTypeDef',['../group___i2_s_ex___private___typedef.html#gae7ea5b19c975a9774a258f129cf20789',1,'stm32f4xx_hal_i2s_ex.c']]]
 ];

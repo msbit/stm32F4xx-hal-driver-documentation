@@ -64,23 +64,129 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">Peripheral Control functions<div class="ingroups"><a class="el" href="group___h_c_d___exported___functions.html">HCD Exported Functions</a></div></div>  </div>
+<div class="title">Peripheral Control functions<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___h_c_d.html">HCD</a> &raquo; <a class="el" href="group___h_c_d___exported___functions.html">HCD Exported Functions</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Management functions.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga8cef0fe9a69fa43a73d22010027b832e"><td class="memItemLeft" align="right" valign="top"><a id="ga8cef0fe9a69fa43a73d22010027b832e"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_HCD_ResetPort</b> (<a class="el" href="struct_h_c_d___handle_type_def.html">HCD_HandleTypeDef</a> *hhcd)</td></tr>
+<tr class="memitem:ga8cef0fe9a69fa43a73d22010027b832e"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_c_d___exported___functions___group3.html#ga8cef0fe9a69fa43a73d22010027b832e">HAL_HCD_ResetPort</a> (<a class="el" href="struct_h_c_d___handle_type_def.html">HCD_HandleTypeDef</a> *hhcd)</td></tr>
+<tr class="memdesc:ga8cef0fe9a69fa43a73d22010027b832e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset the host port.  <a href="#ga8cef0fe9a69fa43a73d22010027b832e">More...</a><br /></td></tr>
 <tr class="separator:ga8cef0fe9a69fa43a73d22010027b832e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaeca62d02971ad8fd6f71b3bde9e7e0ac"><td class="memItemLeft" align="right" valign="top"><a id="gaeca62d02971ad8fd6f71b3bde9e7e0ac"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_HCD_Start</b> (<a class="el" href="struct_h_c_d___handle_type_def.html">HCD_HandleTypeDef</a> *hhcd)</td></tr>
+<tr class="memitem:gaeca62d02971ad8fd6f71b3bde9e7e0ac"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_c_d___exported___functions___group3.html#gaeca62d02971ad8fd6f71b3bde9e7e0ac">HAL_HCD_Start</a> (<a class="el" href="struct_h_c_d___handle_type_def.html">HCD_HandleTypeDef</a> *hhcd)</td></tr>
+<tr class="memdesc:gaeca62d02971ad8fd6f71b3bde9e7e0ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start the host driver.  <a href="#gaeca62d02971ad8fd6f71b3bde9e7e0ac">More...</a><br /></td></tr>
 <tr class="separator:gaeca62d02971ad8fd6f71b3bde9e7e0ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4172d9c4c0d05c951dae4aa5151406fc"><td class="memItemLeft" align="right" valign="top"><a id="ga4172d9c4c0d05c951dae4aa5151406fc"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_HCD_Stop</b> (<a class="el" href="struct_h_c_d___handle_type_def.html">HCD_HandleTypeDef</a> *hhcd)</td></tr>
+<tr class="memitem:ga4172d9c4c0d05c951dae4aa5151406fc"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_c_d___exported___functions___group3.html#ga4172d9c4c0d05c951dae4aa5151406fc">HAL_HCD_Stop</a> (<a class="el" href="struct_h_c_d___handle_type_def.html">HCD_HandleTypeDef</a> *hhcd)</td></tr>
+<tr class="memdesc:ga4172d9c4c0d05c951dae4aa5151406fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stop the host driver.  <a href="#ga4172d9c4c0d05c951dae4aa5151406fc">More...</a><br /></td></tr>
 <tr class="separator:ga4172d9c4c0d05c951dae4aa5151406fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>Management functions. </p>
+<pre class="fragment"> ===============================================================================
+                      ##### Peripheral Control functions #####
+ ===============================================================================  
+    [..]
+    This subsection provides a set of functions allowing to control the HCD data 
+    transfers.</pre> <h2 class="groupheader">Function Documentation</h2>
+<a id="ga8cef0fe9a69fa43a73d22010027b832e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8cef0fe9a69fa43a73d22010027b832e">&#9670;&nbsp;</a></span>HAL_HCD_ResetPort()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_HCD_ResetPort </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_h_c_d___handle_type_def.html">HCD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hhcd</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reset the host port. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hhcd</td><td>HCD handle </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaeca62d02971ad8fd6f71b3bde9e7e0ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaeca62d02971ad8fd6f71b3bde9e7e0ac">&#9670;&nbsp;</a></span>HAL_HCD_Start()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_HCD_Start </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_h_c_d___handle_type_def.html">HCD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hhcd</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Start the host driver. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hhcd</td><td>HCD handle </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga4172d9c4c0d05c951dae4aa5151406fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4172d9c4c0d05c951dae4aa5151406fc">&#9670;&nbsp;</a></span>HAL_HCD_Stop()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_HCD_Stop </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_h_c_d___handle_type_def.html">HCD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hhcd</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Stop the host driver. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hhcd</td><td>HCD handle </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

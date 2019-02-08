@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.15"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>STM32F4xx_HAL_Driver: UART_Exported_Functions_Group3</title>
+<title>STM32F4xx_HAL_Driver: Peripheral Control functions</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,29 +64,201 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">UART_Exported_Functions_Group3<div class="ingroups"><a class="el" href="group___u_a_r_t___exported___functions.html">UART_Exported_Functions</a></div></div>  </div>
+<div class="title">Peripheral Control functions<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___u_a_r_t.html">UART</a> &raquo; <a class="el" href="group___u_a_r_t___exported___functions.html">UART Exported Functions</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>UART control functions.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gaffbf11fb4929f709004a11675cd25fcf"><td class="memItemLeft" align="right" valign="top"><a id="gaffbf11fb4929f709004a11675cd25fcf"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_LIN_SendBreak</b> (<a class="el" href="struct_u_a_r_t___handle_type_def.html">UART_HandleTypeDef</a> *huart)</td></tr>
+<tr class="memitem:gaffbf11fb4929f709004a11675cd25fcf"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_a_r_t___exported___functions___group3.html#gaffbf11fb4929f709004a11675cd25fcf">HAL_LIN_SendBreak</a> (<a class="el" href="struct_u_a_r_t___handle_type_def.html">UART_HandleTypeDef</a> *huart)</td></tr>
+<tr class="memdesc:gaffbf11fb4929f709004a11675cd25fcf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transmits break characters.  <a href="#gaffbf11fb4929f709004a11675cd25fcf">More...</a><br /></td></tr>
 <tr class="separator:gaffbf11fb4929f709004a11675cd25fcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga659637545299b91d2a77dadaf7266bf2"><td class="memItemLeft" align="right" valign="top"><a id="ga659637545299b91d2a77dadaf7266bf2"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_MultiProcessor_EnterMuteMode</b> (<a class="el" href="struct_u_a_r_t___handle_type_def.html">UART_HandleTypeDef</a> *huart)</td></tr>
+<tr class="memitem:ga659637545299b91d2a77dadaf7266bf2"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_a_r_t___exported___functions___group3.html#ga659637545299b91d2a77dadaf7266bf2">HAL_MultiProcessor_EnterMuteMode</a> (<a class="el" href="struct_u_a_r_t___handle_type_def.html">UART_HandleTypeDef</a> *huart)</td></tr>
+<tr class="memdesc:ga659637545299b91d2a77dadaf7266bf2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enters the UART in mute mode.  <a href="#ga659637545299b91d2a77dadaf7266bf2">More...</a><br /></td></tr>
 <tr class="separator:ga659637545299b91d2a77dadaf7266bf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga81b90fb3a4d7a8601a92260edbd3422f"><td class="memItemLeft" align="right" valign="top"><a id="ga81b90fb3a4d7a8601a92260edbd3422f"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_MultiProcessor_ExitMuteMode</b> (<a class="el" href="struct_u_a_r_t___handle_type_def.html">UART_HandleTypeDef</a> *huart)</td></tr>
+<tr class="memitem:ga81b90fb3a4d7a8601a92260edbd3422f"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_a_r_t___exported___functions___group3.html#ga81b90fb3a4d7a8601a92260edbd3422f">HAL_MultiProcessor_ExitMuteMode</a> (<a class="el" href="struct_u_a_r_t___handle_type_def.html">UART_HandleTypeDef</a> *huart)</td></tr>
+<tr class="memdesc:ga81b90fb3a4d7a8601a92260edbd3422f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Exits the UART mute mode: wake up software.  <a href="#ga81b90fb3a4d7a8601a92260edbd3422f">More...</a><br /></td></tr>
 <tr class="separator:ga81b90fb3a4d7a8601a92260edbd3422f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga58d73e260a5536fb9cb40d7d2fe2b4bb"><td class="memItemLeft" align="right" valign="top"><a id="ga58d73e260a5536fb9cb40d7d2fe2b4bb"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_HalfDuplex_EnableTransmitter</b> (<a class="el" href="struct_u_a_r_t___handle_type_def.html">UART_HandleTypeDef</a> *huart)</td></tr>
+<tr class="memitem:ga58d73e260a5536fb9cb40d7d2fe2b4bb"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_a_r_t___exported___functions___group3.html#ga58d73e260a5536fb9cb40d7d2fe2b4bb">HAL_HalfDuplex_EnableTransmitter</a> (<a class="el" href="struct_u_a_r_t___handle_type_def.html">UART_HandleTypeDef</a> *huart)</td></tr>
+<tr class="memdesc:ga58d73e260a5536fb9cb40d7d2fe2b4bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enables the UART transmitter and disables the UART receiver.  <a href="#ga58d73e260a5536fb9cb40d7d2fe2b4bb">More...</a><br /></td></tr>
 <tr class="separator:ga58d73e260a5536fb9cb40d7d2fe2b4bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga396ebbcdbe352c3393ad3007614383ac"><td class="memItemLeft" align="right" valign="top"><a id="ga396ebbcdbe352c3393ad3007614383ac"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_HalfDuplex_EnableReceiver</b> (<a class="el" href="struct_u_a_r_t___handle_type_def.html">UART_HandleTypeDef</a> *huart)</td></tr>
+<tr class="memitem:ga396ebbcdbe352c3393ad3007614383ac"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_a_r_t___exported___functions___group3.html#ga396ebbcdbe352c3393ad3007614383ac">HAL_HalfDuplex_EnableReceiver</a> (<a class="el" href="struct_u_a_r_t___handle_type_def.html">UART_HandleTypeDef</a> *huart)</td></tr>
+<tr class="memdesc:ga396ebbcdbe352c3393ad3007614383ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enables the UART receiver and disables the UART transmitter.  <a href="#ga396ebbcdbe352c3393ad3007614383ac">More...</a><br /></td></tr>
 <tr class="separator:ga396ebbcdbe352c3393ad3007614383ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>UART control functions. </p>
+<pre class="fragment">  ==============================================================================
+                      ##### Peripheral Control functions #####
+  ==============================================================================  
+  [..]
+    This subsection provides a set of functions allowing to control the UART:
+    (+) HAL_LIN_SendBreak() API can be helpful to transmit the break character.
+    (+) HAL_MultiProcessor_EnterMuteMode() API can be helpful to enter the UART in mute mode. 
+    (+) HAL_MultiProcessor_ExitMuteMode() API can be helpful to exit the UART mute mode by software.</pre> <h2 class="groupheader">Function Documentation</h2>
+<a id="ga396ebbcdbe352c3393ad3007614383ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga396ebbcdbe352c3393ad3007614383ac">&#9670;&nbsp;</a></span>HAL_HalfDuplex_EnableReceiver()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_HalfDuplex_EnableReceiver </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_u_a_r_t___handle_type_def.html">UART_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>huart</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Enables the UART receiver and disables the UART transmitter. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">huart</td><td>pointer to a <a class="el" href="struct_u_a_r_t___handle_type_def.html" title="UART handle Structure definition.">UART_HandleTypeDef</a> structure that contains the configuration information for the specified UART module. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga58d73e260a5536fb9cb40d7d2fe2b4bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga58d73e260a5536fb9cb40d7d2fe2b4bb">&#9670;&nbsp;</a></span>HAL_HalfDuplex_EnableTransmitter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_HalfDuplex_EnableTransmitter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_u_a_r_t___handle_type_def.html">UART_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>huart</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Enables the UART transmitter and disables the UART receiver. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">huart</td><td>pointer to a <a class="el" href="struct_u_a_r_t___handle_type_def.html" title="UART handle Structure definition.">UART_HandleTypeDef</a> structure that contains the configuration information for the specified UART module. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaffbf11fb4929f709004a11675cd25fcf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaffbf11fb4929f709004a11675cd25fcf">&#9670;&nbsp;</a></span>HAL_LIN_SendBreak()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_LIN_SendBreak </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_u_a_r_t___handle_type_def.html">UART_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>huart</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Transmits break characters. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">huart</td><td>pointer to a <a class="el" href="struct_u_a_r_t___handle_type_def.html" title="UART handle Structure definition.">UART_HandleTypeDef</a> structure that contains the configuration information for the specified UART module. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga659637545299b91d2a77dadaf7266bf2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga659637545299b91d2a77dadaf7266bf2">&#9670;&nbsp;</a></span>HAL_MultiProcessor_EnterMuteMode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_MultiProcessor_EnterMuteMode </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_u_a_r_t___handle_type_def.html">UART_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>huart</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Enters the UART in mute mode. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">huart</td><td>pointer to a <a class="el" href="struct_u_a_r_t___handle_type_def.html" title="UART handle Structure definition.">UART_HandleTypeDef</a> structure that contains the configuration information for the specified UART module. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga81b90fb3a4d7a8601a92260edbd3422f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga81b90fb3a4d7a8601a92260edbd3422f">&#9670;&nbsp;</a></span>HAL_MultiProcessor_ExitMuteMode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_MultiProcessor_ExitMuteMode </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_u_a_r_t___handle_type_def.html">UART_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>huart</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Exits the UART mute mode: wake up software. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">huart</td><td>pointer to a <a class="el" href="struct_u_a_r_t___handle_type_def.html" title="UART handle Structure definition.">UART_HandleTypeDef</a> structure that contains the configuration information for the specified UART module. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

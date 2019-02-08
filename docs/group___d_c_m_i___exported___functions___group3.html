@@ -64,23 +64,161 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">Peripheral Control functions<div class="ingroups"><a class="el" href="group___d_c_m_i___exported___functions.html">DCMI Exported Functions</a></div></div>  </div>
+<div class="title">Peripheral Control functions<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___d_c_m_i.html">DCMI</a> &raquo; <a class="el" href="group___d_c_m_i___exported___functions.html">DCMI Exported Functions</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Peripheral Control functions.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga5c313400c408acd776625cf27539c000"><td class="memItemLeft" align="right" valign="top"><a id="ga5c313400c408acd776625cf27539c000"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DCMI_ConfigCrop</b> (<a class="el" href="struct_d_c_m_i___handle_type_def.html">DCMI_HandleTypeDef</a> *hdcmi, uint32_t X0, uint32_t Y0, uint32_t XSize, uint32_t YSize)</td></tr>
+<tr class="memitem:ga5c313400c408acd776625cf27539c000"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_c_m_i___exported___functions___group3.html#ga5c313400c408acd776625cf27539c000">HAL_DCMI_ConfigCrop</a> (<a class="el" href="struct_d_c_m_i___handle_type_def.html">DCMI_HandleTypeDef</a> *hdcmi, uint32_t X0, uint32_t Y0, uint32_t XSize, uint32_t YSize)</td></tr>
+<tr class="memdesc:ga5c313400c408acd776625cf27539c000"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configure the DCMI CROP coordinate.  <a href="#ga5c313400c408acd776625cf27539c000">More...</a><br /></td></tr>
 <tr class="separator:ga5c313400c408acd776625cf27539c000"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga102bdb05bd8658451613d9559583e121"><td class="memItemLeft" align="right" valign="top"><a id="ga102bdb05bd8658451613d9559583e121"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DCMI_EnableCrop</b> (<a class="el" href="struct_d_c_m_i___handle_type_def.html">DCMI_HandleTypeDef</a> *hdcmi)</td></tr>
+<tr class="memitem:ga102bdb05bd8658451613d9559583e121"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_c_m_i___exported___functions___group3.html#ga102bdb05bd8658451613d9559583e121">HAL_DCMI_EnableCrop</a> (<a class="el" href="struct_d_c_m_i___handle_type_def.html">DCMI_HandleTypeDef</a> *hdcmi)</td></tr>
+<tr class="memdesc:ga102bdb05bd8658451613d9559583e121"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable the Crop feature.  <a href="#ga102bdb05bd8658451613d9559583e121">More...</a><br /></td></tr>
 <tr class="separator:ga102bdb05bd8658451613d9559583e121"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga9428b3e8af13d156b0988d9332393c99"><td class="memItemLeft" align="right" valign="top"><a id="ga9428b3e8af13d156b0988d9332393c99"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DCMI_DisableCrop</b> (<a class="el" href="struct_d_c_m_i___handle_type_def.html">DCMI_HandleTypeDef</a> *hdcmi)</td></tr>
+<tr class="memitem:ga9428b3e8af13d156b0988d9332393c99"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_c_m_i___exported___functions___group3.html#ga9428b3e8af13d156b0988d9332393c99">HAL_DCMI_DisableCrop</a> (<a class="el" href="struct_d_c_m_i___handle_type_def.html">DCMI_HandleTypeDef</a> *hdcmi)</td></tr>
+<tr class="memdesc:ga9428b3e8af13d156b0988d9332393c99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disable the Crop feature.  <a href="#ga9428b3e8af13d156b0988d9332393c99">More...</a><br /></td></tr>
 <tr class="separator:ga9428b3e8af13d156b0988d9332393c99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>Peripheral Control functions. </p>
+<pre class="fragment"> ===============================================================================
+                    ##### Peripheral Control functions #####
+ ===============================================================================
+[..]  This section provides functions allowing to:
+      (+) Configure the CROP feature.
+      (+) Enable/Disable the CROP feature.</pre> <h2 class="groupheader">Function Documentation</h2>
+<a id="ga5c313400c408acd776625cf27539c000"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5c313400c408acd776625cf27539c000">&#9670;&nbsp;</a></span>HAL_DCMI_ConfigCrop()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_DCMI_ConfigCrop </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_c_m_i___handle_type_def.html">DCMI_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdcmi</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>X0</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Y0</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>XSize</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>YSize</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Configure the DCMI CROP coordinate. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdcmi</td><td>pointer to a <a class="el" href="struct_d_c_m_i___handle_type_def.html" title="DCMI handle Structure definition.">DCMI_HandleTypeDef</a> structure that contains the configuration information for DCMI. </td></tr>
+    <tr><td class="paramname">X0</td><td>DCMI window X offset </td></tr>
+    <tr><td class="paramname">Y0</td><td>DCMI window Y offset </td></tr>
+    <tr><td class="paramname">XSize</td><td>DCMI Pixel per line </td></tr>
+    <tr><td class="paramname">YSize</td><td>DCMI Line number </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga9428b3e8af13d156b0988d9332393c99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9428b3e8af13d156b0988d9332393c99">&#9670;&nbsp;</a></span>HAL_DCMI_DisableCrop()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_DCMI_DisableCrop </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_c_m_i___handle_type_def.html">DCMI_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdcmi</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Disable the Crop feature. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdcmi</td><td>pointer to a <a class="el" href="struct_d_c_m_i___handle_type_def.html" title="DCMI handle Structure definition.">DCMI_HandleTypeDef</a> structure that contains the configuration information for DCMI. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga102bdb05bd8658451613d9559583e121"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga102bdb05bd8658451613d9559583e121">&#9670;&nbsp;</a></span>HAL_DCMI_EnableCrop()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_DCMI_EnableCrop </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_c_m_i___handle_type_def.html">DCMI_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdcmi</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Enable the Crop feature. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdcmi</td><td>pointer to a <a class="el" href="struct_d_c_m_i___handle_type_def.html" title="DCMI handle Structure definition.">DCMI_HandleTypeDef</a> structure that contains the configuration information for DCMI. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

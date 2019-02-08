@@ -64,23 +64,147 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">Peripheral Control functions<div class="ingroups"><a class="el" href="group___n_a_n_d___exported___functions.html">NAND Exported Functions</a></div></div>  </div>
+<div class="title">Peripheral Control functions<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___n_a_n_d.html">NAND</a> &raquo; <a class="el" href="group___n_a_n_d___exported___functions.html">NAND Exported Functions</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>management functions  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga91316bfd4f3ad4770bbb06e02071ce35"><td class="memItemLeft" align="right" valign="top"><a id="ga91316bfd4f3ad4770bbb06e02071ce35"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_NAND_ECC_Enable</b> (<a class="el" href="struct_n_a_n_d___handle_type_def.html">NAND_HandleTypeDef</a> *hnand)</td></tr>
+<tr class="memitem:ga91316bfd4f3ad4770bbb06e02071ce35"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___n_a_n_d___exported___functions___group3.html#ga91316bfd4f3ad4770bbb06e02071ce35">HAL_NAND_ECC_Enable</a> (<a class="el" href="struct_n_a_n_d___handle_type_def.html">NAND_HandleTypeDef</a> *hnand)</td></tr>
+<tr class="memdesc:ga91316bfd4f3ad4770bbb06e02071ce35"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enables dynamically NAND ECC feature.  <a href="#ga91316bfd4f3ad4770bbb06e02071ce35">More...</a><br /></td></tr>
 <tr class="separator:ga91316bfd4f3ad4770bbb06e02071ce35"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga29344a7cb80d2713e5f0d0738abcff51"><td class="memItemLeft" align="right" valign="top"><a id="ga29344a7cb80d2713e5f0d0738abcff51"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_NAND_ECC_Disable</b> (<a class="el" href="struct_n_a_n_d___handle_type_def.html">NAND_HandleTypeDef</a> *hnand)</td></tr>
+<tr class="memitem:ga29344a7cb80d2713e5f0d0738abcff51"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___n_a_n_d___exported___functions___group3.html#ga29344a7cb80d2713e5f0d0738abcff51">HAL_NAND_ECC_Disable</a> (<a class="el" href="struct_n_a_n_d___handle_type_def.html">NAND_HandleTypeDef</a> *hnand)</td></tr>
+<tr class="memdesc:ga29344a7cb80d2713e5f0d0738abcff51"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disables dynamically FMC_NAND ECC feature.  <a href="#ga29344a7cb80d2713e5f0d0738abcff51">More...</a><br /></td></tr>
 <tr class="separator:ga29344a7cb80d2713e5f0d0738abcff51"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa7a44e9d310ac35802936c8427055daf"><td class="memItemLeft" align="right" valign="top"><a id="gaa7a44e9d310ac35802936c8427055daf"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_NAND_GetECC</b> (<a class="el" href="struct_n_a_n_d___handle_type_def.html">NAND_HandleTypeDef</a> *hnand, uint32_t *ECCval, uint32_t Timeout)</td></tr>
+<tr class="memitem:gaa7a44e9d310ac35802936c8427055daf"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___n_a_n_d___exported___functions___group3.html#gaa7a44e9d310ac35802936c8427055daf">HAL_NAND_GetECC</a> (<a class="el" href="struct_n_a_n_d___handle_type_def.html">NAND_HandleTypeDef</a> *hnand, uint32_t *ECCval, uint32_t Timeout)</td></tr>
+<tr class="memdesc:gaa7a44e9d310ac35802936c8427055daf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disables dynamically NAND ECC feature.  <a href="#gaa7a44e9d310ac35802936c8427055daf">More...</a><br /></td></tr>
 <tr class="separator:gaa7a44e9d310ac35802936c8427055daf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>management functions </p>
+<pre class="fragment">  ==============================================================================
+                         ##### NAND Control functions #####
+  ==============================================================================  
+  [..]
+    This subsection provides a set of functions allowing to control dynamically
+    the NAND interface.</pre> <h2 class="groupheader">Function Documentation</h2>
+<a id="ga29344a7cb80d2713e5f0d0738abcff51"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga29344a7cb80d2713e5f0d0738abcff51">&#9670;&nbsp;</a></span>HAL_NAND_ECC_Disable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_NAND_ECC_Disable </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_n_a_n_d___handle_type_def.html">NAND_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hnand</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Disables dynamically FMC_NAND ECC feature. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hnand</td><td>pointer to a <a class="el" href="struct_n_a_n_d___handle_type_def.html" title="NAND handle Structure definition.">NAND_HandleTypeDef</a> structure that contains the configuration information for NAND module. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga91316bfd4f3ad4770bbb06e02071ce35"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga91316bfd4f3ad4770bbb06e02071ce35">&#9670;&nbsp;</a></span>HAL_NAND_ECC_Enable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_NAND_ECC_Enable </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_n_a_n_d___handle_type_def.html">NAND_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hnand</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Enables dynamically NAND ECC feature. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hnand</td><td>pointer to a <a class="el" href="struct_n_a_n_d___handle_type_def.html" title="NAND handle Structure definition.">NAND_HandleTypeDef</a> structure that contains the configuration information for NAND module. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaa7a44e9d310ac35802936c8427055daf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa7a44e9d310ac35802936c8427055daf">&#9670;&nbsp;</a></span>HAL_NAND_GetECC()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_NAND_GetECC </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_n_a_n_d___handle_type_def.html">NAND_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hnand</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t *&#160;</td>
+          <td class="paramname"><em>ECCval</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Timeout</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Disables dynamically NAND ECC feature. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hnand</td><td>pointer to a <a class="el" href="struct_n_a_n_d___handle_type_def.html" title="NAND handle Structure definition.">NAND_HandleTypeDef</a> structure that contains the configuration information for NAND module. </td></tr>
+    <tr><td class="paramname">ECCval</td><td>pointer to ECC value </td></tr>
+    <tr><td class="paramname">Timeout</td><td>maximum timeout to wait</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

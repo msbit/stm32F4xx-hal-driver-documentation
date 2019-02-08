@@ -70,14 +70,143 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gaa177b3af61740f218569a27d41f0cb3e"><td class="memItemLeft" align="right" valign="top"><a id="gaa177b3af61740f218569a27d41f0cb3e"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_HMACEx_SHA224_Start</b> (<a class="el" href="struct_h_a_s_h___handle_type_def.html">HASH_HandleTypeDef</a> *hhash, uint8_t *pInBuffer, uint32_t Size, uint8_t *pOutBuffer, uint32_t Timeout)</td></tr>
+<tr class="memitem:gaa177b3af61740f218569a27d41f0cb3e"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_a_s_h_ex___exported___functions___group2.html#gaa177b3af61740f218569a27d41f0cb3e">HAL_HMACEx_SHA224_Start</a> (<a class="el" href="struct_h_a_s_h___handle_type_def.html">HASH_HandleTypeDef</a> *hhash, uint8_t *pInBuffer, uint32_t Size, uint8_t *pOutBuffer, uint32_t Timeout)</td></tr>
+<tr class="memdesc:gaa177b3af61740f218569a27d41f0cb3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the HASH peripheral in HMAC SHA224 mode then processes pInBuffer. The digest is available in pOutBuffer.  <a href="#gaa177b3af61740f218569a27d41f0cb3e">More...</a><br /></td></tr>
 <tr class="separator:gaa177b3af61740f218569a27d41f0cb3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gadbf6840ec80be680c9b4077f094b6416"><td class="memItemLeft" align="right" valign="top"><a id="gadbf6840ec80be680c9b4077f094b6416"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_HMACEx_SHA256_Start</b> (<a class="el" href="struct_h_a_s_h___handle_type_def.html">HASH_HandleTypeDef</a> *hhash, uint8_t *pInBuffer, uint32_t Size, uint8_t *pOutBuffer, uint32_t Timeout)</td></tr>
+<tr class="memitem:gadbf6840ec80be680c9b4077f094b6416"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_a_s_h_ex___exported___functions___group2.html#gadbf6840ec80be680c9b4077f094b6416">HAL_HMACEx_SHA256_Start</a> (<a class="el" href="struct_h_a_s_h___handle_type_def.html">HASH_HandleTypeDef</a> *hhash, uint8_t *pInBuffer, uint32_t Size, uint8_t *pOutBuffer, uint32_t Timeout)</td></tr>
+<tr class="memdesc:gadbf6840ec80be680c9b4077f094b6416"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the HASH peripheral in HMAC SHA256 mode then processes pInBuffer. The digest is available in pOutBuffer.  <a href="#gadbf6840ec80be680c9b4077f094b6416">More...</a><br /></td></tr>
 <tr class="separator:gadbf6840ec80be680c9b4077f094b6416"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="gaa177b3af61740f218569a27d41f0cb3e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa177b3af61740f218569a27d41f0cb3e">&#9670;&nbsp;</a></span>HAL_HMACEx_SHA224_Start()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_HMACEx_SHA224_Start </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_h_a_s_h___handle_type_def.html">HASH_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hhash</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pInBuffer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pOutBuffer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Timeout</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initializes the HASH peripheral in HMAC SHA224 mode then processes pInBuffer. The digest is available in pOutBuffer. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hhash</td><td>pointer to a <a class="el" href="struct_h_a_s_h___handle_type_def.html">HASH_HandleTypeDef</a> structure that contains the configuration information for HASH module </td></tr>
+    <tr><td class="paramname">pInBuffer</td><td>Pointer to the input buffer (buffer to be hashed). </td></tr>
+    <tr><td class="paramname">Size</td><td>Length of the input buffer in bytes. If the Size is not multiple of 64 bytes, the padding is managed by hardware. </td></tr>
+    <tr><td class="paramname">pOutBuffer</td><td>Pointer to the computed digest. Its size must be 20 bytes. </td></tr>
+    <tr><td class="paramname">Timeout</td><td>Timeout value </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gadbf6840ec80be680c9b4077f094b6416"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gadbf6840ec80be680c9b4077f094b6416">&#9670;&nbsp;</a></span>HAL_HMACEx_SHA256_Start()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_HMACEx_SHA256_Start </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_h_a_s_h___handle_type_def.html">HASH_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hhash</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pInBuffer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pOutBuffer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Timeout</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initializes the HASH peripheral in HMAC SHA256 mode then processes pInBuffer. The digest is available in pOutBuffer. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hhash</td><td>pointer to a <a class="el" href="struct_h_a_s_h___handle_type_def.html">HASH_HandleTypeDef</a> structure that contains the configuration information for HASH module </td></tr>
+    <tr><td class="paramname">pInBuffer</td><td>Pointer to the input buffer (buffer to be hashed). </td></tr>
+    <tr><td class="paramname">Size</td><td>Length of the input buffer in bytes. If the Size is not multiple of 64 bytes, the padding is managed by hardware. </td></tr>
+    <tr><td class="paramname">pOutBuffer</td><td>Pointer to the computed digest. Its size must be 20 bytes. </td></tr>
+    <tr><td class="paramname">Timeout</td><td>Timeout value </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

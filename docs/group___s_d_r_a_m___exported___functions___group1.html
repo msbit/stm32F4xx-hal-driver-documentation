@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.15"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>STM32F4xx_HAL_Driver: SDRAM_Exported_Functions_Group1</title>
+<title>STM32F4xx_HAL_Driver: Initialization and de-initialization functions</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,38 +64,315 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">SDRAM_Exported_Functions_Group1<div class="ingroups"><a class="el" href="group___s_d_r_a_m___exported___functions.html">SDRAM Exported Functions</a></div></div>  </div>
+<div class="title">Initialization and de-initialization functions<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___s_d_r_a_m.html">SDRAM</a> &raquo; <a class="el" href="group___s_d_r_a_m___exported___functions.html">SDRAM Exported Functions</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Initialization and Configuration functions.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gaa335e9a091994423896c8d5b2a6684f9"><td class="memItemLeft" align="right" valign="top"><a id="gaa335e9a091994423896c8d5b2a6684f9"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SDRAM_Init</b> (<a class="el" href="struct_s_d_r_a_m___handle_type_def.html">SDRAM_HandleTypeDef</a> *hsdram, <a class="el" href="struct_f_m_c___s_d_r_a_m___timing_type_def.html">FMC_SDRAM_TimingTypeDef</a> *Timing)</td></tr>
+<tr class="memitem:gaa335e9a091994423896c8d5b2a6684f9"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_d_r_a_m___exported___functions___group1.html#gaa335e9a091994423896c8d5b2a6684f9">HAL_SDRAM_Init</a> (<a class="el" href="struct_s_d_r_a_m___handle_type_def.html">SDRAM_HandleTypeDef</a> *hsdram, <a class="el" href="struct_f_m_c___s_d_r_a_m___timing_type_def.html">FMC_SDRAM_TimingTypeDef</a> *Timing)</td></tr>
+<tr class="memdesc:gaa335e9a091994423896c8d5b2a6684f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs the SDRAM device initialization sequence.  <a href="#gaa335e9a091994423896c8d5b2a6684f9">More...</a><br /></td></tr>
 <tr class="separator:gaa335e9a091994423896c8d5b2a6684f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5842b6c476bd8864af5cb1813a88127f"><td class="memItemLeft" align="right" valign="top"><a id="ga5842b6c476bd8864af5cb1813a88127f"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SDRAM_DeInit</b> (<a class="el" href="struct_s_d_r_a_m___handle_type_def.html">SDRAM_HandleTypeDef</a> *hsdram)</td></tr>
+<tr class="memitem:ga5842b6c476bd8864af5cb1813a88127f"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_d_r_a_m___exported___functions___group1.html#ga5842b6c476bd8864af5cb1813a88127f">HAL_SDRAM_DeInit</a> (<a class="el" href="struct_s_d_r_a_m___handle_type_def.html">SDRAM_HandleTypeDef</a> *hsdram)</td></tr>
+<tr class="memdesc:ga5842b6c476bd8864af5cb1813a88127f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform the SDRAM device initialization sequence.  <a href="#ga5842b6c476bd8864af5cb1813a88127f">More...</a><br /></td></tr>
 <tr class="separator:ga5842b6c476bd8864af5cb1813a88127f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8dc600b9ef6e5b3b1455840b86c25792"><td class="memItemLeft" align="right" valign="top"><a id="ga8dc600b9ef6e5b3b1455840b86c25792"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SDRAM_MspInit</b> (<a class="el" href="struct_s_d_r_a_m___handle_type_def.html">SDRAM_HandleTypeDef</a> *hsdram)</td></tr>
-<tr class="separator:ga8dc600b9ef6e5b3b1455840b86c25792"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8dc783011a4823088d2b8ce43f1c31d8"><td class="memItemLeft" align="right" valign="top"><a id="ga8dc783011a4823088d2b8ce43f1c31d8"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SDRAM_MspDeInit</b> (<a class="el" href="struct_s_d_r_a_m___handle_type_def.html">SDRAM_HandleTypeDef</a> *hsdram)</td></tr>
-<tr class="separator:ga8dc783011a4823088d2b8ce43f1c31d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab7f72c812cb534276e6ebb0e27d4a1ec"><td class="memItemLeft" align="right" valign="top"><a id="gab7f72c812cb534276e6ebb0e27d4a1ec"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SDRAM_IRQHandler</b> (<a class="el" href="struct_s_d_r_a_m___handle_type_def.html">SDRAM_HandleTypeDef</a> *hsdram)</td></tr>
+<tr class="memitem:ga56de85358b2b592c8cc8b7903b55fedb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_d_r_a_m___exported___functions___group1.html#ga56de85358b2b592c8cc8b7903b55fedb">HAL_SDRAM_MspInit</a> (<a class="el" href="struct_s_d_r_a_m___handle_type_def.html">SDRAM_HandleTypeDef</a> *hsdram)</td></tr>
+<tr class="memdesc:ga56de85358b2b592c8cc8b7903b55fedb"><td class="mdescLeft">&#160;</td><td class="mdescRight">SDRAM MSP Init.  <a href="#ga56de85358b2b592c8cc8b7903b55fedb">More...</a><br /></td></tr>
+<tr class="separator:ga56de85358b2b592c8cc8b7903b55fedb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad14d79fa6bc954adbd38307cdb7d81ef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_d_r_a_m___exported___functions___group1.html#gad14d79fa6bc954adbd38307cdb7d81ef">HAL_SDRAM_MspDeInit</a> (<a class="el" href="struct_s_d_r_a_m___handle_type_def.html">SDRAM_HandleTypeDef</a> *hsdram)</td></tr>
+<tr class="memdesc:gad14d79fa6bc954adbd38307cdb7d81ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">SDRAM MSP DeInit.  <a href="#gad14d79fa6bc954adbd38307cdb7d81ef">More...</a><br /></td></tr>
+<tr class="separator:gad14d79fa6bc954adbd38307cdb7d81ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab7f72c812cb534276e6ebb0e27d4a1ec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_d_r_a_m___exported___functions___group1.html#gab7f72c812cb534276e6ebb0e27d4a1ec">HAL_SDRAM_IRQHandler</a> (<a class="el" href="struct_s_d_r_a_m___handle_type_def.html">SDRAM_HandleTypeDef</a> *hsdram)</td></tr>
+<tr class="memdesc:gab7f72c812cb534276e6ebb0e27d4a1ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function handles SDRAM refresh error interrupt request.  <a href="#gab7f72c812cb534276e6ebb0e27d4a1ec">More...</a><br /></td></tr>
 <tr class="separator:gab7f72c812cb534276e6ebb0e27d4a1ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga64f19dfae571fabe846ba41cc436963a"><td class="memItemLeft" align="right" valign="top"><a id="ga64f19dfae571fabe846ba41cc436963a"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SDRAM_RefreshErrorCallback</b> (<a class="el" href="struct_s_d_r_a_m___handle_type_def.html">SDRAM_HandleTypeDef</a> *hsdram)</td></tr>
-<tr class="separator:ga64f19dfae571fabe846ba41cc436963a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga634d21e713b3d157c5358f7017e07680"><td class="memItemLeft" align="right" valign="top"><a id="ga634d21e713b3d157c5358f7017e07680"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SDRAM_DMA_XferCpltCallback</b> (<a class="el" href="stm32f4xx__hal__dma_8h.html#a41b754a906b86bce54dc79938970138b">DMA_HandleTypeDef</a> *hdma)</td></tr>
-<tr class="separator:ga634d21e713b3d157c5358f7017e07680"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1176e047f60373379e71e4a22a852618"><td class="memItemLeft" align="right" valign="top"><a id="ga1176e047f60373379e71e4a22a852618"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SDRAM_DMA_XferErrorCallback</b> (<a class="el" href="stm32f4xx__hal__dma_8h.html#a41b754a906b86bce54dc79938970138b">DMA_HandleTypeDef</a> *hdma)</td></tr>
-<tr class="separator:ga1176e047f60373379e71e4a22a852618"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6f7a661a813a5a594f607cda1d69f75c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_d_r_a_m___exported___functions___group1.html#ga6f7a661a813a5a594f607cda1d69f75c">HAL_SDRAM_RefreshErrorCallback</a> (<a class="el" href="struct_s_d_r_a_m___handle_type_def.html">SDRAM_HandleTypeDef</a> *hsdram)</td></tr>
+<tr class="memdesc:ga6f7a661a813a5a594f607cda1d69f75c"><td class="mdescLeft">&#160;</td><td class="mdescRight">SDRAM Refresh error callback.  <a href="#ga6f7a661a813a5a594f607cda1d69f75c">More...</a><br /></td></tr>
+<tr class="separator:ga6f7a661a813a5a594f607cda1d69f75c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga32ec0626e416cab3895f67a8b348644d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_d_r_a_m___exported___functions___group1.html#ga32ec0626e416cab3895f67a8b348644d">HAL_SDRAM_DMA_XferCpltCallback</a> (<a class="el" href="stm32f4xx__hal__dma_8h.html#a41b754a906b86bce54dc79938970138b">DMA_HandleTypeDef</a> *hdma)</td></tr>
+<tr class="memdesc:ga32ec0626e416cab3895f67a8b348644d"><td class="mdescLeft">&#160;</td><td class="mdescRight">DMA transfer complete callback.  <a href="#ga32ec0626e416cab3895f67a8b348644d">More...</a><br /></td></tr>
+<tr class="separator:ga32ec0626e416cab3895f67a8b348644d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf47b5c4bb1f1d934ab49d5cb2b137398"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_d_r_a_m___exported___functions___group1.html#gaf47b5c4bb1f1d934ab49d5cb2b137398">HAL_SDRAM_DMA_XferErrorCallback</a> (<a class="el" href="stm32f4xx__hal__dma_8h.html#a41b754a906b86bce54dc79938970138b">DMA_HandleTypeDef</a> *hdma)</td></tr>
+<tr class="memdesc:gaf47b5c4bb1f1d934ab49d5cb2b137398"><td class="mdescLeft">&#160;</td><td class="mdescRight">DMA transfer complete error callback.  <a href="#gaf47b5c4bb1f1d934ab49d5cb2b137398">More...</a><br /></td></tr>
+<tr class="separator:gaf47b5c4bb1f1d934ab49d5cb2b137398"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>Initialization and Configuration functions. </p>
+<pre class="fragment">  ==============================================================================
+           ##### SDRAM Initialization and de_initialization functions #####
+  ==============================================================================
+  [..]  
+    This section provides functions allowing to initialize/de-initialize
+    the SDRAM memory</pre> <h2 class="groupheader">Function Documentation</h2>
+<a id="ga5842b6c476bd8864af5cb1813a88127f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5842b6c476bd8864af5cb1813a88127f">&#9670;&nbsp;</a></span>HAL_SDRAM_DeInit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_SDRAM_DeInit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_s_d_r_a_m___handle_type_def.html">SDRAM_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hsdram</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Perform the SDRAM device initialization sequence. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hsdram</td><td>pointer to a <a class="el" href="struct_s_d_r_a_m___handle_type_def.html" title="SDRAM handle Structure definition.">SDRAM_HandleTypeDef</a> structure that contains the configuration information for SDRAM module. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga32ec0626e416cab3895f67a8b348644d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga32ec0626e416cab3895f67a8b348644d">&#9670;&nbsp;</a></span>HAL_SDRAM_DMA_XferCpltCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_SDRAM_DMA_XferCpltCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="stm32f4xx__hal__dma_8h.html#a41b754a906b86bce54dc79938970138b">DMA_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdma</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>DMA transfer complete callback. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdma</td><td>pointer to a DMA_HandleTypeDef structure that contains the configuration information for the specified DMA module. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaf47b5c4bb1f1d934ab49d5cb2b137398"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf47b5c4bb1f1d934ab49d5cb2b137398">&#9670;&nbsp;</a></span>HAL_SDRAM_DMA_XferErrorCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_SDRAM_DMA_XferErrorCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="stm32f4xx__hal__dma_8h.html#a41b754a906b86bce54dc79938970138b">DMA_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdma</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>DMA transfer complete error callback. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdma</td><td>DMA handle </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaa335e9a091994423896c8d5b2a6684f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa335e9a091994423896c8d5b2a6684f9">&#9670;&nbsp;</a></span>HAL_SDRAM_Init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_SDRAM_Init </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_s_d_r_a_m___handle_type_def.html">SDRAM_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hsdram</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_f_m_c___s_d_r_a_m___timing_type_def.html">FMC_SDRAM_TimingTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>Timing</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Performs the SDRAM device initialization sequence. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hsdram</td><td>pointer to a <a class="el" href="struct_s_d_r_a_m___handle_type_def.html" title="SDRAM handle Structure definition.">SDRAM_HandleTypeDef</a> structure that contains the configuration information for SDRAM module. </td></tr>
+    <tr><td class="paramname">Timing</td><td>Pointer to SDRAM control timing structure </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gab7f72c812cb534276e6ebb0e27d4a1ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab7f72c812cb534276e6ebb0e27d4a1ec">&#9670;&nbsp;</a></span>HAL_SDRAM_IRQHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HAL_SDRAM_IRQHandler </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_s_d_r_a_m___handle_type_def.html">SDRAM_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hsdram</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function handles SDRAM refresh error interrupt request. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hsdram</td><td>pointer to a <a class="el" href="struct_s_d_r_a_m___handle_type_def.html" title="SDRAM handle Structure definition.">SDRAM_HandleTypeDef</a> structure that contains the configuration information for SDRAM module. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gad14d79fa6bc954adbd38307cdb7d81ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad14d79fa6bc954adbd38307cdb7d81ef">&#9670;&nbsp;</a></span>HAL_SDRAM_MspDeInit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_SDRAM_MspDeInit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_s_d_r_a_m___handle_type_def.html">SDRAM_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hsdram</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>SDRAM MSP DeInit. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hsdram</td><td>pointer to a <a class="el" href="struct_s_d_r_a_m___handle_type_def.html" title="SDRAM handle Structure definition.">SDRAM_HandleTypeDef</a> structure that contains the configuration information for SDRAM module. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga56de85358b2b592c8cc8b7903b55fedb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga56de85358b2b592c8cc8b7903b55fedb">&#9670;&nbsp;</a></span>HAL_SDRAM_MspInit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_SDRAM_MspInit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_s_d_r_a_m___handle_type_def.html">SDRAM_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hsdram</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>SDRAM MSP Init. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hsdram</td><td>pointer to a <a class="el" href="struct_s_d_r_a_m___handle_type_def.html" title="SDRAM handle Structure definition.">SDRAM_HandleTypeDef</a> structure that contains the configuration information for SDRAM module. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga6f7a661a813a5a594f607cda1d69f75c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6f7a661a813a5a594f607cda1d69f75c">&#9670;&nbsp;</a></span>HAL_SDRAM_RefreshErrorCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_SDRAM_RefreshErrorCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_s_d_r_a_m___handle_type_def.html">SDRAM_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hsdram</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>SDRAM Refresh error callback. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hsdram</td><td>pointer to a <a class="el" href="struct_s_d_r_a_m___handle_type_def.html" title="SDRAM handle Structure definition.">SDRAM_HandleTypeDef</a> structure that contains the configuration information for SDRAM module. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

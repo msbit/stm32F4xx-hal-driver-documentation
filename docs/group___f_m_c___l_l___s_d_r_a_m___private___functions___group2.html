@@ -64,32 +64,298 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">SDRAM Control functions<div class="ingroups"><a class="el" href="group___f_m_c___l_l___private___functions.html">FMC LL Private Functions</a> &raquo; <a class="el" href="group___f_m_c___l_l___s_d_r_a_m.html">SDRAM</a></div></div>  </div>
+<div class="title">SDRAM Control functions<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___f_m_c___l_l.html">FMC Low Layer</a> &raquo; <a class="el" href="group___f_m_c___l_l___private___functions.html">FMC LL Private Functions</a><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___f_m_c___l_l.html">FMC Low Layer</a> &raquo; <a class="el" href="group___f_m_c___l_l___private___functions.html">FMC LL Private Functions</a> &raquo;  &#124; <a class="el" href="group___f_m_c___l_l___p_c_c_a_r_d.html">PCCARD</a> &raquo; <a class="el" href="group___f_m_c___l_l___s_d_r_a_m.html">SDRAM</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gae479dff64b562136b1630ece63af9e98"><td class="memItemLeft" align="right" valign="top"><a id="gae479dff64b562136b1630ece63af9e98"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>FMC_SDRAM_WriteProtection_Enable</b> (FMC_SDRAM_TypeDef *Device, uint32_t Bank)</td></tr>
+<tr class="memitem:gae479dff64b562136b1630ece63af9e98"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___f_m_c___l_l___s_d_r_a_m___private___functions___group2.html#gae479dff64b562136b1630ece63af9e98">FMC_SDRAM_WriteProtection_Enable</a> (FMC_SDRAM_TypeDef *Device, uint32_t Bank)</td></tr>
+<tr class="memdesc:gae479dff64b562136b1630ece63af9e98"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enables dynamically FMC_SDRAM write protection.  <a href="#gae479dff64b562136b1630ece63af9e98">More...</a><br /></td></tr>
 <tr class="separator:gae479dff64b562136b1630ece63af9e98"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga277d3d1a938a9482d66a14cd45ed1305"><td class="memItemLeft" align="right" valign="top"><a id="ga277d3d1a938a9482d66a14cd45ed1305"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>FMC_SDRAM_WriteProtection_Disable</b> (FMC_SDRAM_TypeDef *Device, uint32_t Bank)</td></tr>
+<tr class="memitem:ga277d3d1a938a9482d66a14cd45ed1305"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___f_m_c___l_l___s_d_r_a_m___private___functions___group2.html#ga277d3d1a938a9482d66a14cd45ed1305">FMC_SDRAM_WriteProtection_Disable</a> (FMC_SDRAM_TypeDef *Device, uint32_t Bank)</td></tr>
+<tr class="memdesc:ga277d3d1a938a9482d66a14cd45ed1305"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disables dynamically FMC_SDRAM write protection.  <a href="#ga277d3d1a938a9482d66a14cd45ed1305">More...</a><br /></td></tr>
 <tr class="separator:ga277d3d1a938a9482d66a14cd45ed1305"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad35de253de4db9128388a51e4ba56e8f"><td class="memItemLeft" align="right" valign="top"><a id="gad35de253de4db9128388a51e4ba56e8f"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>FMC_SDRAM_SendCommand</b> (FMC_SDRAM_TypeDef *Device, <a class="el" href="struct_f_m_c___s_d_r_a_m___command_type_def.html">FMC_SDRAM_CommandTypeDef</a> *Command, uint32_t Timeout)</td></tr>
+<tr class="memitem:gad35de253de4db9128388a51e4ba56e8f"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___f_m_c___l_l___s_d_r_a_m___private___functions___group2.html#gad35de253de4db9128388a51e4ba56e8f">FMC_SDRAM_SendCommand</a> (FMC_SDRAM_TypeDef *Device, <a class="el" href="struct_f_m_c___s_d_r_a_m___command_type_def.html">FMC_SDRAM_CommandTypeDef</a> *Command, uint32_t Timeout)</td></tr>
+<tr class="memdesc:gad35de253de4db9128388a51e4ba56e8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send Command to the FMC SDRAM bank.  <a href="#gad35de253de4db9128388a51e4ba56e8f">More...</a><br /></td></tr>
 <tr class="separator:gad35de253de4db9128388a51e4ba56e8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf8704a78ec9ae7b0fa92dd5ae5df95e0"><td class="memItemLeft" align="right" valign="top"><a id="gaf8704a78ec9ae7b0fa92dd5ae5df95e0"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>FMC_SDRAM_ProgramRefreshRate</b> (FMC_SDRAM_TypeDef *Device, uint32_t RefreshRate)</td></tr>
+<tr class="memitem:gaf8704a78ec9ae7b0fa92dd5ae5df95e0"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___f_m_c___l_l___s_d_r_a_m___private___functions___group2.html#gaf8704a78ec9ae7b0fa92dd5ae5df95e0">FMC_SDRAM_ProgramRefreshRate</a> (FMC_SDRAM_TypeDef *Device, uint32_t RefreshRate)</td></tr>
+<tr class="memdesc:gaf8704a78ec9ae7b0fa92dd5ae5df95e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Program the SDRAM Memory Refresh rate.  <a href="#gaf8704a78ec9ae7b0fa92dd5ae5df95e0">More...</a><br /></td></tr>
 <tr class="separator:gaf8704a78ec9ae7b0fa92dd5ae5df95e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4f18f59507119e129bfdea88f25ca896"><td class="memItemLeft" align="right" valign="top"><a id="ga4f18f59507119e129bfdea88f25ca896"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>FMC_SDRAM_SetAutoRefreshNumber</b> (FMC_SDRAM_TypeDef *Device, uint32_t AutoRefreshNumber)</td></tr>
+<tr class="memitem:ga4f18f59507119e129bfdea88f25ca896"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___f_m_c___l_l___s_d_r_a_m___private___functions___group2.html#ga4f18f59507119e129bfdea88f25ca896">FMC_SDRAM_SetAutoRefreshNumber</a> (FMC_SDRAM_TypeDef *Device, uint32_t AutoRefreshNumber)</td></tr>
+<tr class="memdesc:ga4f18f59507119e129bfdea88f25ca896"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the Number of consecutive SDRAM Memory auto Refresh commands.  <a href="#ga4f18f59507119e129bfdea88f25ca896">More...</a><br /></td></tr>
 <tr class="separator:ga4f18f59507119e129bfdea88f25ca896"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gacc01c14afaa0f4c1685a8ad52e0c9eeb"><td class="memItemLeft" align="right" valign="top"><a id="gacc01c14afaa0f4c1685a8ad52e0c9eeb"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>FMC_SDRAM_GetModeStatus</b> (FMC_SDRAM_TypeDef *Device, uint32_t Bank)</td></tr>
+<tr class="memitem:gacc01c14afaa0f4c1685a8ad52e0c9eeb"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___f_m_c___l_l___s_d_r_a_m___private___functions___group2.html#gacc01c14afaa0f4c1685a8ad52e0c9eeb">FMC_SDRAM_GetModeStatus</a> (FMC_SDRAM_TypeDef *Device, uint32_t Bank)</td></tr>
+<tr class="memdesc:gacc01c14afaa0f4c1685a8ad52e0c9eeb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the indicated FMC SDRAM bank mode status.  <a href="#gacc01c14afaa0f4c1685a8ad52e0c9eeb">More...</a><br /></td></tr>
 <tr class="separator:gacc01c14afaa0f4c1685a8ad52e0c9eeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="gacc01c14afaa0f4c1685a8ad52e0c9eeb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gacc01c14afaa0f4c1685a8ad52e0c9eeb">&#9670;&nbsp;</a></span>FMC_SDRAM_GetModeStatus()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t FMC_SDRAM_GetModeStatus </td>
+          <td>(</td>
+          <td class="paramtype">FMC_SDRAM_TypeDef *&#160;</td>
+          <td class="paramname"><em>Device</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Bank</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the indicated FMC SDRAM bank mode status. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Device</td><td>Pointer to SDRAM device instance</td></tr>
+    <tr><td class="paramname">Bank</td><td>Defines the FMC SDRAM bank. This parameter can be FMC_Bank1_SDRAM or FMC_Bank2_SDRAM. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">The</td><td>FMC SDRAM bank mode status, could be on of the following values: FMC_SDRAM_NORMAL_MODE, FMC_SDRAM_SELF_REFRESH_MODE or FMC_SDRAM_POWER_DOWN_MODE. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaf8704a78ec9ae7b0fa92dd5ae5df95e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf8704a78ec9ae7b0fa92dd5ae5df95e0">&#9670;&nbsp;</a></span>FMC_SDRAM_ProgramRefreshRate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef FMC_SDRAM_ProgramRefreshRate </td>
+          <td>(</td>
+          <td class="paramtype">FMC_SDRAM_TypeDef *&#160;</td>
+          <td class="paramname"><em>Device</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>RefreshRate</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Program the SDRAM Memory Refresh rate. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Device</td><td>Pointer to SDRAM device instance</td></tr>
+    <tr><td class="paramname">RefreshRate</td><td>The SDRAM refresh rate value. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>state </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gad35de253de4db9128388a51e4ba56e8f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad35de253de4db9128388a51e4ba56e8f">&#9670;&nbsp;</a></span>FMC_SDRAM_SendCommand()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef FMC_SDRAM_SendCommand </td>
+          <td>(</td>
+          <td class="paramtype">FMC_SDRAM_TypeDef *&#160;</td>
+          <td class="paramname"><em>Device</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_f_m_c___s_d_r_a_m___command_type_def.html">FMC_SDRAM_CommandTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>Command</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Timeout</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Send Command to the FMC SDRAM bank. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Device</td><td>Pointer to SDRAM device instance </td></tr>
+    <tr><td class="paramname">Command</td><td>Pointer to SDRAM command structure</td></tr>
+    <tr><td class="paramname">Timing</td><td>Pointer to SDRAM Timing structure </td></tr>
+    <tr><td class="paramname">Timeout</td><td>Timeout wait value </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>state </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga4f18f59507119e129bfdea88f25ca896"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4f18f59507119e129bfdea88f25ca896">&#9670;&nbsp;</a></span>FMC_SDRAM_SetAutoRefreshNumber()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef FMC_SDRAM_SetAutoRefreshNumber </td>
+          <td>(</td>
+          <td class="paramtype">FMC_SDRAM_TypeDef *&#160;</td>
+          <td class="paramname"><em>Device</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>AutoRefreshNumber</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the Number of consecutive SDRAM Memory auto Refresh commands. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Device</td><td>Pointer to SDRAM device instance</td></tr>
+    <tr><td class="paramname">AutoRefreshNumber</td><td>Specifies the auto Refresh number.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga277d3d1a938a9482d66a14cd45ed1305"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga277d3d1a938a9482d66a14cd45ed1305">&#9670;&nbsp;</a></span>FMC_SDRAM_WriteProtection_Disable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef FMC_SDRAM_WriteProtection_Disable </td>
+          <td>(</td>
+          <td class="paramtype">FMC_SDRAM_TypeDef *&#160;</td>
+          <td class="paramname"><em>Device</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Bank</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Disables dynamically FMC_SDRAM write protection. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hsdram</td><td>FMC_SDRAM handle </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gae479dff64b562136b1630ece63af9e98"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae479dff64b562136b1630ece63af9e98">&#9670;&nbsp;</a></span>FMC_SDRAM_WriteProtection_Enable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef FMC_SDRAM_WriteProtection_Enable </td>
+          <td>(</td>
+          <td class="paramtype">FMC_SDRAM_TypeDef *&#160;</td>
+          <td class="paramname"><em>Device</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Bank</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Enables dynamically FMC_SDRAM write protection. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Device</td><td>Pointer to SDRAM device instance </td></tr>
+    <tr><td class="paramname">Bank</td><td>SDRAM bank number </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

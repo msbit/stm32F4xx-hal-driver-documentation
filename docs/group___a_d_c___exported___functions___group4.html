@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.15"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>STM32F4xx_HAL_Driver: ADC_Exported_Functions_Group4</title>
+<title>STM32F4xx_HAL_Driver: ADC Peripheral State functions</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,20 +64,95 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">ADC_Exported_Functions_Group4<div class="ingroups"><a class="el" href="group___a_d_c___exported___functions.html">ADC_Exported_Functions</a></div></div>  </div>
+<div class="title">ADC Peripheral State functions<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___a_d_c.html">ADC</a> &raquo; <a class="el" href="group___a_d_c___exported___functions.html">ADC Exported Functions</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>ADC Peripheral State functions.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga894143f0fa1502ac0afa6eae8fdaadcc"><td class="memItemLeft" align="right" valign="top"><a id="ga894143f0fa1502ac0afa6eae8fdaadcc"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_ADC_GetState</b> (<a class="el" href="struct_a_d_c___handle_type_def.html">ADC_HandleTypeDef</a> *hadc)</td></tr>
+<tr class="memitem:ga894143f0fa1502ac0afa6eae8fdaadcc"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_d_c___exported___functions___group4.html#ga894143f0fa1502ac0afa6eae8fdaadcc">HAL_ADC_GetState</a> (<a class="el" href="struct_a_d_c___handle_type_def.html">ADC_HandleTypeDef</a> *hadc)</td></tr>
+<tr class="memdesc:ga894143f0fa1502ac0afa6eae8fdaadcc"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the ADC state  <a href="#ga894143f0fa1502ac0afa6eae8fdaadcc">More...</a><br /></td></tr>
 <tr class="separator:ga894143f0fa1502ac0afa6eae8fdaadcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga3a546afb96f473f266573783f37ee8af"><td class="memItemLeft" align="right" valign="top"><a id="ga3a546afb96f473f266573783f37ee8af"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_ADC_GetError</b> (<a class="el" href="struct_a_d_c___handle_type_def.html">ADC_HandleTypeDef</a> *hadc)</td></tr>
+<tr class="memitem:ga3a546afb96f473f266573783f37ee8af"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_d_c___exported___functions___group4.html#ga3a546afb96f473f266573783f37ee8af">HAL_ADC_GetError</a> (<a class="el" href="struct_a_d_c___handle_type_def.html">ADC_HandleTypeDef</a> *hadc)</td></tr>
+<tr class="memdesc:ga3a546afb96f473f266573783f37ee8af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the ADC error code.  <a href="#ga3a546afb96f473f266573783f37ee8af">More...</a><br /></td></tr>
 <tr class="separator:ga3a546afb96f473f266573783f37ee8af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>ADC Peripheral State functions. </p>
+<pre class="fragment"> ===============================================================================
+            ##### Peripheral State and errors functions #####
+ ===============================================================================  
+    [..]
+    This subsection provides functions allowing to
+      (+) Check the ADC state
+      (+) Check the ADC Error</pre> <h2 class="groupheader">Function Documentation</h2>
+<a id="ga3a546afb96f473f266573783f37ee8af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3a546afb96f473f266573783f37ee8af">&#9670;&nbsp;</a></span>HAL_ADC_GetError()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t HAL_ADC_GetError </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_a_d_c___handle_type_def.html">ADC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hadc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return the ADC error code. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hadc</td><td>pointer to a <a class="el" href="struct_a_d_c___handle_type_def.html" title="ADC handle Structure definition.">ADC_HandleTypeDef</a> structure that contains the configuration information for the specified ADC. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">ADC</td><td>Error Code </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga894143f0fa1502ac0afa6eae8fdaadcc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga894143f0fa1502ac0afa6eae8fdaadcc">&#9670;&nbsp;</a></span>HAL_ADC_GetState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t HAL_ADC_GetState </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_a_d_c___handle_type_def.html">ADC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hadc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>return the ADC state </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hadc</td><td>pointer to a <a class="el" href="struct_a_d_c___handle_type_def.html" title="ADC handle Structure definition.">ADC_HandleTypeDef</a> structure that contains the configuration information for the specified ADC. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>state </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

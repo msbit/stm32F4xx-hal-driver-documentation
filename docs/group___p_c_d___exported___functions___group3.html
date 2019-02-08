@@ -64,53 +64,620 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">Peripheral Control functions<div class="ingroups"><a class="el" href="group___p_c_d___exported___functions.html">PCD Exported Functions</a></div></div>  </div>
+<div class="title">Peripheral Control functions<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___p_c_d.html">PCD</a> &raquo; <a class="el" href="group___p_c_d___exported___functions.html">PCD Exported Functions</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>management functions  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga89ca79760ba1c490c2d526e2590d9c8a"><td class="memItemLeft" align="right" valign="top"><a id="ga89ca79760ba1c490c2d526e2590d9c8a"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_PCD_DevConnect</b> (<a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *hpcd)</td></tr>
+<tr class="memitem:ga89ca79760ba1c490c2d526e2590d9c8a"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_c_d___exported___functions___group3.html#ga89ca79760ba1c490c2d526e2590d9c8a">HAL_PCD_DevConnect</a> (<a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *hpcd)</td></tr>
+<tr class="memdesc:ga89ca79760ba1c490c2d526e2590d9c8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connect the USB device.  <a href="#ga89ca79760ba1c490c2d526e2590d9c8a">More...</a><br /></td></tr>
 <tr class="separator:ga89ca79760ba1c490c2d526e2590d9c8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa7cb70cf9891c6e22cad3930ba2d5f99"><td class="memItemLeft" align="right" valign="top"><a id="gaa7cb70cf9891c6e22cad3930ba2d5f99"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_PCD_DevDisconnect</b> (<a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *hpcd)</td></tr>
+<tr class="memitem:gaa7cb70cf9891c6e22cad3930ba2d5f99"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_c_d___exported___functions___group3.html#gaa7cb70cf9891c6e22cad3930ba2d5f99">HAL_PCD_DevDisconnect</a> (<a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *hpcd)</td></tr>
+<tr class="memdesc:gaa7cb70cf9891c6e22cad3930ba2d5f99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disconnect the USB device.  <a href="#gaa7cb70cf9891c6e22cad3930ba2d5f99">More...</a><br /></td></tr>
 <tr class="separator:gaa7cb70cf9891c6e22cad3930ba2d5f99"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga66397fbae1dd4b6f4b5225b23345ea30"><td class="memItemLeft" align="right" valign="top"><a id="ga66397fbae1dd4b6f4b5225b23345ea30"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_PCD_SetAddress</b> (<a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *hpcd, uint8_t address)</td></tr>
+<tr class="memitem:ga66397fbae1dd4b6f4b5225b23345ea30"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_c_d___exported___functions___group3.html#ga66397fbae1dd4b6f4b5225b23345ea30">HAL_PCD_SetAddress</a> (<a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *hpcd, uint8_t address)</td></tr>
+<tr class="memdesc:ga66397fbae1dd4b6f4b5225b23345ea30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the USB Device address.  <a href="#ga66397fbae1dd4b6f4b5225b23345ea30">More...</a><br /></td></tr>
 <tr class="separator:ga66397fbae1dd4b6f4b5225b23345ea30"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab377a41f91fb7c12c12886d94bd765f2"><td class="memItemLeft" align="right" valign="top"><a id="gab377a41f91fb7c12c12886d94bd765f2"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_PCD_EP_Open</b> (<a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *hpcd, uint8_t ep_addr, uint16_t ep_mps, uint8_t ep_type)</td></tr>
+<tr class="memitem:gab377a41f91fb7c12c12886d94bd765f2"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_c_d___exported___functions___group3.html#gab377a41f91fb7c12c12886d94bd765f2">HAL_PCD_EP_Open</a> (<a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *hpcd, uint8_t ep_addr, uint16_t ep_mps, uint8_t ep_type)</td></tr>
+<tr class="memdesc:gab377a41f91fb7c12c12886d94bd765f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Open and configure an endpoint.  <a href="#gab377a41f91fb7c12c12886d94bd765f2">More...</a><br /></td></tr>
 <tr class="separator:gab377a41f91fb7c12c12886d94bd765f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga439d45b17aa238f68e43b60783836849"><td class="memItemLeft" align="right" valign="top"><a id="ga439d45b17aa238f68e43b60783836849"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_PCD_EP_Close</b> (<a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *hpcd, uint8_t ep_addr)</td></tr>
+<tr class="memitem:ga439d45b17aa238f68e43b60783836849"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_c_d___exported___functions___group3.html#ga439d45b17aa238f68e43b60783836849">HAL_PCD_EP_Close</a> (<a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *hpcd, uint8_t ep_addr)</td></tr>
+<tr class="memdesc:ga439d45b17aa238f68e43b60783836849"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deactivate an endpoint.  <a href="#ga439d45b17aa238f68e43b60783836849">More...</a><br /></td></tr>
 <tr class="separator:ga439d45b17aa238f68e43b60783836849"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0029fe7a8d3db91b13637e2507fba60c"><td class="memItemLeft" align="right" valign="top"><a id="ga0029fe7a8d3db91b13637e2507fba60c"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_PCD_EP_Receive</b> (<a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *hpcd, uint8_t ep_addr, uint8_t *pBuf, uint32_t len)</td></tr>
+<tr class="memitem:ga0029fe7a8d3db91b13637e2507fba60c"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_c_d___exported___functions___group3.html#ga0029fe7a8d3db91b13637e2507fba60c">HAL_PCD_EP_Receive</a> (<a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *hpcd, uint8_t ep_addr, uint8_t *pBuf, uint32_t len)</td></tr>
+<tr class="memdesc:ga0029fe7a8d3db91b13637e2507fba60c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Receive an amount of data.  <a href="#ga0029fe7a8d3db91b13637e2507fba60c">More...</a><br /></td></tr>
 <tr class="separator:ga0029fe7a8d3db91b13637e2507fba60c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga116ada543442c8f7a1003c4d4c211618"><td class="memItemLeft" align="right" valign="top"><a id="ga116ada543442c8f7a1003c4d4c211618"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_PCD_EP_Transmit</b> (<a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *hpcd, uint8_t ep_addr, uint8_t *pBuf, uint32_t len)</td></tr>
+<tr class="memitem:ga116ada543442c8f7a1003c4d4c211618"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_c_d___exported___functions___group3.html#ga116ada543442c8f7a1003c4d4c211618">HAL_PCD_EP_Transmit</a> (<a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *hpcd, uint8_t ep_addr, uint8_t *pBuf, uint32_t len)</td></tr>
+<tr class="memdesc:ga116ada543442c8f7a1003c4d4c211618"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send an amount of data.  <a href="#ga116ada543442c8f7a1003c4d4c211618">More...</a><br /></td></tr>
 <tr class="separator:ga116ada543442c8f7a1003c4d4c211618"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaee30320d48c739cce717a7c0f4b717cc"><td class="memItemLeft" align="right" valign="top"><a id="gaee30320d48c739cce717a7c0f4b717cc"></a>
-uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_PCD_EP_GetRxCount</b> (<a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *hpcd, uint8_t ep_addr)</td></tr>
+<tr class="memitem:gaee30320d48c739cce717a7c0f4b717cc"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_c_d___exported___functions___group3.html#gaee30320d48c739cce717a7c0f4b717cc">HAL_PCD_EP_GetRxCount</a> (<a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *hpcd, uint8_t ep_addr)</td></tr>
+<tr class="memdesc:gaee30320d48c739cce717a7c0f4b717cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get Received Data Size.  <a href="#gaee30320d48c739cce717a7c0f4b717cc">More...</a><br /></td></tr>
 <tr class="separator:gaee30320d48c739cce717a7c0f4b717cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaecee197a59aacc015742c62b74881b6f"><td class="memItemLeft" align="right" valign="top"><a id="gaecee197a59aacc015742c62b74881b6f"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_PCD_EP_SetStall</b> (<a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *hpcd, uint8_t ep_addr)</td></tr>
+<tr class="memitem:gaecee197a59aacc015742c62b74881b6f"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_c_d___exported___functions___group3.html#gaecee197a59aacc015742c62b74881b6f">HAL_PCD_EP_SetStall</a> (<a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *hpcd, uint8_t ep_addr)</td></tr>
+<tr class="memdesc:gaecee197a59aacc015742c62b74881b6f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set a STALL condition over an endpoint.  <a href="#gaecee197a59aacc015742c62b74881b6f">More...</a><br /></td></tr>
 <tr class="separator:gaecee197a59aacc015742c62b74881b6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga56466fbd2aa05a80c924b18ddc2ac3ca"><td class="memItemLeft" align="right" valign="top"><a id="ga56466fbd2aa05a80c924b18ddc2ac3ca"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_PCD_EP_ClrStall</b> (<a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *hpcd, uint8_t ep_addr)</td></tr>
+<tr class="memitem:ga56466fbd2aa05a80c924b18ddc2ac3ca"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_c_d___exported___functions___group3.html#ga56466fbd2aa05a80c924b18ddc2ac3ca">HAL_PCD_EP_ClrStall</a> (<a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *hpcd, uint8_t ep_addr)</td></tr>
+<tr class="memdesc:ga56466fbd2aa05a80c924b18ddc2ac3ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear a STALL condition over in an endpoint.  <a href="#ga56466fbd2aa05a80c924b18ddc2ac3ca">More...</a><br /></td></tr>
 <tr class="separator:ga56466fbd2aa05a80c924b18ddc2ac3ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf245d7a10c697f4591c144596cb2df0f"><td class="memItemLeft" align="right" valign="top"><a id="gaf245d7a10c697f4591c144596cb2df0f"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_PCD_EP_Flush</b> (<a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *hpcd, uint8_t ep_addr)</td></tr>
+<tr class="memitem:gaf245d7a10c697f4591c144596cb2df0f"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_c_d___exported___functions___group3.html#gaf245d7a10c697f4591c144596cb2df0f">HAL_PCD_EP_Flush</a> (<a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *hpcd, uint8_t ep_addr)</td></tr>
+<tr class="memdesc:gaf245d7a10c697f4591c144596cb2df0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flush an endpoint.  <a href="#gaf245d7a10c697f4591c144596cb2df0f">More...</a><br /></td></tr>
 <tr class="separator:gaf245d7a10c697f4591c144596cb2df0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gacf293c3e537397cc6067d643d3e976fa"><td class="memItemLeft" align="right" valign="top"><a id="gacf293c3e537397cc6067d643d3e976fa"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_PCD_ActivateRemoteWakeup</b> (<a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *hpcd)</td></tr>
+<tr class="memitem:gacf293c3e537397cc6067d643d3e976fa"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_c_d___exported___functions___group3.html#gacf293c3e537397cc6067d643d3e976fa">HAL_PCD_ActivateRemoteWakeup</a> (<a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *hpcd)</td></tr>
+<tr class="memdesc:gacf293c3e537397cc6067d643d3e976fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Activate remote wakeup signalling.  <a href="#gacf293c3e537397cc6067d643d3e976fa">More...</a><br /></td></tr>
 <tr class="separator:gacf293c3e537397cc6067d643d3e976fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab9c7261c91edf2ececb0699d320cf177"><td class="memItemLeft" align="right" valign="top"><a id="gab9c7261c91edf2ececb0699d320cf177"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_PCD_DeActivateRemoteWakeup</b> (<a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *hpcd)</td></tr>
+<tr class="memitem:gab9c7261c91edf2ececb0699d320cf177"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_c_d___exported___functions___group3.html#gab9c7261c91edf2ececb0699d320cf177">HAL_PCD_DeActivateRemoteWakeup</a> (<a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *hpcd)</td></tr>
+<tr class="memdesc:gab9c7261c91edf2ececb0699d320cf177"><td class="mdescLeft">&#160;</td><td class="mdescRight">De-activate remote wakeup signalling.  <a href="#gab9c7261c91edf2ececb0699d320cf177">More...</a><br /></td></tr>
 <tr class="separator:gab9c7261c91edf2ececb0699d320cf177"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>management functions </p>
+<pre class="fragment"> ===============================================================================
+                      ##### Peripheral Control functions #####
+ ===============================================================================  
+    [..]
+    This subsection provides a set of functions allowing to control the PCD data 
+    transfers.</pre> <h2 class="groupheader">Function Documentation</h2>
+<a id="gacf293c3e537397cc6067d643d3e976fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gacf293c3e537397cc6067d643d3e976fa">&#9670;&nbsp;</a></span>HAL_PCD_ActivateRemoteWakeup()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_PCD_ActivateRemoteWakeup </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hpcd</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Activate remote wakeup signalling. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hpcd</td><td>PCD handle </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gab9c7261c91edf2ececb0699d320cf177"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab9c7261c91edf2ececb0699d320cf177">&#9670;&nbsp;</a></span>HAL_PCD_DeActivateRemoteWakeup()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_PCD_DeActivateRemoteWakeup </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hpcd</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>De-activate remote wakeup signalling. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hpcd</td><td>PCD handle </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga89ca79760ba1c490c2d526e2590d9c8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga89ca79760ba1c490c2d526e2590d9c8a">&#9670;&nbsp;</a></span>HAL_PCD_DevConnect()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_PCD_DevConnect </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hpcd</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Connect the USB device. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hpcd</td><td>PCD handle </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaa7cb70cf9891c6e22cad3930ba2d5f99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa7cb70cf9891c6e22cad3930ba2d5f99">&#9670;&nbsp;</a></span>HAL_PCD_DevDisconnect()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_PCD_DevDisconnect </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hpcd</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Disconnect the USB device. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hpcd</td><td>PCD handle </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga439d45b17aa238f68e43b60783836849"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga439d45b17aa238f68e43b60783836849">&#9670;&nbsp;</a></span>HAL_PCD_EP_Close()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_PCD_EP_Close </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hpcd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>ep_addr</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Deactivate an endpoint. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hpcd</td><td>PCD handle </td></tr>
+    <tr><td class="paramname">ep_addr</td><td>endpoint address </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga56466fbd2aa05a80c924b18ddc2ac3ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga56466fbd2aa05a80c924b18ddc2ac3ca">&#9670;&nbsp;</a></span>HAL_PCD_EP_ClrStall()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_PCD_EP_ClrStall </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hpcd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>ep_addr</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Clear a STALL condition over in an endpoint. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hpcd</td><td>PCD handle </td></tr>
+    <tr><td class="paramname">ep_addr</td><td>endpoint address </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaf245d7a10c697f4591c144596cb2df0f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf245d7a10c697f4591c144596cb2df0f">&#9670;&nbsp;</a></span>HAL_PCD_EP_Flush()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_PCD_EP_Flush </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hpcd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>ep_addr</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Flush an endpoint. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hpcd</td><td>PCD handle </td></tr>
+    <tr><td class="paramname">ep_addr</td><td>endpoint address </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaee30320d48c739cce717a7c0f4b717cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaee30320d48c739cce717a7c0f4b717cc">&#9670;&nbsp;</a></span>HAL_PCD_EP_GetRxCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint16_t HAL_PCD_EP_GetRxCount </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hpcd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>ep_addr</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get Received Data Size. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hpcd</td><td>PCD handle </td></tr>
+    <tr><td class="paramname">ep_addr</td><td>endpoint address </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">Data</td><td>Size </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gab377a41f91fb7c12c12886d94bd765f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab377a41f91fb7c12c12886d94bd765f2">&#9670;&nbsp;</a></span>HAL_PCD_EP_Open()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_PCD_EP_Open </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hpcd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>ep_addr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>ep_mps</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>ep_type</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Open and configure an endpoint. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hpcd</td><td>PCD handle </td></tr>
+    <tr><td class="paramname">ep_addr</td><td>endpoint address </td></tr>
+    <tr><td class="paramname">ep_mps</td><td>endpoint max packet size </td></tr>
+    <tr><td class="paramname">ep_type</td><td>endpoint type</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga0029fe7a8d3db91b13637e2507fba60c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0029fe7a8d3db91b13637e2507fba60c">&#9670;&nbsp;</a></span>HAL_PCD_EP_Receive()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_PCD_EP_Receive </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hpcd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>ep_addr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pBuf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>len</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Receive an amount of data. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hpcd</td><td>PCD handle </td></tr>
+    <tr><td class="paramname">ep_addr</td><td>endpoint address </td></tr>
+    <tr><td class="paramname">pBuf</td><td>pointer to the reception buffer</td></tr>
+    <tr><td class="paramname">len</td><td>amount of data to be received </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaecee197a59aacc015742c62b74881b6f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaecee197a59aacc015742c62b74881b6f">&#9670;&nbsp;</a></span>HAL_PCD_EP_SetStall()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_PCD_EP_SetStall </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hpcd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>ep_addr</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set a STALL condition over an endpoint. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hpcd</td><td>PCD handle </td></tr>
+    <tr><td class="paramname">ep_addr</td><td>endpoint address </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga116ada543442c8f7a1003c4d4c211618"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga116ada543442c8f7a1003c4d4c211618">&#9670;&nbsp;</a></span>HAL_PCD_EP_Transmit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_PCD_EP_Transmit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hpcd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>ep_addr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pBuf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>len</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Send an amount of data. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hpcd</td><td>PCD handle </td></tr>
+    <tr><td class="paramname">ep_addr</td><td>endpoint address </td></tr>
+    <tr><td class="paramname">pBuf</td><td>pointer to the transmission buffer</td></tr>
+    <tr><td class="paramname">len</td><td>amount of data to be sent </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga66397fbae1dd4b6f4b5225b23345ea30"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga66397fbae1dd4b6f4b5225b23345ea30">&#9670;&nbsp;</a></span>HAL_PCD_SetAddress()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_PCD_SetAddress </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hpcd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>address</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the USB Device address. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hpcd</td><td>PCD handle </td></tr>
+    <tr><td class="paramname">address</td><td>new device address </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

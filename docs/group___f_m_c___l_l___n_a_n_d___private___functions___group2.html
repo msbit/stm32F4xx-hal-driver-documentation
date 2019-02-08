@@ -64,23 +64,176 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">NAND Control functions<div class="ingroups"><a class="el" href="group___f_m_c___l_l___private___functions.html">FMC LL Private Functions</a> &raquo; <a class="el" href="group___f_m_c___l_l___n_a_n_d.html">NAND</a></div></div>  </div>
+<div class="title">NAND Control functions<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___f_m_c___l_l.html">FMC Low Layer</a> &raquo; <a class="el" href="group___f_m_c___l_l___private___functions.html">FMC LL Private Functions</a> &raquo; <a class="el" href="group___f_m_c___l_l___n_a_n_d.html">NAND</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>management functions  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga9f4f2bd5aac7047be227344b99b371a1"><td class="memItemLeft" align="right" valign="top"><a id="ga9f4f2bd5aac7047be227344b99b371a1"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>FMC_NAND_ECC_Enable</b> (FMC_NAND_TypeDef *Device, uint32_t Bank)</td></tr>
+<tr class="memitem:ga9f4f2bd5aac7047be227344b99b371a1"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___f_m_c___l_l___n_a_n_d___private___functions___group2.html#ga9f4f2bd5aac7047be227344b99b371a1">FMC_NAND_ECC_Enable</a> (FMC_NAND_TypeDef *Device, uint32_t Bank)</td></tr>
+<tr class="memdesc:ga9f4f2bd5aac7047be227344b99b371a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enables dynamically FMC_NAND ECC feature.  <a href="#ga9f4f2bd5aac7047be227344b99b371a1">More...</a><br /></td></tr>
 <tr class="separator:ga9f4f2bd5aac7047be227344b99b371a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga567e17faf0dd3db7148be9dd1dc1da4b"><td class="memItemLeft" align="right" valign="top"><a id="ga567e17faf0dd3db7148be9dd1dc1da4b"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>FMC_NAND_ECC_Disable</b> (FMC_NAND_TypeDef *Device, uint32_t Bank)</td></tr>
+<tr class="memitem:ga567e17faf0dd3db7148be9dd1dc1da4b"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___f_m_c___l_l___n_a_n_d___private___functions___group2.html#ga567e17faf0dd3db7148be9dd1dc1da4b">FMC_NAND_ECC_Disable</a> (FMC_NAND_TypeDef *Device, uint32_t Bank)</td></tr>
+<tr class="memdesc:ga567e17faf0dd3db7148be9dd1dc1da4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disables dynamically FMC_NAND ECC feature.  <a href="#ga567e17faf0dd3db7148be9dd1dc1da4b">More...</a><br /></td></tr>
 <tr class="separator:ga567e17faf0dd3db7148be9dd1dc1da4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad992995f2c9337ca28d4fad0de69a8d3"><td class="memItemLeft" align="right" valign="top"><a id="gad992995f2c9337ca28d4fad0de69a8d3"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>FMC_NAND_GetECC</b> (FMC_NAND_TypeDef *Device, uint32_t *ECCval, uint32_t Bank, uint32_t Timeout)</td></tr>
+<tr class="memitem:gad992995f2c9337ca28d4fad0de69a8d3"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___f_m_c___l_l___n_a_n_d___private___functions___group2.html#gad992995f2c9337ca28d4fad0de69a8d3">FMC_NAND_GetECC</a> (FMC_NAND_TypeDef *Device, uint32_t *ECCval, uint32_t Bank, uint32_t Timeout)</td></tr>
+<tr class="memdesc:gad992995f2c9337ca28d4fad0de69a8d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disables dynamically FMC_NAND ECC feature.  <a href="#gad992995f2c9337ca28d4fad0de69a8d3">More...</a><br /></td></tr>
 <tr class="separator:gad992995f2c9337ca28d4fad0de69a8d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>management functions </p>
+<pre class="fragment">  ==============================================================================
+                       ##### FMC_NAND Control functions #####
+  ==============================================================================  
+  [..]
+    This subsection provides a set of functions allowing to control dynamically
+    the FMC NAND interface.</pre> <h2 class="groupheader">Function Documentation</h2>
+<a id="ga567e17faf0dd3db7148be9dd1dc1da4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga567e17faf0dd3db7148be9dd1dc1da4b">&#9670;&nbsp;</a></span>FMC_NAND_ECC_Disable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef FMC_NAND_ECC_Disable </td>
+          <td>(</td>
+          <td class="paramtype">FMC_NAND_TypeDef *&#160;</td>
+          <td class="paramname"><em>Device</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Bank</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Disables dynamically FMC_NAND ECC feature. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Device</td><td>Pointer to NAND device instance </td></tr>
+    <tr><td class="paramname">Bank</td><td>NAND bank number </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga9f4f2bd5aac7047be227344b99b371a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9f4f2bd5aac7047be227344b99b371a1">&#9670;&nbsp;</a></span>FMC_NAND_ECC_Enable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef FMC_NAND_ECC_Enable </td>
+          <td>(</td>
+          <td class="paramtype">FMC_NAND_TypeDef *&#160;</td>
+          <td class="paramname"><em>Device</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Bank</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Enables dynamically FMC_NAND ECC feature. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Device</td><td>Pointer to NAND device instance </td></tr>
+    <tr><td class="paramname">Bank</td><td>NAND bank number </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gad992995f2c9337ca28d4fad0de69a8d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad992995f2c9337ca28d4fad0de69a8d3">&#9670;&nbsp;</a></span>FMC_NAND_GetECC()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef FMC_NAND_GetECC </td>
+          <td>(</td>
+          <td class="paramtype">FMC_NAND_TypeDef *&#160;</td>
+          <td class="paramname"><em>Device</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t *&#160;</td>
+          <td class="paramname"><em>ECCval</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Bank</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Timeout</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Disables dynamically FMC_NAND ECC feature. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Device</td><td>Pointer to NAND device instance </td></tr>
+    <tr><td class="paramname">ECCval</td><td>Pointer to ECC value </td></tr>
+    <tr><td class="paramname">Bank</td><td>NAND bank number </td></tr>
+    <tr><td class="paramname">Timeout</td><td>Timeout wait value</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

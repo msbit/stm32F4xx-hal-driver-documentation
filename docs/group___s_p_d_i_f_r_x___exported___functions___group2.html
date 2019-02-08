@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.15"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>STM32F4xx_HAL_Driver: SPDIFRX_Exported_Functions_Group2</title>
+<title>STM32F4xx_HAL_Driver: IO operation functions</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,53 +64,628 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">SPDIFRX_Exported_Functions_Group2<div class="ingroups"><a class="el" href="group___s_p_d_i_f_r_x___exported___functions.html">SPDIFRX_Exported_Functions</a></div></div>  </div>
+<div class="title">IO operation functions<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___s_p_d_i_f_r_x.html">SPDIFRX</a> &raquo; <a class="el" href="group___s_p_d_i_f_r_x___exported___functions.html">SPDIFRX Exported Functions</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Data transfers functions.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga3f29597b10990f86724b995d48467ce5"><td class="memItemLeft" align="right" valign="top"><a id="ga3f29597b10990f86724b995d48467ce5"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SPDIFRX_ReceiveDataFlow</b> (<a class="el" href="struct_s_p_d_i_f_r_x___handle_type_def.html">SPDIFRX_HandleTypeDef</a> *hspdif, uint32_t *pData, uint16_t Size, uint32_t Timeout)</td></tr>
+<tr class="memitem:ga3f29597b10990f86724b995d48467ce5"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_p_d_i_f_r_x___exported___functions___group2.html#ga3f29597b10990f86724b995d48467ce5">HAL_SPDIFRX_ReceiveDataFlow</a> (<a class="el" href="struct_s_p_d_i_f_r_x___handle_type_def.html">SPDIFRX_HandleTypeDef</a> *hspdif, uint32_t *pData, uint16_t Size, uint32_t Timeout)</td></tr>
+<tr class="memdesc:ga3f29597b10990f86724b995d48467ce5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Receives an amount of data (Data Flow) in blocking mode.  <a href="#ga3f29597b10990f86724b995d48467ce5">More...</a><br /></td></tr>
 <tr class="separator:ga3f29597b10990f86724b995d48467ce5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gafbdae1e071a64ff3643215def16142ca"><td class="memItemLeft" align="right" valign="top"><a id="gafbdae1e071a64ff3643215def16142ca"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SPDIFRX_ReceiveControlFlow</b> (<a class="el" href="struct_s_p_d_i_f_r_x___handle_type_def.html">SPDIFRX_HandleTypeDef</a> *hspdif, uint32_t *pData, uint16_t Size, uint32_t Timeout)</td></tr>
+<tr class="memitem:gafbdae1e071a64ff3643215def16142ca"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_p_d_i_f_r_x___exported___functions___group2.html#gafbdae1e071a64ff3643215def16142ca">HAL_SPDIFRX_ReceiveControlFlow</a> (<a class="el" href="struct_s_p_d_i_f_r_x___handle_type_def.html">SPDIFRX_HandleTypeDef</a> *hspdif, uint32_t *pData, uint16_t Size, uint32_t Timeout)</td></tr>
+<tr class="memdesc:gafbdae1e071a64ff3643215def16142ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Receives an amount of data (Control Flow) in blocking mode.  <a href="#gafbdae1e071a64ff3643215def16142ca">More...</a><br /></td></tr>
 <tr class="separator:gafbdae1e071a64ff3643215def16142ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf9effbe33d2f4b065667937d2a9cf346"><td class="memItemLeft" align="right" valign="top"><a id="gaf9effbe33d2f4b065667937d2a9cf346"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SPDIFRX_ReceiveControlFlow_IT</b> (<a class="el" href="struct_s_p_d_i_f_r_x___handle_type_def.html">SPDIFRX_HandleTypeDef</a> *hspdif, uint32_t *pData, uint16_t Size)</td></tr>
+<tr class="memitem:gaf9effbe33d2f4b065667937d2a9cf346"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_p_d_i_f_r_x___exported___functions___group2.html#gaf9effbe33d2f4b065667937d2a9cf346">HAL_SPDIFRX_ReceiveControlFlow_IT</a> (<a class="el" href="struct_s_p_d_i_f_r_x___handle_type_def.html">SPDIFRX_HandleTypeDef</a> *hspdif, uint32_t *pData, uint16_t Size)</td></tr>
+<tr class="memdesc:gaf9effbe33d2f4b065667937d2a9cf346"><td class="mdescLeft">&#160;</td><td class="mdescRight">Receive an amount of data (Control Flow) with Interrupt.  <a href="#gaf9effbe33d2f4b065667937d2a9cf346">More...</a><br /></td></tr>
 <tr class="separator:gaf9effbe33d2f4b065667937d2a9cf346"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae74558aff68ae3449e026dc41b5e3943"><td class="memItemLeft" align="right" valign="top"><a id="gae74558aff68ae3449e026dc41b5e3943"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SPDIFRX_ReceiveDataFlow_IT</b> (<a class="el" href="struct_s_p_d_i_f_r_x___handle_type_def.html">SPDIFRX_HandleTypeDef</a> *hspdif, uint32_t *pData, uint16_t Size)</td></tr>
+<tr class="memitem:gae74558aff68ae3449e026dc41b5e3943"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_p_d_i_f_r_x___exported___functions___group2.html#gae74558aff68ae3449e026dc41b5e3943">HAL_SPDIFRX_ReceiveDataFlow_IT</a> (<a class="el" href="struct_s_p_d_i_f_r_x___handle_type_def.html">SPDIFRX_HandleTypeDef</a> *hspdif, uint32_t *pData, uint16_t Size)</td></tr>
+<tr class="memdesc:gae74558aff68ae3449e026dc41b5e3943"><td class="mdescLeft">&#160;</td><td class="mdescRight">Receive an amount of data (Data Flow) in non-blocking mode with Interrupt.  <a href="#gae74558aff68ae3449e026dc41b5e3943">More...</a><br /></td></tr>
 <tr class="separator:gae74558aff68ae3449e026dc41b5e3943"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf4eefa739dd7a46c839896ebc9e3ddd6"><td class="memItemLeft" align="right" valign="top"><a id="gaf4eefa739dd7a46c839896ebc9e3ddd6"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SPDIFRX_IRQHandler</b> (<a class="el" href="struct_s_p_d_i_f_r_x___handle_type_def.html">SPDIFRX_HandleTypeDef</a> *hspdif)</td></tr>
+<tr class="memitem:gaf4eefa739dd7a46c839896ebc9e3ddd6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_p_d_i_f_r_x___exported___functions___group2.html#gaf4eefa739dd7a46c839896ebc9e3ddd6">HAL_SPDIFRX_IRQHandler</a> (<a class="el" href="struct_s_p_d_i_f_r_x___handle_type_def.html">SPDIFRX_HandleTypeDef</a> *hspdif)</td></tr>
+<tr class="memdesc:gaf4eefa739dd7a46c839896ebc9e3ddd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function handles SPDIFRX interrupt request.  <a href="#gaf4eefa739dd7a46c839896ebc9e3ddd6">More...</a><br /></td></tr>
 <tr class="separator:gaf4eefa739dd7a46c839896ebc9e3ddd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga768710b36af046892830ccb9db6d6204"><td class="memItemLeft" align="right" valign="top"><a id="ga768710b36af046892830ccb9db6d6204"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SPDIFRX_ReceiveControlFlow_DMA</b> (<a class="el" href="struct_s_p_d_i_f_r_x___handle_type_def.html">SPDIFRX_HandleTypeDef</a> *hspdif, uint32_t *pData, uint16_t Size)</td></tr>
+<tr class="memitem:ga768710b36af046892830ccb9db6d6204"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_p_d_i_f_r_x___exported___functions___group2.html#ga768710b36af046892830ccb9db6d6204">HAL_SPDIFRX_ReceiveControlFlow_DMA</a> (<a class="el" href="struct_s_p_d_i_f_r_x___handle_type_def.html">SPDIFRX_HandleTypeDef</a> *hspdif, uint32_t *pData, uint16_t Size)</td></tr>
+<tr class="memdesc:ga768710b36af046892830ccb9db6d6204"><td class="mdescLeft">&#160;</td><td class="mdescRight">Receive an amount of data (Control Flow) with DMA.  <a href="#ga768710b36af046892830ccb9db6d6204">More...</a><br /></td></tr>
 <tr class="separator:ga768710b36af046892830ccb9db6d6204"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaeb0fb2d839a99f62cabe7bdcd029956e"><td class="memItemLeft" align="right" valign="top"><a id="gaeb0fb2d839a99f62cabe7bdcd029956e"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SPDIFRX_ReceiveDataFlow_DMA</b> (<a class="el" href="struct_s_p_d_i_f_r_x___handle_type_def.html">SPDIFRX_HandleTypeDef</a> *hspdif, uint32_t *pData, uint16_t Size)</td></tr>
+<tr class="memitem:gaeb0fb2d839a99f62cabe7bdcd029956e"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_p_d_i_f_r_x___exported___functions___group2.html#gaeb0fb2d839a99f62cabe7bdcd029956e">HAL_SPDIFRX_ReceiveDataFlow_DMA</a> (<a class="el" href="struct_s_p_d_i_f_r_x___handle_type_def.html">SPDIFRX_HandleTypeDef</a> *hspdif, uint32_t *pData, uint16_t Size)</td></tr>
+<tr class="memdesc:gaeb0fb2d839a99f62cabe7bdcd029956e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Receive an amount of data (Data Flow) mode with DMA.  <a href="#gaeb0fb2d839a99f62cabe7bdcd029956e">More...</a><br /></td></tr>
 <tr class="separator:gaeb0fb2d839a99f62cabe7bdcd029956e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5cee1d295e13baf711a279ab4bec22a0"><td class="memItemLeft" align="right" valign="top"><a id="ga5cee1d295e13baf711a279ab4bec22a0"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SPDIFRX_DMAStop</b> (<a class="el" href="struct_s_p_d_i_f_r_x___handle_type_def.html">SPDIFRX_HandleTypeDef</a> *hspdif)</td></tr>
+<tr class="memitem:ga5cee1d295e13baf711a279ab4bec22a0"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_p_d_i_f_r_x___exported___functions___group2.html#ga5cee1d295e13baf711a279ab4bec22a0">HAL_SPDIFRX_DMAStop</a> (<a class="el" href="struct_s_p_d_i_f_r_x___handle_type_def.html">SPDIFRX_HandleTypeDef</a> *hspdif)</td></tr>
+<tr class="memdesc:ga5cee1d295e13baf711a279ab4bec22a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">stop the audio stream receive from the Media.  <a href="#ga5cee1d295e13baf711a279ab4bec22a0">More...</a><br /></td></tr>
 <tr class="separator:ga5cee1d295e13baf711a279ab4bec22a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5313667b47a14010ab8081a56b93de78"><td class="memItemLeft" align="right" valign="top"><a id="ga5313667b47a14010ab8081a56b93de78"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SPDIFRX_RxHalfCpltCallback</b> (<a class="el" href="struct_s_p_d_i_f_r_x___handle_type_def.html">SPDIFRX_HandleTypeDef</a> *hspdif)</td></tr>
-<tr class="separator:ga5313667b47a14010ab8081a56b93de78"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa9d19b94dff08dbaf3b1ff046c1b79a7"><td class="memItemLeft" align="right" valign="top"><a id="gaa9d19b94dff08dbaf3b1ff046c1b79a7"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SPDIFRX_RxCpltCallback</b> (<a class="el" href="struct_s_p_d_i_f_r_x___handle_type_def.html">SPDIFRX_HandleTypeDef</a> *hspdif)</td></tr>
-<tr class="separator:gaa9d19b94dff08dbaf3b1ff046c1b79a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga58f0d12984e481ebfac309d75310ff39"><td class="memItemLeft" align="right" valign="top"><a id="ga58f0d12984e481ebfac309d75310ff39"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SPDIFRX_ErrorCallback</b> (<a class="el" href="struct_s_p_d_i_f_r_x___handle_type_def.html">SPDIFRX_HandleTypeDef</a> *hspdif)</td></tr>
-<tr class="separator:ga58f0d12984e481ebfac309d75310ff39"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga63e90e9978786dca73c89117d41be18f"><td class="memItemLeft" align="right" valign="top"><a id="ga63e90e9978786dca73c89117d41be18f"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SPDIFRX_CxHalfCpltCallback</b> (<a class="el" href="struct_s_p_d_i_f_r_x___handle_type_def.html">SPDIFRX_HandleTypeDef</a> *hspdif)</td></tr>
-<tr class="separator:ga63e90e9978786dca73c89117d41be18f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga95ab1451401b54ef84a7fb4dadffff21"><td class="memItemLeft" align="right" valign="top"><a id="ga95ab1451401b54ef84a7fb4dadffff21"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SPDIFRX_CxCpltCallback</b> (<a class="el" href="struct_s_p_d_i_f_r_x___handle_type_def.html">SPDIFRX_HandleTypeDef</a> *hspdif)</td></tr>
-<tr class="separator:ga95ab1451401b54ef84a7fb4dadffff21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabd0678e5921df35a0868e80c301298ca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_p_d_i_f_r_x___exported___functions___group2.html#gabd0678e5921df35a0868e80c301298ca">HAL_SPDIFRX_RxHalfCpltCallback</a> (<a class="el" href="struct_s_p_d_i_f_r_x___handle_type_def.html">SPDIFRX_HandleTypeDef</a> *hspdif)</td></tr>
+<tr class="memdesc:gabd0678e5921df35a0868e80c301298ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rx Transfer (Data flow) half completed callbacks.  <a href="#gabd0678e5921df35a0868e80c301298ca">More...</a><br /></td></tr>
+<tr class="separator:gabd0678e5921df35a0868e80c301298ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga247a57d84648c0978f6788e98bfade7e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_p_d_i_f_r_x___exported___functions___group2.html#ga247a57d84648c0978f6788e98bfade7e">HAL_SPDIFRX_RxCpltCallback</a> (<a class="el" href="struct_s_p_d_i_f_r_x___handle_type_def.html">SPDIFRX_HandleTypeDef</a> *hspdif)</td></tr>
+<tr class="memdesc:ga247a57d84648c0978f6788e98bfade7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rx Transfer (Data flow) completed callbacks.  <a href="#ga247a57d84648c0978f6788e98bfade7e">More...</a><br /></td></tr>
+<tr class="separator:ga247a57d84648c0978f6788e98bfade7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4b175bc37c6caba2f47fefaa2a66012c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_p_d_i_f_r_x___exported___functions___group2.html#ga4b175bc37c6caba2f47fefaa2a66012c">HAL_SPDIFRX_ErrorCallback</a> (<a class="el" href="struct_s_p_d_i_f_r_x___handle_type_def.html">SPDIFRX_HandleTypeDef</a> *hspdif)</td></tr>
+<tr class="memdesc:ga4b175bc37c6caba2f47fefaa2a66012c"><td class="mdescLeft">&#160;</td><td class="mdescRight">SPDIFRX error callbacks.  <a href="#ga4b175bc37c6caba2f47fefaa2a66012c">More...</a><br /></td></tr>
+<tr class="separator:ga4b175bc37c6caba2f47fefaa2a66012c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga80f3cfece009324ad45fcde593765988"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_p_d_i_f_r_x___exported___functions___group2.html#ga80f3cfece009324ad45fcde593765988">HAL_SPDIFRX_CxHalfCpltCallback</a> (<a class="el" href="struct_s_p_d_i_f_r_x___handle_type_def.html">SPDIFRX_HandleTypeDef</a> *hspdif)</td></tr>
+<tr class="memdesc:ga80f3cfece009324ad45fcde593765988"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rx (Control flow) Transfer half completed callbacks.  <a href="#ga80f3cfece009324ad45fcde593765988">More...</a><br /></td></tr>
+<tr class="separator:ga80f3cfece009324ad45fcde593765988"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaee6beb1b9a77d6e0062f69aa07a34cd0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_p_d_i_f_r_x___exported___functions___group2.html#gaee6beb1b9a77d6e0062f69aa07a34cd0">HAL_SPDIFRX_CxCpltCallback</a> (<a class="el" href="struct_s_p_d_i_f_r_x___handle_type_def.html">SPDIFRX_HandleTypeDef</a> *hspdif)</td></tr>
+<tr class="memdesc:gaee6beb1b9a77d6e0062f69aa07a34cd0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rx Transfer (Control flow) completed callbacks.  <a href="#gaee6beb1b9a77d6e0062f69aa07a34cd0">More...</a><br /></td></tr>
+<tr class="separator:gaee6beb1b9a77d6e0062f69aa07a34cd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>Data transfers functions. </p>
+<pre class="fragment">===============================================================================
+                      ##### IO operation functions #####
+===============================================================================
+    [..]
+    This subsection provides a set of functions allowing to manage the SPDIFRX data
+    transfers.
+
+    (#) There is two mode of transfer:
+        (++) Blocking mode : The communication is performed in the polling mode.
+             The status of all data processing is returned by the same function
+             after finishing transfer.
+        (++) No-Blocking mode : The communication is performed using Interrupts
+             or DMA. These functions return the status of the transfer start-up.
+             The end of the data processing will be indicated through the
+             dedicated SPDIFRX IRQ when using Interrupt mode or the DMA IRQ when
+             using DMA mode.
+
+    (#) Blocking mode functions are :
+        (++) HAL_SPDIFRX_ReceiveDataFlow()
+        (++) HAL_SPDIFRX_ReceiveControlFlow()
+                (+@) Do not use blocking mode to receive both control and data flow at the same time.
+
+    (#) No-Blocking mode functions with Interrupt are :
+        (++) HAL_SPDIFRX_ReceiveControlFlow_IT()
+        (++) HAL_SPDIFRX_ReceiveDataFlow_IT()
+
+    (#) No-Blocking mode functions with DMA are :
+        (++) HAL_SPDIFRX_ReceiveControlFlow_DMA()
+        (++) HAL_SPDIFRX_ReceiveDataFlow_DMA()
+
+    (#) A set of Transfer Complete Callbacks are provided in No_Blocking mode:
+        (++) HAL_SPDIFRX_RxCpltCallback()
+        (++) HAL_SPDIFRX_ErrorCallback()</pre> <h2 class="groupheader">Function Documentation</h2>
+<a id="gaee6beb1b9a77d6e0062f69aa07a34cd0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaee6beb1b9a77d6e0062f69aa07a34cd0">&#9670;&nbsp;</a></span>HAL_SPDIFRX_CxCpltCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_SPDIFRX_CxCpltCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_s_p_d_i_f_r_x___handle_type_def.html">SPDIFRX_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hspdif</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Rx Transfer (Control flow) completed callbacks. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hspdif</td><td>SPDIFRX handle </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga80f3cfece009324ad45fcde593765988"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga80f3cfece009324ad45fcde593765988">&#9670;&nbsp;</a></span>HAL_SPDIFRX_CxHalfCpltCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_SPDIFRX_CxHalfCpltCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_s_p_d_i_f_r_x___handle_type_def.html">SPDIFRX_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hspdif</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Rx (Control flow) Transfer half completed callbacks. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hspdif</td><td>SPDIFRX handle </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga5cee1d295e13baf711a279ab4bec22a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5cee1d295e13baf711a279ab4bec22a0">&#9670;&nbsp;</a></span>HAL_SPDIFRX_DMAStop()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_SPDIFRX_DMAStop </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_s_p_d_i_f_r_x___handle_type_def.html">SPDIFRX_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hspdif</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>stop the audio stream receive from the Media. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hspdif</td><td>SPDIFRX handle </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga4b175bc37c6caba2f47fefaa2a66012c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4b175bc37c6caba2f47fefaa2a66012c">&#9670;&nbsp;</a></span>HAL_SPDIFRX_ErrorCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_SPDIFRX_ErrorCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_s_p_d_i_f_r_x___handle_type_def.html">SPDIFRX_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hspdif</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>SPDIFRX error callbacks. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hspdif</td><td>SPDIFRX handle </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaf4eefa739dd7a46c839896ebc9e3ddd6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf4eefa739dd7a46c839896ebc9e3ddd6">&#9670;&nbsp;</a></span>HAL_SPDIFRX_IRQHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HAL_SPDIFRX_IRQHandler </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_s_p_d_i_f_r_x___handle_type_def.html">SPDIFRX_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hspdif</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function handles SPDIFRX interrupt request. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hspdif</td><td>SPDIFRX handle </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gafbdae1e071a64ff3643215def16142ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gafbdae1e071a64ff3643215def16142ca">&#9670;&nbsp;</a></span>HAL_SPDIFRX_ReceiveControlFlow()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_SPDIFRX_ReceiveControlFlow </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_s_p_d_i_f_r_x___handle_type_def.html">SPDIFRX_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hspdif</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t *&#160;</td>
+          <td class="paramname"><em>pData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>Size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Timeout</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Receives an amount of data (Control Flow) in blocking mode. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hspdif</td><td>pointer to a <a class="el" href="struct_s_p_d_i_f_r_x___handle_type_def.html" title="SPDIFRX handle Structure definition.">SPDIFRX_HandleTypeDef</a> structure that contains the configuration information for SPDIFRX module. </td></tr>
+    <tr><td class="paramname">pData</td><td>Pointer to data buffer </td></tr>
+    <tr><td class="paramname">Size</td><td>Amount of data to be received </td></tr>
+    <tr><td class="paramname">Timeout</td><td>Timeout duration </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga768710b36af046892830ccb9db6d6204"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga768710b36af046892830ccb9db6d6204">&#9670;&nbsp;</a></span>HAL_SPDIFRX_ReceiveControlFlow_DMA()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_SPDIFRX_ReceiveControlFlow_DMA </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_s_p_d_i_f_r_x___handle_type_def.html">SPDIFRX_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hspdif</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t *&#160;</td>
+          <td class="paramname"><em>pData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>Size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Receive an amount of data (Control Flow) with DMA. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hspdif</td><td>SPDIFRX handle </td></tr>
+    <tr><td class="paramname">pData</td><td>a 32-bit pointer to the Receive data buffer. </td></tr>
+    <tr><td class="paramname">Size</td><td>number of data (Control Flow) sample to be received : </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaf9effbe33d2f4b065667937d2a9cf346"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf9effbe33d2f4b065667937d2a9cf346">&#9670;&nbsp;</a></span>HAL_SPDIFRX_ReceiveControlFlow_IT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_SPDIFRX_ReceiveControlFlow_IT </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_s_p_d_i_f_r_x___handle_type_def.html">SPDIFRX_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hspdif</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t *&#160;</td>
+          <td class="paramname"><em>pData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>Size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Receive an amount of data (Control Flow) with Interrupt. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hspdif</td><td>SPDIFRX handle </td></tr>
+    <tr><td class="paramname">pData</td><td>a 32-bit pointer to the Receive data buffer. </td></tr>
+    <tr><td class="paramname">Size</td><td>number of data sample (Control Flow) to be received : </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga3f29597b10990f86724b995d48467ce5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3f29597b10990f86724b995d48467ce5">&#9670;&nbsp;</a></span>HAL_SPDIFRX_ReceiveDataFlow()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_SPDIFRX_ReceiveDataFlow </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_s_p_d_i_f_r_x___handle_type_def.html">SPDIFRX_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hspdif</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t *&#160;</td>
+          <td class="paramname"><em>pData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>Size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Timeout</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Receives an amount of data (Data Flow) in blocking mode. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hspdif</td><td>pointer to <a class="el" href="struct_s_p_d_i_f_r_x___handle_type_def.html" title="SPDIFRX handle Structure definition.">SPDIFRX_HandleTypeDef</a> structure that contains the configuration information for SPDIFRX module. </td></tr>
+    <tr><td class="paramname">pData</td><td>Pointer to data buffer </td></tr>
+    <tr><td class="paramname">Size</td><td>Amount of data to be received </td></tr>
+    <tr><td class="paramname">Timeout</td><td>Timeout duration </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaeb0fb2d839a99f62cabe7bdcd029956e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaeb0fb2d839a99f62cabe7bdcd029956e">&#9670;&nbsp;</a></span>HAL_SPDIFRX_ReceiveDataFlow_DMA()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_SPDIFRX_ReceiveDataFlow_DMA </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_s_p_d_i_f_r_x___handle_type_def.html">SPDIFRX_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hspdif</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t *&#160;</td>
+          <td class="paramname"><em>pData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>Size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Receive an amount of data (Data Flow) mode with DMA. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hspdif</td><td>SPDIFRX handle </td></tr>
+    <tr><td class="paramname">pData</td><td>a 32-bit pointer to the Receive data buffer. </td></tr>
+    <tr><td class="paramname">Size</td><td>number of data sample to be received : </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gae74558aff68ae3449e026dc41b5e3943"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae74558aff68ae3449e026dc41b5e3943">&#9670;&nbsp;</a></span>HAL_SPDIFRX_ReceiveDataFlow_IT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_SPDIFRX_ReceiveDataFlow_IT </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_s_p_d_i_f_r_x___handle_type_def.html">SPDIFRX_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hspdif</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t *&#160;</td>
+          <td class="paramname"><em>pData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>Size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Receive an amount of data (Data Flow) in non-blocking mode with Interrupt. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hspdif</td><td>SPDIFRX handle </td></tr>
+    <tr><td class="paramname">pData</td><td>a 32-bit pointer to the Receive data buffer. </td></tr>
+    <tr><td class="paramname">Size</td><td>number of data sample to be received . </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga247a57d84648c0978f6788e98bfade7e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga247a57d84648c0978f6788e98bfade7e">&#9670;&nbsp;</a></span>HAL_SPDIFRX_RxCpltCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_SPDIFRX_RxCpltCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_s_p_d_i_f_r_x___handle_type_def.html">SPDIFRX_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hspdif</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Rx Transfer (Data flow) completed callbacks. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hspdif</td><td>SPDIFRX handle </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gabd0678e5921df35a0868e80c301298ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabd0678e5921df35a0868e80c301298ca">&#9670;&nbsp;</a></span>HAL_SPDIFRX_RxHalfCpltCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_SPDIFRX_RxHalfCpltCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_s_p_d_i_f_r_x___handle_type_def.html">SPDIFRX_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hspdif</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Rx Transfer (Data flow) half completed callbacks. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hspdif</td><td>SPDIFRX handle </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

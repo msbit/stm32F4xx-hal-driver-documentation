@@ -64,56 +64,596 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">Channel operation functions<div class="ingroups"><a class="el" href="group___d_f_s_d_m___exported___functions.html">DFSDM Exported Functions</a></div></div>  </div>
+<div class="title">Channel operation functions<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___d_f_s_d_m.html">DFSDM</a> &raquo; <a class="el" href="group___d_f_s_d_m___exported___functions.html">DFSDM Exported Functions</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Channel operation functions.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga3f35c6324c4a81607a02966d485cf2a1"><td class="memItemLeft" align="right" valign="top"><a id="ga3f35c6324c4a81607a02966d485cf2a1"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DFSDM_ChannelCkabStart</b> (<a class="el" href="struct_d_f_s_d_m___channel___handle_type_def.html">DFSDM_Channel_HandleTypeDef</a> *hdfsdm_channel)</td></tr>
+<tr class="memitem:ga3f35c6324c4a81607a02966d485cf2a1"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_f_s_d_m___exported___functions___group2___channel.html#ga3f35c6324c4a81607a02966d485cf2a1">HAL_DFSDM_ChannelCkabStart</a> (<a class="el" href="struct_d_f_s_d_m___channel___handle_type_def.html">DFSDM_Channel_HandleTypeDef</a> *hdfsdm_channel)</td></tr>
+<tr class="memdesc:ga3f35c6324c4a81607a02966d485cf2a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function allows to start clock absence detection in polling mode.  <a href="#ga3f35c6324c4a81607a02966d485cf2a1">More...</a><br /></td></tr>
 <tr class="separator:ga3f35c6324c4a81607a02966d485cf2a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaeba9fb6e581c63259eae9e8ece2fe04e"><td class="memItemLeft" align="right" valign="top"><a id="gaeba9fb6e581c63259eae9e8ece2fe04e"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DFSDM_ChannelCkabStart_IT</b> (<a class="el" href="struct_d_f_s_d_m___channel___handle_type_def.html">DFSDM_Channel_HandleTypeDef</a> *hdfsdm_channel)</td></tr>
+<tr class="memitem:gaeba9fb6e581c63259eae9e8ece2fe04e"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_f_s_d_m___exported___functions___group2___channel.html#gaeba9fb6e581c63259eae9e8ece2fe04e">HAL_DFSDM_ChannelCkabStart_IT</a> (<a class="el" href="struct_d_f_s_d_m___channel___handle_type_def.html">DFSDM_Channel_HandleTypeDef</a> *hdfsdm_channel)</td></tr>
+<tr class="memdesc:gaeba9fb6e581c63259eae9e8ece2fe04e"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function allows to start clock absence detection in interrupt mode.  <a href="#gaeba9fb6e581c63259eae9e8ece2fe04e">More...</a><br /></td></tr>
 <tr class="separator:gaeba9fb6e581c63259eae9e8ece2fe04e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaec01b0e749307a44a81031f3c0477697"><td class="memItemLeft" align="right" valign="top"><a id="gaec01b0e749307a44a81031f3c0477697"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DFSDM_ChannelCkabStop</b> (<a class="el" href="struct_d_f_s_d_m___channel___handle_type_def.html">DFSDM_Channel_HandleTypeDef</a> *hdfsdm_channel)</td></tr>
+<tr class="memitem:gaec01b0e749307a44a81031f3c0477697"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_f_s_d_m___exported___functions___group2___channel.html#gaec01b0e749307a44a81031f3c0477697">HAL_DFSDM_ChannelCkabStop</a> (<a class="el" href="struct_d_f_s_d_m___channel___handle_type_def.html">DFSDM_Channel_HandleTypeDef</a> *hdfsdm_channel)</td></tr>
+<tr class="memdesc:gaec01b0e749307a44a81031f3c0477697"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function allows to stop clock absence detection in polling mode.  <a href="#gaec01b0e749307a44a81031f3c0477697">More...</a><br /></td></tr>
 <tr class="separator:gaec01b0e749307a44a81031f3c0477697"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga61ab9f2b9751b5b8188ddc95a6e169bb"><td class="memItemLeft" align="right" valign="top"><a id="ga61ab9f2b9751b5b8188ddc95a6e169bb"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DFSDM_ChannelCkabStop_IT</b> (<a class="el" href="struct_d_f_s_d_m___channel___handle_type_def.html">DFSDM_Channel_HandleTypeDef</a> *hdfsdm_channel)</td></tr>
+<tr class="memitem:ga61ab9f2b9751b5b8188ddc95a6e169bb"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_f_s_d_m___exported___functions___group2___channel.html#ga61ab9f2b9751b5b8188ddc95a6e169bb">HAL_DFSDM_ChannelCkabStop_IT</a> (<a class="el" href="struct_d_f_s_d_m___channel___handle_type_def.html">DFSDM_Channel_HandleTypeDef</a> *hdfsdm_channel)</td></tr>
+<tr class="memdesc:ga61ab9f2b9751b5b8188ddc95a6e169bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function allows to stop clock absence detection in interrupt mode.  <a href="#ga61ab9f2b9751b5b8188ddc95a6e169bb">More...</a><br /></td></tr>
 <tr class="separator:ga61ab9f2b9751b5b8188ddc95a6e169bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga131659d22dd4d04ac2fa821e15354959"><td class="memItemLeft" align="right" valign="top"><a id="ga131659d22dd4d04ac2fa821e15354959"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DFSDM_ChannelScdStart</b> (<a class="el" href="struct_d_f_s_d_m___channel___handle_type_def.html">DFSDM_Channel_HandleTypeDef</a> *hdfsdm_channel, uint32_t Threshold, uint32_t BreakSignal)</td></tr>
+<tr class="memitem:ga131659d22dd4d04ac2fa821e15354959"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_f_s_d_m___exported___functions___group2___channel.html#ga131659d22dd4d04ac2fa821e15354959">HAL_DFSDM_ChannelScdStart</a> (<a class="el" href="struct_d_f_s_d_m___channel___handle_type_def.html">DFSDM_Channel_HandleTypeDef</a> *hdfsdm_channel, uint32_t Threshold, uint32_t BreakSignal)</td></tr>
+<tr class="memdesc:ga131659d22dd4d04ac2fa821e15354959"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function allows to start short circuit detection in polling mode.  <a href="#ga131659d22dd4d04ac2fa821e15354959">More...</a><br /></td></tr>
 <tr class="separator:ga131659d22dd4d04ac2fa821e15354959"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga34a165ae549e41e079381a4446b5abb3"><td class="memItemLeft" align="right" valign="top"><a id="ga34a165ae549e41e079381a4446b5abb3"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DFSDM_ChannelScdStart_IT</b> (<a class="el" href="struct_d_f_s_d_m___channel___handle_type_def.html">DFSDM_Channel_HandleTypeDef</a> *hdfsdm_channel, uint32_t Threshold, uint32_t BreakSignal)</td></tr>
+<tr class="memitem:ga34a165ae549e41e079381a4446b5abb3"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_f_s_d_m___exported___functions___group2___channel.html#ga34a165ae549e41e079381a4446b5abb3">HAL_DFSDM_ChannelScdStart_IT</a> (<a class="el" href="struct_d_f_s_d_m___channel___handle_type_def.html">DFSDM_Channel_HandleTypeDef</a> *hdfsdm_channel, uint32_t Threshold, uint32_t BreakSignal)</td></tr>
+<tr class="memdesc:ga34a165ae549e41e079381a4446b5abb3"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function allows to start short circuit detection in interrupt mode.  <a href="#ga34a165ae549e41e079381a4446b5abb3">More...</a><br /></td></tr>
 <tr class="separator:ga34a165ae549e41e079381a4446b5abb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa2d5a663da5dfc068f4a4e78552f2458"><td class="memItemLeft" align="right" valign="top"><a id="gaa2d5a663da5dfc068f4a4e78552f2458"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DFSDM_ChannelScdStop</b> (<a class="el" href="struct_d_f_s_d_m___channel___handle_type_def.html">DFSDM_Channel_HandleTypeDef</a> *hdfsdm_channel)</td></tr>
+<tr class="memitem:gaa2d5a663da5dfc068f4a4e78552f2458"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_f_s_d_m___exported___functions___group2___channel.html#gaa2d5a663da5dfc068f4a4e78552f2458">HAL_DFSDM_ChannelScdStop</a> (<a class="el" href="struct_d_f_s_d_m___channel___handle_type_def.html">DFSDM_Channel_HandleTypeDef</a> *hdfsdm_channel)</td></tr>
+<tr class="memdesc:gaa2d5a663da5dfc068f4a4e78552f2458"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function allows to stop short circuit detection in polling mode.  <a href="#gaa2d5a663da5dfc068f4a4e78552f2458">More...</a><br /></td></tr>
 <tr class="separator:gaa2d5a663da5dfc068f4a4e78552f2458"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gafce3176eb397de3f3a4ea81b175e31dd"><td class="memItemLeft" align="right" valign="top"><a id="gafce3176eb397de3f3a4ea81b175e31dd"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DFSDM_ChannelScdStop_IT</b> (<a class="el" href="struct_d_f_s_d_m___channel___handle_type_def.html">DFSDM_Channel_HandleTypeDef</a> *hdfsdm_channel)</td></tr>
+<tr class="memitem:gafce3176eb397de3f3a4ea81b175e31dd"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_f_s_d_m___exported___functions___group2___channel.html#gafce3176eb397de3f3a4ea81b175e31dd">HAL_DFSDM_ChannelScdStop_IT</a> (<a class="el" href="struct_d_f_s_d_m___channel___handle_type_def.html">DFSDM_Channel_HandleTypeDef</a> *hdfsdm_channel)</td></tr>
+<tr class="memdesc:gafce3176eb397de3f3a4ea81b175e31dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function allows to stop short circuit detection in interrupt mode.  <a href="#gafce3176eb397de3f3a4ea81b175e31dd">More...</a><br /></td></tr>
 <tr class="separator:gafce3176eb397de3f3a4ea81b175e31dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga69985363af63e4a9f8ae8fc4fa6d4619"><td class="memItemLeft" align="right" valign="top"><a id="ga69985363af63e4a9f8ae8fc4fa6d4619"></a>
-int16_t&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DFSDM_ChannelGetAwdValue</b> (<a class="el" href="struct_d_f_s_d_m___channel___handle_type_def.html">DFSDM_Channel_HandleTypeDef</a> *hdfsdm_channel)</td></tr>
+<tr class="memitem:ga69985363af63e4a9f8ae8fc4fa6d4619"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_f_s_d_m___exported___functions___group2___channel.html#ga69985363af63e4a9f8ae8fc4fa6d4619">HAL_DFSDM_ChannelGetAwdValue</a> (<a class="el" href="struct_d_f_s_d_m___channel___handle_type_def.html">DFSDM_Channel_HandleTypeDef</a> *hdfsdm_channel)</td></tr>
+<tr class="memdesc:ga69985363af63e4a9f8ae8fc4fa6d4619"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function allows to get channel analog watchdog value.  <a href="#ga69985363af63e4a9f8ae8fc4fa6d4619">More...</a><br /></td></tr>
 <tr class="separator:ga69985363af63e4a9f8ae8fc4fa6d4619"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaba6e82154aa75034e6b5d732e25c00ab"><td class="memItemLeft" align="right" valign="top"><a id="gaba6e82154aa75034e6b5d732e25c00ab"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DFSDM_ChannelModifyOffset</b> (<a class="el" href="struct_d_f_s_d_m___channel___handle_type_def.html">DFSDM_Channel_HandleTypeDef</a> *hdfsdm_channel, int32_t Offset)</td></tr>
+<tr class="memitem:gaba6e82154aa75034e6b5d732e25c00ab"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_f_s_d_m___exported___functions___group2___channel.html#gaba6e82154aa75034e6b5d732e25c00ab">HAL_DFSDM_ChannelModifyOffset</a> (<a class="el" href="struct_d_f_s_d_m___channel___handle_type_def.html">DFSDM_Channel_HandleTypeDef</a> *hdfsdm_channel, int32_t Offset)</td></tr>
+<tr class="memdesc:gaba6e82154aa75034e6b5d732e25c00ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function allows to modify channel offset value.  <a href="#gaba6e82154aa75034e6b5d732e25c00ab">More...</a><br /></td></tr>
 <tr class="separator:gaba6e82154aa75034e6b5d732e25c00ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae16e3eee2654dbc713fac485628bd4fa"><td class="memItemLeft" align="right" valign="top"><a id="gae16e3eee2654dbc713fac485628bd4fa"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DFSDM_ChannelPollForCkab</b> (<a class="el" href="struct_d_f_s_d_m___channel___handle_type_def.html">DFSDM_Channel_HandleTypeDef</a> *hdfsdm_channel, uint32_t Timeout)</td></tr>
+<tr class="memitem:gae16e3eee2654dbc713fac485628bd4fa"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_f_s_d_m___exported___functions___group2___channel.html#gae16e3eee2654dbc713fac485628bd4fa">HAL_DFSDM_ChannelPollForCkab</a> (<a class="el" href="struct_d_f_s_d_m___channel___handle_type_def.html">DFSDM_Channel_HandleTypeDef</a> *hdfsdm_channel, uint32_t Timeout)</td></tr>
+<tr class="memdesc:gae16e3eee2654dbc713fac485628bd4fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function allows to poll for the clock absence detection.  <a href="#gae16e3eee2654dbc713fac485628bd4fa">More...</a><br /></td></tr>
 <tr class="separator:gae16e3eee2654dbc713fac485628bd4fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac175507d6bc776153d81dae44473b8f7"><td class="memItemLeft" align="right" valign="top"><a id="gac175507d6bc776153d81dae44473b8f7"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DFSDM_ChannelPollForScd</b> (<a class="el" href="struct_d_f_s_d_m___channel___handle_type_def.html">DFSDM_Channel_HandleTypeDef</a> *hdfsdm_channel, uint32_t Timeout)</td></tr>
+<tr class="memitem:gac175507d6bc776153d81dae44473b8f7"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_f_s_d_m___exported___functions___group2___channel.html#gac175507d6bc776153d81dae44473b8f7">HAL_DFSDM_ChannelPollForScd</a> (<a class="el" href="struct_d_f_s_d_m___channel___handle_type_def.html">DFSDM_Channel_HandleTypeDef</a> *hdfsdm_channel, uint32_t Timeout)</td></tr>
+<tr class="memdesc:gac175507d6bc776153d81dae44473b8f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function allows to poll for the short circuit detection.  <a href="#gac175507d6bc776153d81dae44473b8f7">More...</a><br /></td></tr>
 <tr class="separator:gac175507d6bc776153d81dae44473b8f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaab6252cc1fb38fb2f4309a1b243fafe6"><td class="memItemLeft" align="right" valign="top"><a id="gaab6252cc1fb38fb2f4309a1b243fafe6"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DFSDM_ChannelCkabCallback</b> (<a class="el" href="struct_d_f_s_d_m___channel___handle_type_def.html">DFSDM_Channel_HandleTypeDef</a> *hdfsdm_channel)</td></tr>
-<tr class="separator:gaab6252cc1fb38fb2f4309a1b243fafe6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga71f75a95781396f11d9a9117681d8764"><td class="memItemLeft" align="right" valign="top"><a id="ga71f75a95781396f11d9a9117681d8764"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DFSDM_ChannelScdCallback</b> (<a class="el" href="struct_d_f_s_d_m___channel___handle_type_def.html">DFSDM_Channel_HandleTypeDef</a> *hdfsdm_channel)</td></tr>
-<tr class="separator:ga71f75a95781396f11d9a9117681d8764"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga60eedd605e357cff34029c35922988ec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_f_s_d_m___exported___functions___group2___channel.html#ga60eedd605e357cff34029c35922988ec">HAL_DFSDM_ChannelCkabCallback</a> (<a class="el" href="struct_d_f_s_d_m___channel___handle_type_def.html">DFSDM_Channel_HandleTypeDef</a> *hdfsdm_channel)</td></tr>
+<tr class="memdesc:ga60eedd605e357cff34029c35922988ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clock absence detection callback.  <a href="#ga60eedd605e357cff34029c35922988ec">More...</a><br /></td></tr>
+<tr class="separator:ga60eedd605e357cff34029c35922988ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac5980eef7525a99c9e6c7429171f15f2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_f_s_d_m___exported___functions___group2___channel.html#gac5980eef7525a99c9e6c7429171f15f2">HAL_DFSDM_ChannelScdCallback</a> (<a class="el" href="struct_d_f_s_d_m___channel___handle_type_def.html">DFSDM_Channel_HandleTypeDef</a> *hdfsdm_channel)</td></tr>
+<tr class="memdesc:gac5980eef7525a99c9e6c7429171f15f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Short circuit detection callback.  <a href="#gac5980eef7525a99c9e6c7429171f15f2">More...</a><br /></td></tr>
+<tr class="separator:gac5980eef7525a99c9e6c7429171f15f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>Channel operation functions. </p>
+<pre class="fragment">  ==============================================================================
+                   ##### Channel operation functions #####
+  ==============================================================================
+    [..]  This section provides functions allowing to:
+      (+) Manage clock absence detector feature.
+      (+) Manage short circuit detector feature.
+      (+) Get analog watchdog value.
+      (+) Modify offset value.
+</pre> <h2 class="groupheader">Function Documentation</h2>
+<a id="ga60eedd605e357cff34029c35922988ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga60eedd605e357cff34029c35922988ec">&#9670;&nbsp;</a></span>HAL_DFSDM_ChannelCkabCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_DFSDM_ChannelCkabCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_f_s_d_m___channel___handle_type_def.html">DFSDM_Channel_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdfsdm_channel</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Clock absence detection callback. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdfsdm_channel</td><td>DFSDM channel handle. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga3f35c6324c4a81607a02966d485cf2a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3f35c6324c4a81607a02966d485cf2a1">&#9670;&nbsp;</a></span>HAL_DFSDM_ChannelCkabStart()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_DFSDM_ChannelCkabStart </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_f_s_d_m___channel___handle_type_def.html">DFSDM_Channel_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdfsdm_channel</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function allows to start clock absence detection in polling mode. </p>
+<dl class="section note"><dt>Note</dt><dd>Same mode has to be used for all channels. </dd>
+<dd>
+If clock is not available on this channel during 5 seconds, clock absence detection will not be activated and function will return HAL_TIMEOUT error.</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdfsdm_channel</td><td>DFSDM channel handle. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaeba9fb6e581c63259eae9e8ece2fe04e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaeba9fb6e581c63259eae9e8ece2fe04e">&#9670;&nbsp;</a></span>HAL_DFSDM_ChannelCkabStart_IT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_DFSDM_ChannelCkabStart_IT </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_f_s_d_m___channel___handle_type_def.html">DFSDM_Channel_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdfsdm_channel</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function allows to start clock absence detection in interrupt mode. </p>
+<dl class="section note"><dt>Note</dt><dd>Same mode has to be used for all channels. </dd>
+<dd>
+If clock is not available on this channel during 5 seconds, clock absence detection will not be activated and function will return HAL_TIMEOUT error. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdfsdm_channel</td><td>DFSDM channel handle. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaec01b0e749307a44a81031f3c0477697"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaec01b0e749307a44a81031f3c0477697">&#9670;&nbsp;</a></span>HAL_DFSDM_ChannelCkabStop()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_DFSDM_ChannelCkabStop </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_f_s_d_m___channel___handle_type_def.html">DFSDM_Channel_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdfsdm_channel</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function allows to stop clock absence detection in polling mode. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdfsdm_channel</td><td>DFSDM channel handle. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga61ab9f2b9751b5b8188ddc95a6e169bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga61ab9f2b9751b5b8188ddc95a6e169bb">&#9670;&nbsp;</a></span>HAL_DFSDM_ChannelCkabStop_IT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_DFSDM_ChannelCkabStop_IT </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_f_s_d_m___channel___handle_type_def.html">DFSDM_Channel_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdfsdm_channel</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function allows to stop clock absence detection in interrupt mode. </p>
+<dl class="section note"><dt>Note</dt><dd>Interrupt will be disabled for all channels </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdfsdm_channel</td><td>DFSDM channel handle. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga69985363af63e4a9f8ae8fc4fa6d4619"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga69985363af63e4a9f8ae8fc4fa6d4619">&#9670;&nbsp;</a></span>HAL_DFSDM_ChannelGetAwdValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int16_t HAL_DFSDM_ChannelGetAwdValue </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_f_s_d_m___channel___handle_type_def.html">DFSDM_Channel_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdfsdm_channel</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function allows to get channel analog watchdog value. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdfsdm_channel</td><td>DFSDM channel handle. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">Channel</td><td>analog watchdog value. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaba6e82154aa75034e6b5d732e25c00ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaba6e82154aa75034e6b5d732e25c00ab">&#9670;&nbsp;</a></span>HAL_DFSDM_ChannelModifyOffset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_DFSDM_ChannelModifyOffset </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_f_s_d_m___channel___handle_type_def.html">DFSDM_Channel_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdfsdm_channel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int32_t&#160;</td>
+          <td class="paramname"><em>Offset</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function allows to modify channel offset value. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdfsdm_channel</td><td>DFSDM channel handle. </td></tr>
+    <tr><td class="paramname">Offset</td><td>DFSDM channel offset. This parameter must be a number between Min_Data = -8388608 and Max_Data = 8388607. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gae16e3eee2654dbc713fac485628bd4fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae16e3eee2654dbc713fac485628bd4fa">&#9670;&nbsp;</a></span>HAL_DFSDM_ChannelPollForCkab()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_DFSDM_ChannelPollForCkab </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_f_s_d_m___channel___handle_type_def.html">DFSDM_Channel_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdfsdm_channel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Timeout</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function allows to poll for the clock absence detection. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdfsdm_channel</td><td>DFSDM channel handle. </td></tr>
+    <tr><td class="paramname">Timeout</td><td>Timeout value in milliseconds. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gac175507d6bc776153d81dae44473b8f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac175507d6bc776153d81dae44473b8f7">&#9670;&nbsp;</a></span>HAL_DFSDM_ChannelPollForScd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_DFSDM_ChannelPollForScd </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_f_s_d_m___channel___handle_type_def.html">DFSDM_Channel_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdfsdm_channel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Timeout</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function allows to poll for the short circuit detection. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdfsdm_channel</td><td>DFSDM channel handle. </td></tr>
+    <tr><td class="paramname">Timeout</td><td>Timeout value in milliseconds. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gac5980eef7525a99c9e6c7429171f15f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac5980eef7525a99c9e6c7429171f15f2">&#9670;&nbsp;</a></span>HAL_DFSDM_ChannelScdCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_DFSDM_ChannelScdCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_f_s_d_m___channel___handle_type_def.html">DFSDM_Channel_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdfsdm_channel</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Short circuit detection callback. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdfsdm_channel</td><td>DFSDM channel handle. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga131659d22dd4d04ac2fa821e15354959"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga131659d22dd4d04ac2fa821e15354959">&#9670;&nbsp;</a></span>HAL_DFSDM_ChannelScdStart()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_DFSDM_ChannelScdStart </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_f_s_d_m___channel___handle_type_def.html">DFSDM_Channel_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdfsdm_channel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Threshold</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>BreakSignal</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function allows to start short circuit detection in polling mode. </p>
+<dl class="section note"><dt>Note</dt><dd>Same mode has to be used for all channels </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdfsdm_channel</td><td>DFSDM channel handle. </td></tr>
+    <tr><td class="paramname">Threshold</td><td>Short circuit detector threshold. This parameter must be a number between Min_Data = 0 and Max_Data = 255. </td></tr>
+    <tr><td class="paramname">BreakSignal</td><td>Break signals assigned to short circuit event. This parameter can be a values combination of <a class="el" href="group___d_f_s_d_m___break_signals.html">DFSDM break signals</a>. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga34a165ae549e41e079381a4446b5abb3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga34a165ae549e41e079381a4446b5abb3">&#9670;&nbsp;</a></span>HAL_DFSDM_ChannelScdStart_IT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_DFSDM_ChannelScdStart_IT </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_f_s_d_m___channel___handle_type_def.html">DFSDM_Channel_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdfsdm_channel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Threshold</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>BreakSignal</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function allows to start short circuit detection in interrupt mode. </p>
+<dl class="section note"><dt>Note</dt><dd>Same mode has to be used for all channels </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdfsdm_channel</td><td>DFSDM channel handle. </td></tr>
+    <tr><td class="paramname">Threshold</td><td>Short circuit detector threshold. This parameter must be a number between Min_Data = 0 and Max_Data = 255. </td></tr>
+    <tr><td class="paramname">BreakSignal</td><td>Break signals assigned to short circuit event. This parameter can be a values combination of <a class="el" href="group___d_f_s_d_m___break_signals.html">DFSDM break signals</a>. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaa2d5a663da5dfc068f4a4e78552f2458"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa2d5a663da5dfc068f4a4e78552f2458">&#9670;&nbsp;</a></span>HAL_DFSDM_ChannelScdStop()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_DFSDM_ChannelScdStop </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_f_s_d_m___channel___handle_type_def.html">DFSDM_Channel_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdfsdm_channel</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function allows to stop short circuit detection in polling mode. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdfsdm_channel</td><td>DFSDM channel handle. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gafce3176eb397de3f3a4ea81b175e31dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gafce3176eb397de3f3a4ea81b175e31dd">&#9670;&nbsp;</a></span>HAL_DFSDM_ChannelScdStop_IT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_DFSDM_ChannelScdStop_IT </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_f_s_d_m___channel___handle_type_def.html">DFSDM_Channel_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdfsdm_channel</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function allows to stop short circuit detection in interrupt mode. </p>
+<dl class="section note"><dt>Note</dt><dd>Interrupt will be disabled for all channels </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdfsdm_channel</td><td>DFSDM channel handle. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

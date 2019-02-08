@@ -64,17 +64,51 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">CRYPEx Private Functions</div>  </div>
+<div class="title">CRYPEx Private Functions<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___c_r_y_p_ex.html">CRYPEx</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga2eadb5606d1574f134695cc7aee686f1"><td class="memItemLeft" align="right" valign="top"><a id="ga2eadb5606d1574f134695cc7aee686f1"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>CRYP_AES_Auth_IT</b> (<a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *hcryp)</td></tr>
+<tr class="memitem:ga2eadb5606d1574f134695cc7aee686f1"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_r_y_p_ex___private___functions.html#ga2eadb5606d1574f134695cc7aee686f1">CRYP_AES_Auth_IT</a> (<a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *hcryp)</td></tr>
+<tr class="memdesc:ga2eadb5606d1574f134695cc7aee686f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle CRYP block input/output data handling under interruption for GCM, GMAC or CMAC chaining modes.  <a href="#ga2eadb5606d1574f134695cc7aee686f1">More...</a><br /></td></tr>
 <tr class="separator:ga2eadb5606d1574f134695cc7aee686f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="ga2eadb5606d1574f134695cc7aee686f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2eadb5606d1574f134695cc7aee686f1">&#9670;&nbsp;</a></span>CRYP_AES_Auth_IT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef CRYP_AES_Auth_IT </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hcryp</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Handle CRYP block input/output data handling under interruption for GCM, GMAC or CMAC chaining modes. </p>
+<dl class="section note"><dt>Note</dt><dd>The function is called under interruption only, once interruptions have been enabled by <a class="el" href="group___c_r_y_p_ex___exported___functions___group2.html#gab253a484f66160eeee802d4b65a59785" title="Carry out in interrupt mode the authentication tag generation as well as the ciphering or deciphering...">HAL_CRYPEx_AES_Auth_IT()</a>.</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hcryp</td><td>pointer to a <a class="el" href="struct_c_r_y_p___handle_type_def.html" title="CRYP handle Structure definition.">CRYP_HandleTypeDef</a> structure that contains the configuration information for CRYP module </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

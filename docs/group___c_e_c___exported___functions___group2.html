@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.15"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>STM32F4xx_HAL_Driver: CEC_Exported_Functions_Group2</title>
+<title>STM32F4xx_HAL_Driver: Input and Output operation functions</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,35 +64,343 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">CEC_Exported_Functions_Group2<div class="ingroups"><a class="el" href="group___c_e_c___exported___functions.html">CEC_Exported_Functions</a></div></div>  </div>
+<div class="title">Input and Output operation functions<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___c_e_c.html">CEC</a> &raquo; <a class="el" href="group___c_e_c___exported___functions.html">CEC Exported Functions</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>CEC Transmit/Receive functions.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gaf009a635de0b9f6e97016c5da1a85561"><td class="memItemLeft" align="right" valign="top"><a id="gaf009a635de0b9f6e97016c5da1a85561"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_CEC_Transmit_IT</b> (<a class="el" href="struct_c_e_c___handle_type_def.html">CEC_HandleTypeDef</a> *hcec, uint8_t InitiatorAddress, uint8_t DestinationAddress, uint8_t *pData, uint32_t Size)</td></tr>
+<tr class="memitem:gaf009a635de0b9f6e97016c5da1a85561"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_e_c___exported___functions___group2.html#gaf009a635de0b9f6e97016c5da1a85561">HAL_CEC_Transmit_IT</a> (<a class="el" href="struct_c_e_c___handle_type_def.html">CEC_HandleTypeDef</a> *hcec, uint8_t InitiatorAddress, uint8_t DestinationAddress, uint8_t *pData, uint32_t Size)</td></tr>
+<tr class="memdesc:gaf009a635de0b9f6e97016c5da1a85561"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send data in interrupt mode.  <a href="#gaf009a635de0b9f6e97016c5da1a85561">More...</a><br /></td></tr>
 <tr class="separator:gaf009a635de0b9f6e97016c5da1a85561"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga15b9deaca227bd63159c774e50fd3dce"><td class="memItemLeft" align="right" valign="top"><a id="ga15b9deaca227bd63159c774e50fd3dce"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_CEC_GetLastReceivedFrameSize</b> (<a class="el" href="struct_c_e_c___handle_type_def.html">CEC_HandleTypeDef</a> *hcec)</td></tr>
+<tr class="memitem:ga15b9deaca227bd63159c774e50fd3dce"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_e_c___exported___functions___group2.html#ga15b9deaca227bd63159c774e50fd3dce">HAL_CEC_GetLastReceivedFrameSize</a> (<a class="el" href="struct_c_e_c___handle_type_def.html">CEC_HandleTypeDef</a> *hcec)</td></tr>
+<tr class="memdesc:ga15b9deaca227bd63159c774e50fd3dce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get size of the received frame.  <a href="#ga15b9deaca227bd63159c774e50fd3dce">More...</a><br /></td></tr>
 <tr class="separator:ga15b9deaca227bd63159c774e50fd3dce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa2aa3c799a3afda25459a9ee61af616b"><td class="memItemLeft" align="right" valign="top"><a id="gaa2aa3c799a3afda25459a9ee61af616b"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_CEC_ChangeRxBuffer</b> (<a class="el" href="struct_c_e_c___handle_type_def.html">CEC_HandleTypeDef</a> *hcec, uint8_t *Rxbuffer)</td></tr>
+<tr class="memitem:gaa2aa3c799a3afda25459a9ee61af616b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_e_c___exported___functions___group2.html#gaa2aa3c799a3afda25459a9ee61af616b">HAL_CEC_ChangeRxBuffer</a> (<a class="el" href="struct_c_e_c___handle_type_def.html">CEC_HandleTypeDef</a> *hcec, uint8_t *Rxbuffer)</td></tr>
+<tr class="memdesc:gaa2aa3c799a3afda25459a9ee61af616b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change Rx Buffer.  <a href="#gaa2aa3c799a3afda25459a9ee61af616b">More...</a><br /></td></tr>
 <tr class="separator:gaa2aa3c799a3afda25459a9ee61af616b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2f062a2a05e24f36f9a41f2b04893148"><td class="memItemLeft" align="right" valign="top"><a id="ga2f062a2a05e24f36f9a41f2b04893148"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_CEC_IRQHandler</b> (<a class="el" href="struct_c_e_c___handle_type_def.html">CEC_HandleTypeDef</a> *hcec)</td></tr>
+<tr class="memitem:ga2f062a2a05e24f36f9a41f2b04893148"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_e_c___exported___functions___group2.html#ga2f062a2a05e24f36f9a41f2b04893148">HAL_CEC_IRQHandler</a> (<a class="el" href="struct_c_e_c___handle_type_def.html">CEC_HandleTypeDef</a> *hcec)</td></tr>
+<tr class="memdesc:ga2f062a2a05e24f36f9a41f2b04893148"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function handles CEC interrupt requests.  <a href="#ga2f062a2a05e24f36f9a41f2b04893148">More...</a><br /></td></tr>
 <tr class="separator:ga2f062a2a05e24f36f9a41f2b04893148"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4f0b92916e6326665bd69546f0cc9252"><td class="memItemLeft" align="right" valign="top"><a id="ga4f0b92916e6326665bd69546f0cc9252"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_CEC_TxCpltCallback</b> (<a class="el" href="struct_c_e_c___handle_type_def.html">CEC_HandleTypeDef</a> *hcec)</td></tr>
-<tr class="separator:ga4f0b92916e6326665bd69546f0cc9252"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5ae37120ddb041859ac15b9a90e42335"><td class="memItemLeft" align="right" valign="top"><a id="ga5ae37120ddb041859ac15b9a90e42335"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_CEC_RxCpltCallback</b> (<a class="el" href="struct_c_e_c___handle_type_def.html">CEC_HandleTypeDef</a> *hcec, uint32_t RxFrameSize)</td></tr>
-<tr class="separator:ga5ae37120ddb041859ac15b9a90e42335"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gabc33fef2115006cefd5a9d4f5d066de8"><td class="memItemLeft" align="right" valign="top"><a id="gabc33fef2115006cefd5a9d4f5d066de8"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_CEC_ErrorCallback</b> (<a class="el" href="struct_c_e_c___handle_type_def.html">CEC_HandleTypeDef</a> *hcec)</td></tr>
-<tr class="separator:gabc33fef2115006cefd5a9d4f5d066de8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0e849f0bfda54b2243838c7a008adbed"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_e_c___exported___functions___group2.html#ga0e849f0bfda54b2243838c7a008adbed">HAL_CEC_TxCpltCallback</a> (<a class="el" href="struct_c_e_c___handle_type_def.html">CEC_HandleTypeDef</a> *hcec)</td></tr>
+<tr class="memdesc:ga0e849f0bfda54b2243838c7a008adbed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tx Transfer completed callback.  <a href="#ga0e849f0bfda54b2243838c7a008adbed">More...</a><br /></td></tr>
+<tr class="separator:ga0e849f0bfda54b2243838c7a008adbed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9bcd4d754411dab549d6be4957e81325"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_e_c___exported___functions___group2.html#ga9bcd4d754411dab549d6be4957e81325">HAL_CEC_RxCpltCallback</a> (<a class="el" href="struct_c_e_c___handle_type_def.html">CEC_HandleTypeDef</a> *hcec, uint32_t RxFrameSize)</td></tr>
+<tr class="memdesc:ga9bcd4d754411dab549d6be4957e81325"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rx Transfer completed callback.  <a href="#ga9bcd4d754411dab549d6be4957e81325">More...</a><br /></td></tr>
+<tr class="separator:ga9bcd4d754411dab549d6be4957e81325"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5d4a1276a5bc2c382fda1bb999a8e7aa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_e_c___exported___functions___group2.html#ga5d4a1276a5bc2c382fda1bb999a8e7aa">HAL_CEC_ErrorCallback</a> (<a class="el" href="struct_c_e_c___handle_type_def.html">CEC_HandleTypeDef</a> *hcec)</td></tr>
+<tr class="memdesc:ga5d4a1276a5bc2c382fda1bb999a8e7aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">CEC error callbacks.  <a href="#ga5d4a1276a5bc2c382fda1bb999a8e7aa">More...</a><br /></td></tr>
+<tr class="separator:ga5d4a1276a5bc2c382fda1bb999a8e7aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>CEC Transmit/Receive functions. </p>
+<pre class="fragment"> ===============================================================================
+                      ##### IO operation functions ##### 
+ ===============================================================================  
+    This subsection provides a set of functions allowing to manage the CEC data transfers.
+    
+    (#) The CEC handle must contain the initiator (TX side) and the destination (RX side)
+        logical addresses (4-bit long addresses, 0x0F for broadcast messages destination)
+    
+    (#) The communication is performed using Interrupts. 
+           These API's return the HAL status.
+           The end of the data processing will be indicated through the 
+           dedicated CEC IRQ when using Interrupt mode.
+           The HAL_CEC_TxCpltCallback(), HAL_CEC_RxCpltCallback() user callbacks 
+           will be executed respectivelly at the end of the transmit or Receive process
+           The HAL_CEC_ErrorCallback()user callback will be executed when a communication 
+           error is detected
+        
+    (#) API's with Interrupt are :
+         (+) HAL_CEC_Transmit_IT()
+         (+) HAL_CEC_IRQHandler()
+
+    (#) A set of User Callbacks are provided:
+         (+) HAL_CEC_TxCpltCallback()
+         (+) HAL_CEC_RxCpltCallback()
+         (+) HAL_CEC_ErrorCallback()</pre> <h2 class="groupheader">Function Documentation</h2>
+<a id="gaa2aa3c799a3afda25459a9ee61af616b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa2aa3c799a3afda25459a9ee61af616b">&#9670;&nbsp;</a></span>HAL_CEC_ChangeRxBuffer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HAL_CEC_ChangeRxBuffer </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_c_e_c___handle_type_def.html">CEC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hcec</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>Rxbuffer</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Change Rx Buffer. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hcec</td><td>CEC handle </td></tr>
+    <tr><td class="paramname">Rxbuffer</td><td>Rx Buffer </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>This function can be called only inside the <a class="el" href="group___c_e_c___exported___functions___group2.html#ga9bcd4d754411dab549d6be4957e81325" title="Rx Transfer completed callback.">HAL_CEC_RxCpltCallback()</a> </dd></dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">Frame</td><td>size </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga5d4a1276a5bc2c382fda1bb999a8e7aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5d4a1276a5bc2c382fda1bb999a8e7aa">&#9670;&nbsp;</a></span>HAL_CEC_ErrorCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_CEC_ErrorCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_c_e_c___handle_type_def.html">CEC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hcec</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>CEC error callbacks. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hcec</td><td>CEC handle </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga15b9deaca227bd63159c774e50fd3dce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga15b9deaca227bd63159c774e50fd3dce">&#9670;&nbsp;</a></span>HAL_CEC_GetLastReceivedFrameSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t HAL_CEC_GetLastReceivedFrameSize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_c_e_c___handle_type_def.html">CEC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hcec</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get size of the received frame. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hcec</td><td>CEC handle </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">Frame</td><td>size </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga2f062a2a05e24f36f9a41f2b04893148"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2f062a2a05e24f36f9a41f2b04893148">&#9670;&nbsp;</a></span>HAL_CEC_IRQHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HAL_CEC_IRQHandler </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_c_e_c___handle_type_def.html">CEC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hcec</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function handles CEC interrupt requests. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hcec</td><td>CEC handle </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga9bcd4d754411dab549d6be4957e81325"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9bcd4d754411dab549d6be4957e81325">&#9670;&nbsp;</a></span>HAL_CEC_RxCpltCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_CEC_RxCpltCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_c_e_c___handle_type_def.html">CEC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hcec</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>RxFrameSize</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Rx Transfer completed callback. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hcec</td><td>CEC handle </td></tr>
+    <tr><td class="paramname">RxFrameSize</td><td>Size of frame </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaf009a635de0b9f6e97016c5da1a85561"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf009a635de0b9f6e97016c5da1a85561">&#9670;&nbsp;</a></span>HAL_CEC_Transmit_IT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_CEC_Transmit_IT </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_c_e_c___handle_type_def.html">CEC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hcec</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>InitiatorAddress</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>DestinationAddress</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Send data in interrupt mode. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hcec</td><td>CEC handle </td></tr>
+    <tr><td class="paramname">InitiatorAddress</td><td>Initiator logical address </td></tr>
+    <tr><td class="paramname">DestinationAddress</td><td>destination logical address </td></tr>
+    <tr><td class="paramname">pData</td><td>pointer to input byte data buffer </td></tr>
+    <tr><td class="paramname">Size</td><td>amount of data to be sent in bytes (without counting the header). 0 means only the header is sent (ping operation). Maximum TX size is 15 bytes (1 opcode and up to 14 operands). </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga0e849f0bfda54b2243838c7a008adbed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0e849f0bfda54b2243838c7a008adbed">&#9670;&nbsp;</a></span>HAL_CEC_TxCpltCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_CEC_TxCpltCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_c_e_c___handle_type_def.html">CEC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hcec</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Tx Transfer completed callback. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hcec</td><td>CEC handle </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

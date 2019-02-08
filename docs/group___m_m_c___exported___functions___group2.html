@@ -64,50 +64,711 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">Input and Output operation functions<div class="ingroups"><a class="el" href="group___m_m_c___exported___functions.html">MMC Exported Functions</a></div></div>  </div>
+<div class="title">Input and Output operation functions<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___m_m_c.html">MMC</a> &raquo; <a class="el" href="group___m_m_c___exported___functions.html">MMC Exported Functions</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Data transfer functions.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gab1a7ab2a179af5cc32c50f1a93b7b993"><td class="memItemLeft" align="right" valign="top"><a id="gab1a7ab2a179af5cc32c50f1a93b7b993"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_MMC_ReadBlocks</b> (<a class="el" href="struct_m_m_c___handle_type_def.html">MMC_HandleTypeDef</a> *hmmc, uint8_t *pData, uint32_t BlockAdd, uint32_t NumberOfBlocks, uint32_t Timeout)</td></tr>
+<tr class="memitem:gab1a7ab2a179af5cc32c50f1a93b7b993"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m_c___exported___functions___group2.html#gab1a7ab2a179af5cc32c50f1a93b7b993">HAL_MMC_ReadBlocks</a> (<a class="el" href="struct_m_m_c___handle_type_def.html">MMC_HandleTypeDef</a> *hmmc, uint8_t *pData, uint32_t BlockAdd, uint32_t NumberOfBlocks, uint32_t Timeout)</td></tr>
+<tr class="memdesc:gab1a7ab2a179af5cc32c50f1a93b7b993"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads block(s) from a specified address in a card. The Data transfer is managed by polling mode.  <a href="#gab1a7ab2a179af5cc32c50f1a93b7b993">More...</a><br /></td></tr>
 <tr class="separator:gab1a7ab2a179af5cc32c50f1a93b7b993"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5005c4006d634141b7ae8a8aec14ad2f"><td class="memItemLeft" align="right" valign="top"><a id="ga5005c4006d634141b7ae8a8aec14ad2f"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_MMC_WriteBlocks</b> (<a class="el" href="struct_m_m_c___handle_type_def.html">MMC_HandleTypeDef</a> *hmmc, uint8_t *pData, uint32_t BlockAdd, uint32_t NumberOfBlocks, uint32_t Timeout)</td></tr>
+<tr class="memitem:ga5005c4006d634141b7ae8a8aec14ad2f"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m_c___exported___functions___group2.html#ga5005c4006d634141b7ae8a8aec14ad2f">HAL_MMC_WriteBlocks</a> (<a class="el" href="struct_m_m_c___handle_type_def.html">MMC_HandleTypeDef</a> *hmmc, uint8_t *pData, uint32_t BlockAdd, uint32_t NumberOfBlocks, uint32_t Timeout)</td></tr>
+<tr class="memdesc:ga5005c4006d634141b7ae8a8aec14ad2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allows to write block(s) to a specified address in a card. The Data transfer is managed by polling mode.  <a href="#ga5005c4006d634141b7ae8a8aec14ad2f">More...</a><br /></td></tr>
 <tr class="separator:ga5005c4006d634141b7ae8a8aec14ad2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac1f35d625e7a3c6e4830ca9df4818f88"><td class="memItemLeft" align="right" valign="top"><a id="gac1f35d625e7a3c6e4830ca9df4818f88"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_MMC_Erase</b> (<a class="el" href="struct_m_m_c___handle_type_def.html">MMC_HandleTypeDef</a> *hmmc, uint32_t BlockStartAdd, uint32_t BlockEndAdd)</td></tr>
+<tr class="memitem:gac1f35d625e7a3c6e4830ca9df4818f88"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m_c___exported___functions___group2.html#gac1f35d625e7a3c6e4830ca9df4818f88">HAL_MMC_Erase</a> (<a class="el" href="struct_m_m_c___handle_type_def.html">MMC_HandleTypeDef</a> *hmmc, uint32_t BlockStartAdd, uint32_t BlockEndAdd)</td></tr>
+<tr class="memdesc:gac1f35d625e7a3c6e4830ca9df4818f88"><td class="mdescLeft">&#160;</td><td class="mdescRight">Erases the specified memory area of the given MMC card.  <a href="#gac1f35d625e7a3c6e4830ca9df4818f88">More...</a><br /></td></tr>
 <tr class="separator:gac1f35d625e7a3c6e4830ca9df4818f88"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1b9786f466090321fc1e819018e3a390"><td class="memItemLeft" align="right" valign="top"><a id="ga1b9786f466090321fc1e819018e3a390"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_MMC_ReadBlocks_IT</b> (<a class="el" href="struct_m_m_c___handle_type_def.html">MMC_HandleTypeDef</a> *hmmc, uint8_t *pData, uint32_t BlockAdd, uint32_t NumberOfBlocks)</td></tr>
+<tr class="memitem:ga1b9786f466090321fc1e819018e3a390"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m_c___exported___functions___group2.html#ga1b9786f466090321fc1e819018e3a390">HAL_MMC_ReadBlocks_IT</a> (<a class="el" href="struct_m_m_c___handle_type_def.html">MMC_HandleTypeDef</a> *hmmc, uint8_t *pData, uint32_t BlockAdd, uint32_t NumberOfBlocks)</td></tr>
+<tr class="memdesc:ga1b9786f466090321fc1e819018e3a390"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads block(s) from a specified address in a card. The Data transfer is managed in interrupt mode.  <a href="#ga1b9786f466090321fc1e819018e3a390">More...</a><br /></td></tr>
 <tr class="separator:ga1b9786f466090321fc1e819018e3a390"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga35f33d284deb74ae28ca944c75456afb"><td class="memItemLeft" align="right" valign="top"><a id="ga35f33d284deb74ae28ca944c75456afb"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_MMC_WriteBlocks_IT</b> (<a class="el" href="struct_m_m_c___handle_type_def.html">MMC_HandleTypeDef</a> *hmmc, uint8_t *pData, uint32_t BlockAdd, uint32_t NumberOfBlocks)</td></tr>
+<tr class="memitem:ga35f33d284deb74ae28ca944c75456afb"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m_c___exported___functions___group2.html#ga35f33d284deb74ae28ca944c75456afb">HAL_MMC_WriteBlocks_IT</a> (<a class="el" href="struct_m_m_c___handle_type_def.html">MMC_HandleTypeDef</a> *hmmc, uint8_t *pData, uint32_t BlockAdd, uint32_t NumberOfBlocks)</td></tr>
+<tr class="memdesc:ga35f33d284deb74ae28ca944c75456afb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes block(s) to a specified address in a card. The Data transfer is managed in interrupt mode.  <a href="#ga35f33d284deb74ae28ca944c75456afb">More...</a><br /></td></tr>
 <tr class="separator:ga35f33d284deb74ae28ca944c75456afb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0d54714e88a02e673d0328b448726b1a"><td class="memItemLeft" align="right" valign="top"><a id="ga0d54714e88a02e673d0328b448726b1a"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_MMC_ReadBlocks_DMA</b> (<a class="el" href="struct_m_m_c___handle_type_def.html">MMC_HandleTypeDef</a> *hmmc, uint8_t *pData, uint32_t BlockAdd, uint32_t NumberOfBlocks)</td></tr>
+<tr class="memitem:ga0d54714e88a02e673d0328b448726b1a"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m_c___exported___functions___group2.html#ga0d54714e88a02e673d0328b448726b1a">HAL_MMC_ReadBlocks_DMA</a> (<a class="el" href="struct_m_m_c___handle_type_def.html">MMC_HandleTypeDef</a> *hmmc, uint8_t *pData, uint32_t BlockAdd, uint32_t NumberOfBlocks)</td></tr>
+<tr class="memdesc:ga0d54714e88a02e673d0328b448726b1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads block(s) from a specified address in a card. The Data transfer is managed by DMA mode.  <a href="#ga0d54714e88a02e673d0328b448726b1a">More...</a><br /></td></tr>
 <tr class="separator:ga0d54714e88a02e673d0328b448726b1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae0ede774da01a074c7f1b1e41665e646"><td class="memItemLeft" align="right" valign="top"><a id="gae0ede774da01a074c7f1b1e41665e646"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_MMC_WriteBlocks_DMA</b> (<a class="el" href="struct_m_m_c___handle_type_def.html">MMC_HandleTypeDef</a> *hmmc, uint8_t *pData, uint32_t BlockAdd, uint32_t NumberOfBlocks)</td></tr>
+<tr class="memitem:gae0ede774da01a074c7f1b1e41665e646"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m_c___exported___functions___group2.html#gae0ede774da01a074c7f1b1e41665e646">HAL_MMC_WriteBlocks_DMA</a> (<a class="el" href="struct_m_m_c___handle_type_def.html">MMC_HandleTypeDef</a> *hmmc, uint8_t *pData, uint32_t BlockAdd, uint32_t NumberOfBlocks)</td></tr>
+<tr class="memdesc:gae0ede774da01a074c7f1b1e41665e646"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes block(s) to a specified address in a card. The Data transfer is managed by DMA mode.  <a href="#gae0ede774da01a074c7f1b1e41665e646">More...</a><br /></td></tr>
 <tr class="separator:gae0ede774da01a074c7f1b1e41665e646"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaed1b08b491a549426abb7702fa0cc958"><td class="memItemLeft" align="right" valign="top"><a id="gaed1b08b491a549426abb7702fa0cc958"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_MMC_IRQHandler</b> (<a class="el" href="struct_m_m_c___handle_type_def.html">MMC_HandleTypeDef</a> *hmmc)</td></tr>
+<tr class="memitem:gaed1b08b491a549426abb7702fa0cc958"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m_c___exported___functions___group2.html#gaed1b08b491a549426abb7702fa0cc958">HAL_MMC_IRQHandler</a> (<a class="el" href="struct_m_m_c___handle_type_def.html">MMC_HandleTypeDef</a> *hmmc)</td></tr>
+<tr class="memdesc:gaed1b08b491a549426abb7702fa0cc958"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function handles MMC card interrupt request.  <a href="#gaed1b08b491a549426abb7702fa0cc958">More...</a><br /></td></tr>
 <tr class="separator:gaed1b08b491a549426abb7702fa0cc958"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga3109bc52f23b4929d3202f449f60e75f"><td class="memItemLeft" align="right" valign="top"><a id="ga3109bc52f23b4929d3202f449f60e75f"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_MMC_TxCpltCallback</b> (<a class="el" href="struct_m_m_c___handle_type_def.html">MMC_HandleTypeDef</a> *hmmc)</td></tr>
-<tr class="separator:ga3109bc52f23b4929d3202f449f60e75f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8e2c7ef4f47b6ad3a9472acc8f4e94eb"><td class="memItemLeft" align="right" valign="top"><a id="ga8e2c7ef4f47b6ad3a9472acc8f4e94eb"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_MMC_RxCpltCallback</b> (<a class="el" href="struct_m_m_c___handle_type_def.html">MMC_HandleTypeDef</a> *hmmc)</td></tr>
-<tr class="separator:ga8e2c7ef4f47b6ad3a9472acc8f4e94eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7c155ab26d599393eb97eef87c6f6af5"><td class="memItemLeft" align="right" valign="top"><a id="ga7c155ab26d599393eb97eef87c6f6af5"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_MMC_ErrorCallback</b> (<a class="el" href="struct_m_m_c___handle_type_def.html">MMC_HandleTypeDef</a> *hmmc)</td></tr>
-<tr class="separator:ga7c155ab26d599393eb97eef87c6f6af5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4f0ba3411b6f8b5154a5e57588551f98"><td class="memItemLeft" align="right" valign="top"><a id="ga4f0ba3411b6f8b5154a5e57588551f98"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_MMC_AbortCallback</b> (<a class="el" href="struct_m_m_c___handle_type_def.html">MMC_HandleTypeDef</a> *hmmc)</td></tr>
-<tr class="separator:ga4f0ba3411b6f8b5154a5e57588551f98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga91859d752a6a7810a327e8fd5d9fcca7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m_c___exported___functions___group2.html#ga91859d752a6a7810a327e8fd5d9fcca7">HAL_MMC_TxCpltCallback</a> (<a class="el" href="struct_m_m_c___handle_type_def.html">MMC_HandleTypeDef</a> *hmmc)</td></tr>
+<tr class="memdesc:ga91859d752a6a7810a327e8fd5d9fcca7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tx Transfer completed callbacks.  <a href="#ga91859d752a6a7810a327e8fd5d9fcca7">More...</a><br /></td></tr>
+<tr class="separator:ga91859d752a6a7810a327e8fd5d9fcca7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa6aedf3d3b53c1a12a3c86d9cabc339c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m_c___exported___functions___group2.html#gaa6aedf3d3b53c1a12a3c86d9cabc339c">HAL_MMC_RxCpltCallback</a> (<a class="el" href="struct_m_m_c___handle_type_def.html">MMC_HandleTypeDef</a> *hmmc)</td></tr>
+<tr class="memdesc:gaa6aedf3d3b53c1a12a3c86d9cabc339c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rx Transfer completed callbacks.  <a href="#gaa6aedf3d3b53c1a12a3c86d9cabc339c">More...</a><br /></td></tr>
+<tr class="separator:gaa6aedf3d3b53c1a12a3c86d9cabc339c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9454c9f5a81a03a4a1e8ea741d929b06"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m_c___exported___functions___group2.html#ga9454c9f5a81a03a4a1e8ea741d929b06">HAL_MMC_ErrorCallback</a> (<a class="el" href="struct_m_m_c___handle_type_def.html">MMC_HandleTypeDef</a> *hmmc)</td></tr>
+<tr class="memdesc:ga9454c9f5a81a03a4a1e8ea741d929b06"><td class="mdescLeft">&#160;</td><td class="mdescRight">MMC error callbacks.  <a href="#ga9454c9f5a81a03a4a1e8ea741d929b06">More...</a><br /></td></tr>
+<tr class="separator:ga9454c9f5a81a03a4a1e8ea741d929b06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa5015128967d6b24c5a85ec8c7d184fb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m_c___exported___functions___group2.html#gaa5015128967d6b24c5a85ec8c7d184fb">HAL_MMC_AbortCallback</a> (<a class="el" href="struct_m_m_c___handle_type_def.html">MMC_HandleTypeDef</a> *hmmc)</td></tr>
+<tr class="memdesc:gaa5015128967d6b24c5a85ec8c7d184fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">MMC Abort callbacks.  <a href="#gaa5015128967d6b24c5a85ec8c7d184fb">More...</a><br /></td></tr>
+<tr class="separator:gaa5015128967d6b24c5a85ec8c7d184fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad0e56378e7cd6b602ae5ab7c2dec5ff4"><td class="memItemLeft" align="right" valign="top">HAL_MMC_StateTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m_c___exported___functions___group2.html#gad0e56378e7cd6b602ae5ab7c2dec5ff4">HAL_MMC_GetState</a> (<a class="el" href="struct_m_m_c___handle_type_def.html">MMC_HandleTypeDef</a> *hmmc)</td></tr>
+<tr class="memdesc:gad0e56378e7cd6b602ae5ab7c2dec5ff4"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the MMC state  <a href="#gad0e56378e7cd6b602ae5ab7c2dec5ff4">More...</a><br /></td></tr>
+<tr class="separator:gad0e56378e7cd6b602ae5ab7c2dec5ff4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3b1e46cb4f5c56a188cc36da2fbc26e3"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m_c___exported___functions___group2.html#ga3b1e46cb4f5c56a188cc36da2fbc26e3">HAL_MMC_GetError</a> (<a class="el" href="struct_m_m_c___handle_type_def.html">MMC_HandleTypeDef</a> *hmmc)</td></tr>
+<tr class="memdesc:ga3b1e46cb4f5c56a188cc36da2fbc26e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the MMC error code.  <a href="#ga3b1e46cb4f5c56a188cc36da2fbc26e3">More...</a><br /></td></tr>
+<tr class="separator:ga3b1e46cb4f5c56a188cc36da2fbc26e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>Data transfer functions. </p>
+<pre class="fragment">  ==============================================================================
+                        ##### IO operation functions #####
+  ==============================================================================  
+  [..]
+    This subsection provides a set of functions allowing to manage the data 
+    transfer from/to MMC card.</pre> <h2 class="groupheader">Function Documentation</h2>
+<a id="gaa5015128967d6b24c5a85ec8c7d184fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa5015128967d6b24c5a85ec8c7d184fb">&#9670;&nbsp;</a></span>HAL_MMC_AbortCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_MMC_AbortCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_m_m_c___handle_type_def.html">MMC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hmmc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>MMC Abort callbacks. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hmmc</td><td>Pointer MMC handle </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gac1f35d625e7a3c6e4830ca9df4818f88"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac1f35d625e7a3c6e4830ca9df4818f88">&#9670;&nbsp;</a></span>HAL_MMC_Erase()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_MMC_Erase </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_m_m_c___handle_type_def.html">MMC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hmmc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>BlockStartAdd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>BlockEndAdd</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Erases the specified memory area of the given MMC card. </p>
+<dl class="section note"><dt>Note</dt><dd>This API should be followed by a check on the card state through <a class="el" href="group___m_m_c___exported___functions___group3.html#gacd21d93732ee7f63f62661b24718deae" title="Gets the current mmc card data state.">HAL_MMC_GetCardState()</a>. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hmmc</td><td>Pointer to MMC handle </td></tr>
+    <tr><td class="paramname">BlockStartAdd</td><td>Start Block address </td></tr>
+    <tr><td class="paramname">BlockEndAdd</td><td>End Block address </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga9454c9f5a81a03a4a1e8ea741d929b06"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9454c9f5a81a03a4a1e8ea741d929b06">&#9670;&nbsp;</a></span>HAL_MMC_ErrorCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_MMC_ErrorCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_m_m_c___handle_type_def.html">MMC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hmmc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>MMC error callbacks. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hmmc</td><td>Pointer MMC handle </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga3b1e46cb4f5c56a188cc36da2fbc26e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3b1e46cb4f5c56a188cc36da2fbc26e3">&#9670;&nbsp;</a></span>HAL_MMC_GetError()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t HAL_MMC_GetError </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_m_m_c___handle_type_def.html">MMC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hmmc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return the MMC error code. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hmmc</td><td>Pointer to a <a class="el" href="struct_m_m_c___handle_type_def.html" title="MMC handle Structure definition.">MMC_HandleTypeDef</a> structure that contains the configuration information. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">MMC</td><td>Error Code </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gad0e56378e7cd6b602ae5ab7c2dec5ff4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad0e56378e7cd6b602ae5ab7c2dec5ff4">&#9670;&nbsp;</a></span>HAL_MMC_GetState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_MMC_StateTypeDef HAL_MMC_GetState </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_m_m_c___handle_type_def.html">MMC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hmmc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>return the MMC state </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hmmc</td><td>Pointer to mmc handle </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>state </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaed1b08b491a549426abb7702fa0cc958"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaed1b08b491a549426abb7702fa0cc958">&#9670;&nbsp;</a></span>HAL_MMC_IRQHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HAL_MMC_IRQHandler </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_m_m_c___handle_type_def.html">MMC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hmmc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function handles MMC card interrupt request. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hmmc</td><td>Pointer to MMC handle </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gab1a7ab2a179af5cc32c50f1a93b7b993"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab1a7ab2a179af5cc32c50f1a93b7b993">&#9670;&nbsp;</a></span>HAL_MMC_ReadBlocks()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_MMC_ReadBlocks </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_m_m_c___handle_type_def.html">MMC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hmmc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>BlockAdd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>NumberOfBlocks</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Timeout</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reads block(s) from a specified address in a card. The Data transfer is managed by polling mode. </p>
+<dl class="section note"><dt>Note</dt><dd>This API should be followed by a check on the card state through <a class="el" href="group___m_m_c___exported___functions___group3.html#gacd21d93732ee7f63f62661b24718deae" title="Gets the current mmc card data state.">HAL_MMC_GetCardState()</a>. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hmmc</td><td>Pointer to MMC handle </td></tr>
+    <tr><td class="paramname">pData</td><td>pointer to the buffer that will contain the received data </td></tr>
+    <tr><td class="paramname">BlockAdd</td><td>Block Address from where data is to be read </td></tr>
+    <tr><td class="paramname">NumberOfBlocks</td><td>Number of MMC blocks to read </td></tr>
+    <tr><td class="paramname">Timeout</td><td>Specify timeout value </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga0d54714e88a02e673d0328b448726b1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0d54714e88a02e673d0328b448726b1a">&#9670;&nbsp;</a></span>HAL_MMC_ReadBlocks_DMA()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_MMC_ReadBlocks_DMA </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_m_m_c___handle_type_def.html">MMC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hmmc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>BlockAdd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>NumberOfBlocks</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reads block(s) from a specified address in a card. The Data transfer is managed by DMA mode. </p>
+<dl class="section note"><dt>Note</dt><dd>This API should be followed by a check on the card state through <a class="el" href="group___m_m_c___exported___functions___group3.html#gacd21d93732ee7f63f62661b24718deae" title="Gets the current mmc card data state.">HAL_MMC_GetCardState()</a>. </dd>
+<dd>
+You could also check the DMA transfer process through the MMC Rx interrupt event. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hmmc</td><td>Pointer MMC handle</td></tr>
+    <tr><td class="paramname">pData</td><td>Pointer to the buffer that will contain the received data </td></tr>
+    <tr><td class="paramname">BlockAdd</td><td>Block Address from where data is to be read</td></tr>
+    <tr><td class="paramname">NumberOfBlocks</td><td>Number of blocks to read. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga1b9786f466090321fc1e819018e3a390"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1b9786f466090321fc1e819018e3a390">&#9670;&nbsp;</a></span>HAL_MMC_ReadBlocks_IT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_MMC_ReadBlocks_IT </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_m_m_c___handle_type_def.html">MMC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hmmc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>BlockAdd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>NumberOfBlocks</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reads block(s) from a specified address in a card. The Data transfer is managed in interrupt mode. </p>
+<dl class="section note"><dt>Note</dt><dd>This API should be followed by a check on the card state through <a class="el" href="group___m_m_c___exported___functions___group3.html#gacd21d93732ee7f63f62661b24718deae" title="Gets the current mmc card data state.">HAL_MMC_GetCardState()</a>. </dd>
+<dd>
+You could also check the IT transfer process through the MMC Rx interrupt event. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hmmc</td><td>Pointer to MMC handle</td></tr>
+    <tr><td class="paramname">pData</td><td>Pointer to the buffer that will contain the received data </td></tr>
+    <tr><td class="paramname">BlockAdd</td><td>Block Address from where data is to be read </td></tr>
+    <tr><td class="paramname">NumberOfBlocks</td><td>Number of blocks to read. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaa6aedf3d3b53c1a12a3c86d9cabc339c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa6aedf3d3b53c1a12a3c86d9cabc339c">&#9670;&nbsp;</a></span>HAL_MMC_RxCpltCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_MMC_RxCpltCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_m_m_c___handle_type_def.html">MMC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hmmc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Rx Transfer completed callbacks. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hmmc</td><td>Pointer MMC handle </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga91859d752a6a7810a327e8fd5d9fcca7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga91859d752a6a7810a327e8fd5d9fcca7">&#9670;&nbsp;</a></span>HAL_MMC_TxCpltCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_MMC_TxCpltCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_m_m_c___handle_type_def.html">MMC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hmmc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Tx Transfer completed callbacks. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hmmc</td><td>Pointer to MMC handle </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga5005c4006d634141b7ae8a8aec14ad2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5005c4006d634141b7ae8a8aec14ad2f">&#9670;&nbsp;</a></span>HAL_MMC_WriteBlocks()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_MMC_WriteBlocks </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_m_m_c___handle_type_def.html">MMC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hmmc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>BlockAdd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>NumberOfBlocks</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Timeout</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Allows to write block(s) to a specified address in a card. The Data transfer is managed by polling mode. </p>
+<dl class="section note"><dt>Note</dt><dd>This API should be followed by a check on the card state through <a class="el" href="group___m_m_c___exported___functions___group3.html#gacd21d93732ee7f63f62661b24718deae" title="Gets the current mmc card data state.">HAL_MMC_GetCardState()</a>. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hmmc</td><td>Pointer to MMC handle </td></tr>
+    <tr><td class="paramname">pData</td><td>pointer to the buffer that will contain the data to transmit </td></tr>
+    <tr><td class="paramname">BlockAdd</td><td>Block Address where data will be written</td></tr>
+    <tr><td class="paramname">NumberOfBlocks</td><td>Number of MMC blocks to write </td></tr>
+    <tr><td class="paramname">Timeout</td><td>Specify timeout value </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gae0ede774da01a074c7f1b1e41665e646"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae0ede774da01a074c7f1b1e41665e646">&#9670;&nbsp;</a></span>HAL_MMC_WriteBlocks_DMA()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_MMC_WriteBlocks_DMA </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_m_m_c___handle_type_def.html">MMC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hmmc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>BlockAdd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>NumberOfBlocks</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Writes block(s) to a specified address in a card. The Data transfer is managed by DMA mode. </p>
+<dl class="section note"><dt>Note</dt><dd>This API should be followed by a check on the card state through <a class="el" href="group___m_m_c___exported___functions___group3.html#gacd21d93732ee7f63f62661b24718deae" title="Gets the current mmc card data state.">HAL_MMC_GetCardState()</a>. </dd>
+<dd>
+You could also check the DMA transfer process through the MMC Tx interrupt event. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hmmc</td><td>Pointer to MMC handle </td></tr>
+    <tr><td class="paramname">pData</td><td>Pointer to the buffer that will contain the data to transmit </td></tr>
+    <tr><td class="paramname">BlockAdd</td><td>Block Address where data will be written</td></tr>
+    <tr><td class="paramname">NumberOfBlocks</td><td>Number of blocks to write </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga35f33d284deb74ae28ca944c75456afb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga35f33d284deb74ae28ca944c75456afb">&#9670;&nbsp;</a></span>HAL_MMC_WriteBlocks_IT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_MMC_WriteBlocks_IT </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_m_m_c___handle_type_def.html">MMC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hmmc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>BlockAdd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>NumberOfBlocks</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Writes block(s) to a specified address in a card. The Data transfer is managed in interrupt mode. </p>
+<dl class="section note"><dt>Note</dt><dd>This API should be followed by a check on the card state through <a class="el" href="group___m_m_c___exported___functions___group3.html#gacd21d93732ee7f63f62661b24718deae" title="Gets the current mmc card data state.">HAL_MMC_GetCardState()</a>. </dd>
+<dd>
+You could also check the IT transfer process through the MMC Tx interrupt event. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hmmc</td><td>Pointer to MMC handle </td></tr>
+    <tr><td class="paramname">pData</td><td>Pointer to the buffer that will contain the data to transmit </td></tr>
+    <tr><td class="paramname">BlockAdd</td><td>Block Address where data will be written</td></tr>
+    <tr><td class="paramname">NumberOfBlocks</td><td>Number of blocks to write </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

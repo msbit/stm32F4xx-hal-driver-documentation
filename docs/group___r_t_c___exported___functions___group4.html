@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.15"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>STM32F4xx_HAL_Driver: RTC_Exported_Functions_Group4</title>
+<title>STM32F4xx_HAL_Driver: Peripheral Control functions</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,17 +64,62 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">RTC_Exported_Functions_Group4<div class="ingroups"><a class="el" href="group___r_t_c___exported___functions.html">RTC_Exported_Functions</a></div></div>  </div>
+<div class="title">Peripheral Control functions<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___r_t_c.html">RTC</a> &raquo; <a class="el" href="group___r_t_c___exported___functions.html">RTC Exported Functions</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Peripheral Control functions.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga62efc08017f7dc4db0bc72f7c68085ad"><td class="memItemLeft" align="right" valign="top"><a id="ga62efc08017f7dc4db0bc72f7c68085ad"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_RTC_WaitForSynchro</b> (<a class="el" href="struct_r_t_c___handle_type_def.html">RTC_HandleTypeDef</a> *hrtc)</td></tr>
+<tr class="memitem:ga62efc08017f7dc4db0bc72f7c68085ad"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___r_t_c___exported___functions___group4.html#ga62efc08017f7dc4db0bc72f7c68085ad">HAL_RTC_WaitForSynchro</a> (<a class="el" href="struct_r_t_c___handle_type_def.html">RTC_HandleTypeDef</a> *hrtc)</td></tr>
+<tr class="memdesc:ga62efc08017f7dc4db0bc72f7c68085ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Waits until the RTC Time and Date registers (RTC_TR and RTC_DR) are synchronized with RTC APB clock.  <a href="#ga62efc08017f7dc4db0bc72f7c68085ad">More...</a><br /></td></tr>
 <tr class="separator:ga62efc08017f7dc4db0bc72f7c68085ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>Peripheral Control functions. </p>
+<pre class="fragment"> ===============================================================================
+                     ##### Peripheral Control functions #####
+ ===============================================================================  
+    [..]
+    This subsection provides functions allowing to
+      (+) Wait for RTC Time and Date Synchronization</pre> <h2 class="groupheader">Function Documentation</h2>
+<a id="ga62efc08017f7dc4db0bc72f7c68085ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga62efc08017f7dc4db0bc72f7c68085ad">&#9670;&nbsp;</a></span>HAL_RTC_WaitForSynchro()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_RTC_WaitForSynchro </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_r_t_c___handle_type_def.html">RTC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hrtc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Waits until the RTC Time and Date registers (RTC_TR and RTC_DR) are synchronized with RTC APB clock. </p>
+<dl class="section note"><dt>Note</dt><dd>The RTC Resynchronization mode is write protected, use the __HAL_RTC_WRITEPROTECTION_DISABLE() before calling this function. </dd>
+<dd>
+To read the calendar through the shadow registers after Calendar initialization, calendar update or after wake-up from low power modes the software must first clear the RSF flag. The software must then wait until it is set again before reading the calendar, which means that the calendar registers have been correctly copied into the RTC_TR and RTC_DR shadow registers.</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hrtc</td><td>pointer to a <a class="el" href="struct_r_t_c___handle_type_def.html" title="RTC Handle Structure definition.">RTC_HandleTypeDef</a> structure that contains the configuration information for RTC. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

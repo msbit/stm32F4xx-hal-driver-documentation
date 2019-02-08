@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.15"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>STM32F4xx_HAL_Driver: ADCEx_Exported_Functions_Group1</title>
+<title>STM32F4xx_HAL_Driver: Extended features functions</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,50 +64,527 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">ADCEx_Exported_Functions_Group1<div class="ingroups"><a class="el" href="group___a_d_c_ex___exported___functions.html">ADCEx_Exported_Functions</a></div></div>  </div>
+<div class="title">Extended features functions<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___a_d_c_ex.html">ADCEx</a> &raquo; <a class="el" href="group___a_d_c_ex___exported___functions.html">ADC Exported Functions</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Extended features functions.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gaa666882ff772df8a5140090422825ed6"><td class="memItemLeft" align="right" valign="top"><a id="gaa666882ff772df8a5140090422825ed6"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_ADCEx_InjectedStart</b> (<a class="el" href="struct_a_d_c___handle_type_def.html">ADC_HandleTypeDef</a> *hadc)</td></tr>
+<tr class="memitem:gaa666882ff772df8a5140090422825ed6"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_d_c_ex___exported___functions___group1.html#gaa666882ff772df8a5140090422825ed6">HAL_ADCEx_InjectedStart</a> (<a class="el" href="struct_a_d_c___handle_type_def.html">ADC_HandleTypeDef</a> *hadc)</td></tr>
+<tr class="memdesc:gaa666882ff772df8a5140090422825ed6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enables the selected ADC software start conversion of the injected channels.  <a href="#gaa666882ff772df8a5140090422825ed6">More...</a><br /></td></tr>
 <tr class="separator:gaa666882ff772df8a5140090422825ed6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga91f6c85ae910e9baaf578a346c30c7c1"><td class="memItemLeft" align="right" valign="top"><a id="ga91f6c85ae910e9baaf578a346c30c7c1"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_ADCEx_InjectedStop</b> (<a class="el" href="struct_a_d_c___handle_type_def.html">ADC_HandleTypeDef</a> *hadc)</td></tr>
+<tr class="memitem:ga91f6c85ae910e9baaf578a346c30c7c1"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_d_c_ex___exported___functions___group1.html#ga91f6c85ae910e9baaf578a346c30c7c1">HAL_ADCEx_InjectedStop</a> (<a class="el" href="struct_a_d_c___handle_type_def.html">ADC_HandleTypeDef</a> *hadc)</td></tr>
+<tr class="memdesc:ga91f6c85ae910e9baaf578a346c30c7c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stop conversion of injected channels. Disable ADC peripheral if no regular conversion is on going.  <a href="#ga91f6c85ae910e9baaf578a346c30c7c1">More...</a><br /></td></tr>
 <tr class="separator:ga91f6c85ae910e9baaf578a346c30c7c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5e11b306be79f36c71a73f2e465ad613"><td class="memItemLeft" align="right" valign="top"><a id="ga5e11b306be79f36c71a73f2e465ad613"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_ADCEx_InjectedPollForConversion</b> (<a class="el" href="struct_a_d_c___handle_type_def.html">ADC_HandleTypeDef</a> *hadc, uint32_t Timeout)</td></tr>
+<tr class="memitem:ga5e11b306be79f36c71a73f2e465ad613"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_d_c_ex___exported___functions___group1.html#ga5e11b306be79f36c71a73f2e465ad613">HAL_ADCEx_InjectedPollForConversion</a> (<a class="el" href="struct_a_d_c___handle_type_def.html">ADC_HandleTypeDef</a> *hadc, uint32_t Timeout)</td></tr>
+<tr class="memdesc:ga5e11b306be79f36c71a73f2e465ad613"><td class="mdescLeft">&#160;</td><td class="mdescRight">Poll for injected conversion complete.  <a href="#ga5e11b306be79f36c71a73f2e465ad613">More...</a><br /></td></tr>
 <tr class="separator:ga5e11b306be79f36c71a73f2e465ad613"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf55cd28b1394a0564f99e1f5069c0ed1"><td class="memItemLeft" align="right" valign="top"><a id="gaf55cd28b1394a0564f99e1f5069c0ed1"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_ADCEx_InjectedStart_IT</b> (<a class="el" href="struct_a_d_c___handle_type_def.html">ADC_HandleTypeDef</a> *hadc)</td></tr>
+<tr class="memitem:gaf55cd28b1394a0564f99e1f5069c0ed1"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_d_c_ex___exported___functions___group1.html#gaf55cd28b1394a0564f99e1f5069c0ed1">HAL_ADCEx_InjectedStart_IT</a> (<a class="el" href="struct_a_d_c___handle_type_def.html">ADC_HandleTypeDef</a> *hadc)</td></tr>
+<tr class="memdesc:gaf55cd28b1394a0564f99e1f5069c0ed1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enables the interrupt and starts ADC conversion of injected channels.  <a href="#gaf55cd28b1394a0564f99e1f5069c0ed1">More...</a><br /></td></tr>
 <tr class="separator:gaf55cd28b1394a0564f99e1f5069c0ed1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae032f41136f4dc4b3f3c2476b96a21f5"><td class="memItemLeft" align="right" valign="top"><a id="gae032f41136f4dc4b3f3c2476b96a21f5"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_ADCEx_InjectedStop_IT</b> (<a class="el" href="struct_a_d_c___handle_type_def.html">ADC_HandleTypeDef</a> *hadc)</td></tr>
+<tr class="memitem:gae032f41136f4dc4b3f3c2476b96a21f5"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_d_c_ex___exported___functions___group1.html#gae032f41136f4dc4b3f3c2476b96a21f5">HAL_ADCEx_InjectedStop_IT</a> (<a class="el" href="struct_a_d_c___handle_type_def.html">ADC_HandleTypeDef</a> *hadc)</td></tr>
+<tr class="memdesc:gae032f41136f4dc4b3f3c2476b96a21f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stop conversion of injected channels, disable interruption of end-of-conversion. Disable ADC peripheral if no regular conversion is on going.  <a href="#gae032f41136f4dc4b3f3c2476b96a21f5">More...</a><br /></td></tr>
 <tr class="separator:gae032f41136f4dc4b3f3c2476b96a21f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7996668b61263f91c76d5f55551f3a07"><td class="memItemLeft" align="right" valign="top"><a id="ga7996668b61263f91c76d5f55551f3a07"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_ADCEx_InjectedGetValue</b> (<a class="el" href="struct_a_d_c___handle_type_def.html">ADC_HandleTypeDef</a> *hadc, uint32_t InjectedRank)</td></tr>
+<tr class="memitem:ga7996668b61263f91c76d5f55551f3a07"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_d_c_ex___exported___functions___group1.html#ga7996668b61263f91c76d5f55551f3a07">HAL_ADCEx_InjectedGetValue</a> (<a class="el" href="struct_a_d_c___handle_type_def.html">ADC_HandleTypeDef</a> *hadc, uint32_t InjectedRank)</td></tr>
+<tr class="memdesc:ga7996668b61263f91c76d5f55551f3a07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the converted value from data register of injected channel.  <a href="#ga7996668b61263f91c76d5f55551f3a07">More...</a><br /></td></tr>
 <tr class="separator:ga7996668b61263f91c76d5f55551f3a07"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab36a3508a06430d7c7d0def79ec61b08"><td class="memItemLeft" align="right" valign="top"><a id="gab36a3508a06430d7c7d0def79ec61b08"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_ADCEx_MultiModeStart_DMA</b> (<a class="el" href="struct_a_d_c___handle_type_def.html">ADC_HandleTypeDef</a> *hadc, uint32_t *pData, uint32_t Length)</td></tr>
+<tr class="memitem:gab36a3508a06430d7c7d0def79ec61b08"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_d_c_ex___exported___functions___group1.html#gab36a3508a06430d7c7d0def79ec61b08">HAL_ADCEx_MultiModeStart_DMA</a> (<a class="el" href="struct_a_d_c___handle_type_def.html">ADC_HandleTypeDef</a> *hadc, uint32_t *pData, uint32_t Length)</td></tr>
+<tr class="memdesc:gab36a3508a06430d7c7d0def79ec61b08"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enables ADC DMA request after last transfer (Multi-ADC mode) and enables ADC peripheral.  <a href="#gab36a3508a06430d7c7d0def79ec61b08">More...</a><br /></td></tr>
 <tr class="separator:gab36a3508a06430d7c7d0def79ec61b08"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6a114ff60985be225d621a5c3be8ddf2"><td class="memItemLeft" align="right" valign="top"><a id="ga6a114ff60985be225d621a5c3be8ddf2"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_ADCEx_MultiModeStop_DMA</b> (<a class="el" href="struct_a_d_c___handle_type_def.html">ADC_HandleTypeDef</a> *hadc)</td></tr>
+<tr class="memitem:ga6a114ff60985be225d621a5c3be8ddf2"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_d_c_ex___exported___functions___group1.html#ga6a114ff60985be225d621a5c3be8ddf2">HAL_ADCEx_MultiModeStop_DMA</a> (<a class="el" href="struct_a_d_c___handle_type_def.html">ADC_HandleTypeDef</a> *hadc)</td></tr>
+<tr class="memdesc:ga6a114ff60985be225d621a5c3be8ddf2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disables ADC DMA (multi-ADC mode) and disables ADC peripheral.  <a href="#ga6a114ff60985be225d621a5c3be8ddf2">More...</a><br /></td></tr>
 <tr class="separator:ga6a114ff60985be225d621a5c3be8ddf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5ab7c06d2f0b5f9de1f86de5713d68d2"><td class="memItemLeft" align="right" valign="top"><a id="ga5ab7c06d2f0b5f9de1f86de5713d68d2"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_ADCEx_MultiModeGetValue</b> (<a class="el" href="struct_a_d_c___handle_type_def.html">ADC_HandleTypeDef</a> *hadc)</td></tr>
+<tr class="memitem:ga5ab7c06d2f0b5f9de1f86de5713d68d2"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_d_c_ex___exported___functions___group1.html#ga5ab7c06d2f0b5f9de1f86de5713d68d2">HAL_ADCEx_MultiModeGetValue</a> (<a class="el" href="struct_a_d_c___handle_type_def.html">ADC_HandleTypeDef</a> *hadc)</td></tr>
+<tr class="memdesc:ga5ab7c06d2f0b5f9de1f86de5713d68d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the last ADC1, ADC2 and ADC3 regular conversions results data in the selected multi mode.  <a href="#ga5ab7c06d2f0b5f9de1f86de5713d68d2">More...</a><br /></td></tr>
 <tr class="separator:ga5ab7c06d2f0b5f9de1f86de5713d68d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaed7815e8b636ff1c1f456ecbaffe1942"><td class="memItemLeft" align="right" valign="top"><a id="gaed7815e8b636ff1c1f456ecbaffe1942"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_ADCEx_InjectedConvCpltCallback</b> (<a class="el" href="struct_a_d_c___handle_type_def.html">ADC_HandleTypeDef</a> *hadc)</td></tr>
-<tr class="separator:gaed7815e8b636ff1c1f456ecbaffe1942"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5736a78398eb51ddeb09dd83d1243045"><td class="memItemLeft" align="right" valign="top"><a id="ga5736a78398eb51ddeb09dd83d1243045"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_ADCEx_InjectedConfigChannel</b> (<a class="el" href="struct_a_d_c___handle_type_def.html">ADC_HandleTypeDef</a> *hadc, ADC_InjectionConfTypeDef *sConfigInjected)</td></tr>
+<tr class="memitem:gade71165e2efb09c48f919e6477b73683"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_d_c_ex___exported___functions___group1.html#gade71165e2efb09c48f919e6477b73683">HAL_ADCEx_InjectedConvCpltCallback</a> (<a class="el" href="struct_a_d_c___handle_type_def.html">ADC_HandleTypeDef</a> *hadc)</td></tr>
+<tr class="memdesc:gade71165e2efb09c48f919e6477b73683"><td class="mdescLeft">&#160;</td><td class="mdescRight">Injected conversion complete callback in non blocking mode.  <a href="#gade71165e2efb09c48f919e6477b73683">More...</a><br /></td></tr>
+<tr class="separator:gade71165e2efb09c48f919e6477b73683"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5736a78398eb51ddeb09dd83d1243045"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_d_c_ex___exported___functions___group1.html#ga5736a78398eb51ddeb09dd83d1243045">HAL_ADCEx_InjectedConfigChannel</a> (<a class="el" href="struct_a_d_c___handle_type_def.html">ADC_HandleTypeDef</a> *hadc, ADC_InjectionConfTypeDef *sConfigInjected)</td></tr>
+<tr class="memdesc:ga5736a78398eb51ddeb09dd83d1243045"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configures for the selected ADC injected channel its corresponding rank in the sequencer and its sample time.  <a href="#ga5736a78398eb51ddeb09dd83d1243045">More...</a><br /></td></tr>
 <tr class="separator:ga5736a78398eb51ddeb09dd83d1243045"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gabfe8b04f9cfda94bc8aad912470122f5"><td class="memItemLeft" align="right" valign="top"><a id="gabfe8b04f9cfda94bc8aad912470122f5"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_ADCEx_MultiModeConfigChannel</b> (<a class="el" href="struct_a_d_c___handle_type_def.html">ADC_HandleTypeDef</a> *hadc, <a class="el" href="struct_a_d_c___multi_mode_type_def.html">ADC_MultiModeTypeDef</a> *multimode)</td></tr>
+<tr class="memitem:gabfe8b04f9cfda94bc8aad912470122f5"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_d_c_ex___exported___functions___group1.html#gabfe8b04f9cfda94bc8aad912470122f5">HAL_ADCEx_MultiModeConfigChannel</a> (<a class="el" href="struct_a_d_c___handle_type_def.html">ADC_HandleTypeDef</a> *hadc, <a class="el" href="struct_a_d_c___multi_mode_type_def.html">ADC_MultiModeTypeDef</a> *multimode)</td></tr>
+<tr class="memdesc:gabfe8b04f9cfda94bc8aad912470122f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configures the ADC multi-mode.  <a href="#gabfe8b04f9cfda94bc8aad912470122f5">More...</a><br /></td></tr>
 <tr class="separator:gabfe8b04f9cfda94bc8aad912470122f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>Extended features functions. </p>
+<pre class="fragment"> ===============================================================================
+                 ##### Extended features functions #####
+ ===============================================================================  
+    [..]  This section provides functions allowing to:
+      (+) Start conversion of injected channel.
+      (+) Stop conversion of injected channel.
+      (+) Start multimode and enable DMA transfer.
+      (+) Stop multimode and disable DMA transfer.
+      (+) Get result of injected channel conversion.
+      (+) Get result of multimode conversion.
+      (+) Configure injected channels.
+      (+) Configure multimode.</pre> <h2 class="groupheader">Function Documentation</h2>
+<a id="ga5736a78398eb51ddeb09dd83d1243045"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5736a78398eb51ddeb09dd83d1243045">&#9670;&nbsp;</a></span>HAL_ADCEx_InjectedConfigChannel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_ADCEx_InjectedConfigChannel </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_a_d_c___handle_type_def.html">ADC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hadc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ADC_InjectionConfTypeDef *&#160;</td>
+          <td class="paramname"><em>sConfigInjected</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Configures for the selected ADC injected channel its corresponding rank in the sequencer and its sample time. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hadc</td><td>pointer to a <a class="el" href="struct_a_d_c___handle_type_def.html" title="ADC handle Structure definition.">ADC_HandleTypeDef</a> structure that contains the configuration information for the specified ADC. </td></tr>
+    <tr><td class="paramname">sConfigInjected</td><td>ADC configuration structure for injected channel. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gade71165e2efb09c48f919e6477b73683"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gade71165e2efb09c48f919e6477b73683">&#9670;&nbsp;</a></span>HAL_ADCEx_InjectedConvCpltCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_ADCEx_InjectedConvCpltCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_a_d_c___handle_type_def.html">ADC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hadc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Injected conversion complete callback in non blocking mode. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hadc</td><td>pointer to a <a class="el" href="struct_a_d_c___handle_type_def.html" title="ADC handle Structure definition.">ADC_HandleTypeDef</a> structure that contains the configuration information for the specified ADC. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga7996668b61263f91c76d5f55551f3a07"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7996668b61263f91c76d5f55551f3a07">&#9670;&nbsp;</a></span>HAL_ADCEx_InjectedGetValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t HAL_ADCEx_InjectedGetValue </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_a_d_c___handle_type_def.html">ADC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hadc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>InjectedRank</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the converted value from data register of injected channel. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hadc</td><td>pointer to a <a class="el" href="struct_a_d_c___handle_type_def.html" title="ADC handle Structure definition.">ADC_HandleTypeDef</a> structure that contains the configuration information for the specified ADC. </td></tr>
+    <tr><td class="paramname">InjectedRank</td><td>the ADC injected rank. This parameter can be one of the following values: <ul>
+<li>ADC_INJECTED_RANK_1: Injected Channel1 selected </li>
+<li>ADC_INJECTED_RANK_2: Injected Channel2 selected </li>
+<li>ADC_INJECTED_RANK_3: Injected Channel3 selected </li>
+<li>ADC_INJECTED_RANK_4: Injected Channel4 selected </li>
+</ul>
+</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga5e11b306be79f36c71a73f2e465ad613"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5e11b306be79f36c71a73f2e465ad613">&#9670;&nbsp;</a></span>HAL_ADCEx_InjectedPollForConversion()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_ADCEx_InjectedPollForConversion </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_a_d_c___handle_type_def.html">ADC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hadc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Timeout</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Poll for injected conversion complete. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hadc</td><td>pointer to a <a class="el" href="struct_a_d_c___handle_type_def.html" title="ADC handle Structure definition.">ADC_HandleTypeDef</a> structure that contains the configuration information for the specified ADC. </td></tr>
+    <tr><td class="paramname">Timeout</td><td>Timeout value in millisecond.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaa666882ff772df8a5140090422825ed6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa666882ff772df8a5140090422825ed6">&#9670;&nbsp;</a></span>HAL_ADCEx_InjectedStart()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_ADCEx_InjectedStart </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_a_d_c___handle_type_def.html">ADC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hadc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Enables the selected ADC software start conversion of the injected channels. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hadc</td><td>pointer to a <a class="el" href="struct_a_d_c___handle_type_def.html" title="ADC handle Structure definition.">ADC_HandleTypeDef</a> structure that contains the configuration information for the specified ADC. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaf55cd28b1394a0564f99e1f5069c0ed1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf55cd28b1394a0564f99e1f5069c0ed1">&#9670;&nbsp;</a></span>HAL_ADCEx_InjectedStart_IT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_ADCEx_InjectedStart_IT </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_a_d_c___handle_type_def.html">ADC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hadc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Enables the interrupt and starts ADC conversion of injected channels. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hadc</td><td>pointer to a <a class="el" href="struct_a_d_c___handle_type_def.html" title="ADC handle Structure definition.">ADC_HandleTypeDef</a> structure that contains the configuration information for the specified ADC.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga91f6c85ae910e9baaf578a346c30c7c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga91f6c85ae910e9baaf578a346c30c7c1">&#9670;&nbsp;</a></span>HAL_ADCEx_InjectedStop()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_ADCEx_InjectedStop </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_a_d_c___handle_type_def.html">ADC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hadc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Stop conversion of injected channels. Disable ADC peripheral if no regular conversion is on going. </p>
+<dl class="section note"><dt>Note</dt><dd>If ADC must be disabled and if conversion is on going on regular group, function HAL_ADC_Stop must be used to stop both injected and regular groups, and disable the ADC. </dd>
+<dd>
+If injected group mode auto-injection is enabled, function HAL_ADC_Stop must be used. </dd>
+<dd>
+In case of auto-injection mode, HAL_ADC_Stop must be used. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hadc</td><td>ADC handle </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gae032f41136f4dc4b3f3c2476b96a21f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae032f41136f4dc4b3f3c2476b96a21f5">&#9670;&nbsp;</a></span>HAL_ADCEx_InjectedStop_IT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_ADCEx_InjectedStop_IT </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_a_d_c___handle_type_def.html">ADC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hadc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Stop conversion of injected channels, disable interruption of end-of-conversion. Disable ADC peripheral if no regular conversion is on going. </p>
+<dl class="section note"><dt>Note</dt><dd>If ADC must be disabled and if conversion is on going on regular group, function HAL_ADC_Stop must be used to stop both injected and regular groups, and disable the ADC. </dd>
+<dd>
+If injected group mode auto-injection is enabled, function HAL_ADC_Stop must be used. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hadc</td><td>ADC handle </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gabfe8b04f9cfda94bc8aad912470122f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabfe8b04f9cfda94bc8aad912470122f5">&#9670;&nbsp;</a></span>HAL_ADCEx_MultiModeConfigChannel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_ADCEx_MultiModeConfigChannel </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_a_d_c___handle_type_def.html">ADC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hadc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_a_d_c___multi_mode_type_def.html">ADC_MultiModeTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>multimode</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Configures the ADC multi-mode. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hadc</td><td>pointer to a <a class="el" href="struct_a_d_c___handle_type_def.html" title="ADC handle Structure definition.">ADC_HandleTypeDef</a> structure that contains the configuration information for the specified ADC.</td></tr>
+    <tr><td class="paramname">multimode</td><td>pointer to an <a class="el" href="struct_a_d_c___multi_mode_type_def.html" title="ADC Configuration multi-mode structure definition.">ADC_MultiModeTypeDef</a> structure that contains the configuration information for multimode. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga5ab7c06d2f0b5f9de1f86de5713d68d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5ab7c06d2f0b5f9de1f86de5713d68d2">&#9670;&nbsp;</a></span>HAL_ADCEx_MultiModeGetValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t HAL_ADCEx_MultiModeGetValue </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_a_d_c___handle_type_def.html">ADC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hadc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the last ADC1, ADC2 and ADC3 regular conversions results data in the selected multi mode. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hadc</td><td>pointer to a <a class="el" href="struct_a_d_c___handle_type_def.html" title="ADC handle Structure definition.">ADC_HandleTypeDef</a> structure that contains the configuration information for the specified ADC. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">The</td><td>converted data value. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gab36a3508a06430d7c7d0def79ec61b08"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab36a3508a06430d7c7d0def79ec61b08">&#9670;&nbsp;</a></span>HAL_ADCEx_MultiModeStart_DMA()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_ADCEx_MultiModeStart_DMA </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_a_d_c___handle_type_def.html">ADC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hadc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t *&#160;</td>
+          <td class="paramname"><em>pData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Length</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Enables ADC DMA request after last transfer (Multi-ADC mode) and enables ADC peripheral. </p>
+<dl class="section note"><dt>Note</dt><dd>Caution: This function must be used only with the ADC master.</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hadc</td><td>pointer to a <a class="el" href="struct_a_d_c___handle_type_def.html" title="ADC handle Structure definition.">ADC_HandleTypeDef</a> structure that contains the configuration information for the specified ADC. </td></tr>
+    <tr><td class="paramname">pData</td><td>Pointer to buffer in which transferred from ADC peripheral to memory will be stored. </td></tr>
+    <tr><td class="paramname">Length</td><td>The length of data to be transferred from ADC peripheral to memory.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga6a114ff60985be225d621a5c3be8ddf2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6a114ff60985be225d621a5c3be8ddf2">&#9670;&nbsp;</a></span>HAL_ADCEx_MultiModeStop_DMA()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_ADCEx_MultiModeStop_DMA </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_a_d_c___handle_type_def.html">ADC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hadc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Disables ADC DMA (multi-ADC mode) and disables ADC peripheral. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hadc</td><td>pointer to a <a class="el" href="struct_a_d_c___handle_type_def.html" title="ADC handle Structure definition.">ADC_HandleTypeDef</a> structure that contains the configuration information for the specified ADC. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

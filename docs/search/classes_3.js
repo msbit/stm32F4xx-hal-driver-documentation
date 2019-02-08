@@ -20,6 +20,7 @@ var searchData=
   ['dma2d_5fclutcfgtypedef',['DMA2D_CLUTCfgTypeDef',['../struct_d_m_a2_d___c_l_u_t_cfg_type_def.html',1,'']]],
   ['dma2d_5finittypedef',['DMA2D_InitTypeDef',['../struct_d_m_a2_d___init_type_def.html',1,'']]],
   ['dma2d_5flayercfgtypedef',['DMA2D_LayerCfgTypeDef',['../struct_d_m_a2_d___layer_cfg_type_def.html',1,'']]],
+  ['dma_5fbase_5fregisters',['DMA_Base_Registers',['../struct_d_m_a___base___registers.html',1,'']]],
   ['dsi_5fcmdcfgtypedef',['DSI_CmdCfgTypeDef',['../struct_d_s_i___cmd_cfg_type_def.html',1,'']]],
   ['dsi_5fhandletypedef',['DSI_HandleTypeDef',['../struct_d_s_i___handle_type_def.html',1,'']]],
   ['dsi_5fhost_5ftimeouttypedef',['DSI_HOST_TimeoutTypeDef',['../struct_d_s_i___h_o_s_t___timeout_type_def.html',1,'']]],

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.15"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>STM32F4xx_HAL_Driver: HAL_SDMMC_LL_Group3</title>
+<title>STM32F4xx_HAL_Driver: Peripheral Control functions</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,119 +64,1489 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">HAL_SDMMC_LL_Group3<div class="ingroups"><a class="el" href="group___s_d_m_m_c___l_l___exported___functions.html">SDMMC_LL_Exported_Functions</a></div></div>  </div>
+<div class="title">Peripheral Control functions<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___s_d_m_m_c___l_l.html">SDMMC Low Layer</a> &raquo; <a class="el" href="group___s_d_m_m_c___l_l___exported___functions.html">SDMMC Low Layer Exported Functions</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>management functions  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga6245d444d06f38176437446f7b4ad047"><td class="memItemLeft" align="right" valign="top"><a id="ga6245d444d06f38176437446f7b4ad047"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>SDIO_PowerState_ON</b> (SDIO_TypeDef *SDIOx)</td></tr>
+<tr class="memitem:ga6245d444d06f38176437446f7b4ad047"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_a_l___s_d_m_m_c___l_l___group3.html#ga6245d444d06f38176437446f7b4ad047">SDIO_PowerState_ON</a> (SDIO_TypeDef *SDIOx)</td></tr>
+<tr class="memdesc:ga6245d444d06f38176437446f7b4ad047"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set SDMMC Power state to ON.  <a href="#ga6245d444d06f38176437446f7b4ad047">More...</a><br /></td></tr>
 <tr class="separator:ga6245d444d06f38176437446f7b4ad047"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga162f9bf71abaaa3d0be637c9718f0beb"><td class="memItemLeft" align="right" valign="top"><a id="ga162f9bf71abaaa3d0be637c9718f0beb"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>SDIO_PowerState_OFF</b> (SDIO_TypeDef *SDIOx)</td></tr>
+<tr class="memitem:ga162f9bf71abaaa3d0be637c9718f0beb"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_a_l___s_d_m_m_c___l_l___group3.html#ga162f9bf71abaaa3d0be637c9718f0beb">SDIO_PowerState_OFF</a> (SDIO_TypeDef *SDIOx)</td></tr>
+<tr class="memdesc:ga162f9bf71abaaa3d0be637c9718f0beb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set SDMMC Power state to OFF.  <a href="#ga162f9bf71abaaa3d0be637c9718f0beb">More...</a><br /></td></tr>
 <tr class="separator:ga162f9bf71abaaa3d0be637c9718f0beb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2079f67b0c5b7bc5f745828f6e83ee29"><td class="memItemLeft" align="right" valign="top"><a id="ga2079f67b0c5b7bc5f745828f6e83ee29"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>SDIO_GetPowerState</b> (SDIO_TypeDef *SDIOx)</td></tr>
+<tr class="memitem:ga2079f67b0c5b7bc5f745828f6e83ee29"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_a_l___s_d_m_m_c___l_l___group3.html#ga2079f67b0c5b7bc5f745828f6e83ee29">SDIO_GetPowerState</a> (SDIO_TypeDef *SDIOx)</td></tr>
+<tr class="memdesc:ga2079f67b0c5b7bc5f745828f6e83ee29"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get SDMMC Power state.  <a href="#ga2079f67b0c5b7bc5f745828f6e83ee29">More...</a><br /></td></tr>
 <tr class="separator:ga2079f67b0c5b7bc5f745828f6e83ee29"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5ccbca2fbc3da7d440d79c51770f5efd"><td class="memItemLeft" align="right" valign="top"><a id="ga5ccbca2fbc3da7d440d79c51770f5efd"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>SDIO_SendCommand</b> (SDIO_TypeDef *SDIOx, <a class="el" href="struct_s_d_i_o___cmd_init_type_def.html">SDIO_CmdInitTypeDef</a> *Command)</td></tr>
+<tr class="memitem:ga5ccbca2fbc3da7d440d79c51770f5efd"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_a_l___s_d_m_m_c___l_l___group3.html#ga5ccbca2fbc3da7d440d79c51770f5efd">SDIO_SendCommand</a> (SDIO_TypeDef *SDIOx, <a class="el" href="struct_s_d_i_o___cmd_init_type_def.html">SDIO_CmdInitTypeDef</a> *Command)</td></tr>
+<tr class="memdesc:ga5ccbca2fbc3da7d440d79c51770f5efd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configure the SDMMC command path according to the specified parameters in <a class="el" href="struct_s_d_i_o___cmd_init_type_def.html" title="SDMMC Command Control structure.">SDIO_CmdInitTypeDef</a> structure and send the command.  <a href="#ga5ccbca2fbc3da7d440d79c51770f5efd">More...</a><br /></td></tr>
 <tr class="separator:ga5ccbca2fbc3da7d440d79c51770f5efd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6cd11d4e0eb89568585ddc3224f27f40"><td class="memItemLeft" align="right" valign="top"><a id="ga6cd11d4e0eb89568585ddc3224f27f40"></a>
-uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>SDIO_GetCommandResponse</b> (SDIO_TypeDef *SDIOx)</td></tr>
+<tr class="memitem:ga6cd11d4e0eb89568585ddc3224f27f40"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_a_l___s_d_m_m_c___l_l___group3.html#ga6cd11d4e0eb89568585ddc3224f27f40">SDIO_GetCommandResponse</a> (SDIO_TypeDef *SDIOx)</td></tr>
+<tr class="memdesc:ga6cd11d4e0eb89568585ddc3224f27f40"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the command index of last command for which response received.  <a href="#ga6cd11d4e0eb89568585ddc3224f27f40">More...</a><br /></td></tr>
 <tr class="separator:ga6cd11d4e0eb89568585ddc3224f27f40"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae41e93d3968d504c9320d76f97c1f2b8"><td class="memItemLeft" align="right" valign="top"><a id="gae41e93d3968d504c9320d76f97c1f2b8"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>SDIO_GetResponse</b> (SDIO_TypeDef *SDIOx, uint32_t Response)</td></tr>
+<tr class="memitem:gae41e93d3968d504c9320d76f97c1f2b8"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_a_l___s_d_m_m_c___l_l___group3.html#gae41e93d3968d504c9320d76f97c1f2b8">SDIO_GetResponse</a> (SDIO_TypeDef *SDIOx, uint32_t Response)</td></tr>
+<tr class="memdesc:gae41e93d3968d504c9320d76f97c1f2b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the response received from the card for the last command.  <a href="#gae41e93d3968d504c9320d76f97c1f2b8">More...</a><br /></td></tr>
 <tr class="separator:gae41e93d3968d504c9320d76f97c1f2b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6c4e9f3aea9ef5e1105da70cdc810945"><td class="memItemLeft" align="right" valign="top"><a id="ga6c4e9f3aea9ef5e1105da70cdc810945"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>SDIO_ConfigData</b> (SDIO_TypeDef *SDIOx, <a class="el" href="struct_s_d_i_o___data_init_type_def.html">SDIO_DataInitTypeDef</a> *Data)</td></tr>
+<tr class="memitem:ga6c4e9f3aea9ef5e1105da70cdc810945"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_a_l___s_d_m_m_c___l_l___group3.html#ga6c4e9f3aea9ef5e1105da70cdc810945">SDIO_ConfigData</a> (SDIO_TypeDef *SDIOx, <a class="el" href="struct_s_d_i_o___data_init_type_def.html">SDIO_DataInitTypeDef</a> *Data)</td></tr>
+<tr class="memdesc:ga6c4e9f3aea9ef5e1105da70cdc810945"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configure the SDMMC data path according to the specified parameters in the <a class="el" href="struct_s_d_i_o___data_init_type_def.html" title="SDMMC Data Control structure.">SDIO_DataInitTypeDef</a>.  <a href="#ga6c4e9f3aea9ef5e1105da70cdc810945">More...</a><br /></td></tr>
 <tr class="separator:ga6c4e9f3aea9ef5e1105da70cdc810945"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad9ecd1a1192eeda227481ce0d06da031"><td class="memItemLeft" align="right" valign="top"><a id="gad9ecd1a1192eeda227481ce0d06da031"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>SDIO_GetDataCounter</b> (SDIO_TypeDef *SDIOx)</td></tr>
+<tr class="memitem:gad9ecd1a1192eeda227481ce0d06da031"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_a_l___s_d_m_m_c___l_l___group3.html#gad9ecd1a1192eeda227481ce0d06da031">SDIO_GetDataCounter</a> (SDIO_TypeDef *SDIOx)</td></tr>
+<tr class="memdesc:gad9ecd1a1192eeda227481ce0d06da031"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns number of remaining data bytes to be transferred.  <a href="#gad9ecd1a1192eeda227481ce0d06da031">More...</a><br /></td></tr>
 <tr class="separator:gad9ecd1a1192eeda227481ce0d06da031"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad13ed8c07a08d91f90eb0ec5bece72a4"><td class="memItemLeft" align="right" valign="top"><a id="gad13ed8c07a08d91f90eb0ec5bece72a4"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>SDIO_GetFIFOCount</b> (SDIO_TypeDef *SDIOx)</td></tr>
+<tr class="memitem:gad13ed8c07a08d91f90eb0ec5bece72a4"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_a_l___s_d_m_m_c___l_l___group3.html#gad13ed8c07a08d91f90eb0ec5bece72a4">SDIO_GetFIFOCount</a> (SDIO_TypeDef *SDIOx)</td></tr>
+<tr class="memdesc:gad13ed8c07a08d91f90eb0ec5bece72a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the FIFO data.  <a href="#gad13ed8c07a08d91f90eb0ec5bece72a4">More...</a><br /></td></tr>
 <tr class="separator:gad13ed8c07a08d91f90eb0ec5bece72a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaeb16cbf96f7ea7769891ab51ffb96f83"><td class="memItemLeft" align="right" valign="top"><a id="gaeb16cbf96f7ea7769891ab51ffb96f83"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>SDIO_SetSDMMCReadWaitMode</b> (SDIO_TypeDef *SDIOx, uint32_t SDIO_ReadWaitMode)</td></tr>
+<tr class="memitem:gaeb16cbf96f7ea7769891ab51ffb96f83"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_a_l___s_d_m_m_c___l_l___group3.html#gaeb16cbf96f7ea7769891ab51ffb96f83">SDIO_SetSDMMCReadWaitMode</a> (SDIO_TypeDef *SDIOx, uint32_t SDIO_ReadWaitMode)</td></tr>
+<tr class="memdesc:gaeb16cbf96f7ea7769891ab51ffb96f83"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets one of the two options of inserting read wait interval.  <a href="#gaeb16cbf96f7ea7769891ab51ffb96f83">More...</a><br /></td></tr>
 <tr class="separator:gaeb16cbf96f7ea7769891ab51ffb96f83"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0a73cc8698cb48b5cb17cf2e1072899a"><td class="memItemLeft" align="right" valign="top"><a id="ga0a73cc8698cb48b5cb17cf2e1072899a"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>SDMMC_CmdBlockLength</b> (SDIO_TypeDef *SDIOx, uint32_t BlockSize)</td></tr>
+<tr class="memitem:ga0a73cc8698cb48b5cb17cf2e1072899a"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_a_l___s_d_m_m_c___l_l___group3.html#ga0a73cc8698cb48b5cb17cf2e1072899a">SDMMC_CmdBlockLength</a> (SDIO_TypeDef *SDIOx, uint32_t BlockSize)</td></tr>
+<tr class="memdesc:ga0a73cc8698cb48b5cb17cf2e1072899a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send the Data Block Lenght command and check the response.  <a href="#ga0a73cc8698cb48b5cb17cf2e1072899a">More...</a><br /></td></tr>
 <tr class="separator:ga0a73cc8698cb48b5cb17cf2e1072899a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaeba8406ca9514a5e4051ad8b1bfb821b"><td class="memItemLeft" align="right" valign="top"><a id="gaeba8406ca9514a5e4051ad8b1bfb821b"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>SDMMC_CmdReadSingleBlock</b> (SDIO_TypeDef *SDIOx, uint32_t ReadAdd)</td></tr>
+<tr class="memitem:gaeba8406ca9514a5e4051ad8b1bfb821b"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_a_l___s_d_m_m_c___l_l___group3.html#gaeba8406ca9514a5e4051ad8b1bfb821b">SDMMC_CmdReadSingleBlock</a> (SDIO_TypeDef *SDIOx, uint32_t ReadAdd)</td></tr>
+<tr class="memdesc:gaeba8406ca9514a5e4051ad8b1bfb821b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send the Read Single Block command and check the response.  <a href="#gaeba8406ca9514a5e4051ad8b1bfb821b">More...</a><br /></td></tr>
 <tr class="separator:gaeba8406ca9514a5e4051ad8b1bfb821b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga990706e79855e45006b327f1fa1a0d92"><td class="memItemLeft" align="right" valign="top"><a id="ga990706e79855e45006b327f1fa1a0d92"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>SDMMC_CmdReadMultiBlock</b> (SDIO_TypeDef *SDIOx, uint32_t ReadAdd)</td></tr>
+<tr class="memitem:ga990706e79855e45006b327f1fa1a0d92"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_a_l___s_d_m_m_c___l_l___group3.html#ga990706e79855e45006b327f1fa1a0d92">SDMMC_CmdReadMultiBlock</a> (SDIO_TypeDef *SDIOx, uint32_t ReadAdd)</td></tr>
+<tr class="memdesc:ga990706e79855e45006b327f1fa1a0d92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send the Read Multi Block command and check the response.  <a href="#ga990706e79855e45006b327f1fa1a0d92">More...</a><br /></td></tr>
 <tr class="separator:ga990706e79855e45006b327f1fa1a0d92"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga10b48ea8d697a83439861179e7ea3f99"><td class="memItemLeft" align="right" valign="top"><a id="ga10b48ea8d697a83439861179e7ea3f99"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>SDMMC_CmdWriteSingleBlock</b> (SDIO_TypeDef *SDIOx, uint32_t WriteAdd)</td></tr>
+<tr class="memitem:ga10b48ea8d697a83439861179e7ea3f99"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_a_l___s_d_m_m_c___l_l___group3.html#ga10b48ea8d697a83439861179e7ea3f99">SDMMC_CmdWriteSingleBlock</a> (SDIO_TypeDef *SDIOx, uint32_t WriteAdd)</td></tr>
+<tr class="memdesc:ga10b48ea8d697a83439861179e7ea3f99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send the Write Single Block command and check the response.  <a href="#ga10b48ea8d697a83439861179e7ea3f99">More...</a><br /></td></tr>
 <tr class="separator:ga10b48ea8d697a83439861179e7ea3f99"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga47a99ed0cd1ecb324f141fdfed594978"><td class="memItemLeft" align="right" valign="top"><a id="ga47a99ed0cd1ecb324f141fdfed594978"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>SDMMC_CmdWriteMultiBlock</b> (SDIO_TypeDef *SDIOx, uint32_t WriteAdd)</td></tr>
+<tr class="memitem:ga47a99ed0cd1ecb324f141fdfed594978"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_a_l___s_d_m_m_c___l_l___group3.html#ga47a99ed0cd1ecb324f141fdfed594978">SDMMC_CmdWriteMultiBlock</a> (SDIO_TypeDef *SDIOx, uint32_t WriteAdd)</td></tr>
+<tr class="memdesc:ga47a99ed0cd1ecb324f141fdfed594978"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send the Write Multi Block command and check the response.  <a href="#ga47a99ed0cd1ecb324f141fdfed594978">More...</a><br /></td></tr>
 <tr class="separator:ga47a99ed0cd1ecb324f141fdfed594978"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7db106867eeb1090b3680bc0e8f45482"><td class="memItemLeft" align="right" valign="top"><a id="ga7db106867eeb1090b3680bc0e8f45482"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>SDMMC_CmdSDEraseStartAdd</b> (SDIO_TypeDef *SDIOx, uint32_t StartAdd)</td></tr>
+<tr class="memitem:ga7db106867eeb1090b3680bc0e8f45482"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_a_l___s_d_m_m_c___l_l___group3.html#ga7db106867eeb1090b3680bc0e8f45482">SDMMC_CmdSDEraseStartAdd</a> (SDIO_TypeDef *SDIOx, uint32_t StartAdd)</td></tr>
+<tr class="memdesc:ga7db106867eeb1090b3680bc0e8f45482"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send the Start Address Erase command for SD and check the response.  <a href="#ga7db106867eeb1090b3680bc0e8f45482">More...</a><br /></td></tr>
 <tr class="separator:ga7db106867eeb1090b3680bc0e8f45482"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gafadc1f54fb7b916b70219059754185a2"><td class="memItemLeft" align="right" valign="top"><a id="gafadc1f54fb7b916b70219059754185a2"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>SDMMC_CmdSDEraseEndAdd</b> (SDIO_TypeDef *SDIOx, uint32_t EndAdd)</td></tr>
+<tr class="memitem:gafadc1f54fb7b916b70219059754185a2"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_a_l___s_d_m_m_c___l_l___group3.html#gafadc1f54fb7b916b70219059754185a2">SDMMC_CmdSDEraseEndAdd</a> (SDIO_TypeDef *SDIOx, uint32_t EndAdd)</td></tr>
+<tr class="memdesc:gafadc1f54fb7b916b70219059754185a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send the End Address Erase command for SD and check the response.  <a href="#gafadc1f54fb7b916b70219059754185a2">More...</a><br /></td></tr>
 <tr class="separator:gafadc1f54fb7b916b70219059754185a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga49cb11e14540c0e142dc5931ef4e242f"><td class="memItemLeft" align="right" valign="top"><a id="ga49cb11e14540c0e142dc5931ef4e242f"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>SDMMC_CmdErase</b> (SDIO_TypeDef *SDIOx)</td></tr>
+<tr class="memitem:ga49cb11e14540c0e142dc5931ef4e242f"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_a_l___s_d_m_m_c___l_l___group3.html#ga49cb11e14540c0e142dc5931ef4e242f">SDMMC_CmdErase</a> (SDIO_TypeDef *SDIOx)</td></tr>
+<tr class="memdesc:ga49cb11e14540c0e142dc5931ef4e242f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send the Erase command and check the response.  <a href="#ga49cb11e14540c0e142dc5931ef4e242f">More...</a><br /></td></tr>
 <tr class="separator:ga49cb11e14540c0e142dc5931ef4e242f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga57100d0f1cab1464b7b94ea4f5a251c9"><td class="memItemLeft" align="right" valign="top"><a id="ga57100d0f1cab1464b7b94ea4f5a251c9"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>SDMMC_CmdStopTransfer</b> (SDIO_TypeDef *SDIOx)</td></tr>
+<tr class="memitem:ga57100d0f1cab1464b7b94ea4f5a251c9"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_a_l___s_d_m_m_c___l_l___group3.html#ga57100d0f1cab1464b7b94ea4f5a251c9">SDMMC_CmdStopTransfer</a> (SDIO_TypeDef *SDIOx)</td></tr>
+<tr class="memdesc:ga57100d0f1cab1464b7b94ea4f5a251c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send the Stop Transfer command and check the response.  <a href="#ga57100d0f1cab1464b7b94ea4f5a251c9">More...</a><br /></td></tr>
 <tr class="separator:ga57100d0f1cab1464b7b94ea4f5a251c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga025eb0b242c7bc2363fe5275a837fd91"><td class="memItemLeft" align="right" valign="top"><a id="ga025eb0b242c7bc2363fe5275a837fd91"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>SDMMC_CmdSelDesel</b> (SDIO_TypeDef *SDIOx, uint64_t Addr)</td></tr>
+<tr class="memitem:ga025eb0b242c7bc2363fe5275a837fd91"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_a_l___s_d_m_m_c___l_l___group3.html#ga025eb0b242c7bc2363fe5275a837fd91">SDMMC_CmdSelDesel</a> (SDIO_TypeDef *SDIOx, uint64_t Addr)</td></tr>
+<tr class="memdesc:ga025eb0b242c7bc2363fe5275a837fd91"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send the Select Deselect command and check the response.  <a href="#ga025eb0b242c7bc2363fe5275a837fd91">More...</a><br /></td></tr>
 <tr class="separator:ga025eb0b242c7bc2363fe5275a837fd91"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga300931947cca94e18d168f495d8afbaa"><td class="memItemLeft" align="right" valign="top"><a id="ga300931947cca94e18d168f495d8afbaa"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>SDMMC_CmdGoIdleState</b> (SDIO_TypeDef *SDIOx)</td></tr>
+<tr class="memitem:ga300931947cca94e18d168f495d8afbaa"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_a_l___s_d_m_m_c___l_l___group3.html#ga300931947cca94e18d168f495d8afbaa">SDMMC_CmdGoIdleState</a> (SDIO_TypeDef *SDIOx)</td></tr>
+<tr class="memdesc:ga300931947cca94e18d168f495d8afbaa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send the Go Idle State command and check the response.  <a href="#ga300931947cca94e18d168f495d8afbaa">More...</a><br /></td></tr>
 <tr class="separator:ga300931947cca94e18d168f495d8afbaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2ef1adf5104853eae8cfaf0f670268c7"><td class="memItemLeft" align="right" valign="top"><a id="ga2ef1adf5104853eae8cfaf0f670268c7"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>SDMMC_CmdOperCond</b> (SDIO_TypeDef *SDIOx)</td></tr>
+<tr class="memitem:ga2ef1adf5104853eae8cfaf0f670268c7"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_a_l___s_d_m_m_c___l_l___group3.html#ga2ef1adf5104853eae8cfaf0f670268c7">SDMMC_CmdOperCond</a> (SDIO_TypeDef *SDIOx)</td></tr>
+<tr class="memdesc:ga2ef1adf5104853eae8cfaf0f670268c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send the Operating Condition command and check the response.  <a href="#ga2ef1adf5104853eae8cfaf0f670268c7">More...</a><br /></td></tr>
 <tr class="separator:ga2ef1adf5104853eae8cfaf0f670268c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga22399cc05078e6c7015bf7e909d525ae"><td class="memItemLeft" align="right" valign="top"><a id="ga22399cc05078e6c7015bf7e909d525ae"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>SDMMC_CmdAppCommand</b> (SDIO_TypeDef *SDIOx, uint32_t Argument)</td></tr>
+<tr class="memitem:ga22399cc05078e6c7015bf7e909d525ae"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_a_l___s_d_m_m_c___l_l___group3.html#ga22399cc05078e6c7015bf7e909d525ae">SDMMC_CmdAppCommand</a> (SDIO_TypeDef *SDIOx, uint32_t Argument)</td></tr>
+<tr class="memdesc:ga22399cc05078e6c7015bf7e909d525ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send the Application command to verify that that the next command is an application specific com-mand rather than a standard command and check the response.  <a href="#ga22399cc05078e6c7015bf7e909d525ae">More...</a><br /></td></tr>
 <tr class="separator:ga22399cc05078e6c7015bf7e909d525ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf7b2a0e90a3ea4cfdb22aaf3d1c29d72"><td class="memItemLeft" align="right" valign="top"><a id="gaf7b2a0e90a3ea4cfdb22aaf3d1c29d72"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>SDMMC_CmdAppOperCommand</b> (SDIO_TypeDef *SDIOx, uint32_t SdType)</td></tr>
+<tr class="memitem:gaf7b2a0e90a3ea4cfdb22aaf3d1c29d72"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_a_l___s_d_m_m_c___l_l___group3.html#gaf7b2a0e90a3ea4cfdb22aaf3d1c29d72">SDMMC_CmdAppOperCommand</a> (SDIO_TypeDef *SDIOx, uint32_t SdType)</td></tr>
+<tr class="memdesc:gaf7b2a0e90a3ea4cfdb22aaf3d1c29d72"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send the command asking the accessed card to send its operating condition register (OCR)  <a href="#gaf7b2a0e90a3ea4cfdb22aaf3d1c29d72">More...</a><br /></td></tr>
 <tr class="separator:gaf7b2a0e90a3ea4cfdb22aaf3d1c29d72"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga3a60bdde74aa0cf33da439dca6a6a0f9"><td class="memItemLeft" align="right" valign="top"><a id="ga3a60bdde74aa0cf33da439dca6a6a0f9"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>SDMMC_CmdBusWidth</b> (SDIO_TypeDef *SDIOx, uint32_t BusWidth)</td></tr>
+<tr class="memitem:ga3a60bdde74aa0cf33da439dca6a6a0f9"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_a_l___s_d_m_m_c___l_l___group3.html#ga3a60bdde74aa0cf33da439dca6a6a0f9">SDMMC_CmdBusWidth</a> (SDIO_TypeDef *SDIOx, uint32_t BusWidth)</td></tr>
+<tr class="memdesc:ga3a60bdde74aa0cf33da439dca6a6a0f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send the Bus Width command and check the response.  <a href="#ga3a60bdde74aa0cf33da439dca6a6a0f9">More...</a><br /></td></tr>
 <tr class="separator:ga3a60bdde74aa0cf33da439dca6a6a0f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7db3e058dc0eebbda0362ac7f00f1e5e"><td class="memItemLeft" align="right" valign="top"><a id="ga7db3e058dc0eebbda0362ac7f00f1e5e"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>SDMMC_CmdSendSCR</b> (SDIO_TypeDef *SDIOx)</td></tr>
+<tr class="memitem:ga7db3e058dc0eebbda0362ac7f00f1e5e"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_a_l___s_d_m_m_c___l_l___group3.html#ga7db3e058dc0eebbda0362ac7f00f1e5e">SDMMC_CmdSendSCR</a> (SDIO_TypeDef *SDIOx)</td></tr>
+<tr class="memdesc:ga7db3e058dc0eebbda0362ac7f00f1e5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send the Send SCR command and check the response.  <a href="#ga7db3e058dc0eebbda0362ac7f00f1e5e">More...</a><br /></td></tr>
 <tr class="separator:ga7db3e058dc0eebbda0362ac7f00f1e5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gabd1763d11e9b72ea03d9f364d0ddde65"><td class="memItemLeft" align="right" valign="top"><a id="gabd1763d11e9b72ea03d9f364d0ddde65"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>SDMMC_CmdSendCID</b> (SDIO_TypeDef *SDIOx)</td></tr>
+<tr class="memitem:gabd1763d11e9b72ea03d9f364d0ddde65"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_a_l___s_d_m_m_c___l_l___group3.html#gabd1763d11e9b72ea03d9f364d0ddde65">SDMMC_CmdSendCID</a> (SDIO_TypeDef *SDIOx)</td></tr>
+<tr class="memdesc:gabd1763d11e9b72ea03d9f364d0ddde65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send the Send CID command and check the response.  <a href="#gabd1763d11e9b72ea03d9f364d0ddde65">More...</a><br /></td></tr>
 <tr class="separator:gabd1763d11e9b72ea03d9f364d0ddde65"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8ad20929846b03f4c0c8e21517eb50cf"><td class="memItemLeft" align="right" valign="top"><a id="ga8ad20929846b03f4c0c8e21517eb50cf"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>SDMMC_CmdSendCSD</b> (SDIO_TypeDef *SDIOx, uint32_t Argument)</td></tr>
+<tr class="memitem:ga8ad20929846b03f4c0c8e21517eb50cf"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_a_l___s_d_m_m_c___l_l___group3.html#ga8ad20929846b03f4c0c8e21517eb50cf">SDMMC_CmdSendCSD</a> (SDIO_TypeDef *SDIOx, uint32_t Argument)</td></tr>
+<tr class="memdesc:ga8ad20929846b03f4c0c8e21517eb50cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send the Send CSD command and check the response.  <a href="#ga8ad20929846b03f4c0c8e21517eb50cf">More...</a><br /></td></tr>
 <tr class="separator:ga8ad20929846b03f4c0c8e21517eb50cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gabd82b709db8c87bd344229325ce7c386"><td class="memItemLeft" align="right" valign="top"><a id="gabd82b709db8c87bd344229325ce7c386"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>SDMMC_CmdSetRelAdd</b> (SDIO_TypeDef *SDIOx, uint16_t *pRCA)</td></tr>
+<tr class="memitem:gabd82b709db8c87bd344229325ce7c386"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_a_l___s_d_m_m_c___l_l___group3.html#gabd82b709db8c87bd344229325ce7c386">SDMMC_CmdSetRelAdd</a> (SDIO_TypeDef *SDIOx, uint16_t *pRCA)</td></tr>
+<tr class="memdesc:gabd82b709db8c87bd344229325ce7c386"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send the Send CSD command and check the response.  <a href="#gabd82b709db8c87bd344229325ce7c386">More...</a><br /></td></tr>
 <tr class="separator:gabd82b709db8c87bd344229325ce7c386"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gafcd9d259ec1c172c9555b373d457c03d"><td class="memItemLeft" align="right" valign="top"><a id="gafcd9d259ec1c172c9555b373d457c03d"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>SDMMC_CmdSendStatus</b> (SDIO_TypeDef *SDIOx, uint32_t Argument)</td></tr>
+<tr class="memitem:gafcd9d259ec1c172c9555b373d457c03d"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_a_l___s_d_m_m_c___l_l___group3.html#gafcd9d259ec1c172c9555b373d457c03d">SDMMC_CmdSendStatus</a> (SDIO_TypeDef *SDIOx, uint32_t Argument)</td></tr>
+<tr class="memdesc:gafcd9d259ec1c172c9555b373d457c03d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send the Status command and check the response.  <a href="#gafcd9d259ec1c172c9555b373d457c03d">More...</a><br /></td></tr>
 <tr class="separator:gafcd9d259ec1c172c9555b373d457c03d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7e89c21b0ad43ef137cf32d9582c75cf"><td class="memItemLeft" align="right" valign="top"><a id="ga7e89c21b0ad43ef137cf32d9582c75cf"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>SDMMC_CmdStatusRegister</b> (SDIO_TypeDef *SDIOx)</td></tr>
+<tr class="memitem:ga7e89c21b0ad43ef137cf32d9582c75cf"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_a_l___s_d_m_m_c___l_l___group3.html#ga7e89c21b0ad43ef137cf32d9582c75cf">SDMMC_CmdStatusRegister</a> (SDIO_TypeDef *SDIOx)</td></tr>
+<tr class="memdesc:ga7e89c21b0ad43ef137cf32d9582c75cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send the Status register command and check the response.  <a href="#ga7e89c21b0ad43ef137cf32d9582c75cf">More...</a><br /></td></tr>
 <tr class="separator:ga7e89c21b0ad43ef137cf32d9582c75cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa71fcb280df20468b61b6fa74f32a7d1"><td class="memItemLeft" align="right" valign="top"><a id="gaa71fcb280df20468b61b6fa74f32a7d1"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>SDMMC_CmdOpCondition</b> (SDIO_TypeDef *SDIOx, uint32_t Argument)</td></tr>
+<tr class="memitem:gaa71fcb280df20468b61b6fa74f32a7d1"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_a_l___s_d_m_m_c___l_l___group3.html#gaa71fcb280df20468b61b6fa74f32a7d1">SDMMC_CmdOpCondition</a> (SDIO_TypeDef *SDIOx, uint32_t Argument)</td></tr>
+<tr class="memdesc:gaa71fcb280df20468b61b6fa74f32a7d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sends host capacity support information and activates the card's initialization process. Send SDMMC_CMD_SEND_OP_COND command.  <a href="#gaa71fcb280df20468b61b6fa74f32a7d1">More...</a><br /></td></tr>
 <tr class="separator:gaa71fcb280df20468b61b6fa74f32a7d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga005bbc44717caf80b10ef86065e96bdb"><td class="memItemLeft" align="right" valign="top"><a id="ga005bbc44717caf80b10ef86065e96bdb"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>SDMMC_CmdSwitch</b> (SDIO_TypeDef *SDIOx, uint32_t Argument)</td></tr>
+<tr class="memitem:ga005bbc44717caf80b10ef86065e96bdb"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_a_l___s_d_m_m_c___l_l___group3.html#ga005bbc44717caf80b10ef86065e96bdb">SDMMC_CmdSwitch</a> (SDIO_TypeDef *SDIOx, uint32_t Argument)</td></tr>
+<tr class="memdesc:ga005bbc44717caf80b10ef86065e96bdb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks switchable function and switch card function. SDMMC_CMD_HS_SWITCH comand.  <a href="#ga005bbc44717caf80b10ef86065e96bdb">More...</a><br /></td></tr>
 <tr class="separator:ga005bbc44717caf80b10ef86065e96bdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga27c3d4f28227d8abda851682ed02c765"><td class="memItemLeft" align="right" valign="top"><a id="ga27c3d4f28227d8abda851682ed02c765"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>SDMMC_CmdEraseStartAdd</b> (SDIO_TypeDef *SDIOx, uint32_t StartAdd)</td></tr>
+<tr class="memitem:ga27c3d4f28227d8abda851682ed02c765"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_a_l___s_d_m_m_c___l_l___group3.html#ga27c3d4f28227d8abda851682ed02c765">SDMMC_CmdEraseStartAdd</a> (SDIO_TypeDef *SDIOx, uint32_t StartAdd)</td></tr>
+<tr class="memdesc:ga27c3d4f28227d8abda851682ed02c765"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send the Start Address Erase command and check the response.  <a href="#ga27c3d4f28227d8abda851682ed02c765">More...</a><br /></td></tr>
 <tr class="separator:ga27c3d4f28227d8abda851682ed02c765"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5586c3991eba2eef252fad8ec571f499"><td class="memItemLeft" align="right" valign="top"><a id="ga5586c3991eba2eef252fad8ec571f499"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>SDMMC_CmdEraseEndAdd</b> (SDIO_TypeDef *SDIOx, uint32_t EndAdd)</td></tr>
+<tr class="memitem:ga5586c3991eba2eef252fad8ec571f499"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_a_l___s_d_m_m_c___l_l___group3.html#ga5586c3991eba2eef252fad8ec571f499">SDMMC_CmdEraseEndAdd</a> (SDIO_TypeDef *SDIOx, uint32_t EndAdd)</td></tr>
+<tr class="memdesc:ga5586c3991eba2eef252fad8ec571f499"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send the End Address Erase command and check the response.  <a href="#ga5586c3991eba2eef252fad8ec571f499">More...</a><br /></td></tr>
 <tr class="separator:ga5586c3991eba2eef252fad8ec571f499"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>management functions </p>
+<pre class="fragment"> ===============================================================================
+                      ##### Peripheral Control functions #####
+ ===============================================================================  
+    [..]
+    This subsection provides a set of functions allowing to control the SDMMC data 
+    transfers.</pre> <h2 class="groupheader">Function Documentation</h2>
+<a id="ga6c4e9f3aea9ef5e1105da70cdc810945"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6c4e9f3aea9ef5e1105da70cdc810945">&#9670;&nbsp;</a></span>SDIO_ConfigData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef SDIO_ConfigData </td>
+          <td>(</td>
+          <td class="paramtype">SDIO_TypeDef *&#160;</td>
+          <td class="paramname"><em>SDIOx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_s_d_i_o___data_init_type_def.html">SDIO_DataInitTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>Data</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Configure the SDMMC data path according to the specified parameters in the <a class="el" href="struct_s_d_i_o___data_init_type_def.html" title="SDMMC Data Control structure.">SDIO_DataInitTypeDef</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">SDIOx</td><td>Pointer to SDMMC register base</td></tr>
+    <tr><td class="paramname">Data</td><td>pointer to a <a class="el" href="struct_s_d_i_o___data_init_type_def.html" title="SDMMC Data Control structure.">SDIO_DataInitTypeDef</a> structure that contains the configuration information for the SDMMC data. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga6cd11d4e0eb89568585ddc3224f27f40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6cd11d4e0eb89568585ddc3224f27f40">&#9670;&nbsp;</a></span>SDIO_GetCommandResponse()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t SDIO_GetCommandResponse </td>
+          <td>(</td>
+          <td class="paramtype">SDIO_TypeDef *&#160;</td>
+          <td class="paramname"><em>SDIOx</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return the command index of last command for which response received. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">SDIOx</td><td>Pointer to SDMMC register base </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">Command</td><td>index of the last command response received </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gad9ecd1a1192eeda227481ce0d06da031"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad9ecd1a1192eeda227481ce0d06da031">&#9670;&nbsp;</a></span>SDIO_GetDataCounter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t SDIO_GetDataCounter </td>
+          <td>(</td>
+          <td class="paramtype">SDIO_TypeDef *&#160;</td>
+          <td class="paramname"><em>SDIOx</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns number of remaining data bytes to be transferred. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">SDIOx</td><td>Pointer to SDMMC register base </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">Number</td><td>of remaining data bytes to be transferred </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gad13ed8c07a08d91f90eb0ec5bece72a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad13ed8c07a08d91f90eb0ec5bece72a4">&#9670;&nbsp;</a></span>SDIO_GetFIFOCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t SDIO_GetFIFOCount </td>
+          <td>(</td>
+          <td class="paramtype">SDIO_TypeDef *&#160;</td>
+          <td class="paramname"><em>SDIOx</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the FIFO data. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">SDIOx</td><td>Pointer to SDMMC register base </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">Data</td><td>received </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga2079f67b0c5b7bc5f745828f6e83ee29"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2079f67b0c5b7bc5f745828f6e83ee29">&#9670;&nbsp;</a></span>SDIO_GetPowerState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t SDIO_GetPowerState </td>
+          <td>(</td>
+          <td class="paramtype">SDIO_TypeDef *&#160;</td>
+          <td class="paramname"><em>SDIOx</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get SDMMC Power state. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">SDIOx</td><td>Pointer to SDMMC register base </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">Power</td><td>status of the controller. The returned value can be one of the following values:<ul>
+<li>0x00: Power OFF</li>
+<li>0x02: Power UP</li>
+<li>0x03: Power ON </li>
+</ul>
+</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gae41e93d3968d504c9320d76f97c1f2b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae41e93d3968d504c9320d76f97c1f2b8">&#9670;&nbsp;</a></span>SDIO_GetResponse()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t SDIO_GetResponse </td>
+          <td>(</td>
+          <td class="paramtype">SDIO_TypeDef *&#160;</td>
+          <td class="paramname"><em>SDIOx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Response</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return the response received from the card for the last command. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">SDIOx</td><td>Pointer to SDMMC register base</td></tr>
+    <tr><td class="paramname">Response</td><td>Specifies the SDMMC response register. This parameter can be one of the following values: <ul>
+<li>SDIO_RESP1: Response Register 1 </li>
+<li>SDIO_RESP1: Response Register 2 </li>
+<li>SDIO_RESP1: Response Register 3 </li>
+<li>SDIO_RESP1: Response Register 4</li>
+</ul>
+</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">The</td><td>Corresponding response register value </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga162f9bf71abaaa3d0be637c9718f0beb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga162f9bf71abaaa3d0be637c9718f0beb">&#9670;&nbsp;</a></span>SDIO_PowerState_OFF()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef SDIO_PowerState_OFF </td>
+          <td>(</td>
+          <td class="paramtype">SDIO_TypeDef *&#160;</td>
+          <td class="paramname"><em>SDIOx</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set SDMMC Power state to OFF. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">SDIOx</td><td>Pointer to SDMMC register base </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga6245d444d06f38176437446f7b4ad047"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6245d444d06f38176437446f7b4ad047">&#9670;&nbsp;</a></span>SDIO_PowerState_ON()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef SDIO_PowerState_ON </td>
+          <td>(</td>
+          <td class="paramtype">SDIO_TypeDef *&#160;</td>
+          <td class="paramname"><em>SDIOx</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set SDMMC Power state to ON. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">SDIOx</td><td>Pointer to SDMMC register base </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga5ccbca2fbc3da7d440d79c51770f5efd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5ccbca2fbc3da7d440d79c51770f5efd">&#9670;&nbsp;</a></span>SDIO_SendCommand()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef SDIO_SendCommand </td>
+          <td>(</td>
+          <td class="paramtype">SDIO_TypeDef *&#160;</td>
+          <td class="paramname"><em>SDIOx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_s_d_i_o___cmd_init_type_def.html">SDIO_CmdInitTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>Command</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Configure the SDMMC command path according to the specified parameters in <a class="el" href="struct_s_d_i_o___cmd_init_type_def.html" title="SDMMC Command Control structure.">SDIO_CmdInitTypeDef</a> structure and send the command. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">SDIOx</td><td>Pointer to SDMMC register base </td></tr>
+    <tr><td class="paramname">Command</td><td>pointer to a <a class="el" href="struct_s_d_i_o___cmd_init_type_def.html" title="SDMMC Command Control structure.">SDIO_CmdInitTypeDef</a> structure that contains the configuration information for the SDMMC command </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaeb16cbf96f7ea7769891ab51ffb96f83"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaeb16cbf96f7ea7769891ab51ffb96f83">&#9670;&nbsp;</a></span>SDIO_SetSDMMCReadWaitMode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef SDIO_SetSDMMCReadWaitMode </td>
+          <td>(</td>
+          <td class="paramtype">SDIO_TypeDef *&#160;</td>
+          <td class="paramname"><em>SDIOx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>SDIO_ReadWaitMode</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets one of the two options of inserting read wait interval. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">SDIOx</td><td>Pointer to SDMMC register base</td></tr>
+    <tr><td class="paramname">SDIO_ReadWaitMode</td><td>SDMMC Read Wait operation mode. This parameter can be: <ul>
+<li>SDIO_READ_WAIT_MODE_CLK: Read Wait control by stopping SDMMCCLK </li>
+<li>SDIO_READ_WAIT_MODE_DATA2: Read Wait control using SDMMC_DATA2 </li>
+</ul>
+</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga22399cc05078e6c7015bf7e909d525ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga22399cc05078e6c7015bf7e909d525ae">&#9670;&nbsp;</a></span>SDMMC_CmdAppCommand()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t SDMMC_CmdAppCommand </td>
+          <td>(</td>
+          <td class="paramtype">SDIO_TypeDef *&#160;</td>
+          <td class="paramname"><em>SDIOx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Argument</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Send the Application command to verify that that the next command is an application specific com-mand rather than a standard command and check the response. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">SDIOx</td><td>Pointer to SDIO register base </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaf7b2a0e90a3ea4cfdb22aaf3d1c29d72"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf7b2a0e90a3ea4cfdb22aaf3d1c29d72">&#9670;&nbsp;</a></span>SDMMC_CmdAppOperCommand()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t SDMMC_CmdAppOperCommand </td>
+          <td>(</td>
+          <td class="paramtype">SDIO_TypeDef *&#160;</td>
+          <td class="paramname"><em>SDIOx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>SdType</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Send the command asking the accessed card to send its operating condition register (OCR) </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">SDIOx</td><td>Pointer to SDIO register base </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga0a73cc8698cb48b5cb17cf2e1072899a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0a73cc8698cb48b5cb17cf2e1072899a">&#9670;&nbsp;</a></span>SDMMC_CmdBlockLength()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t SDMMC_CmdBlockLength </td>
+          <td>(</td>
+          <td class="paramtype">SDIO_TypeDef *&#160;</td>
+          <td class="paramname"><em>SDIOx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>BlockSize</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Send the Data Block Lenght command and check the response. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">SDIOx</td><td>Pointer to SDMMC register base </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga3a60bdde74aa0cf33da439dca6a6a0f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3a60bdde74aa0cf33da439dca6a6a0f9">&#9670;&nbsp;</a></span>SDMMC_CmdBusWidth()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t SDMMC_CmdBusWidth </td>
+          <td>(</td>
+          <td class="paramtype">SDIO_TypeDef *&#160;</td>
+          <td class="paramname"><em>SDIOx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>BusWidth</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Send the Bus Width command and check the response. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">SDIOx</td><td>Pointer to SDIO register base </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga49cb11e14540c0e142dc5931ef4e242f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga49cb11e14540c0e142dc5931ef4e242f">&#9670;&nbsp;</a></span>SDMMC_CmdErase()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t SDMMC_CmdErase </td>
+          <td>(</td>
+          <td class="paramtype">SDIO_TypeDef *&#160;</td>
+          <td class="paramname"><em>SDIOx</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Send the Erase command and check the response. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">SDIOx</td><td>Pointer to SDIO register base </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga5586c3991eba2eef252fad8ec571f499"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5586c3991eba2eef252fad8ec571f499">&#9670;&nbsp;</a></span>SDMMC_CmdEraseEndAdd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t SDMMC_CmdEraseEndAdd </td>
+          <td>(</td>
+          <td class="paramtype">SDIO_TypeDef *&#160;</td>
+          <td class="paramname"><em>SDIOx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>EndAdd</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Send the End Address Erase command and check the response. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">SDIOx</td><td>Pointer to SDIO register base </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga27c3d4f28227d8abda851682ed02c765"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga27c3d4f28227d8abda851682ed02c765">&#9670;&nbsp;</a></span>SDMMC_CmdEraseStartAdd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t SDMMC_CmdEraseStartAdd </td>
+          <td>(</td>
+          <td class="paramtype">SDIO_TypeDef *&#160;</td>
+          <td class="paramname"><em>SDIOx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>StartAdd</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Send the Start Address Erase command and check the response. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">SDIOx</td><td>Pointer to SDIO register base </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga300931947cca94e18d168f495d8afbaa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga300931947cca94e18d168f495d8afbaa">&#9670;&nbsp;</a></span>SDMMC_CmdGoIdleState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t SDMMC_CmdGoIdleState </td>
+          <td>(</td>
+          <td class="paramtype">SDIO_TypeDef *&#160;</td>
+          <td class="paramname"><em>SDIOx</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Send the Go Idle State command and check the response. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">SDIOx</td><td>Pointer to SDIO register base </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaa71fcb280df20468b61b6fa74f32a7d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa71fcb280df20468b61b6fa74f32a7d1">&#9670;&nbsp;</a></span>SDMMC_CmdOpCondition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t SDMMC_CmdOpCondition </td>
+          <td>(</td>
+          <td class="paramtype">SDIO_TypeDef *&#160;</td>
+          <td class="paramname"><em>SDIOx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Argument</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sends host capacity support information and activates the card's initialization process. Send SDMMC_CMD_SEND_OP_COND command. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">SDIOx</td><td>Pointer to SDIO register base @parame Argument Argument used for the command </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga2ef1adf5104853eae8cfaf0f670268c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2ef1adf5104853eae8cfaf0f670268c7">&#9670;&nbsp;</a></span>SDMMC_CmdOperCond()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t SDMMC_CmdOperCond </td>
+          <td>(</td>
+          <td class="paramtype">SDIO_TypeDef *&#160;</td>
+          <td class="paramname"><em>SDIOx</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Send the Operating Condition command and check the response. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">SDIOx</td><td>Pointer to SDIO register base </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga990706e79855e45006b327f1fa1a0d92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga990706e79855e45006b327f1fa1a0d92">&#9670;&nbsp;</a></span>SDMMC_CmdReadMultiBlock()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t SDMMC_CmdReadMultiBlock </td>
+          <td>(</td>
+          <td class="paramtype">SDIO_TypeDef *&#160;</td>
+          <td class="paramname"><em>SDIOx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>ReadAdd</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Send the Read Multi Block command and check the response. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">SDIOx</td><td>Pointer to SDIO register base </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaeba8406ca9514a5e4051ad8b1bfb821b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaeba8406ca9514a5e4051ad8b1bfb821b">&#9670;&nbsp;</a></span>SDMMC_CmdReadSingleBlock()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t SDMMC_CmdReadSingleBlock </td>
+          <td>(</td>
+          <td class="paramtype">SDIO_TypeDef *&#160;</td>
+          <td class="paramname"><em>SDIOx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>ReadAdd</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Send the Read Single Block command and check the response. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">SDIOx</td><td>Pointer to SDMMC register base </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gafadc1f54fb7b916b70219059754185a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gafadc1f54fb7b916b70219059754185a2">&#9670;&nbsp;</a></span>SDMMC_CmdSDEraseEndAdd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t SDMMC_CmdSDEraseEndAdd </td>
+          <td>(</td>
+          <td class="paramtype">SDIO_TypeDef *&#160;</td>
+          <td class="paramname"><em>SDIOx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>EndAdd</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Send the End Address Erase command for SD and check the response. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">SDIOx</td><td>Pointer to SDIO register base </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga7db106867eeb1090b3680bc0e8f45482"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7db106867eeb1090b3680bc0e8f45482">&#9670;&nbsp;</a></span>SDMMC_CmdSDEraseStartAdd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t SDMMC_CmdSDEraseStartAdd </td>
+          <td>(</td>
+          <td class="paramtype">SDIO_TypeDef *&#160;</td>
+          <td class="paramname"><em>SDIOx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>StartAdd</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Send the Start Address Erase command for SD and check the response. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">SDIOx</td><td>Pointer to SDIO register base </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga025eb0b242c7bc2363fe5275a837fd91"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga025eb0b242c7bc2363fe5275a837fd91">&#9670;&nbsp;</a></span>SDMMC_CmdSelDesel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t SDMMC_CmdSelDesel </td>
+          <td>(</td>
+          <td class="paramtype">SDIO_TypeDef *&#160;</td>
+          <td class="paramname"><em>SDIOx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint64_t&#160;</td>
+          <td class="paramname"><em>Addr</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Send the Select Deselect command and check the response. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">SDIOx</td><td>Pointer to SDIO register base </td></tr>
+    <tr><td class="paramname">addr</td><td>Address of the card to be selected</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gabd1763d11e9b72ea03d9f364d0ddde65"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabd1763d11e9b72ea03d9f364d0ddde65">&#9670;&nbsp;</a></span>SDMMC_CmdSendCID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t SDMMC_CmdSendCID </td>
+          <td>(</td>
+          <td class="paramtype">SDIO_TypeDef *&#160;</td>
+          <td class="paramname"><em>SDIOx</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Send the Send CID command and check the response. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">SDIOx</td><td>Pointer to SDIO register base </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga8ad20929846b03f4c0c8e21517eb50cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8ad20929846b03f4c0c8e21517eb50cf">&#9670;&nbsp;</a></span>SDMMC_CmdSendCSD()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t SDMMC_CmdSendCSD </td>
+          <td>(</td>
+          <td class="paramtype">SDIO_TypeDef *&#160;</td>
+          <td class="paramname"><em>SDIOx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Argument</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Send the Send CSD command and check the response. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">SDIOx</td><td>Pointer to SDIO register base </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga7db3e058dc0eebbda0362ac7f00f1e5e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7db3e058dc0eebbda0362ac7f00f1e5e">&#9670;&nbsp;</a></span>SDMMC_CmdSendSCR()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t SDMMC_CmdSendSCR </td>
+          <td>(</td>
+          <td class="paramtype">SDIO_TypeDef *&#160;</td>
+          <td class="paramname"><em>SDIOx</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Send the Send SCR command and check the response. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">SDIOx</td><td>Pointer to SDMMC register base </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gafcd9d259ec1c172c9555b373d457c03d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gafcd9d259ec1c172c9555b373d457c03d">&#9670;&nbsp;</a></span>SDMMC_CmdSendStatus()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t SDMMC_CmdSendStatus </td>
+          <td>(</td>
+          <td class="paramtype">SDIO_TypeDef *&#160;</td>
+          <td class="paramname"><em>SDIOx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Argument</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Send the Status command and check the response. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">SDIOx</td><td>Pointer to SDIO register base </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gabd82b709db8c87bd344229325ce7c386"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabd82b709db8c87bd344229325ce7c386">&#9670;&nbsp;</a></span>SDMMC_CmdSetRelAdd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t SDMMC_CmdSetRelAdd </td>
+          <td>(</td>
+          <td class="paramtype">SDIO_TypeDef *&#160;</td>
+          <td class="paramname"><em>SDIOx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t *&#160;</td>
+          <td class="paramname"><em>pRCA</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Send the Send CSD command and check the response. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">SDIOx</td><td>Pointer to SDIO register base </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga7e89c21b0ad43ef137cf32d9582c75cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7e89c21b0ad43ef137cf32d9582c75cf">&#9670;&nbsp;</a></span>SDMMC_CmdStatusRegister()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t SDMMC_CmdStatusRegister </td>
+          <td>(</td>
+          <td class="paramtype">SDIO_TypeDef *&#160;</td>
+          <td class="paramname"><em>SDIOx</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Send the Status register command and check the response. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">SDIOx</td><td>Pointer to SDIO register base </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga57100d0f1cab1464b7b94ea4f5a251c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga57100d0f1cab1464b7b94ea4f5a251c9">&#9670;&nbsp;</a></span>SDMMC_CmdStopTransfer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t SDMMC_CmdStopTransfer </td>
+          <td>(</td>
+          <td class="paramtype">SDIO_TypeDef *&#160;</td>
+          <td class="paramname"><em>SDIOx</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Send the Stop Transfer command and check the response. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">SDIOx</td><td>Pointer to SDIO register base </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga005bbc44717caf80b10ef86065e96bdb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga005bbc44717caf80b10ef86065e96bdb">&#9670;&nbsp;</a></span>SDMMC_CmdSwitch()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t SDMMC_CmdSwitch </td>
+          <td>(</td>
+          <td class="paramtype">SDIO_TypeDef *&#160;</td>
+          <td class="paramname"><em>SDIOx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Argument</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Checks switchable function and switch card function. SDMMC_CMD_HS_SWITCH comand. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">SDIOx</td><td>Pointer to SDIO register base @parame Argument Argument used for the command </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga47a99ed0cd1ecb324f141fdfed594978"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga47a99ed0cd1ecb324f141fdfed594978">&#9670;&nbsp;</a></span>SDMMC_CmdWriteMultiBlock()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t SDMMC_CmdWriteMultiBlock </td>
+          <td>(</td>
+          <td class="paramtype">SDIO_TypeDef *&#160;</td>
+          <td class="paramname"><em>SDIOx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>WriteAdd</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Send the Write Multi Block command and check the response. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">SDIOx</td><td>Pointer to SDIO register base </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga10b48ea8d697a83439861179e7ea3f99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga10b48ea8d697a83439861179e7ea3f99">&#9670;&nbsp;</a></span>SDMMC_CmdWriteSingleBlock()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t SDMMC_CmdWriteSingleBlock </td>
+          <td>(</td>
+          <td class="paramtype">SDIO_TypeDef *&#160;</td>
+          <td class="paramname"><em>SDIOx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>WriteAdd</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Send the Write Single Block command and check the response. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">SDIOx</td><td>Pointer to SDIO register base </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

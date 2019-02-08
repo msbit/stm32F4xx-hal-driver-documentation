@@ -64,50 +64,762 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">Input and Output functions<div class="ingroups"><a class="el" href="group___n_a_n_d___exported___functions.html">NAND Exported Functions</a></div></div>  </div>
+<div class="title">Input and Output functions<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___n_a_n_d.html">NAND</a> &raquo; <a class="el" href="group___n_a_n_d___exported___functions.html">NAND Exported Functions</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Input Output and memory control functions.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gab137d707e4b3ee23d32cc49fbe45ed5b"><td class="memItemLeft" align="right" valign="top"><a id="gab137d707e4b3ee23d32cc49fbe45ed5b"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_NAND_Reset</b> (<a class="el" href="struct_n_a_n_d___handle_type_def.html">NAND_HandleTypeDef</a> *hnand)</td></tr>
+<tr class="memitem:gab137d707e4b3ee23d32cc49fbe45ed5b"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___n_a_n_d___exported___functions___group2.html#gab137d707e4b3ee23d32cc49fbe45ed5b">HAL_NAND_Reset</a> (<a class="el" href="struct_n_a_n_d___handle_type_def.html">NAND_HandleTypeDef</a> *hnand)</td></tr>
+<tr class="memdesc:gab137d707e4b3ee23d32cc49fbe45ed5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">NAND memory reset.  <a href="#gab137d707e4b3ee23d32cc49fbe45ed5b">More...</a><br /></td></tr>
 <tr class="separator:gab137d707e4b3ee23d32cc49fbe45ed5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga88f64880b8435ffde88f8e43e9b6eb43"><td class="memItemLeft" align="right" valign="top"><a id="ga88f64880b8435ffde88f8e43e9b6eb43"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_NAND_Read_Page_8b</b> (<a class="el" href="struct_n_a_n_d___handle_type_def.html">NAND_HandleTypeDef</a> *hnand, <a class="el" href="struct_n_a_n_d___address_type_def.html">NAND_AddressTypeDef</a> *pAddress, uint8_t *pBuffer, uint32_t NumPageToRead)</td></tr>
+<tr class="memitem:ga88f64880b8435ffde88f8e43e9b6eb43"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___n_a_n_d___exported___functions___group2.html#ga88f64880b8435ffde88f8e43e9b6eb43">HAL_NAND_Read_Page_8b</a> (<a class="el" href="struct_n_a_n_d___handle_type_def.html">NAND_HandleTypeDef</a> *hnand, <a class="el" href="struct_n_a_n_d___address_type_def.html">NAND_AddressTypeDef</a> *pAddress, uint8_t *pBuffer, uint32_t NumPageToRead)</td></tr>
+<tr class="memdesc:ga88f64880b8435ffde88f8e43e9b6eb43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read Page(s) from NAND memory block (8-bits addressing)  <a href="#ga88f64880b8435ffde88f8e43e9b6eb43">More...</a><br /></td></tr>
 <tr class="separator:ga88f64880b8435ffde88f8e43e9b6eb43"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaba01cc60ac7b85e5dcd64dc74bf5115e"><td class="memItemLeft" align="right" valign="top"><a id="gaba01cc60ac7b85e5dcd64dc74bf5115e"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_NAND_Write_Page_8b</b> (<a class="el" href="struct_n_a_n_d___handle_type_def.html">NAND_HandleTypeDef</a> *hnand, <a class="el" href="struct_n_a_n_d___address_type_def.html">NAND_AddressTypeDef</a> *pAddress, uint8_t *pBuffer, uint32_t NumPageToWrite)</td></tr>
+<tr class="memitem:gaba01cc60ac7b85e5dcd64dc74bf5115e"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___n_a_n_d___exported___functions___group2.html#gaba01cc60ac7b85e5dcd64dc74bf5115e">HAL_NAND_Write_Page_8b</a> (<a class="el" href="struct_n_a_n_d___handle_type_def.html">NAND_HandleTypeDef</a> *hnand, <a class="el" href="struct_n_a_n_d___address_type_def.html">NAND_AddressTypeDef</a> *pAddress, uint8_t *pBuffer, uint32_t NumPageToWrite)</td></tr>
+<tr class="memdesc:gaba01cc60ac7b85e5dcd64dc74bf5115e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write Page(s) to NAND memory block (8-bits addressing)  <a href="#gaba01cc60ac7b85e5dcd64dc74bf5115e">More...</a><br /></td></tr>
 <tr class="separator:gaba01cc60ac7b85e5dcd64dc74bf5115e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7ccdb17336cafb6188a33a9ab1b03719"><td class="memItemLeft" align="right" valign="top"><a id="ga7ccdb17336cafb6188a33a9ab1b03719"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_NAND_Read_SpareArea_8b</b> (<a class="el" href="struct_n_a_n_d___handle_type_def.html">NAND_HandleTypeDef</a> *hnand, <a class="el" href="struct_n_a_n_d___address_type_def.html">NAND_AddressTypeDef</a> *pAddress, uint8_t *pBuffer, uint32_t NumSpareAreaToRead)</td></tr>
+<tr class="memitem:ga7ccdb17336cafb6188a33a9ab1b03719"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___n_a_n_d___exported___functions___group2.html#ga7ccdb17336cafb6188a33a9ab1b03719">HAL_NAND_Read_SpareArea_8b</a> (<a class="el" href="struct_n_a_n_d___handle_type_def.html">NAND_HandleTypeDef</a> *hnand, <a class="el" href="struct_n_a_n_d___address_type_def.html">NAND_AddressTypeDef</a> *pAddress, uint8_t *pBuffer, uint32_t NumSpareAreaToRead)</td></tr>
+<tr class="memdesc:ga7ccdb17336cafb6188a33a9ab1b03719"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read Spare area(s) from NAND memory.  <a href="#ga7ccdb17336cafb6188a33a9ab1b03719">More...</a><br /></td></tr>
 <tr class="separator:ga7ccdb17336cafb6188a33a9ab1b03719"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gafa3b1c56821926e5ec0f6cbf703eb07d"><td class="memItemLeft" align="right" valign="top"><a id="gafa3b1c56821926e5ec0f6cbf703eb07d"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_NAND_Write_SpareArea_8b</b> (<a class="el" href="struct_n_a_n_d___handle_type_def.html">NAND_HandleTypeDef</a> *hnand, <a class="el" href="struct_n_a_n_d___address_type_def.html">NAND_AddressTypeDef</a> *pAddress, uint8_t *pBuffer, uint32_t NumSpareAreaTowrite)</td></tr>
+<tr class="memitem:gafa3b1c56821926e5ec0f6cbf703eb07d"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___n_a_n_d___exported___functions___group2.html#gafa3b1c56821926e5ec0f6cbf703eb07d">HAL_NAND_Write_SpareArea_8b</a> (<a class="el" href="struct_n_a_n_d___handle_type_def.html">NAND_HandleTypeDef</a> *hnand, <a class="el" href="struct_n_a_n_d___address_type_def.html">NAND_AddressTypeDef</a> *pAddress, uint8_t *pBuffer, uint32_t NumSpareAreaTowrite)</td></tr>
+<tr class="memdesc:gafa3b1c56821926e5ec0f6cbf703eb07d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write Spare area(s) to NAND memory.  <a href="#gafa3b1c56821926e5ec0f6cbf703eb07d">More...</a><br /></td></tr>
 <tr class="separator:gafa3b1c56821926e5ec0f6cbf703eb07d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga12fd96e1602e7ec56237d90f5bd16c84"><td class="memItemLeft" align="right" valign="top"><a id="ga12fd96e1602e7ec56237d90f5bd16c84"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_NAND_Read_Page_16b</b> (<a class="el" href="struct_n_a_n_d___handle_type_def.html">NAND_HandleTypeDef</a> *hnand, <a class="el" href="struct_n_a_n_d___address_type_def.html">NAND_AddressTypeDef</a> *pAddress, uint16_t *pBuffer, uint32_t NumPageToRead)</td></tr>
+<tr class="memitem:ga12fd96e1602e7ec56237d90f5bd16c84"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___n_a_n_d___exported___functions___group2.html#ga12fd96e1602e7ec56237d90f5bd16c84">HAL_NAND_Read_Page_16b</a> (<a class="el" href="struct_n_a_n_d___handle_type_def.html">NAND_HandleTypeDef</a> *hnand, <a class="el" href="struct_n_a_n_d___address_type_def.html">NAND_AddressTypeDef</a> *pAddress, uint16_t *pBuffer, uint32_t NumPageToRead)</td></tr>
+<tr class="memdesc:ga12fd96e1602e7ec56237d90f5bd16c84"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read Page(s) from NAND memory block (16-bits addressing)  <a href="#ga12fd96e1602e7ec56237d90f5bd16c84">More...</a><br /></td></tr>
 <tr class="separator:ga12fd96e1602e7ec56237d90f5bd16c84"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga39a997ea7f5390d992ac6b2621afc32d"><td class="memItemLeft" align="right" valign="top"><a id="ga39a997ea7f5390d992ac6b2621afc32d"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_NAND_Write_Page_16b</b> (<a class="el" href="struct_n_a_n_d___handle_type_def.html">NAND_HandleTypeDef</a> *hnand, <a class="el" href="struct_n_a_n_d___address_type_def.html">NAND_AddressTypeDef</a> *pAddress, uint16_t *pBuffer, uint32_t NumPageToWrite)</td></tr>
+<tr class="memitem:ga39a997ea7f5390d992ac6b2621afc32d"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___n_a_n_d___exported___functions___group2.html#ga39a997ea7f5390d992ac6b2621afc32d">HAL_NAND_Write_Page_16b</a> (<a class="el" href="struct_n_a_n_d___handle_type_def.html">NAND_HandleTypeDef</a> *hnand, <a class="el" href="struct_n_a_n_d___address_type_def.html">NAND_AddressTypeDef</a> *pAddress, uint16_t *pBuffer, uint32_t NumPageToWrite)</td></tr>
+<tr class="memdesc:ga39a997ea7f5390d992ac6b2621afc32d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write Page(s) to NAND memory block (16-bits addressing)  <a href="#ga39a997ea7f5390d992ac6b2621afc32d">More...</a><br /></td></tr>
 <tr class="separator:ga39a997ea7f5390d992ac6b2621afc32d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga270713c9a3630fb532981ef1014fa392"><td class="memItemLeft" align="right" valign="top"><a id="ga270713c9a3630fb532981ef1014fa392"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_NAND_Read_SpareArea_16b</b> (<a class="el" href="struct_n_a_n_d___handle_type_def.html">NAND_HandleTypeDef</a> *hnand, <a class="el" href="struct_n_a_n_d___address_type_def.html">NAND_AddressTypeDef</a> *pAddress, uint16_t *pBuffer, uint32_t NumSpareAreaToRead)</td></tr>
+<tr class="memitem:ga270713c9a3630fb532981ef1014fa392"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___n_a_n_d___exported___functions___group2.html#ga270713c9a3630fb532981ef1014fa392">HAL_NAND_Read_SpareArea_16b</a> (<a class="el" href="struct_n_a_n_d___handle_type_def.html">NAND_HandleTypeDef</a> *hnand, <a class="el" href="struct_n_a_n_d___address_type_def.html">NAND_AddressTypeDef</a> *pAddress, uint16_t *pBuffer, uint32_t NumSpareAreaToRead)</td></tr>
+<tr class="memdesc:ga270713c9a3630fb532981ef1014fa392"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read Spare area(s) from NAND memory (16-bits addressing)  <a href="#ga270713c9a3630fb532981ef1014fa392">More...</a><br /></td></tr>
 <tr class="separator:ga270713c9a3630fb532981ef1014fa392"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad8542d4140f3ac2e6f30f31261844746"><td class="memItemLeft" align="right" valign="top"><a id="gad8542d4140f3ac2e6f30f31261844746"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_NAND_Write_SpareArea_16b</b> (<a class="el" href="struct_n_a_n_d___handle_type_def.html">NAND_HandleTypeDef</a> *hnand, <a class="el" href="struct_n_a_n_d___address_type_def.html">NAND_AddressTypeDef</a> *pAddress, uint16_t *pBuffer, uint32_t NumSpareAreaTowrite)</td></tr>
+<tr class="memitem:gad8542d4140f3ac2e6f30f31261844746"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___n_a_n_d___exported___functions___group2.html#gad8542d4140f3ac2e6f30f31261844746">HAL_NAND_Write_SpareArea_16b</a> (<a class="el" href="struct_n_a_n_d___handle_type_def.html">NAND_HandleTypeDef</a> *hnand, <a class="el" href="struct_n_a_n_d___address_type_def.html">NAND_AddressTypeDef</a> *pAddress, uint16_t *pBuffer, uint32_t NumSpareAreaTowrite)</td></tr>
+<tr class="memdesc:gad8542d4140f3ac2e6f30f31261844746"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write Spare area(s) to NAND memory (16-bits addressing)  <a href="#gad8542d4140f3ac2e6f30f31261844746">More...</a><br /></td></tr>
 <tr class="separator:gad8542d4140f3ac2e6f30f31261844746"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab59a9ca3f34e9154b67595db1471b33c"><td class="memItemLeft" align="right" valign="top"><a id="gab59a9ca3f34e9154b67595db1471b33c"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_NAND_Erase_Block</b> (<a class="el" href="struct_n_a_n_d___handle_type_def.html">NAND_HandleTypeDef</a> *hnand, <a class="el" href="struct_n_a_n_d___address_type_def.html">NAND_AddressTypeDef</a> *pAddress)</td></tr>
+<tr class="memitem:gab59a9ca3f34e9154b67595db1471b33c"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___n_a_n_d___exported___functions___group2.html#gab59a9ca3f34e9154b67595db1471b33c">HAL_NAND_Erase_Block</a> (<a class="el" href="struct_n_a_n_d___handle_type_def.html">NAND_HandleTypeDef</a> *hnand, <a class="el" href="struct_n_a_n_d___address_type_def.html">NAND_AddressTypeDef</a> *pAddress)</td></tr>
+<tr class="memdesc:gab59a9ca3f34e9154b67595db1471b33c"><td class="mdescLeft">&#160;</td><td class="mdescRight">NAND memory Block erase.  <a href="#gab59a9ca3f34e9154b67595db1471b33c">More...</a><br /></td></tr>
 <tr class="separator:gab59a9ca3f34e9154b67595db1471b33c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gabf19dc1c0c665d8ba9589dbf5e751cd9"><td class="memItemLeft" align="right" valign="top"><a id="gabf19dc1c0c665d8ba9589dbf5e751cd9"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_NAND_Read_Status</b> (<a class="el" href="struct_n_a_n_d___handle_type_def.html">NAND_HandleTypeDef</a> *hnand)</td></tr>
+<tr class="memitem:gabf19dc1c0c665d8ba9589dbf5e751cd9"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___n_a_n_d___exported___functions___group2.html#gabf19dc1c0c665d8ba9589dbf5e751cd9">HAL_NAND_Read_Status</a> (<a class="el" href="struct_n_a_n_d___handle_type_def.html">NAND_HandleTypeDef</a> *hnand)</td></tr>
+<tr class="memdesc:gabf19dc1c0c665d8ba9589dbf5e751cd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">NAND memory read status.  <a href="#gabf19dc1c0c665d8ba9589dbf5e751cd9">More...</a><br /></td></tr>
 <tr class="separator:gabf19dc1c0c665d8ba9589dbf5e751cd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae2a8dd61d92a8f108e9708f39e3e1aac"><td class="memItemLeft" align="right" valign="top"><a id="gae2a8dd61d92a8f108e9708f39e3e1aac"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_NAND_Address_Inc</b> (<a class="el" href="struct_n_a_n_d___handle_type_def.html">NAND_HandleTypeDef</a> *hnand, <a class="el" href="struct_n_a_n_d___address_type_def.html">NAND_AddressTypeDef</a> *pAddress)</td></tr>
+<tr class="memitem:gae2a8dd61d92a8f108e9708f39e3e1aac"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___n_a_n_d___exported___functions___group2.html#gae2a8dd61d92a8f108e9708f39e3e1aac">HAL_NAND_Address_Inc</a> (<a class="el" href="struct_n_a_n_d___handle_type_def.html">NAND_HandleTypeDef</a> *hnand, <a class="el" href="struct_n_a_n_d___address_type_def.html">NAND_AddressTypeDef</a> *pAddress)</td></tr>
+<tr class="memdesc:gae2a8dd61d92a8f108e9708f39e3e1aac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Increment the NAND memory address.  <a href="#gae2a8dd61d92a8f108e9708f39e3e1aac">More...</a><br /></td></tr>
 <tr class="separator:gae2a8dd61d92a8f108e9708f39e3e1aac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9899354ee96eac1da4197075f6c2f774"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___n_a_n_d___exported___functions___group2.html#ga9899354ee96eac1da4197075f6c2f774">HAL_NAND_Read_ID</a> (<a class="el" href="struct_n_a_n_d___handle_type_def.html">NAND_HandleTypeDef</a> *hnand, <a class="el" href="struct_n_a_n_d___i_d_type_def.html">NAND_IDTypeDef</a> *pNAND_ID)</td></tr>
+<tr class="memdesc:ga9899354ee96eac1da4197075f6c2f774"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read the NAND memory electronic signature.  <a href="#ga9899354ee96eac1da4197075f6c2f774">More...</a><br /></td></tr>
+<tr class="separator:ga9899354ee96eac1da4197075f6c2f774"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6bd8a6bb2d4cd752611d4fbcdceb1aa4"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___n_a_n_d___exported___functions___group2.html#ga6bd8a6bb2d4cd752611d4fbcdceb1aa4">HAL_NAND_ConfigDevice</a> (<a class="el" href="struct_n_a_n_d___handle_type_def.html">NAND_HandleTypeDef</a> *hnand, <a class="el" href="struct_n_a_n_d___device_config_type_def.html">NAND_DeviceConfigTypeDef</a> *pDeviceConfig)</td></tr>
+<tr class="memdesc:ga6bd8a6bb2d4cd752611d4fbcdceb1aa4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configure the device: Enter the physical parameters of the device.  <a href="#ga6bd8a6bb2d4cd752611d4fbcdceb1aa4">More...</a><br /></td></tr>
+<tr class="separator:ga6bd8a6bb2d4cd752611d4fbcdceb1aa4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>Input Output and memory control functions. </p>
+<pre class="fragment">  ==============================================================================
+                    ##### NAND Input and Output functions #####
+  ==============================================================================
+  [..]  
+    This section provides functions allowing to use and control the NAND 
+    memory</pre> <h2 class="groupheader">Function Documentation</h2>
+<a id="gae2a8dd61d92a8f108e9708f39e3e1aac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae2a8dd61d92a8f108e9708f39e3e1aac">&#9670;&nbsp;</a></span>HAL_NAND_Address_Inc()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t HAL_NAND_Address_Inc </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_n_a_n_d___handle_type_def.html">NAND_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hnand</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_n_a_n_d___address_type_def.html">NAND_AddressTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>pAddress</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Increment the NAND memory address. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hnand</td><td>pointer to a <a class="el" href="struct_n_a_n_d___handle_type_def.html" title="NAND handle Structure definition.">NAND_HandleTypeDef</a> structure that contains the configuration information for NAND module. </td></tr>
+    <tr><td class="paramname">pAddress</td><td>pointer to NAND address structure </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">The</td><td>new status of the increment address operation. It can be:<ul>
+<li>NAND_VALID_ADDRESS: When the new address is valid address</li>
+<li>NAND_INVALID_ADDRESS: When the new address is invalid address </li>
+</ul>
+</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga6bd8a6bb2d4cd752611d4fbcdceb1aa4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6bd8a6bb2d4cd752611d4fbcdceb1aa4">&#9670;&nbsp;</a></span>HAL_NAND_ConfigDevice()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_NAND_ConfigDevice </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_n_a_n_d___handle_type_def.html">NAND_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hnand</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_n_a_n_d___device_config_type_def.html">NAND_DeviceConfigTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>pDeviceConfig</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Configure the device: Enter the physical parameters of the device. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hnand</td><td>pointer to a <a class="el" href="struct_n_a_n_d___handle_type_def.html" title="NAND handle Structure definition.">NAND_HandleTypeDef</a> structure that contains the configuration information for NAND module. </td></tr>
+    <tr><td class="paramname">pDeviceConfig</td><td>pointer to <a class="el" href="struct_n_a_n_d___device_config_type_def.html" title="NAND Memory info Structure definition.">NAND_DeviceConfigTypeDef</a> structure </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gab59a9ca3f34e9154b67595db1471b33c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab59a9ca3f34e9154b67595db1471b33c">&#9670;&nbsp;</a></span>HAL_NAND_Erase_Block()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_NAND_Erase_Block </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_n_a_n_d___handle_type_def.html">NAND_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hnand</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_n_a_n_d___address_type_def.html">NAND_AddressTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>pAddress</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>NAND memory Block erase. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hnand</td><td>pointer to a <a class="el" href="struct_n_a_n_d___handle_type_def.html" title="NAND handle Structure definition.">NAND_HandleTypeDef</a> structure that contains the configuration information for NAND module. </td></tr>
+    <tr><td class="paramname">pAddress</td><td>pointer to NAND address structure </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga9899354ee96eac1da4197075f6c2f774"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9899354ee96eac1da4197075f6c2f774">&#9670;&nbsp;</a></span>HAL_NAND_Read_ID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_NAND_Read_ID </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_n_a_n_d___handle_type_def.html">NAND_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hnand</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_n_a_n_d___i_d_type_def.html">NAND_IDTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>pNAND_ID</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Read the NAND memory electronic signature. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hnand</td><td>pointer to a <a class="el" href="struct_n_a_n_d___handle_type_def.html" title="NAND handle Structure definition.">NAND_HandleTypeDef</a> structure that contains the configuration information for NAND module. </td></tr>
+    <tr><td class="paramname">pNAND_ID</td><td>NAND ID structure </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga12fd96e1602e7ec56237d90f5bd16c84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga12fd96e1602e7ec56237d90f5bd16c84">&#9670;&nbsp;</a></span>HAL_NAND_Read_Page_16b()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_NAND_Read_Page_16b </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_n_a_n_d___handle_type_def.html">NAND_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hnand</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_n_a_n_d___address_type_def.html">NAND_AddressTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>pAddress</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t *&#160;</td>
+          <td class="paramname"><em>pBuffer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>NumPageToRead</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Read Page(s) from NAND memory block (16-bits addressing) </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hnand</td><td>pointer to a <a class="el" href="struct_n_a_n_d___handle_type_def.html" title="NAND handle Structure definition.">NAND_HandleTypeDef</a> structure that contains the configuration information for NAND module. </td></tr>
+    <tr><td class="paramname">pAddress</td><td>pointer to NAND address structure </td></tr>
+    <tr><td class="paramname">pBuffer</td><td>pointer to destination read buffer. pBuffer should be 16bits aligned </td></tr>
+    <tr><td class="paramname">NumPageToRead</td><td>number of pages to read from block </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga88f64880b8435ffde88f8e43e9b6eb43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga88f64880b8435ffde88f8e43e9b6eb43">&#9670;&nbsp;</a></span>HAL_NAND_Read_Page_8b()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_NAND_Read_Page_8b </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_n_a_n_d___handle_type_def.html">NAND_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hnand</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_n_a_n_d___address_type_def.html">NAND_AddressTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>pAddress</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pBuffer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>NumPageToRead</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Read Page(s) from NAND memory block (8-bits addressing) </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hnand</td><td>pointer to a <a class="el" href="struct_n_a_n_d___handle_type_def.html" title="NAND handle Structure definition.">NAND_HandleTypeDef</a> structure that contains the configuration information for NAND module. </td></tr>
+    <tr><td class="paramname">pAddress</td><td>pointer to NAND address structure </td></tr>
+    <tr><td class="paramname">pBuffer</td><td>pointer to destination read buffer </td></tr>
+    <tr><td class="paramname">NumPageToRead</td><td>number of pages to read from block </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga270713c9a3630fb532981ef1014fa392"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga270713c9a3630fb532981ef1014fa392">&#9670;&nbsp;</a></span>HAL_NAND_Read_SpareArea_16b()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_NAND_Read_SpareArea_16b </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_n_a_n_d___handle_type_def.html">NAND_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hnand</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_n_a_n_d___address_type_def.html">NAND_AddressTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>pAddress</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t *&#160;</td>
+          <td class="paramname"><em>pBuffer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>NumSpareAreaToRead</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Read Spare area(s) from NAND memory (16-bits addressing) </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hnand</td><td>pointer to a <a class="el" href="struct_n_a_n_d___handle_type_def.html" title="NAND handle Structure definition.">NAND_HandleTypeDef</a> structure that contains the configuration information for NAND module. </td></tr>
+    <tr><td class="paramname">pAddress</td><td>pointer to NAND address structure </td></tr>
+    <tr><td class="paramname">pBuffer</td><td>pointer to source buffer to write. pBuffer should be 16bits aligned. </td></tr>
+    <tr><td class="paramname">NumSpareAreaToRead</td><td>Number of spare area to read</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga7ccdb17336cafb6188a33a9ab1b03719"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7ccdb17336cafb6188a33a9ab1b03719">&#9670;&nbsp;</a></span>HAL_NAND_Read_SpareArea_8b()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_NAND_Read_SpareArea_8b </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_n_a_n_d___handle_type_def.html">NAND_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hnand</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_n_a_n_d___address_type_def.html">NAND_AddressTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>pAddress</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pBuffer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>NumSpareAreaToRead</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Read Spare area(s) from NAND memory. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hnand</td><td>pointer to a <a class="el" href="struct_n_a_n_d___handle_type_def.html" title="NAND handle Structure definition.">NAND_HandleTypeDef</a> structure that contains the configuration information for NAND module. </td></tr>
+    <tr><td class="paramname">pAddress</td><td>pointer to NAND address structure </td></tr>
+    <tr><td class="paramname">pBuffer</td><td>pointer to source buffer to write</td></tr>
+    <tr><td class="paramname">NumSpareAreaToRead</td><td>Number of spare area to read</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gabf19dc1c0c665d8ba9589dbf5e751cd9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabf19dc1c0c665d8ba9589dbf5e751cd9">&#9670;&nbsp;</a></span>HAL_NAND_Read_Status()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t HAL_NAND_Read_Status </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_n_a_n_d___handle_type_def.html">NAND_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hnand</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>NAND memory read status. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hnand</td><td>pointer to a <a class="el" href="struct_n_a_n_d___handle_type_def.html" title="NAND handle Structure definition.">NAND_HandleTypeDef</a> structure that contains the configuration information for NAND module. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">NAND</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gab137d707e4b3ee23d32cc49fbe45ed5b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab137d707e4b3ee23d32cc49fbe45ed5b">&#9670;&nbsp;</a></span>HAL_NAND_Reset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_NAND_Reset </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_n_a_n_d___handle_type_def.html">NAND_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hnand</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>NAND memory reset. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hnand</td><td>pointer to a <a class="el" href="struct_n_a_n_d___handle_type_def.html" title="NAND handle Structure definition.">NAND_HandleTypeDef</a> structure that contains the configuration information for NAND module. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga39a997ea7f5390d992ac6b2621afc32d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga39a997ea7f5390d992ac6b2621afc32d">&#9670;&nbsp;</a></span>HAL_NAND_Write_Page_16b()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_NAND_Write_Page_16b </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_n_a_n_d___handle_type_def.html">NAND_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hnand</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_n_a_n_d___address_type_def.html">NAND_AddressTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>pAddress</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t *&#160;</td>
+          <td class="paramname"><em>pBuffer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>NumPageToWrite</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Write Page(s) to NAND memory block (16-bits addressing) </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hnand</td><td>pointer to a <a class="el" href="struct_n_a_n_d___handle_type_def.html" title="NAND handle Structure definition.">NAND_HandleTypeDef</a> structure that contains the configuration information for NAND module. </td></tr>
+    <tr><td class="paramname">pAddress</td><td>pointer to NAND address structure </td></tr>
+    <tr><td class="paramname">pBuffer</td><td>pointer to source buffer to write. pBuffer should be 16bits aligned </td></tr>
+    <tr><td class="paramname">NumPageToWrite</td><td>number of pages to write to block </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaba01cc60ac7b85e5dcd64dc74bf5115e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaba01cc60ac7b85e5dcd64dc74bf5115e">&#9670;&nbsp;</a></span>HAL_NAND_Write_Page_8b()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_NAND_Write_Page_8b </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_n_a_n_d___handle_type_def.html">NAND_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hnand</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_n_a_n_d___address_type_def.html">NAND_AddressTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>pAddress</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pBuffer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>NumPageToWrite</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Write Page(s) to NAND memory block (8-bits addressing) </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hnand</td><td>pointer to a <a class="el" href="struct_n_a_n_d___handle_type_def.html" title="NAND handle Structure definition.">NAND_HandleTypeDef</a> structure that contains the configuration information for NAND module. </td></tr>
+    <tr><td class="paramname">pAddress</td><td>pointer to NAND address structure </td></tr>
+    <tr><td class="paramname">pBuffer</td><td>pointer to source buffer to write</td></tr>
+    <tr><td class="paramname">NumPageToWrite</td><td>number of pages to write to block </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gad8542d4140f3ac2e6f30f31261844746"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad8542d4140f3ac2e6f30f31261844746">&#9670;&nbsp;</a></span>HAL_NAND_Write_SpareArea_16b()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_NAND_Write_SpareArea_16b </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_n_a_n_d___handle_type_def.html">NAND_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hnand</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_n_a_n_d___address_type_def.html">NAND_AddressTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>pAddress</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t *&#160;</td>
+          <td class="paramname"><em>pBuffer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>NumSpareAreaTowrite</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Write Spare area(s) to NAND memory (16-bits addressing) </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hnand</td><td>pointer to a <a class="el" href="struct_n_a_n_d___handle_type_def.html" title="NAND handle Structure definition.">NAND_HandleTypeDef</a> structure that contains the configuration information for NAND module. </td></tr>
+    <tr><td class="paramname">pAddress</td><td>pointer to NAND address structure </td></tr>
+    <tr><td class="paramname">pBuffer</td><td>pointer to source buffer to write. pBuffer should be 16bits aligned.</td></tr>
+    <tr><td class="paramname">NumSpareAreaTowrite</td><td>number of spare areas to write to block </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gafa3b1c56821926e5ec0f6cbf703eb07d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gafa3b1c56821926e5ec0f6cbf703eb07d">&#9670;&nbsp;</a></span>HAL_NAND_Write_SpareArea_8b()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_NAND_Write_SpareArea_8b </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_n_a_n_d___handle_type_def.html">NAND_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hnand</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_n_a_n_d___address_type_def.html">NAND_AddressTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>pAddress</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pBuffer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>NumSpareAreaTowrite</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Write Spare area(s) to NAND memory. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hnand</td><td>pointer to a <a class="el" href="struct_n_a_n_d___handle_type_def.html" title="NAND handle Structure definition.">NAND_HandleTypeDef</a> structure that contains the configuration information for NAND module. </td></tr>
+    <tr><td class="paramname">pAddress</td><td>pointer to NAND address structure </td></tr>
+    <tr><td class="paramname">pBuffer</td><td>pointer to source buffer to write</td></tr>
+    <tr><td class="paramname">NumSpareAreaTowrite</td><td>number of spare areas to write to block </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

@@ -70,17 +70,115 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga50b2ead8d1755be360de2d624beaf9a0"><td class="memItemLeft" align="right" valign="top"><a id="ga50b2ead8d1755be360de2d624beaf9a0"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>RTC_EnterInitMode</b> (<a class="el" href="struct_r_t_c___handle_type_def.html">RTC_HandleTypeDef</a> *hrtc)</td></tr>
+<tr class="memitem:ga50b2ead8d1755be360de2d624beaf9a0"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___r_t_c___private___functions.html#ga50b2ead8d1755be360de2d624beaf9a0">RTC_EnterInitMode</a> (<a class="el" href="struct_r_t_c___handle_type_def.html">RTC_HandleTypeDef</a> *hrtc)</td></tr>
+<tr class="memdesc:ga50b2ead8d1755be360de2d624beaf9a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enters the RTC Initialization mode.  <a href="#ga50b2ead8d1755be360de2d624beaf9a0">More...</a><br /></td></tr>
 <tr class="separator:ga50b2ead8d1755be360de2d624beaf9a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8c33f1358a98db0c7c829c38538bf7ba"><td class="memItemLeft" align="right" valign="top"><a id="ga8c33f1358a98db0c7c829c38538bf7ba"></a>
-uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>RTC_ByteToBcd2</b> (uint8_t Value)</td></tr>
+<tr class="memitem:ga8c33f1358a98db0c7c829c38538bf7ba"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___r_t_c___private___functions.html#ga8c33f1358a98db0c7c829c38538bf7ba">RTC_ByteToBcd2</a> (uint8_t Value)</td></tr>
+<tr class="memdesc:ga8c33f1358a98db0c7c829c38538bf7ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a 2 digit decimal to BCD format.  <a href="#ga8c33f1358a98db0c7c829c38538bf7ba">More...</a><br /></td></tr>
 <tr class="separator:ga8c33f1358a98db0c7c829c38538bf7ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf1bcb309bb9e7ac4a1b4e95a11cfb26f"><td class="memItemLeft" align="right" valign="top"><a id="gaf1bcb309bb9e7ac4a1b4e95a11cfb26f"></a>
-uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>RTC_Bcd2ToByte</b> (uint8_t Value)</td></tr>
+<tr class="memitem:gaf1bcb309bb9e7ac4a1b4e95a11cfb26f"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___r_t_c___private___functions.html#gaf1bcb309bb9e7ac4a1b4e95a11cfb26f">RTC_Bcd2ToByte</a> (uint8_t Value)</td></tr>
+<tr class="memdesc:gaf1bcb309bb9e7ac4a1b4e95a11cfb26f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts from 2 digit BCD to Binary.  <a href="#gaf1bcb309bb9e7ac4a1b4e95a11cfb26f">More...</a><br /></td></tr>
 <tr class="separator:gaf1bcb309bb9e7ac4a1b4e95a11cfb26f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="gaf1bcb309bb9e7ac4a1b4e95a11cfb26f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf1bcb309bb9e7ac4a1b4e95a11cfb26f">&#9670;&nbsp;</a></span>RTC_Bcd2ToByte()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t RTC_Bcd2ToByte </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>Value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Converts from 2 digit BCD to Binary. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Value</td><td>BCD value to be converted </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">Converted</td><td>word </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga8c33f1358a98db0c7c829c38538bf7ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8c33f1358a98db0c7c829c38538bf7ba">&#9670;&nbsp;</a></span>RTC_ByteToBcd2()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t RTC_ByteToBcd2 </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>Value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Converts a 2 digit decimal to BCD format. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Value</td><td>Byte to be converted </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">Converted</td><td>byte </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga50b2ead8d1755be360de2d624beaf9a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga50b2ead8d1755be360de2d624beaf9a0">&#9670;&nbsp;</a></span>RTC_EnterInitMode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef RTC_EnterInitMode </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_r_t_c___handle_type_def.html">RTC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hrtc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Enters the RTC Initialization mode. </p>
+<dl class="section note"><dt>Note</dt><dd>The RTC Initialization mode is write protected, use the __HAL_RTC_WRITEPROTECTION_DISABLE() before calling this function. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hrtc</td><td>pointer to a <a class="el" href="struct_r_t_c___handle_type_def.html" title="RTC Handle Structure definition.">RTC_HandleTypeDef</a> structure that contains the configuration information for RTC. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

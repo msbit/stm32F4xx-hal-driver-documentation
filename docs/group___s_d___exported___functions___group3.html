@@ -64,17 +64,366 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">Peripheral Control functions<div class="ingroups"><a class="el" href="group___s_d___exported___functions.html">SD Exported Functions</a></div></div>  </div>
+<div class="title">Peripheral Control functions<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___s_d.html">SD</a> &raquo; <a class="el" href="group___s_d___exported___functions.html">SD Exported Functions</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>management functions  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga8395c55abfa691af95c004d1cb098323"><td class="memItemLeft" align="right" valign="top"><a id="ga8395c55abfa691af95c004d1cb098323"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SD_ConfigWideBusOperation</b> (<a class="el" href="struct_s_d___handle_type_def.html">SD_HandleTypeDef</a> *hsd, uint32_t WideMode)</td></tr>
+<tr class="memitem:ga8395c55abfa691af95c004d1cb098323"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_d___exported___functions___group3.html#ga8395c55abfa691af95c004d1cb098323">HAL_SD_ConfigWideBusOperation</a> (<a class="el" href="struct_s_d___handle_type_def.html">SD_HandleTypeDef</a> *hsd, uint32_t WideMode)</td></tr>
+<tr class="memdesc:ga8395c55abfa691af95c004d1cb098323"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enables wide bus operation for the requested card if supported by card.  <a href="#ga8395c55abfa691af95c004d1cb098323">More...</a><br /></td></tr>
 <tr class="separator:ga8395c55abfa691af95c004d1cb098323"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8005b60470ddda128e571a97ce7b798f"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_d___exported___functions___group3.html#ga8005b60470ddda128e571a97ce7b798f">HAL_SD_GetCardCID</a> (<a class="el" href="struct_s_d___handle_type_def.html">SD_HandleTypeDef</a> *hsd, <a class="el" href="struct_h_a_l___s_d___card_c_i_d_type_def.html">HAL_SD_CardCIDTypeDef</a> *pCID)</td></tr>
+<tr class="memdesc:ga8005b60470ddda128e571a97ce7b798f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns information the information of the card which are stored on the CID register.  <a href="#ga8005b60470ddda128e571a97ce7b798f">More...</a><br /></td></tr>
+<tr class="separator:ga8005b60470ddda128e571a97ce7b798f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae564ac3dff4eb7a4a325f4678e9fb183"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_d___exported___functions___group3.html#gae564ac3dff4eb7a4a325f4678e9fb183">HAL_SD_GetCardCSD</a> (<a class="el" href="struct_s_d___handle_type_def.html">SD_HandleTypeDef</a> *hsd, <a class="el" href="struct_h_a_l___s_d___card_c_s_d_type_def.html">HAL_SD_CardCSDTypeDef</a> *pCSD)</td></tr>
+<tr class="memdesc:gae564ac3dff4eb7a4a325f4678e9fb183"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns information the information of the card which are stored on the CSD register.  <a href="#gae564ac3dff4eb7a4a325f4678e9fb183">More...</a><br /></td></tr>
+<tr class="separator:gae564ac3dff4eb7a4a325f4678e9fb183"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga87f73383fa9b477b920c96ff60645831"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_d___exported___functions___group3.html#ga87f73383fa9b477b920c96ff60645831">HAL_SD_GetCardStatus</a> (<a class="el" href="struct_s_d___handle_type_def.html">SD_HandleTypeDef</a> *hsd, <a class="el" href="struct_h_a_l___s_d___card_status_type_def.html">HAL_SD_CardStatusTypeDef</a> *pStatus)</td></tr>
+<tr class="memdesc:ga87f73383fa9b477b920c96ff60645831"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the SD status info.  <a href="#ga87f73383fa9b477b920c96ff60645831">More...</a><br /></td></tr>
+<tr class="separator:ga87f73383fa9b477b920c96ff60645831"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab783bcbd433b03dd394308ec98e0fb88"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_d___exported___functions___group3.html#gab783bcbd433b03dd394308ec98e0fb88">HAL_SD_GetCardInfo</a> (<a class="el" href="struct_s_d___handle_type_def.html">SD_HandleTypeDef</a> *hsd, <a class="el" href="struct_h_a_l___s_d___card_info_type_def.html">HAL_SD_CardInfoTypeDef</a> *pCardInfo)</td></tr>
+<tr class="memdesc:gab783bcbd433b03dd394308ec98e0fb88"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the SD card info.  <a href="#gab783bcbd433b03dd394308ec98e0fb88">More...</a><br /></td></tr>
+<tr class="separator:gab783bcbd433b03dd394308ec98e0fb88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga61f65802034a18141e92ae669fdc844c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___s_d___exported___types___group2.html#ga3926af49b55cec7333a4bc8f05cd4870">HAL_SD_CardStateTypeDef</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_d___exported___functions___group3.html#ga61f65802034a18141e92ae669fdc844c">HAL_SD_GetCardState</a> (<a class="el" href="struct_s_d___handle_type_def.html">SD_HandleTypeDef</a> *hsd)</td></tr>
+<tr class="memdesc:ga61f65802034a18141e92ae669fdc844c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the current sd card data state.  <a href="#ga61f65802034a18141e92ae669fdc844c">More...</a><br /></td></tr>
+<tr class="separator:ga61f65802034a18141e92ae669fdc844c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga808a1b915df87614d0a4f2c2535791ac"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_d___exported___functions___group3.html#ga808a1b915df87614d0a4f2c2535791ac">HAL_SD_Abort</a> (<a class="el" href="struct_s_d___handle_type_def.html">SD_HandleTypeDef</a> *hsd)</td></tr>
+<tr class="memdesc:ga808a1b915df87614d0a4f2c2535791ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abort the current transfer and disable the SD.  <a href="#ga808a1b915df87614d0a4f2c2535791ac">More...</a><br /></td></tr>
+<tr class="separator:ga808a1b915df87614d0a4f2c2535791ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga92fba456be358bb2732075b05d46eead"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_d___exported___functions___group3.html#ga92fba456be358bb2732075b05d46eead">HAL_SD_Abort_IT</a> (<a class="el" href="struct_s_d___handle_type_def.html">SD_HandleTypeDef</a> *hsd)</td></tr>
+<tr class="memdesc:ga92fba456be358bb2732075b05d46eead"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abort the current transfer and disable the SD (IT mode).  <a href="#ga92fba456be358bb2732075b05d46eead">More...</a><br /></td></tr>
+<tr class="separator:ga92fba456be358bb2732075b05d46eead"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>management functions </p>
+<pre class="fragment">  ==============================================================================
+                      ##### Peripheral Control functions #####
+  ==============================================================================  
+  [..]
+    This subsection provides a set of functions allowing to control the SD card 
+    operations and get the related information</pre> <h2 class="groupheader">Function Documentation</h2>
+<a id="ga808a1b915df87614d0a4f2c2535791ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga808a1b915df87614d0a4f2c2535791ac">&#9670;&nbsp;</a></span>HAL_SD_Abort()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_SD_Abort </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_s_d___handle_type_def.html">SD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hsd</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Abort the current transfer and disable the SD. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hsd</td><td>pointer to a <a class="el" href="struct_s_d___handle_type_def.html" title="SD handle Structure definition.">SD_HandleTypeDef</a> structure that contains the configuration information for SD module. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga92fba456be358bb2732075b05d46eead"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga92fba456be358bb2732075b05d46eead">&#9670;&nbsp;</a></span>HAL_SD_Abort_IT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_SD_Abort_IT </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_s_d___handle_type_def.html">SD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hsd</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Abort the current transfer and disable the SD (IT mode). </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hsd</td><td>pointer to a <a class="el" href="struct_s_d___handle_type_def.html" title="SD handle Structure definition.">SD_HandleTypeDef</a> structure that contains the configuration information for SD module. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga8395c55abfa691af95c004d1cb098323"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8395c55abfa691af95c004d1cb098323">&#9670;&nbsp;</a></span>HAL_SD_ConfigWideBusOperation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_SD_ConfigWideBusOperation </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_s_d___handle_type_def.html">SD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hsd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>WideMode</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Enables wide bus operation for the requested card if supported by card. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hsd</td><td>Pointer to SD handle</td></tr>
+    <tr><td class="paramname">WideMode</td><td>Specifies the SD card wide bus mode This parameter can be one of the following values: <ul>
+<li>SDIO_BUS_WIDE_8B: 8-bit data transfer </li>
+<li>SDIO_BUS_WIDE_4B: 4-bit data transfer </li>
+<li>SDIO_BUS_WIDE_1B: 1-bit data transfer </li>
+</ul>
+</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga8005b60470ddda128e571a97ce7b798f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8005b60470ddda128e571a97ce7b798f">&#9670;&nbsp;</a></span>HAL_SD_GetCardCID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_SD_GetCardCID </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_s_d___handle_type_def.html">SD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hsd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_h_a_l___s_d___card_c_i_d_type_def.html">HAL_SD_CardCIDTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>pCID</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns information the information of the card which are stored on the CID register. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hsd</td><td>Pointer to SD handle </td></tr>
+    <tr><td class="paramname">pCID</td><td>Pointer to a HAL_SD_CIDTypeDef structure that</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>contains all CID register parameters </p><dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gae564ac3dff4eb7a4a325f4678e9fb183"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae564ac3dff4eb7a4a325f4678e9fb183">&#9670;&nbsp;</a></span>HAL_SD_GetCardCSD()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_SD_GetCardCSD </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_s_d___handle_type_def.html">SD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hsd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_h_a_l___s_d___card_c_s_d_type_def.html">HAL_SD_CardCSDTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>pCSD</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns information the information of the card which are stored on the CSD register. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hsd</td><td>Pointer to SD handle </td></tr>
+    <tr><td class="paramname">pCSD</td><td>Pointer to a <a class="el" href="struct_h_a_l___s_d___card_c_s_d_type_def.html">HAL_SD_CardCSDTypeDef</a> structure that</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>contains all CSD register parameters</p>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+<p>&lt; Reserved </p>
+
+</div>
+</div>
+<a id="gab783bcbd433b03dd394308ec98e0fb88"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab783bcbd433b03dd394308ec98e0fb88">&#9670;&nbsp;</a></span>HAL_SD_GetCardInfo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_SD_GetCardInfo </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_s_d___handle_type_def.html">SD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hsd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_h_a_l___s_d___card_info_type_def.html">HAL_SD_CardInfoTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>pCardInfo</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the SD card info. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hsd</td><td>Pointer to SD handle</td></tr>
+    <tr><td class="paramname">pCardInfo</td><td>Pointer to the <a class="el" href="struct_h_a_l___s_d___card_info_type_def.html" title="SD Card Information Structure definition.">HAL_SD_CardInfoTypeDef</a> structure that will contain the SD card status information </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga61f65802034a18141e92ae669fdc844c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga61f65802034a18141e92ae669fdc844c">&#9670;&nbsp;</a></span>HAL_SD_GetCardState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___s_d___exported___types___group2.html#ga3926af49b55cec7333a4bc8f05cd4870">HAL_SD_CardStateTypeDef</a> HAL_SD_GetCardState </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_s_d___handle_type_def.html">SD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hsd</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the current sd card data state. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hsd</td><td>pointer to SD handle </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">Card</td><td>state </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga87f73383fa9b477b920c96ff60645831"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga87f73383fa9b477b920c96ff60645831">&#9670;&nbsp;</a></span>HAL_SD_GetCardStatus()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_SD_GetCardStatus </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_s_d___handle_type_def.html">SD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hsd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_h_a_l___s_d___card_status_type_def.html">HAL_SD_CardStatusTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>pStatus</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the SD status info. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hsd</td><td>Pointer to SD handle</td></tr>
+    <tr><td class="paramname">pStatus</td><td>Pointer to the <a class="el" href="struct_h_a_l___s_d___card_status_type_def.html">HAL_SD_CardStatusTypeDef</a> structure that will contain the SD card status information </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

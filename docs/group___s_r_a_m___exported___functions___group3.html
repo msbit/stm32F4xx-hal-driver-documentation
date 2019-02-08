@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.15"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>STM32F4xx_HAL_Driver: SRAM_Exported_Functions_Group3</title>
+<title>STM32F4xx_HAL_Driver: Control functions</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,20 +64,94 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">SRAM_Exported_Functions_Group3<div class="ingroups"><a class="el" href="group___s_r_a_m___exported___functions.html">SRAM_Exported_Functions</a></div></div>  </div>
+<div class="title">Control functions<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___s_r_a_m.html">SRAM</a> &raquo; <a class="el" href="group___s_r_a_m___exported___functions.html">SRAM Exported Functions</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>management functions  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga52f56b344b30d6756152f6789d90dc16"><td class="memItemLeft" align="right" valign="top"><a id="ga52f56b344b30d6756152f6789d90dc16"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SRAM_WriteOperation_Enable</b> (<a class="el" href="struct_s_r_a_m___handle_type_def.html">SRAM_HandleTypeDef</a> *hsram)</td></tr>
+<tr class="memitem:ga52f56b344b30d6756152f6789d90dc16"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_r_a_m___exported___functions___group3.html#ga52f56b344b30d6756152f6789d90dc16">HAL_SRAM_WriteOperation_Enable</a> (<a class="el" href="struct_s_r_a_m___handle_type_def.html">SRAM_HandleTypeDef</a> *hsram)</td></tr>
+<tr class="memdesc:ga52f56b344b30d6756152f6789d90dc16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enables dynamically SRAM write operation.  <a href="#ga52f56b344b30d6756152f6789d90dc16">More...</a><br /></td></tr>
 <tr class="separator:ga52f56b344b30d6756152f6789d90dc16"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4bfd376d61a63cea7c845753cca4f3e7"><td class="memItemLeft" align="right" valign="top"><a id="ga4bfd376d61a63cea7c845753cca4f3e7"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SRAM_WriteOperation_Disable</b> (<a class="el" href="struct_s_r_a_m___handle_type_def.html">SRAM_HandleTypeDef</a> *hsram)</td></tr>
+<tr class="memitem:ga4bfd376d61a63cea7c845753cca4f3e7"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_r_a_m___exported___functions___group3.html#ga4bfd376d61a63cea7c845753cca4f3e7">HAL_SRAM_WriteOperation_Disable</a> (<a class="el" href="struct_s_r_a_m___handle_type_def.html">SRAM_HandleTypeDef</a> *hsram)</td></tr>
+<tr class="memdesc:ga4bfd376d61a63cea7c845753cca4f3e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disables dynamically SRAM write operation.  <a href="#ga4bfd376d61a63cea7c845753cca4f3e7">More...</a><br /></td></tr>
 <tr class="separator:ga4bfd376d61a63cea7c845753cca4f3e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>management functions </p>
+<pre class="fragment">  ==============================================================================
+                        ##### SRAM Control functions #####
+  ==============================================================================  
+  [..]
+    This subsection provides a set of functions allowing to control dynamically
+    the SRAM interface.</pre> <h2 class="groupheader">Function Documentation</h2>
+<a id="ga4bfd376d61a63cea7c845753cca4f3e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4bfd376d61a63cea7c845753cca4f3e7">&#9670;&nbsp;</a></span>HAL_SRAM_WriteOperation_Disable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_SRAM_WriteOperation_Disable </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_s_r_a_m___handle_type_def.html">SRAM_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hsram</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Disables dynamically SRAM write operation. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hsram</td><td>pointer to a <a class="el" href="struct_s_r_a_m___handle_type_def.html" title="SRAM handle Structure definition.">SRAM_HandleTypeDef</a> structure that contains the configuration information for SRAM module. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga52f56b344b30d6756152f6789d90dc16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga52f56b344b30d6756152f6789d90dc16">&#9670;&nbsp;</a></span>HAL_SRAM_WriteOperation_Enable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_SRAM_WriteOperation_Enable </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_s_r_a_m___handle_type_def.html">SRAM_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hsram</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Enables dynamically SRAM write operation. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hsram</td><td>pointer to a <a class="el" href="struct_s_r_a_m___handle_type_def.html" title="SRAM handle Structure definition.">SRAM_HandleTypeDef</a> structure that contains the configuration information for SRAM module. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

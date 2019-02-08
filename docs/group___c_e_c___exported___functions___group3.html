@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.15"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>STM32F4xx_HAL_Driver: CEC_Exported_Functions_Group3</title>
+<title>STM32F4xx_HAL_Driver: Peripheral Control function</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,20 +64,96 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">CEC_Exported_Functions_Group3<div class="ingroups"><a class="el" href="group___c_e_c___exported___functions.html">CEC_Exported_Functions</a></div></div>  </div>
+<div class="title">Peripheral Control function<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___c_e_c.html">CEC</a> &raquo; <a class="el" href="group___c_e_c___exported___functions.html">CEC Exported Functions</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>CEC control functions.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga431190f68ad03976e65400dfff3fd566"><td class="memItemLeft" align="right" valign="top"><a id="ga431190f68ad03976e65400dfff3fd566"></a>
-<a class="el" href="stm32f4xx__hal__cec_8h.html#ae503c082bb404380a44bd6bcd173747d">HAL_CEC_StateTypeDef</a>&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_CEC_GetState</b> (<a class="el" href="struct_c_e_c___handle_type_def.html">CEC_HandleTypeDef</a> *hcec)</td></tr>
+<tr class="memitem:ga431190f68ad03976e65400dfff3fd566"><td class="memItemLeft" align="right" valign="top"><a class="el" href="stm32f4xx__hal__cec_8h.html#ae503c082bb404380a44bd6bcd173747d">HAL_CEC_StateTypeDef</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_e_c___exported___functions___group3.html#ga431190f68ad03976e65400dfff3fd566">HAL_CEC_GetState</a> (<a class="el" href="struct_c_e_c___handle_type_def.html">CEC_HandleTypeDef</a> *hcec)</td></tr>
+<tr class="memdesc:ga431190f68ad03976e65400dfff3fd566"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the CEC state  <a href="#ga431190f68ad03976e65400dfff3fd566">More...</a><br /></td></tr>
 <tr class="separator:ga431190f68ad03976e65400dfff3fd566"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga76c7fcd1b5154d736eb2ed1b7b0d1af2"><td class="memItemLeft" align="right" valign="top"><a id="ga76c7fcd1b5154d736eb2ed1b7b0d1af2"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_CEC_GetError</b> (<a class="el" href="struct_c_e_c___handle_type_def.html">CEC_HandleTypeDef</a> *hcec)</td></tr>
+<tr class="memitem:ga76c7fcd1b5154d736eb2ed1b7b0d1af2"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_e_c___exported___functions___group3.html#ga76c7fcd1b5154d736eb2ed1b7b0d1af2">HAL_CEC_GetError</a> (<a class="el" href="struct_c_e_c___handle_type_def.html">CEC_HandleTypeDef</a> *hcec)</td></tr>
+<tr class="memdesc:ga76c7fcd1b5154d736eb2ed1b7b0d1af2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the CEC error code.  <a href="#ga76c7fcd1b5154d736eb2ed1b7b0d1af2">More...</a><br /></td></tr>
 <tr class="separator:ga76c7fcd1b5154d736eb2ed1b7b0d1af2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>CEC control functions. </p>
+<pre class="fragment"> ===============================================================================
+                      ##### Peripheral Control function #####
+ ===============================================================================  
+    [..]
+    This subsection provides a set of functions allowing to control the CEC.
+     (+) HAL_CEC_GetState() API can be helpful to check in run-time the state of the CEC peripheral. 
+     (+) HAL_CEC_GetError() API can be helpful to check in run-time the error of the CEC peripheral. 
+</pre> <h2 class="groupheader">Function Documentation</h2>
+<a id="ga76c7fcd1b5154d736eb2ed1b7b0d1af2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga76c7fcd1b5154d736eb2ed1b7b0d1af2">&#9670;&nbsp;</a></span>HAL_CEC_GetError()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t HAL_CEC_GetError </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_c_e_c___handle_type_def.html">CEC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hcec</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return the CEC error code. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hcec</td><td>pointer to a <a class="el" href="struct_c_e_c___handle_type_def.html" title="CEC handle Structure definition.">CEC_HandleTypeDef</a> structure that contains the configuration information for the specified CEC. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">CEC</td><td>Error Code </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga431190f68ad03976e65400dfff3fd566"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga431190f68ad03976e65400dfff3fd566">&#9670;&nbsp;</a></span>HAL_CEC_GetState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="stm32f4xx__hal__cec_8h.html#ae503c082bb404380a44bd6bcd173747d">HAL_CEC_StateTypeDef</a> HAL_CEC_GetState </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_c_e_c___handle_type_def.html">CEC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hcec</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>return the CEC state </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hcec</td><td>pointer to a <a class="el" href="struct_c_e_c___handle_type_def.html" title="CEC handle Structure definition.">CEC_HandleTypeDef</a> structure that contains the configuration information for the specified CEC module. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>state </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

@@ -73,12 +73,60 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gab7a84f6106fe8d5024c4a2666aaf23e9"><td class="memItemLeft" align="right" valign="top"><a id="gab7a84f6106fe8d5024c4a2666aaf23e9"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_CAN_ConfigFilter</b> (<a class="el" href="group___c_a_n___exported___types.html#gab7cb5283f4d9a37525a360300e6f702e">CAN_HandleTypeDef</a> *hcan, <a class="el" href="struct_c_a_n___filter_type_def.html">CAN_FilterTypeDef</a> *sFilterConfig)</td></tr>
+<tr class="memitem:gab7a84f6106fe8d5024c4a2666aaf23e9"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_a_n___exported___functions___group2.html#gab7a84f6106fe8d5024c4a2666aaf23e9">HAL_CAN_ConfigFilter</a> (<a class="el" href="group___c_a_n___exported___types.html#gab7cb5283f4d9a37525a360300e6f702e">CAN_HandleTypeDef</a> *hcan, <a class="el" href="struct_c_a_n___filter_type_def.html">CAN_FilterTypeDef</a> *sFilterConfig)</td></tr>
+<tr class="memdesc:gab7a84f6106fe8d5024c4a2666aaf23e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configures the CAN reception filter according to the specified parameters in the CAN_FilterInitStruct.  <a href="#gab7a84f6106fe8d5024c4a2666aaf23e9">More...</a><br /></td></tr>
 <tr class="separator:gab7a84f6106fe8d5024c4a2666aaf23e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>Configuration functions. </p>
+<pre class="fragment">  ==============================================================================
+              ##### Configuration functions #####
+  ==============================================================================
+    [..]  This section provides functions allowing to:
+      (+) HAL_CAN_ConfigFilter            : Configure the CAN reception filters</pre> <h2 class="groupheader">Function Documentation</h2>
+<a id="gab7a84f6106fe8d5024c4a2666aaf23e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab7a84f6106fe8d5024c4a2666aaf23e9">&#9670;&nbsp;</a></span>HAL_CAN_ConfigFilter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_CAN_ConfigFilter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___c_a_n___exported___types.html#gab7cb5283f4d9a37525a360300e6f702e">CAN_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hcan</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_c_a_n___filter_type_def.html">CAN_FilterTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>sFilterConfig</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Configures the CAN reception filter according to the specified parameters in the CAN_FilterInitStruct. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hcan</td><td>pointer to a CAN_HandleTypeDef structure that contains the configuration information for the specified CAN. </td></tr>
+    <tr><td class="paramname">sFilterConfig</td><td>pointer to a <a class="el" href="struct_c_a_n___filter_type_def.html" title="CAN filter configuration structure definition.">CAN_FilterTypeDef</a> structure that contains the filter configuration information. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

@@ -64,20 +64,94 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">I2S Peripheral Control and State functions<div class="ingroups"><a class="el" href="group___i2_s___exported___functions.html">I2S Exported Functions</a></div></div>  </div>
+<div class="title">I2S Peripheral Control and State functions<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___i2_s.html">I2S</a> &raquo; <a class="el" href="group___i2_s___exported___functions.html">I2S Exported Functions</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Peripheral State functions.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga575e5ecf94a8a288b8a07e034dcb18c8"><td class="memItemLeft" align="right" valign="top"><a id="ga575e5ecf94a8a288b8a07e034dcb18c8"></a>
-<a class="el" href="stm32f4xx__hal__i2s_8h.html#a2588a0c71baf7cd6d2c1b9b11120bef0">HAL_I2S_StateTypeDef</a>&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_I2S_GetState</b> (<a class="el" href="stm32f4xx__hal__i2s_8h.html#a5ba06de362a2420f3b9f1314229b3cdc">I2S_HandleTypeDef</a> *hi2s)</td></tr>
+<tr class="memitem:ga575e5ecf94a8a288b8a07e034dcb18c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="stm32f4xx__hal__i2s_8h.html#a2588a0c71baf7cd6d2c1b9b11120bef0">HAL_I2S_StateTypeDef</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_s___exported___functions___group3.html#ga575e5ecf94a8a288b8a07e034dcb18c8">HAL_I2S_GetState</a> (<a class="el" href="stm32f4xx__hal__i2s_8h.html#a5ba06de362a2420f3b9f1314229b3cdc">I2S_HandleTypeDef</a> *hi2s)</td></tr>
+<tr class="memdesc:ga575e5ecf94a8a288b8a07e034dcb18c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the I2S state.  <a href="#ga575e5ecf94a8a288b8a07e034dcb18c8">More...</a><br /></td></tr>
 <tr class="separator:ga575e5ecf94a8a288b8a07e034dcb18c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga222caea98be140449fc5c4a0f21efbd0"><td class="memItemLeft" align="right" valign="top"><a id="ga222caea98be140449fc5c4a0f21efbd0"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_I2S_GetError</b> (<a class="el" href="stm32f4xx__hal__i2s_8h.html#a5ba06de362a2420f3b9f1314229b3cdc">I2S_HandleTypeDef</a> *hi2s)</td></tr>
+<tr class="memitem:ga222caea98be140449fc5c4a0f21efbd0"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_s___exported___functions___group3.html#ga222caea98be140449fc5c4a0f21efbd0">HAL_I2S_GetError</a> (<a class="el" href="stm32f4xx__hal__i2s_8h.html#a5ba06de362a2420f3b9f1314229b3cdc">I2S_HandleTypeDef</a> *hi2s)</td></tr>
+<tr class="memdesc:ga222caea98be140449fc5c4a0f21efbd0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the I2S error code.  <a href="#ga222caea98be140449fc5c4a0f21efbd0">More...</a><br /></td></tr>
 <tr class="separator:ga222caea98be140449fc5c4a0f21efbd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>Peripheral State functions. </p>
+<pre class="fragment"> ===============================================================================
+                      ##### Peripheral State and Errors functions #####
+ ===============================================================================
+    [..]
+    This subsection permits to get in run-time the status of the peripheral
+    and the data flow.</pre> <h2 class="groupheader">Function Documentation</h2>
+<a id="ga222caea98be140449fc5c4a0f21efbd0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga222caea98be140449fc5c4a0f21efbd0">&#9670;&nbsp;</a></span>HAL_I2S_GetError()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t HAL_I2S_GetError </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="stm32f4xx__hal__i2s_8h.html#a5ba06de362a2420f3b9f1314229b3cdc">I2S_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hi2s</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return the I2S error code. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hi2s</td><td>pointer to a I2S_HandleTypeDef structure that contains the configuration information for I2S module </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">I2S</td><td>Error Code </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga575e5ecf94a8a288b8a07e034dcb18c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga575e5ecf94a8a288b8a07e034dcb18c8">&#9670;&nbsp;</a></span>HAL_I2S_GetState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="stm32f4xx__hal__i2s_8h.html#a2588a0c71baf7cd6d2c1b9b11120bef0">HAL_I2S_StateTypeDef</a> HAL_I2S_GetState </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="stm32f4xx__hal__i2s_8h.html#a5ba06de362a2420f3b9f1314229b3cdc">I2S_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hi2s</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return the I2S state. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hi2s</td><td>pointer to a I2S_HandleTypeDef structure that contains the configuration information for I2S module </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>state </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

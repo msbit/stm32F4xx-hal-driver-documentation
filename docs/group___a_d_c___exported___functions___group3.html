@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.15"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>STM32F4xx_HAL_Driver: ADC_Exported_Functions_Group3</title>
+<title>STM32F4xx_HAL_Driver: Peripheral Control functions</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,20 +64,119 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">ADC_Exported_Functions_Group3<div class="ingroups"><a class="el" href="group___a_d_c___exported___functions.html">ADC_Exported_Functions</a></div></div>  </div>
+<div class="title">Peripheral Control functions<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___a_d_c.html">ADC</a> &raquo; <a class="el" href="group___a_d_c___exported___functions.html">ADC Exported Functions</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Peripheral Control functions.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gac6f70c4927204d6f50ab44c8e4800106"><td class="memItemLeft" align="right" valign="top"><a id="gac6f70c4927204d6f50ab44c8e4800106"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_ADC_ConfigChannel</b> (<a class="el" href="struct_a_d_c___handle_type_def.html">ADC_HandleTypeDef</a> *hadc, <a class="el" href="struct_a_d_c___channel_conf_type_def.html">ADC_ChannelConfTypeDef</a> *sConfig)</td></tr>
+<tr class="memitem:gac6f70c4927204d6f50ab44c8e4800106"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_d_c___exported___functions___group3.html#gac6f70c4927204d6f50ab44c8e4800106">HAL_ADC_ConfigChannel</a> (<a class="el" href="struct_a_d_c___handle_type_def.html">ADC_HandleTypeDef</a> *hadc, <a class="el" href="struct_a_d_c___channel_conf_type_def.html">ADC_ChannelConfTypeDef</a> *sConfig)</td></tr>
+<tr class="memdesc:gac6f70c4927204d6f50ab44c8e4800106"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configures for the selected ADC regular channel its corresponding rank in the sequencer and its sample time.  <a href="#gac6f70c4927204d6f50ab44c8e4800106">More...</a><br /></td></tr>
 <tr class="separator:gac6f70c4927204d6f50ab44c8e4800106"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaebd9d3c15de8c92e92e18ee38d1bd998"><td class="memItemLeft" align="right" valign="top"><a id="gaebd9d3c15de8c92e92e18ee38d1bd998"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_ADC_AnalogWDGConfig</b> (<a class="el" href="struct_a_d_c___handle_type_def.html">ADC_HandleTypeDef</a> *hadc, <a class="el" href="struct_a_d_c___analog_w_d_g_conf_type_def.html">ADC_AnalogWDGConfTypeDef</a> *AnalogWDGConfig)</td></tr>
+<tr class="memitem:gaebd9d3c15de8c92e92e18ee38d1bd998"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_d_c___exported___functions___group3.html#gaebd9d3c15de8c92e92e18ee38d1bd998">HAL_ADC_AnalogWDGConfig</a> (<a class="el" href="struct_a_d_c___handle_type_def.html">ADC_HandleTypeDef</a> *hadc, <a class="el" href="struct_a_d_c___analog_w_d_g_conf_type_def.html">ADC_AnalogWDGConfTypeDef</a> *AnalogWDGConfig)</td></tr>
+<tr class="memdesc:gaebd9d3c15de8c92e92e18ee38d1bd998"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configures the analog watchdog.  <a href="#gaebd9d3c15de8c92e92e18ee38d1bd998">More...</a><br /></td></tr>
 <tr class="separator:gaebd9d3c15de8c92e92e18ee38d1bd998"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>Peripheral Control functions. </p>
+<pre class="fragment"> ===============================================================================
+             ##### Peripheral Control functions #####
+ ===============================================================================  
+    [..]  This section provides functions allowing to:
+      (+) Configure regular channels. 
+      (+) Configure injected channels.
+      (+) Configure multimode.
+      (+) Configure the analog watch dog.</pre> <h2 class="groupheader">Function Documentation</h2>
+<a id="gaebd9d3c15de8c92e92e18ee38d1bd998"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaebd9d3c15de8c92e92e18ee38d1bd998">&#9670;&nbsp;</a></span>HAL_ADC_AnalogWDGConfig()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_ADC_AnalogWDGConfig </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_a_d_c___handle_type_def.html">ADC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hadc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_a_d_c___analog_w_d_g_conf_type_def.html">ADC_AnalogWDGConfTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>AnalogWDGConfig</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Configures the analog watchdog. </p>
+<dl class="section note"><dt>Note</dt><dd>Analog watchdog thresholds can be modified while ADC conversion is on going. In this case, some constraints must be taken into account: The programmed threshold values are effective from the next ADC EOC (end of unitary conversion). Considering that registers write delay may happen due to bus activity, this might cause an uncertainty on the effective timing of the new programmed threshold values. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hadc</td><td>pointer to a <a class="el" href="struct_a_d_c___handle_type_def.html" title="ADC handle Structure definition.">ADC_HandleTypeDef</a> structure that contains the configuration information for the specified ADC. </td></tr>
+    <tr><td class="paramname">AnalogWDGConfig</td><td>pointer to an <a class="el" href="struct_a_d_c___analog_w_d_g_conf_type_def.html" title="ADC Configuration multi-mode structure definition.">ADC_AnalogWDGConfTypeDef</a> structure that contains the configuration information of ADC analog watchdog. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gac6f70c4927204d6f50ab44c8e4800106"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac6f70c4927204d6f50ab44c8e4800106">&#9670;&nbsp;</a></span>HAL_ADC_ConfigChannel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_ADC_ConfigChannel </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_a_d_c___handle_type_def.html">ADC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hadc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_a_d_c___channel_conf_type_def.html">ADC_ChannelConfTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>sConfig</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Configures for the selected ADC regular channel its corresponding rank in the sequencer and its sample time. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hadc</td><td>pointer to a <a class="el" href="struct_a_d_c___handle_type_def.html" title="ADC handle Structure definition.">ADC_HandleTypeDef</a> structure that contains the configuration information for the specified ADC. </td></tr>
+    <tr><td class="paramname">sConfig</td><td>ADC configuration structure. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

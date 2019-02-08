@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.15"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>STM32F4xx_HAL_Driver: FLASHEx_Exported_Functions</title>
+<title>STM32F4xx_HAL_Driver: FLASHEx Exported Functions</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -62,18 +62,105 @@ $(function() {
 
 <div class="header">
   <div class="summary">
-<a href="#groups">Modules</a>  </div>
+<a href="#groups">Modules</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">FLASHEx_Exported_Functions</div>  </div>
+<div class="title">FLASHEx Exported Functions<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___f_l_a_s_h_ex.html">FLASHEx</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="groups"></a>
 Modules</h2></td></tr>
-<tr class="memitem:group___f_l_a_s_h_ex___exported___functions___group1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___f_l_a_s_h_ex___exported___functions___group1.html">FLASHEx_Exported_Functions_Group1</a></td></tr>
+<tr class="memitem:group___f_l_a_s_h_ex___exported___functions___group1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___f_l_a_s_h_ex___exported___functions___group1.html">Extended IO operation functions</a></td></tr>
+<tr class="memdesc:group___f_l_a_s_h_ex___exported___functions___group1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extended IO operation functions. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ga98c9d95cedcc4bfd39cdee82d07c0792"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___f_l_a_s_h_ex___exported___functions.html#ga98c9d95cedcc4bfd39cdee82d07c0792">FLASH_Erase_Sector</a> (uint32_t Sector, uint8_t VoltageRange)</td></tr>
+<tr class="memdesc:ga98c9d95cedcc4bfd39cdee82d07c0792"><td class="mdescLeft">&#160;</td><td class="mdescRight">Erase the specified FLASH memory sector.  <a href="#ga98c9d95cedcc4bfd39cdee82d07c0792">More...</a><br /></td></tr>
+<tr class="separator:ga98c9d95cedcc4bfd39cdee82d07c0792"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0881881ce55e54e123206bc2e0dc62f3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___f_l_a_s_h_ex___exported___functions.html#ga0881881ce55e54e123206bc2e0dc62f3">FLASH_FlushCaches</a> (void)</td></tr>
+<tr class="memdesc:ga0881881ce55e54e123206bc2e0dc62f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flush the instruction and data caches.  <a href="#ga0881881ce55e54e123206bc2e0dc62f3">More...</a><br /></td></tr>
+<tr class="separator:ga0881881ce55e54e123206bc2e0dc62f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="ga98c9d95cedcc4bfd39cdee82d07c0792"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga98c9d95cedcc4bfd39cdee82d07c0792">&#9670;&nbsp;</a></span>FLASH_Erase_Sector()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void FLASH_Erase_Sector </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Sector</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>VoltageRange</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Erase the specified FLASH memory sector. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Sector</td><td>FLASH sector to erase The value of this parameter depend on device used within the same series</td></tr>
+    <tr><td class="paramname">VoltageRange</td><td>The device voltage range which defines the erase parallelism.</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>This parameter can be one of the following values: </p><ul>
+<li>FLASH_VOLTAGE_RANGE_1: when the device voltage range is 1.8V to 2.1V, the operation will be done by byte (8-bit) </li>
+<li>FLASH_VOLTAGE_RANGE_2: when the device voltage range is 2.1V to 2.7V, the operation will be done by half word (16-bit) </li>
+<li>FLASH_VOLTAGE_RANGE_3: when the device voltage range is 2.7V to 3.6V, the operation will be done by word (32-bit) </li>
+<li>FLASH_VOLTAGE_RANGE_4: when the device voltage range is 2.7V to 3.6V + External Vpp, the operation will be done by double word (64-bit)</li>
+</ul>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga0881881ce55e54e123206bc2e0dc62f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0881881ce55e54e123206bc2e0dc62f3">&#9670;&nbsp;</a></span>FLASH_FlushCaches()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void FLASH_FlushCaches </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Flush the instruction and data caches. </p>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

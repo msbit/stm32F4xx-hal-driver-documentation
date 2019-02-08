@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.15"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>STM32F4xx_HAL_Driver: USART_Exported_Functions_Group2</title>
+<title>STM32F4xx_HAL_Driver: IO operation functions</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,80 +64,1068 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">USART_Exported_Functions_Group2<div class="ingroups"><a class="el" href="group___u_s_a_r_t___exported___functions.html">USART_Exported_Functions</a></div></div>  </div>
+<div class="title">IO operation functions<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___u_s_a_r_t.html">USART</a> &raquo; <a class="el" href="group___u_s_a_r_t___exported___functions.html">USART Exported Functions</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>USART Transmit and Receive functions.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gaa80425d3a8fa74a17f74cb03a3c2ad05"><td class="memItemLeft" align="right" valign="top"><a id="gaa80425d3a8fa74a17f74cb03a3c2ad05"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_USART_Transmit</b> (<a class="el" href="struct_u_s_a_r_t___handle_type_def.html">USART_HandleTypeDef</a> *husart, uint8_t *pTxData, uint16_t Size, uint32_t Timeout)</td></tr>
+<tr class="memitem:gaa80425d3a8fa74a17f74cb03a3c2ad05"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_a_r_t___exported___functions___group2.html#gaa80425d3a8fa74a17f74cb03a3c2ad05">HAL_USART_Transmit</a> (<a class="el" href="struct_u_s_a_r_t___handle_type_def.html">USART_HandleTypeDef</a> *husart, uint8_t *pTxData, uint16_t Size, uint32_t Timeout)</td></tr>
+<tr class="memdesc:gaa80425d3a8fa74a17f74cb03a3c2ad05"><td class="mdescLeft">&#160;</td><td class="mdescRight">Simplex Send an amount of data in blocking mode.  <a href="#gaa80425d3a8fa74a17f74cb03a3c2ad05">More...</a><br /></td></tr>
 <tr class="separator:gaa80425d3a8fa74a17f74cb03a3c2ad05"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1da8a5ce515c18b9960d366812bf737e"><td class="memItemLeft" align="right" valign="top"><a id="ga1da8a5ce515c18b9960d366812bf737e"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_USART_Receive</b> (<a class="el" href="struct_u_s_a_r_t___handle_type_def.html">USART_HandleTypeDef</a> *husart, uint8_t *pRxData, uint16_t Size, uint32_t Timeout)</td></tr>
+<tr class="memitem:ga1da8a5ce515c18b9960d366812bf737e"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_a_r_t___exported___functions___group2.html#ga1da8a5ce515c18b9960d366812bf737e">HAL_USART_Receive</a> (<a class="el" href="struct_u_s_a_r_t___handle_type_def.html">USART_HandleTypeDef</a> *husart, uint8_t *pRxData, uint16_t Size, uint32_t Timeout)</td></tr>
+<tr class="memdesc:ga1da8a5ce515c18b9960d366812bf737e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Full-Duplex Receive an amount of data in blocking mode.  <a href="#ga1da8a5ce515c18b9960d366812bf737e">More...</a><br /></td></tr>
 <tr class="separator:ga1da8a5ce515c18b9960d366812bf737e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad6da6800e21d17bd021f5d0cc068f271"><td class="memItemLeft" align="right" valign="top"><a id="gad6da6800e21d17bd021f5d0cc068f271"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_USART_TransmitReceive</b> (<a class="el" href="struct_u_s_a_r_t___handle_type_def.html">USART_HandleTypeDef</a> *husart, uint8_t *pTxData, uint8_t *pRxData, uint16_t Size, uint32_t Timeout)</td></tr>
+<tr class="memitem:gad6da6800e21d17bd021f5d0cc068f271"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_a_r_t___exported___functions___group2.html#gad6da6800e21d17bd021f5d0cc068f271">HAL_USART_TransmitReceive</a> (<a class="el" href="struct_u_s_a_r_t___handle_type_def.html">USART_HandleTypeDef</a> *husart, uint8_t *pTxData, uint8_t *pRxData, uint16_t Size, uint32_t Timeout)</td></tr>
+<tr class="memdesc:gad6da6800e21d17bd021f5d0cc068f271"><td class="mdescLeft">&#160;</td><td class="mdescRight">Full-Duplex Send receive an amount of data in full-duplex mode (blocking mode).  <a href="#gad6da6800e21d17bd021f5d0cc068f271">More...</a><br /></td></tr>
 <tr class="separator:gad6da6800e21d17bd021f5d0cc068f271"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaee43a3d0faab6467aea5663f8b0e87b0"><td class="memItemLeft" align="right" valign="top"><a id="gaee43a3d0faab6467aea5663f8b0e87b0"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_USART_Transmit_IT</b> (<a class="el" href="struct_u_s_a_r_t___handle_type_def.html">USART_HandleTypeDef</a> *husart, uint8_t *pTxData, uint16_t Size)</td></tr>
+<tr class="memitem:gaee43a3d0faab6467aea5663f8b0e87b0"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_a_r_t___exported___functions___group2.html#gaee43a3d0faab6467aea5663f8b0e87b0">HAL_USART_Transmit_IT</a> (<a class="el" href="struct_u_s_a_r_t___handle_type_def.html">USART_HandleTypeDef</a> *husart, uint8_t *pTxData, uint16_t Size)</td></tr>
+<tr class="memdesc:gaee43a3d0faab6467aea5663f8b0e87b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Simplex Send an amount of data in non-blocking mode.  <a href="#gaee43a3d0faab6467aea5663f8b0e87b0">More...</a><br /></td></tr>
 <tr class="separator:gaee43a3d0faab6467aea5663f8b0e87b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga19816dd7809a5dba59f309172cb7ea2d"><td class="memItemLeft" align="right" valign="top"><a id="ga19816dd7809a5dba59f309172cb7ea2d"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_USART_Receive_IT</b> (<a class="el" href="struct_u_s_a_r_t___handle_type_def.html">USART_HandleTypeDef</a> *husart, uint8_t *pRxData, uint16_t Size)</td></tr>
+<tr class="memitem:ga19816dd7809a5dba59f309172cb7ea2d"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_a_r_t___exported___functions___group2.html#ga19816dd7809a5dba59f309172cb7ea2d">HAL_USART_Receive_IT</a> (<a class="el" href="struct_u_s_a_r_t___handle_type_def.html">USART_HandleTypeDef</a> *husart, uint8_t *pRxData, uint16_t Size)</td></tr>
+<tr class="memdesc:ga19816dd7809a5dba59f309172cb7ea2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Simplex Receive an amount of data in non-blocking mode.  <a href="#ga19816dd7809a5dba59f309172cb7ea2d">More...</a><br /></td></tr>
 <tr class="separator:ga19816dd7809a5dba59f309172cb7ea2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf67f2b883594afd0027f10a518a3f595"><td class="memItemLeft" align="right" valign="top"><a id="gaf67f2b883594afd0027f10a518a3f595"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_USART_TransmitReceive_IT</b> (<a class="el" href="struct_u_s_a_r_t___handle_type_def.html">USART_HandleTypeDef</a> *husart, uint8_t *pTxData, uint8_t *pRxData, uint16_t Size)</td></tr>
+<tr class="memitem:gaf67f2b883594afd0027f10a518a3f595"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_a_r_t___exported___functions___group2.html#gaf67f2b883594afd0027f10a518a3f595">HAL_USART_TransmitReceive_IT</a> (<a class="el" href="struct_u_s_a_r_t___handle_type_def.html">USART_HandleTypeDef</a> *husart, uint8_t *pTxData, uint8_t *pRxData, uint16_t Size)</td></tr>
+<tr class="memdesc:gaf67f2b883594afd0027f10a518a3f595"><td class="mdescLeft">&#160;</td><td class="mdescRight">Full-Duplex Send receive an amount of data in full-duplex mode (non-blocking).  <a href="#gaf67f2b883594afd0027f10a518a3f595">More...</a><br /></td></tr>
 <tr class="separator:gaf67f2b883594afd0027f10a518a3f595"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga3d52e7ec93f6111e87c11daa8c00d1a1"><td class="memItemLeft" align="right" valign="top"><a id="ga3d52e7ec93f6111e87c11daa8c00d1a1"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_USART_Transmit_DMA</b> (<a class="el" href="struct_u_s_a_r_t___handle_type_def.html">USART_HandleTypeDef</a> *husart, uint8_t *pTxData, uint16_t Size)</td></tr>
+<tr class="memitem:ga3d52e7ec93f6111e87c11daa8c00d1a1"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_a_r_t___exported___functions___group2.html#ga3d52e7ec93f6111e87c11daa8c00d1a1">HAL_USART_Transmit_DMA</a> (<a class="el" href="struct_u_s_a_r_t___handle_type_def.html">USART_HandleTypeDef</a> *husart, uint8_t *pTxData, uint16_t Size)</td></tr>
+<tr class="memdesc:ga3d52e7ec93f6111e87c11daa8c00d1a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Simplex Send an amount of data in non-blocking mode.  <a href="#ga3d52e7ec93f6111e87c11daa8c00d1a1">More...</a><br /></td></tr>
 <tr class="separator:ga3d52e7ec93f6111e87c11daa8c00d1a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab0322771e1ddbb8c2ac6dd75e7e1c90e"><td class="memItemLeft" align="right" valign="top"><a id="gab0322771e1ddbb8c2ac6dd75e7e1c90e"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_USART_Receive_DMA</b> (<a class="el" href="struct_u_s_a_r_t___handle_type_def.html">USART_HandleTypeDef</a> *husart, uint8_t *pRxData, uint16_t Size)</td></tr>
+<tr class="memitem:gab0322771e1ddbb8c2ac6dd75e7e1c90e"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_a_r_t___exported___functions___group2.html#gab0322771e1ddbb8c2ac6dd75e7e1c90e">HAL_USART_Receive_DMA</a> (<a class="el" href="struct_u_s_a_r_t___handle_type_def.html">USART_HandleTypeDef</a> *husart, uint8_t *pRxData, uint16_t Size)</td></tr>
+<tr class="memdesc:gab0322771e1ddbb8c2ac6dd75e7e1c90e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Full-Duplex Receive an amount of data in non-blocking mode.  <a href="#gab0322771e1ddbb8c2ac6dd75e7e1c90e">More...</a><br /></td></tr>
 <tr class="separator:gab0322771e1ddbb8c2ac6dd75e7e1c90e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8ad37a3c54b720f1f0a2a32dafcac6df"><td class="memItemLeft" align="right" valign="top"><a id="ga8ad37a3c54b720f1f0a2a32dafcac6df"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_USART_TransmitReceive_DMA</b> (<a class="el" href="struct_u_s_a_r_t___handle_type_def.html">USART_HandleTypeDef</a> *husart, uint8_t *pTxData, uint8_t *pRxData, uint16_t Size)</td></tr>
+<tr class="memitem:ga8ad37a3c54b720f1f0a2a32dafcac6df"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_a_r_t___exported___functions___group2.html#ga8ad37a3c54b720f1f0a2a32dafcac6df">HAL_USART_TransmitReceive_DMA</a> (<a class="el" href="struct_u_s_a_r_t___handle_type_def.html">USART_HandleTypeDef</a> *husart, uint8_t *pTxData, uint8_t *pRxData, uint16_t Size)</td></tr>
+<tr class="memdesc:ga8ad37a3c54b720f1f0a2a32dafcac6df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Full-Duplex Transmit Receive an amount of data in non-blocking mode.  <a href="#ga8ad37a3c54b720f1f0a2a32dafcac6df">More...</a><br /></td></tr>
 <tr class="separator:ga8ad37a3c54b720f1f0a2a32dafcac6df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab6d960d952daee0b6aa82fbf0a4b61b0"><td class="memItemLeft" align="right" valign="top"><a id="gab6d960d952daee0b6aa82fbf0a4b61b0"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_USART_DMAPause</b> (<a class="el" href="struct_u_s_a_r_t___handle_type_def.html">USART_HandleTypeDef</a> *husart)</td></tr>
+<tr class="memitem:gab6d960d952daee0b6aa82fbf0a4b61b0"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_a_r_t___exported___functions___group2.html#gab6d960d952daee0b6aa82fbf0a4b61b0">HAL_USART_DMAPause</a> (<a class="el" href="struct_u_s_a_r_t___handle_type_def.html">USART_HandleTypeDef</a> *husart)</td></tr>
+<tr class="memdesc:gab6d960d952daee0b6aa82fbf0a4b61b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pauses the DMA Transfer.  <a href="#gab6d960d952daee0b6aa82fbf0a4b61b0">More...</a><br /></td></tr>
 <tr class="separator:gab6d960d952daee0b6aa82fbf0a4b61b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga20e7a0e7864825eb18c9ee57a4e63fb7"><td class="memItemLeft" align="right" valign="top"><a id="ga20e7a0e7864825eb18c9ee57a4e63fb7"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_USART_DMAResume</b> (<a class="el" href="struct_u_s_a_r_t___handle_type_def.html">USART_HandleTypeDef</a> *husart)</td></tr>
+<tr class="memitem:ga20e7a0e7864825eb18c9ee57a4e63fb7"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_a_r_t___exported___functions___group2.html#ga20e7a0e7864825eb18c9ee57a4e63fb7">HAL_USART_DMAResume</a> (<a class="el" href="struct_u_s_a_r_t___handle_type_def.html">USART_HandleTypeDef</a> *husart)</td></tr>
+<tr class="memdesc:ga20e7a0e7864825eb18c9ee57a4e63fb7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resumes the DMA Transfer.  <a href="#ga20e7a0e7864825eb18c9ee57a4e63fb7">More...</a><br /></td></tr>
 <tr class="separator:ga20e7a0e7864825eb18c9ee57a4e63fb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gabeaf40f697cb852cb54a3ad81df4375e"><td class="memItemLeft" align="right" valign="top"><a id="gabeaf40f697cb852cb54a3ad81df4375e"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_USART_DMAStop</b> (<a class="el" href="struct_u_s_a_r_t___handle_type_def.html">USART_HandleTypeDef</a> *husart)</td></tr>
+<tr class="memitem:gabeaf40f697cb852cb54a3ad81df4375e"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_a_r_t___exported___functions___group2.html#gabeaf40f697cb852cb54a3ad81df4375e">HAL_USART_DMAStop</a> (<a class="el" href="struct_u_s_a_r_t___handle_type_def.html">USART_HandleTypeDef</a> *husart)</td></tr>
+<tr class="memdesc:gabeaf40f697cb852cb54a3ad81df4375e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stops the DMA Transfer.  <a href="#gabeaf40f697cb852cb54a3ad81df4375e">More...</a><br /></td></tr>
 <tr class="separator:gabeaf40f697cb852cb54a3ad81df4375e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaaa1acf7fb356bce3e06b2df77b317c9d"><td class="memItemLeft" align="right" valign="top"><a id="gaaa1acf7fb356bce3e06b2df77b317c9d"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_USART_Abort</b> (<a class="el" href="struct_u_s_a_r_t___handle_type_def.html">USART_HandleTypeDef</a> *husart)</td></tr>
+<tr class="memitem:gaaa1acf7fb356bce3e06b2df77b317c9d"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_a_r_t___exported___functions___group2.html#gaaa1acf7fb356bce3e06b2df77b317c9d">HAL_USART_Abort</a> (<a class="el" href="struct_u_s_a_r_t___handle_type_def.html">USART_HandleTypeDef</a> *husart)</td></tr>
+<tr class="memdesc:gaaa1acf7fb356bce3e06b2df77b317c9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abort ongoing transfer (blocking mode).  <a href="#gaaa1acf7fb356bce3e06b2df77b317c9d">More...</a><br /></td></tr>
 <tr class="separator:gaaa1acf7fb356bce3e06b2df77b317c9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gacaa3343ed3decaff634e87f9a30682b7"><td class="memItemLeft" align="right" valign="top"><a id="gacaa3343ed3decaff634e87f9a30682b7"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_USART_Abort_IT</b> (<a class="el" href="struct_u_s_a_r_t___handle_type_def.html">USART_HandleTypeDef</a> *husart)</td></tr>
+<tr class="memitem:gacaa3343ed3decaff634e87f9a30682b7"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_a_r_t___exported___functions___group2.html#gacaa3343ed3decaff634e87f9a30682b7">HAL_USART_Abort_IT</a> (<a class="el" href="struct_u_s_a_r_t___handle_type_def.html">USART_HandleTypeDef</a> *husart)</td></tr>
+<tr class="memdesc:gacaa3343ed3decaff634e87f9a30682b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abort ongoing transfer (Interrupt mode).  <a href="#gacaa3343ed3decaff634e87f9a30682b7">More...</a><br /></td></tr>
 <tr class="separator:gacaa3343ed3decaff634e87f9a30682b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4ac0981601603af111c7e59db1680ace"><td class="memItemLeft" align="right" valign="top"><a id="ga4ac0981601603af111c7e59db1680ace"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_USART_IRQHandler</b> (<a class="el" href="struct_u_s_a_r_t___handle_type_def.html">USART_HandleTypeDef</a> *husart)</td></tr>
+<tr class="memitem:ga4ac0981601603af111c7e59db1680ace"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_a_r_t___exported___functions___group2.html#ga4ac0981601603af111c7e59db1680ace">HAL_USART_IRQHandler</a> (<a class="el" href="struct_u_s_a_r_t___handle_type_def.html">USART_HandleTypeDef</a> *husart)</td></tr>
+<tr class="memdesc:ga4ac0981601603af111c7e59db1680ace"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function handles USART interrupt request.  <a href="#ga4ac0981601603af111c7e59db1680ace">More...</a><br /></td></tr>
 <tr class="separator:ga4ac0981601603af111c7e59db1680ace"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga140f7cd834ae6359fcb4a71e0fe29909"><td class="memItemLeft" align="right" valign="top"><a id="ga140f7cd834ae6359fcb4a71e0fe29909"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_USART_TxCpltCallback</b> (<a class="el" href="struct_u_s_a_r_t___handle_type_def.html">USART_HandleTypeDef</a> *husart)</td></tr>
-<tr class="separator:ga140f7cd834ae6359fcb4a71e0fe29909"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga107416fd537ed66aaaf530581c1a2c0a"><td class="memItemLeft" align="right" valign="top"><a id="ga107416fd537ed66aaaf530581c1a2c0a"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_USART_TxHalfCpltCallback</b> (<a class="el" href="struct_u_s_a_r_t___handle_type_def.html">USART_HandleTypeDef</a> *husart)</td></tr>
-<tr class="separator:ga107416fd537ed66aaaf530581c1a2c0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5937cf9bb1958b927bf34900d19c9724"><td class="memItemLeft" align="right" valign="top"><a id="ga5937cf9bb1958b927bf34900d19c9724"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_USART_RxCpltCallback</b> (<a class="el" href="struct_u_s_a_r_t___handle_type_def.html">USART_HandleTypeDef</a> *husart)</td></tr>
-<tr class="separator:ga5937cf9bb1958b927bf34900d19c9724"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2b22726b27e640b3d37a896ef5113b49"><td class="memItemLeft" align="right" valign="top"><a id="ga2b22726b27e640b3d37a896ef5113b49"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_USART_RxHalfCpltCallback</b> (<a class="el" href="struct_u_s_a_r_t___handle_type_def.html">USART_HandleTypeDef</a> *husart)</td></tr>
-<tr class="separator:ga2b22726b27e640b3d37a896ef5113b49"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5ed0ad2c026a5d53cda4485557558eaa"><td class="memItemLeft" align="right" valign="top"><a id="ga5ed0ad2c026a5d53cda4485557558eaa"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_USART_TxRxCpltCallback</b> (<a class="el" href="struct_u_s_a_r_t___handle_type_def.html">USART_HandleTypeDef</a> *husart)</td></tr>
-<tr class="separator:ga5ed0ad2c026a5d53cda4485557558eaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae7e2b482040e13cb538fa507617f8229"><td class="memItemLeft" align="right" valign="top"><a id="gae7e2b482040e13cb538fa507617f8229"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_USART_ErrorCallback</b> (<a class="el" href="struct_u_s_a_r_t___handle_type_def.html">USART_HandleTypeDef</a> *husart)</td></tr>
-<tr class="separator:gae7e2b482040e13cb538fa507617f8229"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga73799961281fd53c34c659b9d0baf84b"><td class="memItemLeft" align="right" valign="top"><a id="ga73799961281fd53c34c659b9d0baf84b"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_USART_AbortCpltCallback</b> (<a class="el" href="struct_u_s_a_r_t___handle_type_def.html">USART_HandleTypeDef</a> *husart)</td></tr>
-<tr class="separator:ga73799961281fd53c34c659b9d0baf84b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac10ab92d62f031a705a69f817481bc77"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_a_r_t___exported___functions___group2.html#gac10ab92d62f031a705a69f817481bc77">HAL_USART_TxCpltCallback</a> (<a class="el" href="struct_u_s_a_r_t___handle_type_def.html">USART_HandleTypeDef</a> *husart)</td></tr>
+<tr class="memdesc:gac10ab92d62f031a705a69f817481bc77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tx Transfer completed callbacks.  <a href="#gac10ab92d62f031a705a69f817481bc77">More...</a><br /></td></tr>
+<tr class="separator:gac10ab92d62f031a705a69f817481bc77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaaceafca68a695b32a996c4ab826eb07e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_a_r_t___exported___functions___group2.html#gaaceafca68a695b32a996c4ab826eb07e">HAL_USART_TxHalfCpltCallback</a> (<a class="el" href="struct_u_s_a_r_t___handle_type_def.html">USART_HandleTypeDef</a> *husart)</td></tr>
+<tr class="memdesc:gaaceafca68a695b32a996c4ab826eb07e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tx Half Transfer completed callbacks.  <a href="#gaaceafca68a695b32a996c4ab826eb07e">More...</a><br /></td></tr>
+<tr class="separator:gaaceafca68a695b32a996c4ab826eb07e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga758d52f84a345159fad4abb513652b49"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_a_r_t___exported___functions___group2.html#ga758d52f84a345159fad4abb513652b49">HAL_USART_RxCpltCallback</a> (<a class="el" href="struct_u_s_a_r_t___handle_type_def.html">USART_HandleTypeDef</a> *husart)</td></tr>
+<tr class="memdesc:ga758d52f84a345159fad4abb513652b49"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rx Transfer completed callbacks.  <a href="#ga758d52f84a345159fad4abb513652b49">More...</a><br /></td></tr>
+<tr class="separator:ga758d52f84a345159fad4abb513652b49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gacb5b420845e16d30d4ae6736f5f6c250"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_a_r_t___exported___functions___group2.html#gacb5b420845e16d30d4ae6736f5f6c250">HAL_USART_RxHalfCpltCallback</a> (<a class="el" href="struct_u_s_a_r_t___handle_type_def.html">USART_HandleTypeDef</a> *husart)</td></tr>
+<tr class="memdesc:gacb5b420845e16d30d4ae6736f5f6c250"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rx Half Transfer completed callbacks.  <a href="#gacb5b420845e16d30d4ae6736f5f6c250">More...</a><br /></td></tr>
+<tr class="separator:gacb5b420845e16d30d4ae6736f5f6c250"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga307a8a22bd3f892ba8417280f62efaa3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_a_r_t___exported___functions___group2.html#ga307a8a22bd3f892ba8417280f62efaa3">HAL_USART_TxRxCpltCallback</a> (<a class="el" href="struct_u_s_a_r_t___handle_type_def.html">USART_HandleTypeDef</a> *husart)</td></tr>
+<tr class="memdesc:ga307a8a22bd3f892ba8417280f62efaa3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tx/Rx Transfers completed callback for the non-blocking process.  <a href="#ga307a8a22bd3f892ba8417280f62efaa3">More...</a><br /></td></tr>
+<tr class="separator:ga307a8a22bd3f892ba8417280f62efaa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6886a45a724a2180a8002366ecf46a9d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_a_r_t___exported___functions___group2.html#ga6886a45a724a2180a8002366ecf46a9d">HAL_USART_ErrorCallback</a> (<a class="el" href="struct_u_s_a_r_t___handle_type_def.html">USART_HandleTypeDef</a> *husart)</td></tr>
+<tr class="memdesc:ga6886a45a724a2180a8002366ecf46a9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">USART error callbacks.  <a href="#ga6886a45a724a2180a8002366ecf46a9d">More...</a><br /></td></tr>
+<tr class="separator:ga6886a45a724a2180a8002366ecf46a9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac6e067472d6e7771e7ab3bc4e230f91a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___u_s_a_r_t___exported___functions___group2.html#gac6e067472d6e7771e7ab3bc4e230f91a">HAL_USART_AbortCpltCallback</a> (<a class="el" href="struct_u_s_a_r_t___handle_type_def.html">USART_HandleTypeDef</a> *husart)</td></tr>
+<tr class="memdesc:gac6e067472d6e7771e7ab3bc4e230f91a"><td class="mdescLeft">&#160;</td><td class="mdescRight">USART Abort Complete callback.  <a href="#gac6e067472d6e7771e7ab3bc4e230f91a">More...</a><br /></td></tr>
+<tr class="separator:gac6e067472d6e7771e7ab3bc4e230f91a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>USART Transmit and Receive functions. </p>
+<pre class="fragment">  ==============================================================================
+                         ##### IO operation functions #####
+  ==============================================================================
+  [..]
+    This subsection provides a set of functions allowing to manage the USART synchronous
+    data transfers.
+
+  [..]
+    The USART supports master mode only: it cannot receive or send data related to an input
+    clock (SCLK is always an output).
+
+    (#) There are two modes of transfer:
+        (++) Blocking mode: The communication is performed in polling mode.
+             The HAL status of all data processing is returned by the same function
+             after finishing transfer.
+        (++) No-Blocking mode: The communication is performed using Interrupts
+             or DMA, These API's return the HAL status.
+             The end of the data processing will be indicated through the
+             dedicated USART IRQ when using Interrupt mode or the DMA IRQ when
+             using DMA mode.
+             The HAL_USART_TxCpltCallback(), HAL_USART_RxCpltCallback() and HAL_USART_TxRxCpltCallback()
+              user callbacks
+             will be executed respectively at the end of the transmit or Receive process
+             The HAL_USART_ErrorCallback() user callback will be executed when a communication
+             error is detected
+
+    (#) Blocking mode APIs are :
+        (++) HAL_USART_Transmit() in simplex mode
+        (++) HAL_USART_Receive() in full duplex receive only
+        (++) HAL_USART_TransmitReceive() in full duplex mode
+
+    (#) Non Blocking mode APIs with Interrupt are :
+        (++) HAL_USART_Transmit_IT()in simplex mode
+        (++) HAL_USART_Receive_IT() in full duplex receive only
+        (++) HAL_USART_TransmitReceive_IT() in full duplex mode
+        (++) HAL_USART_IRQHandler()
+
+    (#) Non Blocking mode functions with DMA are :
+        (++) HAL_USART_Transmit_DMA()in simplex mode
+        (++) HAL_USART_Receive_DMA() in full duplex receive only
+        (++) HAL_USART_TransmitReceie_DMA() in full duplex mode
+        (++) HAL_USART_DMAPause()
+        (++) HAL_USART_DMAResume()
+        (++) HAL_USART_DMAStop()
+
+    (#) A set of Transfer Complete Callbacks are provided in non Blocking mode:
+        (++) HAL_USART_TxHalfCpltCallback()
+        (++) HAL_USART_TxCpltCallback()
+        (++) HAL_USART_RxHalfCpltCallback()
+        (++) HAL_USART_RxCpltCallback()
+        (++) HAL_USART_ErrorCallback()
+        (++) HAL_USART_TxRxCpltCallback()</pre> <h2 class="groupheader">Function Documentation</h2>
+<a id="gaaa1acf7fb356bce3e06b2df77b317c9d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaaa1acf7fb356bce3e06b2df77b317c9d">&#9670;&nbsp;</a></span>HAL_USART_Abort()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_USART_Abort </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_u_s_a_r_t___handle_type_def.html">USART_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>husart</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Abort ongoing transfer (blocking mode). </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">husart</td><td>USART handle. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>This procedure could be used for aborting any ongoing transfer (either Tx or Rx, as described by TransferType parameter) started in Interrupt or DMA mode. This procedure performs following operations :<ul>
+<li>Disable PPP Interrupts (depending of transfer direction)</li>
+<li>Disable the DMA transfer in the peripheral register (if enabled)</li>
+<li>Abort DMA transfer by calling HAL_DMA_Abort (in case of transfer in DMA mode)</li>
+<li>Set handle State to READY </li>
+</ul>
+</dd>
+<dd>
+This procedure is executed in blocking mode : when exiting function, Abort is considered as completed. </dd></dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gacaa3343ed3decaff634e87f9a30682b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gacaa3343ed3decaff634e87f9a30682b7">&#9670;&nbsp;</a></span>HAL_USART_Abort_IT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_USART_Abort_IT </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_u_s_a_r_t___handle_type_def.html">USART_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>husart</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Abort ongoing transfer (Interrupt mode). </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">husart</td><td>USART handle. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>This procedure could be used for aborting any ongoing transfer (either Tx or Rx, as described by TransferType parameter) started in Interrupt or DMA mode. This procedure performs following operations :<ul>
+<li>Disable PPP Interrupts (depending of transfer direction)</li>
+<li>Disable the DMA transfer in the peripheral register (if enabled)</li>
+<li>Abort DMA transfer by calling HAL_DMA_Abort_IT (in case of transfer in DMA mode)</li>
+<li>Set handle State to READY</li>
+<li>At abort completion, call user abort complete callback </li>
+</ul>
+</dd>
+<dd>
+This procedure is executed in Interrupt mode, meaning that abort procedure could be considered as completed only when user abort complete callback is executed (not when exiting function). </dd></dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gac6e067472d6e7771e7ab3bc4e230f91a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac6e067472d6e7771e7ab3bc4e230f91a">&#9670;&nbsp;</a></span>HAL_USART_AbortCpltCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_USART_AbortCpltCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_u_s_a_r_t___handle_type_def.html">USART_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>husart</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>USART Abort Complete callback. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">husart</td><td>USART handle. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gab6d960d952daee0b6aa82fbf0a4b61b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab6d960d952daee0b6aa82fbf0a4b61b0">&#9670;&nbsp;</a></span>HAL_USART_DMAPause()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_USART_DMAPause </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_u_s_a_r_t___handle_type_def.html">USART_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>husart</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Pauses the DMA Transfer. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">husart</td><td>pointer to a <a class="el" href="struct_u_s_a_r_t___handle_type_def.html" title="USART handle Structure definition.">USART_HandleTypeDef</a> structure that contains the configuration information for the specified USART module. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga20e7a0e7864825eb18c9ee57a4e63fb7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga20e7a0e7864825eb18c9ee57a4e63fb7">&#9670;&nbsp;</a></span>HAL_USART_DMAResume()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_USART_DMAResume </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_u_s_a_r_t___handle_type_def.html">USART_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>husart</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Resumes the DMA Transfer. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">husart</td><td>pointer to a <a class="el" href="struct_u_s_a_r_t___handle_type_def.html" title="USART handle Structure definition.">USART_HandleTypeDef</a> structure that contains the configuration information for the specified USART module. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gabeaf40f697cb852cb54a3ad81df4375e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabeaf40f697cb852cb54a3ad81df4375e">&#9670;&nbsp;</a></span>HAL_USART_DMAStop()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_USART_DMAStop </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_u_s_a_r_t___handle_type_def.html">USART_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>husart</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Stops the DMA Transfer. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">husart</td><td>pointer to a <a class="el" href="struct_u_s_a_r_t___handle_type_def.html" title="USART handle Structure definition.">USART_HandleTypeDef</a> structure that contains the configuration information for the specified USART module. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga6886a45a724a2180a8002366ecf46a9d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6886a45a724a2180a8002366ecf46a9d">&#9670;&nbsp;</a></span>HAL_USART_ErrorCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_USART_ErrorCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_u_s_a_r_t___handle_type_def.html">USART_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>husart</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>USART error callbacks. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">husart</td><td>pointer to a <a class="el" href="struct_u_s_a_r_t___handle_type_def.html" title="USART handle Structure definition.">USART_HandleTypeDef</a> structure that contains the configuration information for the specified USART module. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga4ac0981601603af111c7e59db1680ace"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4ac0981601603af111c7e59db1680ace">&#9670;&nbsp;</a></span>HAL_USART_IRQHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HAL_USART_IRQHandler </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_u_s_a_r_t___handle_type_def.html">USART_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>husart</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function handles USART interrupt request. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">husart</td><td>pointer to a <a class="el" href="struct_u_s_a_r_t___handle_type_def.html" title="USART handle Structure definition.">USART_HandleTypeDef</a> structure that contains the configuration information for the specified USART module. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga1da8a5ce515c18b9960d366812bf737e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1da8a5ce515c18b9960d366812bf737e">&#9670;&nbsp;</a></span>HAL_USART_Receive()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_USART_Receive </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_u_s_a_r_t___handle_type_def.html">USART_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>husart</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pRxData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>Size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Timeout</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Full-Duplex Receive an amount of data in blocking mode. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">husart</td><td>pointer to a <a class="el" href="struct_u_s_a_r_t___handle_type_def.html" title="USART handle Structure definition.">USART_HandleTypeDef</a> structure that contains the configuration information for the specified USART module. </td></tr>
+    <tr><td class="paramname">pRxData</td><td>Pointer to data buffer </td></tr>
+    <tr><td class="paramname">Size</td><td>Amount of data to be received </td></tr>
+    <tr><td class="paramname">Timeout</td><td>Timeout duration </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gab0322771e1ddbb8c2ac6dd75e7e1c90e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab0322771e1ddbb8c2ac6dd75e7e1c90e">&#9670;&nbsp;</a></span>HAL_USART_Receive_DMA()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_USART_Receive_DMA </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_u_s_a_r_t___handle_type_def.html">USART_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>husart</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pRxData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>Size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Full-Duplex Receive an amount of data in non-blocking mode. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">husart</td><td>pointer to a <a class="el" href="struct_u_s_a_r_t___handle_type_def.html" title="USART handle Structure definition.">USART_HandleTypeDef</a> structure that contains the configuration information for the specified USART module. </td></tr>
+    <tr><td class="paramname">pRxData</td><td>Pointer to data buffer </td></tr>
+    <tr><td class="paramname">Size</td><td>Amount of data to be received </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>The USART DMA transmit stream must be configured in order to generate the clock for the slave. </dd>
+<dd>
+When the USART parity is enabled (PCE = 1) the data received contain the parity bit. </dd></dl>
+
+</div>
+</div>
+<a id="ga19816dd7809a5dba59f309172cb7ea2d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga19816dd7809a5dba59f309172cb7ea2d">&#9670;&nbsp;</a></span>HAL_USART_Receive_IT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_USART_Receive_IT </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_u_s_a_r_t___handle_type_def.html">USART_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>husart</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pRxData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>Size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Simplex Receive an amount of data in non-blocking mode. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">husart</td><td>pointer to a <a class="el" href="struct_u_s_a_r_t___handle_type_def.html" title="USART handle Structure definition.">USART_HandleTypeDef</a> structure that contains the configuration information for the specified USART module. </td></tr>
+    <tr><td class="paramname">pRxData</td><td>Pointer to data buffer </td></tr>
+    <tr><td class="paramname">Size</td><td>Amount of data to be received </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga758d52f84a345159fad4abb513652b49"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga758d52f84a345159fad4abb513652b49">&#9670;&nbsp;</a></span>HAL_USART_RxCpltCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_USART_RxCpltCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_u_s_a_r_t___handle_type_def.html">USART_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>husart</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Rx Transfer completed callbacks. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">husart</td><td>pointer to a <a class="el" href="struct_u_s_a_r_t___handle_type_def.html" title="USART handle Structure definition.">USART_HandleTypeDef</a> structure that contains the configuration information for the specified USART module. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gacb5b420845e16d30d4ae6736f5f6c250"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gacb5b420845e16d30d4ae6736f5f6c250">&#9670;&nbsp;</a></span>HAL_USART_RxHalfCpltCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_USART_RxHalfCpltCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_u_s_a_r_t___handle_type_def.html">USART_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>husart</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Rx Half Transfer completed callbacks. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">husart</td><td>pointer to a <a class="el" href="struct_u_s_a_r_t___handle_type_def.html" title="USART handle Structure definition.">USART_HandleTypeDef</a> structure that contains the configuration information for the specified USART module. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaa80425d3a8fa74a17f74cb03a3c2ad05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa80425d3a8fa74a17f74cb03a3c2ad05">&#9670;&nbsp;</a></span>HAL_USART_Transmit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_USART_Transmit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_u_s_a_r_t___handle_type_def.html">USART_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>husart</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pTxData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>Size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Timeout</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Simplex Send an amount of data in blocking mode. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">husart</td><td>pointer to a <a class="el" href="struct_u_s_a_r_t___handle_type_def.html" title="USART handle Structure definition.">USART_HandleTypeDef</a> structure that contains the configuration information for the specified USART module. </td></tr>
+    <tr><td class="paramname">pTxData</td><td>Pointer to data buffer </td></tr>
+    <tr><td class="paramname">Size</td><td>Amount of data to be sent </td></tr>
+    <tr><td class="paramname">Timeout</td><td>Timeout duration </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga3d52e7ec93f6111e87c11daa8c00d1a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3d52e7ec93f6111e87c11daa8c00d1a1">&#9670;&nbsp;</a></span>HAL_USART_Transmit_DMA()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_USART_Transmit_DMA </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_u_s_a_r_t___handle_type_def.html">USART_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>husart</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pTxData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>Size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Simplex Send an amount of data in non-blocking mode. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">husart</td><td>pointer to a <a class="el" href="struct_u_s_a_r_t___handle_type_def.html" title="USART handle Structure definition.">USART_HandleTypeDef</a> structure that contains the configuration information for the specified USART module. </td></tr>
+    <tr><td class="paramname">pTxData</td><td>Pointer to data buffer </td></tr>
+    <tr><td class="paramname">Size</td><td>Amount of data to be sent </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaee43a3d0faab6467aea5663f8b0e87b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaee43a3d0faab6467aea5663f8b0e87b0">&#9670;&nbsp;</a></span>HAL_USART_Transmit_IT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_USART_Transmit_IT </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_u_s_a_r_t___handle_type_def.html">USART_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>husart</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pTxData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>Size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Simplex Send an amount of data in non-blocking mode. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">husart</td><td>pointer to a <a class="el" href="struct_u_s_a_r_t___handle_type_def.html" title="USART handle Structure definition.">USART_HandleTypeDef</a> structure that contains the configuration information for the specified USART module. </td></tr>
+    <tr><td class="paramname">pTxData</td><td>Pointer to data buffer </td></tr>
+    <tr><td class="paramname">Size</td><td>Amount of data to be sent </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>The USART errors are not managed to avoid the overrun error. </dd></dl>
+
+</div>
+</div>
+<a id="gad6da6800e21d17bd021f5d0cc068f271"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad6da6800e21d17bd021f5d0cc068f271">&#9670;&nbsp;</a></span>HAL_USART_TransmitReceive()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_USART_TransmitReceive </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_u_s_a_r_t___handle_type_def.html">USART_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>husart</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pTxData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pRxData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>Size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Timeout</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Full-Duplex Send receive an amount of data in full-duplex mode (blocking mode). </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">husart</td><td>pointer to a <a class="el" href="struct_u_s_a_r_t___handle_type_def.html" title="USART handle Structure definition.">USART_HandleTypeDef</a> structure that contains the configuration information for the specified USART module. </td></tr>
+    <tr><td class="paramname">pTxData</td><td>Pointer to data transmitted buffer </td></tr>
+    <tr><td class="paramname">pRxData</td><td>Pointer to data received buffer </td></tr>
+    <tr><td class="paramname">Size</td><td>Amount of data to be sent </td></tr>
+    <tr><td class="paramname">Timeout</td><td>Timeout duration </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga8ad37a3c54b720f1f0a2a32dafcac6df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8ad37a3c54b720f1f0a2a32dafcac6df">&#9670;&nbsp;</a></span>HAL_USART_TransmitReceive_DMA()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_USART_TransmitReceive_DMA </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_u_s_a_r_t___handle_type_def.html">USART_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>husart</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pTxData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pRxData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>Size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Full-Duplex Transmit Receive an amount of data in non-blocking mode. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">husart</td><td>pointer to a <a class="el" href="struct_u_s_a_r_t___handle_type_def.html" title="USART handle Structure definition.">USART_HandleTypeDef</a> structure that contains the configuration information for the specified USART module. </td></tr>
+    <tr><td class="paramname">pTxData</td><td>Pointer to data transmitted buffer </td></tr>
+    <tr><td class="paramname">pRxData</td><td>Pointer to data received buffer </td></tr>
+    <tr><td class="paramname">Size</td><td>Amount of data to be received </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>When the USART parity is enabled (PCE = 1) the data received contain the parity bit. </dd></dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaf67f2b883594afd0027f10a518a3f595"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf67f2b883594afd0027f10a518a3f595">&#9670;&nbsp;</a></span>HAL_USART_TransmitReceive_IT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_USART_TransmitReceive_IT </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_u_s_a_r_t___handle_type_def.html">USART_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>husart</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pTxData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pRxData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>Size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Full-Duplex Send receive an amount of data in full-duplex mode (non-blocking). </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">husart</td><td>pointer to a <a class="el" href="struct_u_s_a_r_t___handle_type_def.html" title="USART handle Structure definition.">USART_HandleTypeDef</a> structure that contains the configuration information for the specified USART module. </td></tr>
+    <tr><td class="paramname">pTxData</td><td>Pointer to data transmitted buffer </td></tr>
+    <tr><td class="paramname">pRxData</td><td>Pointer to data received buffer </td></tr>
+    <tr><td class="paramname">Size</td><td>Amount of data to be received </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gac10ab92d62f031a705a69f817481bc77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac10ab92d62f031a705a69f817481bc77">&#9670;&nbsp;</a></span>HAL_USART_TxCpltCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_USART_TxCpltCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_u_s_a_r_t___handle_type_def.html">USART_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>husart</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Tx Transfer completed callbacks. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">husart</td><td>pointer to a <a class="el" href="struct_u_s_a_r_t___handle_type_def.html" title="USART handle Structure definition.">USART_HandleTypeDef</a> structure that contains the configuration information for the specified USART module. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaaceafca68a695b32a996c4ab826eb07e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaaceafca68a695b32a996c4ab826eb07e">&#9670;&nbsp;</a></span>HAL_USART_TxHalfCpltCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_USART_TxHalfCpltCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_u_s_a_r_t___handle_type_def.html">USART_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>husart</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Tx Half Transfer completed callbacks. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">husart</td><td>pointer to a <a class="el" href="struct_u_s_a_r_t___handle_type_def.html" title="USART handle Structure definition.">USART_HandleTypeDef</a> structure that contains the configuration information for the specified USART module. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga307a8a22bd3f892ba8417280f62efaa3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga307a8a22bd3f892ba8417280f62efaa3">&#9670;&nbsp;</a></span>HAL_USART_TxRxCpltCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_USART_TxRxCpltCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_u_s_a_r_t___handle_type_def.html">USART_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>husart</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Tx/Rx Transfers completed callback for the non-blocking process. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">husart</td><td>pointer to a <a class="el" href="struct_u_s_a_r_t___handle_type_def.html" title="USART handle Structure definition.">USART_HandleTypeDef</a> structure that contains the configuration information for the specified USART module. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.15"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>STM32F4xx_HAL_Driver: CRYPEx_Exported_Functions_Group2</title>
+<title>STM32F4xx_HAL_Driver: CRYPEx IRQ handler management</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,35 +64,519 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">CRYPEx_Exported_Functions_Group2<div class="ingroups"><a class="el" href="group___c_r_y_p_ex___exported___functions.html">CRYPEx_Exported_Functions</a></div></div>  </div>
+<div class="title">CRYPEx IRQ handler management<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___c_r_y_p_ex.html">CRYPEx</a> &raquo; <a class="el" href="group___c_r_y_p_ex___exported___functions.html">CRYPEx Exported Functions</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>CRYPEx IRQ handler.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga9a404ba673a571036aa76d30d2959ec3"><td class="memItemLeft" align="right" valign="top"><a id="ga9a404ba673a571036aa76d30d2959ec3"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_CRYPEx_GCMCCM_IRQHandler</b> (<a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *hcryp)</td></tr>
+<tr class="memitem:ga9a404ba673a571036aa76d30d2959ec3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_r_y_p_ex___exported___functions___group2.html#ga9a404ba673a571036aa76d30d2959ec3">HAL_CRYPEx_GCMCCM_IRQHandler</a> (<a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *hcryp)</td></tr>
+<tr class="memdesc:ga9a404ba673a571036aa76d30d2959ec3"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function handles CRYPEx interrupt request.  <a href="#ga9a404ba673a571036aa76d30d2959ec3">More...</a><br /></td></tr>
 <tr class="separator:ga9a404ba673a571036aa76d30d2959ec3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaea245b1cce8e0865ab9e0a83a4f3535d"><td class="memItemLeft" align="right" valign="top"><a id="gaea245b1cce8e0865ab9e0a83a4f3535d"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_CRYPEx_AES</b> (<a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *hcryp, uint8_t *pInputData, uint16_t Size, uint8_t *pOutputData, uint32_t Timeout)</td></tr>
+<tr class="memitem:gaea245b1cce8e0865ab9e0a83a4f3535d"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_r_y_p_ex___exported___functions___group2.html#gaea245b1cce8e0865ab9e0a83a4f3535d">HAL_CRYPEx_AES</a> (<a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *hcryp, uint8_t *pInputData, uint16_t Size, uint8_t *pOutputData, uint32_t Timeout)</td></tr>
+<tr class="memdesc:gaea245b1cce8e0865ab9e0a83a4f3535d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Carry out in polling mode the ciphering or deciphering operation according to hcryp-&gt;Init structure fields, all operating modes (encryption, key derivation and/or decryption) and chaining modes ECB, CBC and CTR are managed by this function in polling mode.  <a href="#gaea245b1cce8e0865ab9e0a83a4f3535d">More...</a><br /></td></tr>
 <tr class="separator:gaea245b1cce8e0865ab9e0a83a4f3535d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga801e9251413900bf2c7c1f879063bf74"><td class="memItemLeft" align="right" valign="top"><a id="ga801e9251413900bf2c7c1f879063bf74"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_CRYPEx_AES_IT</b> (<a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *hcryp, uint8_t *pInputData, uint16_t Size, uint8_t *pOutputData)</td></tr>
+<tr class="memitem:ga801e9251413900bf2c7c1f879063bf74"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_r_y_p_ex___exported___functions___group2.html#ga801e9251413900bf2c7c1f879063bf74">HAL_CRYPEx_AES_IT</a> (<a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *hcryp, uint8_t *pInputData, uint16_t Size, uint8_t *pOutputData)</td></tr>
+<tr class="memdesc:ga801e9251413900bf2c7c1f879063bf74"><td class="mdescLeft">&#160;</td><td class="mdescRight">Carry out in interrupt mode the ciphering or deciphering operation according to hcryp-&gt;Init structure fields, all operating modes (encryption, key derivation and/or decryption) and chaining modes ECB, CBC and CTR are managed by this function in interrupt mode.  <a href="#ga801e9251413900bf2c7c1f879063bf74">More...</a><br /></td></tr>
 <tr class="separator:ga801e9251413900bf2c7c1f879063bf74"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6b4a083fe77025ea98c3454115f35864"><td class="memItemLeft" align="right" valign="top"><a id="ga6b4a083fe77025ea98c3454115f35864"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_CRYPEx_AES_DMA</b> (<a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *hcryp, uint8_t *pInputData, uint16_t Size, uint8_t *pOutputData)</td></tr>
+<tr class="memitem:ga6b4a083fe77025ea98c3454115f35864"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_r_y_p_ex___exported___functions___group2.html#ga6b4a083fe77025ea98c3454115f35864">HAL_CRYPEx_AES_DMA</a> (<a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *hcryp, uint8_t *pInputData, uint16_t Size, uint8_t *pOutputData)</td></tr>
+<tr class="memdesc:ga6b4a083fe77025ea98c3454115f35864"><td class="mdescLeft">&#160;</td><td class="mdescRight">Carry out in DMA mode the ciphering or deciphering operation according to hcryp-&gt;Init structure fields.  <a href="#ga6b4a083fe77025ea98c3454115f35864">More...</a><br /></td></tr>
 <tr class="separator:ga6b4a083fe77025ea98c3454115f35864"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga36ec18f257e5b6d6739ddf38021679f5"><td class="memItemLeft" align="right" valign="top"><a id="ga36ec18f257e5b6d6739ddf38021679f5"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_CRYPEx_AES_Auth</b> (<a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *hcryp, uint8_t *pInputData, uint64_t Size, uint8_t *pOutputData, uint32_t Timeout)</td></tr>
+<tr class="memitem:ga36ec18f257e5b6d6739ddf38021679f5"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_r_y_p_ex___exported___functions___group2.html#ga36ec18f257e5b6d6739ddf38021679f5">HAL_CRYPEx_AES_Auth</a> (<a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *hcryp, uint8_t *pInputData, uint64_t Size, uint8_t *pOutputData, uint32_t Timeout)</td></tr>
+<tr class="memdesc:ga36ec18f257e5b6d6739ddf38021679f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Carry out in polling mode the authentication tag generation as well as the ciphering or deciphering operation according to hcryp-&gt;Init structure fields.  <a href="#ga36ec18f257e5b6d6739ddf38021679f5">More...</a><br /></td></tr>
 <tr class="separator:ga36ec18f257e5b6d6739ddf38021679f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab253a484f66160eeee802d4b65a59785"><td class="memItemLeft" align="right" valign="top"><a id="gab253a484f66160eeee802d4b65a59785"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_CRYPEx_AES_Auth_IT</b> (<a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *hcryp, uint8_t *pInputData, uint64_t Size, uint8_t *pOutputData)</td></tr>
+<tr class="memitem:gab253a484f66160eeee802d4b65a59785"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_r_y_p_ex___exported___functions___group2.html#gab253a484f66160eeee802d4b65a59785">HAL_CRYPEx_AES_Auth_IT</a> (<a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *hcryp, uint8_t *pInputData, uint64_t Size, uint8_t *pOutputData)</td></tr>
+<tr class="memdesc:gab253a484f66160eeee802d4b65a59785"><td class="mdescLeft">&#160;</td><td class="mdescRight">Carry out in interrupt mode the authentication tag generation as well as the ciphering or deciphering operation according to hcryp-&gt;Init structure fields.  <a href="#gab253a484f66160eeee802d4b65a59785">More...</a><br /></td></tr>
 <tr class="separator:gab253a484f66160eeee802d4b65a59785"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga85d6b20fcd60806b1db102ad8f7f0310"><td class="memItemLeft" align="right" valign="top"><a id="ga85d6b20fcd60806b1db102ad8f7f0310"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_CRYPEx_AES_Auth_DMA</b> (<a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *hcryp, uint8_t *pInputData, uint64_t Size, uint8_t *pOutputData)</td></tr>
+<tr class="memitem:ga85d6b20fcd60806b1db102ad8f7f0310"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_r_y_p_ex___exported___functions___group2.html#ga85d6b20fcd60806b1db102ad8f7f0310">HAL_CRYPEx_AES_Auth_DMA</a> (<a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *hcryp, uint8_t *pInputData, uint64_t Size, uint8_t *pOutputData)</td></tr>
+<tr class="memdesc:ga85d6b20fcd60806b1db102ad8f7f0310"><td class="mdescLeft">&#160;</td><td class="mdescRight">Carry out in DMA mode the authentication tag generation as well as the ciphering or deciphering operation according to hcryp-&gt;Init structure fields.  <a href="#ga85d6b20fcd60806b1db102ad8f7f0310">More...</a><br /></td></tr>
 <tr class="separator:ga85d6b20fcd60806b1db102ad8f7f0310"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>CRYPEx IRQ handler. </p>
+<p>Extended processing functions.</p>
+<pre class="fragment">  ==============================================================================
+                ##### CRYPEx IRQ handler management #####
+  ==============================================================================  
+[..]  This section provides CRYPEx IRQ handler function.</pre><pre class="fragment">  ==============================================================================
+                      ##### AES extended processing functions #####
+  ==============================================================================  
+    [..]  This section provides functions allowing to:
+      (+) Encrypt plaintext or decrypt cipher text using AES algorithm in different chaining modes.
+          Functions are generic (handles ECB, CBC and CTR and all modes) and are only differentiated
+          based on the processing type. Three processing types are available:
+          (++) Polling mode
+          (++) Interrupt mode
+          (++) DMA mode
+      (+) Generate and authentication tag in addition to encrypt/decrypt a plain/cipher text using AES 
+          algorithm in different chaining modes.
+          Functions are generic (handles GCM, GMAC, CMAC and CCM when applicable) and process only one phase 
+          so that steps can be skipped if so required. Functions are only differentiated based on the processing type. 
+          Three processing types are available:
+          (++) Polling mode
+          (++) Interrupt mode
+          (++) DMA mode          </pre> <h2 class="groupheader">Function Documentation</h2>
+<a id="gaea245b1cce8e0865ab9e0a83a4f3535d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaea245b1cce8e0865ab9e0a83a4f3535d">&#9670;&nbsp;</a></span>HAL_CRYPEx_AES()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_CRYPEx_AES </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hcryp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pInputData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>Size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pOutputData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Timeout</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Carry out in polling mode the ciphering or deciphering operation according to hcryp-&gt;Init structure fields, all operating modes (encryption, key derivation and/or decryption) and chaining modes ECB, CBC and CTR are managed by this function in polling mode. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hcryp</td><td>pointer to a <a class="el" href="struct_c_r_y_p___handle_type_def.html" title="CRYP handle Structure definition.">CRYP_HandleTypeDef</a> structure that contains the configuration information for CRYP module </td></tr>
+    <tr><td class="paramname">pInputData</td><td>Pointer to the plain text in case of encryption or cipher text in case of decryption or key derivation+decryption. Parameter is meaningless in case of key derivation.</td></tr>
+    <tr><td class="paramname">Size</td><td>Length of the input data buffer in bytes, must be a multiple of 16. Parameter is meaningless in case of key derivation.</td></tr>
+    <tr><td class="paramname">pOutputData</td><td>Pointer to the cipher text in case of encryption or plain text in case of decryption/key derivation+decryption, or pointer to the derivative keys in case of key derivation only.</td></tr>
+    <tr><td class="paramname">Timeout</td><td>Specify Timeout value </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga36ec18f257e5b6d6739ddf38021679f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga36ec18f257e5b6d6739ddf38021679f5">&#9670;&nbsp;</a></span>HAL_CRYPEx_AES_Auth()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_CRYPEx_AES_Auth </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hcryp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pInputData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint64_t&#160;</td>
+          <td class="paramname"><em>Size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pOutputData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Timeout</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Carry out in polling mode the authentication tag generation as well as the ciphering or deciphering operation according to hcryp-&gt;Init structure fields. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hcryp</td><td>pointer to a <a class="el" href="struct_c_r_y_p___handle_type_def.html" title="CRYP handle Structure definition.">CRYP_HandleTypeDef</a> structure that contains the configuration information for CRYP module </td></tr>
+    <tr><td class="paramname">pInputData</td><td><ul>
+<li>pointer to payload data in GCM payload phase,</li>
+<li>pointer to B0 block in CMAC header phase,</li>
+<li>pointer to C block in CMAC final phase.</li>
+<li>Parameter is meaningless in case of GCM/GMAC init, header and final phases.</li>
+</ul>
+</td></tr>
+    <tr><td class="paramname">Size</td><td><ul>
+<li>length of the input payload data buffer in bytes,</li>
+<li>length of B0 block (in bytes) in CMAC header phase,</li>
+<li>length of C block (in bytes) in CMAC final phase.</li>
+<li>Parameter is meaningless in case of GCM/GMAC init and header phases.</li>
+</ul>
+</td></tr>
+    <tr><td class="paramname">pOutputData</td><td><ul>
+<li>pointer to plain or cipher text in GCM payload phase,</li>
+<li>pointer to authentication tag in GCM/GMAC and CMAC final phases.</li>
+<li>Parameter is meaningless in case of GCM/GMAC init and header phases and in case of CMAC header phase.</li>
+</ul>
+</td></tr>
+    <tr><td class="paramname">Timeout</td><td>Specify Timeout value </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>Supported operating modes are encryption and decryption, supported chaining modes are GCM, GMAC, CMAC and CCM when the latter is applicable. </dd>
+<dd>
+Phases are singly processed according to hcryp-&gt;Init.GCMCMACPhase so that steps in these specific chaining modes can be skipped by the user if so required.</dd></dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga85d6b20fcd60806b1db102ad8f7f0310"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga85d6b20fcd60806b1db102ad8f7f0310">&#9670;&nbsp;</a></span>HAL_CRYPEx_AES_Auth_DMA()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_CRYPEx_AES_Auth_DMA </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hcryp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pInputData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint64_t&#160;</td>
+          <td class="paramname"><em>Size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pOutputData</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Carry out in DMA mode the authentication tag generation as well as the ciphering or deciphering operation according to hcryp-&gt;Init structure fields. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hcryp</td><td>pointer to a <a class="el" href="struct_c_r_y_p___handle_type_def.html" title="CRYP handle Structure definition.">CRYP_HandleTypeDef</a> structure that contains the configuration information for CRYP module </td></tr>
+    <tr><td class="paramname">pInputData</td><td><ul>
+<li>pointer to payload data in GCM payload phase,</li>
+<li>pointer to B0 block in CMAC header phase,</li>
+<li>pointer to C block in CMAC final phase.</li>
+<li>Parameter is meaningless in case of GCM/GMAC init, header and final phases.</li>
+</ul>
+</td></tr>
+    <tr><td class="paramname">Size</td><td><ul>
+<li>length of the input payload data buffer in bytes,</li>
+<li>length of B block (in bytes) in CMAC header phase,</li>
+<li>length of C block (in bytes) in CMAC final phase.</li>
+<li>Parameter is meaningless in case of GCM/GMAC init and header phases.</li>
+</ul>
+</td></tr>
+    <tr><td class="paramname">pOutputData</td><td><ul>
+<li>pointer to plain or cipher text in GCM payload phase,</li>
+<li>pointer to authentication tag in GCM/GMAC and CMAC final phases.</li>
+<li>Parameter is meaningless in case of GCM/GMAC init and header phases and in case of CMAC header phase. </li>
+</ul>
+</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>Supported operating modes are encryption and decryption, supported chaining modes are GCM, GMAC and CMAC. </dd>
+<dd>
+Phases are singly processed according to hcryp-&gt;Init.GCMCMACPhase so that steps in these specific chaining modes can be skipped by the user if so required. </dd>
+<dd>
+pInputData and pOutputData buffers must be 32-bit aligned to ensure a correct DMA transfer to and from the IP.</dd></dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gab253a484f66160eeee802d4b65a59785"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab253a484f66160eeee802d4b65a59785">&#9670;&nbsp;</a></span>HAL_CRYPEx_AES_Auth_IT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_CRYPEx_AES_Auth_IT </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hcryp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pInputData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint64_t&#160;</td>
+          <td class="paramname"><em>Size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pOutputData</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Carry out in interrupt mode the authentication tag generation as well as the ciphering or deciphering operation according to hcryp-&gt;Init structure fields. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hcryp</td><td>pointer to a <a class="el" href="struct_c_r_y_p___handle_type_def.html" title="CRYP handle Structure definition.">CRYP_HandleTypeDef</a> structure that contains the configuration information for CRYP module </td></tr>
+    <tr><td class="paramname">pInputData</td><td><ul>
+<li>pointer to payload data in GCM payload phase,</li>
+<li>pointer to B0 block in CMAC header phase,</li>
+<li>pointer to C block in CMAC final phase. Parameter is meaningless in case of GCM/GMAC init, header and final phases.</li>
+</ul>
+</td></tr>
+    <tr><td class="paramname">Size</td><td><ul>
+<li>length of the input payload data buffer in bytes,</li>
+<li>length of B0 block (in bytes) in CMAC header phase,</li>
+<li>length of C block (in bytes) in CMAC final phase.</li>
+<li>Parameter is meaningless in case of GCM/GMAC init and header phases.</li>
+</ul>
+</td></tr>
+    <tr><td class="paramname">pOutputData</td><td><ul>
+<li>pointer to plain or cipher text in GCM payload phase,</li>
+<li>pointer to authentication tag in GCM/GMAC and CMAC final phases.</li>
+<li>Parameter is meaningless in case of GCM/GMAC init and header phases and in case of CMAC header phase. </li>
+</ul>
+</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>Supported operating modes are encryption and decryption, supported chaining modes are GCM, GMAC and CMAC. </dd>
+<dd>
+Phases are singly processed according to hcryp-&gt;Init.GCMCMACPhase so that steps in these specific chaining modes can be skipped by the user if so required.</dd></dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga6b4a083fe77025ea98c3454115f35864"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6b4a083fe77025ea98c3454115f35864">&#9670;&nbsp;</a></span>HAL_CRYPEx_AES_DMA()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_CRYPEx_AES_DMA </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hcryp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pInputData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>Size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pOutputData</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Carry out in DMA mode the ciphering or deciphering operation according to hcryp-&gt;Init structure fields. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hcryp</td><td>pointer to a <a class="el" href="struct_c_r_y_p___handle_type_def.html" title="CRYP handle Structure definition.">CRYP_HandleTypeDef</a> structure that contains the configuration information for CRYP module </td></tr>
+    <tr><td class="paramname">pInputData</td><td>Pointer to the plain text in case of encryption or cipher text in case of decryption or key derivation+decryption.</td></tr>
+    <tr><td class="paramname">Size</td><td>Length of the input data buffer in bytes, must be a multiple of 16. </td></tr>
+    <tr><td class="paramname">pOutputData</td><td>Pointer to the cipher text in case of encryption or plain text in case of decryption/key derivation+decryption. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>Chaining modes ECB, CBC and CTR are managed by this function in DMA mode.</dd>
+<dd>
+Supported operating modes are encryption, decryption and key derivation with decryption. </dd>
+<dd>
+No DMA channel is provided for key derivation only and therefore, access to AES_KEYRx registers must be done by software.</dd>
+<dd>
+This API is not applicable to key derivation only; for such a mode, access to AES_KEYRx registers must be done by software thru <a class="el" href="group___c_r_y_p_ex___exported___functions___group2.html#gaea245b1cce8e0865ab9e0a83a4f3535d" title="Carry out in polling mode the ciphering or deciphering operation according to hcryp-&gt;Init structure f...">HAL_CRYPEx_AES()</a> or <a class="el" href="group___c_r_y_p_ex___exported___functions___group2.html#ga801e9251413900bf2c7c1f879063bf74" title="Carry out in interrupt mode the ciphering or deciphering operation according to hcryp-&gt;Init structure...">HAL_CRYPEx_AES_IT()</a> APIs. </dd>
+<dd>
+pInputData and pOutputData buffers must be 32-bit aligned to ensure a correct DMA transfer to and from the IP.</dd></dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga801e9251413900bf2c7c1f879063bf74"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga801e9251413900bf2c7c1f879063bf74">&#9670;&nbsp;</a></span>HAL_CRYPEx_AES_IT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_CRYPEx_AES_IT </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hcryp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pInputData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>Size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>pOutputData</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Carry out in interrupt mode the ciphering or deciphering operation according to hcryp-&gt;Init structure fields, all operating modes (encryption, key derivation and/or decryption) and chaining modes ECB, CBC and CTR are managed by this function in interrupt mode. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hcryp</td><td>pointer to a <a class="el" href="struct_c_r_y_p___handle_type_def.html" title="CRYP handle Structure definition.">CRYP_HandleTypeDef</a> structure that contains the configuration information for CRYP module </td></tr>
+    <tr><td class="paramname">pInputData</td><td>Pointer to the plain text in case of encryption or cipher text in case of decryption or key derivation+decryption. Parameter is meaningless in case of key derivation.</td></tr>
+    <tr><td class="paramname">Size</td><td>Length of the input data buffer in bytes, must be a multiple of 16. Parameter is meaningless in case of key derivation.</td></tr>
+    <tr><td class="paramname">pOutputData</td><td>Pointer to the cipher text in case of encryption or plain text in case of decryption/key derivation+decryption, or pointer to the derivative keys in case of key derivation only.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga9a404ba673a571036aa76d30d2959ec3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9a404ba673a571036aa76d30d2959ec3">&#9670;&nbsp;</a></span>HAL_CRYPEx_GCMCCM_IRQHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HAL_CRYPEx_GCMCCM_IRQHandler </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hcryp</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function handles CRYPEx interrupt request. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hcryp</td><td>pointer to a CRYPEx_HandleTypeDef structure that contains the configuration information for CRYP module </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

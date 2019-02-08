@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.15"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>STM32F4xx_HAL_Driver: DAC_Exported_Functions_Group4</title>
+<title>STM32F4xx_HAL_Driver: Peripheral State and Errors functions</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,35 +64,270 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">DAC_Exported_Functions_Group4<div class="ingroups"><a class="el" href="group___d_a_c___exported___functions.html">DAC_Exported_Functions</a></div></div>  </div>
+<div class="title">Peripheral State and Errors functions<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___d_a_c.html">DAC</a> &raquo; <a class="el" href="group___d_a_c___exported___functions.html">DAC Exported Functions</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Peripheral State and Errors functions.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga2b7002cf7396d79d7bcba0f0243dfec6"><td class="memItemLeft" align="right" valign="top"><a id="ga2b7002cf7396d79d7bcba0f0243dfec6"></a>
-HAL_DAC_StateTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DAC_GetState</b> (<a class="el" href="struct_d_a_c___handle_type_def.html">DAC_HandleTypeDef</a> *hdac)</td></tr>
+<tr class="memitem:ga2b7002cf7396d79d7bcba0f0243dfec6"><td class="memItemLeft" align="right" valign="top">HAL_DAC_StateTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_a_c___exported___functions___group4.html#ga2b7002cf7396d79d7bcba0f0243dfec6">HAL_DAC_GetState</a> (<a class="el" href="struct_d_a_c___handle_type_def.html">DAC_HandleTypeDef</a> *hdac)</td></tr>
+<tr class="memdesc:ga2b7002cf7396d79d7bcba0f0243dfec6"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the DAC state  <a href="#ga2b7002cf7396d79d7bcba0f0243dfec6">More...</a><br /></td></tr>
 <tr class="separator:ga2b7002cf7396d79d7bcba0f0243dfec6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gace33df9eb40ac0447bc16bd8baa95db4"><td class="memItemLeft" align="right" valign="top"><a id="gace33df9eb40ac0447bc16bd8baa95db4"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DAC_IRQHandler</b> (<a class="el" href="struct_d_a_c___handle_type_def.html">DAC_HandleTypeDef</a> *hdac)</td></tr>
+<tr class="memitem:gace33df9eb40ac0447bc16bd8baa95db4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_a_c___exported___functions___group4.html#gace33df9eb40ac0447bc16bd8baa95db4">HAL_DAC_IRQHandler</a> (<a class="el" href="struct_d_a_c___handle_type_def.html">DAC_HandleTypeDef</a> *hdac)</td></tr>
+<tr class="memdesc:gace33df9eb40ac0447bc16bd8baa95db4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handles DAC interrupt request.  <a href="#gace33df9eb40ac0447bc16bd8baa95db4">More...</a><br /></td></tr>
 <tr class="separator:gace33df9eb40ac0447bc16bd8baa95db4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac1b4903d6e80c1c0ec48c8fabaf968c2"><td class="memItemLeft" align="right" valign="top"><a id="gac1b4903d6e80c1c0ec48c8fabaf968c2"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DAC_GetError</b> (<a class="el" href="struct_d_a_c___handle_type_def.html">DAC_HandleTypeDef</a> *hdac)</td></tr>
+<tr class="memitem:gac1b4903d6e80c1c0ec48c8fabaf968c2"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_a_c___exported___functions___group4.html#gac1b4903d6e80c1c0ec48c8fabaf968c2">HAL_DAC_GetError</a> (<a class="el" href="struct_d_a_c___handle_type_def.html">DAC_HandleTypeDef</a> *hdac)</td></tr>
+<tr class="memdesc:gac1b4903d6e80c1c0ec48c8fabaf968c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the DAC error code.  <a href="#gac1b4903d6e80c1c0ec48c8fabaf968c2">More...</a><br /></td></tr>
 <tr class="separator:gac1b4903d6e80c1c0ec48c8fabaf968c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4c31d3d27f982c04b9a2a59973b35d23"><td class="memItemLeft" align="right" valign="top"><a id="ga4c31d3d27f982c04b9a2a59973b35d23"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DAC_ConvCpltCallbackCh1</b> (<a class="el" href="struct_d_a_c___handle_type_def.html">DAC_HandleTypeDef</a> *hdac)</td></tr>
+<tr class="memitem:ga4c31d3d27f982c04b9a2a59973b35d23"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_a_c___exported___functions___group4.html#ga4c31d3d27f982c04b9a2a59973b35d23">HAL_DAC_ConvCpltCallbackCh1</a> (<a class="el" href="struct_d_a_c___handle_type_def.html">DAC_HandleTypeDef</a> *hdac)</td></tr>
+<tr class="memdesc:ga4c31d3d27f982c04b9a2a59973b35d23"><td class="mdescLeft">&#160;</td><td class="mdescRight">Conversion complete callback in non blocking mode for Channel1.  <a href="#ga4c31d3d27f982c04b9a2a59973b35d23">More...</a><br /></td></tr>
 <tr class="separator:ga4c31d3d27f982c04b9a2a59973b35d23"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga60555b471a64d0a7f9603ca4ee23520d"><td class="memItemLeft" align="right" valign="top"><a id="ga60555b471a64d0a7f9603ca4ee23520d"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DAC_ConvHalfCpltCallbackCh1</b> (<a class="el" href="struct_d_a_c___handle_type_def.html">DAC_HandleTypeDef</a> *hdac)</td></tr>
+<tr class="memitem:ga60555b471a64d0a7f9603ca4ee23520d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_a_c___exported___functions___group4.html#ga60555b471a64d0a7f9603ca4ee23520d">HAL_DAC_ConvHalfCpltCallbackCh1</a> (<a class="el" href="struct_d_a_c___handle_type_def.html">DAC_HandleTypeDef</a> *hdac)</td></tr>
+<tr class="memdesc:ga60555b471a64d0a7f9603ca4ee23520d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Conversion half DMA transfer callback in non blocking mode for Channel1.  <a href="#ga60555b471a64d0a7f9603ca4ee23520d">More...</a><br /></td></tr>
 <tr class="separator:ga60555b471a64d0a7f9603ca4ee23520d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad0600b00c0db84b0f77839860aa6e89d"><td class="memItemLeft" align="right" valign="top"><a id="gad0600b00c0db84b0f77839860aa6e89d"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DAC_ErrorCallbackCh1</b> (<a class="el" href="struct_d_a_c___handle_type_def.html">DAC_HandleTypeDef</a> *hdac)</td></tr>
+<tr class="memitem:gad0600b00c0db84b0f77839860aa6e89d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_a_c___exported___functions___group4.html#gad0600b00c0db84b0f77839860aa6e89d">HAL_DAC_ErrorCallbackCh1</a> (<a class="el" href="struct_d_a_c___handle_type_def.html">DAC_HandleTypeDef</a> *hdac)</td></tr>
+<tr class="memdesc:gad0600b00c0db84b0f77839860aa6e89d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Error DAC callback for Channel1.  <a href="#gad0600b00c0db84b0f77839860aa6e89d">More...</a><br /></td></tr>
 <tr class="separator:gad0600b00c0db84b0f77839860aa6e89d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga9fcdd9a69872883ea186dfe189495bf9"><td class="memItemLeft" align="right" valign="top"><a id="ga9fcdd9a69872883ea186dfe189495bf9"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DAC_DMAUnderrunCallbackCh1</b> (<a class="el" href="struct_d_a_c___handle_type_def.html">DAC_HandleTypeDef</a> *hdac)</td></tr>
+<tr class="memitem:ga9fcdd9a69872883ea186dfe189495bf9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_a_c___exported___functions___group4.html#ga9fcdd9a69872883ea186dfe189495bf9">HAL_DAC_DMAUnderrunCallbackCh1</a> (<a class="el" href="struct_d_a_c___handle_type_def.html">DAC_HandleTypeDef</a> *hdac)</td></tr>
+<tr class="memdesc:ga9fcdd9a69872883ea186dfe189495bf9"><td class="mdescLeft">&#160;</td><td class="mdescRight">DMA underrun DAC callback for channel1.  <a href="#ga9fcdd9a69872883ea186dfe189495bf9">More...</a><br /></td></tr>
 <tr class="separator:ga9fcdd9a69872883ea186dfe189495bf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>Peripheral State and Errors functions. </p>
+<pre class="fragment">  ==============================================================================
+            ##### Peripheral State and Errors functions #####
+  ==============================================================================  
+    [..]
+    This subsection provides functions allowing to
+      (+) Check the DAC state.
+      (+) Check the DAC Errors.</pre> <h2 class="groupheader">Function Documentation</h2>
+<a id="ga4c31d3d27f982c04b9a2a59973b35d23"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4c31d3d27f982c04b9a2a59973b35d23">&#9670;&nbsp;</a></span>HAL_DAC_ConvCpltCallbackCh1()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HAL_DAC_ConvCpltCallbackCh1 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_a_c___handle_type_def.html">DAC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdac</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Conversion complete callback in non blocking mode for Channel1. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdac</td><td>pointer to a <a class="el" href="struct_d_a_c___handle_type_def.html" title="DAC handle Structure definition.">DAC_HandleTypeDef</a> structure that contains the configuration information for the specified DAC. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga60555b471a64d0a7f9603ca4ee23520d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga60555b471a64d0a7f9603ca4ee23520d">&#9670;&nbsp;</a></span>HAL_DAC_ConvHalfCpltCallbackCh1()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HAL_DAC_ConvHalfCpltCallbackCh1 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_a_c___handle_type_def.html">DAC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdac</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Conversion half DMA transfer callback in non blocking mode for Channel1. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdac</td><td>pointer to a <a class="el" href="struct_d_a_c___handle_type_def.html" title="DAC handle Structure definition.">DAC_HandleTypeDef</a> structure that contains the configuration information for the specified DAC. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga9fcdd9a69872883ea186dfe189495bf9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9fcdd9a69872883ea186dfe189495bf9">&#9670;&nbsp;</a></span>HAL_DAC_DMAUnderrunCallbackCh1()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HAL_DAC_DMAUnderrunCallbackCh1 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_a_c___handle_type_def.html">DAC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdac</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>DMA underrun DAC callback for channel1. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdac</td><td>pointer to a <a class="el" href="struct_d_a_c___handle_type_def.html" title="DAC handle Structure definition.">DAC_HandleTypeDef</a> structure that contains the configuration information for the specified DAC. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gad0600b00c0db84b0f77839860aa6e89d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad0600b00c0db84b0f77839860aa6e89d">&#9670;&nbsp;</a></span>HAL_DAC_ErrorCallbackCh1()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HAL_DAC_ErrorCallbackCh1 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_a_c___handle_type_def.html">DAC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdac</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Error DAC callback for Channel1. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdac</td><td>pointer to a <a class="el" href="struct_d_a_c___handle_type_def.html" title="DAC handle Structure definition.">DAC_HandleTypeDef</a> structure that contains the configuration information for the specified DAC. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gac1b4903d6e80c1c0ec48c8fabaf968c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac1b4903d6e80c1c0ec48c8fabaf968c2">&#9670;&nbsp;</a></span>HAL_DAC_GetError()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t HAL_DAC_GetError </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_a_c___handle_type_def.html">DAC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdac</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return the DAC error code. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdac</td><td>pointer to a <a class="el" href="struct_d_a_c___handle_type_def.html" title="DAC handle Structure definition.">DAC_HandleTypeDef</a> structure that contains the configuration information for the specified DAC. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">DAC</td><td>Error Code </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga2b7002cf7396d79d7bcba0f0243dfec6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2b7002cf7396d79d7bcba0f0243dfec6">&#9670;&nbsp;</a></span>HAL_DAC_GetState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_DAC_StateTypeDef HAL_DAC_GetState </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_a_c___handle_type_def.html">DAC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdac</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>return the DAC state </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdac</td><td>pointer to a <a class="el" href="struct_d_a_c___handle_type_def.html" title="DAC handle Structure definition.">DAC_HandleTypeDef</a> structure that contains the configuration information for the specified DAC. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>state </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gace33df9eb40ac0447bc16bd8baa95db4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gace33df9eb40ac0447bc16bd8baa95db4">&#9670;&nbsp;</a></span>HAL_DAC_IRQHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HAL_DAC_IRQHandler </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_a_c___handle_type_def.html">DAC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdac</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Handles DAC interrupt request. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdac</td><td>pointer to a <a class="el" href="struct_d_a_c___handle_type_def.html" title="DAC handle Structure definition.">DAC_HandleTypeDef</a> structure that contains the configuration information for the specified DAC. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

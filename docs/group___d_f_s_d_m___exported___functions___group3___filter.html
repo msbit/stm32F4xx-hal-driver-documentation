@@ -64,110 +64,1358 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">Filter operation functions<div class="ingroups"><a class="el" href="group___d_f_s_d_m___exported___functions.html">DFSDM Exported Functions</a></div></div>  </div>
+<div class="title">Filter operation functions<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___d_f_s_d_m.html">DFSDM</a> &raquo; <a class="el" href="group___d_f_s_d_m___exported___functions.html">DFSDM Exported Functions</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Filter operation functions.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga10cbc496c5d3ae7180e5e93493d5257a"><td class="memItemLeft" align="right" valign="top"><a id="ga10cbc496c5d3ae7180e5e93493d5257a"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DFSDM_FilterRegularStart</b> (<a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *hdfsdm_filter)</td></tr>
+<tr class="memitem:ga10cbc496c5d3ae7180e5e93493d5257a"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_f_s_d_m___exported___functions___group3___filter.html#ga10cbc496c5d3ae7180e5e93493d5257a">HAL_DFSDM_FilterRegularStart</a> (<a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *hdfsdm_filter)</td></tr>
+<tr class="memdesc:ga10cbc496c5d3ae7180e5e93493d5257a"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function allows to start regular conversion in polling mode.  <a href="#ga10cbc496c5d3ae7180e5e93493d5257a">More...</a><br /></td></tr>
 <tr class="separator:ga10cbc496c5d3ae7180e5e93493d5257a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf997e42d57f630d8ac863fa4b54d538a"><td class="memItemLeft" align="right" valign="top"><a id="gaf997e42d57f630d8ac863fa4b54d538a"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DFSDM_FilterRegularStart_IT</b> (<a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *hdfsdm_filter)</td></tr>
+<tr class="memitem:gaf997e42d57f630d8ac863fa4b54d538a"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_f_s_d_m___exported___functions___group3___filter.html#gaf997e42d57f630d8ac863fa4b54d538a">HAL_DFSDM_FilterRegularStart_IT</a> (<a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *hdfsdm_filter)</td></tr>
+<tr class="memdesc:gaf997e42d57f630d8ac863fa4b54d538a"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function allows to start regular conversion in interrupt mode.  <a href="#gaf997e42d57f630d8ac863fa4b54d538a">More...</a><br /></td></tr>
 <tr class="separator:gaf997e42d57f630d8ac863fa4b54d538a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6c8d99fd304a59141ca03edd89054743"><td class="memItemLeft" align="right" valign="top"><a id="ga6c8d99fd304a59141ca03edd89054743"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DFSDM_FilterRegularStart_DMA</b> (<a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *hdfsdm_filter, int32_t *pData, uint32_t Length)</td></tr>
+<tr class="memitem:ga6c8d99fd304a59141ca03edd89054743"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_f_s_d_m___exported___functions___group3___filter.html#ga6c8d99fd304a59141ca03edd89054743">HAL_DFSDM_FilterRegularStart_DMA</a> (<a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *hdfsdm_filter, int32_t *pData, uint32_t Length)</td></tr>
+<tr class="memdesc:ga6c8d99fd304a59141ca03edd89054743"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function allows to start regular conversion in DMA mode.  <a href="#ga6c8d99fd304a59141ca03edd89054743">More...</a><br /></td></tr>
 <tr class="separator:ga6c8d99fd304a59141ca03edd89054743"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5719de1d07a37303afcceb59c1035633"><td class="memItemLeft" align="right" valign="top"><a id="ga5719de1d07a37303afcceb59c1035633"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DFSDM_FilterRegularMsbStart_DMA</b> (<a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *hdfsdm_filter, int16_t *pData, uint32_t Length)</td></tr>
+<tr class="memitem:ga5719de1d07a37303afcceb59c1035633"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_f_s_d_m___exported___functions___group3___filter.html#ga5719de1d07a37303afcceb59c1035633">HAL_DFSDM_FilterRegularMsbStart_DMA</a> (<a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *hdfsdm_filter, int16_t *pData, uint32_t Length)</td></tr>
+<tr class="memdesc:ga5719de1d07a37303afcceb59c1035633"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function allows to start regular conversion in DMA mode and to get only the 16 most significant bits of conversion.  <a href="#ga5719de1d07a37303afcceb59c1035633">More...</a><br /></td></tr>
 <tr class="separator:ga5719de1d07a37303afcceb59c1035633"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga73c267749d7847a98f64a46cc6a02e95"><td class="memItemLeft" align="right" valign="top"><a id="ga73c267749d7847a98f64a46cc6a02e95"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DFSDM_FilterRegularStop</b> (<a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *hdfsdm_filter)</td></tr>
+<tr class="memitem:ga73c267749d7847a98f64a46cc6a02e95"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_f_s_d_m___exported___functions___group3___filter.html#ga73c267749d7847a98f64a46cc6a02e95">HAL_DFSDM_FilterRegularStop</a> (<a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *hdfsdm_filter)</td></tr>
+<tr class="memdesc:ga73c267749d7847a98f64a46cc6a02e95"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function allows to stop regular conversion in polling mode.  <a href="#ga73c267749d7847a98f64a46cc6a02e95">More...</a><br /></td></tr>
 <tr class="separator:ga73c267749d7847a98f64a46cc6a02e95"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga18044c894aca5678a0323ec34f702f79"><td class="memItemLeft" align="right" valign="top"><a id="ga18044c894aca5678a0323ec34f702f79"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DFSDM_FilterRegularStop_IT</b> (<a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *hdfsdm_filter)</td></tr>
+<tr class="memitem:ga18044c894aca5678a0323ec34f702f79"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_f_s_d_m___exported___functions___group3___filter.html#ga18044c894aca5678a0323ec34f702f79">HAL_DFSDM_FilterRegularStop_IT</a> (<a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *hdfsdm_filter)</td></tr>
+<tr class="memdesc:ga18044c894aca5678a0323ec34f702f79"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function allows to stop regular conversion in interrupt mode.  <a href="#ga18044c894aca5678a0323ec34f702f79">More...</a><br /></td></tr>
 <tr class="separator:ga18044c894aca5678a0323ec34f702f79"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga84633b5731568baffe9b853b32a3d8b6"><td class="memItemLeft" align="right" valign="top"><a id="ga84633b5731568baffe9b853b32a3d8b6"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DFSDM_FilterRegularStop_DMA</b> (<a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *hdfsdm_filter)</td></tr>
+<tr class="memitem:ga84633b5731568baffe9b853b32a3d8b6"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_f_s_d_m___exported___functions___group3___filter.html#ga84633b5731568baffe9b853b32a3d8b6">HAL_DFSDM_FilterRegularStop_DMA</a> (<a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *hdfsdm_filter)</td></tr>
+<tr class="memdesc:ga84633b5731568baffe9b853b32a3d8b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function allows to stop regular conversion in DMA mode.  <a href="#ga84633b5731568baffe9b853b32a3d8b6">More...</a><br /></td></tr>
 <tr class="separator:ga84633b5731568baffe9b853b32a3d8b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab317753f70804a0c439405c8c837e8fd"><td class="memItemLeft" align="right" valign="top"><a id="gab317753f70804a0c439405c8c837e8fd"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DFSDM_FilterInjectedStart</b> (<a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *hdfsdm_filter)</td></tr>
+<tr class="memitem:gab317753f70804a0c439405c8c837e8fd"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_f_s_d_m___exported___functions___group3___filter.html#gab317753f70804a0c439405c8c837e8fd">HAL_DFSDM_FilterInjectedStart</a> (<a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *hdfsdm_filter)</td></tr>
+<tr class="memdesc:gab317753f70804a0c439405c8c837e8fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function allows to start injected conversion in polling mode.  <a href="#gab317753f70804a0c439405c8c837e8fd">More...</a><br /></td></tr>
 <tr class="separator:gab317753f70804a0c439405c8c837e8fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa0a1656c691c65ad10cfed87732abcef"><td class="memItemLeft" align="right" valign="top"><a id="gaa0a1656c691c65ad10cfed87732abcef"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DFSDM_FilterInjectedStart_IT</b> (<a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *hdfsdm_filter)</td></tr>
+<tr class="memitem:gaa0a1656c691c65ad10cfed87732abcef"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_f_s_d_m___exported___functions___group3___filter.html#gaa0a1656c691c65ad10cfed87732abcef">HAL_DFSDM_FilterInjectedStart_IT</a> (<a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *hdfsdm_filter)</td></tr>
+<tr class="memdesc:gaa0a1656c691c65ad10cfed87732abcef"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function allows to start injected conversion in interrupt mode.  <a href="#gaa0a1656c691c65ad10cfed87732abcef">More...</a><br /></td></tr>
 <tr class="separator:gaa0a1656c691c65ad10cfed87732abcef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1d79b2b636907d46875ae2314caaad1c"><td class="memItemLeft" align="right" valign="top"><a id="ga1d79b2b636907d46875ae2314caaad1c"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DFSDM_FilterInjectedStart_DMA</b> (<a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *hdfsdm_filter, int32_t *pData, uint32_t Length)</td></tr>
+<tr class="memitem:ga1d79b2b636907d46875ae2314caaad1c"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_f_s_d_m___exported___functions___group3___filter.html#ga1d79b2b636907d46875ae2314caaad1c">HAL_DFSDM_FilterInjectedStart_DMA</a> (<a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *hdfsdm_filter, int32_t *pData, uint32_t Length)</td></tr>
+<tr class="memdesc:ga1d79b2b636907d46875ae2314caaad1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function allows to start injected conversion in DMA mode.  <a href="#ga1d79b2b636907d46875ae2314caaad1c">More...</a><br /></td></tr>
 <tr class="separator:ga1d79b2b636907d46875ae2314caaad1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga607644833d6554367360f76815476bcc"><td class="memItemLeft" align="right" valign="top"><a id="ga607644833d6554367360f76815476bcc"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DFSDM_FilterInjectedMsbStart_DMA</b> (<a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *hdfsdm_filter, int16_t *pData, uint32_t Length)</td></tr>
+<tr class="memitem:ga607644833d6554367360f76815476bcc"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_f_s_d_m___exported___functions___group3___filter.html#ga607644833d6554367360f76815476bcc">HAL_DFSDM_FilterInjectedMsbStart_DMA</a> (<a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *hdfsdm_filter, int16_t *pData, uint32_t Length)</td></tr>
+<tr class="memdesc:ga607644833d6554367360f76815476bcc"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function allows to start injected conversion in DMA mode and to get only the 16 most significant bits of conversion.  <a href="#ga607644833d6554367360f76815476bcc">More...</a><br /></td></tr>
 <tr class="separator:ga607644833d6554367360f76815476bcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad5d6c5ea4b430cd7fbfa35606bf81c46"><td class="memItemLeft" align="right" valign="top"><a id="gad5d6c5ea4b430cd7fbfa35606bf81c46"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DFSDM_FilterInjectedStop</b> (<a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *hdfsdm_filter)</td></tr>
+<tr class="memitem:gad5d6c5ea4b430cd7fbfa35606bf81c46"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_f_s_d_m___exported___functions___group3___filter.html#gad5d6c5ea4b430cd7fbfa35606bf81c46">HAL_DFSDM_FilterInjectedStop</a> (<a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *hdfsdm_filter)</td></tr>
+<tr class="memdesc:gad5d6c5ea4b430cd7fbfa35606bf81c46"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function allows to stop injected conversion in polling mode.  <a href="#gad5d6c5ea4b430cd7fbfa35606bf81c46">More...</a><br /></td></tr>
 <tr class="separator:gad5d6c5ea4b430cd7fbfa35606bf81c46"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab8b64d6fc0d81a58d74afcdc31977bb0"><td class="memItemLeft" align="right" valign="top"><a id="gab8b64d6fc0d81a58d74afcdc31977bb0"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DFSDM_FilterInjectedStop_IT</b> (<a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *hdfsdm_filter)</td></tr>
+<tr class="memitem:gab8b64d6fc0d81a58d74afcdc31977bb0"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_f_s_d_m___exported___functions___group3___filter.html#gab8b64d6fc0d81a58d74afcdc31977bb0">HAL_DFSDM_FilterInjectedStop_IT</a> (<a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *hdfsdm_filter)</td></tr>
+<tr class="memdesc:gab8b64d6fc0d81a58d74afcdc31977bb0"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function allows to stop injected conversion in interrupt mode.  <a href="#gab8b64d6fc0d81a58d74afcdc31977bb0">More...</a><br /></td></tr>
 <tr class="separator:gab8b64d6fc0d81a58d74afcdc31977bb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7049c571fc0323c224b2e6fc25958369"><td class="memItemLeft" align="right" valign="top"><a id="ga7049c571fc0323c224b2e6fc25958369"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DFSDM_FilterInjectedStop_DMA</b> (<a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *hdfsdm_filter)</td></tr>
+<tr class="memitem:ga7049c571fc0323c224b2e6fc25958369"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_f_s_d_m___exported___functions___group3___filter.html#ga7049c571fc0323c224b2e6fc25958369">HAL_DFSDM_FilterInjectedStop_DMA</a> (<a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *hdfsdm_filter)</td></tr>
+<tr class="memdesc:ga7049c571fc0323c224b2e6fc25958369"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function allows to stop injected conversion in DMA mode.  <a href="#ga7049c571fc0323c224b2e6fc25958369">More...</a><br /></td></tr>
 <tr class="separator:ga7049c571fc0323c224b2e6fc25958369"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga283c684998ff0679e7315cabac51b30c"><td class="memItemLeft" align="right" valign="top"><a id="ga283c684998ff0679e7315cabac51b30c"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DFSDM_FilterAwdStart_IT</b> (<a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *hdfsdm_filter, <a class="el" href="struct_d_f_s_d_m___filter___awd_param_type_def.html">DFSDM_Filter_AwdParamTypeDef</a> *awdParam)</td></tr>
+<tr class="memitem:ga283c684998ff0679e7315cabac51b30c"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_f_s_d_m___exported___functions___group3___filter.html#ga283c684998ff0679e7315cabac51b30c">HAL_DFSDM_FilterAwdStart_IT</a> (<a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *hdfsdm_filter, <a class="el" href="struct_d_f_s_d_m___filter___awd_param_type_def.html">DFSDM_Filter_AwdParamTypeDef</a> *awdParam)</td></tr>
+<tr class="memdesc:ga283c684998ff0679e7315cabac51b30c"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function allows to start filter analog watchdog in interrupt mode.  <a href="#ga283c684998ff0679e7315cabac51b30c">More...</a><br /></td></tr>
 <tr class="separator:ga283c684998ff0679e7315cabac51b30c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga634f31be4f50f369381d7e5cb806bece"><td class="memItemLeft" align="right" valign="top"><a id="ga634f31be4f50f369381d7e5cb806bece"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DFSDM_FilterAwdStop_IT</b> (<a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *hdfsdm_filter)</td></tr>
+<tr class="memitem:ga634f31be4f50f369381d7e5cb806bece"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_f_s_d_m___exported___functions___group3___filter.html#ga634f31be4f50f369381d7e5cb806bece">HAL_DFSDM_FilterAwdStop_IT</a> (<a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *hdfsdm_filter)</td></tr>
+<tr class="memdesc:ga634f31be4f50f369381d7e5cb806bece"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function allows to stop filter analog watchdog in interrupt mode.  <a href="#ga634f31be4f50f369381d7e5cb806bece">More...</a><br /></td></tr>
 <tr class="separator:ga634f31be4f50f369381d7e5cb806bece"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gabe449dfca941147d84ac8e0615092643"><td class="memItemLeft" align="right" valign="top"><a id="gabe449dfca941147d84ac8e0615092643"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DFSDM_FilterExdStart</b> (<a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *hdfsdm_filter, uint32_t Channel)</td></tr>
+<tr class="memitem:gabe449dfca941147d84ac8e0615092643"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_f_s_d_m___exported___functions___group3___filter.html#gabe449dfca941147d84ac8e0615092643">HAL_DFSDM_FilterExdStart</a> (<a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *hdfsdm_filter, uint32_t Channel)</td></tr>
+<tr class="memdesc:gabe449dfca941147d84ac8e0615092643"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function allows to start extreme detector feature.  <a href="#gabe449dfca941147d84ac8e0615092643">More...</a><br /></td></tr>
 <tr class="separator:gabe449dfca941147d84ac8e0615092643"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga448d2529f7c31dea7c18561677731d6c"><td class="memItemLeft" align="right" valign="top"><a id="ga448d2529f7c31dea7c18561677731d6c"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DFSDM_FilterExdStop</b> (<a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *hdfsdm_filter)</td></tr>
+<tr class="memitem:ga448d2529f7c31dea7c18561677731d6c"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_f_s_d_m___exported___functions___group3___filter.html#ga448d2529f7c31dea7c18561677731d6c">HAL_DFSDM_FilterExdStop</a> (<a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *hdfsdm_filter)</td></tr>
+<tr class="memdesc:ga448d2529f7c31dea7c18561677731d6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function allows to stop extreme detector feature.  <a href="#ga448d2529f7c31dea7c18561677731d6c">More...</a><br /></td></tr>
 <tr class="separator:ga448d2529f7c31dea7c18561677731d6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga64bb25a57dd27f82f5561590d4ca28d8"><td class="memItemLeft" align="right" valign="top"><a id="ga64bb25a57dd27f82f5561590d4ca28d8"></a>
-int32_t&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DFSDM_FilterGetRegularValue</b> (<a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *hdfsdm_filter, uint32_t *Channel)</td></tr>
+<tr class="memitem:ga64bb25a57dd27f82f5561590d4ca28d8"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_f_s_d_m___exported___functions___group3___filter.html#ga64bb25a57dd27f82f5561590d4ca28d8">HAL_DFSDM_FilterGetRegularValue</a> (<a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *hdfsdm_filter, uint32_t *Channel)</td></tr>
+<tr class="memdesc:ga64bb25a57dd27f82f5561590d4ca28d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function allows to get regular conversion value.  <a href="#ga64bb25a57dd27f82f5561590d4ca28d8">More...</a><br /></td></tr>
 <tr class="separator:ga64bb25a57dd27f82f5561590d4ca28d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2da060358092fca6e500d6953d351db8"><td class="memItemLeft" align="right" valign="top"><a id="ga2da060358092fca6e500d6953d351db8"></a>
-int32_t&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DFSDM_FilterGetInjectedValue</b> (<a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *hdfsdm_filter, uint32_t *Channel)</td></tr>
+<tr class="memitem:ga2da060358092fca6e500d6953d351db8"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_f_s_d_m___exported___functions___group3___filter.html#ga2da060358092fca6e500d6953d351db8">HAL_DFSDM_FilterGetInjectedValue</a> (<a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *hdfsdm_filter, uint32_t *Channel)</td></tr>
+<tr class="memdesc:ga2da060358092fca6e500d6953d351db8"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function allows to get injected conversion value.  <a href="#ga2da060358092fca6e500d6953d351db8">More...</a><br /></td></tr>
 <tr class="separator:ga2da060358092fca6e500d6953d351db8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4272266095f0e91ed74834c52f1dcc84"><td class="memItemLeft" align="right" valign="top"><a id="ga4272266095f0e91ed74834c52f1dcc84"></a>
-int32_t&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DFSDM_FilterGetExdMaxValue</b> (<a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *hdfsdm_filter, uint32_t *Channel)</td></tr>
+<tr class="memitem:ga4272266095f0e91ed74834c52f1dcc84"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_f_s_d_m___exported___functions___group3___filter.html#ga4272266095f0e91ed74834c52f1dcc84">HAL_DFSDM_FilterGetExdMaxValue</a> (<a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *hdfsdm_filter, uint32_t *Channel)</td></tr>
+<tr class="memdesc:ga4272266095f0e91ed74834c52f1dcc84"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function allows to get extreme detector maximum value.  <a href="#ga4272266095f0e91ed74834c52f1dcc84">More...</a><br /></td></tr>
 <tr class="separator:ga4272266095f0e91ed74834c52f1dcc84"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gace85f242c31611d5955626062a7fe77a"><td class="memItemLeft" align="right" valign="top"><a id="gace85f242c31611d5955626062a7fe77a"></a>
-int32_t&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DFSDM_FilterGetExdMinValue</b> (<a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *hdfsdm_filter, uint32_t *Channel)</td></tr>
+<tr class="memitem:gace85f242c31611d5955626062a7fe77a"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_f_s_d_m___exported___functions___group3___filter.html#gace85f242c31611d5955626062a7fe77a">HAL_DFSDM_FilterGetExdMinValue</a> (<a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *hdfsdm_filter, uint32_t *Channel)</td></tr>
+<tr class="memdesc:gace85f242c31611d5955626062a7fe77a"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function allows to get extreme detector minimum value.  <a href="#gace85f242c31611d5955626062a7fe77a">More...</a><br /></td></tr>
 <tr class="separator:gace85f242c31611d5955626062a7fe77a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaab41c7f7ad28bc90a57ac93cc308bedc"><td class="memItemLeft" align="right" valign="top"><a id="gaab41c7f7ad28bc90a57ac93cc308bedc"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DFSDM_FilterGetConvTimeValue</b> (<a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *hdfsdm_filter)</td></tr>
+<tr class="memitem:gaab41c7f7ad28bc90a57ac93cc308bedc"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_f_s_d_m___exported___functions___group3___filter.html#gaab41c7f7ad28bc90a57ac93cc308bedc">HAL_DFSDM_FilterGetConvTimeValue</a> (<a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *hdfsdm_filter)</td></tr>
+<tr class="memdesc:gaab41c7f7ad28bc90a57ac93cc308bedc"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function allows to get conversion time value.  <a href="#gaab41c7f7ad28bc90a57ac93cc308bedc">More...</a><br /></td></tr>
 <tr class="separator:gaab41c7f7ad28bc90a57ac93cc308bedc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2ae4d3434c5fcd4e6991297cd298c1a4"><td class="memItemLeft" align="right" valign="top"><a id="ga2ae4d3434c5fcd4e6991297cd298c1a4"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DFSDM_IRQHandler</b> (<a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *hdfsdm_filter)</td></tr>
+<tr class="memitem:ga2ae4d3434c5fcd4e6991297cd298c1a4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_f_s_d_m___exported___functions___group3___filter.html#ga2ae4d3434c5fcd4e6991297cd298c1a4">HAL_DFSDM_IRQHandler</a> (<a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *hdfsdm_filter)</td></tr>
+<tr class="memdesc:ga2ae4d3434c5fcd4e6991297cd298c1a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function handles the DFSDM interrupts.  <a href="#ga2ae4d3434c5fcd4e6991297cd298c1a4">More...</a><br /></td></tr>
 <tr class="separator:ga2ae4d3434c5fcd4e6991297cd298c1a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5a8033a7c38fc709d8c9e45d24526980"><td class="memItemLeft" align="right" valign="top"><a id="ga5a8033a7c38fc709d8c9e45d24526980"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DFSDM_FilterPollForRegConversion</b> (<a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *hdfsdm_filter, uint32_t Timeout)</td></tr>
+<tr class="memitem:ga5a8033a7c38fc709d8c9e45d24526980"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_f_s_d_m___exported___functions___group3___filter.html#ga5a8033a7c38fc709d8c9e45d24526980">HAL_DFSDM_FilterPollForRegConversion</a> (<a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *hdfsdm_filter, uint32_t Timeout)</td></tr>
+<tr class="memdesc:ga5a8033a7c38fc709d8c9e45d24526980"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function allows to poll for the end of regular conversion.  <a href="#ga5a8033a7c38fc709d8c9e45d24526980">More...</a><br /></td></tr>
 <tr class="separator:ga5a8033a7c38fc709d8c9e45d24526980"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8a5ecba4e615ebcdc8524056a3dedbdf"><td class="memItemLeft" align="right" valign="top"><a id="ga8a5ecba4e615ebcdc8524056a3dedbdf"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DFSDM_FilterPollForInjConversion</b> (<a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *hdfsdm_filter, uint32_t Timeout)</td></tr>
+<tr class="memitem:ga8a5ecba4e615ebcdc8524056a3dedbdf"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_f_s_d_m___exported___functions___group3___filter.html#ga8a5ecba4e615ebcdc8524056a3dedbdf">HAL_DFSDM_FilterPollForInjConversion</a> (<a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *hdfsdm_filter, uint32_t Timeout)</td></tr>
+<tr class="memdesc:ga8a5ecba4e615ebcdc8524056a3dedbdf"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function allows to poll for the end of injected conversion.  <a href="#ga8a5ecba4e615ebcdc8524056a3dedbdf">More...</a><br /></td></tr>
 <tr class="separator:ga8a5ecba4e615ebcdc8524056a3dedbdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga165e0b4c19b92963f4046cfc63cfa770"><td class="memItemLeft" align="right" valign="top"><a id="ga165e0b4c19b92963f4046cfc63cfa770"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DFSDM_FilterRegConvCpltCallback</b> (<a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *hdfsdm_filter)</td></tr>
-<tr class="separator:ga165e0b4c19b92963f4046cfc63cfa770"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga23e0b8fa8976728943ca0cbcd168ccd4"><td class="memItemLeft" align="right" valign="top"><a id="ga23e0b8fa8976728943ca0cbcd168ccd4"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DFSDM_FilterRegConvHalfCpltCallback</b> (<a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *hdfsdm_filter)</td></tr>
-<tr class="separator:ga23e0b8fa8976728943ca0cbcd168ccd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1ab36a2849e9340242da3fe4c918109a"><td class="memItemLeft" align="right" valign="top"><a id="ga1ab36a2849e9340242da3fe4c918109a"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DFSDM_FilterInjConvCpltCallback</b> (<a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *hdfsdm_filter)</td></tr>
-<tr class="separator:ga1ab36a2849e9340242da3fe4c918109a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga94b9e6009158bdbd9c3ebedfeb7a20f2"><td class="memItemLeft" align="right" valign="top"><a id="ga94b9e6009158bdbd9c3ebedfeb7a20f2"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DFSDM_FilterInjConvHalfCpltCallback</b> (<a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *hdfsdm_filter)</td></tr>
-<tr class="separator:ga94b9e6009158bdbd9c3ebedfeb7a20f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1ec36683478656d73cab99fc6699480a"><td class="memItemLeft" align="right" valign="top"><a id="ga1ec36683478656d73cab99fc6699480a"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DFSDM_FilterAwdCallback</b> (<a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *hdfsdm_filter, uint32_t Channel, uint32_t Threshold)</td></tr>
-<tr class="separator:ga1ec36683478656d73cab99fc6699480a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8a148200493dde47adb36aede20e55dc"><td class="memItemLeft" align="right" valign="top"><a id="ga8a148200493dde47adb36aede20e55dc"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DFSDM_FilterErrorCallback</b> (<a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *hdfsdm_filter)</td></tr>
-<tr class="separator:ga8a148200493dde47adb36aede20e55dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga06621b6d32ad1a8bfa669e6d72a3ccf5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_f_s_d_m___exported___functions___group3___filter.html#ga06621b6d32ad1a8bfa669e6d72a3ccf5">HAL_DFSDM_FilterRegConvCpltCallback</a> (<a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *hdfsdm_filter)</td></tr>
+<tr class="memdesc:ga06621b6d32ad1a8bfa669e6d72a3ccf5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Regular conversion complete callback.  <a href="#ga06621b6d32ad1a8bfa669e6d72a3ccf5">More...</a><br /></td></tr>
+<tr class="separator:ga06621b6d32ad1a8bfa669e6d72a3ccf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad64d5a395df672c8008e08dd320a1b62"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_f_s_d_m___exported___functions___group3___filter.html#gad64d5a395df672c8008e08dd320a1b62">HAL_DFSDM_FilterRegConvHalfCpltCallback</a> (<a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *hdfsdm_filter)</td></tr>
+<tr class="memdesc:gad64d5a395df672c8008e08dd320a1b62"><td class="mdescLeft">&#160;</td><td class="mdescRight">Half regular conversion complete callback.  <a href="#gad64d5a395df672c8008e08dd320a1b62">More...</a><br /></td></tr>
+<tr class="separator:gad64d5a395df672c8008e08dd320a1b62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2fa70d502eca29eb7c979b743f42ece6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_f_s_d_m___exported___functions___group3___filter.html#ga2fa70d502eca29eb7c979b743f42ece6">HAL_DFSDM_FilterInjConvCpltCallback</a> (<a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *hdfsdm_filter)</td></tr>
+<tr class="memdesc:ga2fa70d502eca29eb7c979b743f42ece6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Injected conversion complete callback.  <a href="#ga2fa70d502eca29eb7c979b743f42ece6">More...</a><br /></td></tr>
+<tr class="separator:ga2fa70d502eca29eb7c979b743f42ece6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafcb158095e08c423d88eae62652b9ebc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_f_s_d_m___exported___functions___group3___filter.html#gafcb158095e08c423d88eae62652b9ebc">HAL_DFSDM_FilterInjConvHalfCpltCallback</a> (<a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *hdfsdm_filter)</td></tr>
+<tr class="memdesc:gafcb158095e08c423d88eae62652b9ebc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Half injected conversion complete callback.  <a href="#gafcb158095e08c423d88eae62652b9ebc">More...</a><br /></td></tr>
+<tr class="separator:gafcb158095e08c423d88eae62652b9ebc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga518cdb7b251549e39eb7fb34d7496270"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_f_s_d_m___exported___functions___group3___filter.html#ga518cdb7b251549e39eb7fb34d7496270">HAL_DFSDM_FilterAwdCallback</a> (<a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *hdfsdm_filter, uint32_t Channel, uint32_t Threshold)</td></tr>
+<tr class="memdesc:ga518cdb7b251549e39eb7fb34d7496270"><td class="mdescLeft">&#160;</td><td class="mdescRight">Filter analog watchdog callback.  <a href="#ga518cdb7b251549e39eb7fb34d7496270">More...</a><br /></td></tr>
+<tr class="separator:ga518cdb7b251549e39eb7fb34d7496270"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6ffa9cc7d62c352c25293782f6d76957"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_f_s_d_m___exported___functions___group3___filter.html#ga6ffa9cc7d62c352c25293782f6d76957">HAL_DFSDM_FilterErrorCallback</a> (<a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *hdfsdm_filter)</td></tr>
+<tr class="memdesc:ga6ffa9cc7d62c352c25293782f6d76957"><td class="mdescLeft">&#160;</td><td class="mdescRight">Error callback.  <a href="#ga6ffa9cc7d62c352c25293782f6d76957">More...</a><br /></td></tr>
+<tr class="separator:ga6ffa9cc7d62c352c25293782f6d76957"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>Filter operation functions. </p>
+<pre class="fragment">  ==============================================================================
+                    ##### Filter operation functions #####
+  ==============================================================================
+    [..]  This section provides functions allowing to:
+      (+) Start conversion of regular/injected channel.
+      (+) Poll for the end of regular/injected conversion.
+      (+) Stop conversion of regular/injected channel.
+      (+) Start conversion of regular/injected channel and enable interrupt.
+      (+) Call the callback functions at the end of regular/injected conversions.
+      (+) Stop conversion of regular/injected channel and disable interrupt.
+      (+) Start conversion of regular/injected channel and enable DMA transfer.
+      (+) Stop conversion of regular/injected channel and disable DMA transfer.
+      (+) Start analog watchdog and enable interrupt.
+      (+) Call the callback function when analog watchdog occurs.
+      (+) Stop analog watchdog and disable interrupt.
+      (+) Start extreme detector.
+      (+) Stop extreme detector.
+      (+) Get result of regular channel conversion.
+      (+) Get result of injected channel conversion.
+      (+) Get extreme detector maximum and minimum values.
+      (+) Get conversion time.
+      (+) Handle DFSDM interrupt request.
+</pre> <h2 class="groupheader">Function Documentation</h2>
+<a id="ga518cdb7b251549e39eb7fb34d7496270"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga518cdb7b251549e39eb7fb34d7496270">&#9670;&nbsp;</a></span>HAL_DFSDM_FilterAwdCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_DFSDM_FilterAwdCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdfsdm_filter</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Channel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Threshold</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Filter analog watchdog callback. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdfsdm_filter</td><td>DFSDM filter handle. </td></tr>
+    <tr><td class="paramname">Channel</td><td>Corresponding channel. </td></tr>
+    <tr><td class="paramname">Threshold</td><td>Low or high threshold has been reached. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga283c684998ff0679e7315cabac51b30c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga283c684998ff0679e7315cabac51b30c">&#9670;&nbsp;</a></span>HAL_DFSDM_FilterAwdStart_IT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_DFSDM_FilterAwdStart_IT </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdfsdm_filter</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_d_f_s_d_m___filter___awd_param_type_def.html">DFSDM_Filter_AwdParamTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>awdParam</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function allows to start filter analog watchdog in interrupt mode. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdfsdm_filter</td><td>DFSDM filter handle. </td></tr>
+    <tr><td class="paramname">awdParam</td><td>DFSDM filter analog watchdog parameters. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga634f31be4f50f369381d7e5cb806bece"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga634f31be4f50f369381d7e5cb806bece">&#9670;&nbsp;</a></span>HAL_DFSDM_FilterAwdStop_IT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_DFSDM_FilterAwdStop_IT </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdfsdm_filter</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function allows to stop filter analog watchdog in interrupt mode. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdfsdm_filter</td><td>DFSDM filter handle. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga6ffa9cc7d62c352c25293782f6d76957"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6ffa9cc7d62c352c25293782f6d76957">&#9670;&nbsp;</a></span>HAL_DFSDM_FilterErrorCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_DFSDM_FilterErrorCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdfsdm_filter</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Error callback. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdfsdm_filter</td><td>DFSDM filter handle. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gabe449dfca941147d84ac8e0615092643"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabe449dfca941147d84ac8e0615092643">&#9670;&nbsp;</a></span>HAL_DFSDM_FilterExdStart()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_DFSDM_FilterExdStart </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdfsdm_filter</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Channel</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function allows to start extreme detector feature. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdfsdm_filter</td><td>DFSDM filter handle. </td></tr>
+    <tr><td class="paramname">Channel</td><td>Channels where extreme detector is enabled. This parameter can be a values combination of <a class="el" href="group___d_f_s_d_m___channel___selection.html">DFSDM Channel Selection</a>. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga448d2529f7c31dea7c18561677731d6c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga448d2529f7c31dea7c18561677731d6c">&#9670;&nbsp;</a></span>HAL_DFSDM_FilterExdStop()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_DFSDM_FilterExdStop </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdfsdm_filter</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function allows to stop extreme detector feature. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdfsdm_filter</td><td>DFSDM filter handle. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaab41c7f7ad28bc90a57ac93cc308bedc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaab41c7f7ad28bc90a57ac93cc308bedc">&#9670;&nbsp;</a></span>HAL_DFSDM_FilterGetConvTimeValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t HAL_DFSDM_FilterGetConvTimeValue </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdfsdm_filter</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function allows to get conversion time value. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdfsdm_filter</td><td>DFSDM filter handle. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">Conversion</td><td>time value </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>To get time in second, this value has to be divided by DFSDM clock frequency. </dd></dl>
+
+</div>
+</div>
+<a id="ga4272266095f0e91ed74834c52f1dcc84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4272266095f0e91ed74834c52f1dcc84">&#9670;&nbsp;</a></span>HAL_DFSDM_FilterGetExdMaxValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int32_t HAL_DFSDM_FilterGetExdMaxValue </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdfsdm_filter</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t *&#160;</td>
+          <td class="paramname"><em>Channel</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function allows to get extreme detector maximum value. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdfsdm_filter</td><td>DFSDM filter handle. </td></tr>
+    <tr><td class="paramname">Channel</td><td>Corresponding channel. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">Extreme</td><td>detector maximum value This value is between Min_Data = -8388608 and Max_Data = 8388607. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gace85f242c31611d5955626062a7fe77a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gace85f242c31611d5955626062a7fe77a">&#9670;&nbsp;</a></span>HAL_DFSDM_FilterGetExdMinValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int32_t HAL_DFSDM_FilterGetExdMinValue </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdfsdm_filter</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t *&#160;</td>
+          <td class="paramname"><em>Channel</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function allows to get extreme detector minimum value. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdfsdm_filter</td><td>DFSDM filter handle. </td></tr>
+    <tr><td class="paramname">Channel</td><td>Corresponding channel. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">Extreme</td><td>detector minimum value This value is between Min_Data = -8388608 and Max_Data = 8388607. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga2da060358092fca6e500d6953d351db8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2da060358092fca6e500d6953d351db8">&#9670;&nbsp;</a></span>HAL_DFSDM_FilterGetInjectedValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int32_t HAL_DFSDM_FilterGetInjectedValue </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdfsdm_filter</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t *&#160;</td>
+          <td class="paramname"><em>Channel</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function allows to get injected conversion value. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdfsdm_filter</td><td>DFSDM filter handle. </td></tr>
+    <tr><td class="paramname">Channel</td><td>Corresponding channel of injected conversion. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">Injected</td><td>conversion value </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga64bb25a57dd27f82f5561590d4ca28d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga64bb25a57dd27f82f5561590d4ca28d8">&#9670;&nbsp;</a></span>HAL_DFSDM_FilterGetRegularValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int32_t HAL_DFSDM_FilterGetRegularValue </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdfsdm_filter</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t *&#160;</td>
+          <td class="paramname"><em>Channel</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function allows to get regular conversion value. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdfsdm_filter</td><td>DFSDM filter handle. </td></tr>
+    <tr><td class="paramname">Channel</td><td>Corresponding channel of regular conversion. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">Regular</td><td>conversion value </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga2fa70d502eca29eb7c979b743f42ece6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2fa70d502eca29eb7c979b743f42ece6">&#9670;&nbsp;</a></span>HAL_DFSDM_FilterInjConvCpltCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_DFSDM_FilterInjConvCpltCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdfsdm_filter</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Injected conversion complete callback. </p>
+<dl class="section note"><dt>Note</dt><dd>In interrupt mode, user has to read conversion value in this function using HAL_DFSDM_FilterGetInjectedValue. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdfsdm_filter</td><td>DFSDM filter handle. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gafcb158095e08c423d88eae62652b9ebc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gafcb158095e08c423d88eae62652b9ebc">&#9670;&nbsp;</a></span>HAL_DFSDM_FilterInjConvHalfCpltCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_DFSDM_FilterInjConvHalfCpltCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdfsdm_filter</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Half injected conversion complete callback. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdfsdm_filter</td><td>DFSDM filter handle. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga607644833d6554367360f76815476bcc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga607644833d6554367360f76815476bcc">&#9670;&nbsp;</a></span>HAL_DFSDM_FilterInjectedMsbStart_DMA()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_DFSDM_FilterInjectedMsbStart_DMA </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdfsdm_filter</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int16_t *&#160;</td>
+          <td class="paramname"><em>pData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Length</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function allows to start injected conversion in DMA mode and to get only the 16 most significant bits of conversion. </p>
+<dl class="section note"><dt>Note</dt><dd>This function should be called only when DFSDM filter instance is in idle state or if regular conversion is ongoing. Please note that data on buffer will contain signed 16 most significant bits of injected conversion. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdfsdm_filter</td><td>DFSDM filter handle. </td></tr>
+    <tr><td class="paramname">pData</td><td>The destination buffer address. </td></tr>
+    <tr><td class="paramname">Length</td><td>The length of data to be transferred from DFSDM filter to memory. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gab317753f70804a0c439405c8c837e8fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab317753f70804a0c439405c8c837e8fd">&#9670;&nbsp;</a></span>HAL_DFSDM_FilterInjectedStart()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_DFSDM_FilterInjectedStart </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdfsdm_filter</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function allows to start injected conversion in polling mode. </p>
+<dl class="section note"><dt>Note</dt><dd>This function should be called only when DFSDM filter instance is in idle state or if regular conversion is ongoing. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdfsdm_filter</td><td>DFSDM filter handle. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga1d79b2b636907d46875ae2314caaad1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1d79b2b636907d46875ae2314caaad1c">&#9670;&nbsp;</a></span>HAL_DFSDM_FilterInjectedStart_DMA()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_DFSDM_FilterInjectedStart_DMA </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdfsdm_filter</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int32_t *&#160;</td>
+          <td class="paramname"><em>pData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Length</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function allows to start injected conversion in DMA mode. </p>
+<dl class="section note"><dt>Note</dt><dd>This function should be called only when DFSDM filter instance is in idle state or if regular conversion is ongoing. Please note that data on buffer will contain signed injected conversion value on 24 most significant bits and corresponding channel on 3 least significant bits. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdfsdm_filter</td><td>DFSDM filter handle. </td></tr>
+    <tr><td class="paramname">pData</td><td>The destination buffer address. </td></tr>
+    <tr><td class="paramname">Length</td><td>The length of data to be transferred from DFSDM filter to memory. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaa0a1656c691c65ad10cfed87732abcef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa0a1656c691c65ad10cfed87732abcef">&#9670;&nbsp;</a></span>HAL_DFSDM_FilterInjectedStart_IT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_DFSDM_FilterInjectedStart_IT </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdfsdm_filter</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function allows to start injected conversion in interrupt mode. </p>
+<dl class="section note"><dt>Note</dt><dd>This function should be called only when DFSDM filter instance is in idle state or if regular conversion is ongoing. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdfsdm_filter</td><td>DFSDM filter handle. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gad5d6c5ea4b430cd7fbfa35606bf81c46"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad5d6c5ea4b430cd7fbfa35606bf81c46">&#9670;&nbsp;</a></span>HAL_DFSDM_FilterInjectedStop()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_DFSDM_FilterInjectedStop </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdfsdm_filter</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function allows to stop injected conversion in polling mode. </p>
+<dl class="section note"><dt>Note</dt><dd>This function should be called only if injected conversion is ongoing. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdfsdm_filter</td><td>DFSDM filter handle. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga7049c571fc0323c224b2e6fc25958369"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7049c571fc0323c224b2e6fc25958369">&#9670;&nbsp;</a></span>HAL_DFSDM_FilterInjectedStop_DMA()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_DFSDM_FilterInjectedStop_DMA </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdfsdm_filter</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function allows to stop injected conversion in DMA mode. </p>
+<dl class="section note"><dt>Note</dt><dd>This function should be called only if injected conversion is ongoing. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdfsdm_filter</td><td>DFSDM filter handle. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gab8b64d6fc0d81a58d74afcdc31977bb0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab8b64d6fc0d81a58d74afcdc31977bb0">&#9670;&nbsp;</a></span>HAL_DFSDM_FilterInjectedStop_IT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_DFSDM_FilterInjectedStop_IT </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdfsdm_filter</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function allows to stop injected conversion in interrupt mode. </p>
+<dl class="section note"><dt>Note</dt><dd>This function should be called only if injected conversion is ongoing. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdfsdm_filter</td><td>DFSDM filter handle. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga8a5ecba4e615ebcdc8524056a3dedbdf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8a5ecba4e615ebcdc8524056a3dedbdf">&#9670;&nbsp;</a></span>HAL_DFSDM_FilterPollForInjConversion()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_DFSDM_FilterPollForInjConversion </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdfsdm_filter</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Timeout</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function allows to poll for the end of injected conversion. </p>
+<dl class="section note"><dt>Note</dt><dd>This function should be called only if injected conversion is ongoing. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdfsdm_filter</td><td>DFSDM filter handle. </td></tr>
+    <tr><td class="paramname">Timeout</td><td>Timeout value in milliseconds. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga5a8033a7c38fc709d8c9e45d24526980"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5a8033a7c38fc709d8c9e45d24526980">&#9670;&nbsp;</a></span>HAL_DFSDM_FilterPollForRegConversion()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_DFSDM_FilterPollForRegConversion </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdfsdm_filter</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Timeout</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function allows to poll for the end of regular conversion. </p>
+<dl class="section note"><dt>Note</dt><dd>This function should be called only if regular conversion is ongoing. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdfsdm_filter</td><td>DFSDM filter handle. </td></tr>
+    <tr><td class="paramname">Timeout</td><td>Timeout value in milliseconds. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga06621b6d32ad1a8bfa669e6d72a3ccf5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga06621b6d32ad1a8bfa669e6d72a3ccf5">&#9670;&nbsp;</a></span>HAL_DFSDM_FilterRegConvCpltCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_DFSDM_FilterRegConvCpltCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdfsdm_filter</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Regular conversion complete callback. </p>
+<dl class="section note"><dt>Note</dt><dd>In interrupt mode, user has to read conversion value in this function using HAL_DFSDM_FilterGetRegularValue. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdfsdm_filter</td><td>DFSDM filter handle. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gad64d5a395df672c8008e08dd320a1b62"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad64d5a395df672c8008e08dd320a1b62">&#9670;&nbsp;</a></span>HAL_DFSDM_FilterRegConvHalfCpltCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_DFSDM_FilterRegConvHalfCpltCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdfsdm_filter</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Half regular conversion complete callback. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdfsdm_filter</td><td>DFSDM filter handle. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga5719de1d07a37303afcceb59c1035633"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5719de1d07a37303afcceb59c1035633">&#9670;&nbsp;</a></span>HAL_DFSDM_FilterRegularMsbStart_DMA()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_DFSDM_FilterRegularMsbStart_DMA </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdfsdm_filter</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int16_t *&#160;</td>
+          <td class="paramname"><em>pData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Length</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function allows to start regular conversion in DMA mode and to get only the 16 most significant bits of conversion. </p>
+<dl class="section note"><dt>Note</dt><dd>This function should be called only when DFSDM filter instance is in idle state or if injected conversion is ongoing. Please note that data on buffer will contain signed 16 most significant bits of regular conversion. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdfsdm_filter</td><td>DFSDM filter handle. </td></tr>
+    <tr><td class="paramname">pData</td><td>The destination buffer address. </td></tr>
+    <tr><td class="paramname">Length</td><td>The length of data to be transferred from DFSDM filter to memory. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga10cbc496c5d3ae7180e5e93493d5257a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga10cbc496c5d3ae7180e5e93493d5257a">&#9670;&nbsp;</a></span>HAL_DFSDM_FilterRegularStart()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_DFSDM_FilterRegularStart </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdfsdm_filter</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function allows to start regular conversion in polling mode. </p>
+<dl class="section note"><dt>Note</dt><dd>This function should be called only when DFSDM filter instance is in idle state or if injected conversion is ongoing. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdfsdm_filter</td><td>DFSDM filter handle. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga6c8d99fd304a59141ca03edd89054743"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6c8d99fd304a59141ca03edd89054743">&#9670;&nbsp;</a></span>HAL_DFSDM_FilterRegularStart_DMA()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_DFSDM_FilterRegularStart_DMA </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdfsdm_filter</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int32_t *&#160;</td>
+          <td class="paramname"><em>pData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Length</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function allows to start regular conversion in DMA mode. </p>
+<dl class="section note"><dt>Note</dt><dd>This function should be called only when DFSDM filter instance is in idle state or if injected conversion is ongoing. Please note that data on buffer will contain signed regular conversion value on 24 most significant bits and corresponding channel on 3 least significant bits. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdfsdm_filter</td><td>DFSDM filter handle. </td></tr>
+    <tr><td class="paramname">pData</td><td>The destination buffer address. </td></tr>
+    <tr><td class="paramname">Length</td><td>The length of data to be transferred from DFSDM filter to memory. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaf997e42d57f630d8ac863fa4b54d538a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf997e42d57f630d8ac863fa4b54d538a">&#9670;&nbsp;</a></span>HAL_DFSDM_FilterRegularStart_IT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_DFSDM_FilterRegularStart_IT </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdfsdm_filter</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function allows to start regular conversion in interrupt mode. </p>
+<dl class="section note"><dt>Note</dt><dd>This function should be called only when DFSDM filter instance is in idle state or if injected conversion is ongoing. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdfsdm_filter</td><td>DFSDM filter handle. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga73c267749d7847a98f64a46cc6a02e95"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga73c267749d7847a98f64a46cc6a02e95">&#9670;&nbsp;</a></span>HAL_DFSDM_FilterRegularStop()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_DFSDM_FilterRegularStop </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdfsdm_filter</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function allows to stop regular conversion in polling mode. </p>
+<dl class="section note"><dt>Note</dt><dd>This function should be called only if regular conversion is ongoing. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdfsdm_filter</td><td>DFSDM filter handle. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga84633b5731568baffe9b853b32a3d8b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga84633b5731568baffe9b853b32a3d8b6">&#9670;&nbsp;</a></span>HAL_DFSDM_FilterRegularStop_DMA()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_DFSDM_FilterRegularStop_DMA </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdfsdm_filter</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function allows to stop regular conversion in DMA mode. </p>
+<dl class="section note"><dt>Note</dt><dd>This function should be called only if regular conversion is ongoing. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdfsdm_filter</td><td>DFSDM filter handle. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga18044c894aca5678a0323ec34f702f79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga18044c894aca5678a0323ec34f702f79">&#9670;&nbsp;</a></span>HAL_DFSDM_FilterRegularStop_IT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_DFSDM_FilterRegularStop_IT </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdfsdm_filter</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function allows to stop regular conversion in interrupt mode. </p>
+<dl class="section note"><dt>Note</dt><dd>This function should be called only if regular conversion is ongoing. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdfsdm_filter</td><td>DFSDM filter handle. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga2ae4d3434c5fcd4e6991297cd298c1a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2ae4d3434c5fcd4e6991297cd298c1a4">&#9670;&nbsp;</a></span>HAL_DFSDM_IRQHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HAL_DFSDM_IRQHandler </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_f_s_d_m___filter___handle_type_def.html">DFSDM_Filter_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdfsdm_filter</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function handles the DFSDM interrupts. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdfsdm_filter</td><td>DFSDM filter handle. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

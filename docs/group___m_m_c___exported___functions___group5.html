@@ -64,20 +64,85 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">Peripheral State and Errors functions<div class="ingroups"><a class="el" href="group___m_m_c___exported___functions.html">MMC Exported Functions</a></div></div>  </div>
+<div class="title">Peripheral State and Errors functions<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___m_m_c.html">MMC</a> &raquo; <a class="el" href="group___m_m_c___exported___functions.html">MMC Exported Functions</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gad0e56378e7cd6b602ae5ab7c2dec5ff4"><td class="memItemLeft" align="right" valign="top"><a id="gad0e56378e7cd6b602ae5ab7c2dec5ff4"></a>
-HAL_MMC_StateTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_MMC_GetState</b> (<a class="el" href="struct_m_m_c___handle_type_def.html">MMC_HandleTypeDef</a> *hmmc)</td></tr>
+<tr class="memitem:gad0e56378e7cd6b602ae5ab7c2dec5ff4"><td class="memItemLeft" align="right" valign="top">HAL_MMC_StateTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m_c___exported___functions___group5.html#gad0e56378e7cd6b602ae5ab7c2dec5ff4">HAL_MMC_GetState</a> (<a class="el" href="struct_m_m_c___handle_type_def.html">MMC_HandleTypeDef</a> *hmmc)</td></tr>
+<tr class="memdesc:gad0e56378e7cd6b602ae5ab7c2dec5ff4"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the MMC state  <a href="#gad0e56378e7cd6b602ae5ab7c2dec5ff4">More...</a><br /></td></tr>
 <tr class="separator:gad0e56378e7cd6b602ae5ab7c2dec5ff4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga3b1e46cb4f5c56a188cc36da2fbc26e3"><td class="memItemLeft" align="right" valign="top"><a id="ga3b1e46cb4f5c56a188cc36da2fbc26e3"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_MMC_GetError</b> (<a class="el" href="struct_m_m_c___handle_type_def.html">MMC_HandleTypeDef</a> *hmmc)</td></tr>
+<tr class="memitem:ga3b1e46cb4f5c56a188cc36da2fbc26e3"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m_c___exported___functions___group5.html#ga3b1e46cb4f5c56a188cc36da2fbc26e3">HAL_MMC_GetError</a> (<a class="el" href="struct_m_m_c___handle_type_def.html">MMC_HandleTypeDef</a> *hmmc)</td></tr>
+<tr class="memdesc:ga3b1e46cb4f5c56a188cc36da2fbc26e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the MMC error code.  <a href="#ga3b1e46cb4f5c56a188cc36da2fbc26e3">More...</a><br /></td></tr>
 <tr class="separator:ga3b1e46cb4f5c56a188cc36da2fbc26e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="ga3b1e46cb4f5c56a188cc36da2fbc26e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3b1e46cb4f5c56a188cc36da2fbc26e3">&#9670;&nbsp;</a></span>HAL_MMC_GetError()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t HAL_MMC_GetError </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_m_m_c___handle_type_def.html">MMC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hmmc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return the MMC error code. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hmmc</td><td>Pointer to a <a class="el" href="struct_m_m_c___handle_type_def.html" title="MMC handle Structure definition.">MMC_HandleTypeDef</a> structure that contains the configuration information. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">MMC</td><td>Error Code </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gad0e56378e7cd6b602ae5ab7c2dec5ff4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad0e56378e7cd6b602ae5ab7c2dec5ff4">&#9670;&nbsp;</a></span>HAL_MMC_GetState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_MMC_StateTypeDef HAL_MMC_GetState </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_m_m_c___handle_type_def.html">MMC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hmmc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>return the MMC state </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hmmc</td><td>Pointer to mmc handle </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>state </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

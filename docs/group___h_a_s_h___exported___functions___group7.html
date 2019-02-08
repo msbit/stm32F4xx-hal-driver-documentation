@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.15"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>STM32F4xx_HAL_Driver: HASH_Exported_Functions_Group7</title>
+<title>STM32F4xx_HAL_Driver: Peripheral State functions</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,17 +64,93 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">HASH_Exported_Functions_Group7<div class="ingroups"><a class="el" href="group___h_a_s_h___exported___functions.html">HASH Exported Functions</a></div></div>  </div>
+<div class="title">Peripheral State functions<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___h_a_s_h.html">HASH</a> &raquo; <a class="el" href="group___h_a_s_h___exported___functions.html">HASH Exported Functions</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Peripheral State functions.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gabaeee1e0d98ed918fcc1ea226610450f"><td class="memItemLeft" align="right" valign="top"><a id="gabaeee1e0d98ed918fcc1ea226610450f"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_HASH_IRQHandler</b> (<a class="el" href="struct_h_a_s_h___handle_type_def.html">HASH_HandleTypeDef</a> *hhash)</td></tr>
+<tr class="memitem:gabaeee1e0d98ed918fcc1ea226610450f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_a_s_h___exported___functions___group7.html#gabaeee1e0d98ed918fcc1ea226610450f">HAL_HASH_IRQHandler</a> (<a class="el" href="struct_h_a_s_h___handle_type_def.html">HASH_HandleTypeDef</a> *hhash)</td></tr>
+<tr class="memdesc:gabaeee1e0d98ed918fcc1ea226610450f"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function handles HASH interrupt request.  <a href="#gabaeee1e0d98ed918fcc1ea226610450f">More...</a><br /></td></tr>
 <tr class="separator:gabaeee1e0d98ed918fcc1ea226610450f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga55a69b73951adf3e77755bc58176387f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___h_a_s_h___exported___types___group2.html#gacc6a519440ca624aceed4cfd88ad0188">HAL_HASH_StateTypeDef</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___h_a_s_h___exported___functions___group7.html#ga55a69b73951adf3e77755bc58176387f">HAL_HASH_GetState</a> (<a class="el" href="struct_h_a_s_h___handle_type_def.html">HASH_HandleTypeDef</a> *hhash)</td></tr>
+<tr class="memdesc:ga55a69b73951adf3e77755bc58176387f"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the HASH state  <a href="#ga55a69b73951adf3e77755bc58176387f">More...</a><br /></td></tr>
+<tr class="separator:ga55a69b73951adf3e77755bc58176387f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>Peripheral State functions. </p>
+<pre class="fragment"> ===============================================================================
+                      ##### Peripheral State functions #####
+ ===============================================================================  
+    [..]
+    This subsection permits to get in run-time the status of the peripheral.</pre> <h2 class="groupheader">Function Documentation</h2>
+<a id="ga55a69b73951adf3e77755bc58176387f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga55a69b73951adf3e77755bc58176387f">&#9670;&nbsp;</a></span>HAL_HASH_GetState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___h_a_s_h___exported___types___group2.html#gacc6a519440ca624aceed4cfd88ad0188">HAL_HASH_StateTypeDef</a> HAL_HASH_GetState </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_h_a_s_h___handle_type_def.html">HASH_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hhash</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>return the HASH state </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hhash</td><td>pointer to a <a class="el" href="struct_h_a_s_h___handle_type_def.html">HASH_HandleTypeDef</a> structure that contains the configuration information for HASH module </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>state </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gabaeee1e0d98ed918fcc1ea226610450f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabaeee1e0d98ed918fcc1ea226610450f">&#9670;&nbsp;</a></span>HAL_HASH_IRQHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HAL_HASH_IRQHandler </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_h_a_s_h___handle_type_def.html">HASH_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hhash</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function handles HASH interrupt request. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hhash</td><td>pointer to a <a class="el" href="struct_h_a_s_h___handle_type_def.html">HASH_HandleTypeDef</a> structure that contains the configuration information for HASH module </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

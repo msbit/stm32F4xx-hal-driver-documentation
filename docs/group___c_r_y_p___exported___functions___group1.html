@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.15"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>STM32F4xx_HAL_Driver: Initialization and deinitialization functions</title>
+<title>STM32F4xx_HAL_Driver: Initialization and de-initialization functions</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,26 +64,235 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">Initialization and deinitialization functions<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___c_r_y_p.html">CRYP</a> &raquo; <a class="el" href="group___c_r_y_p___exported___functions.html">CRYP Exported Functions</a></div></div>  </div>
+<div class="title">Initialization and de-initialization functions<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___c_r_y_p.html">CRYP</a> &raquo; <a class="el" href="group___a_e_s.html">AES</a> &raquo; <a class="el" href="group___c_r_y_p___exported___functions.html">CRYP Exported Functions</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Initialization and Configuration functions.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gaa349aa28d67453503cca26fd4852d8df"><td class="memItemLeft" align="right" valign="top"><a id="gaa349aa28d67453503cca26fd4852d8df"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_CRYP_Init</b> (<a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *hcryp)</td></tr>
+<tr class="memitem:gaa349aa28d67453503cca26fd4852d8df"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_r_y_p___exported___functions___group1.html#gaa349aa28d67453503cca26fd4852d8df">HAL_CRYP_Init</a> (<a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *hcryp)</td></tr>
+<tr class="memdesc:gaa349aa28d67453503cca26fd4852d8df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the CRYP according to the specified parameters in the <a class="el" href="struct_c_r_y_p___init_type_def.html" title="CRYP Configuration Structure definition.">CRYP_InitTypeDef</a> and creates the associated handle.  <a href="#gaa349aa28d67453503cca26fd4852d8df">More...</a><br /></td></tr>
 <tr class="separator:gaa349aa28d67453503cca26fd4852d8df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga838491c1bcc89bac7a828b26a99d3157"><td class="memItemLeft" align="right" valign="top"><a id="ga838491c1bcc89bac7a828b26a99d3157"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_CRYP_DeInit</b> (<a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *hcryp)</td></tr>
+<tr class="memitem:ga838491c1bcc89bac7a828b26a99d3157"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_r_y_p___exported___functions___group1.html#ga838491c1bcc89bac7a828b26a99d3157">HAL_CRYP_DeInit</a> (<a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *hcryp)</td></tr>
+<tr class="memdesc:ga838491c1bcc89bac7a828b26a99d3157"><td class="mdescLeft">&#160;</td><td class="mdescRight">DeInitializes the CRYP peripheral.  <a href="#ga838491c1bcc89bac7a828b26a99d3157">More...</a><br /></td></tr>
 <tr class="separator:ga838491c1bcc89bac7a828b26a99d3157"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga442c514f89c8e36e435e5e1e19b4e8dd"><td class="memItemLeft" align="right" valign="top"><a id="ga442c514f89c8e36e435e5e1e19b4e8dd"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_CRYP_MspInit</b> (<a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *hcryp)</td></tr>
-<tr class="separator:ga442c514f89c8e36e435e5e1e19b4e8dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga817ef87da4590855886c32874df46f5e"><td class="memItemLeft" align="right" valign="top"><a id="ga817ef87da4590855886c32874df46f5e"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_CRYP_MspDeInit</b> (<a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *hcryp)</td></tr>
-<tr class="separator:ga817ef87da4590855886c32874df46f5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4b1196a41302c31153554b572b314f3d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_r_y_p___exported___functions___group1.html#ga4b1196a41302c31153554b572b314f3d">HAL_CRYP_MspInit</a> (<a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *hcryp)</td></tr>
+<tr class="memdesc:ga4b1196a41302c31153554b572b314f3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the CRYP MSP.  <a href="#ga4b1196a41302c31153554b572b314f3d">More...</a><br /></td></tr>
+<tr class="separator:ga4b1196a41302c31153554b572b314f3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga477c4e932d40839c5436e277597c05f1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_r_y_p___exported___functions___group1.html#ga477c4e932d40839c5436e277597c05f1">HAL_CRYP_MspDeInit</a> (<a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *hcryp)</td></tr>
+<tr class="memdesc:ga477c4e932d40839c5436e277597c05f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">DeInitializes CRYP MSP.  <a href="#ga477c4e932d40839c5436e277597c05f1">More...</a><br /></td></tr>
+<tr class="separator:ga477c4e932d40839c5436e277597c05f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>Initialization and Configuration functions. </p>
+<pre class="fragment">  ==============================================================================
+              ##### Initialization and de-initialization functions #####
+  ==============================================================================
+    [..]  This section provides functions allowing to:
+      (+) Initialize the CRYP according to the specified parameters 
+          in the CRYP_InitTypeDef and creates the associated handle
+      (+) DeInitialize the CRYP peripheral
+      (+) Initialize the CRYP MSP
+      (+) DeInitialize CRYP MSP </pre><pre class="fragment">  ==============================================================================
+              ##### Initialization and deinitialization functions #####
+  ==============================================================================
+    [..]  This section provides functions allowing to:
+      (+) Initialize the CRYP according to the specified parameters 
+          in the CRYP_InitTypeDef and creates the associated handle
+      (+) DeInitialize the CRYP peripheral
+      (+) Initialize the CRYP MSP (MCU Specific Package)
+      (+) De-Initialize the CRYP MSP
+      
+    [..]
+    (@) Specific care must be taken to format the key and the Initialization Vector IV!
+    
+   [..] If the key is defined as a 128-bit long array key[127..0] = {b127 ... b0} where 
+        b127 is the MSB and b0 the LSB, the key must be stored in MCU memory 
+        (+) as a sequence of words where the MSB word comes first (occupies the
+          lowest memory address) 
+        (+) where each word is byte-swapped:
+         (++)   address n+0 : 0b b103 .. b96 b111 .. b104 b119 .. b112 b127 .. b120
+         (++)   address n+4 : 0b b71 .. b64 b79 .. b72 b87 .. b80 b95 .. b88
+         (++)   address n+8 : 0b b39 .. b32 b47 .. b40 b55 .. b48 b63 .. b56
+         (++)   address n+C : 0b b7 .. b0 b15 .. b8 b23 .. b16 b31 .. b24                 
+    [..] Hereafter, another illustration when considering a 128-bit long key made of 16 bytes {B15..B0}.
+        The 4 32-bit words that make the key must be stored as follows in MCU memory:  
+         (+)    address n+0 : 0x B12 B13 B14 B15
+         (+)    address n+4 : 0x B8 B9 B10 B11
+         (+)    address n+8 : 0x B4 B5 B6 B7
+         (+)    address n+C : 0x B0 B1 B2 B3  
+    [..]  which leads to the expected setting  
+      (+)       AES_KEYR3 = 0x B15 B14 B13 B12   
+      (+)       AES_KEYR2 = 0x B11 B10 B9 B8      
+      (+)       AES_KEYR1 = 0x B7 B6 B5 B4        
+      (+)       AES_KEYR0 = 0x B3 B2 B1 B0      
+   
+   [..]  Same format must be applied for a 256-bit long key made of 32 bytes {B31..B0}. 
+         The 8 32-bit words that make the key must be stored as follows in MCU memory:
+         (+)    address n+00 : 0x B28 B29 B30 B31
+         (+)    address n+04 : 0x B24 B25 B26 B27
+         (+)    address n+08 : 0x B20 B21 B22 B23
+         (+)    address n+0C : 0x B16 B17 B18 B19            
+         (+)    address n+10 : 0x B12 B13 B14 B15
+         (+)    address n+14 : 0x B8 B9 B10 B11
+         (+)    address n+18 : 0x B4 B5 B6 B7
+         (+)    address n+1C : 0x B0 B1 B2 B3 
+    [..]  which leads to the expected setting 
+      (+)       AES_KEYR7 = 0x B31 B30 B29 B28   
+      (+)       AES_KEYR6 = 0x B27 B26 B25 B24      
+      (+)       AES_KEYR5 = 0x B23 B22 B21 B20        
+      (+)       AES_KEYR4 = 0x B19 B18 B17 B16       
+      (+)       AES_KEYR3 = 0x B15 B14 B13 B12   
+      (+)       AES_KEYR2 = 0x B11 B10 B9 B8      
+      (+)       AES_KEYR1 = 0x B7 B6 B5 B4        
+      (+)       AES_KEYR0 = 0x B3 B2 B1 B0           
+   
+   [..] Initialization Vector IV (4 32-bit words) format must follow the same as 
+        that of a 128-bit long key.   
+  
+  [..]                 </pre> <h2 class="groupheader">Function Documentation</h2>
+<a id="ga838491c1bcc89bac7a828b26a99d3157"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga838491c1bcc89bac7a828b26a99d3157">&#9670;&nbsp;</a></span>HAL_CRYP_DeInit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_CRYP_DeInit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hcryp</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>DeInitializes the CRYP peripheral. </p>
+<p>DeInitialize the CRYP peripheral.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hcryp</td><td>pointer to a <a class="el" href="struct_c_r_y_p___handle_type_def.html" title="CRYP handle Structure definition.">CRYP_HandleTypeDef</a> structure that contains the configuration information for CRYP module </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaa349aa28d67453503cca26fd4852d8df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa349aa28d67453503cca26fd4852d8df">&#9670;&nbsp;</a></span>HAL_CRYP_Init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_CRYP_Init </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hcryp</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initializes the CRYP according to the specified parameters in the <a class="el" href="struct_c_r_y_p___init_type_def.html" title="CRYP Configuration Structure definition.">CRYP_InitTypeDef</a> and creates the associated handle. </p>
+<p>Initialize the CRYP according to the specified parameters in the <a class="el" href="struct_c_r_y_p___init_type_def.html" title="CRYP Configuration Structure definition.">CRYP_InitTypeDef</a> and initialize the associated handle.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hcryp</td><td>pointer to a <a class="el" href="struct_c_r_y_p___handle_type_def.html" title="CRYP handle Structure definition.">CRYP_HandleTypeDef</a> structure that contains the configuration information for CRYP module </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>Specific care must be taken to format the key and the Initialization Vector IV stored in the MCU memory before calling <a class="el" href="group___c_r_y_p___exported___functions___group1.html#gaa349aa28d67453503cca26fd4852d8df" title="Initializes the CRYP according to the specified parameters in the CRYP_InitTypeDef and creates the as...">HAL_CRYP_Init()</a>. Refer to explanations hereabove.</dd></dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga477c4e932d40839c5436e277597c05f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga477c4e932d40839c5436e277597c05f1">&#9670;&nbsp;</a></span>HAL_CRYP_MspDeInit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_CRYP_MspDeInit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hcryp</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>DeInitializes CRYP MSP. </p>
+<p>DeInitialize CRYP MSP.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hcryp</td><td>pointer to a <a class="el" href="struct_c_r_y_p___handle_type_def.html" title="CRYP handle Structure definition.">CRYP_HandleTypeDef</a> structure that contains the configuration information for CRYP module </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga4b1196a41302c31153554b572b314f3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4b1196a41302c31153554b572b314f3d">&#9670;&nbsp;</a></span>HAL_CRYP_MspInit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_CRYP_MspInit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_c_r_y_p___handle_type_def.html">CRYP_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hcryp</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initializes the CRYP MSP. </p>
+<p>Initialize the CRYP MSP.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hcryp</td><td>pointer to a <a class="el" href="struct_c_r_y_p___handle_type_def.html" title="CRYP handle Structure definition.">CRYP_HandleTypeDef</a> structure that contains the configuration information for CRYP module </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

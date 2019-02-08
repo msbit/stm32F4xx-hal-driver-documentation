@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.15"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>STM32F4xx_HAL_Driver: GPIO_Exported_Functions_Group1</title>
+<title>STM32F4xx_HAL_Driver: Initialization and de-initialization functions</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,20 +64,116 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">GPIO_Exported_Functions_Group1<div class="ingroups"><a class="el" href="group___g_p_i_o___exported___functions.html">GPIO_Exported_Functions</a></div></div>  </div>
+<div class="title">Initialization and de-initialization functions<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___g_p_i_o.html">GPIO</a> &raquo; <a class="el" href="group___g_p_i_o___exported___functions.html">GPIO Exported Functions</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Initialization and Configuration functions.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga41bda93b6dd639e4905fdb1454eff98e"><td class="memItemLeft" align="right" valign="top"><a id="ga41bda93b6dd639e4905fdb1454eff98e"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_GPIO_Init</b> (GPIO_TypeDef *GPIOx, GPIO_InitTypeDef *GPIO_Init)</td></tr>
+<tr class="memitem:ga41bda93b6dd639e4905fdb1454eff98e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___g_p_i_o___exported___functions___group1.html#ga41bda93b6dd639e4905fdb1454eff98e">HAL_GPIO_Init</a> (GPIO_TypeDef *GPIOx, GPIO_InitTypeDef *GPIO_Init)</td></tr>
+<tr class="memdesc:ga41bda93b6dd639e4905fdb1454eff98e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the GPIOx peripheral according to the specified parameters in the GPIO_Init.  <a href="#ga41bda93b6dd639e4905fdb1454eff98e">More...</a><br /></td></tr>
 <tr class="separator:ga41bda93b6dd639e4905fdb1454eff98e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gafe9c756b5aa18961032a3f8aa572959b"><td class="memItemLeft" align="right" valign="top"><a id="gafe9c756b5aa18961032a3f8aa572959b"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_GPIO_DeInit</b> (GPIO_TypeDef *GPIOx, uint32_t GPIO_Pin)</td></tr>
+<tr class="memitem:gafe9c756b5aa18961032a3f8aa572959b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___g_p_i_o___exported___functions___group1.html#gafe9c756b5aa18961032a3f8aa572959b">HAL_GPIO_DeInit</a> (GPIO_TypeDef *GPIOx, uint32_t GPIO_Pin)</td></tr>
+<tr class="memdesc:gafe9c756b5aa18961032a3f8aa572959b"><td class="mdescLeft">&#160;</td><td class="mdescRight">De-initializes the GPIOx peripheral registers to their default reset values.  <a href="#gafe9c756b5aa18961032a3f8aa572959b">More...</a><br /></td></tr>
 <tr class="separator:gafe9c756b5aa18961032a3f8aa572959b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>Initialization and Configuration functions. </p>
+<pre class="fragment"> ===============================================================================
+              ##### Initialization and de-initialization functions #####
+ ===============================================================================
+  [..]
+    This section provides functions allowing to initialize and de-initialize the GPIOs
+    to be ready for use.</pre> <h2 class="groupheader">Function Documentation</h2>
+<a id="gafe9c756b5aa18961032a3f8aa572959b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gafe9c756b5aa18961032a3f8aa572959b">&#9670;&nbsp;</a></span>HAL_GPIO_DeInit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HAL_GPIO_DeInit </td>
+          <td>(</td>
+          <td class="paramtype">GPIO_TypeDef *&#160;</td>
+          <td class="paramname"><em>GPIOx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>GPIO_Pin</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>De-initializes the GPIOx peripheral registers to their default reset values. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">GPIOx</td><td>where x can be (A..K) to select the GPIO peripheral for STM32F429X device or x can be (A..I) to select the GPIO peripheral for STM32F40XX and STM32F427X devices. </td></tr>
+    <tr><td class="paramname">GPIO_Pin</td><td>specifies the port bit to be written. This parameter can be one of GPIO_PIN_x where x can be (0..15). </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga41bda93b6dd639e4905fdb1454eff98e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga41bda93b6dd639e4905fdb1454eff98e">&#9670;&nbsp;</a></span>HAL_GPIO_Init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HAL_GPIO_Init </td>
+          <td>(</td>
+          <td class="paramtype">GPIO_TypeDef *&#160;</td>
+          <td class="paramname"><em>GPIOx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GPIO_InitTypeDef *&#160;</td>
+          <td class="paramname"><em>GPIO_Init</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initializes the GPIOx peripheral according to the specified parameters in the GPIO_Init. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">GPIOx</td><td>where x can be (A..K) to select the GPIO peripheral for STM32F429X device or x can be (A..I) to select the GPIO peripheral for STM32F40XX and STM32F427X devices. </td></tr>
+    <tr><td class="paramname">GPIO_Init</td><td>pointer to a GPIO_InitTypeDef structure that contains the configuration information for the specified GPIO peripheral. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

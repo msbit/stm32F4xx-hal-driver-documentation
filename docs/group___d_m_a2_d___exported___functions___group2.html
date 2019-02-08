@@ -64,65 +64,872 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">IO operation functions<div class="ingroups"><a class="el" href="group___d_m_a2_d___exported___functions.html">DMA2D Exported Functions</a></div></div>  </div>
+<div class="title">IO operation functions<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___d_m_a2_d.html">DMA2D</a> &raquo; <a class="el" href="group___d_m_a2_d___exported___functions.html">DMA2D Exported Functions</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>IO operation functions.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga5d70385a3cb4c197b9cc2ad72090e890"><td class="memItemLeft" align="right" valign="top"><a id="ga5d70385a3cb4c197b9cc2ad72090e890"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DMA2D_Start</b> (<a class="el" href="stm32f4xx__hal__dma2d_8h.html#abb8da1cec3cc18bbb301618087d3ad31">DMA2D_HandleTypeDef</a> *hdma2d, uint32_t pdata, uint32_t DstAddress, uint32_t Width, uint32_t Height)</td></tr>
+<tr class="memitem:ga5d70385a3cb4c197b9cc2ad72090e890"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_m_a2_d___exported___functions___group2.html#ga5d70385a3cb4c197b9cc2ad72090e890">HAL_DMA2D_Start</a> (<a class="el" href="stm32f4xx__hal__dma2d_8h.html#abb8da1cec3cc18bbb301618087d3ad31">DMA2D_HandleTypeDef</a> *hdma2d, uint32_t pdata, uint32_t DstAddress, uint32_t Width, uint32_t Height)</td></tr>
+<tr class="memdesc:ga5d70385a3cb4c197b9cc2ad72090e890"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start the DMA2D Transfer.  <a href="#ga5d70385a3cb4c197b9cc2ad72090e890">More...</a><br /></td></tr>
 <tr class="separator:ga5d70385a3cb4c197b9cc2ad72090e890"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaeea72d8d5745c400ee64e5744b6e3162"><td class="memItemLeft" align="right" valign="top"><a id="gaeea72d8d5745c400ee64e5744b6e3162"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DMA2D_BlendingStart</b> (<a class="el" href="stm32f4xx__hal__dma2d_8h.html#abb8da1cec3cc18bbb301618087d3ad31">DMA2D_HandleTypeDef</a> *hdma2d, uint32_t SrcAddress1, uint32_t SrcAddress2, uint32_t DstAddress, uint32_t Width, uint32_t Height)</td></tr>
+<tr class="memitem:gaeea72d8d5745c400ee64e5744b6e3162"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_m_a2_d___exported___functions___group2.html#gaeea72d8d5745c400ee64e5744b6e3162">HAL_DMA2D_BlendingStart</a> (<a class="el" href="stm32f4xx__hal__dma2d_8h.html#abb8da1cec3cc18bbb301618087d3ad31">DMA2D_HandleTypeDef</a> *hdma2d, uint32_t SrcAddress1, uint32_t SrcAddress2, uint32_t DstAddress, uint32_t Width, uint32_t Height)</td></tr>
+<tr class="memdesc:gaeea72d8d5745c400ee64e5744b6e3162"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start the multi-source DMA2D Transfer.  <a href="#gaeea72d8d5745c400ee64e5744b6e3162">More...</a><br /></td></tr>
 <tr class="separator:gaeea72d8d5745c400ee64e5744b6e3162"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga068558afed43357ef5b87bb5f52c638d"><td class="memItemLeft" align="right" valign="top"><a id="ga068558afed43357ef5b87bb5f52c638d"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DMA2D_Start_IT</b> (<a class="el" href="stm32f4xx__hal__dma2d_8h.html#abb8da1cec3cc18bbb301618087d3ad31">DMA2D_HandleTypeDef</a> *hdma2d, uint32_t pdata, uint32_t DstAddress, uint32_t Width, uint32_t Height)</td></tr>
+<tr class="memitem:ga068558afed43357ef5b87bb5f52c638d"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_m_a2_d___exported___functions___group2.html#ga068558afed43357ef5b87bb5f52c638d">HAL_DMA2D_Start_IT</a> (<a class="el" href="stm32f4xx__hal__dma2d_8h.html#abb8da1cec3cc18bbb301618087d3ad31">DMA2D_HandleTypeDef</a> *hdma2d, uint32_t pdata, uint32_t DstAddress, uint32_t Width, uint32_t Height)</td></tr>
+<tr class="memdesc:ga068558afed43357ef5b87bb5f52c638d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start the DMA2D Transfer with interrupt enabled.  <a href="#ga068558afed43357ef5b87bb5f52c638d">More...</a><br /></td></tr>
 <tr class="separator:ga068558afed43357ef5b87bb5f52c638d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga9bae4c7ebdfbacb886d47c7fe39a4aa3"><td class="memItemLeft" align="right" valign="top"><a id="ga9bae4c7ebdfbacb886d47c7fe39a4aa3"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DMA2D_BlendingStart_IT</b> (<a class="el" href="stm32f4xx__hal__dma2d_8h.html#abb8da1cec3cc18bbb301618087d3ad31">DMA2D_HandleTypeDef</a> *hdma2d, uint32_t SrcAddress1, uint32_t SrcAddress2, uint32_t DstAddress, uint32_t Width, uint32_t Height)</td></tr>
+<tr class="memitem:ga9bae4c7ebdfbacb886d47c7fe39a4aa3"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_m_a2_d___exported___functions___group2.html#ga9bae4c7ebdfbacb886d47c7fe39a4aa3">HAL_DMA2D_BlendingStart_IT</a> (<a class="el" href="stm32f4xx__hal__dma2d_8h.html#abb8da1cec3cc18bbb301618087d3ad31">DMA2D_HandleTypeDef</a> *hdma2d, uint32_t SrcAddress1, uint32_t SrcAddress2, uint32_t DstAddress, uint32_t Width, uint32_t Height)</td></tr>
+<tr class="memdesc:ga9bae4c7ebdfbacb886d47c7fe39a4aa3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start the multi-source DMA2D Transfer with interrupt enabled.  <a href="#ga9bae4c7ebdfbacb886d47c7fe39a4aa3">More...</a><br /></td></tr>
 <tr class="separator:ga9bae4c7ebdfbacb886d47c7fe39a4aa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae88894de32f76a4df8ed19fc3ec3c848"><td class="memItemLeft" align="right" valign="top"><a id="gae88894de32f76a4df8ed19fc3ec3c848"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DMA2D_Suspend</b> (<a class="el" href="stm32f4xx__hal__dma2d_8h.html#abb8da1cec3cc18bbb301618087d3ad31">DMA2D_HandleTypeDef</a> *hdma2d)</td></tr>
+<tr class="memitem:gae88894de32f76a4df8ed19fc3ec3c848"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_m_a2_d___exported___functions___group2.html#gae88894de32f76a4df8ed19fc3ec3c848">HAL_DMA2D_Suspend</a> (<a class="el" href="stm32f4xx__hal__dma2d_8h.html#abb8da1cec3cc18bbb301618087d3ad31">DMA2D_HandleTypeDef</a> *hdma2d)</td></tr>
+<tr class="memdesc:gae88894de32f76a4df8ed19fc3ec3c848"><td class="mdescLeft">&#160;</td><td class="mdescRight">Suspend the DMA2D Transfer.  <a href="#gae88894de32f76a4df8ed19fc3ec3c848">More...</a><br /></td></tr>
 <tr class="separator:gae88894de32f76a4df8ed19fc3ec3c848"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2f79c578b03b113903663a71f1a49c4a"><td class="memItemLeft" align="right" valign="top"><a id="ga2f79c578b03b113903663a71f1a49c4a"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DMA2D_Resume</b> (<a class="el" href="stm32f4xx__hal__dma2d_8h.html#abb8da1cec3cc18bbb301618087d3ad31">DMA2D_HandleTypeDef</a> *hdma2d)</td></tr>
+<tr class="memitem:ga2f79c578b03b113903663a71f1a49c4a"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_m_a2_d___exported___functions___group2.html#ga2f79c578b03b113903663a71f1a49c4a">HAL_DMA2D_Resume</a> (<a class="el" href="stm32f4xx__hal__dma2d_8h.html#abb8da1cec3cc18bbb301618087d3ad31">DMA2D_HandleTypeDef</a> *hdma2d)</td></tr>
+<tr class="memdesc:ga2f79c578b03b113903663a71f1a49c4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resume the DMA2D Transfer.  <a href="#ga2f79c578b03b113903663a71f1a49c4a">More...</a><br /></td></tr>
 <tr class="separator:ga2f79c578b03b113903663a71f1a49c4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga9acc328284afcc46852e802c7df5d314"><td class="memItemLeft" align="right" valign="top"><a id="ga9acc328284afcc46852e802c7df5d314"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DMA2D_Abort</b> (<a class="el" href="stm32f4xx__hal__dma2d_8h.html#abb8da1cec3cc18bbb301618087d3ad31">DMA2D_HandleTypeDef</a> *hdma2d)</td></tr>
+<tr class="memitem:ga9acc328284afcc46852e802c7df5d314"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_m_a2_d___exported___functions___group2.html#ga9acc328284afcc46852e802c7df5d314">HAL_DMA2D_Abort</a> (<a class="el" href="stm32f4xx__hal__dma2d_8h.html#abb8da1cec3cc18bbb301618087d3ad31">DMA2D_HandleTypeDef</a> *hdma2d)</td></tr>
+<tr class="memdesc:ga9acc328284afcc46852e802c7df5d314"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abort the DMA2D Transfer.  <a href="#ga9acc328284afcc46852e802c7df5d314">More...</a><br /></td></tr>
 <tr class="separator:ga9acc328284afcc46852e802c7df5d314"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0a128663eebfbaad2e2a29f3ff21fd6a"><td class="memItemLeft" align="right" valign="top"><a id="ga0a128663eebfbaad2e2a29f3ff21fd6a"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DMA2D_EnableCLUT</b> (<a class="el" href="stm32f4xx__hal__dma2d_8h.html#abb8da1cec3cc18bbb301618087d3ad31">DMA2D_HandleTypeDef</a> *hdma2d, uint32_t LayerIdx)</td></tr>
+<tr class="memitem:ga0a128663eebfbaad2e2a29f3ff21fd6a"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_m_a2_d___exported___functions___group2.html#ga0a128663eebfbaad2e2a29f3ff21fd6a">HAL_DMA2D_EnableCLUT</a> (<a class="el" href="stm32f4xx__hal__dma2d_8h.html#abb8da1cec3cc18bbb301618087d3ad31">DMA2D_HandleTypeDef</a> *hdma2d, uint32_t LayerIdx)</td></tr>
+<tr class="memdesc:ga0a128663eebfbaad2e2a29f3ff21fd6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable the DMA2D CLUT Transfer.  <a href="#ga0a128663eebfbaad2e2a29f3ff21fd6a">More...</a><br /></td></tr>
 <tr class="separator:ga0a128663eebfbaad2e2a29f3ff21fd6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4bd4fc06f28eefa0443b0803b39b2457"><td class="memItemLeft" align="right" valign="top"><a id="ga4bd4fc06f28eefa0443b0803b39b2457"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DMA2D_CLUTLoad</b> (<a class="el" href="stm32f4xx__hal__dma2d_8h.html#abb8da1cec3cc18bbb301618087d3ad31">DMA2D_HandleTypeDef</a> *hdma2d, <a class="el" href="struct_d_m_a2_d___c_l_u_t_cfg_type_def.html">DMA2D_CLUTCfgTypeDef</a> CLUTCfg, uint32_t LayerIdx)</td></tr>
+<tr class="memitem:ga4bd4fc06f28eefa0443b0803b39b2457"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_m_a2_d___exported___functions___group2.html#ga4bd4fc06f28eefa0443b0803b39b2457">HAL_DMA2D_CLUTLoad</a> (<a class="el" href="stm32f4xx__hal__dma2d_8h.html#abb8da1cec3cc18bbb301618087d3ad31">DMA2D_HandleTypeDef</a> *hdma2d, <a class="el" href="struct_d_m_a2_d___c_l_u_t_cfg_type_def.html">DMA2D_CLUTCfgTypeDef</a> CLUTCfg, uint32_t LayerIdx)</td></tr>
+<tr class="memdesc:ga4bd4fc06f28eefa0443b0803b39b2457"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start DMA2D CLUT Loading.  <a href="#ga4bd4fc06f28eefa0443b0803b39b2457">More...</a><br /></td></tr>
 <tr class="separator:ga4bd4fc06f28eefa0443b0803b39b2457"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab8d4a2b4d827e313e774d408a81d2f8c"><td class="memItemLeft" align="right" valign="top"><a id="gab8d4a2b4d827e313e774d408a81d2f8c"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DMA2D_CLUTLoad_IT</b> (<a class="el" href="stm32f4xx__hal__dma2d_8h.html#abb8da1cec3cc18bbb301618087d3ad31">DMA2D_HandleTypeDef</a> *hdma2d, <a class="el" href="struct_d_m_a2_d___c_l_u_t_cfg_type_def.html">DMA2D_CLUTCfgTypeDef</a> CLUTCfg, uint32_t LayerIdx)</td></tr>
+<tr class="memitem:gab8d4a2b4d827e313e774d408a81d2f8c"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_m_a2_d___exported___functions___group2.html#gab8d4a2b4d827e313e774d408a81d2f8c">HAL_DMA2D_CLUTLoad_IT</a> (<a class="el" href="stm32f4xx__hal__dma2d_8h.html#abb8da1cec3cc18bbb301618087d3ad31">DMA2D_HandleTypeDef</a> *hdma2d, <a class="el" href="struct_d_m_a2_d___c_l_u_t_cfg_type_def.html">DMA2D_CLUTCfgTypeDef</a> CLUTCfg, uint32_t LayerIdx)</td></tr>
+<tr class="memdesc:gab8d4a2b4d827e313e774d408a81d2f8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start DMA2D CLUT Loading with interrupt enabled.  <a href="#gab8d4a2b4d827e313e774d408a81d2f8c">More...</a><br /></td></tr>
 <tr class="separator:gab8d4a2b4d827e313e774d408a81d2f8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga3e83ddbd22e42d9113898c9891613995"><td class="memItemLeft" align="right" valign="top"><a id="ga3e83ddbd22e42d9113898c9891613995"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DMA2D_CLUTLoading_Abort</b> (<a class="el" href="stm32f4xx__hal__dma2d_8h.html#abb8da1cec3cc18bbb301618087d3ad31">DMA2D_HandleTypeDef</a> *hdma2d, uint32_t LayerIdx)</td></tr>
+<tr class="memitem:ga3e83ddbd22e42d9113898c9891613995"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_m_a2_d___exported___functions___group2.html#ga3e83ddbd22e42d9113898c9891613995">HAL_DMA2D_CLUTLoading_Abort</a> (<a class="el" href="stm32f4xx__hal__dma2d_8h.html#abb8da1cec3cc18bbb301618087d3ad31">DMA2D_HandleTypeDef</a> *hdma2d, uint32_t LayerIdx)</td></tr>
+<tr class="memdesc:ga3e83ddbd22e42d9113898c9891613995"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abort the DMA2D CLUT loading.  <a href="#ga3e83ddbd22e42d9113898c9891613995">More...</a><br /></td></tr>
 <tr class="separator:ga3e83ddbd22e42d9113898c9891613995"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga582f7e076dd03dbb24864a1c9bfa0c37"><td class="memItemLeft" align="right" valign="top"><a id="ga582f7e076dd03dbb24864a1c9bfa0c37"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DMA2D_CLUTLoading_Suspend</b> (<a class="el" href="stm32f4xx__hal__dma2d_8h.html#abb8da1cec3cc18bbb301618087d3ad31">DMA2D_HandleTypeDef</a> *hdma2d, uint32_t LayerIdx)</td></tr>
+<tr class="memitem:ga582f7e076dd03dbb24864a1c9bfa0c37"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_m_a2_d___exported___functions___group2.html#ga582f7e076dd03dbb24864a1c9bfa0c37">HAL_DMA2D_CLUTLoading_Suspend</a> (<a class="el" href="stm32f4xx__hal__dma2d_8h.html#abb8da1cec3cc18bbb301618087d3ad31">DMA2D_HandleTypeDef</a> *hdma2d, uint32_t LayerIdx)</td></tr>
+<tr class="memdesc:ga582f7e076dd03dbb24864a1c9bfa0c37"><td class="mdescLeft">&#160;</td><td class="mdescRight">Suspend the DMA2D CLUT loading.  <a href="#ga582f7e076dd03dbb24864a1c9bfa0c37">More...</a><br /></td></tr>
 <tr class="separator:ga582f7e076dd03dbb24864a1c9bfa0c37"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7c934fe5316c5f0b52b9eb4f35da4775"><td class="memItemLeft" align="right" valign="top"><a id="ga7c934fe5316c5f0b52b9eb4f35da4775"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DMA2D_CLUTLoading_Resume</b> (<a class="el" href="stm32f4xx__hal__dma2d_8h.html#abb8da1cec3cc18bbb301618087d3ad31">DMA2D_HandleTypeDef</a> *hdma2d, uint32_t LayerIdx)</td></tr>
+<tr class="memitem:ga7c934fe5316c5f0b52b9eb4f35da4775"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_m_a2_d___exported___functions___group2.html#ga7c934fe5316c5f0b52b9eb4f35da4775">HAL_DMA2D_CLUTLoading_Resume</a> (<a class="el" href="stm32f4xx__hal__dma2d_8h.html#abb8da1cec3cc18bbb301618087d3ad31">DMA2D_HandleTypeDef</a> *hdma2d, uint32_t LayerIdx)</td></tr>
+<tr class="memdesc:ga7c934fe5316c5f0b52b9eb4f35da4775"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resume the DMA2D CLUT loading.  <a href="#ga7c934fe5316c5f0b52b9eb4f35da4775">More...</a><br /></td></tr>
 <tr class="separator:ga7c934fe5316c5f0b52b9eb4f35da4775"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1a9f13c42c365569eb78a452719ab3df"><td class="memItemLeft" align="right" valign="top"><a id="ga1a9f13c42c365569eb78a452719ab3df"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DMA2D_PollForTransfer</b> (<a class="el" href="stm32f4xx__hal__dma2d_8h.html#abb8da1cec3cc18bbb301618087d3ad31">DMA2D_HandleTypeDef</a> *hdma2d, uint32_t Timeout)</td></tr>
+<tr class="memitem:ga1a9f13c42c365569eb78a452719ab3df"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_m_a2_d___exported___functions___group2.html#ga1a9f13c42c365569eb78a452719ab3df">HAL_DMA2D_PollForTransfer</a> (<a class="el" href="stm32f4xx__hal__dma2d_8h.html#abb8da1cec3cc18bbb301618087d3ad31">DMA2D_HandleTypeDef</a> *hdma2d, uint32_t Timeout)</td></tr>
+<tr class="memdesc:ga1a9f13c42c365569eb78a452719ab3df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Polling for transfer complete or CLUT loading.  <a href="#ga1a9f13c42c365569eb78a452719ab3df">More...</a><br /></td></tr>
 <tr class="separator:ga1a9f13c42c365569eb78a452719ab3df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga773702d35450980516f554f75f431447"><td class="memItemLeft" align="right" valign="top"><a id="ga773702d35450980516f554f75f431447"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DMA2D_IRQHandler</b> (<a class="el" href="stm32f4xx__hal__dma2d_8h.html#abb8da1cec3cc18bbb301618087d3ad31">DMA2D_HandleTypeDef</a> *hdma2d)</td></tr>
+<tr class="memitem:ga773702d35450980516f554f75f431447"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_m_a2_d___exported___functions___group2.html#ga773702d35450980516f554f75f431447">HAL_DMA2D_IRQHandler</a> (<a class="el" href="stm32f4xx__hal__dma2d_8h.html#abb8da1cec3cc18bbb301618087d3ad31">DMA2D_HandleTypeDef</a> *hdma2d)</td></tr>
+<tr class="memdesc:ga773702d35450980516f554f75f431447"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle DMA2D interrupt request.  <a href="#ga773702d35450980516f554f75f431447">More...</a><br /></td></tr>
 <tr class="separator:ga773702d35450980516f554f75f431447"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga745bf1c06f5d29ffe77ae15e450b3a39"><td class="memItemLeft" align="right" valign="top"><a id="ga745bf1c06f5d29ffe77ae15e450b3a39"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DMA2D_LineEventCallback</b> (<a class="el" href="stm32f4xx__hal__dma2d_8h.html#abb8da1cec3cc18bbb301618087d3ad31">DMA2D_HandleTypeDef</a> *hdma2d)</td></tr>
-<tr class="separator:ga745bf1c06f5d29ffe77ae15e450b3a39"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf899e663919f89cdc067c56df14031c6"><td class="memItemLeft" align="right" valign="top"><a id="gaf899e663919f89cdc067c56df14031c6"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DMA2D_CLUTLoadingCpltCallback</b> (<a class="el" href="stm32f4xx__hal__dma2d_8h.html#abb8da1cec3cc18bbb301618087d3ad31">DMA2D_HandleTypeDef</a> *hdma2d)</td></tr>
-<tr class="separator:gaf899e663919f89cdc067c56df14031c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3492ed672c73b2ff5299de7cd9810b35"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_m_a2_d___exported___functions___group2.html#ga3492ed672c73b2ff5299de7cd9810b35">HAL_DMA2D_LineEventCallback</a> (<a class="el" href="stm32f4xx__hal__dma2d_8h.html#abb8da1cec3cc18bbb301618087d3ad31">DMA2D_HandleTypeDef</a> *hdma2d)</td></tr>
+<tr class="memdesc:ga3492ed672c73b2ff5299de7cd9810b35"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transfer watermark callback.  <a href="#ga3492ed672c73b2ff5299de7cd9810b35">More...</a><br /></td></tr>
+<tr class="separator:ga3492ed672c73b2ff5299de7cd9810b35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga120d9e00047152d8c5960d036ed90671"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_m_a2_d___exported___functions___group2.html#ga120d9e00047152d8c5960d036ed90671">HAL_DMA2D_CLUTLoadingCpltCallback</a> (<a class="el" href="stm32f4xx__hal__dma2d_8h.html#abb8da1cec3cc18bbb301618087d3ad31">DMA2D_HandleTypeDef</a> *hdma2d)</td></tr>
+<tr class="memdesc:ga120d9e00047152d8c5960d036ed90671"><td class="mdescLeft">&#160;</td><td class="mdescRight">CLUT Transfer Complete callback.  <a href="#ga120d9e00047152d8c5960d036ed90671">More...</a><br /></td></tr>
+<tr class="separator:ga120d9e00047152d8c5960d036ed90671"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>IO operation functions. </p>
+<pre class="fragment"> ===============================================================================
+                      #####  IO operation functions  #####
+ ===============================================================================
+    [..]  This section provides functions allowing to:
+      (+) Configure the pdata, destination address and data size then
+          start the DMA2D transfer.
+      (+) Configure the source for foreground and background, destination address
+          and data size then start a MultiBuffer DMA2D transfer.
+      (+) Configure the pdata, destination address and data size then
+          start the DMA2D transfer with interrupt.
+      (+) Configure the source for foreground and background, destination address
+          and data size then start a MultiBuffer DMA2D transfer with interrupt.
+      (+) Abort DMA2D transfer.
+      (+) Suspend DMA2D transfer.
+      (+) Resume DMA2D transfer.
+      (+) Enable CLUT transfer.
+      (+) Configure CLUT loading then start transfer in polling mode.
+      (+) Configure CLUT loading then start transfer in interrupt mode.
+      (+) Abort DMA2D CLUT loading.
+      (+) Suspend DMA2D CLUT loading.
+      (+) Resume DMA2D CLUT loading.
+      (+) Poll for transfer complete.
+      (+) handle DMA2D interrupt request.
+      (+) Transfer watermark callback.
+      (+) CLUT Transfer Complete callback.</pre> <h2 class="groupheader">Function Documentation</h2>
+<a id="ga9acc328284afcc46852e802c7df5d314"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9acc328284afcc46852e802c7df5d314">&#9670;&nbsp;</a></span>HAL_DMA2D_Abort()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_DMA2D_Abort </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="stm32f4xx__hal__dma2d_8h.html#abb8da1cec3cc18bbb301618087d3ad31">DMA2D_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdma2d</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Abort the DMA2D Transfer. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdma2d</td><td>pointer to a DMA2D_HandleTypeDef structure that contains the configuration information for the DMA2D. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaeea72d8d5745c400ee64e5744b6e3162"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaeea72d8d5745c400ee64e5744b6e3162">&#9670;&nbsp;</a></span>HAL_DMA2D_BlendingStart()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_DMA2D_BlendingStart </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="stm32f4xx__hal__dma2d_8h.html#abb8da1cec3cc18bbb301618087d3ad31">DMA2D_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdma2d</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>SrcAddress1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>SrcAddress2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>DstAddress</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Width</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Height</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Start the multi-source DMA2D Transfer. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdma2d</td><td>Pointer to a DMA2D_HandleTypeDef structure that contains the configuration information for the DMA2D. </td></tr>
+    <tr><td class="paramname">SrcAddress1</td><td>The source memory Buffer address for the foreground layer. </td></tr>
+    <tr><td class="paramname">SrcAddress2</td><td>The source memory Buffer address for the background layer. </td></tr>
+    <tr><td class="paramname">DstAddress</td><td>The destination memory Buffer address. </td></tr>
+    <tr><td class="paramname">Width</td><td>The width of data to be transferred from source to destination (expressed in number of pixels per line). </td></tr>
+    <tr><td class="paramname">Height</td><td>The height of data to be transferred from source to destination (expressed in number of lines). </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga9bae4c7ebdfbacb886d47c7fe39a4aa3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9bae4c7ebdfbacb886d47c7fe39a4aa3">&#9670;&nbsp;</a></span>HAL_DMA2D_BlendingStart_IT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_DMA2D_BlendingStart_IT </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="stm32f4xx__hal__dma2d_8h.html#abb8da1cec3cc18bbb301618087d3ad31">DMA2D_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdma2d</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>SrcAddress1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>SrcAddress2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>DstAddress</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Width</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Height</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Start the multi-source DMA2D Transfer with interrupt enabled. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdma2d</td><td>Pointer to a DMA2D_HandleTypeDef structure that contains the configuration information for the DMA2D. </td></tr>
+    <tr><td class="paramname">SrcAddress1</td><td>The source memory Buffer address for the foreground layer. </td></tr>
+    <tr><td class="paramname">SrcAddress2</td><td>The source memory Buffer address for the background layer. </td></tr>
+    <tr><td class="paramname">DstAddress</td><td>The destination memory Buffer address. </td></tr>
+    <tr><td class="paramname">Width</td><td>The width of data to be transferred from source to destination (expressed in number of pixels per line). </td></tr>
+    <tr><td class="paramname">Height</td><td>The height of data to be transferred from source to destination (expressed in number of lines). </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga4bd4fc06f28eefa0443b0803b39b2457"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4bd4fc06f28eefa0443b0803b39b2457">&#9670;&nbsp;</a></span>HAL_DMA2D_CLUTLoad()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_DMA2D_CLUTLoad </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="stm32f4xx__hal__dma2d_8h.html#abb8da1cec3cc18bbb301618087d3ad31">DMA2D_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdma2d</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_d_m_a2_d___c_l_u_t_cfg_type_def.html">DMA2D_CLUTCfgTypeDef</a>&#160;</td>
+          <td class="paramname"><em>CLUTCfg</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>LayerIdx</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Start DMA2D CLUT Loading. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdma2d</td><td>Pointer to a DMA2D_HandleTypeDef structure that contains the configuration information for the DMA2D. </td></tr>
+    <tr><td class="paramname">CLUTCfg</td><td>Pointer to a <a class="el" href="struct_d_m_a2_d___c_l_u_t_cfg_type_def.html" title="DMA2D CLUT Structure definition.">DMA2D_CLUTCfgTypeDef</a> structure that contains the configuration information for the color look up table. </td></tr>
+    <tr><td class="paramname">LayerIdx</td><td>DMA2D Layer index. This parameter can be one of the following values: 0(background) / 1(foreground) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>Invoking this API is similar to calling <a class="el" href="group___d_m_a2_d___exported___functions___group3.html#gab0bc04c3e5f23846017c72d5a0736b76" title="Configure the DMA2D CLUT Transfer.">HAL_DMA2D_ConfigCLUT()</a> then <a class="el" href="group___d_m_a2_d___exported___functions___group2.html#ga0a128663eebfbaad2e2a29f3ff21fd6a" title="Enable the DMA2D CLUT Transfer.">HAL_DMA2D_EnableCLUT()</a>. </dd></dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gab8d4a2b4d827e313e774d408a81d2f8c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab8d4a2b4d827e313e774d408a81d2f8c">&#9670;&nbsp;</a></span>HAL_DMA2D_CLUTLoad_IT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_DMA2D_CLUTLoad_IT </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="stm32f4xx__hal__dma2d_8h.html#abb8da1cec3cc18bbb301618087d3ad31">DMA2D_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdma2d</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_d_m_a2_d___c_l_u_t_cfg_type_def.html">DMA2D_CLUTCfgTypeDef</a>&#160;</td>
+          <td class="paramname"><em>CLUTCfg</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>LayerIdx</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Start DMA2D CLUT Loading with interrupt enabled. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdma2d</td><td>Pointer to a DMA2D_HandleTypeDef structure that contains the configuration information for the DMA2D. </td></tr>
+    <tr><td class="paramname">CLUTCfg</td><td>Pointer to a <a class="el" href="struct_d_m_a2_d___c_l_u_t_cfg_type_def.html" title="DMA2D CLUT Structure definition.">DMA2D_CLUTCfgTypeDef</a> structure that contains the configuration information for the color look up table. </td></tr>
+    <tr><td class="paramname">LayerIdx</td><td>DMA2D Layer index. This parameter can be one of the following values: 0(background) / 1(foreground) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga3e83ddbd22e42d9113898c9891613995"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3e83ddbd22e42d9113898c9891613995">&#9670;&nbsp;</a></span>HAL_DMA2D_CLUTLoading_Abort()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_DMA2D_CLUTLoading_Abort </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="stm32f4xx__hal__dma2d_8h.html#abb8da1cec3cc18bbb301618087d3ad31">DMA2D_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdma2d</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>LayerIdx</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Abort the DMA2D CLUT loading. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdma2d</td><td>Pointer to a DMA2D_HandleTypeDef structure that contains the configuration information for the DMA2D. </td></tr>
+    <tr><td class="paramname">LayerIdx</td><td>DMA2D Layer index. This parameter can be one of the following values: 0(background) / 1(foreground) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga7c934fe5316c5f0b52b9eb4f35da4775"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7c934fe5316c5f0b52b9eb4f35da4775">&#9670;&nbsp;</a></span>HAL_DMA2D_CLUTLoading_Resume()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_DMA2D_CLUTLoading_Resume </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="stm32f4xx__hal__dma2d_8h.html#abb8da1cec3cc18bbb301618087d3ad31">DMA2D_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdma2d</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>LayerIdx</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Resume the DMA2D CLUT loading. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdma2d</td><td>pointer to a DMA2D_HandleTypeDef structure that contains the configuration information for the DMA2D. </td></tr>
+    <tr><td class="paramname">LayerIdx</td><td>DMA2D Layer index. This parameter can be one of the following values: 0(background) / 1(foreground) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga582f7e076dd03dbb24864a1c9bfa0c37"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga582f7e076dd03dbb24864a1c9bfa0c37">&#9670;&nbsp;</a></span>HAL_DMA2D_CLUTLoading_Suspend()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_DMA2D_CLUTLoading_Suspend </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="stm32f4xx__hal__dma2d_8h.html#abb8da1cec3cc18bbb301618087d3ad31">DMA2D_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdma2d</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>LayerIdx</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Suspend the DMA2D CLUT loading. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdma2d</td><td>Pointer to a DMA2D_HandleTypeDef structure that contains the configuration information for the DMA2D. </td></tr>
+    <tr><td class="paramname">LayerIdx</td><td>DMA2D Layer index. This parameter can be one of the following values: 0(background) / 1(foreground) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga120d9e00047152d8c5960d036ed90671"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga120d9e00047152d8c5960d036ed90671">&#9670;&nbsp;</a></span>HAL_DMA2D_CLUTLoadingCpltCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_DMA2D_CLUTLoadingCpltCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="stm32f4xx__hal__dma2d_8h.html#abb8da1cec3cc18bbb301618087d3ad31">DMA2D_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdma2d</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>CLUT Transfer Complete callback. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdma2d</td><td>pointer to a DMA2D_HandleTypeDef structure that contains the configuration information for the DMA2D. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga0a128663eebfbaad2e2a29f3ff21fd6a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0a128663eebfbaad2e2a29f3ff21fd6a">&#9670;&nbsp;</a></span>HAL_DMA2D_EnableCLUT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_DMA2D_EnableCLUT </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="stm32f4xx__hal__dma2d_8h.html#abb8da1cec3cc18bbb301618087d3ad31">DMA2D_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdma2d</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>LayerIdx</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Enable the DMA2D CLUT Transfer. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdma2d</td><td>Pointer to a DMA2D_HandleTypeDef structure that contains the configuration information for the DMA2D. </td></tr>
+    <tr><td class="paramname">LayerIdx</td><td>DMA2D Layer index. This parameter can be one of the following values: 0(background) / 1(foreground) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga773702d35450980516f554f75f431447"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga773702d35450980516f554f75f431447">&#9670;&nbsp;</a></span>HAL_DMA2D_IRQHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HAL_DMA2D_IRQHandler </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="stm32f4xx__hal__dma2d_8h.html#abb8da1cec3cc18bbb301618087d3ad31">DMA2D_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdma2d</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Handle DMA2D interrupt request. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdma2d</td><td>Pointer to a DMA2D_HandleTypeDef structure that contains the configuration information for the DMA2D. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga3492ed672c73b2ff5299de7cd9810b35"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3492ed672c73b2ff5299de7cd9810b35">&#9670;&nbsp;</a></span>HAL_DMA2D_LineEventCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_DMA2D_LineEventCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="stm32f4xx__hal__dma2d_8h.html#abb8da1cec3cc18bbb301618087d3ad31">DMA2D_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdma2d</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Transfer watermark callback. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdma2d</td><td>pointer to a DMA2D_HandleTypeDef structure that contains the configuration information for the DMA2D. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga1a9f13c42c365569eb78a452719ab3df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1a9f13c42c365569eb78a452719ab3df">&#9670;&nbsp;</a></span>HAL_DMA2D_PollForTransfer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_DMA2D_PollForTransfer </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="stm32f4xx__hal__dma2d_8h.html#abb8da1cec3cc18bbb301618087d3ad31">DMA2D_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdma2d</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Timeout</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Polling for transfer complete or CLUT loading. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdma2d</td><td>Pointer to a DMA2D_HandleTypeDef structure that contains the configuration information for the DMA2D. </td></tr>
+    <tr><td class="paramname">Timeout</td><td>Timeout duration </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga2f79c578b03b113903663a71f1a49c4a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2f79c578b03b113903663a71f1a49c4a">&#9670;&nbsp;</a></span>HAL_DMA2D_Resume()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_DMA2D_Resume </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="stm32f4xx__hal__dma2d_8h.html#abb8da1cec3cc18bbb301618087d3ad31">DMA2D_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdma2d</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Resume the DMA2D Transfer. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdma2d</td><td>pointer to a DMA2D_HandleTypeDef structure that contains the configuration information for the DMA2D. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga5d70385a3cb4c197b9cc2ad72090e890"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5d70385a3cb4c197b9cc2ad72090e890">&#9670;&nbsp;</a></span>HAL_DMA2D_Start()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_DMA2D_Start </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="stm32f4xx__hal__dma2d_8h.html#abb8da1cec3cc18bbb301618087d3ad31">DMA2D_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdma2d</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>pdata</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>DstAddress</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Width</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Height</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Start the DMA2D Transfer. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdma2d</td><td>Pointer to a DMA2D_HandleTypeDef structure that contains the configuration information for the DMA2D. </td></tr>
+    <tr><td class="paramname">pdata</td><td>Configure the source memory Buffer address if Memory-to-Memory or Memory-to-Memory with pixel format conversion mode is selected, or configure the color value if Register-to-Memory mode is selected. </td></tr>
+    <tr><td class="paramname">DstAddress</td><td>The destination memory Buffer address. </td></tr>
+    <tr><td class="paramname">Width</td><td>The width of data to be transferred from source to destination (expressed in number of pixels per line). </td></tr>
+    <tr><td class="paramname">Height</td><td>The height of data to be transferred from source to destination (expressed in number of lines). </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga068558afed43357ef5b87bb5f52c638d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga068558afed43357ef5b87bb5f52c638d">&#9670;&nbsp;</a></span>HAL_DMA2D_Start_IT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_DMA2D_Start_IT </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="stm32f4xx__hal__dma2d_8h.html#abb8da1cec3cc18bbb301618087d3ad31">DMA2D_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdma2d</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>pdata</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>DstAddress</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Width</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>Height</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Start the DMA2D Transfer with interrupt enabled. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdma2d</td><td>Pointer to a DMA2D_HandleTypeDef structure that contains the configuration information for the DMA2D. </td></tr>
+    <tr><td class="paramname">pdata</td><td>Configure the source memory Buffer address if the Memory-to-Memory or Memory-to-Memory with pixel format conversion mode is selected, or configure the color value if Register-to-Memory mode is selected. </td></tr>
+    <tr><td class="paramname">DstAddress</td><td>The destination memory Buffer address. </td></tr>
+    <tr><td class="paramname">Width</td><td>The width of data to be transferred from source to destination (expressed in number of pixels per line). </td></tr>
+    <tr><td class="paramname">Height</td><td>The height of data to be transferred from source to destination (expressed in number of lines). </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gae88894de32f76a4df8ed19fc3ec3c848"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae88894de32f76a4df8ed19fc3ec3c848">&#9670;&nbsp;</a></span>HAL_DMA2D_Suspend()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_DMA2D_Suspend </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="stm32f4xx__hal__dma2d_8h.html#abb8da1cec3cc18bbb301618087d3ad31">DMA2D_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdma2d</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Suspend the DMA2D Transfer. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdma2d</td><td>pointer to a DMA2D_HandleTypeDef structure that contains the configuration information for the DMA2D. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

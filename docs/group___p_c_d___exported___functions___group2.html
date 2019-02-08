@@ -64,56 +64,558 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">Input and Output operation functions<div class="ingroups"><a class="el" href="group___p_c_d___exported___functions.html">PCD Exported Functions</a></div></div>  </div>
+<div class="title">Input and Output operation functions<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___p_c_d.html">PCD</a> &raquo; <a class="el" href="group___p_c_d___exported___functions.html">PCD Exported Functions</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Data transfers functions.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gaed7a0a21ca81a2fcdd4db87606dee381"><td class="memItemLeft" align="right" valign="top"><a id="gaed7a0a21ca81a2fcdd4db87606dee381"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_PCD_Start</b> (<a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *hpcd)</td></tr>
+<tr class="memitem:gaed7a0a21ca81a2fcdd4db87606dee381"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_c_d___exported___functions___group2.html#gaed7a0a21ca81a2fcdd4db87606dee381">HAL_PCD_Start</a> (<a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *hpcd)</td></tr>
+<tr class="memdesc:gaed7a0a21ca81a2fcdd4db87606dee381"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start The USB OTG Device.  <a href="#gaed7a0a21ca81a2fcdd4db87606dee381">More...</a><br /></td></tr>
 <tr class="separator:gaed7a0a21ca81a2fcdd4db87606dee381"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad2e6055aea6458c0aec7df9c8ab7abab"><td class="memItemLeft" align="right" valign="top"><a id="gad2e6055aea6458c0aec7df9c8ab7abab"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_PCD_Stop</b> (<a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *hpcd)</td></tr>
+<tr class="memitem:gad2e6055aea6458c0aec7df9c8ab7abab"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_c_d___exported___functions___group2.html#gad2e6055aea6458c0aec7df9c8ab7abab">HAL_PCD_Stop</a> (<a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *hpcd)</td></tr>
+<tr class="memdesc:gad2e6055aea6458c0aec7df9c8ab7abab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stop The USB OTG Device.  <a href="#gad2e6055aea6458c0aec7df9c8ab7abab">More...</a><br /></td></tr>
 <tr class="separator:gad2e6055aea6458c0aec7df9c8ab7abab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga502da86920d2beb8284c4c2d3dbac0c6"><td class="memItemLeft" align="right" valign="top"><a id="ga502da86920d2beb8284c4c2d3dbac0c6"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_PCD_IRQHandler</b> (<a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *hpcd)</td></tr>
+<tr class="memitem:ga502da86920d2beb8284c4c2d3dbac0c6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_c_d___exported___functions___group2.html#ga502da86920d2beb8284c4c2d3dbac0c6">HAL_PCD_IRQHandler</a> (<a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *hpcd)</td></tr>
+<tr class="memdesc:ga502da86920d2beb8284c4c2d3dbac0c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handles PCD interrupt request.  <a href="#ga502da86920d2beb8284c4c2d3dbac0c6">More...</a><br /></td></tr>
 <tr class="separator:ga502da86920d2beb8284c4c2d3dbac0c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2f1ac834d9677dcae7d8973828f81149"><td class="memItemLeft" align="right" valign="top"><a id="ga2f1ac834d9677dcae7d8973828f81149"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_PCD_DataOutStageCallback</b> (<a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *hpcd, uint8_t epnum)</td></tr>
-<tr class="separator:ga2f1ac834d9677dcae7d8973828f81149"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1679f5c50539a3dfca1391557e7a757b"><td class="memItemLeft" align="right" valign="top"><a id="ga1679f5c50539a3dfca1391557e7a757b"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_PCD_DataInStageCallback</b> (<a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *hpcd, uint8_t epnum)</td></tr>
-<tr class="separator:ga1679f5c50539a3dfca1391557e7a757b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga9d72aa4d3d984b164047b081d4566f6d"><td class="memItemLeft" align="right" valign="top"><a id="ga9d72aa4d3d984b164047b081d4566f6d"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_PCD_SetupStageCallback</b> (<a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *hpcd)</td></tr>
-<tr class="separator:ga9d72aa4d3d984b164047b081d4566f6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga85c99eeb4aa17d8ff5298efff92ac28e"><td class="memItemLeft" align="right" valign="top"><a id="ga85c99eeb4aa17d8ff5298efff92ac28e"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_PCD_SOFCallback</b> (<a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *hpcd)</td></tr>
-<tr class="separator:ga85c99eeb4aa17d8ff5298efff92ac28e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf4fbef977092aa525c6b1668ffbec77b"><td class="memItemLeft" align="right" valign="top"><a id="gaf4fbef977092aa525c6b1668ffbec77b"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_PCD_ResetCallback</b> (<a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *hpcd)</td></tr>
-<tr class="separator:gaf4fbef977092aa525c6b1668ffbec77b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0e14acd4564979743bc0a89aa5f15428"><td class="memItemLeft" align="right" valign="top"><a id="ga0e14acd4564979743bc0a89aa5f15428"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_PCD_SuspendCallback</b> (<a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *hpcd)</td></tr>
-<tr class="separator:ga0e14acd4564979743bc0a89aa5f15428"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0386a36b921cd51dd6e50103c3cd33b1"><td class="memItemLeft" align="right" valign="top"><a id="ga0386a36b921cd51dd6e50103c3cd33b1"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_PCD_ResumeCallback</b> (<a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *hpcd)</td></tr>
-<tr class="separator:ga0386a36b921cd51dd6e50103c3cd33b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4274f129d782f0a3c9a10b5bbe022cd4"><td class="memItemLeft" align="right" valign="top"><a id="ga4274f129d782f0a3c9a10b5bbe022cd4"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_PCD_ISOOUTIncompleteCallback</b> (<a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *hpcd, uint8_t epnum)</td></tr>
-<tr class="separator:ga4274f129d782f0a3c9a10b5bbe022cd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8f4041d553ef2fb326c6e483797f99a8"><td class="memItemLeft" align="right" valign="top"><a id="ga8f4041d553ef2fb326c6e483797f99a8"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_PCD_ISOINIncompleteCallback</b> (<a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *hpcd, uint8_t epnum)</td></tr>
-<tr class="separator:ga8f4041d553ef2fb326c6e483797f99a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0c449541523759cf62be9c9d47540c5d"><td class="memItemLeft" align="right" valign="top"><a id="ga0c449541523759cf62be9c9d47540c5d"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_PCD_ConnectCallback</b> (<a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *hpcd)</td></tr>
-<tr class="separator:ga0c449541523759cf62be9c9d47540c5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga25f930b5fe696224f8e71dacf5f324b4"><td class="memItemLeft" align="right" valign="top"><a id="ga25f930b5fe696224f8e71dacf5f324b4"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_PCD_DisconnectCallback</b> (<a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *hpcd)</td></tr>
-<tr class="separator:ga25f930b5fe696224f8e71dacf5f324b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab26e3b7b0dbc343ec6feabe6414e027c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_c_d___exported___functions___group2.html#gab26e3b7b0dbc343ec6feabe6414e027c">HAL_PCD_DataOutStageCallback</a> (<a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *hpcd, uint8_t epnum)</td></tr>
+<tr class="memdesc:gab26e3b7b0dbc343ec6feabe6414e027c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Data OUT stage callback.  <a href="#gab26e3b7b0dbc343ec6feabe6414e027c">More...</a><br /></td></tr>
+<tr class="separator:gab26e3b7b0dbc343ec6feabe6414e027c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5b514839d053e9f12f776043e74308fd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_c_d___exported___functions___group2.html#ga5b514839d053e9f12f776043e74308fd">HAL_PCD_DataInStageCallback</a> (<a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *hpcd, uint8_t epnum)</td></tr>
+<tr class="memdesc:ga5b514839d053e9f12f776043e74308fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Data IN stage callback.  <a href="#ga5b514839d053e9f12f776043e74308fd">More...</a><br /></td></tr>
+<tr class="separator:ga5b514839d053e9f12f776043e74308fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga12eb7247ce7d619e0068b223f9ae4152"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_c_d___exported___functions___group2.html#ga12eb7247ce7d619e0068b223f9ae4152">HAL_PCD_SetupStageCallback</a> (<a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *hpcd)</td></tr>
+<tr class="memdesc:ga12eb7247ce7d619e0068b223f9ae4152"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setup stage callback.  <a href="#ga12eb7247ce7d619e0068b223f9ae4152">More...</a><br /></td></tr>
+<tr class="separator:ga12eb7247ce7d619e0068b223f9ae4152"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga05dd698b9bd073dfe0db73bb52f18733"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_c_d___exported___functions___group2.html#ga05dd698b9bd073dfe0db73bb52f18733">HAL_PCD_SOFCallback</a> (<a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *hpcd)</td></tr>
+<tr class="memdesc:ga05dd698b9bd073dfe0db73bb52f18733"><td class="mdescLeft">&#160;</td><td class="mdescRight">USB Start Of Frame callback.  <a href="#ga05dd698b9bd073dfe0db73bb52f18733">More...</a><br /></td></tr>
+<tr class="separator:ga05dd698b9bd073dfe0db73bb52f18733"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabae99187ec4f08ecb1f269bf460972ff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_c_d___exported___functions___group2.html#gabae99187ec4f08ecb1f269bf460972ff">HAL_PCD_ResetCallback</a> (<a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *hpcd)</td></tr>
+<tr class="memdesc:gabae99187ec4f08ecb1f269bf460972ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">USB Reset callback.  <a href="#gabae99187ec4f08ecb1f269bf460972ff">More...</a><br /></td></tr>
+<tr class="separator:gabae99187ec4f08ecb1f269bf460972ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga47e226a4ec895c53ce4f308ffabe9a9d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_c_d___exported___functions___group2.html#ga47e226a4ec895c53ce4f308ffabe9a9d">HAL_PCD_SuspendCallback</a> (<a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *hpcd)</td></tr>
+<tr class="memdesc:ga47e226a4ec895c53ce4f308ffabe9a9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Suspend event callback.  <a href="#ga47e226a4ec895c53ce4f308ffabe9a9d">More...</a><br /></td></tr>
+<tr class="separator:ga47e226a4ec895c53ce4f308ffabe9a9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gada1c00dba0a5c81e9310b364e4baf3bc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_c_d___exported___functions___group2.html#gada1c00dba0a5c81e9310b364e4baf3bc">HAL_PCD_ResumeCallback</a> (<a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *hpcd)</td></tr>
+<tr class="memdesc:gada1c00dba0a5c81e9310b364e4baf3bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resume event callback.  <a href="#gada1c00dba0a5c81e9310b364e4baf3bc">More...</a><br /></td></tr>
+<tr class="separator:gada1c00dba0a5c81e9310b364e4baf3bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga186796550aa1e2fe1466e6c6241172a8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_c_d___exported___functions___group2.html#ga186796550aa1e2fe1466e6c6241172a8">HAL_PCD_ISOOUTIncompleteCallback</a> (<a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *hpcd, uint8_t epnum)</td></tr>
+<tr class="memdesc:ga186796550aa1e2fe1466e6c6241172a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Incomplete ISO OUT callback.  <a href="#ga186796550aa1e2fe1466e6c6241172a8">More...</a><br /></td></tr>
+<tr class="separator:ga186796550aa1e2fe1466e6c6241172a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6697364599be7a5d83d54f3789d912bd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_c_d___exported___functions___group2.html#ga6697364599be7a5d83d54f3789d912bd">HAL_PCD_ISOINIncompleteCallback</a> (<a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *hpcd, uint8_t epnum)</td></tr>
+<tr class="memdesc:ga6697364599be7a5d83d54f3789d912bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Incomplete ISO IN callback.  <a href="#ga6697364599be7a5d83d54f3789d912bd">More...</a><br /></td></tr>
+<tr class="separator:ga6697364599be7a5d83d54f3789d912bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga90b7f889b001be029888c0c9c59c16d4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_c_d___exported___functions___group2.html#ga90b7f889b001be029888c0c9c59c16d4">HAL_PCD_ConnectCallback</a> (<a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *hpcd)</td></tr>
+<tr class="memdesc:ga90b7f889b001be029888c0c9c59c16d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connection event callback.  <a href="#ga90b7f889b001be029888c0c9c59c16d4">More...</a><br /></td></tr>
+<tr class="separator:ga90b7f889b001be029888c0c9c59c16d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga89a218345f3d0125975d7727a78f2e28"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_c_d___exported___functions___group2.html#ga89a218345f3d0125975d7727a78f2e28">HAL_PCD_DisconnectCallback</a> (<a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *hpcd)</td></tr>
+<tr class="memdesc:ga89a218345f3d0125975d7727a78f2e28"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disconnection event callback.  <a href="#ga89a218345f3d0125975d7727a78f2e28">More...</a><br /></td></tr>
+<tr class="separator:ga89a218345f3d0125975d7727a78f2e28"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>Data transfers functions. </p>
+<pre class="fragment"> ===============================================================================
+                      ##### IO operation functions #####
+ ===============================================================================  
+    [..]
+    This subsection provides a set of functions allowing to manage the PCD data 
+    transfers.</pre> <h2 class="groupheader">Function Documentation</h2>
+<a id="ga90b7f889b001be029888c0c9c59c16d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga90b7f889b001be029888c0c9c59c16d4">&#9670;&nbsp;</a></span>HAL_PCD_ConnectCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_PCD_ConnectCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hpcd</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Connection event callback. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hpcd</td><td>PCD handle </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga5b514839d053e9f12f776043e74308fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5b514839d053e9f12f776043e74308fd">&#9670;&nbsp;</a></span>HAL_PCD_DataInStageCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_PCD_DataInStageCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hpcd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>epnum</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Data IN stage callback. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hpcd</td><td>PCD handle </td></tr>
+    <tr><td class="paramname">epnum</td><td>endpoint number </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gab26e3b7b0dbc343ec6feabe6414e027c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab26e3b7b0dbc343ec6feabe6414e027c">&#9670;&nbsp;</a></span>HAL_PCD_DataOutStageCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_PCD_DataOutStageCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hpcd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>epnum</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Data OUT stage callback. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hpcd</td><td>PCD handle </td></tr>
+    <tr><td class="paramname">epnum</td><td>endpoint number</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga89a218345f3d0125975d7727a78f2e28"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga89a218345f3d0125975d7727a78f2e28">&#9670;&nbsp;</a></span>HAL_PCD_DisconnectCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_PCD_DisconnectCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hpcd</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Disconnection event callback. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hpcd</td><td>PCD handle </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga502da86920d2beb8284c4c2d3dbac0c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga502da86920d2beb8284c4c2d3dbac0c6">&#9670;&nbsp;</a></span>HAL_PCD_IRQHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HAL_PCD_IRQHandler </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hpcd</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Handles PCD interrupt request. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hpcd</td><td>PCD handle </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga6697364599be7a5d83d54f3789d912bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6697364599be7a5d83d54f3789d912bd">&#9670;&nbsp;</a></span>HAL_PCD_ISOINIncompleteCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_PCD_ISOINIncompleteCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hpcd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>epnum</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Incomplete ISO IN callback. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hpcd</td><td>PCD handle </td></tr>
+    <tr><td class="paramname">epnum</td><td>endpoint number</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga186796550aa1e2fe1466e6c6241172a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga186796550aa1e2fe1466e6c6241172a8">&#9670;&nbsp;</a></span>HAL_PCD_ISOOUTIncompleteCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_PCD_ISOOUTIncompleteCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hpcd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>epnum</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Incomplete ISO OUT callback. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hpcd</td><td>PCD handle </td></tr>
+    <tr><td class="paramname">epnum</td><td>endpoint number </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gabae99187ec4f08ecb1f269bf460972ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabae99187ec4f08ecb1f269bf460972ff">&#9670;&nbsp;</a></span>HAL_PCD_ResetCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_PCD_ResetCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hpcd</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>USB Reset callback. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hpcd</td><td>PCD handle </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gada1c00dba0a5c81e9310b364e4baf3bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gada1c00dba0a5c81e9310b364e4baf3bc">&#9670;&nbsp;</a></span>HAL_PCD_ResumeCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_PCD_ResumeCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hpcd</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Resume event callback. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hpcd</td><td>PCD handle </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga12eb7247ce7d619e0068b223f9ae4152"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga12eb7247ce7d619e0068b223f9ae4152">&#9670;&nbsp;</a></span>HAL_PCD_SetupStageCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_PCD_SetupStageCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hpcd</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Setup stage callback. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hpcd</td><td>PCD handle </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga05dd698b9bd073dfe0db73bb52f18733"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga05dd698b9bd073dfe0db73bb52f18733">&#9670;&nbsp;</a></span>HAL_PCD_SOFCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_PCD_SOFCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hpcd</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>USB Start Of Frame callback. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hpcd</td><td>PCD handle </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaed7a0a21ca81a2fcdd4db87606dee381"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaed7a0a21ca81a2fcdd4db87606dee381">&#9670;&nbsp;</a></span>HAL_PCD_Start()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_PCD_Start </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hpcd</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Start The USB OTG Device. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hpcd</td><td>PCD handle </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gad2e6055aea6458c0aec7df9c8ab7abab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad2e6055aea6458c0aec7df9c8ab7abab">&#9670;&nbsp;</a></span>HAL_PCD_Stop()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_PCD_Stop </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hpcd</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Stop The USB OTG Device. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hpcd</td><td>PCD handle </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga47e226a4ec895c53ce4f308ffabe9a9d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga47e226a4ec895c53ce4f308ffabe9a9d">&#9670;&nbsp;</a></span>HAL_PCD_SuspendCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_PCD_SuspendCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_p_c_d___handle_type_def.html">PCD_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hpcd</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Suspend event callback. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hpcd</td><td>PCD handle </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

@@ -67,53 +67,602 @@ $(function() {
 <div class="title">Get system and peripherals clocks frequency functions<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___l_l___driver.html">STM32F4xx_LL_Driver</a> &raquo; <a class="el" href="group___r_c_c___l_l.html">RCC</a> &raquo; <a class="el" href="group___r_c_c___l_l___exported___functions.html">RCC Exported Functions</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Return the frequencies of different on chip clocks; System, AHB, APB1 and APB2 buses clocks and different peripheral clocks available on the device.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga9ec9efa058971510891175bb0fb80758"><td class="memItemLeft" align="right" valign="top"><a id="ga9ec9efa058971510891175bb0fb80758"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>LL_RCC_GetSystemClocksFreq</b> (<a class="el" href="struct_l_l___r_c_c___clocks_type_def.html">LL_RCC_ClocksTypeDef</a> *RCC_Clocks)</td></tr>
+<tr class="memitem:ga9ec9efa058971510891175bb0fb80758"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___r_c_c___l_l___e_f___get___freq.html#ga9ec9efa058971510891175bb0fb80758">LL_RCC_GetSystemClocksFreq</a> (<a class="el" href="struct_l_l___r_c_c___clocks_type_def.html">LL_RCC_ClocksTypeDef</a> *RCC_Clocks)</td></tr>
+<tr class="memdesc:ga9ec9efa058971510891175bb0fb80758"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the frequencies of different on chip clocks; System, AHB, APB1 and APB2 buses clocks.  <a href="#ga9ec9efa058971510891175bb0fb80758">More...</a><br /></td></tr>
 <tr class="separator:ga9ec9efa058971510891175bb0fb80758"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gabdac40ae298d0174e3a77309ff950140"><td class="memItemLeft" align="right" valign="top"><a id="gabdac40ae298d0174e3a77309ff950140"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>LL_RCC_GetFMPI2CClockFreq</b> (uint32_t FMPI2CxSource)</td></tr>
+<tr class="memitem:gabdac40ae298d0174e3a77309ff950140"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___r_c_c___l_l___e_f___get___freq.html#gabdac40ae298d0174e3a77309ff950140">LL_RCC_GetFMPI2CClockFreq</a> (uint32_t FMPI2CxSource)</td></tr>
+<tr class="memdesc:gabdac40ae298d0174e3a77309ff950140"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return FMPI2Cx clock frequency.  <a href="#gabdac40ae298d0174e3a77309ff950140">More...</a><br /></td></tr>
 <tr class="separator:gabdac40ae298d0174e3a77309ff950140"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga9c8ed2c514d7cfe24a632a036e5eb9ef"><td class="memItemLeft" align="right" valign="top"><a id="ga9c8ed2c514d7cfe24a632a036e5eb9ef"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>LL_RCC_GetLPTIMClockFreq</b> (uint32_t LPTIMxSource)</td></tr>
+<tr class="memitem:ga9c8ed2c514d7cfe24a632a036e5eb9ef"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___r_c_c___l_l___e_f___get___freq.html#ga9c8ed2c514d7cfe24a632a036e5eb9ef">LL_RCC_GetLPTIMClockFreq</a> (uint32_t LPTIMxSource)</td></tr>
+<tr class="memdesc:ga9c8ed2c514d7cfe24a632a036e5eb9ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return LPTIMx clock frequency.  <a href="#ga9c8ed2c514d7cfe24a632a036e5eb9ef">More...</a><br /></td></tr>
 <tr class="separator:ga9c8ed2c514d7cfe24a632a036e5eb9ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga86160cf444a040decea3fa200d95ec75"><td class="memItemLeft" align="right" valign="top"><a id="ga86160cf444a040decea3fa200d95ec75"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>LL_RCC_GetSAIClockFreq</b> (uint32_t SAIxSource)</td></tr>
+<tr class="memitem:ga86160cf444a040decea3fa200d95ec75"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___r_c_c___l_l___e_f___get___freq.html#ga86160cf444a040decea3fa200d95ec75">LL_RCC_GetSAIClockFreq</a> (uint32_t SAIxSource)</td></tr>
+<tr class="memdesc:ga86160cf444a040decea3fa200d95ec75"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return SAIx clock frequency.  <a href="#ga86160cf444a040decea3fa200d95ec75">More...</a><br /></td></tr>
 <tr class="separator:ga86160cf444a040decea3fa200d95ec75"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga091586eabb5608f69062959f34cab070"><td class="memItemLeft" align="right" valign="top"><a id="ga091586eabb5608f69062959f34cab070"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>LL_RCC_GetSDIOClockFreq</b> (uint32_t SDIOxSource)</td></tr>
+<tr class="memitem:ga091586eabb5608f69062959f34cab070"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___r_c_c___l_l___e_f___get___freq.html#ga091586eabb5608f69062959f34cab070">LL_RCC_GetSDIOClockFreq</a> (uint32_t SDIOxSource)</td></tr>
+<tr class="memdesc:ga091586eabb5608f69062959f34cab070"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return SDIOx clock frequency.  <a href="#ga091586eabb5608f69062959f34cab070">More...</a><br /></td></tr>
 <tr class="separator:ga091586eabb5608f69062959f34cab070"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf504876ffd92eec02252ebd1eb7ba8b7"><td class="memItemLeft" align="right" valign="top"><a id="gaf504876ffd92eec02252ebd1eb7ba8b7"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>LL_RCC_GetRNGClockFreq</b> (uint32_t RNGxSource)</td></tr>
+<tr class="memitem:gaf504876ffd92eec02252ebd1eb7ba8b7"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___r_c_c___l_l___e_f___get___freq.html#gaf504876ffd92eec02252ebd1eb7ba8b7">LL_RCC_GetRNGClockFreq</a> (uint32_t RNGxSource)</td></tr>
+<tr class="memdesc:gaf504876ffd92eec02252ebd1eb7ba8b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return RNGx clock frequency.  <a href="#gaf504876ffd92eec02252ebd1eb7ba8b7">More...</a><br /></td></tr>
 <tr class="separator:gaf504876ffd92eec02252ebd1eb7ba8b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad3625bec073f712f8019673b15fde23b"><td class="memItemLeft" align="right" valign="top"><a id="gad3625bec073f712f8019673b15fde23b"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>LL_RCC_GetUSBClockFreq</b> (uint32_t USBxSource)</td></tr>
+<tr class="memitem:gad3625bec073f712f8019673b15fde23b"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___r_c_c___l_l___e_f___get___freq.html#gad3625bec073f712f8019673b15fde23b">LL_RCC_GetUSBClockFreq</a> (uint32_t USBxSource)</td></tr>
+<tr class="memdesc:gad3625bec073f712f8019673b15fde23b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return USBx clock frequency.  <a href="#gad3625bec073f712f8019673b15fde23b">More...</a><br /></td></tr>
 <tr class="separator:gad3625bec073f712f8019673b15fde23b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa5c235b6850e5f90e1d995f792626386"><td class="memItemLeft" align="right" valign="top"><a id="gaa5c235b6850e5f90e1d995f792626386"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>LL_RCC_GetDFSDMClockFreq</b> (uint32_t DFSDMxSource)</td></tr>
+<tr class="memitem:gaa5c235b6850e5f90e1d995f792626386"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___r_c_c___l_l___e_f___get___freq.html#gaa5c235b6850e5f90e1d995f792626386">LL_RCC_GetDFSDMClockFreq</a> (uint32_t DFSDMxSource)</td></tr>
+<tr class="memdesc:gaa5c235b6850e5f90e1d995f792626386"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return DFSDMx clock frequency.  <a href="#gaa5c235b6850e5f90e1d995f792626386">More...</a><br /></td></tr>
 <tr class="separator:gaa5c235b6850e5f90e1d995f792626386"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6bf2ecd4af8b7c572e32319db1165950"><td class="memItemLeft" align="right" valign="top"><a id="ga6bf2ecd4af8b7c572e32319db1165950"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>LL_RCC_GetDFSDMAudioClockFreq</b> (uint32_t DFSDMxSource)</td></tr>
+<tr class="memitem:ga6bf2ecd4af8b7c572e32319db1165950"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___r_c_c___l_l___e_f___get___freq.html#ga6bf2ecd4af8b7c572e32319db1165950">LL_RCC_GetDFSDMAudioClockFreq</a> (uint32_t DFSDMxSource)</td></tr>
+<tr class="memdesc:ga6bf2ecd4af8b7c572e32319db1165950"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return DFSDMx Audio clock frequency.  <a href="#ga6bf2ecd4af8b7c572e32319db1165950">More...</a><br /></td></tr>
 <tr class="separator:ga6bf2ecd4af8b7c572e32319db1165950"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga179a6e6ce1b370eac8f50e5206811865"><td class="memItemLeft" align="right" valign="top"><a id="ga179a6e6ce1b370eac8f50e5206811865"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>LL_RCC_GetI2SClockFreq</b> (uint32_t I2SxSource)</td></tr>
+<tr class="memitem:ga179a6e6ce1b370eac8f50e5206811865"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___r_c_c___l_l___e_f___get___freq.html#ga179a6e6ce1b370eac8f50e5206811865">LL_RCC_GetI2SClockFreq</a> (uint32_t I2SxSource)</td></tr>
+<tr class="memdesc:ga179a6e6ce1b370eac8f50e5206811865"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return I2Sx clock frequency.  <a href="#ga179a6e6ce1b370eac8f50e5206811865">More...</a><br /></td></tr>
 <tr class="separator:ga179a6e6ce1b370eac8f50e5206811865"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0bd37c3a2940cff7c9ee3757a9e94ca7"><td class="memItemLeft" align="right" valign="top"><a id="ga0bd37c3a2940cff7c9ee3757a9e94ca7"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>LL_RCC_GetCECClockFreq</b> (uint32_t CECxSource)</td></tr>
+<tr class="memitem:ga0bd37c3a2940cff7c9ee3757a9e94ca7"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___r_c_c___l_l___e_f___get___freq.html#ga0bd37c3a2940cff7c9ee3757a9e94ca7">LL_RCC_GetCECClockFreq</a> (uint32_t CECxSource)</td></tr>
+<tr class="memdesc:ga0bd37c3a2940cff7c9ee3757a9e94ca7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return CEC clock frequency.  <a href="#ga0bd37c3a2940cff7c9ee3757a9e94ca7">More...</a><br /></td></tr>
 <tr class="separator:ga0bd37c3a2940cff7c9ee3757a9e94ca7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac13f94cd9ace80a6aad85a27551537e9"><td class="memItemLeft" align="right" valign="top"><a id="gac13f94cd9ace80a6aad85a27551537e9"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>LL_RCC_GetLTDCClockFreq</b> (uint32_t LTDCxSource)</td></tr>
+<tr class="memitem:gac13f94cd9ace80a6aad85a27551537e9"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___r_c_c___l_l___e_f___get___freq.html#gac13f94cd9ace80a6aad85a27551537e9">LL_RCC_GetLTDCClockFreq</a> (uint32_t LTDCxSource)</td></tr>
+<tr class="memdesc:gac13f94cd9ace80a6aad85a27551537e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return LTDC clock frequency.  <a href="#gac13f94cd9ace80a6aad85a27551537e9">More...</a><br /></td></tr>
 <tr class="separator:gac13f94cd9ace80a6aad85a27551537e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga79017fd12ae473428fe35e38df9f90a5"><td class="memItemLeft" align="right" valign="top"><a id="ga79017fd12ae473428fe35e38df9f90a5"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>LL_RCC_GetSPDIFRXClockFreq</b> (uint32_t SPDIFRXxSource)</td></tr>
+<tr class="memitem:ga79017fd12ae473428fe35e38df9f90a5"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___r_c_c___l_l___e_f___get___freq.html#ga79017fd12ae473428fe35e38df9f90a5">LL_RCC_GetSPDIFRXClockFreq</a> (uint32_t SPDIFRXxSource)</td></tr>
+<tr class="memdesc:ga79017fd12ae473428fe35e38df9f90a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return SPDIFRX clock frequency.  <a href="#ga79017fd12ae473428fe35e38df9f90a5">More...</a><br /></td></tr>
 <tr class="separator:ga79017fd12ae473428fe35e38df9f90a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5e831915d2b676250c5ab9e160ecdede"><td class="memItemLeft" align="right" valign="top"><a id="ga5e831915d2b676250c5ab9e160ecdede"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>LL_RCC_GetDSIClockFreq</b> (uint32_t DSIxSource)</td></tr>
+<tr class="memitem:ga5e831915d2b676250c5ab9e160ecdede"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___r_c_c___l_l___e_f___get___freq.html#ga5e831915d2b676250c5ab9e160ecdede">LL_RCC_GetDSIClockFreq</a> (uint32_t DSIxSource)</td></tr>
+<tr class="memdesc:ga5e831915d2b676250c5ab9e160ecdede"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return DSI clock frequency.  <a href="#ga5e831915d2b676250c5ab9e160ecdede">More...</a><br /></td></tr>
 <tr class="separator:ga5e831915d2b676250c5ab9e160ecdede"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>Return the frequencies of different on chip clocks; System, AHB, APB1 and APB2 buses clocks and different peripheral clocks available on the device. </p>
+<dl class="section note"><dt>Note</dt><dd>If SYSCLK source is HSI, function returns values based on HSI_VALUE(**) </dd>
+<dd>
+If SYSCLK source is HSE, function returns values based on HSE_VALUE(***) </dd>
+<dd>
+If SYSCLK source is PLL, function returns values based on HSE_VALUE(***) or HSI_VALUE(**) multiplied/divided by the PLL factors. </dd>
+<dd>
+(**) HSI_VALUE is a constant defined in this file (default value 16 MHz) but the real value may vary depending on the variations in voltage and temperature. </dd>
+<dd>
+(***) HSE_VALUE is a constant defined in this file (default value 25 MHz), user has to ensure that HSE_VALUE is same as the real frequency of the crystal used. Otherwise, this function may have wrong result. </dd>
+<dd>
+The result of this function could be incorrect when using fractional value for HSE crystal. </dd>
+<dd>
+This function can be used by the user application to compute the baud-rate for the communication peripherals or configure other parameters. </dd></dl>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="ga0bd37c3a2940cff7c9ee3757a9e94ca7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0bd37c3a2940cff7c9ee3757a9e94ca7">&#9670;&nbsp;</a></span>LL_RCC_GetCECClockFreq()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t LL_RCC_GetCECClockFreq </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>CECxSource</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return CEC clock frequency. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">CECxSource</td><td>This parameter can be one of the following values: <ul>
+<li>LL_RCC_CEC_CLKSOURCE </li>
+</ul>
+</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">CEC</td><td>clock frequency (in Hz)<ul>
+<li>LL_RCC_PERIPH_FREQUENCY_NO indicates that oscillator (HSI or LSE) is not ready </li>
+</ul>
+</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga6bf2ecd4af8b7c572e32319db1165950"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6bf2ecd4af8b7c572e32319db1165950">&#9670;&nbsp;</a></span>LL_RCC_GetDFSDMAudioClockFreq()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t LL_RCC_GetDFSDMAudioClockFreq </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>DFSDMxSource</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return DFSDMx Audio clock frequency. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">DFSDMxSource</td><td>This parameter can be one of the following values: <ul>
+<li>LL_RCC_DFSDM1_AUDIO_CLKSOURCE </li>
+<li>LL_RCC_DFSDM2_AUDIO_CLKSOURCE (*)</li>
+</ul>
+(*) value not defined in all devices. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">DFSDM</td><td>clock frequency (in Hz)<ul>
+<li>LL_RCC_PERIPH_FREQUENCY_NO indicates that oscillator is not ready </li>
+</ul>
+</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaa5c235b6850e5f90e1d995f792626386"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa5c235b6850e5f90e1d995f792626386">&#9670;&nbsp;</a></span>LL_RCC_GetDFSDMClockFreq()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t LL_RCC_GetDFSDMClockFreq </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>DFSDMxSource</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return DFSDMx clock frequency. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">DFSDMxSource</td><td>This parameter can be one of the following values: <ul>
+<li>LL_RCC_DFSDM1_CLKSOURCE </li>
+<li>LL_RCC_DFSDM2_CLKSOURCE (*)</li>
+</ul>
+(*) value not defined in all devices. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">DFSDM</td><td>clock frequency (in Hz) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga5e831915d2b676250c5ab9e160ecdede"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5e831915d2b676250c5ab9e160ecdede">&#9670;&nbsp;</a></span>LL_RCC_GetDSIClockFreq()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t LL_RCC_GetDSIClockFreq </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>DSIxSource</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return DSI clock frequency. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">DSIxSource</td><td>This parameter can be one of the following values: <ul>
+<li>LL_RCC_DSI_CLKSOURCE </li>
+</ul>
+</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">DSI</td><td>clock frequency (in Hz)<ul>
+<li>LL_RCC_PERIPH_FREQUENCY_NO indicates that oscillator is not ready</li>
+<li>LL_RCC_PERIPH_FREQUENCY_NA indicates that external clock is used </li>
+</ul>
+</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gabdac40ae298d0174e3a77309ff950140"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabdac40ae298d0174e3a77309ff950140">&#9670;&nbsp;</a></span>LL_RCC_GetFMPI2CClockFreq()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t LL_RCC_GetFMPI2CClockFreq </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>FMPI2CxSource</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return FMPI2Cx clock frequency. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">FMPI2CxSource</td><td>This parameter can be one of the following values: <ul>
+<li>LL_RCC_FMPI2C1_CLKSOURCE </li>
+</ul>
+</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">FMPI2C</td><td>clock frequency (in Hz)<ul>
+<li>LL_RCC_PERIPH_FREQUENCY_NO indicates that HSI oscillator is not ready </li>
+</ul>
+</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga179a6e6ce1b370eac8f50e5206811865"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga179a6e6ce1b370eac8f50e5206811865">&#9670;&nbsp;</a></span>LL_RCC_GetI2SClockFreq()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t LL_RCC_GetI2SClockFreq </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>I2SxSource</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return I2Sx clock frequency. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">I2SxSource</td><td>This parameter can be one of the following values: <ul>
+<li>LL_RCC_I2S1_CLKSOURCE </li>
+<li>LL_RCC_I2S2_CLKSOURCE (*)</li>
+</ul>
+(*) value not defined in all devices. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">I2S</td><td>clock frequency (in Hz)<ul>
+<li>LL_RCC_PERIPH_FREQUENCY_NO indicates that oscillator is not ready </li>
+</ul>
+</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga9c8ed2c514d7cfe24a632a036e5eb9ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9c8ed2c514d7cfe24a632a036e5eb9ef">&#9670;&nbsp;</a></span>LL_RCC_GetLPTIMClockFreq()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t LL_RCC_GetLPTIMClockFreq </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>LPTIMxSource</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return LPTIMx clock frequency. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">LPTIMxSource</td><td>This parameter can be one of the following values: <ul>
+<li>LL_RCC_LPTIM1_CLKSOURCE </li>
+</ul>
+</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">LPTIM</td><td>clock frequency (in Hz)<ul>
+<li>LL_RCC_PERIPH_FREQUENCY_NO indicates that oscillator (HSI, LSI or LSE) is not ready </li>
+</ul>
+</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gac13f94cd9ace80a6aad85a27551537e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac13f94cd9ace80a6aad85a27551537e9">&#9670;&nbsp;</a></span>LL_RCC_GetLTDCClockFreq()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t LL_RCC_GetLTDCClockFreq </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>LTDCxSource</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return LTDC clock frequency. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">LTDCxSource</td><td>This parameter can be one of the following values: <ul>
+<li>LL_RCC_LTDC_CLKSOURCE </li>
+</ul>
+</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">LTDC</td><td>clock frequency (in Hz)<ul>
+<li>LL_RCC_PERIPH_FREQUENCY_NO indicates that oscillator PLLSAI is not ready </li>
+</ul>
+</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaf504876ffd92eec02252ebd1eb7ba8b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf504876ffd92eec02252ebd1eb7ba8b7">&#9670;&nbsp;</a></span>LL_RCC_GetRNGClockFreq()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t LL_RCC_GetRNGClockFreq </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>RNGxSource</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return RNGx clock frequency. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">RNGxSource</td><td>This parameter can be one of the following values: <ul>
+<li>LL_RCC_RNG_CLKSOURCE </li>
+</ul>
+</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">RNG</td><td>clock frequency (in Hz)<ul>
+<li>LL_RCC_PERIPH_FREQUENCY_NO indicates that oscillator is not ready </li>
+</ul>
+</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga86160cf444a040decea3fa200d95ec75"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga86160cf444a040decea3fa200d95ec75">&#9670;&nbsp;</a></span>LL_RCC_GetSAIClockFreq()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t LL_RCC_GetSAIClockFreq </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>SAIxSource</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return SAIx clock frequency. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">SAIxSource</td><td>This parameter can be one of the following values: <ul>
+<li>LL_RCC_SAI1_CLKSOURCE (*) </li>
+<li>LL_RCC_SAI2_CLKSOURCE (*) </li>
+<li>LL_RCC_SAI1_A_CLKSOURCE (*) </li>
+<li>LL_RCC_SAI1_B_CLKSOURCE (*)</li>
+</ul>
+(*) value not defined in all devices. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">SAI</td><td>clock frequency (in Hz)<ul>
+<li>LL_RCC_PERIPH_FREQUENCY_NO indicates that oscillator is not ready </li>
+</ul>
+</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga091586eabb5608f69062959f34cab070"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga091586eabb5608f69062959f34cab070">&#9670;&nbsp;</a></span>LL_RCC_GetSDIOClockFreq()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t LL_RCC_GetSDIOClockFreq </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>SDIOxSource</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return SDIOx clock frequency. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">SDIOxSource</td><td>This parameter can be one of the following values: <ul>
+<li>LL_RCC_SDIO_CLKSOURCE </li>
+</ul>
+</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">SDIO</td><td>clock frequency (in Hz)<ul>
+<li>LL_RCC_PERIPH_FREQUENCY_NO indicates that oscillator is not ready </li>
+</ul>
+</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga79017fd12ae473428fe35e38df9f90a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga79017fd12ae473428fe35e38df9f90a5">&#9670;&nbsp;</a></span>LL_RCC_GetSPDIFRXClockFreq()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t LL_RCC_GetSPDIFRXClockFreq </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>SPDIFRXxSource</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return SPDIFRX clock frequency. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">SPDIFRXxSource</td><td>This parameter can be one of the following values: <ul>
+<li>LL_RCC_SPDIFRX1_CLKSOURCE </li>
+</ul>
+</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">SPDIFRX</td><td>clock frequency (in Hz)<ul>
+<li>LL_RCC_PERIPH_FREQUENCY_NO indicates that oscillator is not ready </li>
+</ul>
+</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga9ec9efa058971510891175bb0fb80758"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9ec9efa058971510891175bb0fb80758">&#9670;&nbsp;</a></span>LL_RCC_GetSystemClocksFreq()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LL_RCC_GetSystemClocksFreq </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_l_l___r_c_c___clocks_type_def.html">LL_RCC_ClocksTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>RCC_Clocks</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return the frequencies of different on chip clocks; System, AHB, APB1 and APB2 buses clocks. </p>
+<dl class="section note"><dt>Note</dt><dd>Each time SYSCLK, HCLK, PCLK1 and/or PCLK2 clock changes, this function must be called to update structure fields. Otherwise, any configuration based on this function will be incorrect. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">RCC_Clocks</td><td>pointer to a <a class="el" href="struct_l_l___r_c_c___clocks_type_def.html">LL_RCC_ClocksTypeDef</a> structure which will hold the clocks frequencies </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gad3625bec073f712f8019673b15fde23b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad3625bec073f712f8019673b15fde23b">&#9670;&nbsp;</a></span>LL_RCC_GetUSBClockFreq()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t LL_RCC_GetUSBClockFreq </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>USBxSource</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return USBx clock frequency. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">USBxSource</td><td>This parameter can be one of the following values: <ul>
+<li>LL_RCC_USB_CLKSOURCE </li>
+</ul>
+</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">USB</td><td>clock frequency (in Hz)<ul>
+<li>LL_RCC_PERIPH_FREQUENCY_NO indicates that oscillator is not ready </li>
+</ul>
+</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

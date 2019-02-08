@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.15"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>STM32F4xx_HAL_Driver: LTDC_Exported_Functions_Group2</title>
+<title>STM32F4xx_HAL_Driver: IO operation functions</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,17 +64,163 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">LTDC_Exported_Functions_Group2<div class="ingroups"><a class="el" href="group___l_t_d_c___exported___functions.html">LTDC_Exported_Functions</a></div></div>  </div>
+<div class="title">IO operation functions<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___l_t_d_c.html">LTDC</a> &raquo; <a class="el" href="group___l_t_d_c___exported___functions.html">LTDC Exported Functions</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>IO operation functions.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gab48f2504f430718a944323ec861e8d60"><td class="memItemLeft" align="right" valign="top"><a id="gab48f2504f430718a944323ec861e8d60"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_LTDC_IRQHandler</b> (<a class="el" href="struct_l_t_d_c___handle_type_def.html">LTDC_HandleTypeDef</a> *hltdc)</td></tr>
+<tr class="memitem:gab48f2504f430718a944323ec861e8d60"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_t_d_c___exported___functions___group2.html#gab48f2504f430718a944323ec861e8d60">HAL_LTDC_IRQHandler</a> (<a class="el" href="struct_l_t_d_c___handle_type_def.html">LTDC_HandleTypeDef</a> *hltdc)</td></tr>
+<tr class="memdesc:gab48f2504f430718a944323ec861e8d60"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle LTDC interrupt request.  <a href="#gab48f2504f430718a944323ec861e8d60">More...</a><br /></td></tr>
 <tr class="separator:gab48f2504f430718a944323ec861e8d60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafcd825bd6ac268f0b8eb352ab0cc26b1"><td class="memItemLeft" align="right" valign="top">__weak void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_t_d_c___exported___functions___group2.html#gafcd825bd6ac268f0b8eb352ab0cc26b1">HAL_LTDC_ErrorCallback</a> (<a class="el" href="struct_l_t_d_c___handle_type_def.html">LTDC_HandleTypeDef</a> *hltdc)</td></tr>
+<tr class="memdesc:gafcd825bd6ac268f0b8eb352ab0cc26b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Error LTDC callback.  <a href="#gafcd825bd6ac268f0b8eb352ab0cc26b1">More...</a><br /></td></tr>
+<tr class="separator:gafcd825bd6ac268f0b8eb352ab0cc26b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab4c02c9776e66b03c61be127ac1e61dd"><td class="memItemLeft" align="right" valign="top">__weak void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_t_d_c___exported___functions___group2.html#gab4c02c9776e66b03c61be127ac1e61dd">HAL_LTDC_LineEventCallback</a> (<a class="el" href="struct_l_t_d_c___handle_type_def.html">LTDC_HandleTypeDef</a> *hltdc)</td></tr>
+<tr class="memdesc:gab4c02c9776e66b03c61be127ac1e61dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Line Event callback.  <a href="#gab4c02c9776e66b03c61be127ac1e61dd">More...</a><br /></td></tr>
+<tr class="separator:gab4c02c9776e66b03c61be127ac1e61dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga36788d6bfab53ac0fa7b2d2fd4dcece3"><td class="memItemLeft" align="right" valign="top">__weak void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_t_d_c___exported___functions___group2.html#ga36788d6bfab53ac0fa7b2d2fd4dcece3">HAL_LTDC_ReloadEventCallback</a> (<a class="el" href="struct_l_t_d_c___handle_type_def.html">LTDC_HandleTypeDef</a> *hltdc)</td></tr>
+<tr class="memdesc:ga36788d6bfab53ac0fa7b2d2fd4dcece3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reload Event callback.  <a href="#ga36788d6bfab53ac0fa7b2d2fd4dcece3">More...</a><br /></td></tr>
+<tr class="separator:ga36788d6bfab53ac0fa7b2d2fd4dcece3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>IO operation functions. </p>
+<pre class="fragment"> ===============================================================================
+                      #####  IO operation functions  #####
+ ===============================================================================  
+    [..]  This section provides function allowing to:
+      (+) Handle LTDC interrupt request</pre> <h2 class="groupheader">Function Documentation</h2>
+<a id="gafcd825bd6ac268f0b8eb352ab0cc26b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gafcd825bd6ac268f0b8eb352ab0cc26b1">&#9670;&nbsp;</a></span>HAL_LTDC_ErrorCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_LTDC_ErrorCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_l_t_d_c___handle_type_def.html">LTDC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hltdc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Error LTDC callback. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hltdc</td><td>pointer to a <a class="el" href="struct_l_t_d_c___handle_type_def.html" title="LTDC handle Structure definition.">LTDC_HandleTypeDef</a> structure that contains the configuration information for the LTDC. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gab48f2504f430718a944323ec861e8d60"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab48f2504f430718a944323ec861e8d60">&#9670;&nbsp;</a></span>HAL_LTDC_IRQHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HAL_LTDC_IRQHandler </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_l_t_d_c___handle_type_def.html">LTDC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hltdc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Handle LTDC interrupt request. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hltdc</td><td>pointer to a <a class="el" href="struct_l_t_d_c___handle_type_def.html" title="LTDC handle Structure definition.">LTDC_HandleTypeDef</a> structure that contains the configuration information for the LTDC.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gab4c02c9776e66b03c61be127ac1e61dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab4c02c9776e66b03c61be127ac1e61dd">&#9670;&nbsp;</a></span>HAL_LTDC_LineEventCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_LTDC_LineEventCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_l_t_d_c___handle_type_def.html">LTDC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hltdc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Line Event callback. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hltdc</td><td>pointer to a <a class="el" href="struct_l_t_d_c___handle_type_def.html" title="LTDC handle Structure definition.">LTDC_HandleTypeDef</a> structure that contains the configuration information for the LTDC. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga36788d6bfab53ac0fa7b2d2fd4dcece3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga36788d6bfab53ac0fa7b2d2fd4dcece3">&#9670;&nbsp;</a></span>HAL_LTDC_ReloadEventCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_LTDC_ReloadEventCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_l_t_d_c___handle_type_def.html">LTDC_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hltdc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reload Event callback. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hltdc</td><td>pointer to a <a class="el" href="struct_l_t_d_c___handle_type_def.html" title="LTDC handle Structure definition.">LTDC_HandleTypeDef</a> structure that contains the configuration information for the LTDC. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

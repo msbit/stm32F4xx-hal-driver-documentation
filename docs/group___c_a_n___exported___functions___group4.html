@@ -73,18 +73,149 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga6787c99e826f1982c3519d76d7754f39"><td class="memItemLeft" align="right" valign="top"><a id="ga6787c99e826f1982c3519d76d7754f39"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_CAN_ActivateNotification</b> (<a class="el" href="group___c_a_n___exported___types.html#gab7cb5283f4d9a37525a360300e6f702e">CAN_HandleTypeDef</a> *hcan, uint32_t ActiveITs)</td></tr>
+<tr class="memitem:ga6787c99e826f1982c3519d76d7754f39"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_a_n___exported___functions___group4.html#ga6787c99e826f1982c3519d76d7754f39">HAL_CAN_ActivateNotification</a> (<a class="el" href="group___c_a_n___exported___types.html#gab7cb5283f4d9a37525a360300e6f702e">CAN_HandleTypeDef</a> *hcan, uint32_t ActiveITs)</td></tr>
+<tr class="memdesc:ga6787c99e826f1982c3519d76d7754f39"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable interrupts.  <a href="#ga6787c99e826f1982c3519d76d7754f39">More...</a><br /></td></tr>
 <tr class="separator:ga6787c99e826f1982c3519d76d7754f39"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga193e371eec69f7b26a7521c010bd41af"><td class="memItemLeft" align="right" valign="top"><a id="ga193e371eec69f7b26a7521c010bd41af"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_CAN_DeactivateNotification</b> (<a class="el" href="group___c_a_n___exported___types.html#gab7cb5283f4d9a37525a360300e6f702e">CAN_HandleTypeDef</a> *hcan, uint32_t InactiveITs)</td></tr>
+<tr class="memitem:ga193e371eec69f7b26a7521c010bd41af"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_a_n___exported___functions___group4.html#ga193e371eec69f7b26a7521c010bd41af">HAL_CAN_DeactivateNotification</a> (<a class="el" href="group___c_a_n___exported___types.html#gab7cb5283f4d9a37525a360300e6f702e">CAN_HandleTypeDef</a> *hcan, uint32_t InactiveITs)</td></tr>
+<tr class="memdesc:ga193e371eec69f7b26a7521c010bd41af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disable interrupts.  <a href="#ga193e371eec69f7b26a7521c010bd41af">More...</a><br /></td></tr>
 <tr class="separator:ga193e371eec69f7b26a7521c010bd41af"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gadf2b0310545d5b616ff26b6b4488df4b"><td class="memItemLeft" align="right" valign="top"><a id="gadf2b0310545d5b616ff26b6b4488df4b"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_CAN_IRQHandler</b> (<a class="el" href="group___c_a_n___exported___types.html#gab7cb5283f4d9a37525a360300e6f702e">CAN_HandleTypeDef</a> *hcan)</td></tr>
+<tr class="memitem:gadf2b0310545d5b616ff26b6b4488df4b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_a_n___exported___functions___group4.html#gadf2b0310545d5b616ff26b6b4488df4b">HAL_CAN_IRQHandler</a> (<a class="el" href="group___c_a_n___exported___types.html#gab7cb5283f4d9a37525a360300e6f702e">CAN_HandleTypeDef</a> *hcan)</td></tr>
+<tr class="memdesc:gadf2b0310545d5b616ff26b6b4488df4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handles CAN interrupt request.  <a href="#gadf2b0310545d5b616ff26b6b4488df4b">More...</a><br /></td></tr>
 <tr class="separator:gadf2b0310545d5b616ff26b6b4488df4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>Interrupts management. </p>
+<pre class="fragment">  ==============================================================================
+                       ##### Interrupts management #####
+  ==============================================================================
+    [..]  This section provides functions allowing to:
+      (+) HAL_CAN_ActivateNotification      : Enable interrupts
+      (+) HAL_CAN_DeactivateNotification    : Disable interrupts
+      (+) HAL_CAN_IRQHandler                : Handles CAN interrupt request</pre> <h2 class="groupheader">Function Documentation</h2>
+<a id="ga6787c99e826f1982c3519d76d7754f39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6787c99e826f1982c3519d76d7754f39">&#9670;&nbsp;</a></span>HAL_CAN_ActivateNotification()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_CAN_ActivateNotification </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___c_a_n___exported___types.html#gab7cb5283f4d9a37525a360300e6f702e">CAN_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hcan</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>ActiveITs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Enable interrupts. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hcan</td><td>pointer to an CAN_HandleTypeDef structure that contains the configuration information for the specified CAN. </td></tr>
+    <tr><td class="paramname">ActiveITs</td><td>indicates which interrupts will be enabled. This parameter can be any combination of <ul>
+<li>CAN_Interrupts. </li>
+</ul>
+</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga193e371eec69f7b26a7521c010bd41af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga193e371eec69f7b26a7521c010bd41af">&#9670;&nbsp;</a></span>HAL_CAN_DeactivateNotification()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_CAN_DeactivateNotification </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___c_a_n___exported___types.html#gab7cb5283f4d9a37525a360300e6f702e">CAN_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hcan</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>InactiveITs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Disable interrupts. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hcan</td><td>pointer to an CAN_HandleTypeDef structure that contains the configuration information for the specified CAN. </td></tr>
+    <tr><td class="paramname">InactiveITs</td><td>indicates which interrupts will be disabled. This parameter can be any combination of <ul>
+<li>CAN_Interrupts. </li>
+</ul>
+</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gadf2b0310545d5b616ff26b6b4488df4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gadf2b0310545d5b616ff26b6b4488df4b">&#9670;&nbsp;</a></span>HAL_CAN_IRQHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HAL_CAN_IRQHandler </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___c_a_n___exported___types.html#gab7cb5283f4d9a37525a360300e6f702e">CAN_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hcan</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Handles CAN interrupt request. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hcan</td><td>pointer to a CAN_HandleTypeDef structure that contains the configuration information for the specified CAN. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

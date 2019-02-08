@@ -64,17 +64,59 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">Channel state function<div class="ingroups"><a class="el" href="group___d_f_s_d_m___exported___functions.html">DFSDM Exported Functions</a></div></div>  </div>
+<div class="title">Channel state function<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___d_f_s_d_m.html">DFSDM</a> &raquo; <a class="el" href="group___d_f_s_d_m___exported___functions.html">DFSDM Exported Functions</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Channel state function.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga1557e06cb9b288eb0cebf557d510ad25"><td class="memItemLeft" align="right" valign="top"><a id="ga1557e06cb9b288eb0cebf557d510ad25"></a>
-HAL_DFSDM_Channel_StateTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_DFSDM_ChannelGetState</b> (<a class="el" href="struct_d_f_s_d_m___channel___handle_type_def.html">DFSDM_Channel_HandleTypeDef</a> *hdfsdm_channel)</td></tr>
+<tr class="memitem:ga1557e06cb9b288eb0cebf557d510ad25"><td class="memItemLeft" align="right" valign="top">HAL_DFSDM_Channel_StateTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_f_s_d_m___exported___functions___group3___channel.html#ga1557e06cb9b288eb0cebf557d510ad25">HAL_DFSDM_ChannelGetState</a> (<a class="el" href="struct_d_f_s_d_m___channel___handle_type_def.html">DFSDM_Channel_HandleTypeDef</a> *hdfsdm_channel)</td></tr>
+<tr class="memdesc:ga1557e06cb9b288eb0cebf557d510ad25"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function allows to get the current DFSDM channel handle state.  <a href="#ga1557e06cb9b288eb0cebf557d510ad25">More...</a><br /></td></tr>
 <tr class="separator:ga1557e06cb9b288eb0cebf557d510ad25"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>Channel state function. </p>
+<pre class="fragment">  ==============================================================================
+                   ##### Channel state function #####
+  ==============================================================================
+    [..]  This section provides function allowing to:
+      (+) Get channel handle state.
+</pre> <h2 class="groupheader">Function Documentation</h2>
+<a id="ga1557e06cb9b288eb0cebf557d510ad25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1557e06cb9b288eb0cebf557d510ad25">&#9670;&nbsp;</a></span>HAL_DFSDM_ChannelGetState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_DFSDM_Channel_StateTypeDef HAL_DFSDM_ChannelGetState </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d_f_s_d_m___channel___handle_type_def.html">DFSDM_Channel_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hdfsdm_channel</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function allows to get the current DFSDM channel handle state. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hdfsdm_channel</td><td>DFSDM channel handle. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">DFSDM</td><td>channel state. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

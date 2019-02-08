@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.15"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>STM32F4xx_HAL_Driver: SPDIFRX_Exported_Functions_Group3</title>
+<title>STM32F4xx_HAL_Driver: Peripheral State and Errors functions</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,20 +64,94 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">SPDIFRX_Exported_Functions_Group3<div class="ingroups"><a class="el" href="group___s_p_d_i_f_r_x___exported___functions.html">SPDIFRX_Exported_Functions</a></div></div>  </div>
+<div class="title">Peripheral State and Errors functions<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___s_p_d_i_f_r_x.html">SPDIFRX</a> &raquo; <a class="el" href="group___s_p_d_i_f_r_x___exported___functions.html">SPDIFRX Exported Functions</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Peripheral State functions.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gae9c2c3259886b6b62a487bb156492c1b"><td class="memItemLeft" align="right" valign="top"><a id="gae9c2c3259886b6b62a487bb156492c1b"></a>
-<a class="el" href="stm32f4xx__hal__spdifrx_8h.html#a15f74ade674b08f73dcaef5d96e3e2f9">HAL_SPDIFRX_StateTypeDef</a>&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SPDIFRX_GetState</b> (<a class="el" href="struct_s_p_d_i_f_r_x___handle_type_def.html">SPDIFRX_HandleTypeDef</a> *hspdif)</td></tr>
+<tr class="memitem:gae9c2c3259886b6b62a487bb156492c1b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="stm32f4xx__hal__spdifrx_8h.html#a15f74ade674b08f73dcaef5d96e3e2f9">HAL_SPDIFRX_StateTypeDef</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_p_d_i_f_r_x___exported___functions___group3.html#gae9c2c3259886b6b62a487bb156492c1b">HAL_SPDIFRX_GetState</a> (<a class="el" href="struct_s_p_d_i_f_r_x___handle_type_def.html">SPDIFRX_HandleTypeDef</a> *hspdif)</td></tr>
+<tr class="memdesc:gae9c2c3259886b6b62a487bb156492c1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the SPDIFRX state.  <a href="#gae9c2c3259886b6b62a487bb156492c1b">More...</a><br /></td></tr>
 <tr class="separator:gae9c2c3259886b6b62a487bb156492c1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae037a4bab40106fa7023b6e111ef1140"><td class="memItemLeft" align="right" valign="top"><a id="gae037a4bab40106fa7023b6e111ef1140"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SPDIFRX_GetError</b> (<a class="el" href="struct_s_p_d_i_f_r_x___handle_type_def.html">SPDIFRX_HandleTypeDef</a> *hspdif)</td></tr>
+<tr class="memitem:gae037a4bab40106fa7023b6e111ef1140"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_p_d_i_f_r_x___exported___functions___group3.html#gae037a4bab40106fa7023b6e111ef1140">HAL_SPDIFRX_GetError</a> (<a class="el" href="struct_s_p_d_i_f_r_x___handle_type_def.html">SPDIFRX_HandleTypeDef</a> *hspdif)</td></tr>
+<tr class="memdesc:gae037a4bab40106fa7023b6e111ef1140"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the SPDIFRX error code.  <a href="#gae037a4bab40106fa7023b6e111ef1140">More...</a><br /></td></tr>
 <tr class="separator:gae037a4bab40106fa7023b6e111ef1140"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>Peripheral State functions. </p>
+<pre class="fragment">===============================================================================
+              ##### Peripheral State and Errors functions #####
+===============================================================================
+[..]
+     This subsection permit to get in run-time the status of the peripheral
+     and the data flow.</pre> <h2 class="groupheader">Function Documentation</h2>
+<a id="gae037a4bab40106fa7023b6e111ef1140"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae037a4bab40106fa7023b6e111ef1140">&#9670;&nbsp;</a></span>HAL_SPDIFRX_GetError()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t HAL_SPDIFRX_GetError </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_s_p_d_i_f_r_x___handle_type_def.html">SPDIFRX_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hspdif</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return the SPDIFRX error code. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hspdif</td><td>SPDIFRX handle </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">SPDIFRX</td><td>Error Code </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gae9c2c3259886b6b62a487bb156492c1b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae9c2c3259886b6b62a487bb156492c1b">&#9670;&nbsp;</a></span>HAL_SPDIFRX_GetState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="stm32f4xx__hal__spdifrx_8h.html#a15f74ade674b08f73dcaef5d96e3e2f9">HAL_SPDIFRX_StateTypeDef</a> HAL_SPDIFRX_GetState </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_s_p_d_i_f_r_x___handle_type_def.html">SPDIFRX_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hspdif</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return the SPDIFRX state. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hspdif</td><td>SPDIFRX handle </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>state </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

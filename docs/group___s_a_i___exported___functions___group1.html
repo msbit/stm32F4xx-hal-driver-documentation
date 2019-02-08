@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.15"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>STM32F4xx_HAL_Driver: SAI_Exported_Functions_Group1</title>
+<title>STM32F4xx_HAL_Driver: Initialization and de-initialization functions</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,29 +64,240 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">SAI_Exported_Functions_Group1<div class="ingroups"><a class="el" href="group___s_a_i___exported___functions.html">SAI_Exported_Functions</a></div></div>  </div>
+<div class="title">Initialization and de-initialization functions<div class="ingroups"><a class="el" href="group___s_t_m32_f4xx___h_a_l___driver.html">STM32F4xx_HAL_Driver</a> &raquo; <a class="el" href="group___s_a_i.html">SAI</a> &raquo; <a class="el" href="group___s_a_i___exported___functions.html">SAI Exported Functions</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Initialization and Configuration functions.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga1da223c65cec409fb1cebb06cc33ce2d"><td class="memItemLeft" align="right" valign="top"><a id="ga1da223c65cec409fb1cebb06cc33ce2d"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SAI_InitProtocol</b> (<a class="el" href="struct_____s_a_i___handle_type_def.html">SAI_HandleTypeDef</a> *hsai, uint32_t protocol, uint32_t datasize, uint32_t nbslot)</td></tr>
+<tr class="memitem:ga1da223c65cec409fb1cebb06cc33ce2d"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_a_i___exported___functions___group1.html#ga1da223c65cec409fb1cebb06cc33ce2d">HAL_SAI_InitProtocol</a> (<a class="el" href="struct_____s_a_i___handle_type_def.html">SAI_HandleTypeDef</a> *hsai, uint32_t protocol, uint32_t datasize, uint32_t nbslot)</td></tr>
+<tr class="memdesc:ga1da223c65cec409fb1cebb06cc33ce2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the structure FrameInit, SlotInit and the low part of Init according to the specified parameters and call the function HAL_SAI_Init to initialize the SAI block.  <a href="#ga1da223c65cec409fb1cebb06cc33ce2d">More...</a><br /></td></tr>
 <tr class="separator:ga1da223c65cec409fb1cebb06cc33ce2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab35070be65322c860ddfca04ff5dc8cb"><td class="memItemLeft" align="right" valign="top"><a id="gab35070be65322c860ddfca04ff5dc8cb"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SAI_Init</b> (<a class="el" href="struct_____s_a_i___handle_type_def.html">SAI_HandleTypeDef</a> *hsai)</td></tr>
+<tr class="memitem:gab35070be65322c860ddfca04ff5dc8cb"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_a_i___exported___functions___group1.html#gab35070be65322c860ddfca04ff5dc8cb">HAL_SAI_Init</a> (<a class="el" href="struct_____s_a_i___handle_type_def.html">SAI_HandleTypeDef</a> *hsai)</td></tr>
+<tr class="memdesc:gab35070be65322c860ddfca04ff5dc8cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the SAI according to the specified parameters. in the <a class="el" href="struct_s_a_i___init_type_def.html">SAI_InitTypeDef</a> structure and initialize the associated handle.  <a href="#gab35070be65322c860ddfca04ff5dc8cb">More...</a><br /></td></tr>
 <tr class="separator:gab35070be65322c860ddfca04ff5dc8cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae7028c570d2c9b64cb152d5a5bdb9f70"><td class="memItemLeft" align="right" valign="top"><a id="gae7028c570d2c9b64cb152d5a5bdb9f70"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SAI_DeInit</b> (<a class="el" href="struct_____s_a_i___handle_type_def.html">SAI_HandleTypeDef</a> *hsai)</td></tr>
+<tr class="memitem:gae7028c570d2c9b64cb152d5a5bdb9f70"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_a_i___exported___functions___group1.html#gae7028c570d2c9b64cb152d5a5bdb9f70">HAL_SAI_DeInit</a> (<a class="el" href="struct_____s_a_i___handle_type_def.html">SAI_HandleTypeDef</a> *hsai)</td></tr>
+<tr class="memdesc:gae7028c570d2c9b64cb152d5a5bdb9f70"><td class="mdescLeft">&#160;</td><td class="mdescRight">DeInitialize the SAI peripheral.  <a href="#gae7028c570d2c9b64cb152d5a5bdb9f70">More...</a><br /></td></tr>
 <tr class="separator:gae7028c570d2c9b64cb152d5a5bdb9f70"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae6196683176c27592bf706a813105ad4"><td class="memItemLeft" align="right" valign="top"><a id="gae6196683176c27592bf706a813105ad4"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SAI_MspInit</b> (<a class="el" href="struct_____s_a_i___handle_type_def.html">SAI_HandleTypeDef</a> *hsai)</td></tr>
-<tr class="separator:gae6196683176c27592bf706a813105ad4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8327b1392a5000f552a9b8d35a0ae6ca"><td class="memItemLeft" align="right" valign="top"><a id="ga8327b1392a5000f552a9b8d35a0ae6ca"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>HAL_SAI_MspDeInit</b> (<a class="el" href="struct_____s_a_i___handle_type_def.html">SAI_HandleTypeDef</a> *hsai)</td></tr>
-<tr class="separator:ga8327b1392a5000f552a9b8d35a0ae6ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4d4d3f7d19a519502f79d29d0efc4e7b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_a_i___exported___functions___group1.html#ga4d4d3f7d19a519502f79d29d0efc4e7b">HAL_SAI_MspInit</a> (<a class="el" href="struct_____s_a_i___handle_type_def.html">SAI_HandleTypeDef</a> *hsai)</td></tr>
+<tr class="memdesc:ga4d4d3f7d19a519502f79d29d0efc4e7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the SAI MSP.  <a href="#ga4d4d3f7d19a519502f79d29d0efc4e7b">More...</a><br /></td></tr>
+<tr class="separator:ga4d4d3f7d19a519502f79d29d0efc4e7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab06f4a3348fed0ff0b45fdb4fa124e55"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_a_i___exported___functions___group1.html#gab06f4a3348fed0ff0b45fdb4fa124e55">HAL_SAI_MspDeInit</a> (<a class="el" href="struct_____s_a_i___handle_type_def.html">SAI_HandleTypeDef</a> *hsai)</td></tr>
+<tr class="memdesc:gab06f4a3348fed0ff0b45fdb4fa124e55"><td class="mdescLeft">&#160;</td><td class="mdescRight">DeInitialize the SAI MSP.  <a href="#gab06f4a3348fed0ff0b45fdb4fa124e55">More...</a><br /></td></tr>
+<tr class="separator:gab06f4a3348fed0ff0b45fdb4fa124e55"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>Initialization and Configuration functions. </p>
+<pre class="fragment"> ===============================================================================
+            ##### Initialization and de-initialization functions #####
+ ===============================================================================
+  [..]  This subsection provides a set of functions allowing to initialize and
+        de-initialize the SAIx peripheral:
+
+      (+) User must implement HAL_SAI_MspInit() function in which he configures
+          all related peripherals resources (CLOCK, GPIO, DMA, IT and NVIC ).
+
+      (+) Call the function HAL_SAI_Init() to configure the selected device with
+          the selected configuration:
+        (++) Mode (Master/slave TX/RX)
+        (++) Protocol
+        (++) Data Size
+        (++) MCLK Output
+        (++) Audio frequency
+        (++) FIFO Threshold
+        (++) Frame Config
+        (++) Slot Config
+
+      (+) Call the function HAL_SAI_DeInit() to restore the default configuration
+          of the selected SAI peripheral.</pre> <h2 class="groupheader">Function Documentation</h2>
+<a id="gae7028c570d2c9b64cb152d5a5bdb9f70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae7028c570d2c9b64cb152d5a5bdb9f70">&#9670;&nbsp;</a></span>HAL_SAI_DeInit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_SAI_DeInit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_____s_a_i___handle_type_def.html">SAI_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hsai</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>DeInitialize the SAI peripheral. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hsai</td><td>pointer to a SAI_HandleTypeDef structure that contains the configuration information for SAI module. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gab35070be65322c860ddfca04ff5dc8cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab35070be65322c860ddfca04ff5dc8cb">&#9670;&nbsp;</a></span>HAL_SAI_Init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_SAI_Init </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_____s_a_i___handle_type_def.html">SAI_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hsai</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initialize the SAI according to the specified parameters. in the <a class="el" href="struct_s_a_i___init_type_def.html">SAI_InitTypeDef</a> structure and initialize the associated handle. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hsai</td><td>pointer to a SAI_HandleTypeDef structure that contains the configuration information for SAI module. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga1da223c65cec409fb1cebb06cc33ce2d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1da223c65cec409fb1cebb06cc33ce2d">&#9670;&nbsp;</a></span>HAL_SAI_InitProtocol()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HAL_StatusTypeDef HAL_SAI_InitProtocol </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_____s_a_i___handle_type_def.html">SAI_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hsai</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>protocol</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>datasize</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>nbslot</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initialize the structure FrameInit, SlotInit and the low part of Init according to the specified parameters and call the function HAL_SAI_Init to initialize the SAI block. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hsai</td><td>pointer to a SAI_HandleTypeDef structure that contains the configuration information for SAI module. </td></tr>
+    <tr><td class="paramname">protocol</td><td>one of the supported protocol <a class="el" href="group___s_a_i___protocol.html">SAI Supported protocol</a> </td></tr>
+    <tr><td class="paramname">datasize</td><td>one of the supported datasize <a class="el" href="group___s_a_i___protocol___data_size.html">SAI protocol data size</a> the configuration information for SAI module. </td></tr>
+    <tr><td class="paramname">nbslot</td><td>Number of slot. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">HAL</td><td>status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gab06f4a3348fed0ff0b45fdb4fa124e55"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab06f4a3348fed0ff0b45fdb4fa124e55">&#9670;&nbsp;</a></span>HAL_SAI_MspDeInit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_SAI_MspDeInit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_____s_a_i___handle_type_def.html">SAI_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hsai</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>DeInitialize the SAI MSP. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hsai</td><td>pointer to a SAI_HandleTypeDef structure that contains the configuration information for SAI module. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga4d4d3f7d19a519502f79d29d0efc4e7b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4d4d3f7d19a519502f79d29d0efc4e7b">&#9670;&nbsp;</a></span>HAL_SAI_MspInit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__weak void HAL_SAI_MspInit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_____s_a_i___handle_type_def.html">SAI_HandleTypeDef</a> *&#160;</td>
+          <td class="paramname"><em>hsai</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initialize the SAI MSP. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hsai</td><td>pointer to a SAI_HandleTypeDef structure that contains the configuration information for SAI module. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

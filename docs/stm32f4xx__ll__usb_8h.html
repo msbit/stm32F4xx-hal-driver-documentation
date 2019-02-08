@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.15"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>STM32F4xx_HAL_Driver: stm32f4xx_ll_usb.h File Reference</title>
+<title>STM32F4xx_HAL_Driver: Inc/stm32f4xx_ll_usb.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -59,6 +59,10 @@ $(function() {
 </iframe>
 </div>
 
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_f93dfce691d792349f1c14ede440e2e6.html">Inc</a></li>  </ul>
+</div>
 </div><!-- top -->
 <div class="header">
   <div class="summary">
@@ -121,138 +125,138 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a0d75ee19ea8d81e77de09687a1ee2558"><td class="memItemLeft" align="right" valign="top"><a id="a0d75ee19ea8d81e77de09687a1ee2558"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>USB_CoreInit</b> (USB_OTG_GlobalTypeDef *USBx, <a class="el" href="struct_u_s_b___o_t_g___cfg_type_def.html">USB_OTG_CfgTypeDef</a> Init)</td></tr>
-<tr class="separator:a0d75ee19ea8d81e77de09687a1ee2558"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa5dd04c2774c51327e589f8485935461"><td class="memItemLeft" align="right" valign="top"><a id="aa5dd04c2774c51327e589f8485935461"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>USB_DevInit</b> (USB_OTG_GlobalTypeDef *USBx, <a class="el" href="struct_u_s_b___o_t_g___cfg_type_def.html">USB_OTG_CfgTypeDef</a> Init)</td></tr>
-<tr class="separator:aa5dd04c2774c51327e589f8485935461"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa8938bc57ec4994b1d2a04dceb12c67a"><td class="memItemLeft" align="right" valign="top"><a id="aa8938bc57ec4994b1d2a04dceb12c67a"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>USB_EnableGlobalInt</b> (USB_OTG_GlobalTypeDef *USBx)</td></tr>
-<tr class="separator:aa8938bc57ec4994b1d2a04dceb12c67a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a81380ef9f6be2f72b70284d2108b4aed"><td class="memItemLeft" align="right" valign="top"><a id="a81380ef9f6be2f72b70284d2108b4aed"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>USB_DisableGlobalInt</b> (USB_OTG_GlobalTypeDef *USBx)</td></tr>
-<tr class="separator:a81380ef9f6be2f72b70284d2108b4aed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5a4aac40f7bf2ea2c35479486a8be46c"><td class="memItemLeft" align="right" valign="top"><a id="a5a4aac40f7bf2ea2c35479486a8be46c"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>USB_SetCurrentMode</b> (USB_OTG_GlobalTypeDef *USBx, USB_OTG_ModeTypeDef mode)</td></tr>
-<tr class="separator:a5a4aac40f7bf2ea2c35479486a8be46c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae525103b6b386062da0eb51ac245b8d5"><td class="memItemLeft" align="right" valign="top"><a id="ae525103b6b386062da0eb51ac245b8d5"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>USB_SetDevSpeed</b> (USB_OTG_GlobalTypeDef *USBx, uint8_t speed)</td></tr>
-<tr class="separator:ae525103b6b386062da0eb51ac245b8d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa6b12b26de0120d7d7bffb62695ba7ba"><td class="memItemLeft" align="right" valign="top"><a id="aa6b12b26de0120d7d7bffb62695ba7ba"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>USB_FlushRxFifo</b> (USB_OTG_GlobalTypeDef *USBx)</td></tr>
-<tr class="separator:aa6b12b26de0120d7d7bffb62695ba7ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad030b63ce62d1a46bf657885fdca5d1f"><td class="memItemLeft" align="right" valign="top"><a id="ad030b63ce62d1a46bf657885fdca5d1f"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>USB_FlushTxFifo</b> (USB_OTG_GlobalTypeDef *USBx, uint32_t num)</td></tr>
-<tr class="separator:ad030b63ce62d1a46bf657885fdca5d1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a24b1563293283161367493068e2b3bf2"><td class="memItemLeft" align="right" valign="top"><a id="a24b1563293283161367493068e2b3bf2"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>USB_ActivateEndpoint</b> (USB_OTG_GlobalTypeDef *USBx, <a class="el" href="struct_u_s_b___o_t_g___e_p_type_def.html">USB_OTG_EPTypeDef</a> *ep)</td></tr>
-<tr class="separator:a24b1563293283161367493068e2b3bf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3b35081e5f91ddfb281509d57b196fa2"><td class="memItemLeft" align="right" valign="top"><a id="a3b35081e5f91ddfb281509d57b196fa2"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>USB_DeactivateEndpoint</b> (USB_OTG_GlobalTypeDef *USBx, <a class="el" href="struct_u_s_b___o_t_g___e_p_type_def.html">USB_OTG_EPTypeDef</a> *ep)</td></tr>
-<tr class="separator:a3b35081e5f91ddfb281509d57b196fa2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7dbd281b9b34afc6955975efe0accb7f"><td class="memItemLeft" align="right" valign="top"><a id="a7dbd281b9b34afc6955975efe0accb7f"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>USB_ActivateDedicatedEndpoint</b> (USB_OTG_GlobalTypeDef *USBx, <a class="el" href="struct_u_s_b___o_t_g___e_p_type_def.html">USB_OTG_EPTypeDef</a> *ep)</td></tr>
-<tr class="separator:a7dbd281b9b34afc6955975efe0accb7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a81c8d15427a13d6f160bb412cf8438fe"><td class="memItemLeft" align="right" valign="top"><a id="a81c8d15427a13d6f160bb412cf8438fe"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>USB_DeactivateDedicatedEndpoint</b> (USB_OTG_GlobalTypeDef *USBx, <a class="el" href="struct_u_s_b___o_t_g___e_p_type_def.html">USB_OTG_EPTypeDef</a> *ep)</td></tr>
-<tr class="separator:a81c8d15427a13d6f160bb412cf8438fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a63374b45ebc7847f9dad9df9e7bb1bdf"><td class="memItemLeft" align="right" valign="top"><a id="a63374b45ebc7847f9dad9df9e7bb1bdf"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>USB_EPStartXfer</b> (USB_OTG_GlobalTypeDef *USBx, <a class="el" href="struct_u_s_b___o_t_g___e_p_type_def.html">USB_OTG_EPTypeDef</a> *ep, uint8_t dma)</td></tr>
-<tr class="separator:a63374b45ebc7847f9dad9df9e7bb1bdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae86c80da4ce7318355d13ad43c4b7071"><td class="memItemLeft" align="right" valign="top"><a id="ae86c80da4ce7318355d13ad43c4b7071"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>USB_EP0StartXfer</b> (USB_OTG_GlobalTypeDef *USBx, <a class="el" href="struct_u_s_b___o_t_g___e_p_type_def.html">USB_OTG_EPTypeDef</a> *ep, uint8_t dma)</td></tr>
-<tr class="separator:ae86c80da4ce7318355d13ad43c4b7071"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad132b5e9498d615298128b4da3561c06"><td class="memItemLeft" align="right" valign="top"><a id="ad132b5e9498d615298128b4da3561c06"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>USB_WritePacket</b> (USB_OTG_GlobalTypeDef *USBx, uint8_t *src, uint8_t ch_ep_num, uint16_t len, uint8_t dma)</td></tr>
-<tr class="separator:ad132b5e9498d615298128b4da3561c06"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad70dd53bfad136d2ff076e81073a4640"><td class="memItemLeft" align="right" valign="top"><a id="ad70dd53bfad136d2ff076e81073a4640"></a>
-void *&#160;</td><td class="memItemRight" valign="bottom"><b>USB_ReadPacket</b> (USB_OTG_GlobalTypeDef *USBx, uint8_t *dest, uint16_t len)</td></tr>
-<tr class="separator:ad70dd53bfad136d2ff076e81073a4640"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a49d9acbeb71854203ee8fcc41e97083e"><td class="memItemLeft" align="right" valign="top"><a id="a49d9acbeb71854203ee8fcc41e97083e"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>USB_EPSetStall</b> (USB_OTG_GlobalTypeDef *USBx, <a class="el" href="struct_u_s_b___o_t_g___e_p_type_def.html">USB_OTG_EPTypeDef</a> *ep)</td></tr>
-<tr class="separator:a49d9acbeb71854203ee8fcc41e97083e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d49678cb1dafba00799b3004101bd30"><td class="memItemLeft" align="right" valign="top"><a id="a3d49678cb1dafba00799b3004101bd30"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>USB_EPClearStall</b> (USB_OTG_GlobalTypeDef *USBx, <a class="el" href="struct_u_s_b___o_t_g___e_p_type_def.html">USB_OTG_EPTypeDef</a> *ep)</td></tr>
-<tr class="separator:a3d49678cb1dafba00799b3004101bd30"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad2b16aae6886a7e176da4a4509aed556"><td class="memItemLeft" align="right" valign="top"><a id="ad2b16aae6886a7e176da4a4509aed556"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>USB_SetDevAddress</b> (USB_OTG_GlobalTypeDef *USBx, uint8_t address)</td></tr>
-<tr class="separator:ad2b16aae6886a7e176da4a4509aed556"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a67e64958db2e5056c7e2813a20f17b95"><td class="memItemLeft" align="right" valign="top"><a id="a67e64958db2e5056c7e2813a20f17b95"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>USB_DevConnect</b> (USB_OTG_GlobalTypeDef *USBx)</td></tr>
-<tr class="separator:a67e64958db2e5056c7e2813a20f17b95"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a249941d59e0792165e65a25491d2b864"><td class="memItemLeft" align="right" valign="top"><a id="a249941d59e0792165e65a25491d2b864"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>USB_DevDisconnect</b> (USB_OTG_GlobalTypeDef *USBx)</td></tr>
-<tr class="separator:a249941d59e0792165e65a25491d2b864"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b8105e4d0e5056de066d99cedf923e3"><td class="memItemLeft" align="right" valign="top"><a id="a8b8105e4d0e5056de066d99cedf923e3"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>USB_StopDevice</b> (USB_OTG_GlobalTypeDef *USBx)</td></tr>
-<tr class="separator:a8b8105e4d0e5056de066d99cedf923e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af9e86962ba57eb7450190cc934da4af7"><td class="memItemLeft" align="right" valign="top"><a id="af9e86962ba57eb7450190cc934da4af7"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>USB_ActivateSetup</b> (USB_OTG_GlobalTypeDef *USBx)</td></tr>
-<tr class="separator:af9e86962ba57eb7450190cc934da4af7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac8d31352cfdb0efe0ec1f1de9cf5e141"><td class="memItemLeft" align="right" valign="top"><a id="ac8d31352cfdb0efe0ec1f1de9cf5e141"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>USB_EP0_OutStart</b> (USB_OTG_GlobalTypeDef *USBx, uint8_t dma, uint8_t *psetup)</td></tr>
-<tr class="separator:ac8d31352cfdb0efe0ec1f1de9cf5e141"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9afe06cc2fc52b532b389d06eb89eac0"><td class="memItemLeft" align="right" valign="top"><a id="a9afe06cc2fc52b532b389d06eb89eac0"></a>
-uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>USB_GetDevSpeed</b> (USB_OTG_GlobalTypeDef *USBx)</td></tr>
-<tr class="separator:a9afe06cc2fc52b532b389d06eb89eac0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a093dea89e7818ca37124e9497d82be4f"><td class="memItemLeft" align="right" valign="top"><a id="a093dea89e7818ca37124e9497d82be4f"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>USB_GetMode</b> (USB_OTG_GlobalTypeDef *USBx)</td></tr>
-<tr class="separator:a093dea89e7818ca37124e9497d82be4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a11d36625a0724ef12a0021226ceeefd8"><td class="memItemLeft" align="right" valign="top"><a id="a11d36625a0724ef12a0021226ceeefd8"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>USB_ReadInterrupts</b> (USB_OTG_GlobalTypeDef *USBx)</td></tr>
-<tr class="separator:a11d36625a0724ef12a0021226ceeefd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ec1c1ec6283d2bf920063f33c89b6fd"><td class="memItemLeft" align="right" valign="top"><a id="a4ec1c1ec6283d2bf920063f33c89b6fd"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>USB_ReadDevAllOutEpInterrupt</b> (USB_OTG_GlobalTypeDef *USBx)</td></tr>
-<tr class="separator:a4ec1c1ec6283d2bf920063f33c89b6fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae54c4aada2d1a86a568094d9a05bdaa5"><td class="memItemLeft" align="right" valign="top"><a id="ae54c4aada2d1a86a568094d9a05bdaa5"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>USB_ReadDevOutEPInterrupt</b> (USB_OTG_GlobalTypeDef *USBx, uint8_t epnum)</td></tr>
-<tr class="separator:ae54c4aada2d1a86a568094d9a05bdaa5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a916a477ae2350e7d705737f294ed8495"><td class="memItemLeft" align="right" valign="top"><a id="a916a477ae2350e7d705737f294ed8495"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>USB_ReadDevAllInEpInterrupt</b> (USB_OTG_GlobalTypeDef *USBx)</td></tr>
-<tr class="separator:a916a477ae2350e7d705737f294ed8495"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeea704a250a88efda323dfd8afe1591a"><td class="memItemLeft" align="right" valign="top"><a id="aeea704a250a88efda323dfd8afe1591a"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>USB_ReadDevInEPInterrupt</b> (USB_OTG_GlobalTypeDef *USBx, uint8_t epnum)</td></tr>
-<tr class="separator:aeea704a250a88efda323dfd8afe1591a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adac7444a739b00efd021311e1d1c73da"><td class="memItemLeft" align="right" valign="top"><a id="adac7444a739b00efd021311e1d1c73da"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>USB_ClearInterrupts</b> (USB_OTG_GlobalTypeDef *USBx, uint32_t interrupt)</td></tr>
-<tr class="separator:adac7444a739b00efd021311e1d1c73da"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d918fd95eeaea98ba8ef29e42f3c2d9"><td class="memItemLeft" align="right" valign="top"><a id="a3d918fd95eeaea98ba8ef29e42f3c2d9"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>USB_HostInit</b> (USB_OTG_GlobalTypeDef *USBx, <a class="el" href="struct_u_s_b___o_t_g___cfg_type_def.html">USB_OTG_CfgTypeDef</a> cfg)</td></tr>
-<tr class="separator:a3d918fd95eeaea98ba8ef29e42f3c2d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a42af3f9d47f538969ec42f626b617a32"><td class="memItemLeft" align="right" valign="top"><a id="a42af3f9d47f538969ec42f626b617a32"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>USB_InitFSLSPClkSel</b> (USB_OTG_GlobalTypeDef *USBx, uint8_t freq)</td></tr>
-<tr class="separator:a42af3f9d47f538969ec42f626b617a32"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8326624408f50cc9595346008ef1be48"><td class="memItemLeft" align="right" valign="top"><a id="a8326624408f50cc9595346008ef1be48"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>USB_ResetPort</b> (USB_OTG_GlobalTypeDef *USBx)</td></tr>
-<tr class="separator:a8326624408f50cc9595346008ef1be48"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e73b669bcaa9fe5178f11fa7d9243bb"><td class="memItemLeft" align="right" valign="top"><a id="a6e73b669bcaa9fe5178f11fa7d9243bb"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>USB_DriveVbus</b> (USB_OTG_GlobalTypeDef *USBx, uint8_t state)</td></tr>
-<tr class="separator:a6e73b669bcaa9fe5178f11fa7d9243bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8f1fcb7410ab3e45092877c3023a82f4"><td class="memItemLeft" align="right" valign="top"><a id="a8f1fcb7410ab3e45092877c3023a82f4"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>USB_GetHostSpeed</b> (USB_OTG_GlobalTypeDef *USBx)</td></tr>
-<tr class="separator:a8f1fcb7410ab3e45092877c3023a82f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf16f56f6b80df65852ec352aed7f4c5"><td class="memItemLeft" align="right" valign="top"><a id="aaf16f56f6b80df65852ec352aed7f4c5"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>USB_GetCurrentFrame</b> (USB_OTG_GlobalTypeDef *USBx)</td></tr>
-<tr class="separator:aaf16f56f6b80df65852ec352aed7f4c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a26a31c650f55cf692149c1055e3b73c4"><td class="memItemLeft" align="right" valign="top"><a id="a26a31c650f55cf692149c1055e3b73c4"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>USB_HC_Init</b> (USB_OTG_GlobalTypeDef *USBx, uint8_t ch_num, uint8_t epnum, uint8_t dev_address, uint8_t speed, uint8_t ep_type, uint16_t mps)</td></tr>
-<tr class="separator:a26a31c650f55cf692149c1055e3b73c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4aec01f7b2311a50cffb637796de533b"><td class="memItemLeft" align="right" valign="top"><a id="a4aec01f7b2311a50cffb637796de533b"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>USB_HC_StartXfer</b> (USB_OTG_GlobalTypeDef *USBx, <a class="el" href="struct_u_s_b___o_t_g___h_c_type_def.html">USB_OTG_HCTypeDef</a> *hc, uint8_t dma)</td></tr>
-<tr class="separator:a4aec01f7b2311a50cffb637796de533b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab070d4bdfed058053291eb67473c208b"><td class="memItemLeft" align="right" valign="top"><a id="ab070d4bdfed058053291eb67473c208b"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>USB_HC_ReadInterrupt</b> (USB_OTG_GlobalTypeDef *USBx)</td></tr>
-<tr class="separator:ab070d4bdfed058053291eb67473c208b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac97062903159ba84f1efb8572affa15f"><td class="memItemLeft" align="right" valign="top"><a id="ac97062903159ba84f1efb8572affa15f"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>USB_HC_Halt</b> (USB_OTG_GlobalTypeDef *USBx, uint8_t hc_num)</td></tr>
-<tr class="separator:ac97062903159ba84f1efb8572affa15f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5507d076515561acd5c9b91b0afba309"><td class="memItemLeft" align="right" valign="top"><a id="a5507d076515561acd5c9b91b0afba309"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>USB_DoPing</b> (USB_OTG_GlobalTypeDef *USBx, uint8_t ch_num)</td></tr>
-<tr class="separator:a5507d076515561acd5c9b91b0afba309"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abde73cf618c1578fdabb068940418635"><td class="memItemLeft" align="right" valign="top"><a id="abde73cf618c1578fdabb068940418635"></a>
-HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>USB_StopHost</b> (USB_OTG_GlobalTypeDef *USBx)</td></tr>
-<tr class="separator:abde73cf618c1578fdabb068940418635"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3740bf5dc47f18850fef76c1e85ba3fd"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_l___u_s_b___group1.html#ga3740bf5dc47f18850fef76c1e85ba3fd">USB_CoreInit</a> (USB_OTG_GlobalTypeDef *USBx, <a class="el" href="struct_u_s_b___o_t_g___cfg_type_def.html">USB_OTG_CfgTypeDef</a> Init)</td></tr>
+<tr class="memdesc:ga3740bf5dc47f18850fef76c1e85ba3fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the USB Core.  <a href="group___l_l___u_s_b___group1.html#ga3740bf5dc47f18850fef76c1e85ba3fd">More...</a><br /></td></tr>
+<tr class="separator:ga3740bf5dc47f18850fef76c1e85ba3fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf2d919fafee8e689805bed77d2ae4940"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_l___u_s_b___group1.html#gaf2d919fafee8e689805bed77d2ae4940">USB_DevInit</a> (USB_OTG_GlobalTypeDef *USBx, <a class="el" href="struct_u_s_b___o_t_g___cfg_type_def.html">USB_OTG_CfgTypeDef</a> Init)</td></tr>
+<tr class="memdesc:gaf2d919fafee8e689805bed77d2ae4940"><td class="mdescLeft">&#160;</td><td class="mdescRight">USB_DevInit : Initializes the USB_OTG controller registers for device mode.  <a href="group___l_l___u_s_b___group1.html#gaf2d919fafee8e689805bed77d2ae4940">More...</a><br /></td></tr>
+<tr class="separator:gaf2d919fafee8e689805bed77d2ae4940"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa8938bc57ec4994b1d2a04dceb12c67a"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_l___u_s_b___group1.html#gaa8938bc57ec4994b1d2a04dceb12c67a">USB_EnableGlobalInt</a> (USB_OTG_GlobalTypeDef *USBx)</td></tr>
+<tr class="memdesc:gaa8938bc57ec4994b1d2a04dceb12c67a"><td class="mdescLeft">&#160;</td><td class="mdescRight">USB_EnableGlobalInt Enables the controller's Global Int in the AHB Config reg.  <a href="group___l_l___u_s_b___group1.html#gaa8938bc57ec4994b1d2a04dceb12c67a">More...</a><br /></td></tr>
+<tr class="separator:gaa8938bc57ec4994b1d2a04dceb12c67a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga81380ef9f6be2f72b70284d2108b4aed"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_l___u_s_b___group1.html#ga81380ef9f6be2f72b70284d2108b4aed">USB_DisableGlobalInt</a> (USB_OTG_GlobalTypeDef *USBx)</td></tr>
+<tr class="memdesc:ga81380ef9f6be2f72b70284d2108b4aed"><td class="mdescLeft">&#160;</td><td class="mdescRight">USB_DisableGlobalInt Disable the controller's Global Int in the AHB Config reg.  <a href="group___l_l___u_s_b___group1.html#ga81380ef9f6be2f72b70284d2108b4aed">More...</a><br /></td></tr>
+<tr class="separator:ga81380ef9f6be2f72b70284d2108b4aed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5a4aac40f7bf2ea2c35479486a8be46c"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_l___u_s_b___group1.html#ga5a4aac40f7bf2ea2c35479486a8be46c">USB_SetCurrentMode</a> (USB_OTG_GlobalTypeDef *USBx, USB_OTG_ModeTypeDef mode)</td></tr>
+<tr class="memdesc:ga5a4aac40f7bf2ea2c35479486a8be46c"><td class="mdescLeft">&#160;</td><td class="mdescRight">USB_SetCurrentMode : Set functional mode.  <a href="group___l_l___u_s_b___group1.html#ga5a4aac40f7bf2ea2c35479486a8be46c">More...</a><br /></td></tr>
+<tr class="separator:ga5a4aac40f7bf2ea2c35479486a8be46c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae525103b6b386062da0eb51ac245b8d5"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_l___u_s_b___group1.html#gae525103b6b386062da0eb51ac245b8d5">USB_SetDevSpeed</a> (USB_OTG_GlobalTypeDef *USBx, uint8_t speed)</td></tr>
+<tr class="memdesc:gae525103b6b386062da0eb51ac245b8d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">USB_SetDevSpeed :Initializes the DevSpd field of DCFG register depending the PHY type and the enumeration speed of the device.  <a href="group___l_l___u_s_b___group1.html#gae525103b6b386062da0eb51ac245b8d5">More...</a><br /></td></tr>
+<tr class="separator:gae525103b6b386062da0eb51ac245b8d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa6b12b26de0120d7d7bffb62695ba7ba"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_l___u_s_b___group1.html#gaa6b12b26de0120d7d7bffb62695ba7ba">USB_FlushRxFifo</a> (USB_OTG_GlobalTypeDef *USBx)</td></tr>
+<tr class="memdesc:gaa6b12b26de0120d7d7bffb62695ba7ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">USB_FlushRxFifo : Flush Rx FIFO.  <a href="group___l_l___u_s_b___group1.html#gaa6b12b26de0120d7d7bffb62695ba7ba">More...</a><br /></td></tr>
+<tr class="separator:gaa6b12b26de0120d7d7bffb62695ba7ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad030b63ce62d1a46bf657885fdca5d1f"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_l___u_s_b___group1.html#gad030b63ce62d1a46bf657885fdca5d1f">USB_FlushTxFifo</a> (USB_OTG_GlobalTypeDef *USBx, uint32_t num)</td></tr>
+<tr class="memdesc:gad030b63ce62d1a46bf657885fdca5d1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">USB_OTG_FlushTxFifo : Flush a Tx FIFO.  <a href="group___l_l___u_s_b___group1.html#gad030b63ce62d1a46bf657885fdca5d1f">More...</a><br /></td></tr>
+<tr class="separator:gad030b63ce62d1a46bf657885fdca5d1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga24b1563293283161367493068e2b3bf2"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_l___u_s_b___group1.html#ga24b1563293283161367493068e2b3bf2">USB_ActivateEndpoint</a> (USB_OTG_GlobalTypeDef *USBx, <a class="el" href="struct_u_s_b___o_t_g___e_p_type_def.html">USB_OTG_EPTypeDef</a> *ep)</td></tr>
+<tr class="memdesc:ga24b1563293283161367493068e2b3bf2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Activate and configure an endpoint.  <a href="group___l_l___u_s_b___group1.html#ga24b1563293283161367493068e2b3bf2">More...</a><br /></td></tr>
+<tr class="separator:ga24b1563293283161367493068e2b3bf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3b35081e5f91ddfb281509d57b196fa2"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_l___u_s_b___group1.html#ga3b35081e5f91ddfb281509d57b196fa2">USB_DeactivateEndpoint</a> (USB_OTG_GlobalTypeDef *USBx, <a class="el" href="struct_u_s_b___o_t_g___e_p_type_def.html">USB_OTG_EPTypeDef</a> *ep)</td></tr>
+<tr class="memdesc:ga3b35081e5f91ddfb281509d57b196fa2"><td class="mdescLeft">&#160;</td><td class="mdescRight">De-activate and de-initialize an endpoint.  <a href="group___l_l___u_s_b___group1.html#ga3b35081e5f91ddfb281509d57b196fa2">More...</a><br /></td></tr>
+<tr class="separator:ga3b35081e5f91ddfb281509d57b196fa2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7dbd281b9b34afc6955975efe0accb7f"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_l___u_s_b___group1.html#ga7dbd281b9b34afc6955975efe0accb7f">USB_ActivateDedicatedEndpoint</a> (USB_OTG_GlobalTypeDef *USBx, <a class="el" href="struct_u_s_b___o_t_g___e_p_type_def.html">USB_OTG_EPTypeDef</a> *ep)</td></tr>
+<tr class="memdesc:ga7dbd281b9b34afc6955975efe0accb7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Activate and configure a dedicated endpoint.  <a href="group___l_l___u_s_b___group1.html#ga7dbd281b9b34afc6955975efe0accb7f">More...</a><br /></td></tr>
+<tr class="separator:ga7dbd281b9b34afc6955975efe0accb7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga81c8d15427a13d6f160bb412cf8438fe"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_l___u_s_b___group1.html#ga81c8d15427a13d6f160bb412cf8438fe">USB_DeactivateDedicatedEndpoint</a> (USB_OTG_GlobalTypeDef *USBx, <a class="el" href="struct_u_s_b___o_t_g___e_p_type_def.html">USB_OTG_EPTypeDef</a> *ep)</td></tr>
+<tr class="memdesc:ga81c8d15427a13d6f160bb412cf8438fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">De-activate and de-initialize a dedicated endpoint.  <a href="group___l_l___u_s_b___group1.html#ga81c8d15427a13d6f160bb412cf8438fe">More...</a><br /></td></tr>
+<tr class="separator:ga81c8d15427a13d6f160bb412cf8438fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga63374b45ebc7847f9dad9df9e7bb1bdf"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_l___u_s_b___group1.html#ga63374b45ebc7847f9dad9df9e7bb1bdf">USB_EPStartXfer</a> (USB_OTG_GlobalTypeDef *USBx, <a class="el" href="struct_u_s_b___o_t_g___e_p_type_def.html">USB_OTG_EPTypeDef</a> *ep, uint8_t dma)</td></tr>
+<tr class="memdesc:ga63374b45ebc7847f9dad9df9e7bb1bdf"><td class="mdescLeft">&#160;</td><td class="mdescRight">USB_EPStartXfer : setup and starts a transfer over an EP.  <a href="group___l_l___u_s_b___group1.html#ga63374b45ebc7847f9dad9df9e7bb1bdf">More...</a><br /></td></tr>
+<tr class="separator:ga63374b45ebc7847f9dad9df9e7bb1bdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae86c80da4ce7318355d13ad43c4b7071"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_l___u_s_b___group1.html#gae86c80da4ce7318355d13ad43c4b7071">USB_EP0StartXfer</a> (USB_OTG_GlobalTypeDef *USBx, <a class="el" href="struct_u_s_b___o_t_g___e_p_type_def.html">USB_OTG_EPTypeDef</a> *ep, uint8_t dma)</td></tr>
+<tr class="memdesc:gae86c80da4ce7318355d13ad43c4b7071"><td class="mdescLeft">&#160;</td><td class="mdescRight">USB_EP0StartXfer : setup and starts a transfer over the EP 0.  <a href="group___l_l___u_s_b___group1.html#gae86c80da4ce7318355d13ad43c4b7071">More...</a><br /></td></tr>
+<tr class="separator:gae86c80da4ce7318355d13ad43c4b7071"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad132b5e9498d615298128b4da3561c06"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_l___u_s_b___group1.html#gad132b5e9498d615298128b4da3561c06">USB_WritePacket</a> (USB_OTG_GlobalTypeDef *USBx, uint8_t *src, uint8_t ch_ep_num, uint16_t len, uint8_t dma)</td></tr>
+<tr class="memdesc:gad132b5e9498d615298128b4da3561c06"><td class="mdescLeft">&#160;</td><td class="mdescRight">USB_WritePacket : Writes a packet into the Tx FIFO associated with the EP/channel.  <a href="group___l_l___u_s_b___group1.html#gad132b5e9498d615298128b4da3561c06">More...</a><br /></td></tr>
+<tr class="separator:gad132b5e9498d615298128b4da3561c06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad70dd53bfad136d2ff076e81073a4640"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_l___u_s_b___group1.html#gad70dd53bfad136d2ff076e81073a4640">USB_ReadPacket</a> (USB_OTG_GlobalTypeDef *USBx, uint8_t *dest, uint16_t len)</td></tr>
+<tr class="memdesc:gad70dd53bfad136d2ff076e81073a4640"><td class="mdescLeft">&#160;</td><td class="mdescRight">USB_ReadPacket : read a packet from the Tx FIFO associated with the EP/channel.  <a href="group___l_l___u_s_b___group1.html#gad70dd53bfad136d2ff076e81073a4640">More...</a><br /></td></tr>
+<tr class="separator:gad70dd53bfad136d2ff076e81073a4640"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga49d9acbeb71854203ee8fcc41e97083e"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_l___u_s_b___group1.html#ga49d9acbeb71854203ee8fcc41e97083e">USB_EPSetStall</a> (USB_OTG_GlobalTypeDef *USBx, <a class="el" href="struct_u_s_b___o_t_g___e_p_type_def.html">USB_OTG_EPTypeDef</a> *ep)</td></tr>
+<tr class="memdesc:ga49d9acbeb71854203ee8fcc41e97083e"><td class="mdescLeft">&#160;</td><td class="mdescRight">USB_EPSetStall : set a stall condition over an EP.  <a href="group___l_l___u_s_b___group1.html#ga49d9acbeb71854203ee8fcc41e97083e">More...</a><br /></td></tr>
+<tr class="separator:ga49d9acbeb71854203ee8fcc41e97083e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3d49678cb1dafba00799b3004101bd30"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_l___u_s_b___group1.html#ga3d49678cb1dafba00799b3004101bd30">USB_EPClearStall</a> (USB_OTG_GlobalTypeDef *USBx, <a class="el" href="struct_u_s_b___o_t_g___e_p_type_def.html">USB_OTG_EPTypeDef</a> *ep)</td></tr>
+<tr class="memdesc:ga3d49678cb1dafba00799b3004101bd30"><td class="mdescLeft">&#160;</td><td class="mdescRight">USB_EPClearStall : Clear a stall condition over an EP.  <a href="group___l_l___u_s_b___group1.html#ga3d49678cb1dafba00799b3004101bd30">More...</a><br /></td></tr>
+<tr class="separator:ga3d49678cb1dafba00799b3004101bd30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad2b16aae6886a7e176da4a4509aed556"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_l___u_s_b___group1.html#gad2b16aae6886a7e176da4a4509aed556">USB_SetDevAddress</a> (USB_OTG_GlobalTypeDef *USBx, uint8_t address)</td></tr>
+<tr class="memdesc:gad2b16aae6886a7e176da4a4509aed556"><td class="mdescLeft">&#160;</td><td class="mdescRight">USB_SetDevAddress : Stop the usb device mode.  <a href="group___l_l___u_s_b___group1.html#gad2b16aae6886a7e176da4a4509aed556">More...</a><br /></td></tr>
+<tr class="separator:gad2b16aae6886a7e176da4a4509aed556"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga67e64958db2e5056c7e2813a20f17b95"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_l___u_s_b___group1.html#ga67e64958db2e5056c7e2813a20f17b95">USB_DevConnect</a> (USB_OTG_GlobalTypeDef *USBx)</td></tr>
+<tr class="memdesc:ga67e64958db2e5056c7e2813a20f17b95"><td class="mdescLeft">&#160;</td><td class="mdescRight">USB_DevConnect : Connect the USB device by enabling the pull-up/pull-down.  <a href="group___l_l___u_s_b___group1.html#ga67e64958db2e5056c7e2813a20f17b95">More...</a><br /></td></tr>
+<tr class="separator:ga67e64958db2e5056c7e2813a20f17b95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga249941d59e0792165e65a25491d2b864"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_l___u_s_b___group1.html#ga249941d59e0792165e65a25491d2b864">USB_DevDisconnect</a> (USB_OTG_GlobalTypeDef *USBx)</td></tr>
+<tr class="memdesc:ga249941d59e0792165e65a25491d2b864"><td class="mdescLeft">&#160;</td><td class="mdescRight">USB_DevDisconnect : Disconnect the USB device by disabling the pull-up/pull-down.  <a href="group___l_l___u_s_b___group1.html#ga249941d59e0792165e65a25491d2b864">More...</a><br /></td></tr>
+<tr class="separator:ga249941d59e0792165e65a25491d2b864"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8b8105e4d0e5056de066d99cedf923e3"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_l___u_s_b___group1.html#ga8b8105e4d0e5056de066d99cedf923e3">USB_StopDevice</a> (USB_OTG_GlobalTypeDef *USBx)</td></tr>
+<tr class="memdesc:ga8b8105e4d0e5056de066d99cedf923e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">USB_StopDevice : Stop the usb device mode.  <a href="group___l_l___u_s_b___group1.html#ga8b8105e4d0e5056de066d99cedf923e3">More...</a><br /></td></tr>
+<tr class="separator:ga8b8105e4d0e5056de066d99cedf923e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf9e86962ba57eb7450190cc934da4af7"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_l___u_s_b___group1.html#gaf9e86962ba57eb7450190cc934da4af7">USB_ActivateSetup</a> (USB_OTG_GlobalTypeDef *USBx)</td></tr>
+<tr class="memdesc:gaf9e86962ba57eb7450190cc934da4af7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Activate EP0 for Setup transactions.  <a href="group___l_l___u_s_b___group1.html#gaf9e86962ba57eb7450190cc934da4af7">More...</a><br /></td></tr>
+<tr class="separator:gaf9e86962ba57eb7450190cc934da4af7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac8d31352cfdb0efe0ec1f1de9cf5e141"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_l___u_s_b___group1.html#gac8d31352cfdb0efe0ec1f1de9cf5e141">USB_EP0_OutStart</a> (USB_OTG_GlobalTypeDef *USBx, uint8_t dma, uint8_t *psetup)</td></tr>
+<tr class="memdesc:gac8d31352cfdb0efe0ec1f1de9cf5e141"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prepare the EP0 to start the first control setup.  <a href="group___l_l___u_s_b___group1.html#gac8d31352cfdb0efe0ec1f1de9cf5e141">More...</a><br /></td></tr>
+<tr class="separator:gac8d31352cfdb0efe0ec1f1de9cf5e141"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9afe06cc2fc52b532b389d06eb89eac0"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_l___u_s_b___group1.html#ga9afe06cc2fc52b532b389d06eb89eac0">USB_GetDevSpeed</a> (USB_OTG_GlobalTypeDef *USBx)</td></tr>
+<tr class="memdesc:ga9afe06cc2fc52b532b389d06eb89eac0"><td class="mdescLeft">&#160;</td><td class="mdescRight">USB_GetDevSpeed :Return the Dev Speed.  <a href="group___l_l___u_s_b___group1.html#ga9afe06cc2fc52b532b389d06eb89eac0">More...</a><br /></td></tr>
+<tr class="separator:ga9afe06cc2fc52b532b389d06eb89eac0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga093dea89e7818ca37124e9497d82be4f"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_l___u_s_b___group1.html#ga093dea89e7818ca37124e9497d82be4f">USB_GetMode</a> (USB_OTG_GlobalTypeDef *USBx)</td></tr>
+<tr class="memdesc:ga093dea89e7818ca37124e9497d82be4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns USB core mode.  <a href="group___l_l___u_s_b___group1.html#ga093dea89e7818ca37124e9497d82be4f">More...</a><br /></td></tr>
+<tr class="separator:ga093dea89e7818ca37124e9497d82be4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga11d36625a0724ef12a0021226ceeefd8"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_l___u_s_b___group1.html#ga11d36625a0724ef12a0021226ceeefd8">USB_ReadInterrupts</a> (USB_OTG_GlobalTypeDef *USBx)</td></tr>
+<tr class="memdesc:ga11d36625a0724ef12a0021226ceeefd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">USB_ReadInterrupts: return the global USB interrupt status.  <a href="group___l_l___u_s_b___group1.html#ga11d36625a0724ef12a0021226ceeefd8">More...</a><br /></td></tr>
+<tr class="separator:ga11d36625a0724ef12a0021226ceeefd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4ec1c1ec6283d2bf920063f33c89b6fd"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_l___u_s_b___group1.html#ga4ec1c1ec6283d2bf920063f33c89b6fd">USB_ReadDevAllOutEpInterrupt</a> (USB_OTG_GlobalTypeDef *USBx)</td></tr>
+<tr class="memdesc:ga4ec1c1ec6283d2bf920063f33c89b6fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">USB_ReadDevAllOutEpInterrupt: return the USB device OUT endpoints interrupt status.  <a href="group___l_l___u_s_b___group1.html#ga4ec1c1ec6283d2bf920063f33c89b6fd">More...</a><br /></td></tr>
+<tr class="separator:ga4ec1c1ec6283d2bf920063f33c89b6fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae54c4aada2d1a86a568094d9a05bdaa5"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_l___u_s_b___group1.html#gae54c4aada2d1a86a568094d9a05bdaa5">USB_ReadDevOutEPInterrupt</a> (USB_OTG_GlobalTypeDef *USBx, uint8_t epnum)</td></tr>
+<tr class="memdesc:gae54c4aada2d1a86a568094d9a05bdaa5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns Device OUT EP Interrupt register.  <a href="group___l_l___u_s_b___group1.html#gae54c4aada2d1a86a568094d9a05bdaa5">More...</a><br /></td></tr>
+<tr class="separator:gae54c4aada2d1a86a568094d9a05bdaa5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga916a477ae2350e7d705737f294ed8495"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_l___u_s_b___group1.html#ga916a477ae2350e7d705737f294ed8495">USB_ReadDevAllInEpInterrupt</a> (USB_OTG_GlobalTypeDef *USBx)</td></tr>
+<tr class="memdesc:ga916a477ae2350e7d705737f294ed8495"><td class="mdescLeft">&#160;</td><td class="mdescRight">USB_ReadDevAllInEpInterrupt: return the USB device IN endpoints interrupt status.  <a href="group___l_l___u_s_b___group1.html#ga916a477ae2350e7d705737f294ed8495">More...</a><br /></td></tr>
+<tr class="separator:ga916a477ae2350e7d705737f294ed8495"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaeea704a250a88efda323dfd8afe1591a"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_l___u_s_b___group1.html#gaeea704a250a88efda323dfd8afe1591a">USB_ReadDevInEPInterrupt</a> (USB_OTG_GlobalTypeDef *USBx, uint8_t epnum)</td></tr>
+<tr class="memdesc:gaeea704a250a88efda323dfd8afe1591a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns Device IN EP Interrupt register.  <a href="group___l_l___u_s_b___group1.html#gaeea704a250a88efda323dfd8afe1591a">More...</a><br /></td></tr>
+<tr class="separator:gaeea704a250a88efda323dfd8afe1591a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadac7444a739b00efd021311e1d1c73da"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_l___u_s_b___group1.html#gadac7444a739b00efd021311e1d1c73da">USB_ClearInterrupts</a> (USB_OTG_GlobalTypeDef *USBx, uint32_t interrupt)</td></tr>
+<tr class="memdesc:gadac7444a739b00efd021311e1d1c73da"><td class="mdescLeft">&#160;</td><td class="mdescRight">USB_ClearInterrupts: clear a USB interrupt.  <a href="group___l_l___u_s_b___group1.html#gadac7444a739b00efd021311e1d1c73da">More...</a><br /></td></tr>
+<tr class="separator:gadac7444a739b00efd021311e1d1c73da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3d918fd95eeaea98ba8ef29e42f3c2d9"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_l___u_s_b___group1.html#ga3d918fd95eeaea98ba8ef29e42f3c2d9">USB_HostInit</a> (USB_OTG_GlobalTypeDef *USBx, <a class="el" href="struct_u_s_b___o_t_g___cfg_type_def.html">USB_OTG_CfgTypeDef</a> cfg)</td></tr>
+<tr class="memdesc:ga3d918fd95eeaea98ba8ef29e42f3c2d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">USB_HostInit : Initializes the USB OTG controller registers for Host mode.  <a href="group___l_l___u_s_b___group1.html#ga3d918fd95eeaea98ba8ef29e42f3c2d9">More...</a><br /></td></tr>
+<tr class="separator:ga3d918fd95eeaea98ba8ef29e42f3c2d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga42af3f9d47f538969ec42f626b617a32"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_l___u_s_b___group1.html#ga42af3f9d47f538969ec42f626b617a32">USB_InitFSLSPClkSel</a> (USB_OTG_GlobalTypeDef *USBx, uint8_t freq)</td></tr>
+<tr class="memdesc:ga42af3f9d47f538969ec42f626b617a32"><td class="mdescLeft">&#160;</td><td class="mdescRight">USB_InitFSLSPClkSel : Initializes the FSLSPClkSel field of the HCFG register on the PHY type and set the right frame interval.  <a href="group___l_l___u_s_b___group1.html#ga42af3f9d47f538969ec42f626b617a32">More...</a><br /></td></tr>
+<tr class="separator:ga42af3f9d47f538969ec42f626b617a32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8326624408f50cc9595346008ef1be48"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_l___u_s_b___group1.html#ga8326624408f50cc9595346008ef1be48">USB_ResetPort</a> (USB_OTG_GlobalTypeDef *USBx)</td></tr>
+<tr class="memdesc:ga8326624408f50cc9595346008ef1be48"><td class="mdescLeft">&#160;</td><td class="mdescRight">USB_OTG_ResetPort : Reset Host Port.  <a href="group___l_l___u_s_b___group1.html#ga8326624408f50cc9595346008ef1be48">More...</a><br /></td></tr>
+<tr class="separator:ga8326624408f50cc9595346008ef1be48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6e73b669bcaa9fe5178f11fa7d9243bb"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_l___u_s_b___group1.html#ga6e73b669bcaa9fe5178f11fa7d9243bb">USB_DriveVbus</a> (USB_OTG_GlobalTypeDef *USBx, uint8_t state)</td></tr>
+<tr class="memdesc:ga6e73b669bcaa9fe5178f11fa7d9243bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">USB_DriveVbus : activate or de-activate vbus.  <a href="group___l_l___u_s_b___group1.html#ga6e73b669bcaa9fe5178f11fa7d9243bb">More...</a><br /></td></tr>
+<tr class="separator:ga6e73b669bcaa9fe5178f11fa7d9243bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8f1fcb7410ab3e45092877c3023a82f4"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_l___u_s_b___group1.html#ga8f1fcb7410ab3e45092877c3023a82f4">USB_GetHostSpeed</a> (USB_OTG_GlobalTypeDef *USBx)</td></tr>
+<tr class="memdesc:ga8f1fcb7410ab3e45092877c3023a82f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return Host Core speed.  <a href="group___l_l___u_s_b___group1.html#ga8f1fcb7410ab3e45092877c3023a82f4">More...</a><br /></td></tr>
+<tr class="separator:ga8f1fcb7410ab3e45092877c3023a82f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaaf16f56f6b80df65852ec352aed7f4c5"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_l___u_s_b___group1.html#gaaf16f56f6b80df65852ec352aed7f4c5">USB_GetCurrentFrame</a> (USB_OTG_GlobalTypeDef *USBx)</td></tr>
+<tr class="memdesc:gaaf16f56f6b80df65852ec352aed7f4c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return Host Current Frame number.  <a href="group___l_l___u_s_b___group1.html#gaaf16f56f6b80df65852ec352aed7f4c5">More...</a><br /></td></tr>
+<tr class="separator:gaaf16f56f6b80df65852ec352aed7f4c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga26a31c650f55cf692149c1055e3b73c4"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_l___u_s_b___group1.html#ga26a31c650f55cf692149c1055e3b73c4">USB_HC_Init</a> (USB_OTG_GlobalTypeDef *USBx, uint8_t ch_num, uint8_t epnum, uint8_t dev_address, uint8_t speed, uint8_t ep_type, uint16_t mps)</td></tr>
+<tr class="memdesc:ga26a31c650f55cf692149c1055e3b73c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize a host channel.  <a href="group___l_l___u_s_b___group1.html#ga26a31c650f55cf692149c1055e3b73c4">More...</a><br /></td></tr>
+<tr class="separator:ga26a31c650f55cf692149c1055e3b73c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4aec01f7b2311a50cffb637796de533b"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_l___u_s_b___group1.html#ga4aec01f7b2311a50cffb637796de533b">USB_HC_StartXfer</a> (USB_OTG_GlobalTypeDef *USBx, <a class="el" href="struct_u_s_b___o_t_g___h_c_type_def.html">USB_OTG_HCTypeDef</a> *hc, uint8_t dma)</td></tr>
+<tr class="memdesc:ga4aec01f7b2311a50cffb637796de533b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start a transfer over a host channel.  <a href="group___l_l___u_s_b___group1.html#ga4aec01f7b2311a50cffb637796de533b">More...</a><br /></td></tr>
+<tr class="separator:ga4aec01f7b2311a50cffb637796de533b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab070d4bdfed058053291eb67473c208b"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_l___u_s_b___group1.html#gab070d4bdfed058053291eb67473c208b">USB_HC_ReadInterrupt</a> (USB_OTG_GlobalTypeDef *USBx)</td></tr>
+<tr class="memdesc:gab070d4bdfed058053291eb67473c208b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read all host channel interrupts status.  <a href="group___l_l___u_s_b___group1.html#gab070d4bdfed058053291eb67473c208b">More...</a><br /></td></tr>
+<tr class="separator:gab070d4bdfed058053291eb67473c208b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac97062903159ba84f1efb8572affa15f"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_l___u_s_b___group1.html#gac97062903159ba84f1efb8572affa15f">USB_HC_Halt</a> (USB_OTG_GlobalTypeDef *USBx, uint8_t hc_num)</td></tr>
+<tr class="memdesc:gac97062903159ba84f1efb8572affa15f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Halt a host channel.  <a href="group___l_l___u_s_b___group1.html#gac97062903159ba84f1efb8572affa15f">More...</a><br /></td></tr>
+<tr class="separator:gac97062903159ba84f1efb8572affa15f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5507d076515561acd5c9b91b0afba309"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_l___u_s_b___group1.html#ga5507d076515561acd5c9b91b0afba309">USB_DoPing</a> (USB_OTG_GlobalTypeDef *USBx, uint8_t ch_num)</td></tr>
+<tr class="memdesc:ga5507d076515561acd5c9b91b0afba309"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initiate Do Ping protocol.  <a href="group___l_l___u_s_b___group1.html#ga5507d076515561acd5c9b91b0afba309">More...</a><br /></td></tr>
+<tr class="separator:ga5507d076515561acd5c9b91b0afba309"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabde73cf618c1578fdabb068940418635"><td class="memItemLeft" align="right" valign="top">HAL_StatusTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_l___u_s_b___group1.html#gabde73cf618c1578fdabb068940418635">USB_StopHost</a> (USB_OTG_GlobalTypeDef *USBx)</td></tr>
+<tr class="memdesc:gabde73cf618c1578fdabb068940418635"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stop Host Core.  <a href="group___l_l___u_s_b___group1.html#gabde73cf618c1578fdabb068940418635">More...</a><br /></td></tr>
+<tr class="separator:gabde73cf618c1578fdabb068940418635"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
